@@ -61,7 +61,7 @@ export default class About extends React.Component {
 
           </div>
           <div className="about-footer">
-            <p>© 2018 - MS Air, Inc. | <Link to "/">Home</Link></p>
+            <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
           </div>
           </div>
 
