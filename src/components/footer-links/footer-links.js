@@ -29,20 +29,21 @@ class FooterLinks extends Component {
   render() {
     let media = this.state.media;
 
-    let shareLinks = null;
+    let aboutLinks = null;
     if (media > snapSize){
-      shareLinks = <ShareLinks />;
+      aboutLinks = <AboutLinks />;
     }
 
     return (
       <div className="FooterLinks">
         <AboutLinks />
-        {/* This is where ShareLinks will render if @media>600 */}
-        {shareLinks}
+
       </div>
     );
   }
 }
+
+
 
 
 export default FooterLinks;

@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom';
+import FooterLinks from './footer-links/footer-links.js'
 
 export default class About extends React.Component {
 
@@ -60,6 +61,15 @@ export default class About extends React.Component {
             </ul>
 
           </div>
+
+
+              <div className="Footer">
+                <FooterLinks />
+              </div>
+            
+
+
+
           <div className="about-footer">
             <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
           </div>

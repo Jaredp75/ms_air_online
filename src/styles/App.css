@@ -8,7 +8,7 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: gray;
   height: 150px;
   padding: 20px;
   color: white;
@@ -25,4 +25,86 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+
+
+
+
+/*------FOOTER LINKS STYLES------*/
+.FooterLinks{
+  display: flex;
+  text-align: left;
+  margin-left: 48px;
+  margin-right: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  align-content: space-around;
+  color: #222;
+  font-size: 11px;
+}
+.FooterLinks > div{
+  flex-grow: 1;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  display:flex;
+  flex-direction: column;
+}
+.FooterLinks > div > a{
+  text-decoration: none;
+  color: #222;
+  font-weight: 100;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.FooterLinks > div > a :hover{
+  text-decoration: underline;
+}
+.FooterLinks > span{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.FooterLinks > a{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  text-decoration: none;
+  text-decoration-style: wavy;
+}
+.FooterLinks > a span{
+  text-decoration: none;
+}
+
+
+
+
+.AboutLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 36px;
+  }
+  .AboutLinks gif{
+    height: 36px;
+    float:none;
+    margin-left:18px;
+    margin-right:18px;
+    width: 36px;
+  }
+
+
+
+  .AboutLinks a{
+  padding: 0;
+}
+gif{
+  float: left;
+  height: 24px;
+  width: 36px;
 }
