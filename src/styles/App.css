@@ -126,12 +126,14 @@
     flex-direction: row;
     justify-content: center;
 
+
   }
   .AboutLinks a img{
     display: flex;
     flex-direction: row;
-    align-content: center;
+    align-content: space-between;
     justify-content: center;
+    /* padding: 40px; */
   }
 
 

@@ -14,6 +14,7 @@ export default class Baselayout extends React.Component {
         </nav>
           {this.props.children}
         <footer></footer>
+        <terms></terms>
       </div>
     )
   }

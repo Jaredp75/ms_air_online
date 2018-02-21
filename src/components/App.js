@@ -6,6 +6,7 @@ import Home from '../components/Home';
 import About from '../components/About';
 import TermsOfUse from '../components/terms';
 import PrivacyPolicy from '../components/privacy';
+import OptInForm from '../components/opt-in-form';
 import logo from '../msair100.jpg';
 //import './App.css';
 
@@ -24,9 +25,10 @@ class App extends Component {
           <Baselayout>
             <Switch>
               <Route exact path ="/" component={Home}/>
-              <Route path ="/about" component ={About}/>
+              <Route path ="/about" component={About}/>
               <Route path="/terms" component={TermsOfUse}/>
               <Route path="/privacy" component={PrivacyPolicy}/>
+              <Route path="/opt-in-form" component={OptInForm}/>
             </Switch>
           </Baselayout>
         </BrowserRouter>
