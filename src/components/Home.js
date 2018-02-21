@@ -68,6 +68,9 @@ export default class Home extends React.Component {
         </div>
       </div>
       <div className="about-footer">
+        <div className="terms">
+          <p><Link to="http://www.msaironline.com/static/termsofuse.php?linkid=bottom">Terms of Use</Link> | <Link to="http://www.msaironline.com/static/privacy.php?linkid=bottom">Privacy Policy</Link></p>
+        </div>
         <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
       </div>
     </div>
