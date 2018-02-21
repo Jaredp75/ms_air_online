@@ -5,6 +5,7 @@ import Baselayout from '../components/Baselayout';
 import Home from '../components/Home';
 import About from '../components/About';
 import TermsOfUse from '../components/terms';
+import PrivacyPolicy from '../components/privacy';
 import logo from '../msair100.jpg';
 //import './App.css';
 
@@ -25,6 +26,7 @@ class App extends Component {
               <Route exact path ="/" component={Home}/>
               <Route path ="/about" component ={About}/>
               <Route path="/terms" component={TermsOfUse}/>
+              <Route path="/privacy" component={PrivacyPolicy}/>
             </Switch>
           </Baselayout>
         </BrowserRouter>
