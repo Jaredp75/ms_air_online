@@ -20,10 +20,10 @@ class Trademark extends Component {
           </div>
           <div className="display-table">
             <div className="display-table-cell dtc-terms">
-              <a href="http://www.msaironline.com/static/termsofuse.php?linkid=bottom">Terms of Use</a>
+              <a href="/terms">Terms of Use</a>
             </div>
             <div className="display-table-cell dtc-privacy">
-              <a href="http://www.msaironline.com/static/privacy.php?linkid=bottom">Privacy Policy</a>
+              <a href="/privacy">Privacy Policy</a>
             </div>
 
           </div>

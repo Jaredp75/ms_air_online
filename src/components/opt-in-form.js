@@ -23,7 +23,7 @@ class OptInForm extends Component {
             <FooterLinks />
           </div>
           <div className="terms">
-            <p><a href="http://www.msaironline.com/static/termsofuse.php?linkid=bottom" target=" blank" rel="noopener noreferrer">Terms of Use</a> | <a href="http://www.msaironline.com/static/privacy.php?linkid=bottom" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
+            <p><a href="/terms" target=" blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
           </div>
 
 
