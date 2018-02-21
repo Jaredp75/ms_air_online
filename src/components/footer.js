@@ -28,6 +28,9 @@ class Footer extends Component {
 
   render() {
     return (
+
+
+
       <div className="Footer">
         <FooterLinks />
 
