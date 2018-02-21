@@ -9,7 +9,7 @@ export default class Baselayout extends React.Component {
       <div>
         <nav>
           <Link to={"/"}>
-            <img src = "https://jaredpattersonblog.files.wordpress.com/2018/02/msair100.jpg" alt = "MS Air Online logo"/>
+            {/* <img src = "https://jaredpattersonblog.files.wordpress.com/2018/02/msair100.jpg" alt = "MS Air Online logo"/> */}
           </Link>
         </nav>
           {this.props.children}

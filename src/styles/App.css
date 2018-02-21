@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Valera Round', sans-serif;
 }
 
 .App-logo {
@@ -28,12 +29,28 @@
 }
 
 
+.App-logo {
+  display: flex;
 
+}
+
+.App-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.about-subhead ul li {
+  display: flex;
+  justify-content: center;
+}
 
 
 /*------FOOTER LINKS STYLES------*/
 .FooterLinks{
   display: flex;
+  flex-direction: row;
   text-align: left;
   margin-left: 48px;
   margin-right: 12px;
@@ -50,7 +67,8 @@
   padding-left: 12px;
   padding-right: 12px;
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .FooterLinks > div > a{
   text-decoration: none;
@@ -81,21 +99,26 @@
   text-decoration: none;
 }
 
-
+.Footer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+}
 
 
 .AboutLinks{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 36px;
+
   }
-  .AboutLinks gif{
-    height: 36px;
-    float:none;
-    margin-left:18px;
-    margin-right:18px;
-    width: 36px;
+  .AboutLinks a img{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
   }
 
 
@@ -104,9 +127,5 @@
     padding: 0;
     display: flex;
     flex-direction: row;
-}
-gif{
-  float: left;
-  height: 24px;
-  width: 36px;
+    justify-content: space-around;
 }
