@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Baselayout from '../components/Baselayout';
 import Home from '../components/Home';
 import About from '../components/About';
+import TermsOfUse from '../components/terms';
 import logo from '../msair100.jpg';
 //import './App.css';
 
@@ -23,6 +24,7 @@ class App extends Component {
             <Switch>
               <Route exact path ="/" component={Home}/>
               <Route path ="/about" component ={About}/>
+              <Route path="/terms" component={TermsOfUse}/>
             </Switch>
           </Baselayout>
         </BrowserRouter>
