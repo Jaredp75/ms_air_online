@@ -13,8 +13,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">MS Air Online</h1>
-          <h2>Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</h2>
+          <h1 className="App-title">Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</h1>
         </header>
         <p className="App-intro">
           Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications
