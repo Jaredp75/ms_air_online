@@ -9,7 +9,7 @@ export default class About extends React.Component {
     return(
       <div>
 
-        <div className = 'content-area-container'>
+        <div className='content-area-container'>
           <div className="header-text">
             <h1>ABOUT US</h1>
           </div>

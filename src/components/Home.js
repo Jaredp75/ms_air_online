@@ -15,7 +15,7 @@ export default class Home extends React.Component {
     fetch('http://www.msaironline.com/qa1/api/category.php').then(results =>{
       return results.json();
     }).then(data=>{
-      this.setState({orgInfo: data.organization});
+      this.setState({orgInfo: category.taxName});
       this.setState({tourList: data.organization.tours})
     })
   }
