@@ -13,9 +13,10 @@ export default class About extends React.Component {
           <div className="header-text">
             <h1>ABOUT US</h1>
           </div>
-          <p className="about-para">Specializing in Compressed Air & Vacuum Systems, for Medical, Dental, Laboratory & Industrial Applications since 2005.
+          <div className="about-para"><p>Specializing in Compressed Air & Vacuum Systems, for Medical, Dental, Laboratory & Industrial Applications since 2005.
 
           We are committed to offering top-quality customer service and competitive pricing for the following product lines:</p>
+        </div>
 
           <div className="about-subhead">
             <ul>
