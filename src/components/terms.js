@@ -31,15 +31,14 @@ export default class TermsOfUse extends React.Component {
               <div className="Footer">
                 <FooterLinks />
               </div>
-              <div className="terms">
-                <p><a href="/terms" target=" blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
+              <div className="about-footer">
+                <div className="terms">
+                  <p><a href="/terms" target=" blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
+                </div>
+                <div className="copyright">
+                  <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
               </div>
-
-
-
-          <div className="about-footer">
-            <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
-          </div>
+              </div>
         </div>
       </div>
 

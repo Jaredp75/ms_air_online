@@ -120,6 +120,23 @@
   margin: 0 auto;
 }
 
+.about-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.terms {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-left: auto;
+}
 
 .AboutLinks{
     display: flex;
