@@ -15,6 +15,8 @@ export default class Baselayout extends React.Component {
           {this.props.children}
         <footer></footer>
         <terms></terms>
+        <privacy></privacy>
+        <about></about>
       </div>
     )
   }

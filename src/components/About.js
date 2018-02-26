@@ -67,6 +67,7 @@ export default class About extends React.Component {
               <div className="Footer">
                 <FooterLinks />
               </div>
+              </div>
               <div className="about-footer">
                 <div className="terms">
                   <p><a href="/terms" target=" blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
@@ -77,7 +78,7 @@ export default class About extends React.Component {
             </div>
 
 
-      </div>
+
     </div>
     )
   }

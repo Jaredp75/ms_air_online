@@ -47,8 +47,10 @@ export default class PrivacyPolicy extends React.Component {
           <h3><strong>Notification of Changes</strong></h3>
           <p>This Privacy Policy and other policies posted on the MSAirOnline.com website are subject to change at anytime without prior notice.</p>
         </div>
+
               <div className="Footer">
                 <FooterLinks />
+              </div>
               </div>
               <div className="about-footer">
                 <div className="terms">
@@ -58,7 +60,7 @@ export default class PrivacyPolicy extends React.Component {
                   <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
               </div>
               </div>
-        </div>
+
       </div>
 
 

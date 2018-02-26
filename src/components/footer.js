@@ -33,6 +33,7 @@ class Footer extends Component {
 
       <div className="Footer">
         <FooterLinks />
+        <AboutLinks />
 
       </div>
     );
