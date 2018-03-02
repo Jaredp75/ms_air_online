@@ -21,6 +21,23 @@ class App extends Component {
         {/* <p className="App-intro">
           Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications
         </p> */}
+
+        <div className="wrapper">
+          <div className="contactnav">
+              <nav id="contactphone">
+                <i>Toll Free: 1-877-MSAIR99</i>
+              </nav>
+          </div>
+          <header id="site-header" class="body">
+          <nav id="main-navigation">
+            <a href="index.html">HOME</a> |
+            <a href="about.html">REGISTER</a> |
+            <a href="newsletter.html">LOGIN</a> |
+            <a href="viewcart.html">VIEW CART</a> |
+            <a href="about.html">ABOUT US</a>
+          </nav>
+        </header>
+        </div>
         <BrowserRouter>
           <Baselayout>
             <Switch>

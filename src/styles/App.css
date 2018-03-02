@@ -70,6 +70,15 @@
 }
 
 
+
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
 /*------FOOTER LINKS STYLES------*/
 .FooterLinks{
   display: flex;
