@@ -25,7 +25,7 @@ class App extends Component {
         <div className="wrapper">
           <div className="contactnav">
               <nav id="contactphone">
-                <i>Toll Free: 1-877-MSAIR99</i>
+                <i><strong>Toll Free: 1-877-MSAIR99</strong></i>
               </nav>
           </div>
           <header id="site-header" class="body">
