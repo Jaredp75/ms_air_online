@@ -17,6 +17,7 @@ export default class Baselayout extends React.Component {
         <terms></terms>
         <privacy></privacy>
         <about></about>
+        <login></login>
       </div>
     )
   }
