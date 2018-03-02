@@ -8,6 +8,7 @@ import TermsOfUse from '../components/terms';
 import PrivacyPolicy from '../components/privacy';
 import OptInForm from '../components/opt-in-form';
 import Login from '../components/login';
+import Register from '../components/register';
 import logo from '../msair100.jpg';
 //import './App.css';
 
@@ -48,6 +49,7 @@ class App extends Component {
               <Route path="/privacy" component={PrivacyPolicy}/>
               <Route path="/opt-in-form" component={OptInForm}/>
               <Route path="/login" component={Login}/>
+              <Route path="/register" component={Register}/>
             </Switch>
           </Baselayout>
         </BrowserRouter>
