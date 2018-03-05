@@ -34,22 +34,6 @@ export default class Home extends React.Component {
           <p>Having trouble locating a part? Contact us using our web submission form <a href="http://www.msaironline.com/contact/contact.php?linkid=message" target="_blank" rel="noopener noreferrer">here.</a> Or call <strong>1-877-MSAIR99</strong>.</p>
         </div>
 
-        <div className = "select-a-tour">
-          <h3>TOP SELLERS</h3>
-        </div>
-
-        <div className = "tours-wrapper">
-        {this.state.tourList.map( (tour) => {
-          return <div className = "tour-item" key={tour.tour_id}>
-            <Link to={`/tours/${tour.tour_id}`}>
-
-            <div className = "tour-item-text">
-              <p>{tour.tour_name}</p>
-            </div>
-            </Link>
-          </div>
-        })}
-
         <div className = "tour-item-coming">
           <div className = "tour-item-text">
             <p>Trident</p>
@@ -67,6 +51,83 @@ export default class Home extends React.Component {
             <p>Zeks</p>
           </div>
         </div>
+
+        <div className = "tour-item-coming">
+          <div className = "tour-item-text">
+            <p>Tech West</p>
+          </div>
+        </div>
+
+        <div className = "tour-item-coming">
+          <div className = "tour-item-text">
+            <p>Chemetron Pipeline Products</p>
+          </div>
+        </div>
+
+        <div className = "tour-item-coming">
+          <div className = "tour-item-text">
+            <p>Mendentex</p>
+          </div>
+        </div>
+
+        <div className = "tour-item-coming">
+          <div className = "tour-item-text">
+            <p>Ramvac</p>
+          </div>
+        </div>
+
+        <div className = "tour-item-coming">
+          <div className = "tour-item-text">
+            <p>Solmetex</p>
+          </div>
+        </div>
+
+        <div className = "tour-item-coming">
+          <div className = "tour-item-text">
+            <p>Chicago Pneumatic</p>
+          </div>
+        </div>
+
+        <div className = "tour-item-coming">
+          <div className = "tour-item-text">
+            <p>Chemetron Patient Care</p>
+          </div>
+        </div>
+
+        <div className = "tour-item-coming">
+          <div className = "tour-item-text">
+            <p>Replacement Parts</p>
+          </div>
+        </div>
+
+        <div className = "tour-item-coming">
+          <div className = "tour-item-text">
+            <p>Solmetex</p>
+          </div>
+        </div>
+
+
+
+
+
+
+        <div className = "select-a-tour">
+          <h3>TOP SELLERS</h3>
+        </div>
+
+        <div className = "tours-wrapper">
+        {this.state.tourList.map( (tour) => {
+          return <div className = "tour-item" key={tour.tour_id}>
+            <Link to={`/tours/${tour.tour_id}`}>
+
+            <div className = "tour-item-text">
+              <p>{tour.tour_name}</p>
+            </div>
+            </Link>
+          </div>
+        })}
+
+
       </div>
 
       <div className="Footer">

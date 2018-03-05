@@ -40,6 +40,16 @@ class App extends Component {
           </nav>
         </header>
         </div>
+        <div className="checkout-wrapper">
+          <header id="site-header" class="body">
+            <nav id="main-navigation">
+              <a href="contact.html">Contact Us</a> |
+              <a href="myaccount.html">My Account</a> |
+              <a href="checkout.html">Checkout <i class="fas fa-shopping-cart"></i></a>
+            </nav>
+          </header>
+        </div>
+
         <BrowserRouter>
           <Baselayout>
             <Switch>

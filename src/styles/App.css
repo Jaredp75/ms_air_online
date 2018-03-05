@@ -77,14 +77,36 @@
   justify-content: space-between;
   background-color: green;
   /* height: 150px; */
-  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
   /* width: 100vw; */
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   flex-direction: row;
   text-align: center;
-  border-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
+
+
+.checkout-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: yellow;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  margin-bottom: 40px;
+  flex-direction: row-reverse;
+  text-align: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
 
 
 /*------FOOTER LINKS STYLES------*/
