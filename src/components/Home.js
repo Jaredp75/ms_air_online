@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom';
+import FooterLinks from './footer-links/footer-links.js';
 
 export default class Home extends React.Component {
   constructor(props){
@@ -30,11 +31,11 @@ export default class Home extends React.Component {
             <div><h1>{this.state.orgInfo.display_name}</h1></div>
             <div><h2>{this.state.orgInfo.description}</h2></div>
           </div>
-          <p>Content provided by <a href="https://www.durham-nc.com/" target="_blank" rel="noopener noreferrer">Durham Convention & Visitors Bureau</a></p>
+          <p>Having trouble locating a part? Contact us using our web submission form <a href="http://www.msaironline.com/contact/contact.php?linkid=message" target="_blank" rel="noopener noreferrer">here.</a> Or call <strong>1-877-MSAIR99</strong>.</p>
         </div>
 
         <div className = "select-a-tour">
-          <h3>SELECT A TOUR</h3>
+          <h3>TOP SELLERS</h3>
         </div>
 
         <div className = "tours-wrapper">
@@ -51,22 +52,28 @@ export default class Home extends React.Component {
 
         <div className = "tour-item-coming">
           <div className = "tour-item-text">
-            <p>COMING SOON: <br/>African-American Heritage</p>
+            <p>Trident</p>
           </div>
         </div>
 
         <div className = "tour-item-coming">
           <div className = "tour-item-text">
-          <p>COMING SOON: <br/>Bull City Breweries</p>
+          <p>Sullivan-Palatek</p>
         </div>
         </div>
 
         <div className = "tour-item-coming">
           <div className = "tour-item-text">
-            <p>COMING SOON: <br/>Public Art Walk</p>
+            <p>Zeks</p>
           </div>
         </div>
       </div>
+
+      <div className="Footer">
+        <FooterLinks />
+      </div>
+
+
       <div className="about-footer">
         <div className="terms">
           <p><a href="/terms" target=" blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>

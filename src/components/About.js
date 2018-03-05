@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import FooterLinks from './footer-links/footer-links.js'
+import FooterLinks from './footer-links/footer-links.js';
 
 export default class About extends React.Component {
 
