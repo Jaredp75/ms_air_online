@@ -109,6 +109,11 @@
   cursor: pointer;
 }
 
+.contactnav {
+  color: orange;
+  font-size: 1.5em;
+}
+
 .social-nav {
   display: flex;
   flex-direction: row;
