@@ -36,7 +36,7 @@ export default class Home extends React.Component {
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+            <img src="../trident_logo.jpg" alt="Trident logo"/>
           </div>
           <div className="brand-text">
             <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
@@ -48,7 +48,7 @@ export default class Home extends React.Component {
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/sullivan-palatek-logo.jpg" alt="Sullivan-Palatek logo"/>
+            <img src="../sullivan-palatek logo.jpg" alt="Sullivan-Palatek logo"/>
           </div>
           <div className="brand-text">
             <a href='store/store.php?cat=243&linkid=homemenu'><b>Sullivan-Palatek</b></a><br></br>
@@ -58,7 +58,7 @@ export default class Home extends React.Component {
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/zeks_logo.png" alt="Zeks logo"/>
+            <img src="../zeks_logo.jpg" alt="Zeks logo"/>
           </div>
           <div className="brand-text">
             <a href='store/store.php?cat=233&linkid=homemenu'><b>Zeks</b></a><br></br>
@@ -69,7 +69,7 @@ export default class Home extends React.Component {
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/tech-west_logo.jpg" alt="Tech West logo"/>
+            <img src="../tech-west_logo.jpg" alt="Tech West logo"/>
           </div>
           <div className="brand-text">
             <a href='store/store.php?cat=255&linkid=homemenu'><b>Tech West</b></a><br></br>
@@ -81,7 +81,7 @@ export default class Home extends React.Component {
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/chemetron_logo.jpg" alt="Chemetron Pipeline Products logo"/>
+            <img src="../chemetron_logo.jpg" alt="Chemetron Pipeline Products logo"/>
           </div>
           <div className="brand-text">
             <a href='store/store.php?cat=94&linkid=homemenu'><b>Chemetron Pipeline Products</b></a><br></br>
@@ -96,7 +96,7 @@ export default class Home extends React.Component {
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/medentex_logo.jpg" alt="Medentex logo"/>
+            <img src="../medentex_logo.jpg" alt="Medentex logo"/>
           </div>
           <div className="brand-text">
             <a href='store/store.php?cat=260&linkid=homemenu'><b>Medentex</b></a><br></br>
@@ -107,7 +107,7 @@ export default class Home extends React.Component {
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/ramvac_logo.jpg" alt="Ramvac logo"/>
+            <img src="../ramvac_logo.jpg" alt="Ramvac logo"/>
           </div>
           <div className="brand-text">
             <a href='store/store.php?cat=223&linkid=homemenu'><b>Ramvac</b></a><br></br>
@@ -120,7 +120,7 @@ export default class Home extends React.Component {
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/solmetax_logo.jpg" alt="Solmetex logo"/>
+            <img src="../solmetax_logo.jpg" alt="Solmetex logo"/>
           </div>
           <div className="brand-text">
             <a href='store/store.php?cat=231&linkid=homemenu'><b>Solmetex</b></a><br></br>
@@ -130,7 +130,7 @@ export default class Home extends React.Component {
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/chicago-pneumatic_logo.jpg" alt="Chicago Pneumatic logo"/>
+            <img src="../chicago-pneumatic_logo.jpg" alt="Chicago Pneumatic logo"/>
           </div>
           <div className="brand-text">
             <a href='store/store.php?cat=91&linkid=homemenu'><b>Chicago Pneumatic</b></a><br></br>
@@ -142,7 +142,7 @@ export default class Home extends React.Component {
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/chemetron_logo.jpg" alt="Chemetron Patient Care logo"/>
+            <img src="../chemetron_logo.jpg" alt="Chemetron Patient Care logo"/>
           </div>
           <div className="brand-text">
             <a href='store/store.php?cat=109&linkid=homemenu'><b>Chemetron Patient Care</b></a><br></br>
@@ -155,7 +155,7 @@ export default class Home extends React.Component {
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/02/msair100.jpg" alt="MS Air logo"/>
+            <img src="../msair100.jpg" alt="MS Air logo"/>
           </div>
           <div className="brand-text">
             <a href='store/store.php?cat=71&linkid=homemenu'><b>Replacement Parts</b></a><br></br>

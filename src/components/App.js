@@ -17,25 +17,24 @@ class App extends Component {
     return (
 
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</h1>
-        </header>
-        {/* <a className="search-header"> */}
+        <div className="topnav">
+          <div className="App-logo">
+            <img src={logo} alt="logo" />
+          </div>
+
+          <div className="App-header">
+            <header className="App-title">Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</header>
+          </div>
+
           <div className="search-wrapper">
-          <div className="search">
-            <input type="text" class="searchTerm" placeholder="Search the site..."></input>
-              <button type="submit" className="searchButton">
-                <i className="fa fa-search"></i>
-              </button>
-            </div>
-        </div>
-          {/* <form className="search" action="/action_page.php" style="margin:auto;max-width:300px">
-          <div>
-            <input type="text" placeholder="Search.." name="search2"></input>
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </div>
-          </form> */}
+            <div className="search">
+              <input type="text" class="searchTerm" placeholder="Search the site..."></input>
+                <button type="submit" className="searchButton">
+                  <i className="fa fa-search"></i>
+                </button>
+           </div>
+          </div>
+      </div>
 
 
 
@@ -50,11 +49,11 @@ class App extends Component {
           </div>
           <header id="site-header" class="body">
           <nav id="main-navigation">
-            <a href="index.html">HOME</a> |
-            <a href="about.html">REGISTER</a> |
-            <a href="newsletter.html">LOGIN</a> |
-            <a href="viewcart.html">VIEW CART</a> |
-            <a href="about.html">ABOUT US</a>
+            <a href="/">HOME</a> |
+            <a href="/register">REGISTER</a> |
+            <a href="/login">LOGIN</a> |
+            <a href="/viewcart">VIEW CART</a> |
+            <a href="/about">ABOUT US</a>
           </nav>
         </header>
       </div>
