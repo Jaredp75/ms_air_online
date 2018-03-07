@@ -34,77 +34,151 @@ export default class Home extends React.Component {
           <p>Having trouble locating a part? Contact us using our web submission form <a href="http://www.msaironline.com/contact/contact.php?linkid=message" target="_blank" rel="noopener noreferrer">here.</a> Or call <strong>1-877-MSAIR99</strong>.</p>
 
 
-        <div className = "tour-item-coming">
-          <div className = "tour-item-text">
-            <p>Trident</p>
+        <div className = "top-brands">
+          <div className = "brand-logo">
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+          </div>
+          <div className="brand-text">
+            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
+              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
+              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
+              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
           </div>
         </div>
 
-        <div className = "tour-item-coming">
-          <div className = "tour-item-text">
-          <p>Sullivan-Palatek</p>
-        </div>
-        </div>
-
-        <div className = "tour-item-coming">
-          <div className = "tour-item-text">
-            <p>Zeks</p>
+        <div className = "top-brands">
+          <div className = "brand-logo">
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/sullivan-palatek-logo.jpg" alt="Sullivan-Palatek logo"/>
+          </div>
+          <div className="brand-text">
+            <a href='store/store.php?cat=243&linkid=homemenu'><b>Sullivan-Palatek</b></a><br></br>
+              <li><a href='store/subCat.php?cat=244&linkid=homemenu'>Air Compressors</a></li>
           </div>
         </div>
 
-        <div className = "tour-item-coming">
-          <div className = "tour-item-text">
-            <p>Tech West</p>
+        <div className = "top-brands">
+          <div className = "brand-logo">
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/zeks_logo.png" alt="Zeks logo"/>
+          </div>
+          <div className="brand-text">
+            <a href='store/store.php?cat=233&linkid=homemenu'><b>Zeks</b></a><br></br>
+              <li><a href='store/subCat.php?cat=205&linkid=homemenu'>Replacement Elements</a></li>
+              <li><a href='store/store.php?cat=234&linkid=homemenu'>Air Dryers</a></li>
           </div>
         </div>
 
-        <div className = "tour-item-coming">
-          <div className = "tour-item-text">
-            <p>Chemetron Pipeline Products</p>
+        <div className = "top-brands">
+          <div className = "brand-logo">
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+          </div>
+          <div className="brand-text">
+            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
+              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
+              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
+              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
           </div>
         </div>
 
-        <div className = "tour-item-coming">
-          <div className = "tour-item-text">
-            <p>Mendentex</p>
+        <div className = "top-brands">
+          <div className = "brand-logo">
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+          </div>
+          <div className="brand-text">
+            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
+              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
+              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
+              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
           </div>
         </div>
 
-        <div className = "tour-item-coming">
-          <div className = "tour-item-text">
-            <p>Ramvac</p>
+        <div className = "top-brands">
+          <div className = "brand-logo">
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+          </div>
+          <div className="brand-text">
+            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
+              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
+              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
+              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
           </div>
         </div>
 
-        <div className = "tour-item-coming">
-          <div className = "tour-item-text">
-            <p>Solmetex</p>
+        <div className = "top-brands">
+          <div className = "brand-logo">
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+          </div>
+          <div className="brand-text">
+            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
+              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
+              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
+              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
           </div>
         </div>
 
-        <div className = "tour-item-coming">
-          <div className = "tour-item-text">
-            <p>Chicago Pneumatic</p>
+        <div className = "top-brands">
+          <div className = "brand-logo">
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+          </div>
+          <div className="brand-text">
+            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
+              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
+              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
+              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
           </div>
         </div>
 
-        <div className = "tour-item-coming">
-          <div className = "tour-item-text">
-            <p>Chemetron Patient Care</p>
+        <div className = "top-brands">
+          <div className = "brand-logo">
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+          </div>
+          <div className="brand-text">
+            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
+              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
+              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
+              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
           </div>
         </div>
 
-        <div className = "tour-item-coming">
-          <div className = "tour-item-text">
-            <p>Replacement Parts</p>
+        <div className = "top-brands">
+          <div className = "brand-logo">
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+          </div>
+          <div className="brand-text">
+            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
+              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
+              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
+              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
           </div>
         </div>
 
-        <div className = "tour-item-coming">
-          <div className = "tour-item-text">
-            <p>Solmetex</p>
+        <div className = "top-brands">
+          <div className = "brand-logo">
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+          </div>
+          <div className="brand-text">
+            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
+              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
+              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
+              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
           </div>
         </div>
+
+        <div className = "top-brands">
+          <div className = "brand-logo">
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+          </div>
+          <div className="brand-text">
+            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
+              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
+              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
+              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
+          </div>
+        </div>
+
+
+
+
+
         <div className = "select-a-tour">
           <h3>TOP SELLERS</h3>
         </div>
