@@ -21,7 +21,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</h1>
         </header>
-        {/* < className="search-header"> */}
+        {/* <a className="search-header"> */}
           <div className="search-wrapper">
           <div className="search">
             <input type="text" class="searchTerm" placeholder="Search the site..."></input>
@@ -61,7 +61,7 @@ class App extends Component {
 
         <div className="checkout-wrapper">
           <nav id="social-nav">
-            <strong>Follow Us:</strong> <i class="fab fa-facebook-square"></i> | <i class="fab fa-twitter-square"></i>
+            <strong>Follow Us:</strong> <i class="fab fa-facebook-square"></i> | <i class="fab fa-twitter-square"></i> | <a href="https://www.linkedin.com/company/ms-air/" target="_blank" rel="noopener noreferrer"></a><i class="fab fa-linkedin"></i>
           </nav>
           <header id="site-header" class="body">
 

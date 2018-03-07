@@ -31,7 +31,7 @@ export default class Home extends React.Component {
             <div><h1>{this.state.orgInfo.display_name}</h1></div>
             <div><h2>{this.state.orgInfo.description}</h2></div>
           </div>
-          <p>Having trouble locating a part? Contact us using our web submission form <a href="http://www.msaironline.com/contact/contact.php?linkid=message" target="_blank" rel="noopener noreferrer">here.</a> Or call <strong>1-877-MSAIR99</strong>.</p>
+          <p>Having trouble locating a part? Contact us using our web submission form <a href="http://www.msaironline.com/contact/contact.php?linkid=message" target="_blank" rel="noopener noreferrer">here</a>. Or call <strong>1-877-MSAIR99</strong>.</p>
 
 
         <div className = "top-brands">
@@ -69,109 +69,97 @@ export default class Home extends React.Component {
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/tech-west_logo.jpg" alt="Tech West logo"/>
           </div>
           <div className="brand-text">
-            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
-              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
-              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
-              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
+            <a href='store/store.php?cat=255&linkid=homemenu'><b>Tech West</b></a><br></br>
+              <li><a href='store/subCat.php?cat=257&linkid=homemenu'>Oilless Air Compressors</a></li>
+              <li><a href='store/subCat.php?cat=259&linkid=homemenu'>Large Facility Compressors</a></li>
+              <li><a href='store/subCat.php?cat=258&linkid=homemenu'>ECO Dry-Vac Systems</a></li>
           </div>
         </div>
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/chemetron_logo.jpg" alt="Chemetron Pipeline Products logo"/>
           </div>
           <div className="brand-text">
-            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
-              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
-              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
-              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
+            <a href='store/store.php?cat=94&linkid=homemenu'><b>Chemetron Pipeline Products</b></a><br></br>
+              <li><a href='store/store.php?cat=38&linkid=homemenu'>Valve Boxes</a></li>
+              <li><a href='store/store.php?cat=3&linkid=homemenu'>Medical Gas Outlets & Parts</a></li>
+              <li><a href='store/store.php?cat=58&linkid=homemenu'>Air Alarms</a></li>
+              <li><a href='store/store.php?cat=52&linkid=homemenu'>Valves & Handles</a></li>
+              <li><a href='store/store.php?cat=50&linkid=homemenu'>Gauges</a></li>
+              <li><a href='store/subCat.php?cat=54&linkid=homemenu'>Electrical Outlets</a></li>
           </div>
         </div>
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/medentex_logo.jpg" alt="Medentex logo"/>
           </div>
           <div className="brand-text">
-            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
-              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
-              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
-              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
+            <a href='store/store.php?cat=260&linkid=homemenu'><b>Medentex</b></a><br></br>
+              <li><a href='store/subCat.php?cat=261&linkid=homemenu'>Amalgam Separators & Parts</a></li>
+              <li><a href='store/subCat.php?cat=262&linkid=homemenu'>Waste Containers</a></li>
           </div>
         </div>
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/ramvac_logo.jpg" alt="Ramvac logo"/>
           </div>
           <div className="brand-text">
-            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
-              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
-              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
-              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
+            <a href='store/store.php?cat=223&linkid=homemenu'><b>Ramvac</b></a><br></br>
+              <li><a href='store/subCat.php?cat=224&linkid=homemenu'>Dental Vacuums</a></li>
+              <li><a href='store/subCat.php?cat=230&linkid=homemenu'>Dental Vacuum Parts</a></li>
+              <li><a href='store/subCat.php?cat=228&linkid=homemenu'>Compressor Parts</a></li>
+              <li><a href='store/subCat.php?cat=225&linkid=homemenu'>Tanks & Tank Accessories</a></li>
           </div>
         </div>
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/solmetax_logo.jpg" alt="Solmetex logo"/>
           </div>
           <div className="brand-text">
-            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
-              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
-              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
-              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
+            <a href='store/store.php?cat=231&linkid=homemenu'><b>Solmetex</b></a><br></br>
+              <li><a href='store/subCat.php?cat=232&linkid=homemenu'>Amalgam Separators & Parts</a></li>
           </div>
         </div>
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/chicago-pneumatic_logo.jpg" alt="Chicago Pneumatic logo"/>
           </div>
           <div className="brand-text">
-            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
-              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
-              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
-              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
+            <a href='store/store.php?cat=91&linkid=homemenu'><b>Chicago Pneumatic</b></a><br></br>
+              <li><a href='store/subCat.php?cat=93&linkid=homemenu'>2 Stage Electric Air Compressors 5-10 HP</a></li>
+              <li><a href='store/store.php?cat=98&linkid=homemenu'>High Performance Rotary Screw Compressors</a></li>
+              <li><a href='store/subCat.php?cat=95&linkid=homemenu'>2 Stage Electric Duplex Compressor</a></li>
           </div>
         </div>
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/chemetron_logo.jpg" alt="Chemetron Patient Care logo"/>
           </div>
           <div className="brand-text">
-            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
-              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
-              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
-              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
+            <a href='store/store.php?cat=109&linkid=homemenu'><b>Chemetron Patient Care</b></a><br></br>
+              <li><a href='store/store.php?cat=134&linkid=homemenu'>Medical Gas Duplex Couplers</a></li>
+              <li><a href='store/store.php?cat=133&linkid=homemenu'>Medical Gas Adapters</a></li>
+              <li><a href='store/store.php?cat=132&linkid=homemenu'>Medical Gas Couplers</a></li>
+              <li><a href='store/store.php?cat=118&linkid=homemenu'>DISS Male & Female Fittings</a></li>
           </div>
         </div>
 
         <div className = "top-brands">
           <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/02/msair100.jpg" alt="MS Air logo"/>
           </div>
           <div className="brand-text">
-            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
-              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
-              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
-              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
-          </div>
-        </div>
-
-        <div className = "top-brands">
-          <div className = "brand-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/03/trident_logo.jpg" alt="Trident logo"/>
-          </div>
-          <div className="brand-text">
-            <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
-              <li><a href='store/subCat.php?cat=249&linkid=homemenu'>Desiccant Air Dryers</a></li>
-              <li><a href='store/subCat.php?cat=252&linkid=homemenu'>Coalescing Filters</a></li>
-              <li><a href='store/subCat.php?cat=251&linkid=homemenu'>Particulate Filters</a></li>
+            <a href='store/store.php?cat=71&linkid=homemenu'><b>Replacement Parts</b></a><br></br>
+              <li><a href='store/subCat.php?cat=72&linkid=homemenu'>Vibration Pads</a></li>
           </div>
         </div>
 
