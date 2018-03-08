@@ -17,6 +17,36 @@ class App extends Component {
     return (
 
       <div className="App">
+        <div className="top-header">
+        <div className="header header-v1">
+          <div className="header-language-background">
+            <div className="wrap-container">
+              <p className="welcome-msg"> <h3><strong>CALL NOW: 1-877-MSAIR99</strong></h3></p>
+            </div>
+          </div>
+        </div>
+
+        <div className="store-language-container">
+
+        </div>
+
+        <div className="top-links">
+          <div className="links">
+            <div className="top-navigation">
+              <a href="myaccount.html" title="My Account" >My Account</a>  |
+              <a href="checkout.html" title="Checkout" class="top-link-checkout">Checkout</a>  |
+              <a href="/register" title="Register" >Register</a>  |  
+              <a href="/login" title="Log In" >Log In</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
         <div className="topnav">
           <div className="App-logo">
             <img src={logo} alt="logo" />
@@ -25,16 +55,27 @@ class App extends Component {
           <div className="App-header">
             <header className="App-title">Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</header>
           </div>
+        </div>
 
+        <div className="midnav">
           <div className="search-wrapper">
             <div className="search">
-              <input type="text" class="searchTerm" placeholder="Search the site..."></input>
-                <button type="submit" className="searchButton">
-                  <i className="fa fa-search"></i>
-                </button>
-           </div>
+              <form>
+              <input type="text" className="searchTerm" placeholder="Search the site..."></input>
+              <span className="arrow">
+                <input type="button" className="searchButton" value="search"></input>
+              </span>
+              </form>
           </div>
-      </div>
+        </div>
+            <div className="checkout-wrapper">
+              <div className="checkout">
+                <a href="#" className="btn btn-info btn-lg">
+                  <span className="glyphicon glyphicon-shopping-cart"></span> Shopping Cart <i class="fas fa-shopping-cart"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
 
 
@@ -58,12 +99,11 @@ class App extends Component {
         </header>
       </div>
 
-        <div className="checkout-wrapper">
+        <div className="social-wrapper">
           <nav id="social-nav">
             <strong>Follow Us:</strong> <i class="fab fa-facebook-square"></i> | <i class="fab fa-twitter-square"></i> | <a href="https://www.linkedin.com/company/ms-air/" target="_blank" rel="noopener noreferrer"></a><i class="fab fa-linkedin"></i>
           </nav>
           <header id="site-header" class="body">
-
             <nav id="main-navigation">
               <a href="contact.html">Contact Us</a> |
               <a href="myaccount.html">My Account</a> |
