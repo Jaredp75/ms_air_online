@@ -35,7 +35,7 @@ class App extends Component {
             <div className="top-navigation">
               <a href="myaccount.html" title="My Account" >My Account</a>  |
               <a href="checkout.html" title="Checkout" class="top-link-checkout">Checkout</a>  |
-              <a href="/register" title="Register" >Register</a>  |  
+              <a href="/register" title="Register" >Register</a>  |
               <a href="/login" title="Log In" >Log In</a>
             </div>
           </div>
@@ -52,25 +52,24 @@ class App extends Component {
             <img src={logo} alt="logo" />
           </div>
 
-          <div className="App-header">
+          {/* <div className="App-header">
             <header className="App-title">Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</header>
-          </div>
+          </div> */}
         </div>
 
         <div className="midnav">
           <div className="search-wrapper">
             <div className="search">
-              <form>
-              <input type="text" className="searchTerm" placeholder="Search the site..."></input>
-              <span className="arrow">
-                <input type="button" className="searchButton" value="search"></input>
-              </span>
+              <form action="action_page.php">
+                <input type="text" placeholder="Search the site..." name="search"></input>
+                <button type="submit"><i className="fa fa-search"></i></button>
               </form>
+
           </div>
         </div>
             <div className="checkout-wrapper">
               <div className="checkout">
-                <a href="#" className="btn btn-info btn-lg">
+                <a href="/viewcart" className="btn btn-info btn-lg">
                   <span className="glyphicon glyphicon-shopping-cart"></span> Shopping Cart <i class="fas fa-shopping-cart"></i>
                 </a>
               </div>
@@ -101,7 +100,7 @@ class App extends Component {
 
         <div className="social-wrapper">
           <nav id="social-nav">
-            <strong>Follow Us:</strong> <i class="fab fa-facebook-square"></i> | <i class="fab fa-twitter-square"></i> | <a href="https://www.linkedin.com/company/ms-air/" target="_blank" rel="noopener noreferrer"></a><i class="fab fa-linkedin"></i>
+            Follow Us: <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"></a><i className="fab fa-facebook-square fa-2x"></i> | <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"></a><i className="fab fa-twitter-square fa-2x"></i>  |  <a href="https://www.linkedin.com/company/ms-air/" target="_blank" rel="noopener noreferrer"></a><i className="fab fa-linkedin fa-2x"></i>
           </nav>
           <header id="site-header" class="body">
             <nav id="main-navigation">
