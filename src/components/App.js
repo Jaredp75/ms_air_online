@@ -51,22 +51,18 @@ class App extends Component {
           <div className="App-logo">
             <img src={logo} alt="logo" />
           </div>
-
-          {/* <div className="App-header">
-            <header className="App-title">Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</header>
-          </div> */}
         </div>
 
         <div className="midnav">
           <div className="search-wrapper">
             <div className="search">
               <form action="action_page.php">
-                <input type="text" placeholder="Search the site..." name="search"></input>
+                <input type="text" className="search" placeholder="Search the site..."></input>
                 <button type="submit"><i className="fa fa-search"></i></button>
               </form>
-
           </div>
-        </div>
+          </div>
+
             <div className="checkout-wrapper">
               <div className="checkout">
                 <a href="/viewcart" className="btn btn-info btn-lg">
@@ -76,10 +72,11 @@ class App extends Component {
             </div>
           </div>
 
-
-
-
-
+          <div className="bottomnav">
+            <div className="App-header">
+              <header className="App-title">Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</header>
+            </div>
+          </div>
 
         <div className="wrapper">
           <div className="contactnav">
@@ -100,7 +97,7 @@ class App extends Component {
 
         <div className="social-wrapper">
           <nav id="social-nav">
-            Follow Us: <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"></a><i className="fab fa-facebook-square fa-2x"></i> | <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"></a><i className="fab fa-twitter-square fa-2x"></i>  |  <a href="https://www.linkedin.com/company/ms-air/" target="_blank" rel="noopener noreferrer"></a><i className="fab fa-linkedin fa-2x"></i>
+            Follow Us: <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank"></a><i className="fab fa-facebook-square fa-2x"></i> | <a href="https://www.twitter.com"  rel="noopener noreferrer" target="_blank"></a><i className="fab fa-twitter-square fa-2x"></i>  |  <a href="https://www.linkedin.com/company/ms-air/" rel="noopener noreferrer" target="_blank"></a><i className="fab fa-linkedin fa-2x"></i>
           </nav>
           <header id="site-header" class="body">
             <nav id="main-navigation">
@@ -110,6 +107,8 @@ class App extends Component {
             </nav>
           </header>
         </div>
+
+
 
 
         <BrowserRouter>
