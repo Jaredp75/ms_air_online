@@ -21,7 +21,7 @@ class App extends Component {
         <div className="header header-v1">
           <div className="header-language-background">
             <div className="wrap-container">
-              <p className="welcome-msg"> <h3><strong>CALL NOW: 1-877-MSAIR99</strong></h3></p>
+              <h3 className="welcome-msg"><strong>CALL NOW: 1-877-MSAIR99</strong></h3>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ class App extends Component {
           <div className="links">
             <div className="top-navigation">
               <a href="myaccount.html" title="My Account" >My Account</a>  |
-              <a href="checkout.html" title="Checkout" class="top-link-checkout">Checkout</a>  |
+              <a href="checkout.html" title="Checkout" className="top-link-checkout">Checkout</a>  |
               <a href="/register" title="Register" >Register</a>  |
               <a href="/login" title="Log In" >Log In</a>
             </div>
@@ -66,7 +66,7 @@ class App extends Component {
             <div className="checkout-wrapper">
               <div className="checkout">
                 <a href="/viewcart" className="btn btn-info btn-lg">
-                  <span className="glyphicon glyphicon-shopping-cart"></span> Shopping Cart <i class="fas fa-shopping-cart"></i>
+                  <span className="glyphicon glyphicon-shopping-cart"></span> Shopping Cart <i className="fas fa-shopping-cart"></i>
                 </a>
               </div>
             </div>
@@ -84,7 +84,7 @@ class App extends Component {
                 <i><strong>Call Us Toll Free: 1-877-MSAIR99</strong></i>
               </nav>
           </div>
-          <header id="site-header" class="body">
+          <header id="site-header" className="body">
           <nav id="main-navigation">
             <a href="/">HOME</a> |
             <a href="/register">REGISTER</a> |
@@ -97,13 +97,16 @@ class App extends Component {
 
         <div className="social-wrapper">
           <nav id="social-nav">
-            Follow Us: <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank"></a><i className="fab fa-facebook-square fa-2x"></i> | <a href="https://www.twitter.com"  rel="noopener noreferrer" target="_blank"></a><i className="fab fa-twitter-square fa-2x"></i>  |  <a href="https://www.linkedin.com/company/ms-air/" rel="noopener noreferrer" target="_blank"></a><i className="fab fa-linkedin fa-2x"></i>
+            Follow Us:
+            <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank"> <i className="fab fa-facebook-square fa-2x"></i></a>
+            <a href="https://www.twitter.com"  rel="noopener noreferrer" target="_blank"> <i className="fab fa-twitter-square fa-2x"></i></a>
+            <a href="https://www.linkedin.com/company/ms-air/" rel="noopener noreferrer" target="_blank"> <i className="fab fa-linkedin fa-2x"></i></a>
           </nav>
-          <header id="site-header" class="body">
+          <header id="site-header" className="body">
             <nav id="main-navigation">
               <a href="contact.html">Contact Us</a> |
               <a href="myaccount.html">My Account</a> |
-              <a href="checkout.html">Checkout <i class="fas fa-shopping-cart"></i></a>
+              <a href="checkout.html">Checkout <i className="fas fa-shopping-cart"></i></a>
             </nav>
           </header>
         </div>
