@@ -56,10 +56,15 @@ class App extends Component {
         <div className="midnav">
           <div className="search-wrapper">
             <div className="search">
+              <div className="app-header">
+                <div className="app-title">MS AIR</div><br />
+                <div className="app-tagline">Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</div>
+              </div>
               <form action="action_page.php">
                 <input type="text" className="search" placeholder="Search the site..."></input>
                 <button type="submit"><i className="fa fa-search"></i></button>
               </form>
+
           </div>
           </div>
 
@@ -72,11 +77,11 @@ class App extends Component {
             </div>
           </div>
 
-          <div className="bottomnav">
+          {/* <div className="bottomnav">
             <div className="App-header">
-              <header className="App-title">Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</header>
+              <div className="App-title">Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</div>
             </div>
-          </div>
+          </div> */}
 
         <div className="wrapper">
           <div className="contactnav">
