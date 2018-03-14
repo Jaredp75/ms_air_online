@@ -307,13 +307,13 @@
 
 .search {
   padding: 20px;
-  /* background: green; */
-  border: 0px solid pink;
+  background: green;
+  border: 10px solid pink;
 
 }
 
 
-.search-header {
+.app-title {
   font-family: 'big_johnregular';
   font-size: 100px;
   text-align: center;
@@ -321,12 +321,17 @@
 }
 
 
+input.search {
+  background-color: white;
+}
+
 .button {
   position: relative;
   padding: 6px 15px;
   left: -8px;
   border: 2px solid #207cca;
   color: #fafafa;
+  background-color: white;
 }
 
 .button:hover {
