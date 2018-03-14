@@ -33,6 +33,12 @@ export default class Home extends React.Component {
           </div>
           <p>Having trouble locating a part? Contact us using our web submission form <a href="http://www.msaironline.com/contact/contact.php?linkid=message" target="_blank" rel="noopener noreferrer">here</a>. Or call <strong>1-877-MSAIR99</strong>.</p>
 
+          <div className="row">
+            <div className="column">
+
+
+
+
 
         <div className = "top-brands">
           <div className = "brand-logo">
@@ -94,6 +100,7 @@ export default class Home extends React.Component {
           </div>
         </div>
 
+        <div className="column">
         <div className = "top-brands">
           <div className = "brand-logo">
             <img src="../medentex_logo.jpg" alt="Medentex logo"/>
@@ -103,6 +110,7 @@ export default class Home extends React.Component {
               <li><a href='store/subCat.php?cat=261&linkid=homemenu'>Amalgam Separators & Parts</a></li>
               <li><a href='store/subCat.php?cat=262&linkid=homemenu'>Waste Containers</a></li>
           </div>
+        </div>
         </div>
 
         <div className = "top-brands">
@@ -162,8 +170,8 @@ export default class Home extends React.Component {
               <li><a href='store/subCat.php?cat=72&linkid=homemenu'>Vibration Pads</a></li>
           </div>
         </div>
-
-
+        </div>
+        </div>
 
 
 

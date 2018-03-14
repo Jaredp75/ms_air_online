@@ -158,6 +158,28 @@
   text-align: center;
 }
 
+.row {
+  display: flex;
+}
+
+.column {
+  float: left;
+  position: relative;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
 
 
 /*------TOP HEADER STYLES------*/
