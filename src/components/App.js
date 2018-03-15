@@ -21,8 +21,12 @@ class App extends Component {
         <div className="header header-v1">
           <div className="header-language-background">
             <div className="wrap-container">
-              <h3 className="welcome-msg"><strong>CALL NOW: 1-877-MSAIR99</strong></h3>
+              <div className="App-logo">
+                <img src={logo} alt="logo" />
+              </div>
+                <h3 className="welcome-msg"><strong>CALL NOW: 1-877-MSAIR99</strong></h3>
             </div>
+
           </div>
         </div>
 
@@ -48,73 +52,103 @@ class App extends Component {
 
 
         <div className="topnav">
-          <div className="App-logo">
-            <img src={logo} alt="logo" />
-          </div>
+
         </div>
 
         <div className="midnav">
-          <div className="search-wrapper">
-            <div className="search">
+          <div className="title-wrapper">
+            <div className="title-header">
               <div className="app-header">
-                <div className="app-title">MS AIR</div><br />
-                <div className="app-tagline">Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</div>
+                <div className="title-header">
+                <div className="app-title">MS AIR</div>
+
+                <div className="bottom-wrapper">
+                  <div className="social-wrapper">
+                    <nav id="social-nav">
+                      <h6 className="social-icons">Follow Us: <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank"> <i className="fab fa-facebook-square fa-2x"></i></a>
+                      <a href="https://www.twitter.com"  rel="noopener noreferrer" target="_blank"> <i className="fab fa-twitter-square fa-2x"></i></a>
+                      <a href="https://www.linkedin.com/company/ms-air/" rel="noopener noreferrer" target="_blank"> <i className="fab fa-linkedin fa-2x"></i></a></h6>
+                    </nav>
+                    <div className="checkout-wrapper">
+                      <div className="checkout">
+                        <a href="/viewcart" className="btn btn-info btn-lg">
+                          <span className="glyphicon glyphicon-shopping-cart"></span> Shopping Cart <i className="fas fa-shopping-cart"></i>
+                        </a>
+                      </div>
+                    </div>
+
+
+
+                  </div>
+                  </div>
+                  </div>
+
+
+
+                <div className="app-tagline"><h5><strong>Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</strong></h5></div>
               </div>
+
+              {/* <div className="search-box">
               <form action="action_page.php">
                 <input type="text" className="search" placeholder="Search the site..."></input>
+                <button type="submit" className="searchButton">
+                  <i className="fa fa-search"></i>
+                </button>
+              </form>
+              </div> */}
+
+          </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+          <div className="searchnav">
+            <a className="active" href="/">Home</a>
+            <a href="/viewcart">View Cart <i className="fas fa-shopping-cart"></i></a>
+            <a href="/about">About Us</a>
+            <div className="search-container">
+              <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search"></input>
                 <button type="submit"><i className="fa fa-search"></i></button>
               </form>
-
-          </div>
-          </div>
-
-            <div className="checkout-wrapper">
-              <div className="checkout">
-                <a href="/viewcart" className="btn btn-info btn-lg">
-                  <span className="glyphicon glyphicon-shopping-cart"></span> Shopping Cart <i className="fas fa-shopping-cart"></i>
-                </a>
-              </div>
             </div>
           </div>
 
-          {/* <div className="bottomnav">
-            <div className="App-header">
-              <div className="App-title">Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</div>
-            </div>
-          </div> */}
 
-        <div className="wrapper">
-          <div className="contactnav">
-              <nav id="contactphone">
-                <i><strong>Call Us Toll Free: 1-877-MSAIR99</strong></i>
+          <div className="bottom-wrapper">
+            <div className="social-wrapper">
+              <nav id="social-nav">
+                <h6 className="social-icons">Follow Us: <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank"> <i className="fab fa-facebook-square fa-2x"></i></a>
+                <a href="https://www.twitter.com"  rel="noopener noreferrer" target="_blank"> <i className="fab fa-twitter-square fa-2x"></i></a>
+                <a href="https://www.linkedin.com/company/ms-air/" rel="noopener noreferrer" target="_blank"> <i className="fab fa-linkedin fa-2x"></i></a></h6>
               </nav>
-          </div>
-          <header id="site-header" className="body">
-          <nav id="main-navigation">
-            <a href="/">HOME</a> |
-            <a href="/register">REGISTER</a> |
-            <a href="/login">LOGIN</a> |
-            <a href="/viewcart">VIEW CART</a> |
-            <a href="/about">ABOUT US</a>
-          </nav>
-        </header>
-      </div>
+              <div className="checkout-wrapper">
+                <div className="checkout">
+                  <a href="/viewcart" className="btn btn-info btn-lg">
+                    <span className="glyphicon glyphicon-shopping-cart"></span> Shopping Cart <i className="fas fa-shopping-cart"></i>
+                  </a>
+                </div>
+              </div>
 
-        <div className="social-wrapper">
-          <nav id="social-nav">
-            Follow Us:
-            <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank"> <i className="fab fa-facebook-square fa-2x"></i></a>
-            <a href="https://www.twitter.com"  rel="noopener noreferrer" target="_blank"> <i className="fab fa-twitter-square fa-2x"></i></a>
-            <a href="https://www.linkedin.com/company/ms-air/" rel="noopener noreferrer" target="_blank"> <i className="fab fa-linkedin fa-2x"></i></a>
-          </nav>
-          <header id="site-header" className="body">
-            <nav id="main-navigation">
-              <a href="contact.html">Contact Us</a> |
-              <a href="myaccount.html">My Account</a> |
-              <a href="checkout.html">Checkout <i className="fas fa-shopping-cart"></i></a>
-            </nav>
-          </header>
-        </div>
+
+
+            </div>
+            </div>
+
+
+
+          </div>
+
+
+
+
 
 
 
