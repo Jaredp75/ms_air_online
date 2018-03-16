@@ -18,20 +18,16 @@ class App extends Component {
 
       <div className="App">
         <div className="top-header">
-        <div className="header header-v1">
-          <div className="header-language-background">
-            <div className="wrap-container">
-              <div className="App-logo">
-                <img src={logo} alt="logo" />
+          <div className="header header-v1">
+            <div className="header-language-background">
+              <div className="wrap-container">
+                
+                  <h3 className="welcome-msg"><strong>CALL NOW: 1-877-MSAIR99</strong></h3>
+                </div>
               </div>
-                <h3 className="welcome-msg"><strong>CALL NOW: 1-877-MSAIR99</strong></h3>
             </div>
 
-          </div>
-        </div>
-
         <div className="store-language-container">
-
         </div>
 
         <div className="top-links">
@@ -46,11 +42,6 @@ class App extends Component {
         </div>
       </div>
 
-
-
-
-
-
         <div className="topnav">
 
         </div>
@@ -59,16 +50,20 @@ class App extends Component {
           <div className="title-wrapper">
             <div className="title-header">
               <div className="app-header">
-                <div className="title-header">
-                <div className="app-title">MS AIR</div>
+                <div className="App-logo">
+                  <img src={logo} alt="logo" />
+                </div>
 
-                <div className="bottom-wrapper">
-                  <div className="social-wrapper">
-                    <nav id="social-nav">
-                      <h6 className="social-icons">Follow Us: <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank"> <i className="fab fa-facebook-square fa-2x"></i></a>
-                      <a href="https://www.twitter.com"  rel="noopener noreferrer" target="_blank"> <i className="fab fa-twitter-square fa-2x"></i></a>
-                      <a href="https://www.linkedin.com/company/ms-air/" rel="noopener noreferrer" target="_blank"> <i className="fab fa-linkedin fa-2x"></i></a></h6>
-                    </nav>
+
+                <div className="title-header">
+                  <div className="app-title">MS AIR</div>
+                    <div className="bottom-wrapper">
+                      <div className="social-wrapper">
+                        <nav id="social-nav">
+                          <h6 className="social-icons">Follow Us: <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank"> <i className="fab fa-facebook-square fa-2x"></i></a>
+                          <a href="https://www.twitter.com"  rel="noopener noreferrer" target="_blank"> <i className="fab fa-twitter-square fa-2x"></i></a>
+                          <a href="https://www.linkedin.com/company/ms-air/" rel="noopener noreferrer" target="_blank"> <i className="fab fa-linkedin fa-2x"></i></a></h6>
+                        </nav>
                     <div className="checkout-wrapper">
                       <div className="checkout">
                         <a href="/viewcart" className="btn btn-info btn-lg">
@@ -76,37 +71,15 @@ class App extends Component {
                         </a>
                       </div>
                     </div>
-
-
-
                   </div>
-                  </div>
-                  </div>
-
-
+                </div>
+              </div>
 
                 <div className="app-tagline"><h5><strong>Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</strong></h5></div>
               </div>
 
-              {/* <div className="search-box">
-              <form action="action_page.php">
-                <input type="text" className="search" placeholder="Search the site..."></input>
-                <button type="submit" className="searchButton">
-                  <i className="fa fa-search"></i>
-                </button>
-              </form>
-              </div> */}
-
           </div>
-          </div>
-
-
-
-
-
-
-
-
+        </div>
 
 
           <div className="searchnav">
@@ -120,37 +93,7 @@ class App extends Component {
               </form>
             </div>
           </div>
-
-
-          <div className="bottom-wrapper">
-            <div className="social-wrapper">
-              <nav id="social-nav">
-                <h6 className="social-icons">Follow Us: <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank"> <i className="fab fa-facebook-square fa-2x"></i></a>
-                <a href="https://www.twitter.com"  rel="noopener noreferrer" target="_blank"> <i className="fab fa-twitter-square fa-2x"></i></a>
-                <a href="https://www.linkedin.com/company/ms-air/" rel="noopener noreferrer" target="_blank"> <i className="fab fa-linkedin fa-2x"></i></a></h6>
-              </nav>
-              <div className="checkout-wrapper">
-                <div className="checkout">
-                  <a href="/viewcart" className="btn btn-info btn-lg">
-                    <span className="glyphicon glyphicon-shopping-cart"></span> Shopping Cart <i className="fas fa-shopping-cart"></i>
-                  </a>
-                </div>
-              </div>
-
-
-
-            </div>
-            </div>
-
-
-
-          </div>
-
-
-
-
-
-
+        </div>
 
 
         <BrowserRouter>
