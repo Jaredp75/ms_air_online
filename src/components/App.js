@@ -21,7 +21,7 @@ class App extends Component {
           <div className="header header-v1">
             <div className="header-language-background">
               <div className="wrap-container">
-                
+
                   <h3 className="welcome-msg"><strong>CALL NOW: 1-877-MSAIR99</strong></h3>
                 </div>
               </div>
@@ -56,7 +56,7 @@ class App extends Component {
 
 
                 <div className="title-header">
-                  <div className="app-title">MS AIR</div>
+                  <div className="app-title">MS <font color="yellow">AIR</font></div>
                     <div className="bottom-wrapper">
                       <div className="social-wrapper">
                         <nav id="social-nav">
