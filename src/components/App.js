@@ -17,6 +17,7 @@ class App extends Component {
     return (
 
       <div className="App">
+        <div className="header">
         <div className="top-header">
           <div className="header header-v1">
             <div className="header-language-background">
@@ -60,14 +61,28 @@ class App extends Component {
                     <div className="bottom-wrapper">
                       <div className="social-wrapper">
                         <nav id="social-nav">
-                          <h6 className="social-icons">Follow Us: <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank"> <i className="fab fa-facebook-square fa-2x"></i></a>
-                          <a href="https://www.twitter.com"  rel="noopener noreferrer" target="_blank"> <i className="fab fa-twitter-square fa-2x"></i></a>
-                          <a href="https://www.linkedin.com/company/ms-air/" rel="noopener noreferrer" target="_blank"> <i className="fab fa-linkedin fa-2x"></i></a></h6>
+                          <div className="social-header">
+                            <h6>Connect With Us: </h6>
+                          </div>
+                          <div className="social-icons">
+
+                                <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank">
+                                <i className="fab fa-facebook-square fa-2x"></i></a>
+
+                              <a href="https://www.twitter.com"  rel="noopener noreferrer" target="_blank">
+                                <i className="fab fa-twitter-square fa-2x"></i></a>
+
+
+                                <a href="https://www.linkedin.com/company/ms-air/" rel="noopener noreferrer" target="_blank">
+                                  <i className="fab fa-linkedin fa-2x"></i></a>
+                          </div>
                         </nav>
                     <div className="checkout-wrapper">
                       <div className="checkout">
                         <a href="/viewcart" className="btn btn-info btn-lg">
-                          <span className="glyphicon glyphicon-shopping-cart"></span> Shopping Cart <i className="fas fa-shopping-cart"></i>
+                          <span className="glyphicon glyphicon-shopping-cart"></span>
+                            Shopping Cart
+                              <i className="fas fa-shopping-cart"></i>
                         </a>
                       </div>
                     </div>
@@ -94,7 +109,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-
+        </div>
 
         <BrowserRouter>
           <Baselayout>
