@@ -23,7 +23,9 @@ class App extends Component {
             <div className="header-language-background">
               <div className="wrap-container">
 
-                  <h3 className="welcome-msg"><strong>CALL NOW: 1-877-MSAIR99</strong></h3>
+                  <div className="welcome-msg">
+                    <strong>CALL NOW: 1-877-MSAIR99</strong>
+                  </div>
                 </div>
               </div>
             </div>
@@ -34,9 +36,9 @@ class App extends Component {
         <div className="top-links">
           <div className="links">
             <div className="top-navigation">
-              <a href="myaccount.html" title="My Account" >My Account</a>  |
-              <a href="checkout.html" title="Checkout" className="top-link-checkout">Checkout</a>  |
-              <a href="/register" title="Register" >Register</a>  |
+              <a href="myaccount.html" title="My Account" >My Account</a>
+              <a href="checkout.html" title="Checkout" className="top-link-checkout">Checkout</a>
+              <a href="/register" title="Register" >Register</a>
               <a href="/login" title="Log In" >Log In</a>
             </div>
           </div>
