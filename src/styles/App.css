@@ -118,35 +118,35 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .app .top-header .title-wrapper .app-logo {
+  .app, .top-header, .title-wrapper, .app-logo, .app-title, .social-wrapper, .top-navigation, .welcome-msg, .app-header, .header {
     float: none;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .app {
+  .app, .top-header, .title-wrapper, .app-logo, .app-title, .social-wrapper, .top-navigation, .welcome-msg, .app-header {
 
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .app {
+  .app, .top-header, .title-wrapper, .app-logo, .app-title, .social-wrapper, .top-navigation, .welcome-msg, .app-header {
 
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .app {
+  .app, .top-header, .title-wrapper, .app-logo, .app-title, .social-wrapper, .top-navigation, .welcome-msg, .app-header {
 
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .app {
+  .app, .top-header, .title-wrapper, .app-logo, .app-title, .social-wrapper, .top-navigation, .welcome-msg, .app-header {
 
   }
 }
@@ -348,10 +348,10 @@ h1 {
 
 
 .app-tagline {
-  font-family: 'quranyitalic', sans-serif;
+  font-family: 'quranybold', sans-serif;
   font-weight: bold;
   font-size: 20px;
-  font-style: italic;
+  /* font-style: italic; */
   text-align: center;
   color: blue;
   margin-bottom: 40px;
@@ -487,7 +487,7 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-  .searchnav .search-container {
+  .searchnav, .search-container, .top-header {
     float: none;
   }
   .searchnav a, .searchnav input[type=text], .searchnav .search-container button {
@@ -578,8 +578,8 @@ h1 {
   display: flex;
   flex-direction: row;
   text-align: left;
-  margin-left: 48px;
-  margin-right: 12px;
+  /* margin-left: 48px;
+  margin-right: 12px; */
   padding-left: 12px;
   padding-right: 12px;
   align-content: space-around;
@@ -589,10 +589,10 @@ h1 {
 }
 .FooterLinks > div{
   flex-grow: 1;
-  margin-left: 12px;
+  /* margin-left: 12px;
   margin-right: 12px;
   padding-left: 12px;
-  padding-right: 12px;
+  padding-right: 12px; */
   display:flex;
   flex-direction: row;
   justify-content: space-around;
@@ -629,9 +629,9 @@ h1 {
 .Footer {
   display: flex;
   flex-direction: row;
-  align-content: center;
+  /* align-content: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 
 .about-footer {
@@ -749,4 +749,125 @@ h1 {
 .brand-text {
 
   float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---HELP CENTER STYLES BEGIN---*/
+.HelpAndCurrency{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding-top: 36px;
+  padding-bottom: 24px; */
+
+}
+.float-left{
+  /* flex-grow: 1; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.float-left>span{
+  font-size: 14px;
+  font-weight: 300;
+}
+.float-left>span>a{
+  padding-left: 2px;
+  color: #222;
+  font-weight: 500;
+}
+.float-right{
+  /* flex-grow: 1; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.float-right>button{
+  background-color: white;
+  width: 260px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 1px solid #E1E3DF; */
+  font-size: 12px;
+}
+.display-table-cell{
+  width:100px;
+  font-weight: 300;
+}
+.display-table-cell>svg{
+  position:relative;
+  top: 3px;
+  width:24px;
+}
+.dtc-one{
+  width:130px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dtc-two{
+  border-left: 1px solid #e1e3df;
+  border-right: 1px solid #e1e3df;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+}
+.dtc-three{
+  width:70px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+}
+@media screen and ( max-width: 650px ){
+  .HelpAndCurrency{
+    display: flex;
+    flex-direction: column;
+    height: 203px;
+  }
+  .float-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .ShareLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 36px;
+  }
+  .ShareLinks svg{
+    height: 36px;
+    float:none;
+    margin-left:18px;
+    margin-right:18px;
+    width: 36px;
+  }
+  .float-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .float-right>button{
+    height:36px;
+  }
 }

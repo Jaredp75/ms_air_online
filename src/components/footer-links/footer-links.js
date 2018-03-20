@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import AboutLinks from "./about-links.js";
+import AboutLinks from "../footer-links/about-links.js";
+import HelpAndCurrency from "../help-and-currency.js";
 
 const snapSize = 650;
 
@@ -36,7 +37,7 @@ class FooterLinks extends Component {
 
     return (
       <div className="FooterLinks">
-        <AboutLinks />
+        <HelpAndCurrency />
 
       </div>
     );

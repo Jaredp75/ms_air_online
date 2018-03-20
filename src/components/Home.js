@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 import FooterLinks from './footer-links/footer-links.js';
+import AboutLinks from './footer-links/about-links.js';
 
 export default class Home extends React.Component {
   constructor(props){
@@ -197,6 +198,7 @@ export default class Home extends React.Component {
 
       <div className="Footer">
         <FooterLinks />
+        <AboutLinks />
       </div>
     </div>
 
