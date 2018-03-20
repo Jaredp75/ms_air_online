@@ -64,7 +64,7 @@ class App extends Component {
                       <div className="social-wrapper">
                         <nav id="social-nav">
                           <div className="social-header">
-                            <h6>Connect With Us: </h6>
+                            <h6>Connect With Us:</h6>
                           </div>
                           <div className="social-icons">
 
