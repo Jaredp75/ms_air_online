@@ -1,6 +1,8 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import FooterLinks from './footer-links/footer-links.js'
+import FooterLinks from './footer-links/footer-links.js';
+import HelpAndCurrency from './help-and-currency.js';
+import AboutLinks from './footer-links/about-links.js';
 
 export default class TermsOfUse extends React.Component {
 
@@ -28,9 +30,13 @@ export default class TermsOfUse extends React.Component {
           <p>MSAirOnline.com DOES NOT WARRANT THAT THIS SITE, ITS SERVERS, OR E-MAIL SENT FROM MSAirOnline.com ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. MSAirOnline.com WILL NOT BE LIABLE FOR ANY DAMAGES OF ANY KIND ARISING FROM THE USE OF THIS SITE, INCLUDING, BUT NOT LIMITED TO DIRECT, INDIRECT, PUNITIVE, INCIDENTAL, AND CONSEQUENTIAL DAMAGES.</p>
         </div>
 
-              <div className="Footer">
-                <FooterLinks />
-              </div>
+        <div className="FooterLinks1">
+          <HelpAndCurrency />
+
+        </div>
+        <div className="FooterLinks2">
+          <AboutLinks />
+        </div>
               </div>
               <div className="about-footer">
                 <div className="terms">

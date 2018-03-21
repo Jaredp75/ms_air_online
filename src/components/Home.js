@@ -2,6 +2,7 @@ import React from "react";
 import {Link} from 'react-router-dom';
 import FooterLinks from './footer-links/footer-links.js';
 import AboutLinks from './footer-links/about-links.js';
+import HelpAndCurrency from './help-and-currency.js';
 
 export default class Home extends React.Component {
   constructor(props){
@@ -196,10 +197,13 @@ export default class Home extends React.Component {
 
 
 
-      <div className="Footer">
-        <FooterLinks />
-        <AboutLinks />
-      </div>
+<div className="FooterLinks1">
+  <HelpAndCurrency />
+
+</div>
+<div className="FooterLinks2">
+  <AboutLinks />
+</div>
     </div>
 
       <div className="about-footer">

@@ -39,6 +39,7 @@ class FooterLinks extends Component {
       <div className="FooterLinks">
         <HelpAndCurrency />
 
+        <AboutLinks />
       </div>
     );
   }

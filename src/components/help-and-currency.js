@@ -34,25 +34,23 @@ class HelpAndCurrency extends Component {
     let media = this.state.media;
 
     let aboutLinks = null;
-    if (media < snapSize+1){
+    if (media <snapSize+1){
       aboutLinks = <AboutLinks />;
     }
 
     return (
       <div className="HelpAndCurrency">
         <div className="float-left">
-          <svg>
-            <path d="M12,22A10,10,0,1,1,22,12,10.012,10.012,0,0,1,12,22ZM12,4a8,8,0,1,0,8,8A8.009,8.009,0,0,0,12,4Z"></path><circle cx="12" cy="16.5" r="1.5"></circle><path d="M13,14H11a3.043,3.043,0,0,1,1.7-2.379C13.5,11.055,14,10.674,14,10a2,2,0,1,0-4,0H8a4,4,0,1,1,8,0,4,4,0,0,1-2.152,3.259A2.751,2.751,0,0,0,13,14Z">
-            </path>
-          </svg>
-          <span>
-            Need help? Visit the
-            <a href="/"><strong>Help Center</strong></a>
+          <i className="far fa-question-circle"></i>
+
+          <span>Need help?  Visit the<a href="/"><strong>Help Center</strong></a>
           </span>
-        </div>
+          </div>
         {aboutLinks}
         <div className="float-right">
-          <button className="locale-settings-button" onClick={()=>alert("This is your localization button!")}>
+
+
+
             <div className="display-table-cell dtc-one">
               <svg>
 
@@ -69,6 +67,7 @@ class HelpAndCurrency extends Component {
                 </path>
 
               </svg>
+
               United States
             </div>
             <div className="display-table-cell dtc-two">
@@ -77,8 +76,8 @@ class HelpAndCurrency extends Component {
             <div className="display-table-cell dtc-three">
               $(USD)
             </div>
-          </button>
-        </div>
+
+            </div>
       </div>
     );
   }

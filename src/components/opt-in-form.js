@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 import {Link} from 'react-router-dom';
-import FooterLinks from './footer-links/footer-links.js'
+import FooterLinks from './footer-links/footer-links.js';
+import HelpAndCurrency from './help-and-currency.js';
+import AboutLinks from './footer-links/about-links.js';
 
 
 class OptInForm extends Component {
@@ -19,9 +21,13 @@ class OptInForm extends Component {
         </form>
 
 
-          <div className="Footer">
-            <FooterLinks />
-          </div>
+        <div className="FooterLinks1">
+          <HelpAndCurrency />
+
+        </div>
+        <div className="FooterLinks2">
+          <AboutLinks />
+        </div>
           <div className="about-footer">
             <div className="terms">
               <p><a href="/terms" target=" blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>

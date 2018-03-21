@@ -1,6 +1,8 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 import FooterLinks from './footer-links/footer-links.js'
+import HelpAndCurrency from './help-and-currency.js';
+import AboutLinks from './footer-links/about-links.js';
 
 
 export default class Login extends React.Component {
@@ -18,9 +20,13 @@ export default class Login extends React.Component {
 
 
 
-              <div className="Footer">
-                <FooterLinks />
-              </div>
+          <div className="FooterLinks1">
+            <HelpAndCurrency />
+
+          </div>
+          <div className="FooterLinks2">
+            <AboutLinks />
+          </div>
               </div>
               <div className="about-footer">
                 <div className="terms">

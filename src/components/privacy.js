@@ -1,6 +1,8 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import FooterLinks from './footer-links/footer-links.js'
+import FooterLinks from './footer-links/footer-links.js';
+import HelpAndCurrency from './help-and-currency.js';
+import AboutLinks from './footer-links/about-links.js';
 
 export default class PrivacyPolicy extends React.Component {
 
@@ -48,9 +50,13 @@ export default class PrivacyPolicy extends React.Component {
           <p>This Privacy Policy and other policies posted on the MSAirOnline.com website are subject to change at anytime without prior notice.</p>
         </div>
 
-              <div className="Footer">
-                <FooterLinks />
-              </div>
+        <div className="FooterLinks1">
+          <HelpAndCurrency />
+
+        </div>
+        <div className="FooterLinks2">
+          <AboutLinks />
+        </div>
               </div>
               <div className="about-footer">
                 <div className="terms">
