@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 import {Link} from 'react-router-dom';
-import FooterLinks from './footer-links/footer-links.js';
+// import FooterLinks from './footer-links/footer-links.js';
 import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
 

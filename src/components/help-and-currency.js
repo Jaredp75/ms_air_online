@@ -48,7 +48,7 @@ class HelpAndCurrency extends Component {
           </div>
         {aboutLinks}
         <div className="float-right">
-
+          {/* <button className="locale-settings-button" onClick={()=>alert("This is your localization button!")}> */}
 
 
             <div className="display-table-cell dtc-one">
@@ -76,7 +76,7 @@ class HelpAndCurrency extends Component {
             <div className="display-table-cell dtc-three">
               $(USD)
             </div>
-
+          {/* </button> */}
             </div>
       </div>
     );

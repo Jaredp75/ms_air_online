@@ -29,25 +29,21 @@ class App extends Component {
                 </div>
               </div>
             </div>
-
-        <div className="store-language-container">
-        </div>
-
-        <div className="top-links">
-          <div className="links">
-            <div className="top-navigation">
-              <a href="myaccount.html" title="My Account" >My Account</a>
-              <a href="checkout.html" title="Checkout" className="top-link-checkout">Checkout</a>
-              <a href="/register" title="Register" >Register</a>
-              <a href="/login" title="Log In" >Log In</a>
-            </div>
           </div>
-        </div>
-      </div>
 
-        <div className="topnav">
+
+
+        <div className="top-nav">
+          <a className="active" href="myaccount.html">My Account</a>
+          <a href="checkout.html">Checkout</a>
+          <a href="/register">Register</a>
+          <a href="/login">Login</a>
 
         </div>
+
+
+
+
 
         <div className="midnav">
           <div className="title-wrapper">
@@ -74,9 +70,11 @@ class App extends Component {
                               <a href="https://www.twitter.com"  rel="noopener noreferrer" target="_blank">
                                 <i className="fab fa-twitter-square fa-2x"></i></a>
 
-
                                 <a href="https://www.linkedin.com/company/ms-air/" rel="noopener noreferrer" target="_blank">
                                   <i className="fab fa-linkedin fa-2x"></i></a>
+
+                                <a href="mailto:msaironline@msaironline.com" rel="noopener noreferrer" target="_blank">
+                                  <i className="fas fa-envelope-square fa-2x"></i></a>
                           </div>
                         </nav>
                     <div className="checkout-wrapper">
