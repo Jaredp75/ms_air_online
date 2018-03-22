@@ -217,9 +217,7 @@ h1 {
   text-align: center;
 }
 
-form {
-  align-items: center;
-}
+
 
 .row {
   display: flex;
@@ -1059,24 +1057,42 @@ form {
   border: 1px solid lightgray;
   padding: 20px;
   border-radius: 5px;
-  background-color: blue;
+  background-color: lightblue;
   color: white;
-
+  /* margin-left: 40px;
+  margin-right: 40px; */
+  width: 460px;
+  clear: both;
 }
 
 
 .customer-registration input {
   border: 1px solid lightgray;
-
-
-
+  width: 100%;
+  clear: both;
 }
 
 
+.customer-registration input submit {
+  width: 50%;
+  clear: both;
+}
+
+
+
+
+
+.customer-registration form {
+  justify-content: space-between;
+  text-align: center;
+}
 
 
 
 
 .customer-registration #state {
   border: 1px solid lightgray;
+  width: 100%;
+  clear: both;
+
 }
