@@ -15,7 +15,7 @@ export default class Register extends React.Component {
         <div className = 'content-area-container'>
           <div className="header-text">
 
-            <h1>New Customer Registration (* required fields)</h1>
+            <h5>New Customer Registration (* required fields)</h5>
             <div className="customer-registration">
               <form action="">
                 <b>* Username: </b><input type="text" name="username"></input><br />

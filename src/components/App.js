@@ -22,23 +22,29 @@ class App extends Component {
           <div className="header header-v1">
             <div className="header-language-background">
               <div className="wrap-container">
+                <div className="header-wrap">
 
-                  <div className="welcome-msg">
+                  <div id="welcome-msg">
+                    <div id="App-logo">
+                      <img src={logo} alt="logo" />
+                    </div>
                     <strong>CALL NOW: 1-877-MSAIR99</strong>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          </div>
 
 
+        <div id="top-nav">
 
-        <div className="top-nav">
+          <div id="top-links">
           <a className="active" href="myaccount.html">My Account</a>
           <a href="checkout.html">Checkout</a>
           <a href="/register">Register</a>
           <a href="/login">Login</a>
-
+          </div>
         </div>
 
 
@@ -49,15 +55,17 @@ class App extends Component {
           <div className="title-wrapper">
             <div className="title-header">
               <div className="app-header">
-                <div className="App-logo">
-                  <img src={logo} alt="logo" />
+
+
+
+                <div className="title-header left-div">
+
+                  <div id="app-title">MS <font color="yellow">AIR</font>
                 </div>
-
-
-                <div className="title-header">
-                  <div className="app-title">MS <font color="yellow">AIR</font></div>
+                </div>
                     <div className="bottom-wrapper">
-                      <div className="social-wrapper">
+
+                      <div className="social-wrapper right-div">
                         <nav id="social-nav">
                           <div className="social-header">
                             <h6>Connect With Us:</h6>
@@ -88,7 +96,7 @@ class App extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
+
 
                 <div className="app-tagline"><h5><strong>Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</strong></h5></div>
               </div>
