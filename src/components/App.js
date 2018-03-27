@@ -25,31 +25,28 @@ class App extends Component {
                 <div className="header-wrap">
 
                   <div id="welcome-msg">
-                    <div id="App-logo">
+                    {/* <div id="App-logo">
                       <img src={logo} alt="logo" />
-                    </div>
+                    </div> */}
                     <strong>CALL NOW: 1-877-MSAIR99</strong>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+          <div id="top-nav">
+
+            <div id="top-links">
+              <a className="active" href="myaccount.html">My Account</a>
+              <a href="checkout.html">Checkout</a>
+              <a href="/register">Register</a>
+              <a href="/login">Login</a>
+            </div>
           </div>
 
 
-        <div id="top-nav">
-
-          <div id="top-links">
-          <a className="active" href="myaccount.html">My Account</a>
-          <a href="checkout.html">Checkout</a>
-          <a href="/register">Register</a>
-          <a href="/login">Login</a>
           </div>
-        </div>
-
-
-
-
 
         <div className="midnav">
           <div className="title-wrapper">
