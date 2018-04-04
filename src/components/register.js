@@ -12,56 +12,151 @@ export default class Register extends React.Component {
     return(
       <div>
 
-        <div className = 'content-area-container'>
-          <div className="header-text">
-
+        <div className = "content-area-container">
+          <div className ="header-text">
             <h5>New Customer Registration (* required fields)</h5>
-            <div className="customer-registration">
-              <form action="/action_page.php" target="_blank" method="post">
-                <b>* Username: </b><input type="text" name="username"></input><br /><br />
-                <b>* Password: </b><input type="password" name="psw"></input><br /><br />
-                <b>* Verify Password: </b><input type="text" name="verifypassword"></input><br /><br />
-                <b>* First Name: </b><input type="text" name="firstname"></input><br /><br />
-                <b>* Last Name: </b><input type="text" name="lastname"></input><br /><br />
-                <b>* Company: </b><input type="text" name="company"></input><br /><br />
-                <b>* Email: </b><input type="email" name="email"></input><br /><br />
-                <b>* Address: </b><input type="text" name="address"></input><br /><br />
-                <b>Address 2: </b><input type="text" name="address2"></input><br /><br />
-                <b>* City: </b><input type="text" name="city"></input><br /><br />
-                <b>* State: </b>
-<select id="state" name="state"><option value="---">---</option><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticut">Connecticut</option><option value="Delaware">Delaware</option><option value="District of Columbia">District of Columbia</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Guam">Guam</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Illinois">Illinois</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Northern Marianas Islands">Northern Marianas Islands</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Pennsylvania">Pennsylvania</option><option value="Puerto Rico">Puerto Rico</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virginia">Virginia</option><option value="Virgin Islands">Virgin Islands</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option></select>
-<br />
-
-                <b>* ZIP: </b><input type="text" name="zipcode" pattern="[0-9]{5}"></input><br /><br />
-                <b>* Phone: </b><input type="tel" name="phone"></input><br /><br /><br />
-
-              <input type="submit" value="Submit"></input>
-            </form>
-            </div>
-
           </div>
+            <form className="registration_form">
 
+              <div className="form-row">
+                <div className="form-group col-md-6">
+                  <label for="inputFirstName"><strong>* First Name</strong></label>
+                  <input type="text" className="form-control" placeholder="First name" />
+                </div>
 
-
-          <div className="FooterLinks1">
-            <HelpAndCurrency />
-
-          </div>
-          <div className="FooterLinks2">
-            <AboutLinks />
-          </div>
+                  <div className="form-group col-md-6">
+                  <label for="inputLastName"><strong>* Last Name</strong></label>
+                  <input type="text" className="form-control" placeholder="Last name" />
+                </div>
               </div>
+              <form>
+              <div className="form-row">
+                <div className="form-group col-md-6">
+                  <label for="inputEmail4"><strong>* Email</strong></label>
+                  <input type="email" className="form-control" id="inputEmail4" placeholder="Email" />
+                </div>
+
+                <div className="form-group col-md-6">
+                  <label for="inputPassword4"><strong>* Password</strong></label>
+                  <input type="password" className="form-control" id="inputPassword4" placeholder="Password" />
+                </div>
+              </div>
+            </form>
+
+              <div className="form-group">
+                <label for="inputAddress"><strong>* Address</strong></label>
+                <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
+              </div>
+
+              <div className="form-group">
+                <label for="inputAddress2"><strong>* Address 2</strong></label>
+                <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
+              </div>
+
+
+              <div className="form-row">
+                <div className="form-group col-md-6">
+                  <label for="inputCity"><strong>* City</strong></label>
+                  <input type="text" className="form-control" id="inputCity" />
+                </div>
+
+
+                <div className="form-group col-md-4">
+                  <label for="inputState"><strong>* State</strong></label>
+                  <select id="inputState" className="form-control">
+                    <option selected>Choose...</option>
+                    <option value="1">Alabama</option>
+                    <option value="2">Alaska</option>
+                    <option value="3">Arizona</option>
+                    <option value="4">Arkansas</option>
+                    <option value="5">California</option>
+                    <option value="6">Colorado</option>
+                    <option value="7">Connecticut</option>
+                    <option value="8">Delaware</option>
+                    <option value="9">District of Columbia</option>
+                    <option value="10">Florida</option>
+                    <option value="11">Georgia</option>
+                    <option value="12">Guam</option>
+                    <option value="13">Hawaii</option>
+                    <option value="14">Idaho</option>
+                    <option value="15">Illinois</option>
+                    <option value="16">Indiana</option>
+                    <option value="17">Iowa</option>
+                    <option value="18">Kansas</option>
+                    <option value="19">Kentucky</option>
+                    <option value="20">Louisiana</option>
+                    <option value="21">Maine</option>
+                    <option value="22">Maryland</option>
+                    <option value="23">Massachusetts</option>
+                    <option value="24">Michigan</option>
+                    <option value="25">Minnesota</option>
+                    <option value="26">Mississippi</option>
+                    <option value="27">Missouri</option>
+                    <option value="28">Montana</option>
+                    <option value="29">Nebraska</option>
+                    <option value="30">Nevada</option>
+                    <option value="31">New Hampshire</option>
+                    <option value="32">New Jersey</option>
+                    <option value="33">New Mexico</option>
+                    <option value="34">New York</option>
+                    <option value="35">North Carolina</option>
+                    <option value="36">North Dakota</option>
+                    <option value="37">Northern Marianas Islands</option>
+                    <option value="38">Ohio</option>
+                    <option value="39">Oklahoma</option>
+                    <option value="40">Oregon</option>
+                    <option value="41">Pennsylvania</option>
+                    <option value="42">Puerto Rico</option>
+                    <option value="43">Rhode Island</option>
+                    <option value="44">South Carolina</option>
+                    <option value="45">South Dakota</option>
+                    <option value="46">Tennessee</option>
+                    <option value="47">Texas</option>
+                    <option value="48">Utah</option>
+                    <option value="49">Vermont</option>
+                    <option value="50">Virginia</option>
+                    <option value="51">Virgin Islands</option>
+                    <option value="52">Washington</option>
+                    <option value="53">West Virginia</option>
+                    <option value="54">Wisconsin</option>
+                    <option value="55">Wyoming</option>
+                  </select>
+                </div>
+
+                <div className="form-group col-md-2">
+                  <label for="inputZip"><strong>* Zip</strong></label>
+                  <input type="text" className="form-control" id="inputZip" />
+                </div>
+              </div>
+
+              <button type="submit" className="btn btn-primary">Submit</button>
+            </form>
+
+
+
+
+
+              <div className="FooterLinks1">
+                <HelpAndCurrency />
+              </div>
+
+              <div className="FooterLinks2">
+                <AboutLinks />
+              </div>
+
+
               <div className="about-footer">
                 <div className="terms">
                   <p><a href="/terms" target=" blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
                 </div>
                 <div className="copyright">
                   <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
-              </div>
+                </div>
               </div>
 
       </div>
-
+    </div>
+  // </div>
 
     )
   }

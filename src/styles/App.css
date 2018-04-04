@@ -310,31 +310,32 @@ h1 {
   border-top-right-radius: 5px; */
   /* margin-bottom: 20px; */
   /* overflow: hidden; */
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+
   text-align: center;
 }
 
 .left-div {
   display: inline-block;
-  max-width: 300px;
+  max-width: 75%;
   text-align: left;
-  padding: 30px;
+  padding: 10px;
   background-color: #ddd;
   border-radius: 3px;
   /* margin: 15px; */
   vertical-align: top;
+  float: left;
 }
 
 
 .right-div {
-  display: inline-block;
+  /* display: inline-block; */
   /* max-width: 150px; */
   text-align: left;
   padding: 10px;
   background-color: #ddd;
   border-radius: 3px;
   /* margin: 15px; */
+  float: right;
 }
 
 @media screen and (max-width: 600px)
@@ -442,7 +443,7 @@ h1 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  
+
 
 }
 
@@ -1054,29 +1055,30 @@ h1 {
 
 /*---REGISTRATION PAGE STYLES BEGIN---*/
 
-.customer-registration {
+.registration_form {
   border: 1px solid lightgray;
-  padding: 20px;
-  border-radius: 5px;
-  background-color: lightblue;
+  padding: 40px;
+  border-radius: 3px;
+  background-color: darkblue;
   color: white;
-  /* margin-left: 40px;
-  margin-right: 40px; */
-  width: 460px;
+  margin-left: 40px;
+  margin-right: 40px;
+  /* width: 460px; */
   clear: both;
 }
 
 
-.customer-registration input {
+.registration_form input {
   border: 1px solid lightgray;
   width: 100%;
   clear: both;
 }
 
 
-.customer-registration input submit {
+.registration_form submit {
   width: 50%;
   clear: both;
+  color: green;
 }
 
 
