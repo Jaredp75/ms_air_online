@@ -7,7 +7,7 @@ class AboutLinks extends Component {
       <div className="AboutLinks">
         <div className="aspeLink">
             <a href="https://www.aspe.org/" target="_blank" rel="noopener noreferrer">
-              <img src="../aspe_logo.jpg" alt="ASPE.org"/>
+              <img src="../aspe_logo.png" alt="ASPE.org"/>
             </a>
           </div>
           <div className="authorizeLink">

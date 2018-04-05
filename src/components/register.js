@@ -11,60 +11,60 @@ export default class Register extends React.Component {
 
     return(
       <div>
-
         <div className = "content-area-container">
-          <div className ="header-text">
-            <h5>New Customer Registration (* required fields)</h5>
+          <div className = "header-text">
+            <div className= "registration_text"><h3><strong>New Customer Registration</strong></h3>
+            <p>(* required fields)</p>
           </div>
-            <form className="registration_form">
 
+            <form className="registration_form">
               <div className="form-row">
                 <div className="form-group col-md-6">
-                  <label for="inputFirstName"><strong>* First Name</strong></label>
+                  <label className="inputFirstName"><strong>* First Name</strong></label>
                   <input type="text" className="form-control" placeholder="First name" />
                 </div>
 
                   <div className="form-group col-md-6">
-                  <label for="inputLastName"><strong>* Last Name</strong></label>
+                  <label className="inputLastName"><strong>* Last Name</strong></label>
                   <input type="text" className="form-control" placeholder="Last name" />
                 </div>
               </div>
-              <form>
+
               <div className="form-row">
                 <div className="form-group col-md-6">
-                  <label for="inputEmail4"><strong>* Email</strong></label>
+                  <label className="inputEmail4"><strong>* Email</strong></label>
                   <input type="email" className="form-control" id="inputEmail4" placeholder="Email" />
                 </div>
 
                 <div className="form-group col-md-6">
-                  <label for="inputPassword4"><strong>* Password</strong></label>
+                  <label className="inputPassword4"><strong>* Password</strong></label>
                   <input type="password" className="form-control" id="inputPassword4" placeholder="Password" />
                 </div>
               </div>
-            </form>
+
 
               <div className="form-group">
-                <label for="inputAddress"><strong>* Address</strong></label>
+                <label className="inputAddress"><strong>* Address</strong></label>
                 <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
               </div>
 
               <div className="form-group">
-                <label for="inputAddress2"><strong>* Address 2</strong></label>
+                <label className="inputAddress2"><strong>* Address 2</strong></label>
                 <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
               </div>
 
 
               <div className="form-row">
                 <div className="form-group col-md-6">
-                  <label for="inputCity"><strong>* City</strong></label>
+                  <label className="inputCity"><strong>* City</strong></label>
                   <input type="text" className="form-control" id="inputCity" />
                 </div>
 
 
                 <div className="form-group col-md-4">
-                  <label for="inputState"><strong>* State</strong></label>
+                  <label className="inputState"><strong>* State</strong></label>
                   <select id="inputState" className="form-control">
-                    <option selected>Choose...</option>
+                    <option defaultValue>Choose...</option>
                     <option value="1">Alabama</option>
                     <option value="2">Alaska</option>
                     <option value="3">Arizona</option>
@@ -124,39 +124,38 @@ export default class Register extends React.Component {
                 </div>
 
                 <div className="form-group col-md-2">
-                  <label for="inputZip"><strong>* Zip</strong></label>
+                  <label className="inputZip"><strong>* Zip</strong></label>
                   <input type="text" className="form-control" id="inputZip" />
                 </div>
               </div>
 
               <button type="submit" className="btn btn-primary">Submit</button>
             </form>
+          </div>
 
 
 
 
+            <div className="FooterLinks1">
+              <HelpAndCurrency />
+            </div>
 
-              <div className="FooterLinks1">
-                <HelpAndCurrency />
+            <div className="FooterLinks2">
+              <AboutLinks />
+            </div>
+            </div>
+            <div className="about-footer">
+              <div className="terms">
+                <p><a href="/Terms" target=" blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/Privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
               </div>
-
-              <div className="FooterLinks2">
-                <AboutLinks />
+              <div className="copyright">
+                <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
               </div>
+            </div>
 
 
-              <div className="about-footer">
-                <div className="terms">
-                  <p><a href="/terms" target=" blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
-                </div>
-                <div className="copyright">
-                  <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
-                </div>
-              </div>
 
-      </div>
-    </div>
-  // </div>
+  </div>
 
     )
   }

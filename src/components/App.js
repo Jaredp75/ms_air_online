@@ -10,6 +10,7 @@ import OptInForm from '../components/opt-in-form';
 import Login from '../components/login';
 import Register from '../components/register';
 import logo from '../msair100.jpg';
+import movement from '../movement.jpg';
 //import './App.css';
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
 
       <div className="App">
         <div className="header">
+
         <div className="top-header">
           <div className="header header-v1">
             <div className="header-language-background">
@@ -36,7 +38,6 @@ class App extends Component {
           </div>
 
           <div id="top-nav">
-
             <div id="top-links">
               <a className="active" href="myaccount.html">My Account</a>
               <a href="checkout.html">Checkout</a>
@@ -44,50 +45,50 @@ class App extends Component {
               <a href="/login">Login</a>
             </div>
           </div>
+        </div>
 
+        <div className="middle-header">
 
-          </div>
-
-        <div className="midnav">
           <div className="title-wrapper">
             <div className="title-header">
               <div className="app-header">
+                {/* <img src={movement} alt="movement" /> */}
+                <div className="content">
+                <div className="title-header-left-div">
 
-
-
-                <div className="title-header left-div">
-
-                  <div id="app-title">MS <font color="yellow">AIR</font>
+                  <div id="app-title">MS <font color="yellow">AIR</font></div>
                 </div>
-                </div>
-                    <div className="bottom-wrapper">
+              </div>
 
-                      <div className="social-wrapper right-div">
-                        <nav id="social-nav">
-                          <div className="social-header">
-                            <h6>Connect With Us:</h6>
-                          </div>
-                          <div className="social-icons">
+                  <div className="title-header-right-div">
+                    <div className="social-wrapper right-div">
+                      <nav id="social-nav">
+                        <div className="social-header">
+                          <h6>Connect With Us:</h6>
+                        </div>
 
-                                <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fab fa-facebook-square fa-2x"></i></a>
+                        <div className="social-icons">
+                          <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank">
+                          <i className="fab fa-facebook-f fa-2x"></i></a>
 
-                              <a href="https://www.twitter.com"  rel="noopener noreferrer" target="_blank">
-                                <i className="fab fa-twitter-square fa-2x"></i></a>
+                          <a href="https://www.twitter.com"  rel="noopener noreferrer" target="_blank">
+                          <i className="fab fa-twitter fa-2x"></i></a>
 
-                                <a href="https://www.linkedin.com/company/ms-air/" rel="noopener noreferrer" target="_blank">
-                                  <i className="fab fa-linkedin fa-2x"></i></a>
+                          <a href="https://www.linkedin.com/company/ms-air/" rel="noopener noreferrer" target="_blank">
+                          <i className="fab fa-linkedin-in fa-2x"></i></a>
 
-                                <a href="mailto:msaironline@msaironline.com" rel="noopener noreferrer" target="_blank">
-                                  <i className="fas fa-envelope-square fa-2x"></i></a>
-                          </div>
-                        </nav>
+                          <a href="mailto:msaironline@msaironline.com" rel="noopener noreferrer" target="_blank">
+                          <i className="fas fa-envelope fa-2x"></i></a>
+                        </div>
+                      </nav>
+
+
                     <div className="checkout-wrapper">
                       <div className="checkout">
                         <a href="/viewcart" className="btn btn-info btn-lg">
                           <span className="glyphicon glyphicon-shopping-cart"></span>
                             Shopping Cart
-                              <i className="fas fa-shopping-cart"></i>
+                              <i className="fas fa-shopping-cart fa-2x"></i>
                         </a>
                       </div>
                     </div>
@@ -95,17 +96,21 @@ class App extends Component {
                 </div>
 
 
-                <div className="app-tagline"><h5><strong>Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</strong></h5></div>
-              </div>
+                {/* <div className="app-tagline">
+                  <h5>Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</h5></div> */}
+                </div>
 
           </div>
         </div>
+      </div>
+      </div>
 
 
-          <div className="searchnav">
+          <div className="bottom-header">
             <a className="active" href="/">Home</a>
             <a href="/viewcart">View Cart <i className="fas fa-shopping-cart"></i></a>
             <a href="/about">About Us</a>
+
             <div className="search-container">
               <form action="/action_page.php">
                 <input type="text" placeholder="Search.." name="search"></input>
@@ -113,23 +118,24 @@ class App extends Component {
               </form>
             </div>
           </div>
-        </div>
-        </div>
 
-        <BrowserRouter>
-          <Baselayout>
-            <Switch>
-              <Route exact path ="/" component={Home}/>
-              <Route path ="/about" component={About}/>
-              <Route path="/terms" component={TermsOfUse}/>
-              <Route path="/privacy" component={PrivacyPolicy}/>
-              <Route path="/opt-in-form" component={OptInForm}/>
-              <Route path="/login" component={Login}/>
-              <Route path="/register" component={Register}/>
-            </Switch>
-          </Baselayout>
-        </BrowserRouter>
-        </div>
+
+
+
+      <BrowserRouter>
+        <Baselayout>
+          <Switch>
+            <Route exact path ="/" component={Home}/>
+            <Route path ="/about" component={About}/>
+            <Route path="/terms" component={TermsOfUse}/>
+            <Route path="/privacy" component={PrivacyPolicy}/>
+            <Route path="/opt-in-form" component={OptInForm}/>
+            <Route path="/login" component={Login}/>
+            <Route path="/register" component={Register}/>
+          </Switch>
+        </Baselayout>
+      </BrowserRouter>
+      </div>
     );
   }
 }

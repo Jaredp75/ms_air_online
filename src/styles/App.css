@@ -252,6 +252,7 @@ h1 {
 
 .header {
   overflow: hidden;
+  background: image("../public/movement.jpg");
 }
 
 
@@ -289,11 +290,12 @@ h1 {
 
 #app-title {
   text-shadow: 3px 3px 4px black;
-  font-size: 100px;
+  font-size:175px;
   /* display: inline-block;
   float: none; */
   font-style: italic;
   /* overflow: hidden; */
+  margin-left: 50px;
 }
 
 
@@ -314,29 +316,24 @@ h1 {
   text-align: center;
 }
 
-.left-div {
+/* .left-div {
   display: inline-block;
-  max-width: 75%;
+
   text-align: left;
-  padding: 10px;
-  background-color: #ddd;
+  padding: 20px;
   border-radius: 3px;
-  /* margin: 15px; */
+
   vertical-align: top;
   float: left;
 }
 
 
 .right-div {
-  /* display: inline-block; */
-  /* max-width: 150px; */
-  text-align: left;
-  padding: 10px;
-  background-color: #ddd;
+
+  padding: 5px;
   border-radius: 3px;
-  /* margin: 15px; */
   float: right;
-}
+} */
 
 @media screen and (max-width: 600px)
 {
@@ -379,6 +376,8 @@ h1 {
   flex-direction: column-reverse;
   align-items: center;
   overflow: hidden;
+  margin-top: 40px;
+  margin-right: 100px;
 }
 
 
@@ -400,28 +399,38 @@ h1 {
 
 #social-nav {
   /* vertical-align: middle; */
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 11px;
-  padding-right: 11px;
+  /* padding-top: 8px;
+  padding-bottom: 8px; */
+  /* padding-left: 8px;
+  padding-right: 8px; */
   display: inline-block;
   display: inline;
   align-content: center;
-  margin: 10px;
-  border: 1px solid blue;
-  border-radius: 5%;
-  background-color: black;
-  color: white;
-
+  margin-left: 5px;
+  border: 1px solid darkgray;
+  border-radius: 3%;
+  background-color: green;
+  color: yellow;
+  padding: 5px;
+  text-align: center;
 }
 
-
+.social-header {
+  color: white;
+}
 
 .checkout-wrapper {
   display: flex;
   padding: 5px;
   justify-content: center;
+
 }
+
+
+.checkout a {
+  background-color: green;
+}
+
 
 .bottom-wrapper {
   display: inline-block;
@@ -521,33 +530,30 @@ h1 {
   /* height: 150px; */
   color: blue;
   /* margin-bottom: 20px; */
-  display: inline-block;
+  /* display: inline-block; */
 
   /* font-style: italic; */
-  align-content: center;
-  margin-bottom: 20px;
-  overflow: hidden;
+  /* align-content: center; */
+  /* margin-bottom: 20px; */
+  /* overflow: hidden; */
 }
 
 
-.title-header {
-  display: flex;
-  flex-direction: row;
-  float: none;
+.title-header-left-div {
+  /* display: flex;
+  flex-direction: row; */
   font-family: 'quantumregular';
   font-weight: bold;
-
   text-align: center;
-
   color: green;
-
-  width: 100%;
-  justify-content: center;
-
+  /* justify-content: center; */
+  float: left;
 }
 
 
-
+.title-header-right-div {
+  float: right;
+}
 
 
 
@@ -558,10 +564,10 @@ h1 {
   /* font-style: italic; */
   text-align: center;
   color: blue;
-  margin-top: 30px;
+  /* margin-top: 30px;
   margin-bottom: 40px;
   margin-left: 40px;
-  margin-right: 40px;
+  margin-right: 40px; */
 }
 
 
@@ -636,48 +642,52 @@ h1 {
 
 
 
-.searchnav {
+.bottom-header {
   overflow: hidden;
   background-color: black;
-  border-radius: 5px;
+  border-radius: 2px;
   color: white;
   font-weight: bold;
   margin-bottom: 50px;
   font-size: 1.5em;
+
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 
-.searchnav a {
+.bottom-header a {
   float: left;
   display: block;
   color: green;
-  text-align: center;
+  /* text-align: center; */
   padding: 14px 16px;
   text-decoration: none;
   /* font-size: 17px; */
 }
 
-.searchnav a:hover {
+.bottom-header a:hover {
   background-color: green;
   color: white;
 }
 
-.searchnav a.active {
+.bottom-header a.active {
   /* background-color: pink; */
   /* color: white; */
 }
 
-.searchnav .search-container {
+.bottom-header .search-container {
   float: right;
 }
 
-.searchnav input[type=text] {
+.bottom-header input[type=text] {
   padding: 6px;
   margin-top: 8px;
   /* font-size: 17px; */
   border: none;
 }
 
-.searchnav .search-container button {
+.bottom-header .search-container button {
   float: right;
   padding: 6px 10px;
   margin-top: 8px;
@@ -688,17 +698,17 @@ h1 {
   cursor: pointer;
 }
 
-.searchnav .search-container button:hover {
+.bottom-header .search-container button:hover {
   background: yellow;
 }
 
 @media screen and (max-width: 600px) {
-  .searchnav, .search-container {
+  .bottom-header, .search-container {
     float: none;
     display: block;
     width: 100%;
   }
-  .searchnav a, .searchnav input[type=text], .searchnav .search-container button {
+  .bottom-header a, .searchnav input[type=text], .bottom-header .search-container button {
     float: none;
     display: block;
     text-align: center;
@@ -706,7 +716,7 @@ h1 {
     margin: 0;
     padding: 14px;
   }
-  .searchnav input[type=text] {
+  .bottom-header input[type=text] {
     border: 1px solid #ccc;
   }
 }
@@ -716,27 +726,12 @@ h1 {
 
 
 
-.title-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-
-.social-icons {
-
-
-
-
-
-}
-
 
 
 .social-icons a {
   display: inline-block;
-
-  padding-right: 10px;
+  color: yellow;
+  padding: 10px;
   border-radius: 50%;
 }
 
@@ -1055,6 +1050,13 @@ h1 {
 
 /*---REGISTRATION PAGE STYLES BEGIN---*/
 
+.registration_text h3 {
+  text-align: center;
+  /* display: flex;
+  flex-direction: row;
+  text-align: center; */
+}
+
 .registration_form {
   border: 1px solid lightgray;
   padding: 40px;
@@ -1076,26 +1078,7 @@ h1 {
 
 
 .registration_form submit {
-  width: 50%;
+  /* width: 50%; */
   clear: both;
   color: green;
-}
-
-
-
-
-
-.customer-registration form {
-  justify-content: space-between;
-  text-align: center;
-}
-
-
-
-
-.customer-registration #state {
-  border: 1px solid lightgray;
-  width: 100%;
-  clear: both;
-
 }
