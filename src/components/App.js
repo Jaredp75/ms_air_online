@@ -13,6 +13,7 @@ import logo from '../msair100.jpg';
 import movement from '../movement.jpg';
 //import './App.css';
 
+
 class App extends Component {
   render() {
     return (
@@ -21,15 +22,12 @@ class App extends Component {
         <div className="header">
 
         <div className="top-header">
+
           <div className="header header-v1">
             <div className="header-language-background">
               <div className="wrap-container">
                 <div className="header-wrap">
-
                   <div id="welcome-msg">
-                    {/* <div id="App-logo">
-                      <img src={logo} alt="logo" />
-                    </div> */}
                     <strong>CALL NOW: 1-877-MSAIR99</strong>
                   </div>
                 </div>
@@ -47,6 +45,7 @@ class App extends Component {
           </div>
         </div>
 
+
         <div className="middle-header">
 
           <div className="title-wrapper">
@@ -55,10 +54,10 @@ class App extends Component {
                 {/* <img src={movement} alt="movement" /> */}
                 <div className="content">
                 <div className="title-header-left-div">
-
-                  <div id="app-title">MS <font color="yellow">AIR</font></div>
+                  <div id="app-title">MS <font color="yellow">AIR</font>
+                    <div><p>Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</p></div>
+                  </div>
                 </div>
-              </div>
 
                   <div className="title-header-right-div">
                     <div className="social-wrapper right-div">
@@ -69,13 +68,13 @@ class App extends Component {
 
                         <div className="social-icons">
                           <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank">
-                          <i className="fab fa-facebook-f fa-2x"></i></a>
+                          <i className="fab fa-facebook-square fa-2x"></i></a>
 
                           <a href="https://www.twitter.com"  rel="noopener noreferrer" target="_blank">
-                          <i className="fab fa-twitter fa-2x"></i></a>
+                          <i className="fab fa-twitter-square fa-2x"></i></a>
 
                           <a href="https://www.linkedin.com/company/ms-air/" rel="noopener noreferrer" target="_blank">
-                          <i className="fab fa-linkedin-in fa-2x"></i></a>
+                          <i className="fab fa-linkedin fa-2x"></i></a>
 
                           <a href="mailto:msaironline@msaironline.com" rel="noopener noreferrer" target="_blank">
                           <i className="fas fa-envelope fa-2x"></i></a>
@@ -87,13 +86,14 @@ class App extends Component {
                       <div className="checkout">
                         <a href="/viewcart" className="btn btn-info btn-lg">
                           <span className="glyphicon glyphicon-shopping-cart"></span>
-                            Shopping Cart
+                            <p>Shopping Cart</p>
                               <i className="fas fa-shopping-cart fa-2x"></i>
                         </a>
                       </div>
                     </div>
                   </div>
                 </div>
+
 
 
                 {/* <div className="app-tagline">
@@ -103,9 +103,9 @@ class App extends Component {
           </div>
         </div>
       </div>
-      </div>
 
-
+    </div>
+</div>
           <div className="bottom-header">
             <a className="active" href="/">Home</a>
             <a href="/viewcart">View Cart <i className="fas fa-shopping-cart"></i></a>

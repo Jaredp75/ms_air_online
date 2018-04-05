@@ -114,6 +114,8 @@
   height: 100%;
   background-color: lightgrey;
   padding: 40px;
+
+
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -221,14 +223,25 @@ h1 {
 
 .row {
   display: flex;
+
+
 }
 
-.column {
-  float: left;
-  position: relative;
-  margin-right: 20px;
-  padding: 10px;
+
+.left-half {
+  /* background-color: #ff9e2c; */
+  flex: 1;
+  padding: 1rem;
 }
+
+.right-half {
+  /* background-color: #b6701e; */
+  flex: 1;
+  padding: 1rem;
+}
+
+
+.
 
 .row:after {
   content: " ";
@@ -236,23 +249,14 @@ h1 {
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
 
 
 /*------TOP HEADER STYLES------*/
 
-
-
-
-
-
 .header {
   overflow: hidden;
-  background: image("../public/movement.jpg");
+  /* background: image("../public/movement.jpg"); */
+  background-image: url('/air_compressor.jpg');
 }
 
 
@@ -274,10 +278,6 @@ h1 {
     margin-right: 0;
     width: auto;
   }
-
-
-
-
 }
 
 
@@ -296,9 +296,19 @@ h1 {
   font-style: italic;
   /* overflow: hidden; */
   margin-left: 50px;
+
 }
 
 
+#app-title p {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  text-shadow: 0px 0px 0px black;
+  vertical-align: top;
+  font-style: normal;
+  margin-bottom: 40px;
+}
 
 
 
@@ -423,12 +433,16 @@ h1 {
   display: flex;
   padding: 5px;
   justify-content: center;
-
+  margin-bottom: 40px;
 }
 
 
 .checkout a {
   background-color: green;
+}
+
+.checkout a:hover {
+  background-color: gray;
 }
 
 
@@ -452,7 +466,7 @@ h1 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-
+  background-color: black;
 
 }
 
@@ -528,7 +542,7 @@ h1 {
 
 .app-header {
   /* height: 150px; */
-  color: blue;
+  /* color: blue; */
   /* margin-bottom: 20px; */
   /* display: inline-block; */
 
@@ -730,14 +744,18 @@ h1 {
 
 .social-icons a {
   display: inline-block;
-  color: yellow;
+  color: blue;
   padding: 10px;
-  border-radius: 50%;
+  /* border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: gray; */
+  vertical-align: baseline;
 }
 
 
 .social-icons a:hover {
-  color: white;
+  color: yellow;
 }
 
 
@@ -890,27 +908,34 @@ h1 {
 
 
 .top-brands {
-  display: inline-block;
-  flex-direction: column;
-  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
   margin: 80px;
   margin-top: 40px;
   margin-bottom: 40px;
-
-
-
+  /* column-count: 2; */
 }
 
 
+/* .top-brands-left-div {
+  float: left;
+}
+
+
+.top-brands-right-div {
+  float: right;
+} */
+
 .brand-logo {
   margin:5px 5px 5px 5px;
-  float: left;
+  /* float: left; */
   vertical-align: middle;
   padding-right: 20px;
 }
 
 .brand-logo img {
-
+  float: left;
 }
 
 
