@@ -9,6 +9,8 @@ import PrivacyPolicy from '../components/privacy';
 import OptInForm from '../components/opt-in-form';
 import Login from '../components/login';
 import Register from '../components/register';
+import MyAccount from '../components/myaccount';
+import Checkout from '../components/checkout';
 import logo from '../msair100.jpg';
 import movement from '../movement.jpg';
 //import './App.css';
@@ -37,8 +39,8 @@ class App extends Component {
 
           <div id="top-nav">
             <div id="top-links">
-              <a className="active" href="myaccount.html">My Account</a>
-              <a href="checkout.html">Checkout</a>
+              <a className="active" href="/myaccount">My Account</a>
+              <a href="/checkout">Checkout</a>
               <a href="/register">Register</a>
               <a href="/login">Login</a>
             </div>
@@ -132,6 +134,8 @@ class App extends Component {
             <Route path="/opt-in-form" component={OptInForm}/>
             <Route path="/login" component={Login}/>
             <Route path="/register" component={Register}/>
+            <Route path="/myaccount" component={MyAccount}/>
+            <Route path="/checkout" component={Checkout}/>
           </Switch>
         </Baselayout>
       </BrowserRouter>

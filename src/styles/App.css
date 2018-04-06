@@ -135,6 +135,7 @@
     float: none;
     display: block;
     width: 100%;
+    color: white;
   }
 
 
@@ -315,7 +316,7 @@ h1 {
 .top-header {
   display: flex;
   flex-direction: row;
-  background-color: black;
+  background-color: #2C3E50;
   justify-content: space-between;
   color: white;
   /* border-top-left-radius: 5px;
@@ -442,7 +443,7 @@ h1 {
 }
 
 .checkout a:hover {
-  background-color: gray;
+  background-color: #59ABE3;
 }
 
 
@@ -466,12 +467,12 @@ h1 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: black;
-
+  background-color: #2C3E50;
+  color: yellow;
 }
 
 #welcome-msg:hover {
-  color: yellow;
+  color: #ECECEC;
 }
 
 
@@ -494,7 +495,7 @@ h1 {
 #top-nav a {
   float: left;
   display: block;
-  color: green;
+  color: #ECECEC;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -658,7 +659,7 @@ h1 {
 
 .bottom-header {
   overflow: hidden;
-  background-color: black;
+  background-color: #2C3E50;
   border-radius: 2px;
   color: white;
   font-weight: bold;
@@ -673,7 +674,7 @@ h1 {
 .bottom-header a {
   float: left;
   display: block;
-  color: green;
+  color: #ECECEC;
   /* text-align: center; */
   padding: 14px 16px;
   text-decoration: none;
@@ -744,7 +745,7 @@ h1 {
 
 .social-icons a {
   display: inline-block;
-  color: blue;
+  color: #6BB9F0;
   padding: 10px;
   /* border-radius: 50%;
   height: 50px;
@@ -1086,10 +1087,10 @@ h1 {
   border: 1px solid lightgray;
   padding: 40px;
   border-radius: 3px;
-  background-color: darkblue;
+  background-color: #67809F;
   color: white;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
   /* width: 460px; */
   clear: both;
 }
