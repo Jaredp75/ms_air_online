@@ -978,3 +978,93 @@ h1 {
   clear: both;
   color: green;
 }
+
+
+
+
+/* -- Contact Us Page Styling -- */
+
+.phone-container {
+  border: 1px solid black;
+  width: 75%;
+  margin-bottom: 60px;
+}
+
+
+.mailing-container {
+  border: 1px solid black;
+  width: 75%;
+  margin-bottom: 60px;
+}
+
+
+.email-container {
+  border: 1px solid black;
+  width: 75%;
+  margin-bottom: 60px;
+}
+
+.contact-header-text {
+  padding: 20px;
+}
+
+
+.telephone-header {
+  background-color: #2C3E50;
+  color: white;
+  padding: 20px;
+}
+
+
+.telephone-header:hover {
+  background-color: green;
+}
+
+
+.phone-details {
+  background-color: darkgray;
+  padding: 20px;
+}
+
+
+.mailing-address-header {
+  background-color: #2C3E50;
+  color: white;
+  padding: 20px;
+}
+
+
+.mailing-address-header:hover {
+  background-color: green;
+}
+
+.address-details {
+  background-color: darkgray;
+  padding: 20px;
+  padding-bottom: 55px;
+}
+
+
+.email-form-header {
+  background-color: #2C3E50;
+  color: white;
+  padding: 20px;
+}
+
+.email-form-header:hover {
+  background-color: green;
+}
+
+
+.email-details {
+  background-color: darkgray;
+  padding: 20px;
+}
+
+.email-disclaimer p {
+  text-align: left;
+}
+
+.contact-button {
+  margin-top: 20px;
+}
