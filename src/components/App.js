@@ -114,6 +114,7 @@ class App extends Component {
             <a className="active" href="/">Home</a>
             <a href="/viewcart">View Cart <i className="fas fa-shopping-cart"></i></a>
             <a href="/about">About Us</a>
+            <a href="/contact_us">Contact Us</a>
 
             <div className="search-container">
               <form action="/action_page.php">

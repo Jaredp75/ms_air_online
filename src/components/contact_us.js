@@ -34,24 +34,26 @@ export default class ContactUs extends React.Component {
           <h2 className="email-header">Contact Us:</h2>
           <form className="contact-form">
             <div className="form-row">
-              <div className="form-group col-md-6">
+              <div className="form-group col-md-12">
                 <label className="inputName"><strong>* Name: </strong></label>
                 <input type="text" className="form-control" placeholder="name"></input>
               </div>
-              <div className="form-group col-md-6">
+              <div className="form-group col-md-12">
                 <label className="inputEmail4"><strong>* Email: </strong></label>
                 <input type="email" className="form-control" id="inputEmail4" placeholder="Email" />
               </div>
-              <div className="form-group col-md-6">
+              <div className="form-group col-md-12">
                 <label className="inputPhone"><strong>Phone:</strong></label>
                 <input type="tel" className="form-control" id="inputPhone" placeholder="Phone" />
               </div>
-              <div className="form group col-md-6">
+              <div className="form group col-md-12">
                 <label className="inputMessage"><strong>Message:</strong></label>
                 <input type="text" className="form-control" id="inputMessage" placeholder="Message" />
               </div>
+              <div className="contact-button">
+                <button type="submit" className="btn btn-primary">Submit</button>
+              </div>
 
-              <button type="submit" className="btn btn-primary">Submit</button>
             </div>
           </form>
 
