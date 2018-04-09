@@ -12,8 +12,8 @@ import Register from '../components/register';
 import MyAccount from '../components/myaccount';
 import Checkout from '../components/checkout';
 import ProductLines from '../components/product_lines';
-import logo from '../msair100.jpg';
-import movement from '../movement.jpg';
+// import logo from '../msair100.jpg';
+// import movement from '../movement.jpg';
 //import './App.css';
 
 

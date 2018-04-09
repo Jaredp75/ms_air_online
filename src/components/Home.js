@@ -1,38 +1,94 @@
 import React from "react";
 import {Link} from 'react-router-dom';
+// import PropTypes from 'prop-types';
+// import { bindActionCreators } from 'redux';
+// import { connect } from 'react-redux';
 // import FooterLinks from './footer-links/footer-links.js';
 import AboutLinks from './footer-links/about-links.js';
 import HelpAndCurrency from './help-and-currency.js';
 
 export default class Home extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      orgInfo:[],
-      tourList:[]
-    }
-    this.componentDidMount = this.componentDidMount.bind(this);
-  }
+  // constructor(props){
+  //   super(props);
+  //   this.state = {
+  //     error: null,
+  //     isLoaded: false,
+  //     category:[]
+  //   }
+  //   this.componentDidMount = this.componentDidMount.bind(this);
+  // }
 
-  componentDidMount(){
-    fetch('http://www.msaironline.com/qa1/api/category.php').then(results =>{
-      return results.json();
-    }).then(data=>{
-      this.setState({orgInfo: data.organization});
-      this.setState({tourList: data.organization.tours})
-    })
-  }
+  // componentDidMount(){
+  //   fetch('http://www.msaironline.com/qa1/api/category.php')
+  //     .then(res => res.json())
+  //     .then(
+  //       (result) => {
+  //         this.setState({
+  //           isLoaded: true,
+  //           category: result.category
+  //         });
+  //       },
+  //       (error) => {
+  //         this.setState({
+  //           isLoaded: true,
+  //           error
+  //         });
+  //       }
+  //     )
+  //   }
+
+  //   render() {
+  //     const { error, isLoaded, category } = this.state;
+  //     if (error) {
+  //       return<div>Error: {error.message}</div>;
+  //     } else if (!isLoaded) {
+  //       return <div>Loading...</div>;
+  //     } else {
+  //       return (
+  //         {category.map(category => (
+  //           <div className="category_listing">
+  //             <p>Category</p>
+  //             <h4 className="category">{category.taxName}</h4>
+  //           </div>
+  //         ))},
+  //       );
+  //     }
+  //   }
+  // }
+  //
+  // Category.propTypes = {
+  //   category: PropTypes.array,
+  //   actions: PropTypes.object
+  // };
+  //
+  // function mapStateToProps(state) {
+  //   return {
+  //     ...state.category
+  //   };
+  // }
+  //
+  // function mapDispatchToProps(dispatch) {
+  //   return { actions: bindActionCreators(actionCreators, dispatch) };
+  // }
+  //
+  // export default connect(mapStateToProps, mapDispatchToProps)(category);
+  //     return results.json();
+  //   }).then(data=>{
+  //     this.setState({orgInfo: data.organization});
+  //     this.setState({tourList: data.organization.tours})
+  //   })
+  // }
 
   render(){
-    console.log(this.state.orgInfo)
-    console.log(this.state.tourList)
+    // console.log(this.state.category)
+    // console.log(this.state.taxName)
     return(
       <div>
         <div className = "content-area-container">
-          <div className = "tour-main-text">
+          {/* <div className = "tour-main-text">
             <div><h1>{this.state.orgInfo.display_name}</h1></div>
             <div><h2>{this.state.orgInfo.description}</h2></div>
-          </div>
+          </div> */}
           <p>Having trouble locating a part? Contact us using our web submission form <a href="http://www.msaironline.com/contact/contact.php?linkid=message" target="_blank" rel="noopener noreferrer">here</a>. Or call <strong>1-877-MSAIR99</strong>.</p>
 
           <div className="row">
@@ -177,7 +233,7 @@ export default class Home extends React.Component {
           <h3>TOP SELLERS</h3>
         </div>
 
-        <div className = "tours-wrapper">
+        {/* <div className = "tours-wrapper">
         {this.state.tourList.map( (tour) => {
           return <div className = "tour-item" key={tour.tour_id}>
             <Link to={`/tours/${tour.tour_id}`}>
@@ -189,7 +245,7 @@ export default class Home extends React.Component {
           </div>
         })}
 
-</div>
+</div> */}
 
 
 

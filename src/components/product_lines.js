@@ -5,6 +5,26 @@ import AboutLinks from './footer-links/about-links.js';
 
 export default class ProductLines extends React.Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      error: null,
+      isLoaded: false,
+      category: []
+    };
+  }
+
+
+  componentDidMount() {
+    fetch('')
+  }
+
+
+
+
+
+
+
   render(){
 
     return(
