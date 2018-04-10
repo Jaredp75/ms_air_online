@@ -1068,3 +1068,45 @@ h1 {
 .contact-button {
   margin-top: 20px;
 }
+
+
+/* --- Top Sellers Section (Home) --- */
+
+.top-sellers {
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 2px;
+}
+
+
+.product_listing {
+  display: inline-flex;
+  flex-direction: row;
+  /* border-right: 1px solid #2C3E50; */
+  margin: 20px;
+  padding: 10px;
+  justify-content: center;
+
+}
+
+
+.product_entry {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+.product-image {
+  float: left;
+  padding-right: 7px;
+}
+
+.product-details {
+  float: none;
+}
+
+
+.product-savings {
+  color: green;
+}

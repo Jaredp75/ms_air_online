@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 // import { bindActionCreators } from 'redux';
 // import { connect } from 'react-redux';
 // import FooterLinks from './footer-links/footer-links.js';
+import placeholder from '../img/compressor_placeholder.jpg';
 import AboutLinks from './footer-links/about-links.js';
 import HelpAndCurrency from './help-and-currency.js';
 
@@ -229,9 +230,209 @@ export default class Home extends React.Component {
           </div>
 
 
-        <div className = "select-a-tour">
+        <div className="top-sellers">
           <h3>TOP SELLERS</h3>
         </div>
+        <div className="product_listing">
+          <div className="product_entry">
+          {/* <div className="product-image">
+            <img src={ placeholder } alt="product-placeholder"></img>
+          </div>
+          <div className="product-details">
+            <h2 className="product-title">{.} {.}</h2>
+            <h4 className="product-suggested-retail-price">{.}</h4>
+            <h4 className="product-savings">Savings: {.}</h4>
+            <h4 className="product-actual-price">{.}</h4>
+          </div> */}
+
+
+          <div className="product-image">
+            <img src={ placeholder } alt="product-placeholder"></img>
+          </div>
+          <div className="product-details">
+            <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
+            <h6 className="product-suggested-retail-price">$0.00</h6>
+            <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
+            <h6 className="product-actual-price"><strong>$0.00</strong></h6>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="product_listing">
+        <div className="product_entry">
+        {/* <div className="product-image">
+          <img src={ placeholder } alt="product-placeholder"></img>
+        </div>
+        <div className="product-details">
+          <h2 className="product-title">{.} {.}</h2>
+          <h4 className="product-suggested-retail-price">{.}</h4>
+          <h4 className="product-savings">Savings: {.}</h4>
+          <h4 className="product-actual-price">{.}</h4>
+        </div> */}
+
+
+        <div className="product-image">
+          <img src={ placeholder } alt="product-placeholder"></img>
+        </div>
+        <div className="product-details">
+          <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
+          <h6 className="product-suggested-retail-price">$0.00</h6>
+          <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
+          <h6 className="product-actual-price"><strong>$0.00</strong></h6>
+        </div>
+      </div>
+    </div>
+
+    <div className="product_listing">
+      <div className="product_entry">
+      {/* <div className="product-image">
+        <img src={ placeholder } alt="product-placeholder"></img>
+      </div>
+      <div className="product-details">
+        <h2 className="product-title">{.} {.}</h2>
+        <h4 className="product-suggested-retail-price">{.}</h4>
+        <h4 className="product-savings">Savings: {.}</h4>
+        <h4 className="product-actual-price">{.}</h4>
+      </div> */}
+
+
+      <div className="product-image">
+        <img src={ placeholder } alt="product-placeholder"></img>
+      </div>
+      <div className="product-details">
+        <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
+        <h6 className="product-suggested-retail-price">$0.00</h6>
+        <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
+        <h6 className="product-actual-price"><strong>$0.00</strong></h6>
+      </div>
+    </div>
+  </div>
+
+  <div className="product_listing">
+    <div className="product_entry">
+    {/* <div className="product-image">
+      <img src={ placeholder } alt="product-placeholder"></img>
+    </div>
+    <div className="product-details">
+      <h2 className="product-title">{.} {.}</h2>
+      <h4 className="product-suggested-retail-price">{.}</h4>
+      <h4 className="product-savings">Savings: {.}</h4>
+      <h4 className="product-actual-price">{.}</h4>
+    </div> */}
+
+
+    <div className="product-image">
+      <img src={ placeholder } alt="product-placeholder"></img>
+    </div>
+    <div className="product-details">
+      <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
+      <h6 className="product-suggested-retail-price">$0.00</h6>
+      <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
+      <h6 className="product-actual-price"><strong>$0.00</strong></h6>
+    </div>
+  </div>
+</div>
+
+<div className="product_listing">
+  <div className="product_entry">
+  {/* <div className="product-image">
+    <img src={ placeholder } alt="product-placeholder"></img>
+  </div>
+  <div className="product-details">
+    <h2 className="product-title">{.} {.}</h2>
+    <h4 className="product-suggested-retail-price">{.}</h4>
+    <h4 className="product-savings">Savings: {.}</h4>
+    <h4 className="product-actual-price">{.}</h4>
+  </div> */}
+
+
+  <div className="product-image">
+    <img src={ placeholder } alt="product-placeholder"></img>
+  </div>
+  <div className="product-details">
+    <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
+    <h6 className="product-suggested-retail-price">$0.00</h6>
+    <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
+    <h6 className="product-actual-price"><strong>$0.00</strong></h6>
+  </div>
+</div>
+</div>
+
+<div className="product_listing">
+  <div className="product_entry">
+  {/* <div className="product-image">
+    <img src={ placeholder } alt="product-placeholder"></img>
+  </div>
+  <div className="product-details">
+    <h2 className="product-title">{.} {.}</h2>
+    <h4 className="product-suggested-retail-price">{.}</h4>
+    <h4 className="product-savings">Savings: {.}</h4>
+    <h4 className="product-actual-price">{.}</h4>
+  </div> */}
+
+
+  <div className="product-image">
+    <img src={ placeholder } alt="product-placeholder"></img>
+  </div>
+  <div className="product-details">
+    <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
+    <h6 className="product-suggested-retail-price">$0.00</h6>
+    <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
+    <h6 className="product-actual-price"><strong>$0.00</strong></h6>
+  </div>
+</div>
+</div>
+
+<div className="product_listing">
+  <div className="product_entry">
+  {/* <div className="product-image">
+    <img src={ placeholder } alt="product-placeholder"></img>
+  </div>
+  <div className="product-details">
+    <h2 className="product-title">{.} {.}</h2>
+    <h4 className="product-suggested-retail-price">{.}</h4>
+    <h4 className="product-savings">Savings: {.}</h4>
+    <h4 className="product-actual-price">{.}</h4>
+  </div> */}
+
+
+  <div className="product-image">
+    <img src={ placeholder } alt="product-placeholder"></img>
+  </div>
+  <div className="product-details">
+    <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
+    <h6 className="product-suggested-retail-price">$0.00</h6>
+    <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
+    <h6 className="product-actual-price"><strong>$0.00</strong></h6>
+  </div>
+</div>
+</div>
+
+<div className="product_listing">
+  <div className="product_entry">
+  {/* <div className="product-image">
+    <img src={ placeholder } alt="product-placeholder"></img>
+  </div>
+  <div className="product-details">
+    <h2 className="product-title">{.} {.}</h2>
+    <h4 className="product-suggested-retail-price">{.}</h4>
+    <h4 className="product-savings">Savings: {.}</h4>
+    <h4 className="product-actual-price">{.}</h4>
+  </div> */}
+
+
+  <div className="product-image">
+    <img src={ placeholder } alt="product-placeholder"></img>
+  </div>
+  <div className="product-details">
+    <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
+    <h6 className="product-suggested-retail-price">$0.00</h6>
+    <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
+    <h6 className="product-actual-price"><strong>$0.00</strong></h6>
+  </div>
+</div>
+</div>
 
         {/* <div className = "tours-wrapper">
         {this.state.tourList.map( (tour) => {
@@ -256,7 +457,7 @@ export default class Home extends React.Component {
 <div className="FooterLinks2">
   <AboutLinks />
 </div>
-    </div>
+</div>
 
       <div className="about-footer">
         <div className="terms">
