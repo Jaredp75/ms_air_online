@@ -119,7 +119,7 @@ export default class Home extends React.Component {
 
             <div className = "top-brands">
               <div className = "brand-logo">
-                <img src="../zeks_logo.jpg" alt="Zeks logo"/>
+                <img src="../zeks_logo.png" alt="Zeks logo"/>
               </div>
               <div className="brand-text">
                 <a href='store/store.php?cat=233&linkid=homemenu'><b>Zeks</b></a><br></br>
