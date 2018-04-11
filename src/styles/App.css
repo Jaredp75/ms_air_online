@@ -503,6 +503,7 @@ h1 {
   background: green;
   border: none;
   cursor: pointer;
+  color: black;
 }
 
 
@@ -773,6 +774,11 @@ h1 {
   justify-content: center;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+
+.FooterLinks1 {
+  margin-left: 80px;
 }
 
 
@@ -1109,4 +1115,69 @@ h1 {
 
 .product-savings {
   color: green;
+}
+
+
+
+
+
+/* --- Individual Product Page --- */
+
+.individual_product_listing {
+  display: flex;
+  flex-direction: row;
+  /* border-right: 1px solid #2C3E50; */
+  margin: 20px;
+  /* padding: 10px; */
+  /* justify-content: center; */
+  margin-top: 0;
+}
+
+
+.quantityBox {
+  width: 40px;
+  /* margin: 40px auto; */
+
+}
+
+
+.individual_product_entry {
+
+  /* justify-content: center; */
+}
+
+
+.individual-product-details {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.individual-product-savings {
+  color: green;
+}
+
+
+.individual-product-description p {
+  text-align: left;
+}
+
+
+.quantity-input-group {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+
+.add-to-cart input {
+  /* margin: 40px; */
+  margin-left: 170px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
 }

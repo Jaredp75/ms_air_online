@@ -7,6 +7,7 @@ import {Link} from 'react-router-dom';
 import placeholder from '../img/compressor_placeholder.jpg';
 import AboutLinks from './footer-links/about-links.js';
 import HelpAndCurrency from './help-and-currency.js';
+// import QuantityBox from './quantity_box.js';
 
 export default class Home extends React.Component {
   // constructor(props){
@@ -96,7 +97,7 @@ export default class Home extends React.Component {
             <div className="left-half">
             <div className = "top-brands">
               <div className = "brand-logo">
-                <img src="../trident_logo.jpg" alt="Trident logo"/>
+                <img src="../trident_pneumatics.png" alt="Trident logo"/>
               </div>
               <div className="brand-text">
                 <a href='store/store.php?cat=247&linkid=homemenu'><b>Trident</b></a><br></br>
@@ -108,7 +109,7 @@ export default class Home extends React.Component {
 
             <div className = "top-brands">
               <div className = "brand-logo">
-                <img src="../sullivan-palatek logo.jpg" alt="Sullivan-Palatek logo"/>
+                <img src="../logoSullivan.png" alt="Sullivan-Palatek logo"/>
               </div>
               <div className="brand-text">
                 <a href='store/store.php?cat=243&linkid=homemenu'><b>Sullivan-Palatek</b></a><br></br>

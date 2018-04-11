@@ -14,6 +14,7 @@ import Checkout from '../components/checkout';
 import ProductLines from '../components/product_lines';
 import ContactUs from '../components/contact_us';
 import ViewCart from '../components/viewcart';
+import IndividualProduct from '../components/individual_product';
 // import logo from '../msair100.jpg';
 // import movement from '../movement.jpg';
 //import './App.css';
@@ -143,6 +144,7 @@ class App extends Component {
             <Route path="/product_lines" component={ProductLines}/>
             <Route path="/contact_us" component={ContactUs}/>
             <Route path="/viewcart" component={ViewCart}/>
+            <Route path="/individual_product" component={IndividualProduct}/>
           </Switch>
         </Baselayout>
       </BrowserRouter>
