@@ -91,7 +91,7 @@ class App extends Component {
                     <div className="checkout-wrapper">
                       <div className="checkout">
                         <a href="/viewcart" className="btn btn-info btn-lg">
-                          <span className="glyphicon glyphicon-shopping-cart"></span>
+                          {/* <span className="glyphicon glyphicon-shopping-cart"></span> */}
                             <p>Shopping Cart</p>
                               <i className="fas fa-shopping-cart fa-2x"></i>
                         </a>

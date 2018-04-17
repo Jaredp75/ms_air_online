@@ -196,6 +196,7 @@ h1 {
   font-weight: 300;
   line-height: 1.4;
   background-color: white;
+  align-content: center;
 }
 
 
@@ -1180,4 +1181,130 @@ h1 {
   color: white;
   font-weight: bold;
   border-radius: 2px;
+}
+
+
+
+
+/* --- Login Page styling --- */
+
+.returning-customer {
+  border: 1px solid black;
+  width: 75%;
+
+  background-color: #2C3E50;
+  color: white;
+  /* padding: 20px; */
+  margin: 0 auto;
+  margin-bottom: 60px;
+
+}
+
+.returning-customer-header {
+  background-color: #2C3E50;
+  color: white;
+  padding: 20px;
+}
+
+.returning-customer-header:hover {
+  background-color: green;
+}
+
+.returning-customer-form {
+  background-color: darkgray;
+  padding: 20px;
+}
+
+
+
+
+.new-customer {
+  border: 1px solid black;
+  width: 75%;
+  margin-bottom: 60px;
+  background-color: #2C3E50;
+  color: white;
+  /* padding: 20px; */
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.new-customer-header {
+  background-color: #2C3E50;
+  color: white;
+  padding: 20px;
+
+}
+
+.new-customer-header:hover {
+  background-color: green;
+}
+
+.new-customer-para {
+  background-color: darkgray;
+  padding: 20px;
+}
+
+.returning-customer input {
+  border: 1px solid lightgray;
+  width: 100%;
+  clear: both;
+}
+
+.returning-customer submit {
+  /* width: 50%; */
+  clear: both;
+  color: green;
+}
+
+
+
+
+/* --- My Account Page styling --- */
+
+.account-settings {
+  border: 1px solid black;
+  width: 75%;
+
+  background-color: #2C3E50;
+  color: white;
+  /* padding: 20px; */
+  margin: 0 auto;
+  margin-bottom: 60px;
+
+}
+
+.account-settings-header {
+  background-color: #2C3E50;
+  color: white;
+  padding: 20px;
+}
+
+.account-settings-header:hover {
+  background-color: green;
+}
+
+
+
+
+.order-info {
+  border: 1px solid black;
+  width: 75%;
+
+  background-color: #2C3E50;
+  color: white;
+  /* padding: 20px; */
+  margin: 0 auto;
+  margin-bottom: 60px;
+
+}
+
+.order-info-header {
+  background-color: #2C3E50;
+  color: white;
+  padding: 20px;
+}
+
+.order-info-header:hover {
+  background-color: green;
 }

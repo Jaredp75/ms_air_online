@@ -11,11 +11,43 @@ export default class MyAccount extends React.Component {
     return(
       <div>
 
-        <div className = 'content-area-container'>
+        <div className="content-area-container">
           <div className="header-text">
-            <h1>My Account</h1>
-          </div>
-          <div className="privacy-para"><p>TEXT</p>
+
+            <div className="account-settings">
+              <div className="account-settings-header">
+                <h1>Account Settings</h1>
+              </div>
+              <div className="account-settings-para">
+                <h5>Account Settings:</h5>
+                <p>View or modify your billing information, update your email address, or change your password.</p>
+
+                <h5>Login Assistance:</h5>
+                <p>Forgot your username or password? Retreive your username and reset your password.</p>
+              </div>
+            </div>
+
+            <div className="order-info">
+              <div className="order-info-header">
+                <h1>Order Information</h1>
+              </div>
+              <div className="account-settings-para">
+                <h5>Order History:</h5>
+                <ul>
+                  <li>Check your order status</li>
+                  <li>Print an invoice</li>
+                  <li>View your Order History</li>
+                </ul>
+
+
+                <h5>Track An Order:</h5>
+                <p>You will be able to track your current orders. <strong>Coming Soon!</strong></p>
+              </div>
+            </div>
+
+
+
+
 
         </div>
 
