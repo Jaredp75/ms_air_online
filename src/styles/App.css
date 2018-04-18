@@ -1190,14 +1190,14 @@ h1 {
 
 .returning-customer {
   border: 1px solid black;
-  width: 75%;
-
+  width: 60%;
+  border-radius: 3px;
   background-color: #2C3E50;
   color: white;
   /* padding: 20px; */
   margin: 0 auto;
   margin-bottom: 60px;
-
+  margin-top: 60px;
 }
 
 .returning-customer-header {
@@ -1220,13 +1220,14 @@ h1 {
 
 .new-customer {
   border: 1px solid black;
-  width: 75%;
+  width: 60%;
   margin-bottom: 60px;
   background-color: #2C3E50;
   color: white;
   /* padding: 20px; */
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
+  border-radius: 3px;
 }
 
 .new-customer-header {
@@ -1242,7 +1243,11 @@ h1 {
 
 .new-customer-para {
   background-color: darkgray;
-  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .returning-customer input {
