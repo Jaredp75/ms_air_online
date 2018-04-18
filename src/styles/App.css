@@ -1197,7 +1197,7 @@ h1 {
   /* padding: 20px; */
   margin: 0 auto;
   margin-bottom: 60px;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .returning-customer-header {
@@ -1212,7 +1212,7 @@ h1 {
 
 .returning-customer-form {
   background-color: darkgray;
-  padding: 20px;
+  padding: 40px;
 }
 
 
@@ -1289,8 +1289,15 @@ h1 {
   background-color: green;
 }
 
+.account-settings-para {
+  background-color: lightgray;
+  padding: 20px;
+  color: black;
+}
 
-
+.account-settings-para h4 {
+  
+}
 
 .order-info {
   border: 1px solid black;

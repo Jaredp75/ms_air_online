@@ -19,11 +19,15 @@ export default class MyAccount extends React.Component {
                 <h1>Account Settings</h1>
               </div>
               <div className="account-settings-para">
-                <h5>Account Settings:</h5>
-                <p>View or modify your billing information, update your email address, or change your password.</p>
+                <h4>Account Settings:</h4>
+                <ul>
+                  <li><h4>View or modify your billing information</h4></li>
+                  <li><h4>Update your email address</h4></li>
+                  <li><h4>Change your password</h4></li>
+                </ul>
 
-                <h5>Login Assistance:</h5>
-                <p>Forgot your username or password? Retreive your username and reset your password.</p>
+                <h4>Login Assistance:</h4>
+                <p><h4>Forgot your username or password? Retreive your username and reset your password.</h4></p>
               </div>
             </div>
 
@@ -32,16 +36,16 @@ export default class MyAccount extends React.Component {
                 <h1>Order Information</h1>
               </div>
               <div className="account-settings-para">
-                <h5>Order History:</h5>
+                <h4>Order History:</h4>
                 <ul>
-                  <li>Check your order status</li>
-                  <li>Print an invoice</li>
-                  <li>View your Order History</li>
+                  <li><h4>Check your order status</h4></li>
+                  <li><h4>Print an invoice</h4></li>
+                  <li><h4>View your Order History</h4></li>
                 </ul>
 
 
-                <h5>Track An Order:</h5>
-                <p>You will be able to track your current orders. <strong>Coming Soon!</strong></p>
+                <h4>Track An Order:</h4>
+                <p><h4>You will be able to track your current orders. <strong>Coming Soon!</strong></h4></p>
               </div>
             </div>
 
