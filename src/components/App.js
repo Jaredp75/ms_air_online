@@ -145,6 +145,8 @@ class App extends Component {
             <Route path="/contact_us" component={ContactUs}/>
             <Route path="/viewcart" component={ViewCart}/>
             <Route path="/individual_product" component={IndividualProduct}/>
+            <Route path="/category" component={Category}/>
+            <Route path="/subcategory" component={SubCategory}/>
           </Switch>
         </Baselayout>
       </BrowserRouter>
