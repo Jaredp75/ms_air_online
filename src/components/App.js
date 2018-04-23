@@ -15,6 +15,8 @@ import ProductLines from '../components/product_lines';
 import ContactUs from '../components/contact_us';
 import ViewCart from '../components/viewcart';
 import IndividualProduct from '../components/individual_product';
+import Category from '../components/category';
+import SubCategory from '../components/subcategory';
 // import logo from '../msair100.jpg';
 // import movement from '../movement.jpg';
 //import './App.css';

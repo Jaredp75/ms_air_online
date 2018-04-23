@@ -844,7 +844,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 36px;
+  padding-top: 300px;
   /* padding-bottom: 24px; */
 
 }
@@ -1267,14 +1267,23 @@ h1 {
 
 /* --- My Account Page styling --- */
 
+
+.account-header-body {
+  display: flex;
+  /* flex-direction: row; */
+  /* margin: 0 auto; */
+  margin: 20px;
+  margin-top: 30px;
+}
+
 .account-settings {
   border: 1px solid black;
-  width: 75%;
-
+  width: 45%;
+  margin-left: 40px;
   background-color: #2C3E50;
   color: white;
   /* padding: 20px; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   margin-bottom: 60px;
 
 }
@@ -1293,22 +1302,21 @@ h1 {
   background-color: lightgray;
   padding: 20px;
   color: black;
+
 }
 
 .account-settings-para h4 {
-  
+
 }
 
 .order-info {
   border: 1px solid black;
-  width: 75%;
-
-  background-color: #2C3E50;
+  width: 45%;
+  /* background-color: #2C3E50; */
   color: white;
   /* padding: 20px; */
   margin: 0 auto;
   margin-bottom: 60px;
-
 }
 
 .order-info-header {
@@ -1319,4 +1327,14 @@ h1 {
 
 .order-info-header:hover {
   background-color: green;
+}
+
+.order-info-para {
+  background-color: lightgray;
+  padding: 20px;
+  color: black;
+  padding-bottom: 40px;
+
+  /* flex: 1;
+  padding: 1rem; */
 }
