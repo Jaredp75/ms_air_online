@@ -326,7 +326,7 @@ export default class Home extends React.Component {
         <img src="https://www.msaironline.com/images/prodImage/341_144x85.jpg" alt="product-placeholder"></img>
       </div>
       <div className="product-details">
-        <h4 className="product-title"><a href="/individual_product">Quick Connect 500 Oxygen Outlet -<br /> Ohmeda Compatible /w New Style Cover</a></h4>
+        <h4 className="product-title"><a href="/individual_product">Quick Connect 500 Oxygen Outlet - Ohmeda Compatible /w New Style Cover</a></h4>
         <h6 className="product-brand-name">Chemetron</h6>
         <h6 className="product-suggested-retail-price">$78.00</h6>
         <h6 className="product-savings">Savings: <strong>$34.12</strong></h6>
@@ -375,10 +375,37 @@ export default class Home extends React.Component {
 
 
   <div className="product-image">
+    <img src="https://www.msaironline.com/images/prodImage/643_144x85.jpg" alt="product-placeholder"></img>
+  </div>
+  <div className="product-details">
+    <h4 className="product-title"><a href="/individual_product">Oxygen Face Plate Assembly</a></h4>
+    <h6 className="product-brand-name">Chemetron</h6>
+    <h6 className="product-suggested-retail-price">$30.45</h6>
+    <h6 className="product-savings">Savings: <strong>$3.04</strong></h6>
+    <h6 className="product-actual-price"><strong>$27.41</strong></h6>
+  </div>
+</div>
+</div>
+
+<div className="product_listing">
+  <div className="product_entry">
+  {/* <div className="product-image">
+    <img src={ placeholder } alt="product-placeholder"></img>
+  </div>
+  <div className="product-details">
+    <h2 className="product-title">{.} {.}</h2>
+    <h4 className="product-suggested-retail-price">{.}</h4>
+    <h4 className="product-savings">Savings: {.}</h4>
+    <h4 className="product-actual-price">{.}</h4>
+  </div> */}
+
+
+  <div className="product-image">
     <img src={ placeholder } alt="product-placeholder"></img>
   </div>
   <div className="product-details">
     <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
+    <h6 className="product-brand-name">Chemetron</h6>
     <h6 className="product-suggested-retail-price">$0.00</h6>
     <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
     <h6 className="product-actual-price"><strong>$0.00</strong></h6>
@@ -404,6 +431,7 @@ export default class Home extends React.Component {
   </div>
   <div className="product-details">
     <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
+    <h6 className="product-brand-name">Chemetron</h6>
     <h6 className="product-suggested-retail-price">$0.00</h6>
     <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
     <h6 className="product-actual-price"><strong>$0.00</strong></h6>
@@ -429,31 +457,7 @@ export default class Home extends React.Component {
   </div>
   <div className="product-details">
     <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
-    <h6 className="product-suggested-retail-price">$0.00</h6>
-    <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
-    <h6 className="product-actual-price"><strong>$0.00</strong></h6>
-  </div>
-</div>
-</div>
-
-<div className="product_listing">
-  <div className="product_entry">
-  {/* <div className="product-image">
-    <img src={ placeholder } alt="product-placeholder"></img>
-  </div>
-  <div className="product-details">
-    <h2 className="product-title">{.} {.}</h2>
-    <h4 className="product-suggested-retail-price">{.}</h4>
-    <h4 className="product-savings">Savings: {.}</h4>
-    <h4 className="product-actual-price">{.}</h4>
-  </div> */}
-
-
-  <div className="product-image">
-    <img src={ placeholder } alt="product-placeholder"></img>
-  </div>
-  <div className="product-details">
-    <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
+    <h6 className="product-brand-name">Chemetron</h6>
     <h6 className="product-suggested-retail-price">$0.00</h6>
     <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
     <h6 className="product-actual-price"><strong>$0.00</strong></h6>
