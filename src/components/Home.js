@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 // import { bindActionCreators } from 'redux';
 // import { connect } from 'react-redux';
 // import FooterLinks from './footer-links/footer-links.js';
-import placeholder from '../img/compressor_placeholder.jpg';
+// import placeholder from '../img/compressor_placeholder.jpg';
 import AboutLinks from './footer-links/about-links.js';
 import HelpAndCurrency from './help-and-currency.js';
 // import QuantityBox from './quantity_box.js';
@@ -256,6 +256,8 @@ export default class Home extends React.Component {
         <div className="top-sellers">
           <h1>TOP SELLERS</h1>
         </div>
+        <div className="row">
+        <div className="left-half">
         <div className="product_listing">
           <div className="product_entry">
           {/* <div className="product-image">
@@ -270,7 +272,7 @@ export default class Home extends React.Component {
 
 
           <div className="product-image">
-            <img src="https://www.msaironline.com/images/prodImage/409_144x85.jpg" alt="product-placeholder"></img>
+            <img src="https://www.msaironline.com/images/prodImage/409_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
           </div>
           <div className="product-details">
             <h4 className="product-title"><a href="/individual_product">Quick-Connect 400 Oxygen Wall Outlet Station</a></h4>
@@ -297,7 +299,7 @@ export default class Home extends React.Component {
 
 
         <div className="product-image">
-          <img src="https://www.msaironline.com/images/prodImage/8_144x85.jpg" alt="product-placeholder"></img>
+          <img src="https://www.msaironline.com/images/prodImage/8_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
         </div>
         <div className="product-details">
           <h4 className="product-title"><a href="/individual_product">Quick Connect 500 Vacuum Wall Outlet</a></h4>
@@ -323,10 +325,10 @@ export default class Home extends React.Component {
 
 
       <div className="product-image">
-        <img src="https://www.msaironline.com/images/prodImage/341_144x85.jpg" alt="product-placeholder"></img>
+        <img src="https://www.msaironline.com/images/prodImage/341_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
       </div>
       <div className="product-details">
-        <h4 className="product-title"><a href="/individual_product">Quick Connect 500 Oxygen Outlet - Ohmeda Compatible /w New Style Cover</a></h4>
+        <h4 className="product-title"><a href="/individual_product">Quick Connect 500 Oxygen Outlet -<br /> Ohmeda Compatible /w New Style Cover</a></h4>
         <h6 className="product-brand-name">Chemetron</h6>
         <h6 className="product-suggested-retail-price">$78.00</h6>
         <h6 className="product-savings">Savings: <strong>$34.12</strong></h6>
@@ -349,7 +351,7 @@ export default class Home extends React.Component {
 
 
     <div className="product-image">
-      <img src="https://www.msaironline.com/images/prodImage/14_144x85.jpg" alt="product-placeholder"></img>
+      <img src="https://www.msaironline.com/images/prodImage/14_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
     </div>
     <div className="product-details">
       <h4 className="product-title"><a href="/individual_product">Quick Connect 500 Oxygen Wall Outlet</a></h4>
@@ -375,7 +377,7 @@ export default class Home extends React.Component {
 
 
   <div className="product-image">
-    <img src="https://www.msaironline.com/images/prodImage/643_144x85.jpg" alt="product-placeholder"></img>
+    <img src="https://www.msaironline.com/images/prodImage/643_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
   </div>
   <div className="product-details">
     <h4 className="product-title"><a href="/individual_product">Oxygen Face Plate Assembly</a></h4>
@@ -401,14 +403,14 @@ export default class Home extends React.Component {
 
 
   <div className="product-image">
-    <img src={ placeholder } alt="product-placeholder"></img>
+    <img src="https://www.msaironline.com/images/prodImage/1170_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
   </div>
   <div className="product-details">
-    <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
+    <h4 className="product-title"><a href="/individual_product">DISS Male to 1/4\" NPT Male Fitting - Air</a></h4>
     <h6 className="product-brand-name">Chemetron</h6>
-    <h6 className="product-suggested-retail-price">$0.00</h6>
+    <h6 className="product-suggested-retail-price">$17.22</h6>
     <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
-    <h6 className="product-actual-price"><strong>$0.00</strong></h6>
+    <h6 className="product-actual-price"><strong>$12.15</strong></h6>
   </div>
 </div>
 </div>
@@ -427,18 +429,23 @@ export default class Home extends React.Component {
 
 
   <div className="product-image">
-    <img src={ placeholder } alt="product-placeholder"></img>
+    <img src="https://www.msaironline.com/images/prodImage/1423_144x85.jpg" width="144" height="144" alt="product-placeholder"></img>
   </div>
   <div className="product-details">
-    <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
-    <h6 className="product-brand-name">Chemetron</h6>
-    <h6 className="product-suggested-retail-price">$0.00</h6>
+    <h4 className="product-title"><a href="/individual_product">Bulldog QT 1 Dental Vacuum</a></h4>
+    <h6 className="product-brand-name">Ramvac</h6>
+    <h6 className="product-suggested-retail-price">$10,740.00</h6>
     <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
-    <h6 className="product-actual-price"><strong>$0.00</strong></h6>
+    <h6 className="product-actual-price"><strong>$8,269.00</strong></h6>
   </div>
+</div>
 </div>
 </div>
 
+
+
+
+<div className="right-half">
 <div className="product_listing">
   <div className="product_entry">
   {/* <div className="product-image">
@@ -453,14 +460,14 @@ export default class Home extends React.Component {
 
 
   <div className="product-image">
-    <img src={ placeholder } alt="product-placeholder"></img>
+    <img src="https://www.msaironline.com/images/prodImage/1425_144x85.jpg" width="144" height="144" alt="product-placeholder"></img>
   </div>
   <div className="product-details">
-    <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
-    <h6 className="product-brand-name">Chemetron</h6>
-    <h6 className="product-suggested-retail-price">$0.00</h6>
+    <h4 className="product-title"><a href="/individual_product">Bison 3 Dental Vacuum 16 Amp</a></h4>
+    <h6 className="product-brand-name">Ramvac</h6>
+    <h6 className="product-suggested-retail-price">$15,096.00</h6>
     <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
-    <h6 className="product-actual-price"><strong>$0.00</strong></h6>
+    <h6 className="product-actual-price"><strong>$11623.92</strong></h6>
   </div>
 </div>
 </div>
@@ -478,6 +485,88 @@ export default class Home extends React.Component {
         })}
 
 </div> */}
+
+<div className="product_listing">
+  <div className="product_entry">
+    <div className="product-image">
+      <img src="https://www.msaironline.com/images/prodImage/1426_144x85.jpg" width="144" height="144" alt="product-placeholder"></img>
+    </div>
+    <div className="product-details">
+      <h4 className="product-title"><a href="/individual_product">Bison 5  Dental Vacuum 16 Amp</a></h4>
+      <h6 className="product-brand-name">Ramvac</h6>
+      <h6 className="product-suggested-retail-price">$16,412.00</h6>
+      <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
+      <h6 className="product-actual-price"><strong>$12,637.24</strong></h6>
+    </div>
+  </div>
+</div>
+
+
+<div className="product_listing">
+  <div className="product_entry">
+    <div className="product-image">
+      <img src="https://www.msaironline.com/images/prodImage/1460_144x85.jpg" width="144" height="144" alt="product-placeholder"></img>
+    </div>
+    <div className="product-details">
+      <h4 className="product-title"><a href="/individual_product">Liquid Starter Pack</a></h4>
+      <h6 className="product-brand-name">Ramvac</h6>
+      <h6 className="product-suggested-retail-price">$132.00</h6>
+      <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
+      <h6 className="product-actual-price"><strong>$101.64</strong></h6>
+    </div>
+  </div>
+</div>
+
+
+<div className="product_listing">
+  <div className="product_entry">
+    <div className="product-image">
+      <img src="https://www.msaironline.com/images/prodImage/1467_144x85.jpg" width="144" height="144" alt="product-placeholder"></img>
+    </div>
+    <div className="product-details">
+      <h4 className="product-title"><a href="/individual_product">Bulldog Service Filter Set</a></h4>
+      <h6 className="product-brand-name">Ramvac</h6>
+      <h6 className="product-suggested-retail-price">$192.00</h6>
+      <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
+      <h6 className="product-actual-price"><strong>$147.84</strong></h6>
+    </div>
+  </div>
+</div>
+
+
+<div className="product_listing">
+  <div className="product_entry">
+    <div className="product-image">
+      <img src="https://www.msaironline.com/images/prodImage/1469_144x85.jpg" width="144" height="144" alt="product-placeholder"></img>
+    </div>
+    <div className="product-details">
+      <h4 className="product-title"><a href="/individual_product">Bison Service Filter Set</a></h4>
+      <h6 className="product-brand-name">Ramvac</h6>
+      <h6 className="product-suggested-retail-price">$240.00</h6>
+      <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
+      <h6 className="product-actual-price"><strong>$184.80</strong></h6>
+    </div>
+  </div>
+</div>
+
+
+<div className="product_listing">
+  <div className="product_entry">
+    <div className="product-image">
+      <img src="https://www.msaironline.com/images/prodImage/1476_144x85.jpg" width="144" height="144" alt="product-placeholder"></img>
+    </div>
+    <div className="product-details">
+      <h4 className="product-title"><a href="/individual_product">Hg5-Amalgam Separator</a></h4>
+      <h6 className="product-brand-name">Solmetex</h6>
+      <h6 className="product-suggested-retail-price">$877.55</h6>
+      <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
+      <h6 className="product-actual-price"><strong>$680.10</strong></h6>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
 
 
 
