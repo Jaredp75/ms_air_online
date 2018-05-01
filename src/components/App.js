@@ -20,9 +20,52 @@ import SubCategory from '../components/subcategory';
 // import logo from '../msair100.jpg';
 // import movement from '../movement.jpg';
 //import './App.css';
-
+import axios from 'axios';
 
 class App extends Component {
+
+  state = {
+    categories: []
+  };
+
+
+  componentDidMount() {
+    axios
+      .get("http://www.msaironline.com/qa1/api/category.php?id=224")
+      .then(response => {
+
+        const newCategories = response.data.map(c => {
+          return {
+            taxID: c.taxID,
+            taxName: c.taxName
+          };
+        });
+
+        const newState = Object.assign({}, this.state, {
+          categories: newCategories
+        });
+
+        this.setState(newState);
+      })
+      .catch(error => console.log(error));
+  }
+
+
+// render() {
+//   return (
+//     <div className="App">
+//
+//       ...
+//
+//       <CategoryList categories={this.state.categories} />
+//     </div>
+//   );
+// }
+
+
+
+
+
   render() {
     return (
 
@@ -104,8 +147,7 @@ class App extends Component {
 
 
 
-                {/* <div className="app-tagline">
-                  <h5>Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</h5></div> */}
+
                 </div>
 
           </div>
@@ -127,6 +169,16 @@ class App extends Component {
               </form>
             </div>
           </div>
+
+
+
+
+          {/* <div className="App">
+
+            ...
+
+            <CategoryList categories={this.state.categories} />
+          </div> */}
 
 
 

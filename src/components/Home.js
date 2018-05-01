@@ -270,13 +270,14 @@ export default class Home extends React.Component {
 
 
           <div className="product-image">
-            <img src={ placeholder } alt="product-placeholder"></img>
+            <img src="https://www.msaironline.com/images/prodImage/409_144x85.jpg" alt="product-placeholder"></img>
           </div>
           <div className="product-details">
-            <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
-            <h6 className="product-suggested-retail-price">$0.00</h6>
-            <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
-            <h6 className="product-actual-price"><strong>$0.00</strong></h6>
+            <h4 className="product-title"><a href="/individual_product">Quick-Connect 400 Oxygen Wall Outlet Station</a></h4>
+            <h6 className="product-brand-name">Chemetron</h6>
+            <h6 className="product-suggested-retail-price">$77.00</h6>
+            <h6 className="product-savings">Savings: <strong>$33.69</strong></h6>
+            <h6 className="product-actual-price"><strong>$43.31</strong></h6>
           </div>
         </div>
       </div>
@@ -296,13 +297,14 @@ export default class Home extends React.Component {
 
 
         <div className="product-image">
-          <img src={ placeholder } alt="product-placeholder"></img>
+          <img src="https://www.msaironline.com/images/prodImage/8_144x85.jpg" alt="product-placeholder"></img>
         </div>
         <div className="product-details">
-          <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
-          <h6 className="product-suggested-retail-price">$0.00</h6>
-          <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
-          <h6 className="product-actual-price"><strong>$0.00</strong></h6>
+          <h4 className="product-title"><a href="/individual_product">Quick Connect 500 Vacuum Wall Outlet</a></h4>
+          <h6 className="product-brand-name">Chemetron</h6>
+          <h6 className="product-suggested-retail-price">$86.00</h6>
+          <h6 className="product-savings">Savings: <strong>$37.62</strong></h6>
+          <h6 className="product-actual-price"><strong>$48.38</strong></h6>
         </div>
       </div>
     </div>
@@ -321,13 +323,14 @@ export default class Home extends React.Component {
 
 
       <div className="product-image">
-        <img src={ placeholder } alt="product-placeholder"></img>
+        <img src="https://www.msaironline.com/images/prodImage/341_144x85.jpg" alt="product-placeholder"></img>
       </div>
       <div className="product-details">
-        <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
-        <h6 className="product-suggested-retail-price">$0.00</h6>
-        <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
-        <h6 className="product-actual-price"><strong>$0.00</strong></h6>
+        <h4 className="product-title"><a href="/individual_product">Quick Connect 500 Oxygen Outlet -<br /> Ohmeda Compatible /w New Style Cover</a></h4>
+        <h6 className="product-brand-name">Chemetron</h6>
+        <h6 className="product-suggested-retail-price">$78.00</h6>
+        <h6 className="product-savings">Savings: <strong>$34.12</strong></h6>
+        <h6 className="product-actual-price"><strong>$43.88</strong></h6>
       </div>
     </div>
   </div>
@@ -346,13 +349,14 @@ export default class Home extends React.Component {
 
 
     <div className="product-image">
-      <img src={ placeholder } alt="product-placeholder"></img>
+      <img src="https://www.msaironline.com/images/prodImage/14_144x85.jpg" alt="product-placeholder"></img>
     </div>
     <div className="product-details">
-      <h4 className="product-title"><a href="/individual_product">Product Title</a></h4>
-      <h6 className="product-suggested-retail-price">$0.00</h6>
-      <h6 className="product-savings">Savings: <strong>$0.00</strong></h6>
-      <h6 className="product-actual-price"><strong>$0.00</strong></h6>
+      <h4 className="product-title"><a href="/individual_product">Quick Connect 500 Oxygen Wall Outlet</a></h4>
+      <h6 className="product-brand-name">Chemetron</h6>
+      <h6 className="product-suggested-retail-price">$86.00</h6>
+      <h6 className="product-savings">Savings: <strong>$37.62</strong></h6>
+      <h6 className="product-actual-price"><strong>$48.38</strong></h6>
     </div>
   </div>
 </div>
