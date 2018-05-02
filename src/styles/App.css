@@ -1126,23 +1126,28 @@ h1 {
 
 /* --- Individual Product Page --- */
 
-.individual_product_page {
-
+.individual-product {
+  /* width: 45%; */
 }
 
 
+.individual_product_page {
+  /* width: 45%; */
+  display: inline-block;
+}
+
 
 .individual_product_listing {
-  display: inline-block;
+  /* display: inline-block; */
   /* border-right: 1px solid #2C3E50; */
-  margin: 20px;
-  /* padding: 10px; */
+  /* margin: 20px; */
+  padding: 10px;
   /* justify-content: center; */
   /* margin-top: 0; */
   background-color: pink;
-  width: 50%;
-  float: left;
-  display: inline;
+  width: 45%;
+  display: flex;
+
 }
 
 
@@ -1171,6 +1176,11 @@ h1 {
 }
 
 
+.individual-product-description ul {
+  list-style: none;
+  margin-left: -40px;
+}
+
 .individual-product-description p {
   text-align: left;
 }
@@ -1180,20 +1190,24 @@ h1 {
   display: flex;
   flex-direction: row;
   padding: 5px;
+
 }
 
 
 .add-to-cart {
   background-color: purple;
-  width: 50%;
+  width: 45%;
   padding: 10px;
+  /* display: inline-block; */
+  /* flex: 1;
+  padding: 1em; */
 }
 
 
 
 .add-to-cart input {
   /* margin: 40px; */
-  margin-left: 170px;
+  margin-left: 150px;
   padding: 10px;
   border: 1px solid black;
   background-color: blue;
@@ -1207,14 +1221,43 @@ h1 {
 
 
 .replacement_items_section {
-  margin: 10px;
+  /* margin: 10px; */
   padding: 10px;
   justify-content: center;
   background-color: lightblue;
-  width: 200px;
-  float: left;
-  display: inline;
+  width: 20%;
+  flex: 1;
+  /* padding: 1em; */
+  display: inline-block;
+
 }
+
+
+
+.replacement_parts_detail {
+  display: flex;
+  
+  /* justify-content: space-between; */
+  width: 100%;
+}
+
+
+.replacement-parts-quantity-input-group {
+  display: flex;
+  padding: 8px;
+}
+
+
+.replacement_parts_name {
+
+}
+
+.replacement-parts-add-to-cart {
+  display: inline-block;
+  padding: 8px;
+}
+
+
 
 
 

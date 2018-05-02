@@ -19,18 +19,11 @@ export default class prodID409 extends React.Component {
           <div className="individual-product">
             <div className="individual_product_listing">
               <div className="individual_product_entry">
-                {/* <div className="product-image">
-                  <img src={ placeholder } alt="product-placeholder"></img>
-                </div>
-                <div className="product-details">
-                  <h2 className="product-title">{.} {.}</h2>
-                  <h4 className="product-suggested-retail-price">{.}</h4>
-                  <h4 className="product-savings">Savings: {.}</h4>
-                  <h4 className="product-actual-price">{.}</h4>
-                </div> */}
+
 
             <div className="product-image">
               <img src="https://www.msaironline.com/images/prodImage/409_144x85.jpg" alt="product-placeholder"></img>
+              <p>Catalog Number: 64-20-0001</p>
             </div>
             <div className="individual-product-details">
               <h2 className="individual-product-title">Quick-Connect 400 Oxygen Wall Outlet Station</h2>
@@ -39,7 +32,15 @@ export default class prodID409 extends React.Component {
               <h4 className="individual-product-savings">Savings: <strong>$33.69</strong></h4>
               <h3 className="individual-product-actual-price"><strong>$43.31</strong></h3>
               <div className="individual-product-description">
-                <p>* Single - 400 Series - Top Inlet<br /> * Quick-Connect Outlet Stations are complete with rough-in box, copper pigtail for brazing, test plug, plaster shield, valve, secondary check, and finish cover plate with latching mechanism.</p>
+                <ul>
+                  <li><strong>Gas Type</strong>: O2</li>
+                  <li><strong>Item Type</strong>: Wall Outlet</li>
+                  <li><strong>Series</strong>: Quick Connect 400</li>
+                  <br />
+                  <li>Single - 400 Series - Top Inlet</li>
+                  <li>Quick-Connect Outlet Stations are complete with rough-in box, copper pigtail for brazing, test plug, plaster shield, valve, secondary check, and finish cover plate with latching mechanism.</li>
+                </ul>
+
 
               </div>
             </div>
@@ -115,6 +116,272 @@ export default class prodID409 extends React.Component {
       </div>
     </div>
 
+
+    <div className="replacement_parts_section">
+      <h4 className="replacement_parts_header">Replacement Parts</h4>
+      <img src="http://www.msaironline.com/images/assembly/QuickConnect_400_Series.jpg" alt="Quick Connect"></img>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Housing base O-ring (12 each)</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $9.45</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Secondary Check Valve & Spring</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $68.98</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Secondary Check O-ring</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $3.78</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Replacement Outlet Housing</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $13.23</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Housing base O-ring (12 each)</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $9.45</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Secondary Check Valve & Spring</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $68.98</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Metal Test Plug</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $27.41</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Plastic Test Plug</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $28.60</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Quick Connect Poppet</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $6.62</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Poppet O-ring</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $12.29</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Valve Body (pressure - without poppet)</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $39.69</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Valve Body Assembly (pressure - with poppet)</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $55.76</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Valve body O-ring kit (12 each)</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $12.29</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Face Plate Springs (12 per pack)</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $15.12</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Latch Button - Oxygen</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $26.46</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Oxygen Face Plate Assembly</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $27.41</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+      <span className="replacement_parts_detail">
+        <h4 className="replacement_parts_name">Face plate mounting screw kit (48 each)</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $21.73</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+
+
+
+
+
+    </div>
 
 
 
