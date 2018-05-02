@@ -14,7 +14,7 @@ import Checkout from '../components/checkout';
 import ProductLines from '../components/product_lines';
 import ContactUs from '../components/contact_us';
 import ViewCart from '../components/viewcart';
-import IndividualProduct from '../components/individual_product';
+import prodID409 from '../components/prodID409';
 import Category from '../components/category';
 import SubCategory from '../components/subcategory';
 // import logo from '../msair100.jpg';
@@ -198,7 +198,7 @@ class App extends Component {
             <Route path="/product_lines" component={ProductLines}/>
             <Route path="/contact_us" component={ContactUs}/>
             <Route path="/viewcart" component={ViewCart}/>
-            <Route path="/individual_product" component={IndividualProduct}/>
+            <Route path="/prodID409" component={prodID409}/>
             <Route path="/category" component={Category}/>
             <Route path="/subcategory" component={SubCategory}/>
           </Switch>
