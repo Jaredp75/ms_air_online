@@ -15,7 +15,7 @@ export default class prodID409 extends React.Component {
       <div>
 
         <div className="content-area-container">
-          <div className="individual_product_page">
+          <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
               <div className="individual_product_entry">
@@ -118,10 +118,17 @@ export default class prodID409 extends React.Component {
 
 
     <div className="replacement_parts_section">
-      <h4 className="replacement_parts_header">Replacement Parts</h4>
-      <img src="http://www.msaironline.com/images/assembly/QuickConnect_400_Series.jpg" alt="Quick Connect"></img>
+      <h1 className="replacement_parts_header">Replacement Parts</h1>
+      <div className="replacement_parts_image">
+        <img src="http://www.msaironline.com/images/assembly/QuickConnect_400_Series.jpg" alt="Quick Connect"></img>
+      </div>
+
 
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/15_144x85.jpg" alt="Housing base O-ring (12 each)"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Housing base O-ring (12 each)</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $9.45</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -136,7 +143,12 @@ export default class prodID409 extends React.Component {
         </div>
       </span>
 
+
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/616_144x85.jpg" alt="Secondary Check Valve & Spring"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Secondary Check Valve & Spring</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $68.98</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -151,7 +163,12 @@ export default class prodID409 extends React.Component {
         </div>
       </span>
 
+
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/617_144x85.jpg" alt="Secondary Check O-ring"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Secondary Check O-ring</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $3.78</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -166,7 +183,12 @@ export default class prodID409 extends React.Component {
         </div>
       </span>
 
+
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/618_144x85.jpg" alt="Replacement Outlet Housing"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Replacement Outlet Housing</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $13.23</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -181,7 +203,12 @@ export default class prodID409 extends React.Component {
         </div>
       </span>
 
+
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/15_144x85.jpg" alt="Housing base O-ring (12 each)"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Housing base O-ring (12 each)</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $9.45</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -197,6 +224,10 @@ export default class prodID409 extends React.Component {
       </span>
 
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/616_144x85.jpg" alt="Secondary Check Valve & Spring"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Secondary Check Valve & Spring</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $68.98</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -211,7 +242,12 @@ export default class prodID409 extends React.Component {
         </div>
       </span>
 
+
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/620_144x85.jpg" alt="Metal Test Plug"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Metal Test Plug</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $27.41</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -226,7 +262,12 @@ export default class prodID409 extends React.Component {
         </div>
       </span>
 
+
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/619_144x85.jpg" alt="Plastic Test Plug"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Plastic Test Plug</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $28.60</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -241,7 +282,12 @@ export default class prodID409 extends React.Component {
         </div>
       </span>
 
+
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/621_144x85.jpg" alt="Quick Connect Poppet"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Quick Connect Poppet</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $6.62</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -256,7 +302,12 @@ export default class prodID409 extends React.Component {
         </div>
       </span>
 
+
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/622_144x85.jpg" alt="Poppet O-ring"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Poppet O-ring</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $12.29</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -271,7 +322,12 @@ export default class prodID409 extends React.Component {
         </div>
       </span>
 
+
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/623_144x85.jpg" alt="Valve Body (pressure - without poppet)"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Valve Body (pressure - without poppet)</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $39.69</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -286,7 +342,12 @@ export default class prodID409 extends React.Component {
         </div>
       </span>
 
+
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/625_144x85.jpg" alt="Valve Body Assembly (pressure - with poppet)"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Valve Body Assembly (pressure - with poppet)</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $55.76</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -301,7 +362,12 @@ export default class prodID409 extends React.Component {
         </div>
       </span>
 
+
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/22_144x85.jpg" alt="Valve body O-ring kit (12 each)"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Valve body O-ring kit (12 each)</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $12.29</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -316,7 +382,12 @@ export default class prodID409 extends React.Component {
         </div>
       </span>
 
+
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/34_144x85.jpg" alt="Face Plate Springs (12 per pack)"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Face Plate Springs (12 per pack)</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $15.12</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -331,7 +402,12 @@ export default class prodID409 extends React.Component {
         </div>
       </span>
 
+
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/627_144x85.jpg" alt="Latch Button - Oxygen"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Latch Button - Oxygen</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $26.46</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -346,7 +422,12 @@ export default class prodID409 extends React.Component {
         </div>
       </span>
 
+
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/643_144x85.jpg" alt="Oxygen Face Plate Assembly"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Oxygen Face Plate Assembly</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $27.41</h4>
         <div className="replacement-parts-quantity-input-group">
@@ -361,7 +442,12 @@ export default class prodID409 extends React.Component {
         </div>
       </span>
 
+
       <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/35_144x85.jpg" alt="Face plate mounting screw kit (48 each)"></img>
+        </div>
+
         <h4 className="replacement_parts_name">Face plate mounting screw kit (48 each)</h4>
         <h4 className="replacement_parts_price"><strong>Price</strong>: $21.73</h4>
         <div className="replacement-parts-quantity-input-group">

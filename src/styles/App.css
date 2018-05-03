@@ -1127,13 +1127,15 @@ h1 {
 /* --- Individual Product Page --- */
 
 .individual-product {
-  /* width: 45%; */
+  width: 50%;
+  /* display: inline-block; */
+  float: left;
 }
 
 
-.individual_product_page {
+#individual_product_page {
   /* width: 45%; */
-  display: inline-block;
+  /* float: left; */
 }
 
 
@@ -1144,8 +1146,8 @@ h1 {
   padding: 10px;
   /* justify-content: center; */
   /* margin-top: 0; */
-  background-color: pink;
-  width: 45%;
+  /* background-color: pink; */
+  width: 950px;
   display: flex;
 
 }
@@ -1195,8 +1197,8 @@ h1 {
 
 
 .add-to-cart {
-  background-color: purple;
-  width: 45%;
+  /* background-color: purple; */
+  width: 900px;
   padding: 10px;
   /* display: inline-block; */
   /* flex: 1;
@@ -1207,7 +1209,7 @@ h1 {
 
 .add-to-cart input {
   /* margin: 40px; */
-  margin-left: 150px;
+  margin-left: 190px;
   padding: 10px;
   border: 1px solid black;
   background-color: blue;
@@ -1221,43 +1223,88 @@ h1 {
 
 
 .replacement_items_section {
-  /* margin: 10px; */
+  margin-left: 350px;
   padding: 10px;
   justify-content: center;
-  background-color: lightblue;
+  background-color: lightgrey;
   width: 20%;
   flex: 1;
   /* padding: 1em; */
   display: inline-block;
+  border-radius: 2px;
+  /* box-shadow: 0px 0px 0px 4px; */
 
 }
 
 
+.replacement_parts_image {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.replacement_parts_thumbnail {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.replacement_parts_header {
+  padding: 20px;
+  box-shadow: 0px 0px 0px 2px;
+}
 
 .replacement_parts_detail {
   display: flex;
-  
-  /* justify-content: space-between; */
-  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 40px;
+  background-color: lightgrey;
+  border-radius: 2px;
+
 }
+
+.replacement_parts_name {
+  /* width: 20%; */
+  /* float: left; */
+  /* text-align: left; */
+
+
+}
+
+.replacement_parts_price {
+  /* width: 20%; */
+  /* float: left; */
+  /* text-align: center; */
+
+}
+
 
 
 .replacement-parts-quantity-input-group {
-  display: flex;
+  /* display: flex; */
   padding: 8px;
+  /* float: left; */
 }
 
 
-.replacement_parts_name {
 
-}
 
 .replacement-parts-add-to-cart {
-  display: inline-block;
+  /* display: inline-block; */
   padding: 8px;
+  /* float: left; */
 }
 
-
+.replacement-parts-add-to-cart input {
+  padding: 10px;
+  border: 1px solid black;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+}
 
 
 
