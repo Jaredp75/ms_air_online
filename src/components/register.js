@@ -146,7 +146,7 @@ export default class Register extends React.Component {
             </div>
             <div className="about-footer">
               <div className="terms">
-                <p><a href="/Terms" target=" blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/Privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
+                <p><a href="/Terms" rel="noopener noreferrer">Terms of Use</a> | <a href="/Privacy" rel="noopener noreferrer">Privacy Policy</a></p>
               </div>
               <div className="copyright">
                 <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>

@@ -581,7 +581,7 @@ export default class Home extends React.Component {
 
       <div className="about-footer">
         <div className="terms">
-          <p><a href="/terms" target="_blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
+          <p><a href="/terms" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" rel="noopener noreferrer">Privacy Policy</a></p>
         </div>
         <div className="copyright">
           <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
