@@ -31,7 +31,7 @@ export default class prodID643 extends React.Component {
               <h2 className="individual-product-title">Oxygen Face Plate Assembly</h2>
               <h4 className="product-brand-title">Chemetron</h4>
               <h4 className="individual-product-suggested-retail-price">MSRP: $30.45</h4>
-              <h4 className="individual-product-savings">Savings: <strong>$00.00</strong></h4>
+              <h4 className="individual-product-savings">Savings: <strong>$3.04</strong></h4>
               <h3 className="individual-product-actual-price"><strong>$27.41</strong></h3>
               <div className="individual-product-description">
                 <ul>

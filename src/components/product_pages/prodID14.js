@@ -31,7 +31,7 @@ export default class prodID14 extends React.Component {
               <h2 className="individual-product-title">Quick Connect 500 Oxygen Wall Outlet</h2>
               <h4 className="product-brand-title">Chemetron</h4>
               <h4 className="individual-product-suggested-retail-price">MSRP: $86.00</h4>
-              <h4 className="individual-product-savings">Savings: <strong>$00.00</strong></h4>
+              <h4 className="individual-product-savings">Savings: <strong>$37.62</strong></h4>
               <h3 className="individual-product-actual-price"><strong>$48.38</strong></h3>
               <div className="individual-product-description">
                 <ul>
@@ -123,9 +123,9 @@ export default class prodID14 extends React.Component {
 
     <div className="replacement_parts_section">
       <h1 className="replacement_parts_header">Replacement Parts</h1>
-      {/* <div className="replacement_parts_image">
-        <img src="http://www.msaironline.com/images/assembly/QuickConnect_400_Series.jpg" alt="Quick Connect"></img>
-      </div> */}
+      <div className="replacement_parts_image">
+        <img src="http://www.msaironline.com/images/assembly/QuickConnect_DISS_Replacement_Parts.jpg" alt="QuickConnect_DISS_Replacement_Parts"></img>
+      </div>
 
 
       <span className="replacement_parts_detail">
@@ -134,7 +134,7 @@ export default class prodID14 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Secondary Check Kit (6 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $18.90</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -154,7 +154,7 @@ export default class prodID14 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Housing base O-ring (12 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $9.45</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -174,7 +174,7 @@ export default class prodID14 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Quick Connect Poppet 500 Series</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $16.07</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -194,7 +194,7 @@ export default class prodID14 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Poppet O-ring Kit (12 each) - Quick Connect 500</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $12.29</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -214,7 +214,7 @@ export default class prodID14 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Valve body with poppet-pressure</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $41.58</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -233,7 +233,7 @@ export default class prodID14 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Valve body kit with poppet-pressure (4 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $53.87</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -253,7 +253,7 @@ export default class prodID14 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Valve body O-ring kit (12 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $12.29</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -273,7 +273,7 @@ export default class prodID14 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Oxygen Face Plate Assembly</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $36.00</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -292,7 +292,7 @@ export default class prodID14 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Face Plate Springs (12 per pack)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $15.12</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -313,7 +313,7 @@ export default class prodID14 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Face plate mounting screw kit (48 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $21.73</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -333,7 +333,7 @@ export default class prodID14 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Test plug kit (12 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $14.18</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -353,7 +353,7 @@ export default class prodID14 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Back Box Mounting Screws & Fastner Kit (24 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $11.34</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:

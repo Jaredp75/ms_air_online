@@ -7,7 +7,7 @@ import AboutLinks from '../footer-links/about-links.js';
 // import placeholder from '../img/compressor_placeholder.jpg';
 
 
-export default class prodID8 extends React.Component {
+export default class prodID1467 extends React.Component {
 
   render(){
 
@@ -22,27 +22,36 @@ export default class prodID8 extends React.Component {
 
 
             <div className="product-image">
-              <img src="https://www.msaironline.com/images/prodImage/8_144x85.jpg" alt="Quick Connect 500 Vacuum Wall Outlet"></img>
-              <p>Catalog Number: 64-01-5002</p>
+              <img src="https://www.msaironline.com/images/prodImage/1467_144x85.jpg" alt="Bulldog Service Filter Set"></img>
+              <p>Catalog Number: 003740</p>
             </div>
 
 
             <div className="individual-product-details">
-              <h2 className="individual-product-title">Quick Connect 500 Vacuum Wall Outlet</h2>
-              <h4 className="product-brand-title">Chemetron</h4>
-              <h4 className="individual-product-suggested-retail-price">MSRP: $86.00</h4>
-              <h4 className="individual-product-savings">Savings: <strong>$37.62</strong></h4>
-              <h3 className="individual-product-actual-price"><strong>$48.38</strong></h3>
+              <h2 className="individual-product-title">Bulldog Service Filter Set</h2>
+              <h4 className="product-brand-title">Ramvac</h4>
+              <h4 className="individual-product-suggested-retail-price">MSRP: $192.00</h4>
+              <h4 className="individual-product-savings">Savings: <strong>$44.16</strong></h4>
+              <h3 className="individual-product-actual-price"><strong>$147.84</strong></h3>
               <div className="individual-product-description">
                 <ul>
-                  <li><strong>Gas Type</strong>: Vacuum</li>
-                  <li><strong>Item Type</strong>: Wall Outlet</li>
-                  <li><strong>Series</strong>: Chemetron 500</li>
-                  <li><strong>Style</strong>: Quick Connect</li>
-                  <br />
-                  <li>Quick Connect Style 500 Series</li>
-                  <br />
-                  <li><b>CHEMETRON WALL OUTLET</b> - Quick Connect Style 500 Series<br /> Quick-Connect Outlet Stations are complete with rough-in box, copper pigtail, test plug, plaster shield, valve, secondary check, and finish cover plate with latching mechanism. Each outlet is a modular design, and outlets are field gangable.</li>
+                  {/* <li><strong>Dimensions</strong>: 26x19x30 in.</li> */}
+                  {/* <li><strong>Drive Belts</strong>: Two (2)</li> */}
+                  {/* <li><strong>Horse Power</strong>: 3hp (2.2 kW)</li> */}
+                  {/* <li><strong>Input Power</strong>: 230v 3ph 60Hz</li> */}
+                  {/* <li><strong>Max Amps</strong>: 8.0 @ 230v</li> */}
+                  {/* <li><strong>Oil Drippers</strong>: Two (2)</li> */}
+                  {/* <li><strong>RPM</strong>: 1050</li> */}
+                  {/* <li><strong>Size</strong>: 1.8L</li> */}
+                  {/* <br /> */}
+                  <li>Includes main air, vac control and oil filter elements for Bulldog Dental Vacuum</li>
+                  {/* <br /> */}
+                  {/* <p>Features:</p> */}
+                  {/* <li>100% water free.</li> */}
+                  {/* <li><b>10 year no-fail, no wear-out pump warranty.</b></li> */}
+                  {/* <li>Complete system UL 544 (Dental Equipment) Listed and FDA registered.</li> */}
+                  {/* <li>Federal users please call direct.</li> */}
+                  {/* <li>Please call for Installation Guide and/or bid specifications.</li> */}
                 </ul>
 
 
@@ -70,10 +79,10 @@ export default class prodID8 extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="http://www.msaironline.com/images/prodImage/11_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Medical Air Wall Outlet"></img>
+            <img src="http://www.msaironline.com/images/prodImage/409_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station"></img>
           </div>
           <div className="replacement_item_details">
-            <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Medical Air Wall Outlet</a></h6>
+            <h6 className="replacement_item_title"><a href="/product_pages/prodID341">Quick-Connect 400 Oxygen Wall Outlet Station</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
@@ -83,10 +92,10 @@ export default class prodID8 extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="http://www.msaironline.com/images/prodImage/47_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Vacuum Bottle Slide Assembly"></img>
+            <img src="http://www.msaironline.com/images/prodImage/417_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)"></img>
           </div>
           <div className="replacement_item_details">
-            <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Vacuum Bottle Slide Assembly</a></h6>
+            <h6 className="replacement_item_title"><a href="/prodID8">Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
@@ -96,10 +105,10 @@ export default class prodID8 extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="http://www.msaironline.com/images/prodImage/283_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Vacuum Completion Kit"></img>
+            <img src="http://www.msaironline.com/images/prodImage/417_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)"></img>
           </div>
           <div className="replacement_item_details">
-            <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Vacuum Completion Kit</a></h6>
+            <h6 className="replacement_item_title"><a href="/prodID8">Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
@@ -109,45 +118,36 @@ export default class prodID8 extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="http://www.msaironline.com/images/prodImage/284_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Rough In Kit - Vacuum"></img>
+            <img src="http://www.msaironline.com/images/prodImage/417_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)"></img>
           </div>
           <div className="replacement_item_details">
-            <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Rough In Kit - Vacuum</a></h6>
+            <h6 className="replacement_item_title"><a href="/prodID8">Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
         </div>
       </div>
 
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img src="http://www.msaironline.com/images/prodImage/294_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Vacuum Wall Outlet w/ New Style Cover Plate"></img>
-          </div>
-          <div className="replacement_item_details">
-            <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Vacuum Wall Outlet w/ New Style Cover Plate</a></h6>
-            <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
-          </div>
-        </div>
-      </div>
+
     </div>
 
 
     <div className="replacement_parts_section">
       <h1 className="replacement_parts_header">Replacement Parts</h1>
-      <div className="replacement_parts_image">
-        <img src="http://www.msaironline.com/images/assembly/QuickConnect_DISS_Replacement_Parts.jpg" alt="Quick Connect"></img>
-      </div>
+      {/* <div className="replacement_parts_image">
+        <img src="http://www.msaironline.com/images/assembly/QuickConnect_400_Series.jpg" alt="Quick Connect"></img>
+      </div> */}
+      {/* <p><h4>This item is a replacement part for the following products:</h4></p> */}
+      {/* <p>Freight Shipping billed separately to contiguous 48 states. Additional fees may apply if lift gate is required. Call for details.</p> */}
+      <p>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</p>
 
-
-      <span className="replacement_parts_detail">
+      {/* <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
           <img src="http://www.msaironline.com/images/prodImage/18_144x85.jpg" alt="Secondary Check Kit (6 each)"></img>
         </div>
 
         <h4 className="replacement_parts_name">Secondary Check Kit (6 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $18.90</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -167,7 +167,7 @@ export default class prodID8 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Housing base O-ring (12 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $9.45</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -187,7 +187,7 @@ export default class prodID8 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Quick Connect Poppet 500 Series</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $16.07</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -207,7 +207,7 @@ export default class prodID8 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Poppet O-ring Kit (12 each) - Quick Connect 500</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $12.29</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -223,11 +223,11 @@ export default class prodID8 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/20_144x85.jpg" alt="Valve body with poppet-vacuum"></img>
+          <img src="http://www.msaironline.com/images/prodImage/19_144x85.jpg" alt="Valve body with poppet-pressure"></img>
         </div>
 
-        <h4 className="replacement_parts_name">Valve body with poppet-vacuum</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $41.58</h4>
+        <h4 className="replacement_parts_name">Valve body with poppet-pressure</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -242,11 +242,31 @@ export default class prodID8 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/22_144x85.jpg" alt="Valve body O-ring kit (12 each)g"></img>
+          <img src="http://www.msaironline.com/images/prodImage/21_144x85.jpg" alt="Valve body kit with poppet-pressure (4 each)"></img>
+        </div>
+
+        <h4 className="replacement_parts_name">Valve body kit with poppet-pressure (4 each)</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
+        <div className="replacement-parts-quantity-input-group">
+          <form action="/action_page.php">
+            <strong>Qty</strong>:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+        </div>
+
+        <div className="replacement-parts-add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </span>
+
+
+      <span className="replacement_parts_detail">
+        <div className="replacement_parts_thumbnail">
+          <img src="http://www.msaironline.com/images/prodImage/22_144x85.jpg" alt="Valve body O-ring kit (12 each)"></img>
         </div>
 
         <h4 className="replacement_parts_name">Valve body O-ring kit (12 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $12.29</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -262,11 +282,11 @@ export default class prodID8 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/26_144x85.jpg" alt="Vacuum face plate assembly"></img>
+          <img src="http://www.msaironline.com/images/prodImage/23_144x85.jpg" alt="Oxygen Face Plate Assembly"></img>
         </div>
 
-        <h4 className="replacement_parts_name">Vacuum face plate assembly</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $37.80</h4>
+        <h4 className="replacement_parts_name">Oxygen Face Plate Assembly</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -278,7 +298,6 @@ export default class prodID8 extends React.Component {
           <input type="submit" value="Add To Cart" />
         </div>
       </span>
-
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
@@ -286,7 +305,7 @@ export default class prodID8 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Face Plate Springs (12 per pack)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $15.12</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -298,6 +317,7 @@ export default class prodID8 extends React.Component {
           <input type="submit" value="Add To Cart" />
         </div>
       </span>
+
 
 
       <span className="replacement_parts_detail">
@@ -306,27 +326,7 @@ export default class prodID8 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Face plate mounting screw kit (48 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $21.73</h4>
-        <div className="replacement-parts-quantity-input-group">
-          <form action="/action_page.php">
-            <strong>Qty</strong>:
-            <input type="number" className="quantityBox" value="0" />
-          </form>
-        </div>
-
-        <div className="replacement-parts-add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </span>
-
-
-      <span className="replacement_parts_detail">
-        <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/36_144x85.jpg" alt="Vacuum Spring Kit (6 each)"></img>
-        </div>
-
-        <h4 className="replacement_parts_name">Vacuum Spring Kit (6 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $19.84</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -346,7 +346,7 @@ export default class prodID8 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Test plug kit (12 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $14.18</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -366,7 +366,7 @@ export default class prodID8 extends React.Component {
         </div>
 
         <h4 className="replacement_parts_name">Back Box Mounting Screws & Fastner Kit (24 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $11.34</h4>
+        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
@@ -377,7 +377,7 @@ export default class prodID8 extends React.Component {
         <div className="replacement-parts-add-to-cart">
           <input type="submit" value="Add To Cart" />
         </div>
-      </span>
+      </span> */}
 
 
 

@@ -994,21 +994,24 @@ h1 {
 
 .phone-container {
   border: 1px solid black;
-  width: 75%;
+  width: 50%;
   margin-bottom: 60px;
+
 }
 
 
 .mailing-container {
   border: 1px solid black;
-  width: 75%;
+  width: 50%;
   margin-bottom: 60px;
+
+
 }
 
 
 .email-container {
   border: 1px solid black;
-  width: 75%;
+  width: 50%;
   margin-bottom: 60px;
 }
 
@@ -1074,7 +1077,14 @@ h1 {
 }
 
 .contact-button {
-  margin-top: 20px;
+  /* margin-top: 80px; */
+}
+
+.email-disclaimer {
+  padding: 20px;
+  background-color: darkgray;
+  /* padding-left: 5px; */
+  /* display: flex; */
 }
 
 
@@ -1252,6 +1262,8 @@ h1 {
 .replacement_parts_header {
   padding: 20px;
   box-shadow: 0px 0px 0px 2px;
+  background-color: #2C3E50;
+  color: white;
 }
 
 .replacement_parts_detail {

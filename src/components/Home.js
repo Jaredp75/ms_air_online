@@ -91,7 +91,7 @@ export default class Home extends React.Component {
             <div><h1>{this.state.orgInfo.display_name}</h1></div>
             <div><h2>{this.state.orgInfo.description}</h2></div>
           </div> */}
-          <p>Having trouble locating a part? Contact us using our web submission form <a href="http://www.msaironline.com/contact/contact.php?linkid=message" target="_blank" rel="noopener noreferrer">here</a>. Or call <strong>1-877-MSAIR99</strong>.</p>
+          <p>Having trouble locating a part? Contact us using our web submission form <a href="../contact_us" target="_blank" rel="noopener noreferrer">here</a>. Or call <strong>1-877-MSAIR99</strong>.</p>
 
           <div className="row">
             <div className="left-half">
@@ -188,7 +188,7 @@ export default class Home extends React.Component {
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/categoryu'><b>Ramvac</b></a><br></br>
+                <a href='/category'><b>Ramvac</b></a><br></br>
                 <li><a href='/subcategory'>Dental Vacuums</a></li>
                 <li><a href='/subcategory'>Dental Vacuum Parts</a></li>
                 <li><a href='/subcategory'>Compressor Parts</a></li>

@@ -31,7 +31,7 @@ export default class prodID1423 extends React.Component {
               <h2 className="individual-product-title">Bulldog QT 1 Dental Vacuum</h2>
               <h4 className="product-brand-title">Ramvac</h4>
               <h4 className="individual-product-suggested-retail-price">MSRP: $10,740.22</h4>
-              <h4 className="individual-product-savings">Savings: <strong>$00.00</strong></h4>
+              <h4 className="individual-product-savings">Savings: <strong>$2,470.42</strong></h4>
               <h3 className="individual-product-actual-price"><strong>$8,269.80</strong></h3>
               <div className="individual-product-description">
                 <ul>

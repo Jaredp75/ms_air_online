@@ -31,7 +31,7 @@ export default class prodID1170 extends React.Component {
               <h2 className="individual-product-title">DISS Male to 1/4\" NPT Male Fitting - Air</h2>
               <h4 className="product-brand-title">Chemetron</h4>
               <h4 className="individual-product-suggested-retail-price">MSRP: $17.22</h4>
-              <h4 className="individual-product-savings">Savings: <strong>$00.00</strong></h4>
+              <h4 className="individual-product-savings">Savings: <strong>$5.07</strong></h4>
               <h3 className="individual-product-actual-price"><strong>$12.15</strong></h3>
               <div className="individual-product-description">
                 <ul>
@@ -120,7 +120,7 @@ export default class prodID1170 extends React.Component {
       {/* <p>Quick-Connect 400 Oxygen Wall Outlet Station</p> */}
       {/* <p>Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)</p> */}
 
-      <span className="replacement_parts_detail">
+      {/* <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
           <img src="http://www.msaironline.com/images/prodImage/18_144x85.jpg" alt="Secondary Check Kit (6 each)"></img>
         </div>
@@ -356,7 +356,7 @@ export default class prodID1170 extends React.Component {
         <div className="replacement-parts-add-to-cart">
           <input type="submit" value="Add To Cart" />
         </div>
-      </span>
+      </span> */}
 
 
 

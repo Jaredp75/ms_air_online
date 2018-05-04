@@ -31,7 +31,7 @@ export default class prodID1425 extends React.Component {
               <h2 className="individual-product-title">Bison 3 Dental Vacuum 16 Amp</h2>
               <h4 className="product-brand-title">Ramvac</h4>
               <h4 className="individual-product-suggested-retail-price">MSRP: $15,096.00</h4>
-              <h4 className="individual-product-savings">Savings: <strong>$00.00</strong></h4>
+              <h4 className="individual-product-savings">Savings: <strong>$3,472.08</strong></h4>
               <h3 className="individual-product-actual-price"><strong>$11,623.92</strong></h3>
               <div className="individual-product-description">
                 <ul>
@@ -45,13 +45,13 @@ export default class prodID1425 extends React.Component {
                   <li><strong>Size</strong>: 1.8L</li>
                   <br />
                   <li>The Bison dental dry vacuum is built for those who demand heavy-duty, large facility power in a rugged, compact chassis. Driven by a hefty industrial frame motor, Bison pumps are guaranteed to perform. These high output systems are engineered to serve for decades and they're protected by RAMVAC's exclusive 10-year no-fail, no-wear-out pump warranty. If you demand longevity, efficiency and unmatched treatment room performance for up to nine doctors plus staff, you're in the right pasture with the Bison.</li>
-                  <p>Features</p>
-
-                    <li>100% water free.</li>
-                    <li><b>10 year no-fail, no wear-out pump warranty.</b></li>
-                    <li>Complete system UL 544 (Dental Equipment) Listed and FDA registered.</li>
-                    <li>Federal users please call direct.</li>
-                    <li>Please call for Installation Guide and/or bid specifications.</li>
+                  <br />
+                  <p>Features:</p>
+                  <li>100% water free.</li>
+                  <li><b>10 year no-fail, no wear-out pump warranty.</b></li>
+                  <li>Complete system UL 544 (Dental Equipment) Listed and FDA registered.</li>
+                  <li>Federal users please call direct.</li>
+                  <li>Please call for Installation Guide and/or bid specifications.</li>
                 </ul>
 
 

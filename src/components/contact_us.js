@@ -61,9 +61,6 @@ export default class ContactUs extends React.Component {
                   <textarea className="form-control" id="inputMessage" placeholder="Message" rows="8" cols="50" />
                 </div>
                 </div>
-                <div className="contact-button">
-                  <button type="submit" className="btn btn-primary">Submit</button>
-                </div>
                 <div className="email-disclaimer">
                   <p>Please Note:</p>
                   <ul>
@@ -73,6 +70,16 @@ export default class ContactUs extends React.Component {
                     <li>The security code is required so that we only receive valid questions from customers like you.</li>
                   </ul>
                 </div>
+
+                <div className="accountFormText">*Enter Code:</div>
+		              <div className="accountForm">
+                    <img src="http://www.msaironline.com/images/verify/letter_016.jpg"></img><img src="http://www.msaironline.com/images/verify/letter_017.jpg"></img><img src="http://www.msaironline.com/images/verify/letter_008.jpg"></img> <input type="text" className="code" size="5" maxlength="3"></input>
+                  </div>
+
+                <div className="contact-button">
+                  <button type="submit" className="btn btn-primary">Submit</button>
+                </div>
+
 
             </form>
           </div>

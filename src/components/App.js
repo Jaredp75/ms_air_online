@@ -23,6 +23,10 @@ import prodID1170 from '../components/product_pages/prodID1170';
 import prodID1423 from '../components/product_pages/prodID1423';
 import prodID1425 from '../components/product_pages/prodID1425';
 import prodID1426 from '../components/product_pages/prodID1426';
+import prodID1460 from '../components/product_pages/prodID1460';
+import prodID1467 from '../components/product_pages/prodID1467';
+import prodID1469 from '../components/product_pages/prodID1469';
+import prodID1476 from '../components/product_pages/prodID1476';
 import Category from '../components/category';
 import SubCategory from '../components/subcategory';
 // import logo from '../msair100.jpg';
@@ -215,6 +219,10 @@ class App extends Component {
             <Route path="/product_pages/prodID1423" component={prodID1423}/>
             <Route path="/product_pages/prodID1425" component={prodID1425}/>
             <Route path="/product_pages/prodID1426" component={prodID1426}/>
+            <Route path="/product_pages/prodID1460" component={prodID1460}/>
+            <Route path="/product_pages/prodID1467" component={prodID1467}/>
+            <Route path="/product_pages/prodID1469" component={prodID1469}/>
+            <Route path="/product_pages/prodID1476" component={prodID1476}/>
             <Route path="/category" component={Category}/>
             <Route path="/subcategory" component={SubCategory}/>
           </Switch>
