@@ -73,7 +73,10 @@ export default class ContactUs extends React.Component {
 
                 <div className="accountFormText">*Enter Code:</div>
 		              <div className="accountForm">
-                    <img src="http://www.msaironline.com/images/verify/letter_016.jpg"></img><img src="http://www.msaironline.com/images/verify/letter_017.jpg"></img><img src="http://www.msaironline.com/images/verify/letter_008.jpg"></img> <input type="text" className="code" size="5" maxlength="3"></input>
+                    <img src="http://www.msaironline.com/images/verify/letter_016.jpg" alt=" "></img>
+                    <img src="http://www.msaironline.com/images/verify/letter_017.jpg" alt=" "></img>
+                    <img src="http://www.msaironline.com/images/verify/letter_008.jpg" alt=" "></img>
+                    <input type="text" className="code" size="5" maxlength="3"></input>
                   </div>
 
                 <div className="contact-button">
