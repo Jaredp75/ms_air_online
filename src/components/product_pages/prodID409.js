@@ -22,7 +22,7 @@ export default class prodID409 extends React.Component {
 
 
             <div className="product-image">
-              <img src="https://www.msaironline.com/images/prodImage/409_144x85.jpg" alt="product-placeholder"></img>
+              <img src="httpsss://www.msaironline.com/images/prodImage/409_144x85.jpg" alt="product-placeholder"></img>
               <p>Catalog Number: 64-20-0001</p>
             </div>
             <div className="individual-product-details">
@@ -66,7 +66,7 @@ export default class prodID409 extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="http://www.msaironline.com/images/prodImage/414_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
+            <img src="httpss://www.msaironline.com/images/prodImage/414_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID409">Quick-Connect 400 Nitrous Oxide Wall Outlet Station</a></h6>
@@ -79,7 +79,7 @@ export default class prodID409 extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="http://www.msaironline.com/images/prodImage/415_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
+            <img src="httpss://www.msaironline.com/images/prodImage/415_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID409">Quick-Connect 400 Nitrogen, Dynacon Wall Outlet Station</a></h6>
@@ -92,7 +92,7 @@ export default class prodID409 extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="http://www.msaironline.com/images/prodImage/416_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
+            <img src="httpss://www.msaironline.com/images/prodImage/416_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID409">Quick-Connect 400 WAGD Wall Outlet Station</a></h6>
@@ -105,7 +105,7 @@ export default class prodID409 extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="http://www.msaironline.com/images/prodImage/417_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
+            <img src="https://www.msaironline.com/images/prodImage/417_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID409">Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)</a></h6>
@@ -120,13 +120,13 @@ export default class prodID409 extends React.Component {
     <div className="replacement_parts_section">
       <h1 className="replacement_parts_header">Replacement Parts</h1>
       <div className="replacement_parts_image">
-        <img src="http://www.msaironline.com/images/assembly/QuickConnect_400_Series.jpg" alt="Quick Connect"></img>
+        <img src="https://www.msaironline.com/images/assembly/QuickConnect_400_Series.jpg" alt="Quick Connect"></img>
       </div>
 
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/15_144x85.jpg" alt="Housing base O-ring (12 each)"></img>
+          <img src="https://www.msaironline.com/images/prodImage/15_144x85.jpg" alt="Housing base O-ring (12 each)"></img>
         </div>
 
         <h4 className="replacement_parts_name">Housing base O-ring (12 each)</h4>
@@ -146,7 +146,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/616_144x85.jpg" alt="Secondary Check Valve & Spring"></img>
+          <img src="https://www.msaironline.com/images/prodImage/616_144x85.jpg" alt="Secondary Check Valve & Spring"></img>
         </div>
 
         <h4 className="replacement_parts_name">Secondary Check Valve & Spring</h4>
@@ -166,7 +166,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/617_144x85.jpg" alt="Secondary Check O-ring"></img>
+          <img src="https://www.msaironline.com/images/prodImage/617_144x85.jpg" alt="Secondary Check O-ring"></img>
         </div>
 
         <h4 className="replacement_parts_name">Secondary Check O-ring</h4>
@@ -186,7 +186,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/618_144x85.jpg" alt="Replacement Outlet Housing"></img>
+          <img src="https://www.msaironline.com/images/prodImage/618_144x85.jpg" alt="Replacement Outlet Housing"></img>
         </div>
 
         <h4 className="replacement_parts_name">Replacement Outlet Housing</h4>
@@ -206,7 +206,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/15_144x85.jpg" alt="Housing base O-ring (12 each)"></img>
+          <img src="https://www.msaironline.com/images/prodImage/15_144x85.jpg" alt="Housing base O-ring (12 each)"></img>
         </div>
 
         <h4 className="replacement_parts_name">Housing base O-ring (12 each)</h4>
@@ -225,7 +225,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/616_144x85.jpg" alt="Secondary Check Valve & Spring"></img>
+          <img src="https://www.msaironline.com/images/prodImage/616_144x85.jpg" alt="Secondary Check Valve & Spring"></img>
         </div>
 
         <h4 className="replacement_parts_name">Secondary Check Valve & Spring</h4>
@@ -245,7 +245,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/620_144x85.jpg" alt="Metal Test Plug"></img>
+          <img src="https://www.msaironline.com/images/prodImage/620_144x85.jpg" alt="Metal Test Plug"></img>
         </div>
 
         <h4 className="replacement_parts_name">Metal Test Plug</h4>
@@ -265,7 +265,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/619_144x85.jpg" alt="Plastic Test Plug"></img>
+          <img src="https://www.msaironline.com/images/prodImage/619_144x85.jpg" alt="Plastic Test Plug"></img>
         </div>
 
         <h4 className="replacement_parts_name">Plastic Test Plug</h4>
@@ -285,7 +285,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/621_144x85.jpg" alt="Quick Connect Poppet"></img>
+          <img src="https://www.msaironline.com/images/prodImage/621_144x85.jpg" alt="Quick Connect Poppet"></img>
         </div>
 
         <h4 className="replacement_parts_name">Quick Connect Poppet</h4>
@@ -305,7 +305,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/622_144x85.jpg" alt="Poppet O-ring"></img>
+          <img src="https://www.msaironline.com/images/prodImage/622_144x85.jpg" alt="Poppet O-ring"></img>
         </div>
 
         <h4 className="replacement_parts_name">Poppet O-ring</h4>
@@ -325,7 +325,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/623_144x85.jpg" alt="Valve Body (pressure - without poppet)"></img>
+          <img src="https://www.msaironline.com/images/prodImage/623_144x85.jpg" alt="Valve Body (pressure - without poppet)"></img>
         </div>
 
         <h4 className="replacement_parts_name">Valve Body (pressure - without poppet)</h4>
@@ -345,7 +345,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/625_144x85.jpg" alt="Valve Body Assembly (pressure - with poppet)"></img>
+          <img src="https://www.msaironline.com/images/prodImage/625_144x85.jpg" alt="Valve Body Assembly (pressure - with poppet)"></img>
         </div>
 
         <h4 className="replacement_parts_name">Valve Body Assembly (pressure - with poppet)</h4>
@@ -365,7 +365,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/22_144x85.jpg" alt="Valve body O-ring kit (12 each)"></img>
+          <img src="https://www.msaironline.com/images/prodImage/22_144x85.jpg" alt="Valve body O-ring kit (12 each)"></img>
         </div>
 
         <h4 className="replacement_parts_name">Valve body O-ring kit (12 each)</h4>
@@ -385,7 +385,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/34_144x85.jpg" alt="Face Plate Springs (12 per pack)"></img>
+          <img src="https://www.msaironline.com/images/prodImage/34_144x85.jpg" alt="Face Plate Springs (12 per pack)"></img>
         </div>
 
         <h4 className="replacement_parts_name">Face Plate Springs (12 per pack)</h4>
@@ -405,7 +405,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/627_144x85.jpg" alt="Latch Button - Oxygen"></img>
+          <img src="https://www.msaironline.com/images/prodImage/627_144x85.jpg" alt="Latch Button - Oxygen"></img>
         </div>
 
         <h4 className="replacement_parts_name">Latch Button - Oxygen</h4>
@@ -425,7 +425,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/643_144x85.jpg" alt="Oxygen Face Plate Assembly"></img>
+          <img src="https://www.msaironline.com/images/prodImage/643_144x85.jpg" alt="Oxygen Face Plate Assembly"></img>
         </div>
 
         <h4 className="replacement_parts_name">Oxygen Face Plate Assembly</h4>
@@ -445,7 +445,7 @@ export default class prodID409 extends React.Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/35_144x85.jpg" alt="Face plate mounting screw kit (48 each)"></img>
+          <img src="https://www.msaironline.com/images/prodImage/35_144x85.jpg" alt="Face plate mounting screw kit (48 each)"></img>
         </div>
 
         <h4 className="replacement_parts_name">Face plate mounting screw kit (48 each)</h4>
