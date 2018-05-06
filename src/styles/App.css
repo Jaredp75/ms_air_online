@@ -240,7 +240,7 @@ h1 {
 
 .header {
   overflow: hidden;
-  background-image: url('../img/air_compressor.jpg');
+  background-image: url('./img/air_compressor.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
