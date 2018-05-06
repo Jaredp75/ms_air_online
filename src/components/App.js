@@ -32,35 +32,35 @@ import SubCategory from '../components/subcategory';
 // import logo from '../msair100.jpg';
 // import movement from '../movement.jpg';
 //import './App.css';
-import axios from 'axios';
+// import axios from 'axios';
 
 class App extends Component {
 
-  state = {
-    categories: []
-  };
-
-
-  componentDidMount() {
-    axios
-      .get("http://www.msaironline.com/qa1/api/category.php?id=224")
-      .then(response => {
-
-        const newCategories = response.data.map(c => {
-          return {
-            taxID: c.taxID,
-            taxName: c.taxName
-          };
-        });
-
-        const newState = Object.assign({}, this.state, {
-          categories: newCategories
-        });
-
-        this.setState(newState);
-      })
-      .catch(error => console.log(error));
-  }
+  // state = {
+  //   categories: []
+  // };
+  //
+  //
+  // componentDidMount() {
+  //   axios
+  //     .get("https://www.msaironline.com/qa1/api/category.php?id=224")
+  //     .then(response => {
+  //
+  //       const newCategories = response.data.map(c => {
+  //         return {
+  //           taxID: c.taxID,
+  //           taxName: c.taxName
+  //         };
+  //       });
+  //
+  //       const newState = Object.assign({}, this.state, {
+  //         categories: newCategories
+  //       });
+  //
+  //       this.setState(newState);
+  //     })
+  //     .catch(error => console.log(error));
+  // }
 
 
 // render() {

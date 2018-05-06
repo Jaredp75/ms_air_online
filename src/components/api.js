@@ -12,43 +12,43 @@ import { connect } from 'react-redux';
 export default class API extends Component {
 
 
-  state = {
-    categories: []
-  };
-
-
-  componentDidMount() {
-    axios
-      .get("http://www.msaironline.com/qa1/api/category.php?id=223")
-      .then(response => {
-
-        const newCategories = response.data.map(c => {
-          return {
-            id: c.id,
-            name: c.name
-          };
-        });
-
-        const newState = Object.assign({}, this.state, {
-          categories: newCategories
-        });
-
-        this.setState(newState);
-      })
-      .catch(error => console.log(error));
-  }
-
-
-render() {
-  return (
-    <div className="App">
-
-      ...
-
-      <CategoryList categories={this.state.categories} />
-    </div>
-  );
-}
+//   state = {
+//     categories: []
+//   };
+//
+//
+//   componentDidMount() {
+//     axios
+//       .get("https://www.msaironline.com/qa1/api/category.php?id=223")
+//       .then(response => {
+//
+//         const newCategories = response.data.map(c => {
+//           return {
+//             id: c.id,
+//             name: c.name
+//           };
+//         });
+//
+//         const newState = Object.assign({}, this.state, {
+//           categories: newCategories
+//         });
+//
+//         this.setState(newState);
+//       })
+//       .catch(error => console.log(error));
+//   }
+//
+//
+// render() {
+//   return (
+//     <div className="App">
+//
+//       ...
+//
+//       <CategoryList categories={this.state.categories} />
+//     </div>
+//   );
+// }
 
 }
 

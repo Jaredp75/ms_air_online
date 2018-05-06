@@ -21,7 +21,7 @@ export default class Home extends React.Component {
   // }
 
   // componentDidMount(){
-  //   fetch('http://www.msaironline.com/qa1/api/category.php')
+  //   fetch('https://www.msaironline.com/qa1/api/category.php')
   //     .then(res => res.json())
   //     .then(
   //       (result) => {
