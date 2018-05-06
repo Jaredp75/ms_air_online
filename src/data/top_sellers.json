@@ -51,29 +51,29 @@
                     "prodID": "409",
                     "accessory_prod_id": "414",
                     "name": "Quick-Connect 400 Nitrous Oxide Wall Outlet Station",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=414&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/414_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=414&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/414_144x85.jpg"
                 },
                 {
                     "prodID": "409",
                     "accessory_prod_id": "415",
                     "name": "Quick-Connect 400 Nitrogen, Dynacon Wall Outlet Station",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=415&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/415_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=415&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/415_144x85.jpg"
                 },
                 {
                     "prodID": "409",
                     "accessory_prod_id": "416",
                     "name": "Quick-Connect 400 WAGD Wall Outlet Station",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=416&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/416_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=416&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/416_144x85.jpg"
                 },
                 {
                     "prodID": "409",
                     "accessory_prod_id": "417",
                     "name": "Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=417&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/417_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=417&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/417_144x85.jpg"
                 }
             ],
             "replacement_parts": [
@@ -83,8 +83,8 @@
                     "name": "Housing base O-ring (12 each)",
                     "brandName": "Chemetron",
                     "image_num": "4",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=15&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/15_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=15&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/15_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -92,8 +92,8 @@
                     "name": "Secondary Check Valve & Spring",
                     "brandName": "Chemetron",
                     "image_num": "5",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=616&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/616_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=616&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/616_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -101,8 +101,8 @@
                     "name": "Secondary Check O-ring",
                     "brandName": "Chemetron",
                     "image_num": "6",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=617&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/617_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=617&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/617_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -110,8 +110,8 @@
                     "name": "Replacement Outlet Housing",
                     "brandName": "Chemetron",
                     "image_num": "7",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=618&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/618_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=618&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/618_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -119,8 +119,8 @@
                     "name": "Housing base O-ring (12 each)",
                     "brandName": "Chemetron",
                     "image_num": "8",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=15&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/15_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=15&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/15_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -128,8 +128,8 @@
                     "name": "Secondary Check Valve & Spring",
                     "brandName": "Chemetron",
                     "image_num": "9",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=616&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/616_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=616&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/616_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -137,8 +137,8 @@
                     "name": "Metal Test Plug",
                     "brandName": "Chemetron",
                     "image_num": "11",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=620&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/620_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=620&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/620_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -146,8 +146,8 @@
                     "name": "Plastic Test Plug",
                     "brandName": "Chemetron",
                     "image_num": "11",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=619&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/619_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=619&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/619_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -155,8 +155,8 @@
                     "name": "Quick Connect Poppet",
                     "brandName": "Chemetron",
                     "image_num": "12",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=621&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/621_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=621&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/621_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -164,8 +164,8 @@
                     "name": "Poppet O-ring",
                     "brandName": "Chemetron",
                     "image_num": "13",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=622&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/622_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=622&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/622_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -173,8 +173,8 @@
                     "name": "Valve Body (pressure - without poppet)",
                     "brandName": "Chemetron",
                     "image_num": "14",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=623&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/623_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=623&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/623_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -182,8 +182,8 @@
                     "name": "Valve Body Assembly (pressure - with poppet)",
                     "brandName": "Chemetron",
                     "image_num": "14",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=625&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/625_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=625&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/625_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -191,8 +191,8 @@
                     "name": "Valve body O-ring kit (12 each)",
                     "brandName": "Chemetron",
                     "image_num": "15",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=22&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/22_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=22&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/22_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -200,8 +200,8 @@
                     "name": "Face Plate Springs (12 per pack)",
                     "brandName": "Chemetron",
                     "image_num": "16",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=34&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/34_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=34&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/34_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -209,8 +209,8 @@
                     "name": "Latch Button - Oxygen",
                     "brandName": "Chemetron",
                     "image_num": "17",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=627&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/627_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=627&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/627_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -218,8 +218,8 @@
                     "name": "Oxygen Face Plate Assembly",
                     "brandName": "Chemetron",
                     "image_num": "18",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=643&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/643_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=643&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/643_144x85.jpg"
                 },
                 {
                     "prodID": "409",
@@ -227,8 +227,8 @@
                     "name": "Face plate mounting screw kit (48 each)",
                     "brandName": "Chemetron",
                     "image_num": "19",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=35&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/35_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=35&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/35_144x85.jpg"
                 }
             ]
         },
@@ -291,36 +291,36 @@
                     "prodID": "8",
                     "accessory_prod_id": "11",
                     "name": "Quick Connect 500 Medical Air Wall Outlet",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=11&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/11_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=11&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/11_144x85.jpg"
                 },
                 {
                     "prodID": "8",
                     "accessory_prod_id": "47",
                     "name": "Quick Connect 500 Vacuum Bottle Slide Assembly",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=47&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/47_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=47&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/47_144x85.jpg"
                 },
                 {
                     "prodID": "8",
                     "accessory_prod_id": "283",
                     "name": "Quick Connect 500 Vacuum Completion Kit",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=283&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/283_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=283&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/283_144x85.jpg"
                 },
                 {
                     "prodID": "8",
                     "accessory_prod_id": "284",
                     "name": "Quick Connect 500 Rough In Kit - Vacuum",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=284&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/284_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=284&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/284_144x85.jpg"
                 },
                 {
                     "prodID": "8",
                     "accessory_prod_id": "294",
                     "name": "Quick Connect 500 Vacuum Wall Outlet w/ New Style Cover Plate",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=294&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/294_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=294&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/294_144x85.jpg"
                 }
             ],
             "replacement_parts": [
@@ -330,8 +330,8 @@
                     "name": "Secondary Check Kit (6 each)",
                     "brandName": "Chemetron",
                     "image_num": "4",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=18&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/18_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=18&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/18_144x85.jpg"
                 },
                 {
                     "prodID": "8",
@@ -339,8 +339,8 @@
                     "name": "Housing base O-ring (12 each)",
                     "brandName": "Chemetron",
                     "image_num": "5",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=15&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/15_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=15&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/15_144x85.jpg"
                 },
                 {
                     "prodID": "8",
@@ -348,8 +348,8 @@
                     "name": "Quick Connect Poppet 500 Series",
                     "brandName": "Chemetron",
                     "image_num": "6",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=16&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/16_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=16&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/16_144x85.jpg"
                 },
                 {
                     "prodID": "8",
@@ -357,8 +357,8 @@
                     "name": "Poppet O-ring Kit (12 each) - Quick Connect 500",
                     "brandName": "Chemetron",
                     "image_num": "7",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=17&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/17_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=17&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/17_144x85.jpg"
                 },
                 {
                     "prodID": "8",
@@ -366,8 +366,8 @@
                     "name": "Valve body with poppet-vacuum",
                     "brandName": "Chemetron",
                     "image_num": "8",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=20&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/20_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=20&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/20_144x85.jpg"
                 },
                 {
                     "prodID": "8",
@@ -375,8 +375,8 @@
                     "name": "Valve body O-ring kit (12 each)",
                     "brandName": "Chemetron",
                     "image_num": "9",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=22&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/22_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=22&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/22_144x85.jpg"
                 },
                 {
                     "prodID": "8",
@@ -384,8 +384,8 @@
                     "name": "Vacuum face plate assembly",
                     "brandName": "Chemetron",
                     "image_num": "10",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=26&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/26_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=26&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/26_144x85.jpg"
                 },
                 {
                     "prodID": "8",
@@ -393,8 +393,8 @@
                     "name": "Face Plate Springs (12 per pack)",
                     "brandName": "Chemetron",
                     "image_num": "11",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=34&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/34_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=34&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/34_144x85.jpg"
                 },
                 {
                     "prodID": "8",
@@ -402,8 +402,8 @@
                     "name": "Face plate mounting screw kit (48 each)",
                     "brandName": "Chemetron",
                     "image_num": "12",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=35&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/35_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=35&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/35_144x85.jpg"
                 },
                 {
                     "prodID": "8",
@@ -411,8 +411,8 @@
                     "name": "Vacuum Spring Kit (6 each)",
                     "brandName": "Chemetron",
                     "image_num": "13",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=36&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/36_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=36&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/36_144x85.jpg"
                 },
                 {
                     "prodID": "8",
@@ -420,8 +420,8 @@
                     "name": "Test plug kit (12 each)",
                     "brandName": "Chemetron",
                     "image_num": "14",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=37&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/37_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=37&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/37_144x85.jpg"
                 },
                 {
                     "prodID": "8",
@@ -429,8 +429,8 @@
                     "name": "Back Box Mounting Screws & Fastner Kit (24 each)",
                     "brandName": "Chemetron",
                     "image_num": "15",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=51&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/51_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=51&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/51_144x85.jpg"
                 }
             ]
         },
@@ -509,29 +509,29 @@
                     "prodID": "341",
                     "accessory_prod_id": "313",
                     "name": "Quick Connect 500 Rough In Kit - Oxygen w/ New Style Cover Plate",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=313&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/313_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=313&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/313_144x85.jpg"
                 },
                 {
                     "prodID": "341",
                     "accessory_prod_id": "324",
                     "name": "Quick Connect 500 Oxygen Outlet - Ohmeda Compatible",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=324&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/324_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=324&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/324_144x85.jpg"
                 },
                 {
                     "prodID": "341",
                     "accessory_prod_id": "342",
                     "name": "Quick Connect 500 Vacuum Outlet - Ohmeda Compatible /w New Style Cover",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=342&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/342_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=342&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/342_144x85.jpg"
                 },
                 {
                     "prodID": "341",
                     "accessory_prod_id": "352",
                     "name": "Quick Connect 500 Oxygen Completion Kit  - Ohmeda Compatible /w New Style Cover",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=352&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/352_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=352&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/352_144x85.jpg"
                 }
             ],
             "replacement_parts": [
@@ -541,8 +541,8 @@
                     "name": "Secondary Check Kit (6 each)",
                     "brandName": "Chemetron",
                     "image_num": "4",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=18&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/18_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=18&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/18_144x85.jpg"
                 },
                 {
                     "prodID": "341",
@@ -550,8 +550,8 @@
                     "name": "Housing base O-ring (12 each)",
                     "brandName": "Chemetron",
                     "image_num": "5",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=15&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/15_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=15&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/15_144x85.jpg"
                 },
                 {
                     "prodID": "341",
@@ -559,8 +559,8 @@
                     "name": "Quick Connect Poppet 500 Series",
                     "brandName": "Chemetron",
                     "image_num": "6",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=16&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/16_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=16&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/16_144x85.jpg"
                 },
                 {
                     "prodID": "341",
@@ -568,8 +568,8 @@
                     "name": "Poppet O-ring Kit (12 each) - Quick Connect 500",
                     "brandName": "Chemetron",
                     "image_num": "7",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=17&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/17_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=17&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/17_144x85.jpg"
                 },
                 {
                     "prodID": "341",
@@ -577,8 +577,8 @@
                     "name": "Valve body with poppet-pressure",
                     "brandName": "Chemetron",
                     "image_num": "8",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=19&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/19_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=19&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/19_144x85.jpg"
                 },
                 {
                     "prodID": "341",
@@ -586,8 +586,8 @@
                     "name": "Valve body kit with poppet-pressure (4 each)",
                     "brandName": "Chemetron",
                     "image_num": "8",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=21&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/21_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=21&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/21_144x85.jpg"
                 },
                 {
                     "prodID": "341",
@@ -595,8 +595,8 @@
                     "name": "Valve body O-ring kit (12 each)",
                     "brandName": "Chemetron",
                     "image_num": "9",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=22&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/22_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=22&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/22_144x85.jpg"
                 },
                 {
                     "prodID": "341",
@@ -604,8 +604,8 @@
                     "name": "Oxygen Face Plate Assembly.",
                     "brandName": "Chemetron",
                     "image_num": "10",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=23&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/23_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=23&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/23_144x85.jpg"
                 },
                 {
                     "prodID": "341",
@@ -613,8 +613,8 @@
                     "name": "Face Plate Springs (12 per pack)",
                     "brandName": "Chemetron",
                     "image_num": "11",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=34&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/34_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=34&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/34_144x85.jpg"
                 },
                 {
                     "prodID": "341",
@@ -622,8 +622,8 @@
                     "name": "Face plate mounting screw kit (48 each)",
                     "brandName": "Chemetron",
                     "image_num": "12",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=35&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/35_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=35&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/35_144x85.jpg"
                 },
                 {
                     "prodID": "341",
@@ -631,8 +631,8 @@
                     "name": "Test plug kit (12 each)",
                     "brandName": "Chemetron",
                     "image_num": "14",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=37&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/37_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=37&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/37_144x85.jpg"
                 },
                 {
                     "prodID": "341",
@@ -640,8 +640,8 @@
                     "name": "Back Box Mounting Screws & Fastner Kit (24 each)",
                     "brandName": "Chemetron",
                     "image_num": "15",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=51&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/51_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=51&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/51_144x85.jpg"
                 }
             ]
         },
@@ -704,29 +704,29 @@
                     "prodID": "14",
                     "accessory_prod_id": "8",
                     "name": "Quick Connect 500 Vacuum Wall Outlet",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=8&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/8_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=8&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/8_144x85.jpg"
                 },
                 {
                     "prodID": "14",
                     "accessory_prod_id": "281",
                     "name": "Quick Connect 500 Oxygen Completion Kit",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=281&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/281_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=281&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/281_144x85.jpg"
                 },
                 {
                     "prodID": "14",
                     "accessory_prod_id": "282",
                     "name": "Quick Connect 500 Rough In Kit - Oxygen",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=282&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/282_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=282&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/282_144x85.jpg"
                 },
                 {
                     "prodID": "14",
                     "accessory_prod_id": "293",
                     "name": "Quick Connect 500 Oxygen Wall Outlet w/ New Style Cover Plate",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=293&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/293_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=293&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/293_144x85.jpg"
                 }
             ],
             "replacement_parts": [
@@ -736,8 +736,8 @@
                     "name": "Secondary Check Kit (6 each)",
                     "brandName": "Chemetron",
                     "image_num": "4",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=18&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/18_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=18&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/18_144x85.jpg"
                 },
                 {
                     "prodID": "14",
@@ -745,8 +745,8 @@
                     "name": "Housing base O-ring (12 each)",
                     "brandName": "Chemetron",
                     "image_num": "5",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=15&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/15_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=15&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/15_144x85.jpg"
                 },
                 {
                     "prodID": "14",
@@ -754,8 +754,8 @@
                     "name": "Quick Connect Poppet 500 Series",
                     "brandName": "Chemetron",
                     "image_num": "6",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=16&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/16_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=16&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/16_144x85.jpg"
                 },
                 {
                     "prodID": "14",
@@ -763,8 +763,8 @@
                     "name": "Poppet O-ring Kit (12 each) - Quick Connect 500",
                     "brandName": "Chemetron",
                     "image_num": "7",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=17&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/17_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=17&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/17_144x85.jpg"
                 },
                 {
                     "prodID": "14",
@@ -772,8 +772,8 @@
                     "name": "Valve body with poppet-pressure",
                     "brandName": "Chemetron",
                     "image_num": "8",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=19&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/19_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=19&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/19_144x85.jpg"
                 },
                 {
                     "prodID": "14",
@@ -781,8 +781,8 @@
                     "name": "Valve body kit with poppet-pressure (4 each)",
                     "brandName": "Chemetron",
                     "image_num": "8",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=21&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/21_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=21&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/21_144x85.jpg"
                 },
                 {
                     "prodID": "14",
@@ -790,8 +790,8 @@
                     "name": "Valve body O-ring kit (12 each)",
                     "brandName": "Chemetron",
                     "image_num": "9",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=22&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/22_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=22&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/22_144x85.jpg"
                 },
                 {
                     "prodID": "14",
@@ -799,8 +799,8 @@
                     "name": "Oxygen Face Plate Assembly.",
                     "brandName": "Chemetron",
                     "image_num": "10",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=23&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/23_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=23&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/23_144x85.jpg"
                 },
                 {
                     "prodID": "14",
@@ -808,8 +808,8 @@
                     "name": "Face Plate Springs (12 per pack)",
                     "brandName": "Chemetron",
                     "image_num": "11",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=34&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/34_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=34&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/34_144x85.jpg"
                 },
                 {
                     "prodID": "14",
@@ -817,8 +817,8 @@
                     "name": "Face plate mounting screw kit (48 each)",
                     "brandName": "Chemetron",
                     "image_num": "12",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=35&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/35_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=35&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/35_144x85.jpg"
                 },
                 {
                     "prodID": "14",
@@ -826,8 +826,8 @@
                     "name": "Test plug kit (12 each)",
                     "brandName": "Chemetron",
                     "image_num": "14",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=37&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/37_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=37&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/37_144x85.jpg"
                 },
                 {
                     "prodID": "14",
@@ -835,8 +835,8 @@
                     "name": "Back Box Mounting Screws & Fastner Kit (24 each)",
                     "brandName": "Chemetron",
                     "image_num": "15",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=51&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/51_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=51&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/51_144x85.jpg"
                 }
             ]
         },
@@ -867,8 +867,8 @@
                     "name": "Quick-Connect 400 Oxygen Wall Outlet Station",
                     "brandName": "Chemetron",
                     "image_num": "18",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=409&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/409_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=409&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/409_144x85.jpg"
                 },
                 {
                     "prodID": "643",
@@ -876,8 +876,8 @@
                     "name": "Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)",
                     "brandName": "Chemetron",
                     "image_num": "18",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=417&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/417_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=417&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/417_144x85.jpg"
                 }
             ]
         },
@@ -1062,7 +1062,7 @@
                 {
                     "prod_id": "1423",
                     "file_name": "RamVac Bulldog.pdf",
-                    "file": "http://www.msaironline.com/files/40.pdf"
+                    "file": "https://www.msaironline.com/files/40.pdf"
                 }
             ]
         },
@@ -1160,7 +1160,7 @@
                 {
                     "prod_id": "1425",
                     "file_name": "RamVac Bison.pdf",
-                    "file": "http://www.msaironline.com/files/39.pdf"
+                    "file": "https://www.msaironline.com/files/39.pdf"
                 }
             ]
         },
@@ -1257,7 +1257,7 @@
                 {
                     "prod_id": "1426",
                     "file_name": "RamVac Bison.pdf",
-                    "file": "http://www.msaironline.com/files/39.pdf"
+                    "file": "https://www.msaironline.com/files/39.pdf"
                 }
             ]
         },
@@ -1288,7 +1288,7 @@
                 {
                     "prod_id": "1460",
                     "file_name": "RamVac SlugBuster.pdf",
-                    "file": "http://www.msaironline.com/files/44.pdf"
+                    "file": "https://www.msaironline.com/files/44.pdf"
                 }
             ]
         },
@@ -1319,7 +1319,7 @@
                 {
                     "prod_id": "1467",
                     "file_name": "Bulldog Filter Maintenance.pdf",
-                    "file": "http://www.msaironline.com/files/54.pdf"
+                    "file": "https://www.msaironline.com/files/54.pdf"
                 }
             ]
         },
@@ -1350,7 +1350,7 @@
                 {
                     "prod_id": "1469",
                     "file_name": "Bison Filter Maintenance.pdf",
-                    "file": "http://www.msaironline.com/files/53.pdf"
+                    "file": "https://www.msaironline.com/files/53.pdf"
                 }
             ]
         },
@@ -1381,8 +1381,8 @@
                     "name": "Recycle Kit",
                     "brandName": "Solmetex",
                     "image_num": "0",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=1480&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/1480_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=1480&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/1480_144x85.jpg"
                 },
                 {
                     "prodID": "1476",
@@ -1390,8 +1390,8 @@
                     "name": "Replacement Collection Container",
                     "brandName": "Solmetex",
                     "image_num": "0",
-                    "url": "http://www.msaironline.com/store/prod.php?prod=1478&linkid=related",
-                    "icon": "http://www.msaironline.com/images/prodImage/1478_144x85.jpg"
+                    "url": "https://www.msaironline.com/store/prod.php?prod=1478&linkid=related",
+                    "icon": "https://www.msaironline.com/images/prodImage/1478_144x85.jpg"
                 }
             ]
         }

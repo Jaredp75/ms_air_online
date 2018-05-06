@@ -67,7 +67,7 @@ export default App;
 //
 //
 //   componentDidMount() {
-//     fetch('http://www.msaironline.com/qa1/api/category.php?id=223')
+//     fetch('https://www.msaironline.com/qa1/api/category.php?id=223')
 //       .then(res => res.json())
 //       .then(
 //         (result) => {
