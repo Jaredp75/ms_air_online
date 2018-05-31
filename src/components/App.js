@@ -28,8 +28,8 @@ import prodID1467 from '../components/product_pages/prodID1467';
 import prodID1469 from '../components/product_pages/prodID1469';
 import prodID1476 from '../components/product_pages/prodID1476';
 import prodID1437 from '../components/product_pages/prodID1437';
-import Category from '../components/category';
-import SubCategory from '../components/subcategory';
+import Category from '../components/category_pages/category';
+import SubCategory from '../components/subcategory_pages/subcategory';
 // import logo from '../msair100.jpg';
 // import movement from '../movement.jpg';
 //import './App.css';
@@ -225,8 +225,8 @@ class App extends Component {
             <Route path="/product_pages/prodID1469" component={prodID1469}/>
             <Route path="/product_pages/prodID1476" component={prodID1476}/>
             <Route path="/product_pages/prodID1437" component={prodID1437}/>
-            <Route path="/category" component={Category}/>
-            <Route path="/subcategory" component={SubCategory}/>
+            <Route path="/category_pages/category" component={Category}/>
+            <Route path="/subcategory_pages/subcategory" component={SubCategory}/>
           </Switch>
         </Baselayout>
       </BrowserRouter>

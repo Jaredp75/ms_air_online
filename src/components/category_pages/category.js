@@ -1,8 +1,8 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 // import FooterLinks from './footer-links/footer-links.js';
-import HelpAndCurrency from './help-and-currency.js';
-import AboutLinks from './footer-links/about-links.js';
+import HelpAndCurrency from '../help-and-currency.js';
+import AboutLinks from '../footer-links/about-links.js';
 
 export default class Category extends React.Component {
 

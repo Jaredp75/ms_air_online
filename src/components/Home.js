@@ -97,84 +97,84 @@ export default class Home extends React.Component {
             <div className="left-half">
             <div className="top-brands">
               <div className="brand-logo">
-                <a href='/category'>
+                <a href='/category_pages/category'>
                   <img src="../trident_pneumatics.png" alt="Trident logo"/>
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/category'><b>Trident</b></a><br></br>
-                <li><a href='/subcategory'>Desiccant Air Dryers</a></li>
-                <li><a href='/subcategory'>Coalescing Filters</a></li>
-                <li><a href='/subcategory'>Particulate Filters</a></li>
+                <a href='/category_pages/category'><b>Trident</b></a><br></br>
+                <li><a href='/subcategory_pages/subcategory'>Desiccant Air Dryers</a></li>
+                <li><a href='/subcategory_pages/subcategory'>Coalescing Filters</a></li>
+                <li><a href='/subcategory_pages/subcategory'>Particulate Filters</a></li>
               </div>
             </div>
 
             <div className="top-brands">
               <div className="brand-logo">
-                <a href='/category'>
+                <a href='/category_pages/category'>
                   <img src="../logoSullivan.png" alt="Sullivan-Palatek logo"/>
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/category'><b>Sullivan-Palatek</b></a><br></br>
-                <li><a href='/subcategory'>Air Compressors</a></li>
+                <a href='/category_pages/category'><b>Sullivan-Palatek</b></a><br></br>
+                <li><a href='/subcategory_pages/subcategory'>Air Compressors</a></li>
               </div>
             </div>
 
             <div className="top-brands">
               <div className="brand-logo">
-                <a href='/category'>
+                <a href='/category_pages/category'>
                   <img src="../zeks_logo.png" alt="Zeks logo"/>
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/category'><b>Zeks</b></a><br></br>
-                <li><a href='/subcategory'>Replacement Elements</a></li>
-                <li><a href='/subcategory'>Air Dryers</a></li>
+                <a href='/category_pages/category'><b>Zeks</b></a><br></br>
+                <li><a href='/subcategory_pages/subcategory'>Replacement Elements</a></li>
+                <li><a href='/subcategory_pages/subcategory'>Air Dryers</a></li>
               </div>
             </div>
 
             <div className="top-brands">
               <div className="brand-logo">
-                <a href='/category'>
+                <a href='/category_pages/category'>
                   <img src="../tech-west_logo.jpg" alt="Tech West logo"/>
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/category'><b>Tech West</b></a><br></br>
-                <li><a href='/subcategory'>Oilless Air Compressors</a></li>
-                <li><a href='/subcategory'>Large Facility Compressors</a></li>
-                <li><a href='/subcategory'>ECO Dry-Vac Systems</a></li>
+                <a href='/category_pages/category'><b>Tech West</b></a><br></br>
+                <li><a href='/subcategory_pages/subcategory'>Oilless Air Compressors</a></li>
+                <li><a href='/subcategory_pages/subcategory'>Large Facility Compressors</a></li>
+                <li><a href='/subcategory_pages/subcategory'>ECO Dry-Vac Systems</a></li>
               </div>
             </div>
 
             <div className="top-brands">
               <div className="brand-logo">
-                <a href='/category'>
+                <a href='/category_pages/category'>
                   <img src="../chemetron_logo.jpg" alt="Chemetron Pipeline Products logo"/>
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/category'><b>Chemetron Pipeline Products</b></a><br></br>
-                <li><a href='/subcategory'>Valve Boxes</a></li>
-                <li><a href='/subcategory'>Medical Gas Outlets & Parts</a></li>
-                <li><a href='/subcategory'>Air Alarms</a></li>
-                <li><a href='/subcategory'>Valves & Handles</a></li>
-                <li><a href='/subcategory'>Gauges</a></li>
-                <li><a href='/subcategory'>Electrical Outlets</a></li>
+                <a href='/category_pages/category'><b>Chemetron Pipeline Products</b></a><br></br>
+                <li><a href='/subcategory_pages/subcategory'>Valve Boxes</a></li>
+                <li><a href='/subcategory_pages/subcategory'>Medical Gas Outlets & Parts</a></li>
+                <li><a href='/subcategory_pages/subcategory'>Air Alarms</a></li>
+                <li><a href='/subcategory_pages/subcategory'>Valves & Handles</a></li>
+                <li><a href='/subcategory_pages/subcategory'>Gauges</a></li>
+                <li><a href='/subcategory_pages/subcategory'>Electrical Outlets</a></li>
               </div>
             </div>
 
             <div className="top-brands">
               <div className="brand-logo">
-                <a href='/category'>
+                <a href='/category_pages/category'>
                   <img src="../medentex_logo.jpg" alt="Medentex logo"/>
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/category'><b>Medentex</b></a><br></br>
-                <li><a href='/subcategory'>Amalgam Separators & Parts</a></li>
-                <li><a href='/subcategory'>Waste Containers</a></li>
+                <a href='/category_pages/category'><b>Medentex</b></a><br></br>
+                <li><a href='/subcategory_pages/subcategory'>Amalgam Separators & Parts</a></li>
+                <li><a href='/subcategory_pages/subcategory'>Waste Containers</a></li>
               </div>
             </div>
           </div>
@@ -183,69 +183,69 @@ export default class Home extends React.Component {
             <div className="right-half">
             <div className="top-brands">
               <div className="brand-logo">
-                <a href='/category'>
+                <a href='/category_pages/category'>
                   <img src="../ramvac_logo.jpg" alt="Ramvac logo"/>
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/category'><b>Ramvac</b></a><br></br>
-                <li><a href='/subcategory'>Dental Vacuums</a></li>
-                <li><a href='/subcategory'>Dental Vacuum Parts</a></li>
-                <li><a href='/subcategory'>Compressor Parts</a></li>
-                <li><a href='/subcategory'>Tanks & Tank Accessories</a></li>
+                <a href='/category_pages/category'><b>Ramvac</b></a><br></br>
+                <li><a href='/subcategory_pages/subcategory'>Dental Vacuums</a></li>
+                <li><a href='/subcategory_pages/subcategory'>Dental Vacuum Parts</a></li>
+                <li><a href='/subcategory_pages/subcategory'>Compressor Parts</a></li>
+                <li><a href='/subcategory_pages/subcategory'>Tanks & Tank Accessories</a></li>
               </div>
             </div>
 
             <div className="top-brands">
               <div className="brand-logo">
-                <a href='/category'>
+                <a href='/category_pages/category'>
                   <img src="../solmetax_logo.jpg" alt="Solmetex logo"/>
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/category'><b>Solmetex</b></a><br></br>
-                <li><a href='/subcategory'>Amalgam Separators & Parts</a></li>
+                <a href='/category_pages/category'><b>Solmetex</b></a><br></br>
+                <li><a href='/subcategory_pages/subcategory'>Amalgam Separators & Parts</a></li>
               </div>
             </div>
 
             <div className="top-brands">
               <div className="brand-logo">
-                <a href='/category'>
+                <a href='/category_pages/category'>
                   <img src="../chicago-pneumatic_logo.jpg" alt="Chicago Pneumatic logo"/>
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/category'><b>Chicago Pneumatic</b></a><br></br>
-                <li><a href='/subcategory'>2 Stage Electric Air Compressors 5-10 HP</a></li>
-                <li><a href='/subcategory'>High Performance Rotary Screw Compressors</a></li>
-                <li><a href='/subcategory'>2 Stage Electric Duplex Compressor</a></li>
+                <a href='/category_pages/category'><b>Chicago Pneumatic</b></a><br></br>
+                <li><a href='/subcategory_pages/subcategory'>2 Stage Electric Air Compressors 5-10 HP</a></li>
+                <li><a href='/subcategory_pages/subcategory'>High Performance Rotary Screw Compressors</a></li>
+                <li><a href='/subcategory_pages/subcategory'>2 Stage Electric Duplex Compressor</a></li>
               </div>
             </div>
 
             <div className="top-brands">
               <div className="brand-logo">
-                <a href='/category'>
+                <a href='/category_pages/category'>
                   <img src="../chemetron_logo.jpg" alt="Chemetron Patient Care logo"/>
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/category'><b>Chemetron Patient Care</b></a><br></br>
-                <li><a href='/subcategory'>Medical Gas Duplex Couplers</a></li>
-                <li><a href='/subcategory'>Medical Gas Adapters</a></li>
-                <li><a href='/subcategory'>Medical Gas Couplers</a></li>
-                <li><a href='/subcategory'>DISS Male & Female Fittings</a></li>
+                <a href='/category_pages/category'><b>Chemetron Patient Care</b></a><br></br>
+                <li><a href='/subcategory_pages/subcategory'>Medical Gas Duplex Couplers</a></li>
+                <li><a href='/subcategory_pages/subcategory'>Medical Gas Adapters</a></li>
+                <li><a href='/subcategory_pages/subcategory'>Medical Gas Couplers</a></li>
+                <li><a href='/subcategory_pages/subcategory'>DISS Male & Female Fittings</a></li>
               </div>
             </div>
 
             <div className="top-brands">
               <div className="brand-logo">
-                <a href='/category'>
+                <a href='/category_pages/category'>
                   <img src="../msair100.jpg" alt="MS Air logo"/>
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/category'><b>Replacement Parts</b></a><br></br>
-                <li><a href='/subcategory'>Vibration Pads</a></li>
+                <a href='/category_pages/category'><b>Replacement Parts</b></a><br></br>
+                <li><a href='/subcategory_pages/subcategory'>Vibration Pads</a></li>
               </div>
             </div>
 

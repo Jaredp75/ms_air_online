@@ -406,7 +406,7 @@ export default class prodID8 extends React.Component {
         <div className="FooterLinks2">
           <AboutLinks />
         </div>
-              </div>
+      </div>
               <div className="about-footer">
                 <div className="terms">
                   <p><a href="/terms" target=" blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
