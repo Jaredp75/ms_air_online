@@ -31,17 +31,20 @@ import prodID1437 from '../components/product_pages/prodID1437';
 import Category from '../components/category_pages/category';
 import Desiccant_Air_Dryers from '../components/subcategory_pages/desiccant_air_dryers';
 import Particulate_Filters from '../components/subcategory_pages/particulate_filters';
-import prod1706 from '../components/subcategory_pages/prod1706';
-import prod1707 from '../components/subcategory_pages/prod1707';
-import prod1708 from '../components/subcategory_pages/prod1708';
-import prod1709 from '../components/subcategory_pages/prod1709';
-import prod1710 from '../components/subcategory_pages/prod1710';
-import prod1711 from '../components/subcategory_pages/prod1711';
-import prod1712 from '../components/subcategory_pages/prod1712';
-import prod1713 from '../components/subcategory_pages/prod1713';
-import prod1714 from '../components/subcategory_pages/prod1714';
-import prod1715 from '../components/subcategory_pages/prod1715';
-import prod1716 from '../components/subcategory_pages/prod1716';
+import prodID1702 from '../components/subcategory_pages/prodID1702';
+import prodID1703 from '../components/subcategory_pages/prodID1703';
+import prodID1704 from '../components/subcategory_pages/prodID1704';
+import prodID1706 from '../components/subcategory_pages/prodID1706';
+import prodID1707 from '../components/subcategory_pages/prodID1707';
+import prodID1708 from '../components/subcategory_pages/prodID1708';
+import prodID1709 from '../components/subcategory_pages/prodID1709';
+import prodID1710 from '../components/subcategory_pages/prodID1710';
+import prodID1711 from '../components/subcategory_pages/prodID1711';
+import prodID1712 from '../components/subcategory_pages/prodID1712';
+import prodID1713 from '../components/subcategory_pages/prodID1713';
+import prodID1714 from '../components/subcategory_pages/prodID1714';
+import prodID1715 from '../components/subcategory_pages/prodID1715';
+import prodID1716 from '../components/subcategory_pages/prodID1716';
 // import logo from '../msair100.jpg';
 // import movement from '../movement.jpg';
 //import './App.css';
@@ -240,17 +243,20 @@ class App extends Component {
             <Route path="/category_pages/category" component={Category}/>
             <Route path="/subcategory_pages/desiccant_air_dryers" component={Desiccant_Air_Dryers}/>
             <Route path="/subcategory_pages/particulate_filters" component={Particulate_Filters}/>
-            <Route path="/subcategory_pages/prod1706" component={prod1706}/>
-            <Route path="/subcategory_pages/prod1707" component={prod1707}/>
-            <Route path="/subcategory_pages/prod1708" component={prod1708}/>
-            <Route path="/subcategory_pages/prod1709" component={prod1709}/>
-            <Route path="/subcategory_pages/prod1710" component={prod1710}/>
-            <Route path="/subcategory_pages/prod1711" component={prod1711}/>
-            <Route path="/subcategory_pages/prod1712" component={prod1712}/>
-            <Route path="/subcategory_pages/prod1713" component={prod1713}/>
-            <Route path="/subcategory_pages/prod1714" component={prod1714}/>
-            <Route path="/subcategory_pages/prod1715" component={prod1715}/>
-            <Route path="/subcategory_pages/prod1716" component={prod1716}/>
+            <Route path="/subcategory_pages/prodID1702" component={prodID1702}/>
+            <Route path="/subcategory_pages/prodID1703" component={prodID1703}/>
+            <Route path="/subcategory_pages/prodID1704" component={prodID1704}/>
+            <Route path="/subcategory_pages/prodID1706" component={prodID1706}/>
+            <Route path="/subcategory_pages/prodID1707" component={prodID1707}/>
+            <Route path="/subcategory_pages/prodID1708" component={prodID1708}/>
+            <Route path="/subcategory_pages/prodID1709" component={prodID1709}/>
+            <Route path="/subcategory_pages/prodID1710" component={prodID1710}/>
+            <Route path="/subcategory_pages/prodID1711" component={prodID1711}/>
+            <Route path="/subcategory_pages/prodID1712" component={prodID1712}/>
+            <Route path="/subcategory_pages/prodID1713" component={prodID1713}/>
+            <Route path="/subcategory_pages/prodID1714" component={prodID1714}/>
+            <Route path="/subcategory_pages/prodID1715" component={prodID1715}/>
+            <Route path="/subcategory_pages/prodID1716" component={prodID1716}/>
 
 
           </Switch>

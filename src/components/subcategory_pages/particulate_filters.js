@@ -42,7 +42,7 @@ export default class Particulate_Filters extends React.Component {
                         <br />
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                         <br />
-                        {/* <a href="/subcategory_pages/prod1706"><strong>More Info >></strong></a> */}
+                        <a href="/subcategory_pages/prodID1702"><strong>More Info >></strong></a>
                       </ul>
                     </div>
                     <h3 className="individual-product-actual-price"><strong>$226.40</strong></h3>
@@ -123,7 +123,7 @@ export default class Particulate_Filters extends React.Component {
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
-                  {/* <a href="/subcategory_pages/prod1707"><strong>More Info >></strong></a> */}
+                  <a href="/subcategory_pages/prodID1703"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h3 className="individual-product-actual-price"><strong>$362.26</strong></h3>
@@ -202,7 +202,7 @@ export default class Particulate_Filters extends React.Component {
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
-                  {/* <a href="/subcategory_pages/prod1708"><strong>More Info >></strong></a> */}
+                  <a href="/subcategory_pages/prodID1704"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h3 className="individual-product-actual-price"><strong>$430.18</strong></h3>

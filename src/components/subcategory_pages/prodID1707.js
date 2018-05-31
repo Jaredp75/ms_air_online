@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
 
-export default class SubCategory extends React.Component {
+export default class prodID1707 extends React.Component {
 
   render(){
 
@@ -19,12 +19,15 @@ export default class SubCategory extends React.Component {
               <div className="individual-product">
                 <div className="individual_product_listing">
                   <div className="individual_product_entry">
+
+
                     <div className="product-image">
-                      <img src="https://www.msaironline.com/images/prodImage/1708_144x85.jpg" alt="Dryspell 30A"></img>
-                      <p>Catalog Number: PD228</p>
+                      <img src="https://www.msaironline.com/images/prodImage/1707_144x85.jpg" alt="Dryspell 20A"></img>
+                      <p>Catalog Number: PD227</p>
                     </div>
+
                     <div className="individual-product-details">
-                      <h2 className="individual-product-title">Dryspell 30A</h2>
+                      <h2 className="individual-product-title">Dryspell 20A</h2>
                       <h4 className="product-brand-title">Trident</h4>
                       {/* <h4 className="individual-product-suggested-retail-price">MSRP: $86.00</h4> */}
                       {/* <h4 className="individual-product-savings">Savings: <strong>$37.62</strong></h4> */}
@@ -32,7 +35,7 @@ export default class SubCategory extends React.Component {
                     <div className="individual-product-description">
                       <ul>
                         <li><strong>Dewpoint</strong>: (-40 Degrees F)</li>
-                        <li><strong>Flow</strong>: 30 scfm</li>
+                        <li><strong>Flow</strong>: 20 scfm</li>
                         <li><strong>Max PSI</strong>: 232 PSI</li>
                         <li><strong>Voltage</strong>: 100-240 VAC 50/60 Hz 1 Ph</li>
                         <br />
@@ -41,54 +44,56 @@ export default class SubCategory extends React.Component {
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                       </ul>
                     </div>
-                    <h3 className="individual-product-actual-price"><strong>$2147.52</strong></h3>
-                    </div>
-                  </div>
-
-                  <div className="quantity-input-group">
-                    <form action="/action_page.php">
-                      Qty:
-                      <input type="number" className="quantityBox" value="0" />
-                    </form>
+                    <h3 className="individual-product-actual-price"><strong>$1,686.74</strong></h3>
                   </div>
                 </div>
 
-                <div className="add-to-cart">
-                  <input type="submit" value="Add To Cart" />
+                <div className="quantity-input-group">
+                  <form action="/action_page.php">
+                    Qty:
+                    <input type="number" className="quantityBox" value="0" />
+                  </form>
+                </div>
+              </div>
+
+              <div className="add-to-cart">
+                <input type="submit" value="Add To Cart" />
+              </div>
+            </div>
+          </div>
+
+          <div className="replacement_items_section">
+            <h4 className="replacement_items_header">Accessories</h4>
+
+            <div className="replacement_item_listing">
+              <div className="replacement_item_entry">
+                <div className="replacement_item_image">
+                  <img src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" width="144" height="85" alt="60 SCFM Particulate Filter"></img>
+                </div>
+                <div className="replacement_item_details">
+                  <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
+                  <h6 className="replacement_item_brand_name">Trident</h6>
+                  <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
                 </div>
               </div>
             </div>
 
-            <div className="replacement_items_section">
-              <h4 className="replacement_items_header">Accessories</h4>
-
-              <div className="replacement_item_listing">
-                <div className="replacement_item_entry">
-                  <div className="replacement_item_image">
-                    <img src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" width="144" height="85" alt="60 SCFM Particulate Filter"></img>
-                  </div>
-                  <div className="replacement_item_details">
-                    <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
-                    <h6 className="replacement_item_brand_name">Trident</h6>
-                    <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-                  </div>
+            <div className="replacement_item_listing">
+              <div className="replacement_item_entry">
+                <div className="replacement_item_image">
+                  <img src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" width="144" height="85" alt="60 SCFM Coalescing Filter"></img>
                 </div>
-              </div>
-
-              <div className="replacement_item_listing">
-                <div className="replacement_item_entry">
-                  <div className="replacement_item_image">
-                    <img src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" width="144" height="85" alt="60 SCFM Coalescing Filter"></img>
-                  </div>
-                  <div className="replacement_item_details">
-                    <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-                    <h6 className="replacement_item_brand_name">Trident</h6>
-                    <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-                  </div>
+                <div className="replacement_item_details">
+                  <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
+                  <h6 className="replacement_item_brand_name">Trident</h6>
+                  <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+
+
 
 
 
@@ -100,6 +105,7 @@ export default class SubCategory extends React.Component {
         <div className="FooterLinks2">
           <AboutLinks />
         </div>
+
       </div>
 
         <div className="about-footer">

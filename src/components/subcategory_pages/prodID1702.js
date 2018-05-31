@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
 
-export default class SubCategory extends React.Component {
+export default class prodID1702 extends React.Component {
 
   render(){
 
@@ -22,30 +22,30 @@ export default class SubCategory extends React.Component {
 
 
                     <div className="product-image">
-                      <img src="https://www.msaironline.com/images/prodImage/1712_144x85.jpg" alt="Dryspell 125A"></img>
-                      <p>Catalog Number: PD232</p>
+                      <img src="https://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
+                      <p>Catalog Number: T100XIA</p>
                     </div>
 
 
                     <div className="individual-product-details">
-                      <h2 className="individual-product-title">Dryspell 125A</h2>
+                      <h2 className="individual-product-title">60 SCFM Particulate Filter</h2>
                       <h4 className="product-brand-title">Trident</h4>
                       {/* <h4 className="individual-product-suggested-retail-price">MSRP: $86.00</h4> */}
                       {/* <h4 className="individual-product-savings">Savings: <strong>$37.62</strong></h4> */}
 
                     <div className="individual-product-description">
                       <ul>
-                        <li><strong>Dewpoint</strong>: (-40 Degrees F)</li>
-                        <li><strong>Flow</strong>: 125 scfm</li>
+                        <li><strong>Micron Rating</strong>: 1</li>
+                        <li><strong>SCFM</strong>: 60</li>
                         <li><strong>Max PSI</strong>: 232 PSI</li>
                         <li><strong>Voltage</strong>: 100-240 VAC 50/60 Hz 1 Ph</li>
                         <br />
-                        <li>Dryer includes controller with purge economizer.</li>
+                        <li>A 1 micron particulate filter to protect downstream equipment from desiccant fines.</li>
                         <br />
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                       </ul>
                     </div>
-                    <h3 className="individual-product-actual-price"><strong>$4581.26</strong></h3>
+                    <h3 className="individual-product-actual-price"><strong>$226.40</strong></h3>
                   </div>
                 </div>
 
@@ -69,49 +69,63 @@ export default class SubCategory extends React.Component {
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img src="http://www.msaironline.com/images/prodImage/1703_144x85.jpg" width="144" height="85" alt="150 SCFM Particulate Filter"></img>
+                  <img src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" width="144" height="85" alt="60 SCFM Particulate Filter"></img>
                 </div>
-                <div className="replacement_item_details">
-                  <h6 className="replacement_item_title"><a href="/prodID8">150 SCFM Particulate Filter</a></h6>
-                  <h6 className="replacement_item_brand_name">Trident</h6>
-                  <h6 className="replacement_item_actual_price"><strong>$362.26</strong></h6>
-                </div>
-              </div>
-            </div>
-
-            <div className="replacement_item_listing">
-              <div className="replacement_item_entry">
-                <div className="replacement_item_image">
-                  <img src="http://www.msaironline.com/images/prodImage/1719_144x85.jpg" width="144" height="85" alt="150 SCFM Coalescing Filter"></img>
-                </div>
-                <div className="replacement_item_details">
-                  <h6 className="replacement_item_title"><a href="/prodID8">150 SCFM Coalescing Filter</a></h6>
-                  <h6 className="replacement_item_brand_name">Trident</h6>
-                  <h6 className="replacement_item_actual_price"><strong>$362.26</strong></h6>
-                </div>
+              <div className="replacement_item_details">
+                <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
+                <h6 className="replacement_item_brand_name">Trident</h6>
+                <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
               </div>
             </div>
           </div>
+
+          <div className="replacement_item_listing">
+            <div className="replacement_item_entry">
+              <div className="replacement_item_image">
+                <img src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" width="144" height="85" alt="60 SCFM Coalescing Filter"></img>
+              </div>
+            <div className="replacement_item_details">
+              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
+              <h6 className="replacement_item_brand_name">Trident</h6>
+              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         <div className="FooterLinks1">
           <HelpAndCurrency />
-        </div>
 
+        </div>
         <div className="FooterLinks2">
           <AboutLinks />
         </div>
-      </div>
-        <div className="about-footer">
-          <div className="terms">
-            <p><a href="/terms" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" rel="noopener noreferrer">Privacy Policy</a></p>
-          </div>
-
-          <div className="copyright">
-            <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
-          </div>
-        </div>
+              </div>
+              <div className="about-footer">
+                <div className="terms">
+                  <p><a href="/terms" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" rel="noopener noreferrer">Privacy Policy</a></p>
+                </div>
+                <div className="copyright">
+                  <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
+              </div>
+              </div>
 
       </div>
 

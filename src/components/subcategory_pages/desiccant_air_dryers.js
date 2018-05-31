@@ -44,7 +44,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
                         <br />
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                         <br />
-                        <a href="/subcategory_pages/prod1706"><strong>More Info >></strong></a>
+                        <a href="/subcategory_pages/prodID1706"><strong>More Info >></strong></a>
                       </ul>
                     </div>
                     <h3 className="individual-product-actual-price"><strong>$1,129.46</strong></h3>
@@ -71,7 +71,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" width="144" height="85" alt="60 SCFM Particulate Filter"></img>
+                  <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
                 </div>
               <div className="replacement_item_details">
                 <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
@@ -84,7 +84,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
           <div className="replacement_item_listing">
             <div className="replacement_item_entry">
               <div className="replacement_item_image">
-                <img src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" width="144" height="85" alt="60 SCFM Coalescing Filter"></img>
+                <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
               </div>
             <div className="replacement_item_details">
               <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
@@ -127,7 +127,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
-                  <a href="/subcategory_pages/prod1707"><strong>More Info >></strong></a>
+                  <a href="/subcategory_pages/prodID1707"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h3 className="individual-product-actual-price"><strong>$1,686.74</strong></h3>
@@ -154,7 +154,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
     <div className="replacement_item_listing">
       <div className="replacement_item_entry">
         <div className="replacement_item_image">
-          <img src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" width="144" height="85" alt="60 SCFM Particulate Filter"></img>
+          <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
         </div>
         <div className="replacement_item_details">
           <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
@@ -167,7 +167,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
     <div className="replacement_item_listing">
       <div className="replacement_item_entry">
         <div className="replacement_item_image">
-          <img src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" width="144" height="85" alt="60 SCFM Coalescing Filter"></img>
+          <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
         </div>
         <div className="replacement_item_details">
           <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
@@ -208,7 +208,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
-                  <a href="/subcategory_pages/prod1708"><strong>More Info >></strong></a>
+                  <a href="/subcategory_pages/prodID1708"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h3 className="individual-product-actual-price"><strong>$2147.52</strong></h3>
@@ -235,7 +235,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" width="144" height="85" alt="60 SCFM Particulate Filter"></img>
+            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
@@ -248,7 +248,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" width="144" height="85" alt="60 SCFM Coalescing Filter"></img>
+            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
@@ -293,7 +293,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
                 <br />
                 <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                 <br />
-                <a href="/subcategory_pages/prod1709"><strong>More Info >></strong></a>
+                <a href="/subcategory_pages/prodID1709"><strong>More Info >></strong></a>
               </ul>
             </div>
             <h3 className="individual-product-actual-price"><strong>$2362.34</strong></h3>
@@ -320,7 +320,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
     <div className="replacement_item_listing">
       <div className="replacement_item_entry">
         <div className="replacement_item_image">
-          <img src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" width="144" height="85" alt="60 SCFM Particulate Filter"></img>
+          <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
         </div>
         <div className="replacement_item_details">
           <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
@@ -333,7 +333,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
     <div className="replacement_item_listing">
       <div className="replacement_item_entry">
         <div className="replacement_item_image">
-          <img src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" width="144" height="85" alt="60 SCFM Coalescing Filter"></img>
+          <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
         </div>
         <div className="replacement_item_details">
           <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
@@ -378,7 +378,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />
-              <a href="/subcategory_pages/prod1710"><strong>More Info >></strong></a>
+              <a href="/subcategory_pages/prodID1710"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$3428.58</strong></h3>
@@ -405,7 +405,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
   <div className="replacement_item_listing">
     <div className="replacement_item_entry">
       <div className="replacement_item_image">
-        <img src="http://www.msaironline.com/images/prodImage/1703_144x85.jpg" width="144" height="85" alt="150 SCFM Particulate Filter"></img>
+        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1703_144x85.jpg" alt="150 SCFM Particulate Filter"></img>
       </div>
       <div className="replacement_item_details">
         <h6 className="replacement_item_title"><a href="/prodID8">150 SCFM Particulate Filter</a></h6>
@@ -418,7 +418,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
   <div className="replacement_item_listing">
     <div className="replacement_item_entry">
       <div className="replacement_item_image">
-        <img src="http://www.msaironline.com/images/prodImage/1719_144x85.jpg" width="144" height="85" alt="150 SCFM Coalescing Filter"></img>
+        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1719_144x85.jpg" alt="150 SCFM Coalescing Filter"></img>
       </div>
       <div className="replacement_item_details">
         <h6 className="replacement_item_title"><a href="/prodID8">150 SCFM Coalescing Filter</a></h6>
@@ -463,7 +463,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />
-              <a href="/subcategory_pages/prod1711"><strong>More Info >></strong></a>
+              <a href="/subcategory_pages/prodID1711"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$4581.26</strong></h3>
@@ -490,7 +490,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
   <div className="replacement_item_listing">
     <div className="replacement_item_entry">
       <div className="replacement_item_image">
-        <img src="http://www.msaironline.com/images/prodImage/1703_144x85.jpg" width="144" height="85" alt="150 SCFM Particulate Filter"></img>
+        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1703_144x85.jpg" alt="150 SCFM Particulate Filter"></img>
       </div>
       <div className="replacement_item_details">
         <h6 className="replacement_item_title"><a href="/prodID8">150 SCFM Particulate Filter</a></h6>
@@ -503,7 +503,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
   <div className="replacement_item_listing">
     <div className="replacement_item_entry">
       <div className="replacement_item_image">
-        <img src="http://www.msaironline.com/images/prodImage/1719_144x85.jpg" width="144" height="85" alt="150 SCFM Coalescing Filter"></img>
+        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1719_144x85.jpg" alt="150 SCFM Coalescing Filter"></img>
       </div>
       <div className="replacement_item_details">
         <h6 className="replacement_item_title"><a href="/prodID8">150 SCFM Coalescing Filter</a></h6>
@@ -548,7 +548,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />
-              <a href="/subcategory_pages/prod1712"><strong>More Info >></strong></a>
+              <a href="/subcategory_pages/prodID1712"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$4581.26</strong></h3>
@@ -575,7 +575,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
   <div className="replacement_item_listing">
     <div className="replacement_item_entry">
       <div className="replacement_item_image">
-        <img src="http://www.msaironline.com/images/prodImage/1703_144x85.jpg" width="144" height="85" alt="150 SCFM Particulate Filter"></img>
+        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1703_144x85.jpg" alt="150 SCFM Particulate Filter"></img>
       </div>
       <div className="replacement_item_details">
         <h6 className="replacement_item_title"><a href="/prodID8">150 SCFM Particulate Filter</a></h6>
@@ -588,7 +588,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
   <div className="replacement_item_listing">
     <div className="replacement_item_entry">
       <div className="replacement_item_image">
-        <img src="http://www.msaironline.com/images/prodImage/1719_144x85.jpg" width="144" height="85" alt="150 SCFM Coalescing Filter"></img>
+        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1719_144x85.jpg" alt="150 SCFM Coalescing Filter"></img>
       </div>
       <div className="replacement_item_details">
         <h6 className="replacement_item_title"><a href="/prodID8">150 SCFM Coalescing Filter</a></h6>
@@ -633,7 +633,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />
-              <a href="/subcategory_pages/prod1713"><strong>More Info >></strong></a>
+              <a href="/subcategory_pages/prodID1713"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$4581.26</strong></h3>
@@ -660,7 +660,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
   <div className="replacement_item_listing">
     <div className="replacement_item_entry">
       <div className="replacement_item_image">
-        <img src="http://www.msaironline.com/images/prodImage/1704_144x85.jpg" width="144" height="85" alt="350 SCFM Particulate Filter"></img>
+        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1704_144x85.jpg" alt="350 SCFM Particulate Filter"></img>
       </div>
       <div className="replacement_item_details">
         <h6 className="replacement_item_title"><a href="/prodID8">350 SCFM Particulate Filter</a></h6>
@@ -673,7 +673,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
   <div className="replacement_item_listing">
     <div className="replacement_item_entry">
       <div className="replacement_item_image">
-        <img src="http://www.msaironline.com/images/prodImage/1720_144x85.jpg" width="144" height="85" alt="350 SCFM Coalescing Filter"></img>
+        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1720_144x85.jpg" alt="350 SCFM Coalescing Filter"></img>
       </div>
       <div className="replacement_item_details">
         <h6 className="replacement_item_title"><a href="/prodID8">350 SCFM Coalescing Filter</a></h6>
@@ -718,7 +718,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />
-              <a href="/subcategory_pages/prod1714"><strong>More Info >></strong></a>
+              <a href="/subcategory_pages/prodID1714"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$9970.22</strong></h3>
@@ -745,7 +745,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
   <div className="replacement_item_listing">
     <div className="replacement_item_entry">
       <div className="replacement_item_image">
-        <img src="http://www.msaironline.com/images/prodImage/1704_144x85.jpg" width="144" height="85" alt="350 SCFM Particulate Filter"></img>
+        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1704_144x85.jpg" alt="350 SCFM Particulate Filter"></img>
       </div>
       <div className="replacement_item_details">
         <h6 className="replacement_item_title"><a href="/prodID8">350 SCFM Particulate Filter</a></h6>
@@ -758,7 +758,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
   <div className="replacement_item_listing">
     <div className="replacement_item_entry">
       <div className="replacement_item_image">
-        <img src="http://www.msaironline.com/images/prodImage/1720_144x85.jpg" width="144" height="85" alt="350 SCFM Coalescing Filter"></img>
+        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1720_144x85.jpg" alt="350 SCFM Coalescing Filter"></img>
       </div>
       <div className="replacement_item_details">
         <h6 className="replacement_item_title"><a href="/prodID8">350 SCFM Coalescing Filter</a></h6>
@@ -803,7 +803,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />
-              <a href="/subcategory_pages/prod1715"><strong>More Info >></strong></a>
+              <a href="/subcategory_pages/prodID1715"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$11955.50</strong></h3>
@@ -830,7 +830,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
   <div className="replacement_item_listing">
     <div className="replacement_item_entry">
       <div className="replacement_item_image">
-        <img src="http://www.msaironline.com/images/prodImage/1704_144x85.jpg" width="144" height="85" alt="350 SCFM Particulate Filter"></img>
+        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1704_144x85.jpg" alt="350 SCFM Particulate Filter"></img>
       </div>
       <div className="replacement_item_details">
         <h6 className="replacement_item_title"><a href="/prodID8">350 SCFM Particulate Filter</a></h6>
@@ -843,7 +843,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
   <div className="replacement_item_listing">
     <div className="replacement_item_entry">
       <div className="replacement_item_image">
-        <img src="http://www.msaironline.com/images/prodImage/1720_144x85.jpg" width="144" height="85" alt="350 SCFM Coalescing Filter"></img>
+        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1720_144x85.jpg" alt="350 SCFM Coalescing Filter"></img>
       </div>
       <div className="replacement_item_details">
         <h6 className="replacement_item_title"><a href="/prodID8">350 SCFM Coalescing Filter</a></h6>
@@ -888,7 +888,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />
-              <a href="/subcategory_pages/prod1716"><strong>More Info >></strong></a>
+              <a href="/subcategory_pages/prodID1716"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$13391.56</strong></h3>
@@ -915,7 +915,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
   <div className="replacement_item_listing">
     <div className="replacement_item_entry">
       <div className="replacement_item_image">
-        <img src="http://www.msaironline.com/images/prodImage/1704_144x85.jpg" width="144" height="85" alt="350 SCFM Particulate Filter"></img>
+        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1704_144x85.jpg" alt="350 SCFM Particulate Filter"></img>
       </div>
       <div className="replacement_item_details">
         <h6 className="replacement_item_title"><a href="/prodID8">350 SCFM Particulate Filter</a></h6>
@@ -928,7 +928,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
   <div className="replacement_item_listing">
     <div className="replacement_item_entry">
       <div className="replacement_item_image">
-        <img src="http://www.msaironline.com/images/prodImage/1720_144x85.jpg" width="144" height="85" alt="350 SCFM Coalescing Filter"></img>
+        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1720_144x85.jpg" alt="350 SCFM Coalescing Filter"></img>
       </div>
       <div className="replacement_item_details">
         <h6 className="replacement_item_title"><a href="/prodID8">350 SCFM Coalescing Filter</a></h6>

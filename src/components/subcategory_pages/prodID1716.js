@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
 
-export default class SubCategory extends React.Component {
+export default class prodID1716 extends React.Component {
 
   render(){
 
@@ -12,6 +12,7 @@ export default class SubCategory extends React.Component {
       <div>
 
         <div className = 'content-area-container'>
+
 
 
           <div className="content-area-container">
@@ -22,13 +23,13 @@ export default class SubCategory extends React.Component {
 
 
                     <div className="product-image">
-                      <img src="https://www.msaironline.com/images/prodImage/1713_144x85.jpg" alt="Dryspell 200A"></img>
-                      <p>Catalog Number: PD233</p>
+                      <img src="https://www.msaironline.com/images/prodImage/1716_144x85.jpg" alt="Dryspell 375A"></img>
+                      <p>Catalog Number: PD236</p>
                     </div>
 
 
                     <div className="individual-product-details">
-                      <h2 className="individual-product-title">Dryspell 200A</h2>
+                      <h2 className="individual-product-title">Dryspell 375A</h2>
                       <h4 className="product-brand-title">Trident</h4>
                       {/* <h4 className="individual-product-suggested-retail-price">MSRP: $86.00</h4> */}
                       {/* <h4 className="individual-product-savings">Savings: <strong>$37.62</strong></h4> */}
@@ -36,7 +37,7 @@ export default class SubCategory extends React.Component {
                     <div className="individual-product-description">
                       <ul>
                         <li><strong>Dewpoint</strong>: (-40 Degrees F)</li>
-                        <li><strong>Flow</strong>: 200 scfm</li>
+                        <li><strong>Flow</strong>: 375 scfm</li>
                         <li><strong>Max PSI</strong>: 232 PSI</li>
                         <li><strong>Voltage</strong>: 100-240 VAC 50/60 Hz 1 Ph</li>
                         <br />
@@ -45,7 +46,7 @@ export default class SubCategory extends React.Component {
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                       </ul>
                     </div>
-                    <h3 className="individual-product-actual-price"><strong>$4581.26</strong></h3>
+                    <h3 className="individual-product-actual-price"><strong>$13391.56</strong></h3>
                   </div>
                 </div>
 
@@ -93,6 +94,9 @@ export default class SubCategory extends React.Component {
             </div>
           </div>
         </div>
+
+
+
 
 
         <div className="FooterLinks1">
