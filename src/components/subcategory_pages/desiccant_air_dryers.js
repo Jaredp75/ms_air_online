@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
 
-export default class SubCategory extends React.Component {
+export default class Desiccant_Air_Dryers extends React.Component {
 
   render(){
 

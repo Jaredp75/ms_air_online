@@ -29,7 +29,8 @@ import prodID1469 from '../components/product_pages/prodID1469';
 import prodID1476 from '../components/product_pages/prodID1476';
 import prodID1437 from '../components/product_pages/prodID1437';
 import Category from '../components/category_pages/category';
-import SubCategory from '../components/subcategory_pages/subcategory';
+import Desiccant_Air_Dryers from '../components/subcategory_pages/desiccant_air_dryers';
+import Particulate_Filters from '../components/subcategory_pages/particulate_filters';
 import prod1706 from '../components/subcategory_pages/prod1706';
 import prod1707 from '../components/subcategory_pages/prod1707';
 import prod1708 from '../components/subcategory_pages/prod1708';
@@ -237,7 +238,8 @@ class App extends Component {
             <Route path="/product_pages/prodID1476" component={prodID1476}/>
             <Route path="/product_pages/prodID1437" component={prodID1437}/>
             <Route path="/category_pages/category" component={Category}/>
-            <Route path="/subcategory_pages/subcategory" component={SubCategory}/>
+            <Route path="/subcategory_pages/desiccant_air_dryers" component={Desiccant_Air_Dryers}/>
+            <Route path="/subcategory_pages/particulate_filters" component={Particulate_Filters}/>
             <Route path="/subcategory_pages/prod1706" component={prod1706}/>
             <Route path="/subcategory_pages/prod1707" component={prod1707}/>
             <Route path="/subcategory_pages/prod1708" component={prod1708}/>
