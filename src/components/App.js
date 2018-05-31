@@ -30,6 +30,17 @@ import prodID1476 from '../components/product_pages/prodID1476';
 import prodID1437 from '../components/product_pages/prodID1437';
 import Category from '../components/category_pages/category';
 import SubCategory from '../components/subcategory_pages/subcategory';
+import prod1706 from '../components/subcategory_pages/prod1706';
+import prod1707 from '../components/subcategory_pages/prod1707';
+import prod1708 from '../components/subcategory_pages/prod1708';
+import prod1709 from '../components/subcategory_pages/prod1709';
+import prod1710 from '../components/subcategory_pages/prod1710';
+import prod1711 from '../components/subcategory_pages/prod1711';
+import prod1712 from '../components/subcategory_pages/prod1712';
+import prod1713 from '../components/subcategory_pages/prod1713';
+import prod1714 from '../components/subcategory_pages/prod1714';
+import prod1715 from '../components/subcategory_pages/prod1715';
+import prod1716 from '../components/subcategory_pages/prod1716';
 // import logo from '../msair100.jpg';
 // import movement from '../movement.jpg';
 //import './App.css';
@@ -227,6 +238,19 @@ class App extends Component {
             <Route path="/product_pages/prodID1437" component={prodID1437}/>
             <Route path="/category_pages/category" component={Category}/>
             <Route path="/subcategory_pages/subcategory" component={SubCategory}/>
+            <Route path="/subcategory_pages/prod1706" component={prod1706}/>
+            <Route path="/subcategory_pages/prod1707" component={prod1707}/>
+            <Route path="/subcategory_pages/prod1708" component={prod1708}/>
+            <Route path="/subcategory_pages/prod1709" component={prod1709}/>
+            <Route path="/subcategory_pages/prod1710" component={prod1710}/>
+            <Route path="/subcategory_pages/prod1711" component={prod1711}/>
+            <Route path="/subcategory_pages/prod1712" component={prod1712}/>
+            <Route path="/subcategory_pages/prod1713" component={prod1713}/>
+            <Route path="/subcategory_pages/prod1714" component={prod1714}/>
+            <Route path="/subcategory_pages/prod1715" component={prod1715}/>
+            <Route path="/subcategory_pages/prod1716" component={prod1716}/>
+
+
           </Switch>
         </Baselayout>
       </BrowserRouter>

@@ -43,8 +43,6 @@ export default class SubCategory extends React.Component {
                         <li>Dryer complete with electric auto drain for pre-filter and controller with purge economizer.</li>
                         <br />
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                        <br />
-                        <a href="/subcategory_pages/prod1706"><strong>More Info >></strong></a>
                       </ul>
                     </div>
                     <h3 className="individual-product-actual-price"><strong>$1,129.46</strong></h3>
@@ -126,8 +124,6 @@ export default class SubCategory extends React.Component {
                   <li>Dryer complete with electric auto drain for pre-filter and controller with purge economizer.</li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                  <br />
-                  <a href="/subcategory_pages/prod1707"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h3 className="individual-product-actual-price"><strong>$1,686.74</strong></h3>
@@ -207,8 +203,6 @@ export default class SubCategory extends React.Component {
                   <li>Dryer complete with electric auto drain for pre-filter and controller with purge economizer.</li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                  <br />
-                  <a href="/subcategory_pages/prod1708"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h3 className="individual-product-actual-price"><strong>$2147.52</strong></h3>
@@ -292,8 +286,6 @@ export default class SubCategory extends React.Component {
                 <li>Dryer complete with electric auto drain for pre-filter and controller with purge economizer.</li>
                 <br />
                 <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                <br />
-                <a href="/subcategory_pages/prod1709"><strong>More Info >></strong></a>
               </ul>
             </div>
             <h3 className="individual-product-actual-price"><strong>$2362.34</strong></h3>
@@ -377,8 +369,6 @@ export default class SubCategory extends React.Component {
               <li>Dryer complete with electric auto drain for pre-filter and controller with purge economizer.</li>
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-              <br />
-              <a href="/subcategory_pages/prod1710"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$3428.58</strong></h3>
@@ -462,8 +452,6 @@ export default class SubCategory extends React.Component {
               <li>Dryer includes controller with purge economizer.</li>
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-              <br />
-              <a href="/subcategory_pages/prod1711"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$4581.26</strong></h3>
@@ -547,8 +535,6 @@ export default class SubCategory extends React.Component {
               <li>Dryer includes controller with purge economizer.</li>
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-              <br />
-              <a href="/subcategory_pages/prod1712"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$4581.26</strong></h3>
@@ -632,8 +618,6 @@ export default class SubCategory extends React.Component {
               <li>Dryer includes controller with purge economizer.</li>
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-              <br />
-              <a href="/subcategory_pages/prod1713"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$4581.26</strong></h3>
@@ -717,8 +701,6 @@ export default class SubCategory extends React.Component {
               <li>Dryer includes controller with purge economizer.</li>
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-              <br />
-              <a href="/subcategory_pages/prod1714"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$9970.22</strong></h3>
@@ -802,8 +784,6 @@ export default class SubCategory extends React.Component {
               <li>Dryer includes controller with purge economizer.</li>
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-              <br />
-              <a href="/subcategory_pages/prod1715"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$11955.50</strong></h3>
@@ -887,8 +867,6 @@ export default class SubCategory extends React.Component {
               <li>Dryer includes controller with purge economizer.</li>
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-              <br />
-              <a href="/subcategory_pages/prod1716"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$13391.56</strong></h3>
