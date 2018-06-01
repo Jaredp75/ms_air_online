@@ -22,7 +22,7 @@ export default class prodID409 extends React.Component {
 
 
             <div className="product-image">
-              <img src="httpsss://www.msaironline.com/images/prodImage/409_144x85.jpg" alt="product-placeholder"></img>
+              <img src="https://www.msaironline.com/images/prodImage/409_144x85.jpg" alt="product-placeholder"></img>
               <p>Catalog Number: 64-20-0001</p>
             </div>
             <div className="individual-product-details">
@@ -66,7 +66,7 @@ export default class prodID409 extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="httpss://www.msaironline.com/images/prodImage/414_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
+            <img src="https://www.msaironline.com/images/prodImage/414_144x85.jpg" alt="product-placeholder"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID409">Quick-Connect 400 Nitrous Oxide Wall Outlet Station</a></h6>
@@ -79,7 +79,7 @@ export default class prodID409 extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="httpss://www.msaironline.com/images/prodImage/415_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
+            <img src="https://www.msaironline.com/images/prodImage/415_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID409">Quick-Connect 400 Nitrogen, Dynacon Wall Outlet Station</a></h6>
@@ -92,7 +92,7 @@ export default class prodID409 extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="httpss://www.msaironline.com/images/prodImage/416_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
+            <img src="https://www.msaironline.com/images/prodImage/416_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID409">Quick-Connect 400 WAGD Wall Outlet Station</a></h6>

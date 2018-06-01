@@ -69,7 +69,7 @@ export default class prodID1712 extends React.Component {
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img src="http://www.msaironline.com/images/prodImage/1703_144x85.jpg" width="144" height="85" alt="150 SCFM Particulate Filter"></img>
+                  <img src="http://www.msaironline.com/images/prodImage/1703_144x85.jpg" alt="150 SCFM Particulate Filter"></img>
                 </div>
                 <div className="replacement_item_details">
                   <h6 className="replacement_item_title"><a href="/prodID8">150 SCFM Particulate Filter</a></h6>

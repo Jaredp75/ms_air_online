@@ -69,7 +69,7 @@ export default class Particulate_Filters extends React.Component {
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" width="144" height="85" alt="60 SCFM Particulate Filter"></img>
+                  <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
                 </div>
               <div className="replacement_item_details">
                 <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
@@ -82,7 +82,7 @@ export default class Particulate_Filters extends React.Component {
           <div className="replacement_item_listing">
             <div className="replacement_item_entry">
               <div className="replacement_item_image">
-                <img src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" width="144" height="85" alt="60 SCFM Coalescing Filter"></img>
+                <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
               </div>
             <div className="replacement_item_details">
               <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
@@ -150,7 +150,7 @@ export default class Particulate_Filters extends React.Component {
     <div className="replacement_item_listing">
       <div className="replacement_item_entry">
         <div className="replacement_item_image">
-          <img src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" width="144" height="85" alt="60 SCFM Particulate Filter"></img>
+          <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
         </div>
         <div className="replacement_item_details">
           <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
@@ -163,7 +163,7 @@ export default class Particulate_Filters extends React.Component {
     <div className="replacement_item_listing">
       <div className="replacement_item_entry">
         <div className="replacement_item_image">
-          <img src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" width="144" height="85" alt="60 SCFM Coalescing Filter"></img>
+          <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
         </div>
         <div className="replacement_item_details">
           <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
@@ -229,7 +229,7 @@ export default class Particulate_Filters extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" width="144" height="85" alt="60 SCFM Particulate Filter"></img>
+            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
@@ -242,7 +242,7 @@ export default class Particulate_Filters extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" width="144" height="85" alt="60 SCFM Coalescing Filter"></img>
+            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>

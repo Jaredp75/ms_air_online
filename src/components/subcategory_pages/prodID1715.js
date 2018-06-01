@@ -70,7 +70,7 @@ export default class prodID1715 extends React.Component {
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img src="http://www.msaironline.com/images/prodImage/1704_144x85.jpg" width="144" height="85" alt="350 SCFM Particulate Filter"></img>
+                  <img src="http://www.msaironline.com/images/prodImage/1704_144x85.jpg" alt="350 SCFM Particulate Filter"></img>
                 </div>
                 <div className="replacement_item_details">
                   <h6 className="replacement_item_title"><a href="/prodID8">350 SCFM Particulate Filter</a></h6>
@@ -83,7 +83,7 @@ export default class prodID1715 extends React.Component {
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img src="http://www.msaironline.com/images/prodImage/1720_144x85.jpg" width="144" height="85" alt="350 SCFM Coalescing Filter"></img>
+                  <img src="http://www.msaironline.com/images/prodImage/1720_144x85.jpg" alt="350 SCFM Coalescing Filter"></img>
                 </div>
                 <div className="replacement_item_details">
                   <h6 className="replacement_item_title"><a href="/prodID8">350 SCFM Coalescing Filter</a></h6>
