@@ -44,7 +44,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
                         <br />
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                         <br />
-                        <a href="/subcategory_pages/prodID1706"><strong>More Info >></strong></a>
+                        <a href="/subcat=249/prodID1706"><strong>More Info >></strong></a>
                       </ul>
                     </div>
                     <h3 className="individual-product-actual-price"><strong>$1,129.46</strong></h3>
@@ -127,7 +127,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
-                  <a href="/subcategory_pages/prodID1707"><strong>More Info >></strong></a>
+                  <a href="/subcat=249/prodID1707"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h3 className="individual-product-actual-price"><strong>$1,686.74</strong></h3>
@@ -208,7 +208,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
-                  <a href="/subcategory_pages/prodID1708"><strong>More Info >></strong></a>
+                  <a href="/subcat=249/prodID1708"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h3 className="individual-product-actual-price"><strong>$2147.52</strong></h3>
@@ -293,7 +293,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
                 <br />
                 <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                 <br />
-                <a href="/subcategory_pages/prodID1709"><strong>More Info >></strong></a>
+                <a href="/subcat=249/prodID1709"><strong>More Info >></strong></a>
               </ul>
             </div>
             <h3 className="individual-product-actual-price"><strong>$2362.34</strong></h3>
@@ -378,7 +378,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />
-              <a href="/subcategory_pages/prodID1710"><strong>More Info >></strong></a>
+              <a href="/subcat=249/prodID1710"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$3428.58</strong></h3>
@@ -463,7 +463,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />
-              <a href="/subcategory_pages/prodID1711"><strong>More Info >></strong></a>
+              <a href="/subcat=249/prodID1711"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$4581.26</strong></h3>
@@ -548,7 +548,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />
-              <a href="/subcategory_pages/prodID1712"><strong>More Info >></strong></a>
+              <a href="/subcat=249/prodID1712"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$4581.26</strong></h3>
@@ -633,7 +633,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />
-              <a href="/subcategory_pages/prodID1713"><strong>More Info >></strong></a>
+              <a href="/subcat=249/prodID1713"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$4581.26</strong></h3>
@@ -718,7 +718,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />
-              <a href="/subcategory_pages/prodID1714"><strong>More Info >></strong></a>
+              <a href="/subcat=249/prodID1714"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$9970.22</strong></h3>
@@ -803,7 +803,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />
-              <a href="/subcategory_pages/prodID1715"><strong>More Info >></strong></a>
+              <a href="/subcat=249/prodID1715"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$11955.50</strong></h3>
@@ -888,7 +888,7 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />
-              <a href="/subcategory_pages/prodID1716"><strong>More Info >></strong></a>
+              <a href="/subcat=249/prodID1716"><strong>More Info >></strong></a>
             </ul>
           </div>
           <h3 className="individual-product-actual-price"><strong>$13391.56</strong></h3>

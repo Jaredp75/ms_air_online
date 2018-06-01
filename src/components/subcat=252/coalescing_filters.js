@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
 
-export default class Particulate_Filters extends React.Component {
+export default class Coalescing_Filters extends React.Component {
 
   render(){
 
@@ -22,13 +22,13 @@ export default class Particulate_Filters extends React.Component {
 
 
                     <div className="product-image">
-                      <img src="https://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
-                      <p>Catalog Number: T100XIA</p>
+                      <img src="https://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
+                      <p>Catalog Number: T100YIA</p>
                     </div>
 
 
                     <div className="individual-product-details">
-                      <h2 className="individual-product-title">60 SCFM Particulate Filter</h2>
+                      <h2 className="individual-product-title">60 SCFM Coalescing Filter</h2>
                       <h4 className="product-brand-title">Trident</h4>
                       {/* <h4 className="individual-product-suggested-retail-price">MSRP: $86.00</h4> */}
                       {/* <h4 className="individual-product-savings">Savings: <strong>$37.62</strong></h4> */}
@@ -38,11 +38,11 @@ export default class Particulate_Filters extends React.Component {
                         <li><strong>Micron Rating</strong>: 1</li>
                         <li><strong>SCFM</strong>: 60</li>
                         <br />
-                        <li>A 1 micron particulate filter to protect downstream equipment from desiccant fines.</li>
+                        <li>A 0.01-micron coalescing filter to protect the desiccant from compressor oils and other contaminants.</li>
                         <br />
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                         <br />
-                        <a href="/subcategory_pages/prodID1702"><strong>More Info >></strong></a>
+                        <a href="/subcat=252/prodID1722"><strong>More Info >></strong></a>
                       </ul>
                     </div>
                     <h3 className="individual-product-actual-price"><strong>$226.40</strong></h3>
@@ -104,12 +104,12 @@ export default class Particulate_Filters extends React.Component {
 
 
               <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1703_144x85.jpg" alt="150 SCFM Particulate Filter"></img>
-                <p>Catalog Number: T250XIA</p>
+                <img src="https://www.msaironline.com/images/prodImage/1719_144x85.jpg" alt="150 SCFM Coalescing Filter"></img>
+                <p>Catalog Number: T250YIA</p>
               </div>
 
               <div className="individual-product-details">
-                <h2 className="individual-product-title">150 SCFM Particulate Filter</h2>
+                <h2 className="individual-product-title">150 SCFM Coalescing Filter</h2>
                 <h4 className="product-brand-title">Trident</h4>
                 {/* <h4 className="individual-product-suggested-retail-price">MSRP: $86.00</h4> */}
                 {/* <h4 className="individual-product-savings">Savings: <strong>$37.62</strong></h4> */}
@@ -119,11 +119,11 @@ export default class Particulate_Filters extends React.Component {
                   <li><strong>Micron Rating</strong>: 1</li>
                   <li><strong>SCFM</strong>: 150</li>
                   <br />
-                  <li>A 1 micron particulate filter to protect downstream equipment from desiccant fines.</li>
+                  <li>A 0.01-micron coalescing filter to protect the desiccant from compressor oils and other contaminants.</li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
-                  <a href="/subcategory_pages/prodID1703"><strong>More Info >></strong></a>
+                  <a href="/subcat=252/prodID1719"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h3 className="individual-product-actual-price"><strong>$362.26</strong></h3>
@@ -184,11 +184,11 @@ export default class Particulate_Filters extends React.Component {
         <div className="individual_product_listing">
           <div className="individual_product_entry">
             <div className="product-image">
-              <img src="https://www.msaironline.com/images/prodImage/1704_144x85.jpg" alt="350 SCFM Particulate Filter"></img>
-              <p>Catalog Number: T600XIA</p>
+              <img src="https://www.msaironline.com/images/prodImage/1720_144x85.jpg" alt="350 SCFM Coalescing Filter"></img>
+              <p>Catalog Number: T600YIA</p>
             </div>
             <div className="individual-product-details">
-              <h2 className="individual-product-title">350 SCFM Particulate Filter</h2>
+              <h2 className="individual-product-title">350 SCFM Coalescing Filter</h2>
               <h4 className="product-brand-title">Trident</h4>
               {/* <h4 className="individual-product-suggested-retail-price">MSRP: $86.00</h4> */}
               {/* <h4 className="individual-product-savings">Savings: <strong>$37.62</strong></h4> */}
@@ -198,11 +198,11 @@ export default class Particulate_Filters extends React.Component {
                   <li><strong>Micron Rating</strong>: 1</li>
                   <li><strong>SCFM</strong>: 350</li>
                   <br />
-                  <li>Dryer complete with electric auto drain for pre-filter and controller with purge economizer.</li>
+                  <li>A 0.01-micron coalescing filter to protect the desiccant from compressor oils and other contaminants.</li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
-                  <a href="/subcategory_pages/prodID1704"><strong>More Info >></strong></a>
+                  <a href="/subcat=252/prodID1720"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h3 className="individual-product-actual-price"><strong>$430.18</strong></h3>

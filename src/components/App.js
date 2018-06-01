@@ -29,22 +29,26 @@ import prodID1469 from '../components/product_pages/prodID1469';
 import prodID1476 from '../components/product_pages/prodID1476';
 import prodID1437 from '../components/product_pages/prodID1437';
 import Category from '../components/category_pages/category';
-import Desiccant_Air_Dryers from '../components/subcategory_pages/desiccant_air_dryers';
-import Particulate_Filters from '../components/subcategory_pages/particulate_filters';
-import prodID1702 from '../components/subcategory_pages/prodID1702';
-import prodID1703 from '../components/subcategory_pages/prodID1703';
-import prodID1704 from '../components/subcategory_pages/prodID1704';
-import prodID1706 from '../components/subcategory_pages/prodID1706';
-import prodID1707 from '../components/subcategory_pages/prodID1707';
-import prodID1708 from '../components/subcategory_pages/prodID1708';
-import prodID1709 from '../components/subcategory_pages/prodID1709';
-import prodID1710 from '../components/subcategory_pages/prodID1710';
-import prodID1711 from '../components/subcategory_pages/prodID1711';
-import prodID1712 from '../components/subcategory_pages/prodID1712';
-import prodID1713 from '../components/subcategory_pages/prodID1713';
-import prodID1714 from '../components/subcategory_pages/prodID1714';
-import prodID1715 from '../components/subcategory_pages/prodID1715';
-import prodID1716 from '../components/subcategory_pages/prodID1716';
+import Desiccant_Air_Dryers from '../components/subcat=249/desiccant_air_dryers';
+import Particulate_Filters from '../components/subcat=251/particulate_filters';
+import Coalescing_Filters from '../components/subcat=252/coalescing_filters';
+import prodID1702 from '../components/subcat=251/prodID1702';
+import prodID1703 from '../components/subcat=251/prodID1703';
+import prodID1704 from '../components/subcat=251/prodID1704';
+import prodID1706 from '../components/subcat=249/prodID1706';
+import prodID1707 from '../components/subcat=249/prodID1707';
+import prodID1708 from '../components/subcat=249/prodID1708';
+import prodID1709 from '../components/subcat=249/prodID1709';
+import prodID1710 from '../components/subcat=249/prodID1710';
+import prodID1711 from '../components/subcat=249/prodID1711';
+import prodID1712 from '../components/subcat=249/prodID1712';
+import prodID1713 from '../components/subcat=249/prodID1713';
+import prodID1714 from '../components/subcat=249/prodID1714';
+import prodID1715 from '../components/subcat=249/prodID1715';
+import prodID1716 from '../components/subcat=249/prodID1716';
+import prodID1719 from '../components/subcat=252/prodID1719';
+import prodID1720 from '../components/subcat=252/prodID1720';
+import prodID1722 from '../components/subcat=252/prodID1722';
 // import logo from '../msair100.jpg';
 // import movement from '../movement.jpg';
 //import './App.css';
@@ -241,22 +245,26 @@ class App extends Component {
             <Route path="/product_pages/prodID1476" component={prodID1476}/>
             <Route path="/product_pages/prodID1437" component={prodID1437}/>
             <Route path="/category_pages/category" component={Category}/>
-            <Route path="/subcategory_pages/desiccant_air_dryers" component={Desiccant_Air_Dryers}/>
-            <Route path="/subcategory_pages/particulate_filters" component={Particulate_Filters}/>
-            <Route path="/subcategory_pages/prodID1702" component={prodID1702}/>
-            <Route path="/subcategory_pages/prodID1703" component={prodID1703}/>
-            <Route path="/subcategory_pages/prodID1704" component={prodID1704}/>
-            <Route path="/subcategory_pages/prodID1706" component={prodID1706}/>
-            <Route path="/subcategory_pages/prodID1707" component={prodID1707}/>
-            <Route path="/subcategory_pages/prodID1708" component={prodID1708}/>
-            <Route path="/subcategory_pages/prodID1709" component={prodID1709}/>
-            <Route path="/subcategory_pages/prodID1710" component={prodID1710}/>
-            <Route path="/subcategory_pages/prodID1711" component={prodID1711}/>
-            <Route path="/subcategory_pages/prodID1712" component={prodID1712}/>
-            <Route path="/subcategory_pages/prodID1713" component={prodID1713}/>
-            <Route path="/subcategory_pages/prodID1714" component={prodID1714}/>
-            <Route path="/subcategory_pages/prodID1715" component={prodID1715}/>
-            <Route path="/subcategory_pages/prodID1716" component={prodID1716}/>
+            <Route path="/subcat=249/desiccant_air_dryers" component={Desiccant_Air_Dryers}/>
+            <Route path="/subcat=251/particulate_filters" component={Particulate_Filters}/>
+            <Route path="/subcat=252/coalescing_filters" component={Coalescing_Filters}/>
+            <Route path="/subcat=251/prodID1702" component={prodID1702}/>
+            <Route path="/subcat=251/prodID1703" component={prodID1703}/>
+            <Route path="/subcat=251/prodID1704" component={prodID1704}/>
+            <Route path="/subcat=249/prodID1706" component={prodID1706}/>
+            <Route path="/subcat=249/prodID1707" component={prodID1707}/>
+            <Route path="/subcat=249/prodID1708" component={prodID1708}/>
+            <Route path="/subcat=249/prodID1709" component={prodID1709}/>
+            <Route path="/subcat=249/prodID1710" component={prodID1710}/>
+            <Route path="/subcat=249/prodID1711" component={prodID1711}/>
+            <Route path="/subcat=249/prodID1712" component={prodID1712}/>
+            <Route path="/subcat=249/prodID1713" component={prodID1713}/>
+            <Route path="/subcat=249/prodID1714" component={prodID1714}/>
+            <Route path="/subcat=249/prodID1715" component={prodID1715}/>
+            <Route path="/subcat=249/prodID1716" component={prodID1716}/>
+            <Route path="/subcat=252/prodID1719" component={prodID1719}/>
+            <Route path="/subcat=252/prodID1720" component={prodID1720}/>
+            <Route path="/subcat=252/prodID1722" component={prodID1722}/>
 
 
           </Switch>
