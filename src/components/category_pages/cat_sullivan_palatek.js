@@ -21,7 +21,7 @@ export default class Cat_Sullivan_Palatek extends React.Component {
             <div className="dropdown">
             <button className="dropbtn">Subcategories</button>
               <div className="dropdown-content">
-                <a href="/subcat=249/desiccant_air_dryers">Air Compressors</a>
+                <a href="/subcat=244/air_compressors">Air Compressors</a>
                 {/* <a href="/subcat=251/particulate_filters">Particulate Filters</a> */}
                 {/* <a href="/subcat=252/coalescing_filters">Coalescing Filters</a> */}
               </div>
@@ -41,7 +41,7 @@ export default class Cat_Sullivan_Palatek extends React.Component {
 
           <div className="subcategories">
             <div className="subcat_section1">
-              <a href="/subcat=249/desiccant_air_dryers" alt="Air Compressors"><img src="https://www.msaironline.com/images/taxImage/244_100x75.jpg" alt="Air Compressors"></img></a>
+              <a href="/subcat=244/air_compressors" alt="Air Compressors"><img src="https://www.msaironline.com/images/taxImage/244_100x75.jpg" alt="Air Compressors"></img></a>
               <h2><a href="/subcat=244/air_compressors">Air Compressors</a></h2>
             </div>
 

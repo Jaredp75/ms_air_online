@@ -41,12 +41,12 @@ export default class prodID1640 extends React.Component {
                         <br />
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                         <br />
-                        <a href="/subcat=252/prodID1719"><strong>More Info >></strong></a>
+
                       </ul>
                     </div>
-                      <h4 className="individual-product-suggested-retail-price">MSRP: $25921.70</h4>
-                      <h4 className="individual-product-savings">Savings: <strong>$</strong></h4>
-                      <h3 className="individual-product-actual-price"><strong>15158.89</strong></h3>
+                      <h4 className="individual-product-suggested-retail-price">MSRP: $25,921.70</h4>
+                      <h4 className="individual-product-savings">Savings: <strong>$10,762.81</strong></h4>
+                      <h3 className="individual-product-actual-price"><strong>$15,158.89</strong></h3>
                   </div>
                 </div>
 
