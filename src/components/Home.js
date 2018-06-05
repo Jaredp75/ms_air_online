@@ -111,12 +111,12 @@ export default class Home extends React.Component {
 
             <div className="top-brands">
               <div className="brand-logo">
-                <a href='/category_pages/category'>
+                <a href='/category_pages/cat_sullivan_palatek'>
                   <img src="../logoSullivan.png" alt="Sullivan-Palatek logo"/>
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/category_pages/category'><b>Sullivan-Palatek</b></a><br></br>
+                <a href='/category_pages/cat_sullivan_palatek'><b>Sullivan-Palatek</b></a><br></br>
                 <li><a href='/subcategory_pages/subcategory'>Air Compressors</a></li>
               </div>
             </div>

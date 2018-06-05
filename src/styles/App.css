@@ -514,7 +514,7 @@ h1 {
 }
 
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .bottom-header, .search-container {
     float: none;
     display: block;
@@ -531,7 +531,7 @@ h1 {
   .bottom-header input[type=text] {
     border: 1px solid #ccc;
   }
-}
+} */
 
 
 
@@ -547,13 +547,13 @@ h1 {
 
 
 
-@media screen and (max-width: 600px)
+/* @media screen and (max-width: 600px)
 {
   .left-div, .right-div
     {
        max-width: 100%;
     }
-}
+} */
 
 
 .head-wrapper {

@@ -30,6 +30,7 @@ import prodID1476 from '../components/product_pages/prodID1476';
 import prodID1437 from '../components/product_pages/prodID1437';
 import Category from '../components/category_pages/category';
 import Cat_Trident from '../components/category_pages/cat_trident';
+import Cat_Sullivan_Palatek from '../components/category_pages/cat_sullivan_palatek';
 import Desiccant_Air_Dryers from '../components/subcat=249/desiccant_air_dryers';
 import Particulate_Filters from '../components/subcat=251/particulate_filters';
 import Coalescing_Filters from '../components/subcat=252/coalescing_filters';
@@ -247,6 +248,7 @@ class App extends Component {
             <Route path="/product_pages/prodID1437" component={prodID1437}/>
             <Route path="/category_pages/category" component={Category}/>
             <Route path="/category_pages/cat_trident" component={Cat_Trident}/>
+            <Route path="/category_pages/cat_sullivan_palatek" component={Cat_Sullivan_Palatek}/>
             <Route path="/subcat=249/desiccant_air_dryers" component={Desiccant_Air_Dryers}/>
             <Route path="/subcat=251/particulate_filters" component={Particulate_Filters}/>
             <Route path="/subcat=252/coalescing_filters" component={Coalescing_Filters}/>
