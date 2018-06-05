@@ -31,9 +31,20 @@ import prodID1437 from '../components/product_pages/prodID1437';
 import Category from '../components/category_pages/category';
 import Cat_Trident from '../components/category_pages/cat_trident';
 import Cat_Sullivan_Palatek from '../components/category_pages/cat_sullivan_palatek';
+import Air_Compressors from '../components/subcat=244/air_compressors';
 import Desiccant_Air_Dryers from '../components/subcat=249/desiccant_air_dryers';
 import Particulate_Filters from '../components/subcat=251/particulate_filters';
 import Coalescing_Filters from '../components/subcat=252/coalescing_filters';
+import prodID1633 from '../components/subcat=244/prodID1633';
+import prodID1641 from '../components/subcat=244/prodID1641';
+import prodID1640 from '../components/subcat=244/prodID1640';
+import prodID1639 from '../components/subcat=244/prodID1639';
+import prodID1638 from '../components/subcat=244/prodID1638';
+import prodID1637 from '../components/subcat=244/prodID1637';
+import prodID1636 from '../components/subcat=244/prodID1636';
+import prodID1635 from '../components/subcat=244/prodID1635';
+import prodID1634 from '../components/subcat=244/prodID1634';
+import prodID1642 from '../components/subcat=244/prodID1642';
 import prodID1702 from '../components/subcat=251/prodID1702';
 import prodID1703 from '../components/subcat=251/prodID1703';
 import prodID1704 from '../components/subcat=251/prodID1704';
@@ -249,9 +260,20 @@ class App extends Component {
             <Route path="/category_pages/category" component={Category}/>
             <Route path="/category_pages/cat_trident" component={Cat_Trident}/>
             <Route path="/category_pages/cat_sullivan_palatek" component={Cat_Sullivan_Palatek}/>
+            <Route path="/subcat=244/air_compressors" component={Air_Compressors}/>
             <Route path="/subcat=249/desiccant_air_dryers" component={Desiccant_Air_Dryers}/>
             <Route path="/subcat=251/particulate_filters" component={Particulate_Filters}/>
             <Route path="/subcat=252/coalescing_filters" component={Coalescing_Filters}/>
+            <Route path="/subcat=244/prodID1633" component={prodID1633}/>
+            <Route path="/subcat=244/prodID1641" component={prodID1641}/>
+            <Route path="/subcat=244/prodID1640" component={prodID1640}/>
+            <Route path="/subcat=244/prodID1639" component={prodID1639}/>
+            <Route path="/subcat=244/prodID1638" component={prodID1638}/>
+            <Route path="/subcat=244/prodID1637" component={prodID1637}/>
+            <Route path="/subcat=244/prodID1636" component={prodID1636}/>
+            <Route path="/subcat=244/prodID1635" component={prodID1635}/>
+            <Route path="/subcat=244/prodID1634" component={prodID1634}/>
+            <Route path="/subcat=244/prodID1642" component={prodID1642}/>
             <Route path="/subcat=251/prodID1702" component={prodID1702}/>
             <Route path="/subcat=251/prodID1703" component={prodID1703}/>
             <Route path="/subcat=251/prodID1704" component={prodID1704}/>

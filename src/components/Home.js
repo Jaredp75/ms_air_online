@@ -117,7 +117,7 @@ export default class Home extends React.Component {
               </div>
               <div className="brand-text">
                 <a href='/category_pages/cat_sullivan_palatek'><b>Sullivan-Palatek</b></a><br></br>
-                <li><a href='/subcategory_pages/subcategory'>Air Compressors</a></li>
+                <li><a href='/subcat=244/air_compressors'>Air Compressors</a></li>
               </div>
             </div>
 
