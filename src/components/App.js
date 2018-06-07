@@ -31,6 +31,14 @@ import prodID1437 from '../components/product_pages/prodID1437';
 import Category from '../components/category_pages/category';
 import Cat_Trident from '../components/category_pages/cat_trident';
 import Cat_Sullivan_Palatek from '../components/category_pages/cat_sullivan_palatek';
+import Cat_Zeks from '../components/category_pages/cat_zeks';
+import Air_Dryers from '../components/subcat=233/air_dryers';
+import Compressed_Air_Filters from '../components/subcat=233/compressed_air_filters';
+import Filters from '../components/subcat=233/filters';
+import Grade_A_Activated_Carbon from '../components/subcat=233/grade_a_activated_carbon';
+import Grade_P_Particulate_Bulk_Liquid from '../components/subcat=233/grade_p_particulate_bulk_liquid';
+import Grade_H_High_Efficiency from '../components/subcat=233/grade_h_high_efficiency';
+import ZTF_Replacement_Parts from '../components/subcat=233/ztf_replacement_parts';
 import Air_Compressors from '../components/subcat=244/air_compressors';
 import Desiccant_Air_Dryers from '../components/subcat=249/desiccant_air_dryers';
 import Particulate_Filters from '../components/subcat=251/particulate_filters';
@@ -260,6 +268,14 @@ class App extends Component {
             <Route path="/category_pages/category" component={Category}/>
             <Route path="/category_pages/cat_trident" component={Cat_Trident}/>
             <Route path="/category_pages/cat_sullivan_palatek" component={Cat_Sullivan_Palatek}/>
+            <Route path="/category_pages/cat_zeks" component={Cat_Zeks}/>
+            <Route path="/subcat=233/air_dryers" component={Air_Dryers}/>
+            <Route path="/subcat=233/compressed_air_filters" component={Compressed_Air_Filters}/>
+            <Route path="/subcat=233/filters" component={Filters}/>
+            <Route path="/subcat=233/grade_a_activated_carbon" component={Grade_A_Activated_Carbon}/>
+            <Route path="/subcat=233/grade_p_particulate_bulk_liquid" component={Grade_P_Particulate_Bulk_Liquid}/>
+            <Route path="/subcat=233/grade_h_high_efficiency" component={Grade_H_High_Efficiency}/>
+            <Route path="/subcat=233/ztf_replacement_parts" component={ZTF_Replacement_Parts}/>
             <Route path="/subcat=244/air_compressors" component={Air_Compressors}/>
             <Route path="/subcat=249/desiccant_air_dryers" component={Desiccant_Air_Dryers}/>
             <Route path="/subcat=251/particulate_filters" component={Particulate_Filters}/>

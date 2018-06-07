@@ -97,7 +97,7 @@ export default class Home extends React.Component {
             <div className="left-half">
             <div className="top-brands">
               <div className="brand-logo">
-                <a href='/category_pages/category'>
+                <a href='/category_pages/cat_trident'>
                   <img src="../trident_pneumatics.png" alt="Trident logo"/>
                 </a>
               </div>
@@ -123,14 +123,16 @@ export default class Home extends React.Component {
 
             <div className="top-brands">
               <div className="brand-logo">
-                <a href='/category_pages/category'>
+                <a href='/category_pages/cat_zeks'>
                   <img src="../zeks_logo.png" alt="Zeks logo"/>
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/category_pages/category'><b>Zeks</b></a><br></br>
-                <li><a href='/subcategory_pages/subcategory'>Replacement Elements</a></li>
-                <li><a href='/subcategory_pages/subcategory'>Air Dryers</a></li>
+                <a href='/category_pages/cat_zeks'><b>Zeks</b></a><br></br>
+                <li><a href='/subcat=233/compressed_air_filters'>Compressed Air Filters</a></li>
+                <li><a href='/subcat=233/ztf_replacement_parts'>Replacement Elements</a></li>
+                <li><a href='/subcat=233/air_dryers'>Air Dryers</a></li>
+                <li><a href='/subcat=233/filters'>Filters</a></li>
               </div>
             </div>
 
