@@ -28,7 +28,7 @@ export default class prodID1779 extends React.Component {
 
 
                     <div className="individual-product-details">
-                      <h2 className="individual-product-title"><a href="/subcat=233/prodID1779">ZFC Compressed Air Filter</a></h2>
+                      <h2 className="individual-product-title">ZFC Compressed Air Filter</h2>
                       <h4 className="product-brand-title">Zeks</h4>
 
                     <div className="individual-product-description">

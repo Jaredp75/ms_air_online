@@ -28,7 +28,7 @@ export default class prodID1791 extends React.Component {
 
 
                     <div className="individual-product-details">
-                      <h2 className="individual-product-title"><a href="/subcat=233/prodID1791">ZFC Compressed Air Filter</a></h2>
+                      <h2 className="individual-product-title">ZFC Compressed Air Filter</h2>
                       <h4 className="product-brand-title">Zeks</h4>
 
                     <div className="individual-product-description">
@@ -42,8 +42,6 @@ export default class prodID1791 extends React.Component {
                         <li><strong>Side Drain Port</strong>: N/A</li>
                         <br />
                         <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
-
-                        <a href="/subcat=244/prodID1791"><strong>More Info >></strong></a>
                       </ul>
                     </div>
                     <h4 className="individual-product-suggested-retail-price">MSRP: $464.00</h4>
@@ -72,19 +70,19 @@ export default class prodID1791 extends React.Component {
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1839_144x85.jpg" alt="ZFC Replacement Element"></img>
-                  <p>Catalog Number: EC45P</p>
+                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1855_144x85.jpg" alt="ZFC Replacement Element"></img>
+                  <p>Catalog Number: EC135P</p>
                 </div>
               <div className="replacement_item_details">
-                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1839">ZFC Replacement Element</a></h6>
+                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1855">ZFC Replacement Element</a></h6>
                 <h6 className="replacement_item_brand_name">Zeks</h6>
                 <div className="individual-product-description">
                   <ul>
-                    <li>ZFC Replacement Element for ZFC45</li>
+                    <li>ZFC Replacement Element for ZFC135</li>
                   </ul>
                 </div>
-                <h6 className="individual-product-suggested-retail-price">MSRP: $50.00</h6>
-                <h6 className="replacement_item_actual_price"><strong>$32.50</strong></h6>
+                <h6 className="individual-product-suggested-retail-price">MSRP: $105.00</h6>
+                <h6 className="replacement_item_actual_price"><strong>$68.25</strong></h6>
               </div>
             </div>
           </div>

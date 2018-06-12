@@ -131,7 +131,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=244/prodID1775"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1775"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h4 className="individual-product-suggested-retail-price">MSRP: $261.00</h4>
@@ -211,7 +211,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=244/prodID1779"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1779"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h4 className="individual-product-suggested-retail-price">MSRP: $323.00</h4>
@@ -244,7 +244,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
             <p>Catalog Number: EC65P</p>
           </div>
         <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/prodID1843">ZFC Replacement Element</a></h6>
+          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1843">ZFC Replacement Element</a></h6>
           <h6 className="replacement_item_brand_name">Zeks</h6>
           <div className="individual-product-description">
             <ul>
@@ -291,7 +291,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=244/prodID1783"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1783"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h4 className="individual-product-suggested-retail-price">MSRP: $347.00</h4>
@@ -371,7 +371,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=244/prodID1787"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1787"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h4 className="individual-product-suggested-retail-price">MSRP: $408.00</h4>
@@ -451,7 +451,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=244/prodID1791"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1791"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h4 className="individual-product-suggested-retail-price">MSRP: $464.00</h4>
@@ -531,7 +531,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=244/prodID1795"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1795"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h4 className="individual-product-suggested-retail-price">MSRP: $666.00</h4>
@@ -611,7 +611,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=244/prodID1799"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1799"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h4 className="individual-product-suggested-retail-price">MSRP: $697.00</h4>
@@ -691,7 +691,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                       <br />
                       <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                      <a href="/subcat=244/prodID1803"><strong>More Info >></strong></a>
+                      <a href="/subcat=233/prodID1803"><strong>More Info >></strong></a>
                     </ul>
                   </div>
                     <h4 className="individual-product-suggested-retail-price">MSRP: $777.00</h4>
@@ -771,7 +771,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                       <br />
                       <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                      <a href="/subcat=244/prodID1807"><strong>More Info >></strong></a>
+                      <a href="/subcat=233/prodID1807"><strong>More Info >></strong></a>
                     </ul>
                   </div>
                   <h4 className="individual-product-suggested-retail-price">MSRP: $1,019.00</h4>
@@ -851,7 +851,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                       <br />
                       <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                      <a href="/subcat=244/prodID1811"><strong>More Info >></strong></a>
+                      <a href="/subcat=233/prodID1811"><strong>More Info >></strong></a>
                     </ul>
                   </div>
                   <h4 className="individual-product-suggested-retail-price">MSRP: $1,204.00</h4>
@@ -931,7 +931,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                       <br />
                       <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                      <a href="/subcat=244/prodID1815"><strong>More Info >></strong></a>
+                      <a href="/subcat=233/prodID1815"><strong>More Info >></strong></a>
                     </ul>
                   </div>
                   <h4 className="individual-product-suggested-retail-price">MSRP: $1,285.00</h4>
@@ -1011,7 +1011,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                       <br />
                       <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                      <a href="/subcat=244/prodID1819"><strong>More Info >></strong></a>
+                      <a href="/subcat=233/prodID1819"><strong>More Info >></strong></a>
                     </ul>
                   </div>
                   <h4 className="individual-product-suggested-retail-price">MSRP: $1,653.00</h4>
@@ -1091,7 +1091,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                           <br />
                           <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                          <a href="/subcat=244/prodID1823"><strong>More Info >></strong></a>
+                          <a href="/subcat=233/prodID1823"><strong>More Info >></strong></a>
                         </ul>
                       </div>
                         <h4 className="individual-product-suggested-retail-price">MSRP: $1,717.00</h4>
@@ -1172,7 +1172,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                       <br />
                       <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                      <a href="/subcat=244/prodID1827"><strong>More Info >></strong></a>
+                      <a href="/subcat=233/prodID1827"><strong>More Info >></strong></a>
                     </ul>
                   </div>
                   <h4 className="individual-product-suggested-retail-price">MSRP: $1,889.00</h4>
@@ -1253,7 +1253,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=244/prodID1831"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1831"><strong>More Info >></strong></a>
                 </ul>
               </div>
                 <h4 className="individual-product-suggested-retail-price">MSRP: $2,155.00</h4>

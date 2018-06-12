@@ -47,7 +47,7 @@ export default class prodID1891 extends React.Component {
                       </ul>
                     </div>
                     <h4 className="individual-product-suggested-retail-price">MSRP: $473.00</h4>
-                    <h4 className="individual-product-savings">Savings: <strong>$</strong></h4>
+                    <h4 className="individual-product-savings">Savings: <strong>$165.55</strong></h4>
                     <h3 className="individual-product-actual-price"><strong>$307.45</strong></h3>
                   </div>
                 </div>

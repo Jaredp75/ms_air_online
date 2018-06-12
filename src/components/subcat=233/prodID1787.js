@@ -72,19 +72,19 @@ export default class prodID1787 extends React.Component {
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1839_144x85.jpg" alt="ZFC Replacement Element"></img>
-                  <p>Catalog Number: EC45P</p>
+                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1851_144x85.jpg" alt="ZFC Replacement Element"></img>
+                  <p>Catalog Number: EC110P</p>
                 </div>
               <div className="replacement_item_details">
-                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1839">ZFC Replacement Element</a></h6>
+                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1851">ZFC Replacement Element</a></h6>
                 <h6 className="replacement_item_brand_name">Zeks</h6>
                 <div className="individual-product-description">
                   <ul>
-                    <li>ZFC Replacement Element for ZFC45</li>
+                    <li>ZFC Replacement Element for ZFC110</li>
                   </ul>
                 </div>
-                <h6 className="individual-product-suggested-retail-price">MSRP: $50.00</h6>
-                <h6 className="replacement_item_actual_price"><strong>$32.50</strong></h6>
+                <h6 className="individual-product-suggested-retail-price">MSRP: $84.00</h6>
+                <h6 className="replacement_item_actual_price"><strong>$54.60</strong></h6>
               </div>
             </div>
           </div>

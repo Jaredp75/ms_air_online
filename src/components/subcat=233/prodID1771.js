@@ -28,7 +28,7 @@ export default class prodID1771 extends React.Component {
 
 
                     <div className="individual-product-details">
-                      <h2 className="individual-product-title"><a href="/subcat=233/prodID1771">ZFC Compressed Air Filter</a></h2>
+                      <h2 className="individual-product-title">ZFC Compressed Air Filter</h2>
                       <h4 className="product-brand-title">Zeks</h4>
 
                     <div className="individual-product-description">
@@ -73,7 +73,7 @@ export default class prodID1771 extends React.Component {
                   <img className="filter" src="http://www.msaironline.com/images/prodImage/1835_144x85.jpg" alt="ZFC Replacement Element"></img>
                 </div>
               <div className="replacement_item_details">
-                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1839">ZFC Replacement Element</a></h6>
+                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1835">ZFC Replacement Element</a></h6>
                 <h6 className="replacement_item_brand_name">Zeks</h6>
                 <div className="individual-product-description">
                   <ul>

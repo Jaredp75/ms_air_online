@@ -47,7 +47,7 @@ export default class prodID1835 extends React.Component {
                       </ul>
                     </div>
                     <h4 className="individual-product-suggested-retail-price">MSRP: $44.00</h4>
-                    <h4 className="individual-product-savings">Savings: <strong>$</strong></h4>
+                    <h4 className="individual-product-savings">Savings: <strong>$15.40</strong></h4>
                     <h3 className="individual-product-actual-price"><strong>$28.60</strong></h3>
                   </div>
                 </div>
@@ -55,7 +55,7 @@ export default class prodID1835 extends React.Component {
                 <div className="quantity-input-group">
                   <form action="/action_page.php">
                     Qty:
-                    <input type="number" className="quantityBox" value="0" />
+                    <input type="number" className="quantityBox"/>
                   </form>
                 </div>
               </div>

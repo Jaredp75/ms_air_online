@@ -22,7 +22,7 @@ export default class prodID1855 extends React.Component {
 
 
                     <div className="product-image">
-                      <img src="https://www.msaironline.com/images/prodImage/1847_144x85.jpg" alt="ZFC Replacement Element"></img>
+                      <img src="https://www.msaironline.com/images/prodImage/1855_144x85.jpg" alt="ZFC Replacement Element"></img>
                       <p>Catalog Number: EC135P</p>
                     </div>
 
@@ -47,7 +47,7 @@ export default class prodID1855 extends React.Component {
                       </ul>
                     </div>
                     <h4 className="individual-product-suggested-retail-price">MSRP: $105.00</h4>
-                    <h4 className="individual-product-savings">Savings: <strong>$</strong></h4>
+                    <h4 className="individual-product-savings">Savings: <strong>$36.75</strong></h4>
                     <h3 className="individual-product-actual-price"><strong>$68.25</strong></h3>
                   </div>
                 </div>

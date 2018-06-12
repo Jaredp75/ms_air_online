@@ -22,7 +22,7 @@ export default class prodID1851 extends React.Component {
 
 
                     <div className="product-image">
-                      <img src="https://www.msaironline.com/images/prodImage/1847_144x85.jpg" alt="ZFC Replacement Element"></img>
+                      <img src="https://www.msaironline.com/images/prodImage/1851_144x85.jpg" alt="ZFC Replacement Element"></img>
                       <p>Catalog Number: EC110P</p>
                     </div>
 
@@ -47,7 +47,7 @@ export default class prodID1851 extends React.Component {
                       </ul>
                     </div>
                     <h4 className="individual-product-suggested-retail-price">MSRP: $84.00</h4>
-                    <h4 className="individual-product-savings">Savings: <strong>$</strong></h4>
+                    <h4 className="individual-product-savings">Savings: <strong>$29.40</strong></h4>
                     <h3 className="individual-product-actual-price"><strong>$54.60</strong></h3>
                   </div>
                 </div>
@@ -55,7 +55,7 @@ export default class prodID1851 extends React.Component {
                 <div className="quantity-input-group">
                   <form action="/action_page.php">
                     Qty:
-                    <input type="number" className="quantityBox" value="0" />
+                    <input type="number" className="quantityBox"/>
                   </form>
                 </div>
               </div>
