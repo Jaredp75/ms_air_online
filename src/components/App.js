@@ -70,6 +70,53 @@ import prodID1716 from '../components/subcat=249/prodID1716';
 import prodID1719 from '../components/subcat=252/prodID1719';
 import prodID1720 from '../components/subcat=252/prodID1720';
 import prodID1722 from '../components/subcat=252/prodID1722';
+import prodID1771 from '../components/subcat=233/prodID1771';
+import prodID1831 from '../components/subcat=233/prodID1831';
+import prodID1775 from '../components/subcat=233/prodID1775';
+import prodID1779 from '../components/subcat=233/prodID1779';
+import prodID1783 from '../components/subcat=233/prodID1783';
+import prodID1787 from '../components/subcat=233/prodID1787';
+import prodID1791 from '../components/subcat=233/prodID1791';
+import prodID1795 from '../components/subcat=233/prodID1795';
+import prodID1799 from '../components/subcat=233/prodID1799';
+import prodID1803 from '../components/subcat=233/prodID1803';
+import prodID1807 from '../components/subcat=233/prodID1807';
+import prodID1811 from '../components/subcat=233/prodID1811';
+import prodID1815 from '../components/subcat=233/prodID1815';
+import prodID1819 from '../components/subcat=233/prodID1819';
+import prodID1823 from '../components/subcat=233/prodID1823';
+import prodID1827 from '../components/subcat=233/prodID1827';
+import prodID1839 from '../components/subcat=233/prodID1839';
+import prodID1843 from '../components/subcat=233/prodID1843';
+import prodID1847 from '../components/subcat=233/prodID1847';
+import prodID1851 from '../components/subcat=233/prodID1851';
+import prodID1855 from '../components/subcat=233/prodID1855';
+import prodID1859 from '../components/subcat=233/prodID1859';
+import prodID1863 from '../components/subcat=233/prodID1863';
+import prodID1867 from '../components/subcat=233/prodID1867';
+import prodID1871 from '../components/subcat=233/prodID1871';
+import prodID1875 from '../components/subcat=233/prodID1875';
+import prodID1879 from '../components/subcat=233/prodID1879';
+import prodID1883 from '../components/subcat=233/prodID1883';
+import prodID1887 from '../components/subcat=233/prodID1887';
+import prodID1891 from '../components/subcat=233/prodID1891';
+import prodID1835 from '../components/subcat=233/prodID1835';
+import prodID1895 from '../components/subcat=233/prodID1895';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // import logo from '../msair100.jpg';
 // import movement from '../movement.jpg';
 //import './App.css';
@@ -307,6 +354,51 @@ class App extends Component {
             <Route path="/subcat=252/prodID1719" component={prodID1719}/>
             <Route path="/subcat=252/prodID1720" component={prodID1720}/>
             <Route path="/subcat=252/prodID1722" component={prodID1722}/>
+            <Route path="/subcat=233/prodID1771" component={prodID1771}/>          
+            <Route path="/subcat=233/prodID1831" component={prodID1831}/>
+            <Route path="/subcat=233/prodID1775" component={prodID1775}/>
+            <Route path="/subcat=233/prodID1779" component={prodID1779}/>
+            <Route path="/subcat=233/prodID1783" component={prodID1783}/>
+            <Route path="/subcat=233/prodID1787" component={prodID1787}/>
+            <Route path="/subcat=233/prodID1791" component={prodID1791}/>
+            <Route path="/subcat=233/prodID1795" component={prodID1795}/>
+            <Route path="/subcat=233/prodID1799" component={prodID1799}/>
+            <Route path="/subcat=233/prodID1803" component={prodID1803}/>
+            <Route path="/subcat=233/prodID1807" component={prodID1807}/>
+            <Route path="/subcat=233/prodID1811" component={prodID1811}/>
+            <Route path="/subcat=233/prodID1815" component={prodID1815}/>
+            <Route path="/subcat=233/prodID1819" component={prodID1819}/>
+            <Route path="/subcat=233/prodID1823" component={prodID1823}/>
+            <Route path="/subcat=233/prodID1827" component={prodID1827}/>
+            <Route path="/subcat=233/prodID1839" component={prodID1839}/>
+            <Route path="/subcat=233/prodID1843" component={prodID1843}/>
+            <Route path="/subcat=233/prodID1847" component={prodID1847}/>
+            <Route path="/subcat=233/prodID1851" component={prodID1851}/>
+            <Route path="/subcat=233/prodID1855" component={prodID1855}/>
+            <Route path="/subcat=233/prodID1859" component={prodID1859}/>
+            <Route path="/subcat=233/prodID1863" component={prodID1863}/>
+            <Route path="/subcat=233/prodID1867" component={prodID1867}/>
+            <Route path="/subcat=233/prodID1871" component={prodID1871}/>
+            <Route path="/subcat=233/prodID1875" component={prodID1875}/>
+            <Route path="/subcat=233/prodID1879" component={prodID1879}/>
+            <Route path="/subcat=233/prodID1883" component={prodID1883}/>
+            <Route path="/subcat=233/prodID1887" component={prodID1887}/>
+            <Route path="/subcat=233/prodID1891" component={prodID1891}/>
+            <Route path="/subcat=233/prodID1835" component={prodID1835}/>
+            <Route path="/subcat=233/prodID1895" component={prodID1895}/>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
           </Switch>

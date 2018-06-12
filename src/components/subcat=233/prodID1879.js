@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
 
-export default class prodID1633 extends React.Component {
+export default class prodID1879 extends React.Component {
 
   render(){
 
@@ -22,30 +22,33 @@ export default class prodID1633 extends React.Component {
 
 
                     <div className="product-image">
-                      <img src="https://www.msaironline.com/images/prodImage/1633_144x85.jpg" alt="115HP Air Compressor"></img>
-                      <p>Catalog Number: 15VFD</p>
+                      <img src="https://www.msaironline.com/images/prodImage/1879_144x85.jpg" alt="ZFC Replacement Element"></img>
+                      <p>Catalog Number: EC710P</p>
                     </div>
 
 
                     <div className="individual-product-details">
-                      <h2 className="individual-product-title">15HP Air Compressor</h2>
-                      <h4 className="product-brand-title">Sullivan-Palatek</h4>
-
+                      <h2 className="individual-product-title">ZFC Replacement Element</h2>
+                      <h4 className="product-brand-title">Zeks</h4>
 
                     <div className="individual-product-description">
                       <ul>
-                        <li><strong>CFM</strong>: 55 CFM @ 125 psi</li>
-                        <li><strong>HP</strong>: 15</li>
-                        <li><strong>Voltage</strong>: 208/230/460V</li>
-                        <br />
-                        <li>Floor mounted 15HP rotary screw air compressor, air cooled VSD</li>
-                        <br />
-                        <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+                        {/* <li><strong>Bottom Drain Port</strong>: 1/4"</li> */}
+                        {/* <li><strong>Connection In/Out</strong>: 1/2"</li> */}
+                        {/* <li><strong>Elements Required Per Filter</strong>: 1</li> */}
+                        {/* <li><strong>Filter Length</strong>: 8.86"</li> */}
+                        {/* <li><strong>Filter Width</strong>: 2.99"</li> */}
+                        {/* <li><strong>Flow SCFM</strong>: 22</li> */}
+                        {/* <li><strong>Side Drain Port</strong>: N/A</li> */}
+                        {/* <br /> */}
+                        <li>ZFC Replacement Element for ZFC710</li>
+                        {/* <br /> */}
+                        {/* <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li> */}
                       </ul>
                     </div>
-                    <h4 className="individual-product-suggested-retail-price">MSRP: $21,665.70</h4>
-                    <h4 className="individual-product-savings">Savings: <strong>$8,995.70</strong></h4>
-                    <h3 className="individual-product-actual-price"><strong>$12,670.00</strong></h3>
+                    <h4 className="individual-product-suggested-retail-price">MSRP: $284.00</h4>
+                    <h4 className="individual-product-savings">Savings: <strong>$</strong></h4>
+                    <h3 className="individual-product-actual-price"><strong>$184.60</strong></h3>
                   </div>
                 </div>
 
@@ -64,6 +67,30 @@ export default class prodID1633 extends React.Component {
           </div>
 
           <div className="replacement_items_section">
+            <h4 className="replacement_items_header">Replacement Parts</h4>
+
+            <div className="replacement_item_listing">
+              <div className="replacement_item_entry">
+                <div className="replacement_item_image">
+                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1815_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                  <p>Catalog Number: ZFC710P</p>
+                </div>
+              <div className="replacement_item_details">
+                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1815">ZFC Compressed Air Filter</a></h6>
+                <h6 className="replacement_item_brand_name">Zeks</h6>
+                <div className="individual-product-description">
+                  <ul>
+                    <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+                  </ul>
+                </div>
+                <h6 className="individual-product-suggested-retail-price">MSRP: $1,285.00</h6>
+                <h6 className="replacement_item_actual_price"><strong>$835.25</strong></h6>
+              </div>
+            </div>
+          </div>
+      </div>
+
+          {/* <div className="replacement_items_section">
             <h4 className="replacement_items_header">Accessories</h4>
 
             <div className="replacement_item_listing">
@@ -91,7 +118,7 @@ export default class prodID1633 extends React.Component {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
 
 
