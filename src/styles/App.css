@@ -1573,7 +1573,7 @@ img.thumbnail {
 
 .subcat_section1 {
   background-color: lightgray;
-  padding: 20px;
+  padding: 40px;
   margin: 20px;
   margin-top: 140px;
   margin-bottom: 60px;
@@ -1583,7 +1583,7 @@ img.thumbnail {
 }
 
 .subcat_section1 img {
-  width: 50%;
+  width: 35%;
 }
 
 .subcat_section2 {
