@@ -30,12 +30,12 @@ export default class Compressed_Air_Filters extends React.Component {
             </div>
 
             <div className="subcat_section2">
-              <a href="/subcat=233/grade_g_general_purpose" alt="Grade G - General Purpose"><img src="https://www.msaironline.com/images/taxImage/264_100x75.jpg" alt="Grade G - General Purpose"></img></a>
+              <a href="/subcat=233/grade_g_general_purpose" alt="Grade G - General Purpose"><img src="https://www.msaironline.com/images/prodImage/1771_144x85.jpg" alt="Grade G - General Purpose"></img></a>
               <h2><a href="/subcat=233/grade_g_general_purpose">Grade G - General Purpose</a></h2>
             </div>
 
             <div className="subcat_section3">
-              <a href="/subcat=233/grade_h_high_efficiency" alt="Grade H - High Efficiency"><img src="https://www.msaironline.com/images/taxImage/265_100x75.jpg" alt="Grade H - High Efficiency"></img></a>
+              <a href="/subcat=233/grade_h_high_efficiency" alt="Grade H - High Efficiency"><img src="https://www.msaironline.com/images/prodImage/1771_144x85.jpg" alt="Grade H - High Efficiency"></img></a>
               <h2><a href="/subcat=233/grade_h_high_efficiency">Grade H - High Efficiency</a></h2>
             </div>
 

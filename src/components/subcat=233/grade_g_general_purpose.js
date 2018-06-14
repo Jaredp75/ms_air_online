@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
 
-export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
+export default class Grade_G_General_Purpose extends React.Component {
 
   render(){
 
@@ -31,12 +31,12 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
                     <div className="product-image">
-                      <img src="https://www.msaironline.com/images/prodImage/1771_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                      <p>Catalog Number: ZFC22P</p>
+                      <img src="https://www.msaironline.com/images/prodImage/1772_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                      <p>Catalog Number: ZFC22G</p>
                     </div>
 
                     <div className="individual-product-details">
-                      <h2 className="individual-product-title"><a href="/subcat=233/prodID1771">ZFC Compressed Air Filter</a></h2>
+                      <h2 className="individual-product-title"><a href="/subcat=233/prodID1772">ZFC Compressed Air Filter</a></h2>
                       <h4 className="product-brand-title">Zeks</h4>
 
                     <div className="individual-product-description">
@@ -49,9 +49,9 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                         <li><strong>Flow SCFM</strong>: 22</li>
                         <li><strong>Side Drain Port</strong>: N/A</li>
                         <br />
-                        <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+                        <li>ZFC Compressed Air Filter for General Purpose Filtration.</li>
 
-                        <a href="/subcat=233/prodID1771"><strong>More Info >></strong></a>
+                        <a href="/subcat=233/prodID1772"><strong>More Info >></strong></a>
                       </ul>
                     </div>
                       <h4 className="individual-product-suggested-retail-price">MSRP: $215.00</h4>
@@ -81,11 +81,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1835_144x85.jpg" alt="ZFC Replacement Element"></img>
-                  <p>Catalog Number: EC22P</p>
+                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1836_144x85.jpg" alt="ZFC Replacement Element"></img>
+                  <p>Catalog Number: EC22G</p>
                 </div>
               <div className="replacement_item_details">
-                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1835">ZFC Replacement Element</a></h6>
+                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1836">ZFC Replacement Element</a></h6>
                 <h6 className="replacement_item_brand_name">Zeks</h6>
                 <div className="individual-product-description">
                   <ul>
@@ -111,13 +111,13 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
               <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1775_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                <p>Catalog Number: ZFC45P</p>
+                <img src="https://www.msaironline.com/images/prodImage/1776_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC45G</p>
               </div>
 
 
               <div className="individual-product-details">
-                <h2 className="individual-product-title"><a href="/subcat=233/prodID1775">ZFC Compressed Air Filter</a></h2>
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1776">ZFC Compressed Air Filter</a></h2>
                 <h4 className="product-brand-title">Zeks</h4>
 
               <div className="individual-product-description">
@@ -132,7 +132,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=233/prodID1775"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1776"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h4 className="individual-product-suggested-retail-price">MSRP: $261.00</h4>
@@ -161,11 +161,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img className="filter" src="http://www.msaironline.com/images/prodImage/1839_144x85.jpg" alt="ZFC Replacement Element"></img>
-            <p>Catalog Number: EC45P</p>
+            <img className="filter" src="http://www.msaironline.com/images/prodImage/1840_144x85.jpg" alt="ZFC Replacement Element"></img>
+            <p>Catalog Number: EC45G</p>
           </div>
         <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1839">ZFC Replacement Element</a></h6>
+          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1840">ZFC Replacement Element</a></h6>
           <h6 className="replacement_item_brand_name">Zeks</h6>
           <div className="individual-product-description">
             <ul>
@@ -191,13 +191,13 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
               <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1779_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                <p>Catalog Number: ZFC65P</p>
+                <img src="https://www.msaironline.com/images/prodImage/1780_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC65G</p>
               </div>
 
 
               <div className="individual-product-details">
-                <h2 className="individual-product-title"><a href="/subcat=233/prodID1779">ZFC Compressed Air Filter</a></h2>
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1780">ZFC Compressed Air Filter</a></h2>
                 <h4 className="product-brand-title">Zeks</h4>
 
               <div className="individual-product-description">
@@ -212,7 +212,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=233/prodID1779"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1780"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h4 className="individual-product-suggested-retail-price">MSRP: $323.00</h4>
@@ -241,11 +241,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img className="filter" src="http://www.msaironline.com/images/prodImage/1843_144x85.jpg" alt="ZFC Replacement Element"></img>
-            <p>Catalog Number: EC65P</p>
+            <img className="filter" src="http://www.msaironline.com/images/prodImage/1844_144x85.jpg" alt="ZFC Replacement Element"></img>
+            <p>Catalog Number: EC65G</p>
           </div>
         <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1843">ZFC Replacement Element</a></h6>
+          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1844">ZFC Replacement Element</a></h6>
           <h6 className="replacement_item_brand_name">Zeks</h6>
           <div className="individual-product-description">
             <ul>
@@ -271,13 +271,13 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
               <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1783_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                <p>Catalog Number: ZFC88P</p>
+                <img src="https://www.msaironline.com/images/prodImage/1784_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC88G</p>
               </div>
 
 
               <div className="individual-product-details">
-                <h2 className="individual-product-title"><a href="/subcat=233/prodID1783">ZFC Compressed Air Filter</a></h2>
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1784">ZFC Compressed Air Filter</a></h2>
                 <h4 className="product-brand-title">Zeks</h4>
 
               <div className="individual-product-description">
@@ -292,7 +292,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=233/prodID1783"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1784"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h4 className="individual-product-suggested-retail-price">MSRP: $347.00</h4>
@@ -321,11 +321,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img className="filter" src="http://www.msaironline.com/images/prodImage/1847_144x85.jpg" alt="ZFC Replacement Element"></img>
-            <p>Catalog Number: EC88P</p>
+            <img className="filter" src="http://www.msaironline.com/images/prodImage/1848_144x85.jpg" alt="ZFC Replacement Element"></img>
+            <p>Catalog Number: EC88G</p>
           </div>
         <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1847">ZFC Replacement Element</a></h6>
+          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1848">ZFC Replacement Element</a></h6>
           <h6 className="replacement_item_brand_name">Zeks</h6>
           <div className="individual-product-description">
             <ul>
@@ -351,13 +351,13 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
               <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1787_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                <p>Catalog Number: ZFC110P</p>
+                <img src="https://www.msaironline.com/images/prodImage/1788_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC110G</p>
               </div>
 
 
               <div className="individual-product-details">
-                <h2 className="individual-product-title"><a href="/subcat=233/prodID1787">ZFC Compressed Air Filter</a></h2>
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1788">ZFC Compressed Air Filter</a></h2>
                 <h4 className="product-brand-title">Zeks</h4>
 
               <div className="individual-product-description">
@@ -372,7 +372,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=233/prodID1787"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1788"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h4 className="individual-product-suggested-retail-price">MSRP: $408.00</h4>
@@ -401,11 +401,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img className="filter" src="http://www.msaironline.com/images/prodImage/1851_144x85.jpg" alt="ZFC Replacement Element"></img>
-            <p>Catalog Number: EC110P</p>
+            <img className="filter" src="http://www.msaironline.com/images/prodImage/1852_144x85.jpg" alt="ZFC Replacement Element"></img>
+            <p>Catalog Number: EC110G</p>
           </div>
         <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1851">ZFC Replacement Element</a></h6>
+          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1852">ZFC Replacement Element</a></h6>
           <h6 className="replacement_item_brand_name">Zeks</h6>
           <div className="individual-product-description">
             <ul>
@@ -431,13 +431,13 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
               <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1791_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                <p>Catalog Number: ZFC135P</p>
+                <img src="https://www.msaironline.com/images/prodImage/1792_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC135G</p>
               </div>
 
 
               <div className="individual-product-details">
-                <h2 className="individual-product-title"><a href="/subcat=233/prodID1791">ZFC Compressed Air Filter</a></h2>
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1792">ZFC Compressed Air Filter</a></h2>
                 <h4 className="product-brand-title">Zeks</h4>
 
               <div className="individual-product-description">
@@ -452,7 +452,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=233/prodID1791"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1792"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h4 className="individual-product-suggested-retail-price">MSRP: $464.00</h4>
@@ -481,11 +481,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img className="filter" src="http://www.msaironline.com/images/prodImage/1855_144x85.jpg" alt="ZFC Replacement Element"></img>
-            <p>Catalog Number: EC135P</p>
+            <img className="filter" src="http://www.msaironline.com/images/prodImage/1856_144x85.jpg" alt="ZFC Replacement Element"></img>
+            <p>Catalog Number: EC135G</p>
           </div>
         <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1855">ZFC Replacement Element</a></h6>
+          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1856">ZFC Replacement Element</a></h6>
           <h6 className="replacement_item_brand_name">Zeks</h6>
           <div className="individual-product-description">
             <ul>
@@ -511,13 +511,13 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
               <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1795_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                <p>Catalog Number: ZFC235P</p>
+                <img src="https://www.msaironline.com/images/prodImage/1796_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC235G</p>
               </div>
 
 
               <div className="individual-product-details">
-                <h2 className="individual-product-title"><a href="/subcat=233/prodID1795">ZFC Compressed Air Filter</a></h2>
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1796">ZFC Compressed Air Filter</a></h2>
                 <h4 className="product-brand-title">Zeks</h4>
 
               <div className="individual-product-description">
@@ -532,7 +532,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=233/prodID1795"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1796"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h4 className="individual-product-suggested-retail-price">MSRP: $666.00</h4>
@@ -561,11 +561,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img className="filter" src="http://www.msaironline.com/images/prodImage/1859_144x85.jpg" alt="ZFC Replacement Element"></img>
-            <p>Catalog Number: EC235P</p>
+            <img className="filter" src="http://www.msaironline.com/images/prodImage/1860_144x85.jpg" alt="ZFC Replacement Element"></img>
+            <p>Catalog Number: EC235G</p>
           </div>
         <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1859">ZFC Replacement Element</a></h6>
+          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1860">ZFC Replacement Element</a></h6>
           <h6 className="replacement_item_brand_name">Zeks</h6>
           <div className="individual-product-description">
             <ul>
@@ -591,13 +591,13 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
               <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1799_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                <p>Catalog Number: ZFC290P</p>
+                <img src="https://www.msaironline.com/images/prodImage/1800_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC290G</p>
               </div>
 
 
               <div className="individual-product-details">
-                <h2 className="individual-product-title"><a href="/subcat=233/prodID1799">ZFC Compressed Air Filter</a></h2>
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1800">ZFC Compressed Air Filter</a></h2>
                 <h4 className="product-brand-title">Zeks</h4>
 
               <div className="individual-product-description">
@@ -612,7 +612,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=233/prodID1799"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1800"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h4 className="individual-product-suggested-retail-price">MSRP: $697.00</h4>
@@ -641,11 +641,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img className="filter" src="http://www.msaironline.com/images/prodImage/1863_144x85.jpg" alt="ZFC Replacement Element"></img>
-            <p>Catalog Number: EC290P</p>
+            <img className="filter" src="http://www.msaironline.com/images/prodImage/1864_144x85.jpg" alt="ZFC Replacement Element"></img>
+            <p>Catalog Number: EC290G</p>
           </div>
         <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1863">ZFC Replacement Element</a></h6>
+          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1864">ZFC Replacement Element</a></h6>
           <h6 className="replacement_item_brand_name">Zeks</h6>
           <div className="individual-product-description">
             <ul>
@@ -671,13 +671,13 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
                   <div className="product-image">
-                    <img src="https://www.msaironline.com/images/prodImage/1803_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                    <p>Catalog Number: ZFC350P</p>
+                    <img src="https://www.msaironline.com/images/prodImage/1804_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                    <p>Catalog Number: ZFC350G</p>
                   </div>
 
 
                   <div className="individual-product-details">
-                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1803">ZFC Compressed Air Filter</a></h2>
+                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1804">ZFC Compressed Air Filter</a></h2>
                     <h4 className="product-brand-title">Zeks</h4>
 
                   <div className="individual-product-description">
@@ -692,7 +692,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                       <br />
                       <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                      <a href="/subcat=233/prodID1803"><strong>More Info >></strong></a>
+                      <a href="/subcat=233/prodID1804"><strong>More Info >></strong></a>
                     </ul>
                   </div>
                     <h4 className="individual-product-suggested-retail-price">MSRP: $777.00</h4>
@@ -721,11 +721,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1867_144x85.jpg" alt="ZFC Replacement Element"></img>
-                  <p>Catalog Number: EC350P</p>
+                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1868_144x85.jpg" alt="ZFC Replacement Element"></img>
+                  <p>Catalog Number: EC350G</p>
                 </div>
               <div className="replacement_item_details">
-                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1867">ZFC Replacement Element</a></h6>
+                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1868">ZFC Replacement Element</a></h6>
                 <h6 className="replacement_item_brand_name">Zeks</h6>
                 <div className="individual-product-description">
                   <ul>
@@ -751,13 +751,13 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
                   <div className="product-image">
-                    <img src="https://www.msaironline.com/images/prodImage/1807_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                    <p>Catalog Number: ZFC470P</p>
+                    <img src="https://www.msaironline.com/images/prodImage/1808_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                    <p>Catalog Number: ZFC470G</p>
                   </div>
 
 
                   <div className="individual-product-details">
-                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1807">ZFC Compressed Air Filter</a></h2>
+                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1808">ZFC Compressed Air Filter</a></h2>
                     <h4 className="product-brand-title">Zeks</h4>
 
                   <div className="individual-product-description">
@@ -772,7 +772,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                       <br />
                       <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                      <a href="/subcat=233/prodID1807"><strong>More Info >></strong></a>
+                      <a href="/subcat=233/prodID1808"><strong>More Info >></strong></a>
                     </ul>
                   </div>
                   <h4 className="individual-product-suggested-retail-price">MSRP: $1,019.00</h4>
@@ -801,11 +801,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
           <div className="replacement_item_listing">
             <div className="replacement_item_entry">
               <div className="replacement_item_image">
-                <img className="filter" src="http://www.msaironline.com/images/prodImage/1871_144x85.jpg" alt="ZFC Replacement Element"></img>
-                <p>Catalog Number: EC470P</p>
+                <img className="filter" src="http://www.msaironline.com/images/prodImage/1872_144x85.jpg" alt="ZFC Replacement Element"></img>
+                <p>Catalog Number: EC470G</p>
               </div>
             <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1871">ZFC Replacement Element</a></h6>
+              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1872">ZFC Replacement Element</a></h6>
               <h6 className="replacement_item_brand_name">Zeks</h6>
               <div className="individual-product-description">
                 <ul>
@@ -831,13 +831,13 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
                   <div className="product-image">
-                    <img src="https://www.msaironline.com/images/prodImage/1811_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                    <p>Catalog Number: ZFC600P</p>
+                    <img src="https://www.msaironline.com/images/prodImage/1812_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                    <p>Catalog Number: ZFC600G</p>
                   </div>
 
 
                   <div className="individual-product-details">
-                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1811">ZFC Compressed Air Filter</a></h2>
+                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1812">ZFC Compressed Air Filter</a></h2>
                     <h4 className="product-brand-title">Zeks</h4>
 
                   <div className="individual-product-description">
@@ -852,7 +852,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                       <br />
                       <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                      <a href="/subcat=233/prodID1811"><strong>More Info >></strong></a>
+                      <a href="/subcat=233/prodID1812"><strong>More Info >></strong></a>
                     </ul>
                   </div>
                   <h4 className="individual-product-suggested-retail-price">MSRP: $1,204.00</h4>
@@ -881,11 +881,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
           <div className="replacement_item_listing">
             <div className="replacement_item_entry">
               <div className="replacement_item_image">
-                <img className="filter" src="http://www.msaironline.com/images/prodImage/1875_144x85.jpg" alt="ZFC Replacement Element"></img>
-                <p>Catalog Number: EC600P</p>
+                <img className="filter" src="http://www.msaironline.com/images/prodImage/1876_144x85.jpg" alt="ZFC Replacement Element"></img>
+                <p>Catalog Number: EC600G</p>
               </div>
             <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1875">ZFC Replacement Element</a></h6>
+              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1876">ZFC Replacement Element</a></h6>
               <h6 className="replacement_item_brand_name">Zeks</h6>
               <div className="individual-product-description">
                 <ul>
@@ -911,13 +911,13 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
                   <div className="product-image">
-                    <img src="https://www.msaironline.com/images/prodImage/1815_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                    <p>Catalog Number: ZFC710P</p>
+                    <img src="https://www.msaironline.com/images/prodImage/1816_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                    <p>Catalog Number: ZFC710G</p>
                   </div>
 
 
                   <div className="individual-product-details">
-                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1815">ZFC Compressed Air Filter</a></h2>
+                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1816">ZFC Compressed Air Filter</a></h2>
                     <h4 className="product-brand-title">Zeks</h4>
 
                   <div className="individual-product-description">
@@ -932,7 +932,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                       <br />
                       <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                      <a href="/subcat=233/prodID1815"><strong>More Info >></strong></a>
+                      <a href="/subcat=233/prodID1816"><strong>More Info >></strong></a>
                     </ul>
                   </div>
                   <h4 className="individual-product-suggested-retail-price">MSRP: $1,285.00</h4>
@@ -961,11 +961,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
           <div className="replacement_item_listing">
             <div className="replacement_item_entry">
               <div className="replacement_item_image">
-                <img className="filter" src="http://www.msaironline.com/images/prodImage/1879_144x85.jpg" alt="ZFC Replacement Element"></img>
-                <p>Catalog Number: EC710P</p>
+                <img className="filter" src="http://www.msaironline.com/images/prodImage/1880_144x85.jpg" alt="ZFC Replacement Element"></img>
+                <p>Catalog Number: EC710G</p>
               </div>
             <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1879">ZFC Replacement Element</a></h6>
+              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1880">ZFC Replacement Element</a></h6>
               <h6 className="replacement_item_brand_name">Zeks</h6>
               <div className="individual-product-description">
                 <ul>
@@ -991,13 +991,13 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
                   <div className="product-image">
-                    <img src="https://www.msaironline.com/images/prodImage/1819_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                    <p>Catalog Number: ZFC920P</p>
+                    <img src="https://www.msaironline.com/images/prodImage/1820_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                    <p>Catalog Number: ZFC920G</p>
                   </div>
 
 
                   <div className="individual-product-details">
-                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1819">ZFC Compressed Air Filter</a></h2>
+                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1820">ZFC Compressed Air Filter</a></h2>
                     <h4 className="product-brand-title">Zeks</h4>
 
                   <div className="individual-product-description">
@@ -1012,7 +1012,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                       <br />
                       <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                      <a href="/subcat=233/prodID1819"><strong>More Info >></strong></a>
+                      <a href="/subcat=233/prodID1820"><strong>More Info >></strong></a>
                     </ul>
                   </div>
                   <h4 className="individual-product-suggested-retail-price">MSRP: $1,653.00</h4>
@@ -1041,11 +1041,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
           <div className="replacement_item_listing">
             <div className="replacement_item_entry">
               <div className="replacement_item_image">
-                <img className="filter" src="http://www.msaironline.com/images/prodImage/1883_144x85.jpg" alt="ZFC Replacement Element"></img>
-                <p>Catalog Number: EC920P</p>
+                <img className="filter" src="http://www.msaironline.com/images/prodImage/1884_144x85.jpg" alt="ZFC Replacement Element"></img>
+                <p>Catalog Number: EC920G</p>
               </div>
             <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1883">ZFC Replacement Element</a></h6>
+              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1884">ZFC Replacement Element</a></h6>
               <h6 className="replacement_item_brand_name">Zeks</h6>
               <div className="individual-product-description">
                 <ul>
@@ -1071,13 +1071,13 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
                       <div className="product-image">
-                        <img src="https://www.msaironline.com/images/prodImage/1823_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                        <p>Catalog Number: ZFC1080P</p>
+                        <img src="https://www.msaironline.com/images/prodImage/1824_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                        <p>Catalog Number: ZFC1080G</p>
                       </div>
 
 
                       <div className="individual-product-details">
-                        <h2 className="individual-product-title"><a href="/subcat=233/prodID1823">ZFC Compressed Air Filter</a></h2>
+                        <h2 className="individual-product-title"><a href="/subcat=233/prodID1824">ZFC Compressed Air Filter</a></h2>
                         <h4 className="product-brand-title">Zeks</h4>
 
                       <div className="individual-product-description">
@@ -1092,7 +1092,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                           <br />
                           <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                          <a href="/subcat=233/prodID1823"><strong>More Info >></strong></a>
+                          <a href="/subcat=233/prodID1824"><strong>More Info >></strong></a>
                         </ul>
                       </div>
                         <h4 className="individual-product-suggested-retail-price">MSRP: $1,717.00</h4>
@@ -1121,11 +1121,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                 <div className="replacement_item_listing">
                   <div className="replacement_item_entry">
                     <div className="replacement_item_image">
-                      <img className="filter" src="http://www.msaironline.com/images/prodImage/1887_144x85.jpg" alt="ZFC Replacement Element"></img>
-                      <p>Catalog Number: EC1080P</p>
+                      <img className="filter" src="http://www.msaironline.com/images/prodImage/1888_144x85.jpg" alt="ZFC Replacement Element"></img>
+                      <p>Catalog Number: EC1080G</p>
                     </div>
                     <div className="replacement_item_details">
-                      <h6 className="replacement_item_title"><a href="/subcat=233/prodID1887">ZFC Replacement Element</a></h6>
+                      <h6 className="replacement_item_title"><a href="/subcat=233/prodID1888">ZFC Replacement Element</a></h6>
                       <h6 className="replacement_item_brand_name">Zeks</h6>
                       <div className="individual-product-description">
                         <ul>
@@ -1152,13 +1152,13 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
                   <div className="product-image">
-                    <img src="https://www.msaironline.com/images/prodImage/1827_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                    <p>Catalog Number: ZFC1350P</p>
+                    <img src="https://www.msaironline.com/images/prodImage/1828_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                    <p>Catalog Number: ZFC1350G</p>
                   </div>
 
 
                   <div className="individual-product-details">
-                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1827">ZFC Compressed Air Filter</a></h2>
+                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1828">ZFC Compressed Air Filter</a></h2>
                     <h4 className="product-brand-title">Zeks</h4>
 
                   <div className="individual-product-description">
@@ -1173,7 +1173,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                       <br />
                       <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                      <a href="/subcat=233/prodID1827"><strong>More Info >></strong></a>
+                      <a href="/subcat=233/prodID1828"><strong>More Info >></strong></a>
                     </ul>
                   </div>
                   <h4 className="individual-product-suggested-retail-price">MSRP: $1,889.00</h4>
@@ -1203,11 +1203,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
           <div className="replacement_item_listing">
             <div className="replacement_item_entry">
               <div className="replacement_item_image">
-                <img className="filter" src="http://www.msaironline.com/images/prodImage/1891_144x85.jpg" alt="ZFC Replacement Element"></img>
-                <p>Catalog Number: EC1350P</p>
+                <img className="filter" src="http://www.msaironline.com/images/prodImage/1892_144x85.jpg" alt="ZFC Replacement Element"></img>
+                <p>Catalog Number: EC1350G</p>
               </div>
             <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1891">ZFC Replacement Element</a></h6>
+              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1892">ZFC Replacement Element</a></h6>
               <h6 className="replacement_item_brand_name">Zeks</h6>
               <div className="individual-product-description">
                 <ul>
@@ -1233,13 +1233,13 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
 
               <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1831_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                <p>Catalog Number: ZFC1600P</p>
+                <img src="https://www.msaironline.com/images/prodImage/1832_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC1600G</p>
               </div>
 
 
               <div className="individual-product-details">
-                <h2 className="individual-product-title"><a href="/subcat=233/prodID1831">ZFC Compressed Air Filter</a></h2>
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1832">ZFC Compressed Air Filter</a></h2>
                 <h4 className="product-brand-title">Zeks</h4>
 
               <div className="individual-product-description">
@@ -1254,7 +1254,7 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
 
-                  <a href="/subcat=233/prodID1831"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1832"><strong>More Info >></strong></a>
                 </ul>
               </div>
                 <h4 className="individual-product-suggested-retail-price">MSRP: $2,155.00</h4>
@@ -1283,11 +1283,11 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
           <div className="replacement_item_listing">
             <div className="replacement_item_entry">
               <div className="replacement_item_image">
-                <img className="filter" src="http://www.msaironline.com/images/prodImage/1895_144x85.jpg" alt="ZFC Replacement Element"></img>
-                <p>Catalog Number: EC1600P</p>
+                <img className="filter" src="http://www.msaironline.com/images/prodImage/1892_144x85.jpg" alt="ZFC Replacement Element"></img>
+                <p>Catalog Number: EC1600G</p>
               </div>
               <div className="replacement_item_details">
-                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1895">ZFC Replacement Element</a></h6>
+                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1892">ZFC Replacement Element</a></h6>
                 <h6 className="replacement_item_brand_name">Zeks</h6>
                 <div className="individual-product-description">
                   <ul>

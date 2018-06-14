@@ -36,6 +36,7 @@ import Air_Dryers from '../components/subcat=233/air_dryers';
 import Compressed_Air_Filters from '../components/subcat=233/compressed_air_filters';
 import Filters from '../components/subcat=233/filters';
 import Grade_A_Activated_Carbon from '../components/subcat=233/grade_a_activated_carbon';
+import Grade_G_General_Purpose from '../components/subcat=233/grade_g_general_purpose';
 import Grade_P_Particulate_Bulk_Liquid from '../components/subcat=233/grade_p_particulate_bulk_liquid';
 import Grade_H_High_Efficiency from '../components/subcat=233/grade_h_high_efficiency';
 import ZTF_Replacement_Parts from '../components/subcat=233/ztf_replacement_parts';
@@ -320,6 +321,7 @@ class App extends Component {
             <Route path="/subcat=233/compressed_air_filters" component={Compressed_Air_Filters}/>
             <Route path="/subcat=233/filters" component={Filters}/>
             <Route path="/subcat=233/grade_a_activated_carbon" component={Grade_A_Activated_Carbon}/>
+            <Route path="/subcat=233/grade_g_general_purpose" component={Grade_G_General_Purpose}/>
             <Route path="/subcat=233/grade_p_particulate_bulk_liquid" component={Grade_P_Particulate_Bulk_Liquid}/>
             <Route path="/subcat=233/grade_h_high_efficiency" component={Grade_H_High_Efficiency}/>
             <Route path="/subcat=233/ztf_replacement_parts" component={ZTF_Replacement_Parts}/>
@@ -354,7 +356,7 @@ class App extends Component {
             <Route path="/subcat=252/prodID1719" component={prodID1719}/>
             <Route path="/subcat=252/prodID1720" component={prodID1720}/>
             <Route path="/subcat=252/prodID1722" component={prodID1722}/>
-            <Route path="/subcat=233/prodID1771" component={prodID1771}/>          
+            <Route path="/subcat=233/prodID1771" component={prodID1771}/>
             <Route path="/subcat=233/prodID1831" component={prodID1831}/>
             <Route path="/subcat=233/prodID1775" component={prodID1775}/>
             <Route path="/subcat=233/prodID1779" component={prodID1779}/>
