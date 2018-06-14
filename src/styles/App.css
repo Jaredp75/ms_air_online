@@ -1181,7 +1181,7 @@ h1 {
   display: flex;
   flex-direction: column;
   /* margin-right: 60px; */
-  
+
 }
 
 
@@ -1565,35 +1565,60 @@ img.thumbnail {
 
 .subcategories {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 
 .subcat_section1 {
   background-color: lightgray;
   padding: 20px;
   margin: 20px;
+  margin-top: 140px;
   margin-bottom: 60px;
   width: 40%;
 
 
+}
+
+.subcat_section1 img {
+  width: 50%;
 }
 
 .subcat_section2 {
   background-color: lightgray;
   padding: 40px;
   margin: 20px;
+  margin-top: 140px;
   margin-bottom: 60px;
-  width: 40%;
+  width: 30%;
+}
 
-
+.subcat_section2 img {
+  width: 50%;
 }
 
 .subcat_section3 {
   background-color: lightgray;
   padding: 40px;
   margin: 20px;
+  margin-top: 140px;
   margin-bottom: 60px;
-  width: 40%;
+  width: 30%;
+}
+
+.subcat_section3 img {
+  width: 50%;
+}
+
+.subcat_section4 {
+  background-color: lightgray;
+  padding: 40px;
+  margin: 20px;
+  margin-top: 140px;
+  margin-bottom: 60px;
+  width: 30%;
 
 
 }

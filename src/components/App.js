@@ -72,36 +72,68 @@ import prodID1719 from '../components/subcat=252/prodID1719';
 import prodID1720 from '../components/subcat=252/prodID1720';
 import prodID1722 from '../components/subcat=252/prodID1722';
 import prodID1771 from '../components/subcat=233/prodID1771';
+import prodID1772 from '../components/subcat=233/prodID1772';
 import prodID1831 from '../components/subcat=233/prodID1831';
 import prodID1775 from '../components/subcat=233/prodID1775';
+import prodID1776 from '../components/subcat=233/prodID1776';
 import prodID1779 from '../components/subcat=233/prodID1779';
+import prodID1780 from '../components/subcat=233/prodID1780';
 import prodID1783 from '../components/subcat=233/prodID1783';
+import prodID1784 from '../components/subcat=233/prodID1784';
 import prodID1787 from '../components/subcat=233/prodID1787';
+import prodID1788 from '../components/subcat=233/prodID1788';
 import prodID1791 from '../components/subcat=233/prodID1791';
+import prodID1792 from '../components/subcat=233/prodID1792';
 import prodID1795 from '../components/subcat=233/prodID1795';
+import prodID1796 from '../components/subcat=233/prodID1796';
 import prodID1799 from '../components/subcat=233/prodID1799';
+import prodID1800 from '../components/subcat=233/prodID1800';
 import prodID1803 from '../components/subcat=233/prodID1803';
+import prodID1804 from '../components/subcat=233/prodID1804';
 import prodID1807 from '../components/subcat=233/prodID1807';
+import prodID1808 from '../components/subcat=233/prodID1808';
 import prodID1811 from '../components/subcat=233/prodID1811';
+import prodID1812 from '../components/subcat=233/prodID1812';
 import prodID1815 from '../components/subcat=233/prodID1815';
+import prodID1816 from '../components/subcat=233/prodID1816';
 import prodID1819 from '../components/subcat=233/prodID1819';
+import prodID1820 from '../components/subcat=233/prodID1820';
 import prodID1823 from '../components/subcat=233/prodID1823';
+import prodID1824 from '../components/subcat=233/prodID1824';
 import prodID1827 from '../components/subcat=233/prodID1827';
+import prodID1828 from '../components/subcat=233/prodID1828';
+import prodID1832 from '../components/subcat=233/prodID1832';
+import prodID1836 from '../components/subcat=233/prodID1836';
 import prodID1839 from '../components/subcat=233/prodID1839';
+import prodID1840 from '../components/subcat=233/prodID1840';
 import prodID1843 from '../components/subcat=233/prodID1843';
+import prodID1844 from '../components/subcat=233/prodID1844';
 import prodID1847 from '../components/subcat=233/prodID1847';
+import prodID1848 from '../components/subcat=233/prodID1848';
 import prodID1851 from '../components/subcat=233/prodID1851';
+import prodID1852 from '../components/subcat=233/prodID1852';
 import prodID1855 from '../components/subcat=233/prodID1855';
+import prodID1856 from '../components/subcat=233/prodID1856';
 import prodID1859 from '../components/subcat=233/prodID1859';
+import prodID1860 from '../components/subcat=233/prodID1860';
 import prodID1863 from '../components/subcat=233/prodID1863';
+import prodID1864 from '../components/subcat=233/prodID1864';
 import prodID1867 from '../components/subcat=233/prodID1867';
+import prodID1868 from '../components/subcat=233/prodID1868';
 import prodID1871 from '../components/subcat=233/prodID1871';
+import prodID1872 from '../components/subcat=233/prodID1872';
 import prodID1875 from '../components/subcat=233/prodID1875';
+import prodID1876 from '../components/subcat=233/prodID1876';
 import prodID1879 from '../components/subcat=233/prodID1879';
+import prodID1880 from '../components/subcat=233/prodID1880';
 import prodID1883 from '../components/subcat=233/prodID1883';
+import prodID1884 from '../components/subcat=233/prodID1884';
 import prodID1887 from '../components/subcat=233/prodID1887';
+import prodID1888 from '../components/subcat=233/prodID1888';
 import prodID1891 from '../components/subcat=233/prodID1891';
+import prodID1892 from '../components/subcat=233/prodID1892';
 import prodID1835 from '../components/subcat=233/prodID1835';
+import prodID1896 from '../components/subcat=233/prodID1896';
 import prodID1895 from '../components/subcat=233/prodID1895';
 
 
@@ -357,37 +389,69 @@ class App extends Component {
             <Route path="/subcat=252/prodID1720" component={prodID1720}/>
             <Route path="/subcat=252/prodID1722" component={prodID1722}/>
             <Route path="/subcat=233/prodID1771" component={prodID1771}/>
+            <Route path="/subcat=233/prodID1772" component={prodID1772}/>
             <Route path="/subcat=233/prodID1831" component={prodID1831}/>
             <Route path="/subcat=233/prodID1775" component={prodID1775}/>
+            <Route path="/subcat=233/prodID1776" component={prodID1776}/>
             <Route path="/subcat=233/prodID1779" component={prodID1779}/>
+            <Route path="/subcat=233/prodID1780" component={prodID1780}/>
             <Route path="/subcat=233/prodID1783" component={prodID1783}/>
+            <Route path="/subcat=233/prodID1784" component={prodID1784}/>
             <Route path="/subcat=233/prodID1787" component={prodID1787}/>
+            <Route path="/subcat=233/prodID1788" component={prodID1788}/>
             <Route path="/subcat=233/prodID1791" component={prodID1791}/>
+            <Route path="/subcat=233/prodID1792" component={prodID1792}/>
             <Route path="/subcat=233/prodID1795" component={prodID1795}/>
+            <Route path="/subcat=233/prodID1796" component={prodID1796}/>
             <Route path="/subcat=233/prodID1799" component={prodID1799}/>
+            <Route path="/subcat=233/prodID1800" component={prodID1800}/>
             <Route path="/subcat=233/prodID1803" component={prodID1803}/>
+            <Route path="/subcat=233/prodID1804" component={prodID1804}/>
             <Route path="/subcat=233/prodID1807" component={prodID1807}/>
+            <Route path="/subcat=233/prodID1808" component={prodID1808}/>
             <Route path="/subcat=233/prodID1811" component={prodID1811}/>
+            <Route path="/subcat=233/prodID1812" component={prodID1812}/>
             <Route path="/subcat=233/prodID1815" component={prodID1815}/>
+            <Route path="/subcat=233/prodID1816" component={prodID1816}/>
             <Route path="/subcat=233/prodID1819" component={prodID1819}/>
+            <Route path="/subcat=233/prodID1820" component={prodID1820}/>
             <Route path="/subcat=233/prodID1823" component={prodID1823}/>
+            <Route path="/subcat=233/prodID1824" component={prodID1824}/>
             <Route path="/subcat=233/prodID1827" component={prodID1827}/>
-            <Route path="/subcat=233/prodID1839" component={prodID1839}/>
-            <Route path="/subcat=233/prodID1843" component={prodID1843}/>
-            <Route path="/subcat=233/prodID1847" component={prodID1847}/>
-            <Route path="/subcat=233/prodID1851" component={prodID1851}/>
-            <Route path="/subcat=233/prodID1855" component={prodID1855}/>
-            <Route path="/subcat=233/prodID1859" component={prodID1859}/>
-            <Route path="/subcat=233/prodID1863" component={prodID1863}/>
-            <Route path="/subcat=233/prodID1867" component={prodID1867}/>
-            <Route path="/subcat=233/prodID1871" component={prodID1871}/>
-            <Route path="/subcat=233/prodID1875" component={prodID1875}/>
-            <Route path="/subcat=233/prodID1879" component={prodID1879}/>
-            <Route path="/subcat=233/prodID1883" component={prodID1883}/>
-            <Route path="/subcat=233/prodID1887" component={prodID1887}/>
-            <Route path="/subcat=233/prodID1891" component={prodID1891}/>
+            <Route path="/subcat=233/prodID1828" component={prodID1828}/>
+            <Route path="/subcat=233/prodID1832" component={prodID1832}/>
             <Route path="/subcat=233/prodID1835" component={prodID1835}/>
+            <Route path="/subcat=233/prodID1836" component={prodID1836}/>
+            <Route path="/subcat=233/prodID1839" component={prodID1839}/>
+            <Route path="/subcat=233/prodID1840" component={prodID1840}/>
+            <Route path="/subcat=233/prodID1843" component={prodID1843}/>
+            <Route path="/subcat=233/prodID1844" component={prodID1844}/>
+            <Route path="/subcat=233/prodID1847" component={prodID1847}/>
+            <Route path="/subcat=233/prodID1848" component={prodID1848}/>
+            <Route path="/subcat=233/prodID1851" component={prodID1851}/>
+            <Route path="/subcat=233/prodID1852" component={prodID1852}/>
+            <Route path="/subcat=233/prodID1855" component={prodID1855}/>
+            <Route path="/subcat=233/prodID1856" component={prodID1856}/>
+            <Route path="/subcat=233/prodID1859" component={prodID1859}/>
+            <Route path="/subcat=233/prodID1860" component={prodID1860}/>
+            <Route path="/subcat=233/prodID1863" component={prodID1863}/>
+            <Route path="/subcat=233/prodID1864" component={prodID1864}/>
+            <Route path="/subcat=233/prodID1867" component={prodID1867}/>
+            <Route path="/subcat=233/prodID1868" component={prodID1868}/>
+            <Route path="/subcat=233/prodID1871" component={prodID1871}/>
+            <Route path="/subcat=233/prodID1872" component={prodID1872}/>
+            <Route path="/subcat=233/prodID1875" component={prodID1875}/>
+            <Route path="/subcat=233/prodID1876" component={prodID1876}/>
+            <Route path="/subcat=233/prodID1879" component={prodID1879}/>
+            <Route path="/subcat=233/prodID1880" component={prodID1880}/>
+            <Route path="/subcat=233/prodID1883" component={prodID1883}/>
+            <Route path="/subcat=233/prodID1884" component={prodID1884}/>
+            <Route path="/subcat=233/prodID1887" component={prodID1887}/>
+            <Route path="/subcat=233/prodID1888" component={prodID1888}/>
+            <Route path="/subcat=233/prodID1891" component={prodID1891}/>
+            <Route path="/subcat=233/prodID1892" component={prodID1892}/>
             <Route path="/subcat=233/prodID1895" component={prodID1895}/>
+            <Route path="/subcat=233/prodID1896" component={prodID1896}/>
 
 
 

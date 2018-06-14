@@ -55,7 +55,7 @@ export default class Cat_Zeks extends React.Component {
             </div>
 
             <div className="subcat_section4">
-              <a href="/subcat=233/filters" alt="Filters"><img src="https://www.msaironline.com/images/taxImage/235_100x75.jpg" alt="Filters"></img></a>
+              <a href="/subcat=233/filters" alt="Filters"><img src="https://www.msaironline.com/images/taxImage/235_144x85.jpg" alt="Filters"></img></a>
               <h2><a href="/subcat=233/filters">Filters</a></h2>
             </div>
           </div>
