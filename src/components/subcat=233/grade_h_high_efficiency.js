@@ -4,14 +4,14 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
 
-export default class Compressed_Air_Filters extends React.Component {
+export default class Grade_H_High_Efficiency extends React.Component {
 
   render(){
 
     return(
       <div>
 
-        <div className = 'content-area-container'>
+        <div className='content-area-container'>
 
           <div className="dropdown">
           <button className="dropbtn">Subcategories</button>
@@ -30,38 +30,39 @@ export default class Compressed_Air_Filters extends React.Component {
 
 
                     <div className="product-image">
-                      <img src="https://www.msaironline.com/images/prodImage/1633_144x85.jpg" alt="15HP Air Compressor"></img>
-                      <p>Catalog Number: 15VFD</p>
+                      <img src="https://www.msaironline.com/images/prodImage/1772_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                      <p>Catalog Number: ZFC22G</p>
                     </div>
 
-
                     <div className="individual-product-details">
-                      <h2 className="individual-product-title"><a href="/subcat=244/prodID1633">15HP Air Compressor</a></h2>
-                      <h4 className="product-brand-title">Sullivan-Palatek</h4>
+                      <h2 className="individual-product-title"><a href="/subcat=233/prodID1772">ZFC Compressed Air Filter</a></h2>
+                      <h4 className="product-brand-title">Zeks</h4>
 
                     <div className="individual-product-description">
                       <ul>
-                        <li><strong>CFM</strong>: 55 CFM @ 125 psi</li>
-                        <li><strong>HP</strong>: 15</li>
-                        <li><strong>Voltage</strong>: 208/230/460V</li>
+                        <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                        <li><strong>Connection In/Out</strong>: 1/2"</li>
+                        <li><strong>Elements Required Per Filter</strong>: 1</li>
+                        <li><strong>Filter Length</strong>: 8.86"</li>
+                        <li><strong>Filter Width</strong>: 2.99"</li>
+                        <li><strong>Flow SCFM</strong>: 22</li>
+                        <li><strong>Side Drain Port</strong>: N/A</li>
                         <br />
-                        <li>Floor mounted 15HP rotary screw air compressor, air cooled VSD</li>
-                        <br />
-                        <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                        <br />
-                        <a href="/subcat=244/prodID1633"><strong>More Info >></strong></a>
+                        <li>ZFC Compressed Air Filter for General Purpose Filtration.</li>
+
+                        <a href="/subcat=233/prodID1772"><strong>More Info >></strong></a>
                       </ul>
                     </div>
-                    <h4 className="individual-product-suggested-retail-price">MSRP: $21,665.70</h4>
-                    <h4 className="individual-product-savings">Savings: <strong>$8,995.70</strong></h4>
-                    <h3 className="individual-product-actual-price"><strong>$12,670.00</strong></h3>
+                      <h4 className="individual-product-suggested-retail-price">MSRP: $215.00</h4>
+                      <h4 className="individual-product-savings">Savings: <strong>$75.25</strong></h4>
+                      <h3 className="individual-product-actual-price"><strong>$139.75</strong></h3>
                   </div>
                 </div>
 
                 <div className="quantity-input-group">
                   <form action="/action_page.php">
-                    Qty:
-                    <input type="number" className="quantityBox" value="0" />
+                    Quantity:
+                    <input type="number" className="quantityBox"/>
                   </form>
                 </div>
               </div>
@@ -72,35 +73,590 @@ export default class Compressed_Air_Filters extends React.Component {
             </div>
           </div>
 
+
           <div className="replacement_items_section">
-            <h4 className="replacement_items_header">Accessories</h4>
+            <h4 className="replacement_items_header">Replacement Parts</h4>
 
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
+                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1836_144x85.jpg" alt="ZFC Replacement Element"></img>
+                  <p>Catalog Number: EC22G</p>
                 </div>
               <div className="replacement_item_details">
-                <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
-                <h6 className="replacement_item_brand_name">Trident</h6>
-                <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
+                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1836">ZFC Replacement Element</a></h6>
+                <h6 className="replacement_item_brand_name">Zeks</h6>
+                <div className="individual-product-description">
+                  <ul>
+                    <li>ZFC Replacement Element for ZFC22</li>
+                  </ul>
+                </div>
+                <h6 className="individual-product-suggested-retail-price">MSRP: $44.00</h6>
+                <h6 className="replacement_item_actual_price"><strong>$28.60</strong></h6>
               </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <br />
+
+    {/* ++++++++++++++++++++++++++++ */}
+
+    <div className="content-area-container">
+      <div id="individual_product_page">
+        <div className="individual-product">
+          <div className="individual_product_listing">
+            <div className="individual_product_entry">
+
+
+              <div className="product-image">
+                <img src="https://www.msaironline.com/images/prodImage/1776_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC45G</p>
+              </div>
+
+
+              <div className="individual-product-details">
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1776">ZFC Compressed Air Filter</a></h2>
+                <h4 className="product-brand-title">Zeks</h4>
+
+              <div className="individual-product-description">
+                <ul>
+                  <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                  <li><strong>Connection In/Out</strong>: 3/4"</li>
+                  <li><strong>Elements Required Per Filter</strong>: 1</li>
+                  <li><strong>Filter Length</strong>: 11.03"</li>
+                  <li><strong>Filter Width</strong>: 3.86"</li>
+                  <li><strong>Flow SCFM</strong>: 45</li>
+                  <li><strong>Side Drain Port</strong>: N/A</li>
+                  <br />
+                  <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+
+                  <a href="/subcat=233/prodID1776"><strong>More Info >></strong></a>
+                </ul>
+              </div>
+              <h4 className="individual-product-suggested-retail-price">MSRP: $261.00</h4>
+              <h4 className="individual-product-savings">Savings: <strong>$91.35</strong></h4>
+              <h3 className="individual-product-actual-price"><strong>$169.65</strong></h3>
             </div>
           </div>
 
-          <div className="replacement_item_listing">
-            <div className="replacement_item_entry">
-              <div className="replacement_item_image">
-                <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-              </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-            </div>
+          <div className="quantity-input-group">
+            <form action="/action_page.php">
+              Quantity:
+              <input type="number" className="quantityBox"/>
+            </form>
           </div>
         </div>
+
+        <div className="add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
       </div>
+    </div>
+
+    <div className="replacement_items_section">
+      <h4 className="replacement_items_header">Replacement Parts</h4>
+
+      <div className="replacement_item_listing">
+        <div className="replacement_item_entry">
+          <div className="replacement_item_image">
+            <img className="filter" src="http://www.msaironline.com/images/prodImage/1840_144x85.jpg" alt="ZFC Replacement Element"></img>
+            <p>Catalog Number: EC45G</p>
+          </div>
+        <div className="replacement_item_details">
+          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1840">ZFC Replacement Element</a></h6>
+          <h6 className="replacement_item_brand_name">Zeks</h6>
+          <div className="individual-product-description">
+            <ul>
+              <li>ZFC Replacement Element for ZFC45</li>
+            </ul>
+          </div>
+          <h6 className="individual-product-suggested-retail-price">MSRP: $50.00</h6>
+          <h6 className="replacement_item_actual_price"><strong>$32.50</strong></h6>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+    <br />
+
+    {/* ++++++++++++++++++++++++++++ */}
+
+    <div className="content-area-container">
+      <div id="individual_product_page">
+        <div className="individual-product">
+          <div className="individual_product_listing">
+            <div className="individual_product_entry">
+
+
+              <div className="product-image">
+                <img src="https://www.msaironline.com/images/prodImage/1780_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC65G</p>
+              </div>
+
+
+              <div className="individual-product-details">
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1780">ZFC Compressed Air Filter</a></h2>
+                <h4 className="product-brand-title">Zeks</h4>
+
+              <div className="individual-product-description">
+                <ul>
+                  <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                  <li><strong>Connection In/Out</strong>: 3/4"</li>
+                  <li><strong>Elements Required Per Filter</strong>: 1</li>
+                  <li><strong>Filter Length</strong>: 11.03"</li>
+                  <li><strong>Filter Width</strong>: 3.86"</li>
+                  <li><strong>Flow SCFM</strong>: 65</li>
+                  <li><strong>Side Drain Port</strong>: N/A</li>
+                  <br />
+                  <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+
+                  <a href="/subcat=233/prodID1780"><strong>More Info >></strong></a>
+                </ul>
+              </div>
+              <h4 className="individual-product-suggested-retail-price">MSRP: $323.00</h4>
+              <h4 className="individual-product-savings">Savings: <strong>$113.05</strong></h4>
+              <h3 className="individual-product-actual-price"><strong>$209.95</strong></h3>
+            </div>
+          </div>
+
+          <div className="quantity-input-group">
+            <form action="/action_page.php">
+              Quantity:
+              <input type="number" className="quantityBox"/>
+            </form>
+          </div>
+        </div>
+
+        <div className="add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </div>
+    </div>
+
+    <div className="replacement_items_section">
+      <h4 className="replacement_items_header">Replacement Parts</h4>
+
+      <div className="replacement_item_listing">
+        <div className="replacement_item_entry">
+          <div className="replacement_item_image">
+            <img className="filter" src="http://www.msaironline.com/images/prodImage/1844_144x85.jpg" alt="ZFC Replacement Element"></img>
+            <p>Catalog Number: EC65G</p>
+          </div>
+        <div className="replacement_item_details">
+          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1844">ZFC Replacement Element</a></h6>
+          <h6 className="replacement_item_brand_name">Zeks</h6>
+          <div className="individual-product-description">
+            <ul>
+              <li>ZFC Replacement Element for ZFC65</li>
+            </ul>
+          </div>
+          <h6 className="individual-product-suggested-retail-price">MSRP: $56.00</h6>
+          <h6 className="replacement_item_actual_price"><strong>$36.40</strong></h6>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+    <br />
+
+    {/* ++++++++++++++++++++++++++++ */}
+
+    <div className="content-area-container">
+      <div id="individual_product_page">
+        <div className="individual-product">
+          <div className="individual_product_listing">
+            <div className="individual_product_entry">
+
+
+              <div className="product-image">
+                <img src="https://www.msaironline.com/images/prodImage/1784_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC88G</p>
+              </div>
+
+
+              <div className="individual-product-details">
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1784">ZFC Compressed Air Filter</a></h2>
+                <h4 className="product-brand-title">Zeks</h4>
+
+              <div className="individual-product-description">
+                <ul>
+                  <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                  <li><strong>Connection In/Out</strong>: 1"</li>
+                  <li><strong>Elements Required Per Filter</strong>: 1</li>
+                  <li><strong>Filter Length</strong>: 12.56"</li>
+                  <li><strong>Filter Width</strong>: 5.08"</li>
+                  <li><strong>Flow SCFM</strong>: 88</li>
+                  <li><strong>Side Drain Port</strong>: N/A</li>
+                  <br />
+                  <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+
+                  <a href="/subcat=233/prodID1784"><strong>More Info >></strong></a>
+                </ul>
+              </div>
+              <h4 className="individual-product-suggested-retail-price">MSRP: $347.00</h4>
+              <h4 className="individual-product-savings">Savings: <strong>$121.45</strong></h4>
+              <h3 className="individual-product-actual-price"><strong>$225.55</strong></h3>
+            </div>
+          </div>
+
+          <div className="quantity-input-group">
+            <form action="/action_page.php">
+              Quantity:
+              <input type="number" className="quantityBox"/>
+            </form>
+          </div>
+        </div>
+
+        <div className="add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </div>
+    </div>
+
+    <div className="replacement_items_section">
+      <h4 className="replacement_items_header">Replacement Parts</h4>
+
+      <div className="replacement_item_listing">
+        <div className="replacement_item_entry">
+          <div className="replacement_item_image">
+            <img className="filter" src="http://www.msaironline.com/images/prodImage/1848_144x85.jpg" alt="ZFC Replacement Element"></img>
+            <p>Catalog Number: EC88G</p>
+          </div>
+        <div className="replacement_item_details">
+          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1848">ZFC Replacement Element</a></h6>
+          <h6 className="replacement_item_brand_name">Zeks</h6>
+          <div className="individual-product-description">
+            <ul>
+              <li>ZFC Replacement Element for ZFC88</li>
+            </ul>
+          </div>
+          <h6 className="individual-product-suggested-retail-price">MSRP: $74.00</h6>
+          <h6 className="replacement_item_actual_price"><strong>$48.10</strong></h6>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+    <br />
+
+    {/* ++++++++++++++++++++++++++++ */}
+
+    <div className="content-area-container">
+      <div id="individual_product_page">
+        <div className="individual-product">
+          <div className="individual_product_listing">
+            <div className="individual_product_entry">
+
+
+              <div className="product-image">
+                <img src="https://www.msaironline.com/images/prodImage/1788_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC110G</p>
+              </div>
+
+
+              <div className="individual-product-details">
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1788">ZFC Compressed Air Filter</a></h2>
+                <h4 className="product-brand-title">Zeks</h4>
+
+              <div className="individual-product-description">
+                <ul>
+                  <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                  <li><strong>Connection In/Out</strong>: 1"</li>
+                  <li><strong>Elements Required Per Filter</strong>: 1</li>
+                  <li><strong>Filter Length</strong>: 12.56"</li>
+                  <li><strong>Filter Width</strong>: 5.08"</li>
+                  <li><strong>Flow SCFM</strong>: 110</li>
+                  <li><strong>Side Drain Port</strong>: N/A</li>
+                  <br />
+                  <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+
+                  <a href="/subcat=233/prodID1788"><strong>More Info >></strong></a>
+                </ul>
+              </div>
+              <h4 className="individual-product-suggested-retail-price">MSRP: $408.00</h4>
+              <h4 className="individual-product-savings">Savings: <strong>$142.80</strong></h4>
+              <h3 className="individual-product-actual-price"><strong>$265.20</strong></h3>
+            </div>
+          </div>
+
+          <div className="quantity-input-group">
+            <form action="/action_page.php">
+              Quantity:
+              <input type="number" className="quantityBox"/>
+            </form>
+          </div>
+        </div>
+
+        <div className="add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </div>
+    </div>
+
+    <div className="replacement_items_section">
+      <h4 className="replacement_items_header">Replacement Parts</h4>
+
+      <div className="replacement_item_listing">
+        <div className="replacement_item_entry">
+          <div className="replacement_item_image">
+            <img className="filter" src="http://www.msaironline.com/images/prodImage/1852_144x85.jpg" alt="ZFC Replacement Element"></img>
+            <p>Catalog Number: EC110G</p>
+          </div>
+        <div className="replacement_item_details">
+          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1852">ZFC Replacement Element</a></h6>
+          <h6 className="replacement_item_brand_name">Zeks</h6>
+          <div className="individual-product-description">
+            <ul>
+              <li>ZFC Replacement Element for ZFC110</li>
+            </ul>
+          </div>
+          <h6 className="individual-product-suggested-retail-price">MSRP: $84.00</h6>
+          <h6 className="replacement_item_actual_price"><strong>$54.60</strong></h6>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+    <br />
+
+    {/* ++++++++++++++++++++++++++++ */}
+
+    <div className="content-area-container">
+      <div id="individual_product_page">
+        <div className="individual-product">
+          <div className="individual_product_listing">
+            <div className="individual_product_entry">
+
+
+              <div className="product-image">
+                <img src="https://www.msaironline.com/images/prodImage/1792_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC135G</p>
+              </div>
+
+
+              <div className="individual-product-details">
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1792">ZFC Compressed Air Filter</a></h2>
+                <h4 className="product-brand-title">Zeks</h4>
+
+              <div className="individual-product-description">
+                <ul>
+                  <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                  <li><strong>Connection In/Out</strong>: 1"</li>
+                  <li><strong>Elements Required Per Filter</strong>: 1</li>
+                  <li><strong>Filter Length</strong>: 12.56"</li>
+                  <li><strong>Filter Width</strong>: 5.08"</li>
+                  <li><strong>Flow SCFM</strong>: 135</li>
+                  <li><strong>Side Drain Port</strong>: N/A</li>
+                  <br />
+                  <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+
+                  <a href="/subcat=233/prodID1792"><strong>More Info >></strong></a>
+                </ul>
+              </div>
+              <h4 className="individual-product-suggested-retail-price">MSRP: $464.00</h4>
+              <h4 className="individual-product-savings">Savings: <strong>$162.40</strong></h4>
+              <h3 className="individual-product-actual-price"><strong>$301.60</strong></h3>
+            </div>
+          </div>
+
+          <div className="quantity-input-group">
+            <form action="/action_page.php">
+              Quantity:
+              <input type="number" className="quantityBox"/>
+            </form>
+          </div>
+        </div>
+
+        <div className="add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </div>
+    </div>
+
+    <div className="replacement_items_section">
+      <h4 className="replacement_items_header">Replacement Parts</h4>
+
+      <div className="replacement_item_listing">
+        <div className="replacement_item_entry">
+          <div className="replacement_item_image">
+            <img className="filter" src="http://www.msaironline.com/images/prodImage/1856_144x85.jpg" alt="ZFC Replacement Element"></img>
+            <p>Catalog Number: EC135G</p>
+          </div>
+        <div className="replacement_item_details">
+          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1856">ZFC Replacement Element</a></h6>
+          <h6 className="replacement_item_brand_name">Zeks</h6>
+          <div className="individual-product-description">
+            <ul>
+              <li>ZFC Replacement Element for ZFC135</li>
+            </ul>
+          </div>
+          <h6 className="individual-product-suggested-retail-price">MSRP: $105.00</h6>
+          <h6 className="replacement_item_actual_price"><strong>$68.25</strong></h6>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+    <br />
+
+    {/* ++++++++++++++++++++++++++++ */}
+
+    <div className="content-area-container">
+      <div id="individual_product_page">
+        <div className="individual-product">
+          <div className="individual_product_listing">
+            <div className="individual_product_entry">
+
+
+              <div className="product-image">
+                <img src="https://www.msaironline.com/images/prodImage/1796_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC235G</p>
+              </div>
+
+
+              <div className="individual-product-details">
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1796">ZFC Compressed Air Filter</a></h2>
+                <h4 className="product-brand-title">Zeks</h4>
+
+              <div className="individual-product-description">
+                <ul>
+                  <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                  <li><strong>Connection In/Out</strong>: 1 1/2"</li>
+                  <li><strong>Elements Required Per Filter</strong>: 1</li>
+                  <li><strong>Filter Length</strong>: 16.11"</li>
+                  <li><strong>Filter Width</strong>: 5.08"</li>
+                  <li><strong>Flow SCFM</strong>: 235</li>
+                  <li><strong>Side Drain Port</strong>: N/A</li>
+                  <br />
+                  <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+
+                  <a href="/subcat=233/prodID1796"><strong>More Info >></strong></a>
+                </ul>
+              </div>
+              <h4 className="individual-product-suggested-retail-price">MSRP: $666.00</h4>
+              <h4 className="individual-product-savings">Savings: <strong>$233.10</strong></h4>
+              <h3 className="individual-product-actual-price"><strong>$432.90</strong></h3>
+            </div>
+          </div>
+
+          <div className="quantity-input-group">
+            <form action="/action_page.php">
+              Quantity:
+              <input type="number" className="quantityBox"/>
+            </form>
+          </div>
+        </div>
+
+        <div className="add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </div>
+    </div>
+
+    <div className="replacement_items_section">
+      <h4 className="replacement_items_header">Replacement Parts</h4>
+
+      <div className="replacement_item_listing">
+        <div className="replacement_item_entry">
+          <div className="replacement_item_image">
+            <img className="filter" src="http://www.msaironline.com/images/prodImage/1860_144x85.jpg" alt="ZFC Replacement Element"></img>
+            <p>Catalog Number: EC235G</p>
+          </div>
+        <div className="replacement_item_details">
+          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1860">ZFC Replacement Element</a></h6>
+          <h6 className="replacement_item_brand_name">Zeks</h6>
+          <div className="individual-product-description">
+            <ul>
+              <li>ZFC Replacement Element for ZFC235</li>
+            </ul>
+          </div>
+          <h6 className="individual-product-suggested-retail-price">MSRP: $169.00</h6>
+          <h6 className="replacement_item_actual_price"><strong>$109.85</strong></h6>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+    <br />
+
+    {/* +++++++++++++++++++++++++++ */}
+
+    <div className="content-area-container">
+      <div id="individual_product_page">
+        <div className="individual-product">
+          <div className="individual_product_listing">
+            <div className="individual_product_entry">
+
+
+              <div className="product-image">
+                <img src="https://www.msaironline.com/images/prodImage/1800_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC290G</p>
+              </div>
+
+
+              <div className="individual-product-details">
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1800">ZFC Compressed Air Filter</a></h2>
+                <h4 className="product-brand-title">Zeks</h4>
+
+              <div className="individual-product-description">
+                <ul>
+                  <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                  <li><strong>Connection In/Out</strong>: 1 1/2"</li>
+                  <li><strong>Elements Required Per Filter</strong>: 1</li>
+                  <li><strong>Filter Length</strong>: 16.11"</li>
+                  <li><strong>Filter Width</strong>: 5.08"</li>
+                  <li><strong>Flow SCFM</strong>: 290</li>
+                  <li><strong>Side Drain Port</strong>: N/A</li>
+                  <br />
+                  <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+
+                  <a href="/subcat=233/prodID1800"><strong>More Info >></strong></a>
+                </ul>
+              </div>
+              <h4 className="individual-product-suggested-retail-price">MSRP: $697.00</h4>
+              <h4 className="individual-product-savings">Savings: <strong>$243.95</strong></h4>
+              <h3 className="individual-product-actual-price"><strong>$453.05</strong></h3>
+            </div>
+          </div>
+
+          <div className="quantity-input-group">
+            <form action="/action_page.php">
+              Quantity:
+              <input type="number" className="quantityBox"/>
+            </form>
+          </div>
+        </div>
+
+        <div className="add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
+      </div>
+    </div>
+
+    <div className="replacement_items_section">
+      <h4 className="replacement_items_header">Replacement Parts</h4>
+
+      <div className="replacement_item_listing">
+        <div className="replacement_item_entry">
+          <div className="replacement_item_image">
+            <img className="filter" src="http://www.msaironline.com/images/prodImage/1864_144x85.jpg" alt="ZFC Replacement Element"></img>
+            <p>Catalog Number: EC290G</p>
+          </div>
+        <div className="replacement_item_details">
+          <h6 className="replacement_item_title"><a href="/subcat=233/prodID1864">ZFC Replacement Element</a></h6>
+          <h6 className="replacement_item_brand_name">Zeks</h6>
+          <div className="individual-product-description">
+            <ul>
+              <li>ZFC Replacement Element for ZFC290</li>
+            </ul>
+          </div>
+          <h6 className="individual-product-suggested-retail-price">MSRP: $208.00</h6>
+          <h6 className="replacement_item_actual_price"><strong>$135.20</strong></h6>
+        </div>
+      </div>
+    </div>
+    </div>
     </div>
     <br />
 
@@ -113,39 +669,121 @@ export default class Compressed_Air_Filters extends React.Component {
                 <div className="individual_product_entry">
 
 
-                    <div className="product-image">
-                      <img src="https://www.msaironline.com/images/prodImage/1634_144x85.jpg" alt="20HP Air Compressor"></img>
-                      <p>Catalog Number: 20VFD</p>
-                    </div>
-
-                    <div className="individual-product-details">
-                      <h2 className="individual-product-title"><a href="/subcat=252/prodID1719">20HP Air Compressor</a></h2>
-                      <h4 className="product-brand-title">Sullivan-Palatek</h4>
-
-
-                    <div className="individual-product-description">
-                      <ul>
-                        <li><strong>CFM</strong>: 80 CFM @ 125 psi</li>
-                        <li><strong>SCFM</strong>: 20</li>
-                        <li><strong>Voltage</strong>: 208/230/460V</li>
-                        <br />
-                        <li>Floor mounted 25HP rotary screw air compressor, air cooled VSD</li>
-                        <br />
-                        <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                        <br />
-                        <a href="/subcat=244/prodID1634"><strong>More Info >></strong></a>
-                      </ul>
-                    </div>
-                    <h4 className="individual-product-suggested-retail-price">MSRP: $23,105.90</h4>
-                    <h4 className="individual-product-savings">Savings: <strong>$9,593.68</strong></h4>
-                    <h3 className="individual-product-actual-price"><strong>$13,512.22</strong></h3>
+                  <div className="product-image">
+                    <img src="https://www.msaironline.com/images/prodImage/1804_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                    <p>Catalog Number: ZFC350G</p>
                   </div>
-                </div>
 
-                <div className="quantity-input-group">
-                  <form action="/action_page.php">
-                  Qty:
-                  <input type="number" className="quantityBox" value="0" />
+
+                  <div className="individual-product-details">
+                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1804">ZFC Compressed Air Filter</a></h2>
+                    <h4 className="product-brand-title">Zeks</h4>
+
+                  <div className="individual-product-description">
+                    <ul>
+                      <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                      <li><strong>Connection In/Out</strong>: 2"</li>
+                      <li><strong>Elements Required Per Filter</strong>: 1</li>
+                      <li><strong>Filter Length</strong>: 20.40"</li>
+                      <li><strong>Filter Width</strong>: 6.69"</li>
+                      <li><strong>Flow SCFM</strong>: 350</li>
+                      <li><strong>Side Drain Port</strong>: N/A</li>
+                      <br />
+                      <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+
+                      <a href="/subcat=233/prodID1804"><strong>More Info >></strong></a>
+                    </ul>
+                  </div>
+                    <h4 className="individual-product-suggested-retail-price">MSRP: $777.00</h4>
+                    <h4 className="individual-product-savings">Savings: <strong>$271.95</strong></h4>
+                    <h3 className="individual-product-actual-price"><strong>$505.05</strong></h3>
+                </div>
+              </div>
+
+              <div className="quantity-input-group">
+                <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox"/>
+                </form>
+              </div>
+            </div>
+
+            <div className="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
+          </div>
+        </div>
+
+          <div className="replacement_items_section">
+            <h4 className="replacement_items_header">Replacement Parts</h4>
+
+            <div className="replacement_item_listing">
+              <div className="replacement_item_entry">
+                <div className="replacement_item_image">
+                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1868_144x85.jpg" alt="ZFC Replacement Element"></img>
+                  <p>Catalog Number: EC350G</p>
+                </div>
+              <div className="replacement_item_details">
+                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1868">ZFC Replacement Element</a></h6>
+                <h6 className="replacement_item_brand_name">Zeks</h6>
+                <div className="individual-product-description">
+                  <ul>
+                    <li>ZFC Replacement Element for ZFC350</li>
+                  </ul>
+                </div>
+                  <h6 className="individual-product-suggested-retail-price">MSRP: $228.00</h6>
+                  <h6 className="replacement_item_actual_price"><strong>$148.20</strong></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <br />
+
+        {/* ++++++++++++++++++++++++++++ */}
+
+        <div className="content-area-container">
+          <div id="individual_product_page">
+            <div className="individual-product">
+              <div className="individual_product_listing">
+                <div className="individual_product_entry">
+
+
+                  <div className="product-image">
+                    <img src="https://www.msaironline.com/images/prodImage/1808_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                    <p>Catalog Number: ZFC470G</p>
+                  </div>
+
+
+                  <div className="individual-product-details">
+                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1808">ZFC Compressed Air Filter</a></h2>
+                    <h4 className="product-brand-title">Zeks</h4>
+
+                  <div className="individual-product-description">
+                    <ul>
+                      <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                      <li><strong>Connection In/Out</strong>: 2"</li>
+                      <li><strong>Elements Required Per Filter</strong>: 1</li>
+                      <li><strong>Filter Length</strong>: 20.40"</li>
+                      <li><strong>Filter Width</strong>: 6.69"</li>
+                      <li><strong>Flow SCFM</strong>: 470</li>
+                      <li><strong>Side Drain Port</strong>: N/A</li>
+                      <br />
+                      <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+
+                      <a href="/subcat=233/prodID1808"><strong>More Info >></strong></a>
+                    </ul>
+                  </div>
+                  <h4 className="individual-product-suggested-retail-price">MSRP: $1,019.00</h4>
+                  <h4 className="individual-product-savings">Savings: <strong>$356.65</strong></h4>
+                  <h3 className="individual-product-actual-price"><strong>$662.35</strong></h3>
+                </div>
+              </div>
+
+              <div className="quantity-input-group">
+                <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox"/>
                 </form>
               </div>
             </div>
@@ -157,628 +795,534 @@ export default class Compressed_Air_Filters extends React.Component {
         </div>
 
         <div className="replacement_items_section">
-          <h4 className="replacement_items_header">Accessories</h4>
+          <h4 className="replacement_items_header">Replacement Parts</h4>
 
-        <div className="replacement_item_listing">
-          <div className="replacement_item_entry">
-            <div className="replacement_item_image">
-              <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
-            </div>
+          <div className="replacement_item_listing">
+            <div className="replacement_item_entry">
+              <div className="replacement_item_image">
+                <img className="filter" src="http://www.msaironline.com/images/prodImage/1872_144x85.jpg" alt="ZFC Replacement Element"></img>
+                <p>Catalog Number: EC470G</p>
+              </div>
             <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
+              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1872">ZFC Replacement Element</a></h6>
+              <h6 className="replacement_item_brand_name">Zeks</h6>
+              <div className="individual-product-description">
+                <ul>
+                  <li>ZFC Replacement Element for ZFC470</li>
+                </ul>
+              </div>
+              <h6 className="individual-product-suggested-retail-price">MSRP: $260.00</h6>
+              <h6 className="replacement_item_actual_price"><strong>$169.00</strong></h6>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <br />
+
+        {/* ++++++++++++++++++++++++++++ */}
+
+        <div className="content-area-container">
+          <div id="individual_product_page">
+            <div className="individual-product">
+              <div className="individual_product_listing">
+                <div className="individual_product_entry">
+
+
+                  <div className="product-image">
+                    <img src="https://www.msaironline.com/images/prodImage/1812_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                    <p>Catalog Number: ZFC600G</p>
+                  </div>
+
+
+                  <div className="individual-product-details">
+                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1812">ZFC Compressed Air Filter</a></h2>
+                    <h4 className="product-brand-title">Zeks</h4>
+
+                  <div className="individual-product-description">
+                    <ul>
+                      <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                      <li><strong>Connection In/Out</strong>: 2"</li>
+                      <li><strong>Elements Required Per Filter</strong>: 1</li>
+                      <li><strong>Filter Length</strong>: 20.40"</li>
+                      <li><strong>Filter Width</strong>: 6.69"</li>
+                      <li><strong>Flow SCFM</strong>: 600</li>
+                      <li><strong>Side Drain Port</strong>: N/A</li>
+                      <br />
+                      <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+
+                      <a href="/subcat=233/prodID1812"><strong>More Info >></strong></a>
+                    </ul>
+                  </div>
+                  <h4 className="individual-product-suggested-retail-price">MSRP: $1,204.00</h4>
+                  <h4 className="individual-product-savings">Savings: <strong>$421.40</strong></h4>
+                  <h3 className="individual-product-actual-price"><strong>$782.60</strong></h3>
+                </div>
+              </div>
+
+              <div className="quantity-input-group">
+                <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox"/>
+                </form>
+              </div>
+            </div>
+
+            <div className="add-to-cart">
+              <input type="submit" value="Add To Cart" />
             </div>
           </div>
         </div>
 
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-          </div>
+        <div className="replacement_items_section">
+          <h4 className="replacement_items_header">Replacement Parts</h4>
+
+          <div className="replacement_item_listing">
+            <div className="replacement_item_entry">
+              <div className="replacement_item_image">
+                <img className="filter" src="http://www.msaironline.com/images/prodImage/1876_144x85.jpg" alt="ZFC Replacement Element"></img>
+                <p>Catalog Number: EC600G</p>
+              </div>
             <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
+              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1876">ZFC Replacement Element</a></h6>
+              <h6 className="replacement_item_brand_name">Zeks</h6>
+              <div className="individual-product-description">
+                <ul>
+                  <li>ZFC Replacement Element for ZFC600</li>
+                </ul>
+              </div>
+              <h6 className="individual-product-suggested-retail-price">MSRP: $273.00</h6>
+              <h6 className="replacement_item_actual_price"><strong>$177.45</strong></h6>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <br />
+        </div>
+        </div>
+        <br />
+
+        {/* ++++++++++++++++++++++++++++ */}
+
+        <div className="content-area-container">
+          <div id="individual_product_page">
+            <div className="individual-product">
+              <div className="individual_product_listing">
+                <div className="individual_product_entry">
+
+
+                  <div className="product-image">
+                    <img src="https://www.msaironline.com/images/prodImage/1816_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                    <p>Catalog Number: ZFC710G</p>
+                  </div>
+
+
+                  <div className="individual-product-details">
+                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1816">ZFC Compressed Air Filter</a></h2>
+                    <h4 className="product-brand-title">Zeks</h4>
+
+                  <div className="individual-product-description">
+                    <ul>
+                      <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                      <li><strong>Connection In/Out</strong>: 3"</li>
+                      <li><strong>Elements Required Per Filter</strong>: 1</li>
+                      <li><strong>Filter Length</strong>: 23.63"</li>
+                      <li><strong>Filter Width</strong>: 8.07"</li>
+                      <li><strong>Flow SCFM</strong>: 710</li>
+                      <li><strong>Side Drain Port</strong>: N/A</li>
+                      <br />
+                      <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+
+                      <a href="/subcat=233/prodID1816"><strong>More Info >></strong></a>
+                    </ul>
+                  </div>
+                  <h4 className="individual-product-suggested-retail-price">MSRP: $1,285.00</h4>
+                  <h4 className="individual-product-savings">Savings: <strong>$449.75</strong></h4>
+                  <h3 className="individual-product-actual-price"><strong>$835.25</strong></h3>
+                </div>
+              </div>
+
+              <div className="quantity-input-group">
+                <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox"/>
+                </form>
+              </div>
+            </div>
+
+            <div className="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
+          </div>
+        </div>
+
+        <div className="replacement_items_section">
+          <h4 className="replacement_items_header">Replacement Parts</h4>
+
+          <div className="replacement_item_listing">
+            <div className="replacement_item_entry">
+              <div className="replacement_item_image">
+                <img className="filter" src="http://www.msaironline.com/images/prodImage/1880_144x85.jpg" alt="ZFC Replacement Element"></img>
+                <p>Catalog Number: EC710G</p>
+              </div>
+            <div className="replacement_item_details">
+              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1880">ZFC Replacement Element</a></h6>
+              <h6 className="replacement_item_brand_name">Zeks</h6>
+              <div className="individual-product-description">
+                <ul>
+                  <li>ZFC Replacement Element for ZFC710</li>
+                </ul>
+              </div>
+              <h6 className="individual-product-suggested-retail-price">MSRP: $284.00</h6>
+              <h6 className="replacement_item_actual_price"><strong>$184.60</strong></h6>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <br />
+
+        {/* ++++++++++++++++++++++++++++ */}
+
+        <div className="content-area-container">
+          <div id="individual_product_page">
+            <div className="individual-product">
+              <div className="individual_product_listing">
+                <div className="individual_product_entry">
+
+
+                  <div className="product-image">
+                    <img src="https://www.msaironline.com/images/prodImage/1820_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                    <p>Catalog Number: ZFC920G</p>
+                  </div>
+
+
+                  <div className="individual-product-details">
+                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1820">ZFC Compressed Air Filter</a></h2>
+                    <h4 className="product-brand-title">Zeks</h4>
+
+                  <div className="individual-product-description">
+                    <ul>
+                      <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                      <li><strong>Connection In/Out</strong>: 3"</li>
+                      <li><strong>Elements Required Per Filter</strong>: 1</li>
+                      <li><strong>Filter Length</strong>: 27.56"</li>
+                      <li><strong>Filter Width</strong>: 8.07"</li>
+                      <li><strong>Flow SCFM</strong>: 920</li>
+                      <li><strong>Side Drain Port</strong>: N/A</li>
+                      <br />
+                      <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+
+                      <a href="/subcat=233/prodID1820"><strong>More Info >></strong></a>
+                    </ul>
+                  </div>
+                  <h4 className="individual-product-suggested-retail-price">MSRP: $1,653.00</h4>
+                  <h4 className="individual-product-savings">Savings: <strong>$578.55</strong></h4>
+                  <h3 className="individual-product-actual-price"><strong>$1,074.45</strong></h3>
+                </div>
+              </div>
+
+              <div className="quantity-input-group">
+                <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox"/>
+                </form>
+              </div>
+            </div>
+
+            <div className="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
+          </div>
+        </div>
+
+        <div className="replacement_items_section">
+          <h4 className="replacement_items_header">Replacement Parts</h4>
+
+          <div className="replacement_item_listing">
+            <div className="replacement_item_entry">
+              <div className="replacement_item_image">
+                <img className="filter" src="http://www.msaironline.com/images/prodImage/1884_144x85.jpg" alt="ZFC Replacement Element"></img>
+                <p>Catalog Number: EC920G</p>
+              </div>
+            <div className="replacement_item_details">
+              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1884">ZFC Replacement Element</a></h6>
+              <h6 className="replacement_item_brand_name">Zeks</h6>
+              <div className="individual-product-description">
+                <ul>
+                  <li>ZFC Replacement Element for ZFC920</li>
+                </ul>
+              </div>
+              <h6 className="individual-product-suggested-retail-price">MSRP: $341.00</h6>
+              <h6 className="replacement_item_actual_price"><strong>$221.65</strong></h6>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <br />
+
+        {/* ++++++++++++++++++++++++++++ */}
+
+            <div className="content-area-container">
+              <div id="individual_product_page">
+                <div className="individual-product">
+                  <div className="individual_product_listing">
+                    <div className="individual_product_entry">
+
+
+                      <div className="product-image">
+                        <img src="https://www.msaironline.com/images/prodImage/1824_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                        <p>Catalog Number: ZFC1080G</p>
+                      </div>
+
+
+                      <div className="individual-product-details">
+                        <h2 className="individual-product-title"><a href="/subcat=233/prodID1824">ZFC Compressed Air Filter</a></h2>
+                        <h4 className="product-brand-title">Zeks</h4>
+
+                      <div className="individual-product-description">
+                        <ul>
+                          <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                          <li><strong>Connection In/Out</strong>: 3"</li>
+                          <li><strong>Elements Required Per Filter</strong>: 1</li>
+                          <li><strong>Filter Length</strong>: 27.56"</li>
+                          <li><strong>Filter Width</strong>: 8.07"</li>
+                          <li><strong>Flow SCFM</strong>: 1080</li>
+                          <li><strong>Side Drain Port</strong>: N/A</li>
+                          <br />
+                          <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+
+                          <a href="/subcat=233/prodID1824"><strong>More Info >></strong></a>
+                        </ul>
+                      </div>
+                        <h4 className="individual-product-suggested-retail-price">MSRP: $1,717.00</h4>
+                        <h4 className="individual-product-savings">Savings: <strong>$600.95</strong></h4>
+                        <h3 className="individual-product-actual-price"><strong>$1,116.05</strong></h3>
+                    </div>
+                  </div>
+
+                    <div className="quantity-input-group">
+                      <form action="/action_page.php">
+                      Quantity:
+                      <input type="number" className="quantityBox"/>
+                    </form>
+                  </div>
+                </div>
+
+                  <div className="add-to-cart">
+                    <input type="submit" value="Add To Cart" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="replacement_items_section">
+                <h4 className="replacement_items_header">Replacement Parts</h4>
+
+                <div className="replacement_item_listing">
+                  <div className="replacement_item_entry">
+                    <div className="replacement_item_image">
+                      <img className="filter" src="http://www.msaironline.com/images/prodImage/1888_144x85.jpg" alt="ZFC Replacement Element"></img>
+                      <p>Catalog Number: EC1080G</p>
+                    </div>
+                    <div className="replacement_item_details">
+                      <h6 className="replacement_item_title"><a href="/subcat=233/prodID1888">ZFC Replacement Element</a></h6>
+                      <h6 className="replacement_item_brand_name">Zeks</h6>
+                      <div className="individual-product-description">
+                        <ul>
+                          <li>ZFC Replacement Element for ZFC1080</li>
+                        </ul>
+                      </div>
+                        <h6 className="individual-product-suggested-retail-price">MSRP: $379.00</h6>
+                        <h6 className="replacement_item_actual_price"><strong>$246.35</strong></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        <br />
+
+        {/* ++++++++++++++++++++++++++++ */}
+
+        <div className="content-area-container">
+          <div id="individual_product_page">
+            <div className="individual-product">
+              <div className="individual_product_listing">
+                <div className="individual_product_entry">
+
+
+                  <div className="product-image">
+                    <img src="https://www.msaironline.com/images/prodImage/1828_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                    <p>Catalog Number: ZFC1350G</p>
+                  </div>
+
+
+                  <div className="individual-product-details">
+                    <h2 className="individual-product-title"><a href="/subcat=233/prodID1828">ZFC Compressed Air Filter</a></h2>
+                    <h4 className="product-brand-title">Zeks</h4>
+
+                  <div className="individual-product-description">
+                    <ul>
+                      <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                      <li><strong>Connection In/Out</strong>: 3"</li>
+                      <li><strong>Elements Required Per Filter</strong>: 1</li>
+                      <li><strong>Filter Length</strong>: 36.62"</li>
+                      <li><strong>Filter Width</strong>: 8.07"</li>
+                      <li><strong>Flow SCFM</strong>: 1350</li>
+                      <li><strong>Side Drain Port</strong>: N/A</li>
+                      <br />
+                      <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+
+                      <a href="/subcat=233/prodID1828"><strong>More Info >></strong></a>
+                    </ul>
+                  </div>
+                  <h4 className="individual-product-suggested-retail-price">MSRP: $1,889.00</h4>
+                  <h4 className="individual-product-savings">Savings: <strong>$661.15</strong></h4>
+                  <h3 className="individual-product-actual-price"><strong>$1,227.85</strong></h3>
+                </div>
+              </div>
+            </div>
+
+              <div className="quantity-input-group">
+                <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox"/>
+                </form>
+              </div>
+            </div>
+
+            <div className="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
+
+        </div>
+
+        <div className="replacement_items_section">
+          <h4 className="replacement_items_header">Replacement Parts</h4>
+
+          <div className="replacement_item_listing">
+            <div className="replacement_item_entry">
+              <div className="replacement_item_image">
+                <img className="filter" src="http://www.msaironline.com/images/prodImage/1892_144x85.jpg" alt="ZFC Replacement Element"></img>
+                <p>Catalog Number: EC1350G</p>
+              </div>
+            <div className="replacement_item_details">
+              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1892">ZFC Replacement Element</a></h6>
+              <h6 className="replacement_item_brand_name">Zeks</h6>
+              <div className="individual-product-description">
+                <ul>
+                  <li>ZFC Replacement Element for ZFC1350</li>
+                </ul>
+              </div>
+              <h6 className="individual-product-suggested-retail-price">MSRP: $473.00</h6>
+              <h6 className="replacement_item_actual_price"><strong>$307.45</strong></h6>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <br />
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
-      <div id="individual_product_page">
-        <div className="individual-product">
-          <div className="individual_product_listing">
-            <div className="individual_product_entry">
+      <div className="content-area-container">
+        <div id="individual_product_page">
+          <div className="individual-product">
+            <div className="individual_product_listing">
+              <div className="individual_product_entry">
 
 
               <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1635_144x85.jpg" alt="25HP Air Compressor"></img>
-                <p>Catalog Number: 25VFD</p>
+                <img src="https://www.msaironline.com/images/prodImage/1832_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                <p>Catalog Number: ZFC1600G</p>
               </div>
 
-              <div className="individual-product-details">
-                <h2 className="individual-product-title"><a href="/subcat=244/prodID1635">25HP Air Compressor</a></h2>
-                <h4 className="product-brand-title">Sullivan-Palatek</h4>
 
+              <div className="individual-product-details">
+                <h2 className="individual-product-title"><a href="/subcat=233/prodID1832">ZFC Compressed Air Filter</a></h2>
+                <h4 className="product-brand-title">Zeks</h4>
 
               <div className="individual-product-description">
                 <ul>
-                  <li><strong>CFM</strong>: 115 CFM @ 125 psi</li>
-                  <li><strong>SCFM</strong>: 25</li>
-                  <li><strong>Voltage</strong>: 208/230/460V</li>
+                  <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                  <li><strong>Connection In/Out</strong>: 3"</li>
+                  <li><strong>Elements Required Per Filter</strong>: 1</li>
+                  <li><strong>Filter Length</strong>: 36.62"</li>
+                  <li><strong>Filter Width</strong>: 8.07"</li>
+                  <li><strong>Flow SCFM</strong>: 1600</li>
+                  <li><strong>Side Drain Port</strong>: N/A</li>
                   <br />
-                  <li>Floor mounted 25HP rotary screw air compressor, air cooled VSD</li>
-                  <br />
-                  <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                  <br />
-                  <a href="/subcat=244/prodID1635"><strong>More Info >></strong></a>
+                  <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+
+                  <a href="/subcat=233/prodID1832"><strong>More Info >></strong></a>
                 </ul>
               </div>
-                <h4 className="individual-product-suggested-retail-price">MSRP: $25,536.00</h4>
-                <h4 className="individual-product-savings">Savings: <strong>$10,602.67</strong></h4>
-                <h3 className="individual-product-actual-price"><strong>$14,933.33</strong></h3>
+                <h4 className="individual-product-suggested-retail-price">MSRP: $2,155.00</h4>
+                <h4 className="individual-product-savings">Savings: <strong>$754.25</strong></h4>
+                <h3 className="individual-product-actual-price"><strong>$1,400.75</strong></h3>
             </div>
           </div>
 
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-          </div>
-        </div>
-
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </div>
-    </div>
-
-    <div className="replacement_items_section">
-      <h4 className="replacement_items_header">Accessories</h4>
-
-    <div className="replacement_item_listing">
-      <div className="replacement_item_entry">
-        <div className="replacement_item_image">
-          <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
-        </div>
-        <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
-          <h6 className="replacement_item_brand_name">Trident</h6>
-          <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-        </div>
-      </div>
-    </div>
-
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-          </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
+            <div className="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
             </div>
           </div>
+
+          <div className="add-to-cart">
+            <input type="submit" value="Add To Cart" />
+          </div>
         </div>
       </div>
-    </div>
-    <br />
 
-    {/* ++++++++++++++++++++++++++++ */}
+        <div className="replacement_items_section">
+          <h4 className="replacement_items_header">Replacement Parts</h4>
 
-    <div className="content-area-container">
-      <div id="individual_product_page">
-        <div className="individual-product">
-          <div className="individual_product_listing">
-            <div className="individual_product_entry">
-
-
-              <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1636_144x85.jpg" alt="30HP Air Compressor"></img>
-                <p>Catalog Number: 30VFD</p>
+          <div className="replacement_item_listing">
+            <div className="replacement_item_entry">
+              <div className="replacement_item_image">
+                <img className="filter" src="http://www.msaironline.com/images/prodImage/1892_144x85.jpg" alt="ZFC Replacement Element"></img>
+                <p>Catalog Number: EC1600G</p>
               </div>
-
-              <div className="individual-product-details">
-                <h2 className="individual-product-title"><a href="/subcat=244/prodID1636">30HP Air Compressor</a></h2>
-                <h4 className="product-brand-title">Sullivan-Palatek</h4>
-
-
-              <div className="individual-product-description">
-                <ul>
-                  <li><strong>CFM</strong>: 125 CFM @ 125 psi</li>
-                  <li><strong>SCFM</strong>: 30</li>
-                  <li><strong>Voltage</strong>: 208/230/460V</li>
-                  <br />
-                  <li>Floor mounted 30HP rotary screw air compressor, air cooled VSD</li>
-                  <br />
-                  <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                  <br />
-                  <a href="/subcat=244/prodID1636"><strong>More Info >></strong></a>
-                </ul>
+              <div className="replacement_item_details">
+                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1892">ZFC Replacement Element</a></h6>
+                <h6 className="replacement_item_brand_name">Zeks</h6>
+                <div className="individual-product-description">
+                  <ul>
+                    <li>ZFC Replacement Element for ZFC1600</li>
+                  </ul>
+                </div>
+                <h6 className="individual-product-suggested-retail-price">MSRP: $519.00</h6>
+                <h6 className="replacement_item_actual_price"><strong>$337.35</strong></h6>
               </div>
-                <h4 className="individual-product-suggested-retail-price">MSRP: $25,921.70</h4>
-                <h4 className="individual-product-savings">Savings: <strong>$10,762.81</strong></h4>
-                <h3 className="individual-product-actual-price"><strong>$15,158.89</strong></h3>
-            </div>
-          </div>
-
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-          </div>
-        </div>
-
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </div>
-    </div>
-
-    <div className="replacement_items_section">
-      <h4 className="replacement_items_header">Accessories</h4>
-
-    <div className="replacement_item_listing">
-      <div className="replacement_item_entry">
-        <div className="replacement_item_image">
-          <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
-        </div>
-        <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
-          <h6 className="replacement_item_brand_name">Trident</h6>
-          <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-        </div>
-      </div>
-    </div>
-
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-          </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <br />
-
-    {/* ++++++++++++++++++++++++++++ */}
-
-    <div className="content-area-container">
-      <div id="individual_product_page">
-        <div className="individual-product">
-          <div className="individual_product_listing">
-            <div className="individual_product_entry">
+      <br />
 
 
-              <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1637_144x85.jpg" alt="40HP Air Compressor"></img>
-                <p>Catalog Number: 40VFD</p>
-              </div>
-
-              <div className="individual-product-details">
-                <h2 className="individual-product-title"><a href="/subcat=244/prodID1637">40HP Air Compressor</a></h2>
-                <h4 className="product-brand-title">Sullivan-Palatek</h4>
 
 
-              <div className="individual-product-description">
-                <ul>
-                  <li><strong>CFM</strong>: 166 CFM @ 125 psi</li>
-                  <li><strong>SCFM</strong>: 40</li>
-                  <li><strong>Voltage</strong>: 208/230/460V</li>
-                  <br />
-                  <li>Floor mounted 40HP rotary screw air compressor, air cooled VSD</li>
-                  <br />
-                  <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                  <br />
-                  <a href="/subcat=244/prodID1637"><strong>More Info >></strong></a>
-                </ul>
-              </div>
-                <h4 className="individual-product-suggested-retail-price">MSRP: $29,497.50</h4>
-                <h4 className="individual-product-savings">Savings: <strong>$12,247.50</strong></h4>
-                <h3 className="individual-product-actual-price"><strong>$17,250.00</strong></h3>
-            </div>
-          </div>
-
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-          </div>
-        </div>
-
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </div>
-    </div>
-
-    <div className="replacement_items_section">
-      <h4 className="replacement_items_header">Accessories</h4>
-
-    <div className="replacement_item_listing">
-      <div className="replacement_item_entry">
-        <div className="replacement_item_image">
-          <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
-        </div>
-        <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
-          <h6 className="replacement_item_brand_name">Trident</h6>
-          <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-        </div>
-      </div>
-    </div>
-
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-          </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <br />
-
-    {/* ++++++++++++++++++++++++++++ */}
-
-    <div className="content-area-container">
-      <div id="individual_product_page">
-        <div className="individual-product">
-          <div className="individual_product_listing">
-            <div className="individual_product_entry">
 
 
-              <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1638_144x85.jpg" alt="50HP Air Compressor"></img>
-                <p>Catalog Number: 50VFD</p>
-              </div>
-
-              <div className="individual-product-details">
-                <h2 className="individual-product-title"><a href="/subcat=244/prodID1638">50HP Air Compressor</a></h2>
-                <h4 className="product-brand-title">Sullivan-Palatek</h4>
 
 
-              <div className="individual-product-description">
-                <ul>
-                  <li><strong>CFM</strong>: 225 CFM @ 125 psi</li>
-                  <li><strong>SCFM</strong>: 50</li>
-                  <li><strong>Voltage</strong>: 208/230/460V</li>
-                  <br />
-                  <li>Floor mounted 50HP rotary screw air compressor, air cooled VSD</li>
-                  <br />
-                  <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                  <br />
-                  <a href="/subcat=244/prodID1638"><strong>More Info >></strong></a>
-                </ul>
-              </div>
-                <h4 className="individual-product-suggested-retail-price">MSRP: $35,165.20</h4>
-                <h4 className="individual-product-savings">Savings: <strong>$14,600.76</strong></h4>
-                <h3 className="individual-product-actual-price"><strong>$20,564.44</strong></h3>
-            </div>
-          </div>
-
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-          </div>
-        </div>
-
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </div>
-    </div>
-
-    <div className="replacement_items_section">
-      <h4 className="replacement_items_header">Accessories</h4>
-
-    <div className="replacement_item_listing">
-      <div className="replacement_item_entry">
-        <div className="replacement_item_image">
-          <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
-        </div>
-        <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
-          <h6 className="replacement_item_brand_name">Trident</h6>
-          <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-        </div>
-      </div>
-    </div>
-
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-          </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <br />
-
-    {/* ++++++++++++++++++++++++++++ */}
-
-    <div className="content-area-container">
-      <div id="individual_product_page">
-        <div className="individual-product">
-          <div className="individual_product_listing">
-            <div className="individual_product_entry">
 
 
-              <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1639_144x85.jpg" alt="60HP Air Compressor"></img>
-                <p>Catalog Number: 100VFD</p>
-              </div>
-
-              <div className="individual-product-details">
-                <h2 className="individual-product-title"><a href="/subcat=244/prodID1639">60HP Air Compressor</a></h2>
-                <h4 className="product-brand-title">Sullivan-Palatek</h4>
 
 
-              <div className="individual-product-description">
-                <ul>
-                  <li><strong>CFM</strong>: 280 CFM @ 125 psi</li>
-                  <li><strong>SCFM</strong>: 60</li>
-                  <li><strong>Voltage</strong>: 208/230/460V</li>
-                  <br />
-                  <li>Floor mounted 60HP rotary screw air compressor, air cooled VSD</li>
-                  <br />
-                  <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                  <br />
-                  <a href="/subcat=244/prodID1639"><strong>More Info >></strong></a>
-                </ul>
-              </div>
-                <h4 className="individual-product-suggested-retail-price">MSRP: $45,638.00</h4>
-                <h4 className="individual-product-savings">Savings: <strong>$18,949.11</strong></h4>
-                <h3 className="individual-product-actual-price"><strong>$26,688.89</strong></h3>
-            </div>
-          </div>
-
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-          </div>
-        </div>
-
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </div>
-    </div>
-
-    <div className="replacement_items_section">
-      <h4 className="replacement_items_header">Accessories</h4>
-
-    <div className="replacement_item_listing">
-      <div className="replacement_item_entry">
-        <div className="replacement_item_image">
-          <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
-        </div>
-        <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
-          <h6 className="replacement_item_brand_name">Trident</h6>
-          <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-        </div>
-      </div>
-    </div>
-
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-          </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <br />
-
-    {/* ++++++++++++++++++++++++++++ */}
-
-    <div className="content-area-container">
-      <div id="individual_product_page">
-        <div className="individual-product">
-          <div className="individual_product_listing">
-            <div className="individual_product_entry">
 
 
-              <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1640_144x85.jpg" alt="75HP Air Compressor"></img>
-                <p>Catalog Number: 100VFD</p>
-              </div>
-
-              <div className="individual-product-details">
-                <h2 className="individual-product-title"><a href="/subcat=244/prodID1640">75HP Air Compressor</a></h2>
-                <h4 className="product-brand-title">Trident</h4>
 
 
-              <div className="individual-product-description">
-                <ul>
-                  <li><strong>CFM</strong>: 440 CFM @ 125 psi</li>
-                  <li><strong>SCFM</strong>: 100</li>
-                  <li><strong>Voltage</strong>: 208/230/460V</li>
-                  <br />
-                  <li>Floor mounted 75HP rotary screw air compressor, air cooled VSD</li>
-                  <br />
-                  <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                  <br />
-                  <a href="/subcat=244/prodID1640"><strong>More Info >></strong></a>
-                </ul>
-              </div>
-                <h4 className="individual-product-suggested-retail-price">MSRP: $49,489.30</h4>
-                <h4 className="individual-product-savings">Savings: <strong>$20,548.19</strong></h4>
-                <h3 className="individual-product-actual-price"><strong>$28,941.11</strong></h3>
-            </div>
-          </div>
-
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-          </div>
-        </div>
-
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </div>
-    </div>
-
-    <div className="replacement_items_section">
-      <h4 className="replacement_items_header">Accessories</h4>
-
-    <div className="replacement_item_listing">
-      <div className="replacement_item_entry">
-        <div className="replacement_item_image">
-          <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
-        </div>
-        <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
-          <h6 className="replacement_item_brand_name">Trident</h6>
-          <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-        </div>
-      </div>
-    </div>
-
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-          </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <br />
-
-{/* +++++++++++++++++++++++++++ */}
-
-    <div className="content-area-container">
-      <div id="individual_product_page">
-        <div className="individual-product">
-          <div className="individual_product_listing">
-            <div className="individual_product_entry">
 
 
-              <div className="product-image">
-                <img src="https://www.msaironline.com/images/prodImage/1641_144x85.jpg" alt="100HP Air Compressor"></img>
-                <p>Catalog Number: 100VFD</p>
-              </div>
-
-              <div className="individual-product-details">
-                <h2 className="individual-product-title"><a href="/subcat=244/prodID1641">100HP Air Compressor</a></h2>
-                <h4 className="product-brand-title">Trident</h4>
-
-
-              <div className="individual-product-description">
-                <ul>
-                  <li><strong>CFM</strong>: 440 CFM @ 125 psi</li>
-                  <li><strong>SCFM</strong>: 100</li>
-                  <li><strong>Voltage</strong>: 208/230/460V</li>
-                  <br />
-                  <li>Floor mounted 100HP rotary screw air compressor, air cooled VSD</li>
-                  <br />
-                  <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                  <br />
-                  <a href="/subcat=244/prodID1641"><strong>More Info >></strong></a>
-                </ul>
-              </div>
-              <h4 className="individual-product-suggested-retail-price">MSRP: $59128.00</h4>
-              <h4 className="individual-product-savings">Savings: <strong>$24,550.22</strong></h4>
-              <h3 className="individual-product-actual-price"><strong>$34,577.78</strong></h3>
-            </div>
-          </div>
-
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-          </div>
-        </div>
-
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </div>
-    </div>
-
-    <div className="replacement_items_section">
-      <h4 className="replacement_items_header">Accessories</h4>
-
-    <div className="replacement_item_listing">
-      <div className="replacement_item_entry">
-        <div className="replacement_item_image">
-          <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
-        </div>
-        <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
-          <h6 className="replacement_item_brand_name">Trident</h6>
-          <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-        </div>
-      </div>
-    </div>
-
-    <div className="replacement_item_listing">
-      <div className="replacement_item_entry">
-        <div className="replacement_item_image">
-          <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-        </div>
-        <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-          <h6 className="replacement_item_brand_name">Trident</h6>
-          <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<br />
 
 {/* ++++++++++++++++++++++++++++ */}
 
-<div className="content-area-container">
+{/* <div className="content-area-container">
   <div id="individual_product_page">
     <div className="individual-product">
       <div className="individual_product_listing">
@@ -786,38 +1330,42 @@ export default class Compressed_Air_Filters extends React.Component {
 
 
           <div className="product-image">
-            <img src="https://www.msaironline.com/images/prodImage/1642_144x85.jpg" alt="125HP Air Compressor"></img>
-            <p>Catalog Number: 20VFD</p>
+            <img src="https://www.msaironline.com/images/prodImage/1811_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+            <p>Catalog Number: ZFC600P</p>
           </div>
 
-          <div className="individual-product-details">
-            <h2 className="individual-product-title"><a href="/subcat=244/prodID1642">125HP Air Compressor</a></h2>
-            <h4 className="product-brand-title">Sullivan-Palatek</h4>
 
+          <div className="individual-product-details">
+            <h2 className="individual-product-title"><a href="/subcat=233/prodID1811">ZFC Compressed Air Filter</a></h2>
+            <h4 className="product-brand-title">Zeks</h4>
 
           <div className="individual-product-description">
             <ul>
-              <li><strong>CFM</strong>: 625 CFM @ 125 psi</li>
-              <li><strong>SCFM</strong>: 125</li>
-              <li><strong>Voltage</strong>: 208/230/460V</li>
+              <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+              <li><strong>Connection In/Out</strong>: 2"</li>
+              <li><strong>Elements Required Per Filter</strong>: 1</li>
+              <li><strong>Filter Length</strong>: 20.40"</li>
+              <li><strong>Filter Width</strong>: 6.69"</li>
+              <li><strong>Flow SCFM</strong>: 600</li>
+              <li><strong>Side Drain Port</strong>: N/A</li>
               <br />
-              <li>Floor mounted 125HP rotary screw air compressor, air cooled VSD</li>
+              <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />
-              <a href="/subcat=244/prodID1642"><strong>More Info >></strong></a>
+              <a href="/subcat=244/prodID1811"><strong>More Info >></strong></a>
             </ul>
           </div>
-            <h4 className="individual-product-suggested-retail-price">MSRP: $80,465.00</h4>
-            <h4 className="individual-product-savings">Savings: <strong>$33,409.44</strong></h4>
-            <h3 className="individual-product-actual-price"><strong>$47,055.56</strong></h3>
+          <h4 className="individual-product-suggested-retail-price">MSRP: $1204.00</h4>
+          <h4 className="individual-product-savings">Savings: <strong>$</strong></h4>
+          <h3 className="individual-product-actual-price"><strong>$782.60</strong></h3>
         </div>
       </div>
 
       <div className="quantity-input-group">
         <form action="/action_page.php">
-          Qty:
-          <input type="number" className="quantityBox" value="0" />
+          Quantity:
+          <input type="number" className="quantityBox"/>
         </form>
       </div>
     </div>
@@ -829,36 +1377,122 @@ export default class Compressed_Air_Filters extends React.Component {
 </div>
 
 <div className="replacement_items_section">
-  <h4 className="replacement_items_header">Accessories</h4>
-
-<div className="replacement_item_listing">
-  <div className="replacement_item_entry">
-    <div className="replacement_item_image">
-      <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
-    </div>
-    <div className="replacement_item_details">
-      <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
-      <h6 className="replacement_item_brand_name">Trident</h6>
-      <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-    </div>
-  </div>
-</div>
+  <h4 className="replacement_items_header">Replacement Parts</h4>
 
   <div className="replacement_item_listing">
     <div className="replacement_item_entry">
       <div className="replacement_item_image">
-        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
+        <img className="filter" src="http://www.msaironline.com/images/prodImage/1875_144x85.jpg" alt="ZFC Replacement Element"></img>
+        <p>Catalog Number: EC350P</p>
       </div>
-        <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-          <h6 className="replacement_item_brand_name">Trident</h6>
-          <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-        </div>
+    <div className="replacement_item_details">
+      <h6 className="replacement_item_title"><a href="/prodID1875">ZFC Replacement Element</a></h6>
+      <h6 className="replacement_item_brand_name">Zeks</h6>
+      <div className="individual-product-description">
+        <ul>
+          <li>ZFC Replacement Element for ZFC600</li>
+        </ul>
       </div>
+      <h6 className="individual-product-suggested-retail-price">MSRP: $273.00</h6>
+      <h6 className="replacement_item_actual_price"><strong>$177.45</strong></h6>
     </div>
   </div>
 </div>
+</div>
+</div>
+<br /> */}
+
+
+
+
+
+
+
+
+
+{/* ++++++++++++++++++++++++++++ */}
+
+{/* <div className="content-area-container">
+  <div id="individual_product_page">
+    <div className="individual-product">
+      <div className="individual_product_listing">
+        <div className="individual_product_entry">
+
+
+          <div className="product-image">
+            <img src="https://www.msaironline.com/images/prodImage/1803_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+            <p>Catalog Number: ZFC350P</p>
+          </div>
+
+
+          <div className="individual-product-details">
+            <h2 className="individual-product-title"><a href="/subcat=233/prodID1803">ZFC Compressed Air Filter</a></h2>
+            <h4 className="product-brand-title">Zeks</h4>
+
+          <div className="individual-product-description">
+            <ul>
+              <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+              <li><strong>Connection In/Out</strong>: 2"</li>
+              <li><strong>Elements Required Per Filter</strong>: 1</li>
+              <li><strong>Filter Length</strong>: 20.40"</li>
+              <li><strong>Filter Width</strong>: 6.69"</li>
+              <li><strong>Flow SCFM</strong>: 350</li>
+              <li><strong>Side Drain Port</strong>: N/A</li>
+              <br />
+              <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+              <br />
+              <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+              <br />
+              <a href="/subcat=244/prodID1803"><strong>More Info >></strong></a>
+            </ul>
+          </div>
+          <h4 className="individual-product-suggested-retail-price">MSRP: $777.00</h4>
+          <h4 className="individual-product-savings">Savings: <strong>$</strong></h4>
+          <h3 className="individual-product-actual-price"><strong>$505.05</strong></h3>
+        </div>
+      </div>
+
+      <div className="quantity-input-group">
+        <form action="/action_page.php">
+          Quantity:
+          <input type="number" className="quantityBox"/>
+        </form>
+      </div>
+    </div>
+
+    <div className="add-to-cart">
+      <input type="submit" value="Add To Cart" />
+    </div>
+  </div>
+</div>
+
+<div className="replacement_items_section">
+  <h4 className="replacement_items_header">Replacement Parts</h4>
+
+  <div className="replacement_item_listing">
+    <div className="replacement_item_entry">
+      <div className="replacement_item_image">
+        <img className="filter" src="http://www.msaironline.com/images/prodImage/1835_144x85.jpg" alt="ZFC Replacement Element"></img>
+        <p>Catalog Number: EC350P</p>
+      </div>
+    <div className="replacement_item_details">
+      <h6 className="replacement_item_title"><a href="/prodID8">ZFC Replacement Element</a></h6>
+      <h6 className="replacement_item_brand_name">Zeks</h6>
+      <div className="individual-product-description">
+        <ul>
+          <li>ZFC Replacement Element for ZFC350</li>
+        </ul>
+      </div>
+      <h6 className="individual-product-suggested-retail-price">MSRP: $228.00</h6>
+      <h6 className="replacement_item_actual_price"><strong>$148.20</strong></h6>
+    </div>
+  </div>
+</div>
+</div>
+</div> */}
 <br />
+
+
 
 
 
@@ -885,8 +1519,7 @@ export default class Compressed_Air_Filters extends React.Component {
               </div>
               </div>
 
-      </div>
-
+    </div>
 
     )
   }
