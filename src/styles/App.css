@@ -202,6 +202,7 @@ h1 {
 
 .content-area-container p {
   text-align: center;
+  font-size: 14px;
 }
 
 
@@ -216,7 +217,7 @@ h1 {
 
 
 
-.left-half {
+/* .left-half {
   flex: 1;
   padding: 1rem;
 }
@@ -225,7 +226,7 @@ h1 {
 .right-half {
   flex: 1;
   padding: 1rem;
-}
+} */
 
 
 .row:after {
@@ -269,6 +270,8 @@ h1 {
   color: yellow;
   border-top-left-radius: 2px;
 }
+
+
 
 
 #welcome-msg:hover {
@@ -342,6 +345,12 @@ h1 {
 }
 
 
+.text-center-center-block {
+  margin-bottom: 40px;
+  vertical-align: top;
+}
+
+
 .title-header-left-div {
   font-family: 'quantumregular';
   font-weight: bold;
@@ -396,7 +405,7 @@ h1 {
 
 
 .social-header {
-  color: white;
+  color: #2C3E50;
 }
 
 
@@ -408,8 +417,8 @@ h1 {
 
 
 .social-header h6 {
-  font-family: 'borgregular';
-  font-size: 30px;
+  /* font-family: 'borgregular'; */
+  font-size: 18px;
 }
 
 
@@ -424,6 +433,55 @@ h1 {
 .social-icons a:hover {
   color: yellow;
 }
+
+
+
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+ #social-li:hover {
+     color: #007bb5;
+ }
+
+
+
+
+
+
+
+
+
+
 
 
 .checkout-wrapper {
@@ -790,9 +848,15 @@ h1 {
   display: flex;
   flex-direction: row;
   /* justify-content: space-between; */
-  margin: 80px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  /* margin: 10px; */
+  /* margin-top: 40px; */
+  margin: 10px;
+  /* background-color: pink; */
+  height: 200px;
+  padding: 10px;
+  font-size: 14px;
+  padding-left: 60px;
+  /* justify-content: center; */
   /* column-count: 2; */
 }
 
@@ -819,7 +883,7 @@ h1 {
 
 
 .brand-text {
-
+  font-size: 14px;
   float: right;
 }
 
@@ -1103,27 +1167,45 @@ h1 {
   display: flex;
   flex-direction: row;
   /* border-right: 1px solid #2C3E50; */
-  margin: 20px;
+  /* margin: 0 auto; */
+  /* margin-left: 100px; */
   padding: 10px;
+  padding-left: 60px;
+  /* width: 50%; */
+  height: 400px;
+  margin: 10px;
+  /* background-color: pink; */
+
   /* justify-content: center; */
 
 }
 
 
 .product_entry {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   justify-content: center;
 }
 .product-image {
-  float: left;
+  /* float: left; */
   padding-right: 10px;
   padding-top: 10px;
-  width: 50%;
+  width: 144px;
+  height: 144px;
+
 }
+
 
 .product-details {
   float: none;
+}
+
+.product-details h4 {
+  font-size: 16px;
+}
+
+.product-details h6 {
+  font-size: 14px;
 }
 
 
@@ -1621,4 +1703,50 @@ img.thumbnail {
   width: 30%;
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-half {
+    float: left;
+    width: 50%;
+    padding: 10px;
+
+}
+.right-half {
+  width: 50%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }

@@ -213,6 +213,9 @@ class App extends Component {
                 <div className="header-wrap">
                   <div id="welcome-msg">
                     <strong>CALL NOW: 1-877-MSAIR99</strong>
+                      {/* <i className="fas fa-phone-square fa-1x"></i> */}
+
+
                   </div>
                 </div>
               </div>
@@ -245,7 +248,7 @@ class App extends Component {
 
                   <div className="title-header-right-div">
                     <div className="social-wrapper right-div">
-                      <nav id="social-nav">
+                      {/* <nav id="social-nav">
                         <div className="social-header">
                           <h6>Connect With Us:</h6>
                         </div>
@@ -263,7 +266,7 @@ class App extends Component {
                           <a href="mailto:msaironline@msaironline.com" rel="noopener noreferrer" target="_blank">
                           <i className="fas fa-envelope fa-2x"></i></a>
                         </div>
-                      </nav>
+                      </nav> */}
 
 
                     <div className="checkout-wrapper">
