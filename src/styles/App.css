@@ -200,6 +200,19 @@ h1 {
 }
 
 
+.content-area-container2 {
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+  padding: 20px;
+  padding-bottom: 40px;
+  font-weight: 300;
+  line-height: 1.4;
+  background-color: white;
+  align-content: center;
+
+}
+
+
 .content-area-container p {
   text-align: center;
   font-size: 14px;
@@ -209,6 +222,11 @@ h1 {
 .content-area-container h5 {
   text-align: center;
 }
+
+.content-area-container2:hover {
+  background-color: lightgray;
+}
+
 
 
 .row {
@@ -1209,7 +1227,7 @@ h1 {
   height: 400px;
   margin: 10px;
   /* background-color: pink; */
-
+  flex-wrap: wrap;
   /* justify-content: center; */
 
 }
@@ -1230,12 +1248,24 @@ h1 {
   padding-top: 10px;
   width: 144px;
   height: 144px;
+  display: flex;
 
 }
 
 
-.product-details {
+#product-image {
+  float: left;
+}
+
+#product-details {
   float: none;
+  margin-left: 80px;
+}
+
+
+.product-details {
+  flex-direction: row;
+
 }
 
 .product-details h4 {
@@ -1258,8 +1288,8 @@ h1 {
 /* --- Individual Product Page --- */
 
 .individual-product {
-  width: 50%;
-  /* display: inline-block; */
+  width: 60%;
+  display: inline-block;
   float: left;
 }
 
@@ -1277,17 +1307,25 @@ h1 {
   padding: 10px;
   /* justify-content: center; */
   /* margin-top: 0; */
-  background-color: pink;
-  width: 800px;
-  display: flex;
+  /* background-color: pink; */
+  width: 100%;
+  /* display: flex; */
   /* margin-bottom: 50px; */
+  float: left;
+  margin-bottom: 40px;
+
 }
 
 
 .quantityBox {
   width: 40px;
+
   /* margin: 40px auto; */
 
+}
+
+.quatityBox input {
+  border: 1px lightgray;
 }
 
 
@@ -1301,8 +1339,24 @@ h1 {
   display: flex;
   flex-direction: column;
   /* margin-right: 60px; */
-  margin-top: 20px;
+  margin-top: 60px;
+  padding-top: 60px;
   /* background-color: pink; */
+  margin: 20px;
+  float: left;
+}
+
+
+#individual-product-details {
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 60px; */
+  margin: 60px;
+  /* padding-top: 60px; */
+  /* background-color: pink; */
+  margin: 20px;
+  width: 40%;
+  float: left;
 }
 
 
@@ -1323,10 +1377,28 @@ h1 {
 
 .quantity-input-group {
   /* display: flex; */
-  /* flex-direction: row; */
-  padding-left: 300px;
+  /* flex-direction: column; */
+  /* padding-left: 100px; */
+  /* background-color: purple; */
+  width: 18%;
+  float: none;
+  display: inline-block;
+
 
 }
+
+#quantity-input-group {
+  display: flex;
+  /* flex-direction: column; */
+  margin-left: 10px;
+  /* background-color: purple; */
+  width: 18%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+
 
 
 .add-to-cart {
@@ -1334,11 +1406,19 @@ h1 {
   width: 900px;
   padding-left: 108px;
   margin-top: 20px;
+  padding-top: 20px;
   /* display: inline-block; */
   /* flex: 1;
   padding: 1em; */
 }
 
+#add-to-cart {
+  /* width: 900px; */
+  /* padding-left: 108px; */
+  /* margin-top: 20px; */
+  padding-top: 20px;
+
+}
 
 
 .add-to-cart input {
@@ -1346,7 +1426,19 @@ h1 {
   margin-left: 190px;
   padding: 10px;
   border: 1px solid black;
-  background-color: blue;
+  background-color: #2C3E50;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+
+}
+
+#add-to-cart input {
+  /* margin: 40px; */
+  /* margin-left: 190px; */
+  padding: 10px;
+  border: 1px solid black;
+  background-color: #2C3E50;
   color: white;
   font-weight: bold;
   border-radius: 2px;
@@ -1355,11 +1447,10 @@ h1 {
 
 
 
-
 .replacement_items_section {
   /* margin-left: 300px; */
   padding: 10px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   background-color: lightgray;
   width: 20%;
   /* flex: 1; */
@@ -1367,7 +1458,30 @@ h1 {
   display: inline-block;
   border-radius: 2px;
   /* box-shadow: 0px 0px 0px 4px; */
-  padding-bottom: 300px;
+  padding-bottom: 82px;
+  float: none;
+
+}
+
+#replacement_items_section {
+  /* margin-left: 300px; */
+  padding: 10px;
+  justify-content: space-between;
+  background-color: #2C3E50;
+  color: white;
+  width: 20%;
+  margin-right: -200px;
+  /* flex: 1; */
+  /* padding: 1em; */
+  display: inline-block;
+  border-radius: 2px;
+  /* box-shadow: 0px 0px 0px 4px; */
+  padding-bottom: 100px;
+  float: none;
+}
+
+.replacement_parts_section {
+  margin-top: 200px;
 }
 
 

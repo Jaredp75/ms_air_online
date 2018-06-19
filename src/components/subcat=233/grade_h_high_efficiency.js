@@ -23,14 +23,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
           </div>
 
-          <div className="content-area-container">
+          <div className="content-area-container2">
             <div id="individual_product_page">
               <div className="individual-product">
                 <div className="individual_product_listing">
                   <div className="individual_product_entry">
 
 
-                    <div className="product-image">
+                    <div id="product-image">
                       <img src="https://www.msaironline.com/images/prodImage/1772_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                       <p>Catalog Number: ZFC22G</p>
                     </div>
@@ -59,23 +59,24 @@ export default class Grade_H_High_Efficiency extends React.Component {
                       <h3 className="individual-product-actual-price"><strong>$139.75</strong></h3>
                   </div>
                 </div>
-
-                <div className="quantity-input-group">
+                <div id="quantity-input-group">
                   <form action="/action_page.php">
                     Quantity:
                     <input type="number" className="quantityBox"/>
                   </form>
+                  <div id="add-to-cart">
+                    <input type="submit" value="Add To Cart" />
+                  </div>
                 </div>
+
               </div>
 
-              <div className="add-to-cart">
-                <input type="submit" value="Add To Cart" />
-              </div>
+
             </div>
           </div>
 
 
-          <div className="replacement_items_section">
+          <div id="replacement_items_section">
             <h4 className="replacement_items_header">Replacement Parts</h4>
 
             <div className="replacement_item_listing">
@@ -103,14 +104,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1776_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC45G</p>
               </div>
@@ -139,23 +140,25 @@ export default class Grade_H_High_Efficiency extends React.Component {
               <h4 className="individual-product-savings">Savings: <strong>$91.35</strong></h4>
               <h3 className="individual-product-actual-price"><strong>$169.65</strong></h3>
             </div>
-          </div>
 
-          <div className="quantity-input-group">
+          </div>
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Quantity:
               <input type="number" className="quantityBox"/>
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
+
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Replacement Parts</h4>
 
       <div className="replacement_item_listing">
@@ -183,14 +186,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1780_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC65G</p>
               </div>
@@ -221,21 +224,22 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Quantity:
               <input type="number" className="quantityBox"/>
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Replacement Parts</h4>
 
       <div className="replacement_item_listing">
@@ -263,14 +267,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1784_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC88G</p>
               </div>
@@ -301,21 +305,22 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Quantity:
               <input type="number" className="quantityBox"/>
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Replacement Parts</h4>
 
       <div className="replacement_item_listing">
@@ -343,14 +348,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1788_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC110G</p>
               </div>
@@ -381,21 +386,22 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Quantity:
               <input type="number" className="quantityBox"/>
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Replacement Parts</h4>
 
       <div className="replacement_item_listing">
@@ -423,14 +429,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1792_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC135G</p>
               </div>
@@ -461,21 +467,22 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Quantity:
               <input type="number" className="quantityBox"/>
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Replacement Parts</h4>
 
       <div className="replacement_item_listing">
@@ -503,14 +510,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1796_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC235G</p>
               </div>
@@ -541,21 +548,22 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Quantity:
               <input type="number" className="quantityBox"/>
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Replacement Parts</h4>
 
       <div className="replacement_item_listing">
@@ -583,14 +591,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
 
     {/* +++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1800_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC290G</p>
               </div>
@@ -621,21 +629,22 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Quantity:
               <input type="number" className="quantityBox"/>
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Replacement Parts</h4>
 
       <div className="replacement_item_listing">
@@ -663,14 +672,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-        <div className="content-area-container">
+        <div className="content-area-container2">
           <div id="individual_product_page">
             <div className="individual-product">
               <div className="individual_product_listing">
                 <div className="individual_product_entry">
 
 
-                  <div className="product-image">
+                  <div id="product-image">
                     <img src="https://www.msaironline.com/images/prodImage/1804_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                     <p>Catalog Number: ZFC350G</p>
                   </div>
@@ -701,21 +710,22 @@ export default class Grade_H_High_Efficiency extends React.Component {
                 </div>
               </div>
 
-              <div className="quantity-input-group">
+              <div id="quantity-input-group">
                 <form action="/action_page.php">
                   Quantity:
                   <input type="number" className="quantityBox"/>
                 </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
+                </div>
               </div>
             </div>
 
-            <div className="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
           </div>
         </div>
 
-          <div className="replacement_items_section">
+          <div id="replacement_items_section">
             <h4 className="replacement_items_header">Replacement Parts</h4>
 
             <div className="replacement_item_listing">
@@ -743,14 +753,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
 
         {/* ++++++++++++++++++++++++++++ */}
 
-        <div className="content-area-container">
+        <div className="content-area-container2">
           <div id="individual_product_page">
             <div className="individual-product">
               <div className="individual_product_listing">
                 <div className="individual_product_entry">
 
 
-                  <div className="product-image">
+                  <div id="product-image">
                     <img src="https://www.msaironline.com/images/prodImage/1808_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                     <p>Catalog Number: ZFC470G</p>
                   </div>
@@ -781,21 +791,22 @@ export default class Grade_H_High_Efficiency extends React.Component {
                 </div>
               </div>
 
-              <div className="quantity-input-group">
+              <div id="quantity-input-group">
                 <form action="/action_page.php">
                   Quantity:
                   <input type="number" className="quantityBox"/>
                 </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
+                </div>
               </div>
             </div>
 
-            <div className="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
           </div>
         </div>
 
-        <div className="replacement_items_section">
+        <div id="replacement_items_section">
           <h4 className="replacement_items_header">Replacement Parts</h4>
 
           <div className="replacement_item_listing">
@@ -823,14 +834,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
 
         {/* ++++++++++++++++++++++++++++ */}
 
-        <div className="content-area-container">
+        <div className="content-area-container2">
           <div id="individual_product_page">
             <div className="individual-product">
               <div className="individual_product_listing">
                 <div className="individual_product_entry">
 
 
-                  <div className="product-image">
+                  <div id="product-image">
                     <img src="https://www.msaironline.com/images/prodImage/1812_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                     <p>Catalog Number: ZFC600G</p>
                   </div>
@@ -861,21 +872,22 @@ export default class Grade_H_High_Efficiency extends React.Component {
                 </div>
               </div>
 
-              <div className="quantity-input-group">
+              <div id="quantity-input-group">
                 <form action="/action_page.php">
                   Quantity:
                   <input type="number" className="quantityBox"/>
                 </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
+                </div>
               </div>
             </div>
 
-            <div className="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
           </div>
         </div>
 
-        <div className="replacement_items_section">
+        <div id="replacement_items_section">
           <h4 className="replacement_items_header">Replacement Parts</h4>
 
           <div className="replacement_item_listing">
@@ -903,14 +915,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
 
         {/* ++++++++++++++++++++++++++++ */}
 
-        <div className="content-area-container">
+        <div className="content-area-container2">
           <div id="individual_product_page">
             <div className="individual-product">
               <div className="individual_product_listing">
                 <div className="individual_product_entry">
 
 
-                  <div className="product-image">
+                  <div id="product-image">
                     <img src="https://www.msaironline.com/images/prodImage/1816_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                     <p>Catalog Number: ZFC710G</p>
                   </div>
@@ -941,21 +953,22 @@ export default class Grade_H_High_Efficiency extends React.Component {
                 </div>
               </div>
 
-              <div className="quantity-input-group">
+              <div id="quantity-input-group">
                 <form action="/action_page.php">
                   Quantity:
                   <input type="number" className="quantityBox"/>
                 </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
+                </div>
               </div>
             </div>
 
-            <div className="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
           </div>
         </div>
 
-        <div className="replacement_items_section">
+        <div id="replacement_items_section">
           <h4 className="replacement_items_header">Replacement Parts</h4>
 
           <div className="replacement_item_listing">
@@ -983,14 +996,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
 
         {/* ++++++++++++++++++++++++++++ */}
 
-        <div className="content-area-container">
+        <div className="content-area-container2">
           <div id="individual_product_page">
             <div className="individual-product">
               <div className="individual_product_listing">
                 <div className="individual_product_entry">
 
 
-                  <div className="product-image">
+                  <div id="product-image">
                     <img src="https://www.msaironline.com/images/prodImage/1820_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                     <p>Catalog Number: ZFC920G</p>
                   </div>
@@ -1021,21 +1034,22 @@ export default class Grade_H_High_Efficiency extends React.Component {
                 </div>
               </div>
 
-              <div className="quantity-input-group">
+              <div id="quantity-input-group">
                 <form action="/action_page.php">
                   Quantity:
                   <input type="number" className="quantityBox"/>
                 </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
+                </div>
               </div>
             </div>
 
-            <div className="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
           </div>
         </div>
 
-        <div className="replacement_items_section">
+        <div id="replacement_items_section">
           <h4 className="replacement_items_header">Replacement Parts</h4>
 
           <div className="replacement_item_listing">
@@ -1063,14 +1077,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
 
         {/* ++++++++++++++++++++++++++++ */}
 
-            <div className="content-area-container">
+            <div className="content-area-container2">
               <div id="individual_product_page">
                 <div className="individual-product">
                   <div className="individual_product_listing">
                     <div className="individual_product_entry">
 
 
-                      <div className="product-image">
+                      <div id="product-image">
                         <img src="https://www.msaironline.com/images/prodImage/1824_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                         <p>Catalog Number: ZFC1080G</p>
                       </div>
@@ -1101,21 +1115,22 @@ export default class Grade_H_High_Efficiency extends React.Component {
                     </div>
                   </div>
 
-                    <div className="quantity-input-group">
+                    <div id="quantity-input-group">
                       <form action="/action_page.php">
                       Quantity:
                       <input type="number" className="quantityBox"/>
                     </form>
+                    <div id="add-to-cart">
+                      <input type="submit" value="Add To Cart" />
+                    </div>
                   </div>
                 </div>
 
-                  <div className="add-to-cart">
-                    <input type="submit" value="Add To Cart" />
-                  </div>
+
                 </div>
               </div>
 
-              <div className="replacement_items_section">
+              <div id="replacement_items_section">
                 <h4 className="replacement_items_header">Replacement Parts</h4>
 
                 <div className="replacement_item_listing">
@@ -1144,14 +1159,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
 
         {/* ++++++++++++++++++++++++++++ */}
 
-        <div className="content-area-container">
+        <div className="content-area-container2">
           <div id="individual_product_page">
             <div className="individual-product">
               <div className="individual_product_listing">
                 <div className="individual_product_entry">
 
 
-                  <div className="product-image">
+                  <div id="product-image">
                     <img src="https://www.msaironline.com/images/prodImage/1828_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                     <p>Catalog Number: ZFC1350G</p>
                   </div>
@@ -1183,21 +1198,22 @@ export default class Grade_H_High_Efficiency extends React.Component {
               </div>
             </div>
 
-              <div className="quantity-input-group">
+              <div id="quantity-input-group">
                 <form action="/action_page.php">
                   Quantity:
                   <input type="number" className="quantityBox"/>
                 </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
+                </div>
               </div>
             </div>
 
-            <div className="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
 
         </div>
 
-        <div className="replacement_items_section">
+        <div id="replacement_items_section">
           <h4 className="replacement_items_header">Replacement Parts</h4>
 
           <div className="replacement_item_listing">
@@ -1225,14 +1241,14 @@ export default class Grade_H_High_Efficiency extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-      <div className="content-area-container">
+      <div className="content-area-container2">
         <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
               <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1832_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC1600G</p>
               </div>
@@ -1263,21 +1279,22 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
           </div>
 
-            <div className="quantity-input-group">
+            <div id="quantity-input-group">
               <form action="/action_page.php">
                 Quantity:
                 <input type="number" className="quantityBox"/>
               </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
+              </div>
             </div>
           </div>
 
-          <div className="add-to-cart">
-            <input type="submit" value="Add To Cart" />
-          </div>
+
         </div>
       </div>
 
-        <div className="replacement_items_section">
+        <div id="replacement_items_section">
           <h4 className="replacement_items_header">Replacement Parts</h4>
 
           <div className="replacement_item_listing">

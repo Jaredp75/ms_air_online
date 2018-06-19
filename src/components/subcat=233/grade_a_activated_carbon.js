@@ -23,14 +23,14 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div className="content-area-container">
+          <div className="content-area-container2">
             <div id="individual_product_page">
               <div className="individual-product">
                 <div className="individual_product_listing">
                   <div className="individual_product_entry">
 
 
-                    <div className="product-image">
+                    <div id="product-image">
                       <img src="https://www.msaironline.com/images/prodImage/1633_144x85.jpg" alt="15HP Air Compressor"></img>
                       <p>Catalog Number: 15VFD</p>
                     </div>
@@ -59,21 +59,22 @@ export default class Grade_A_Activated_Carbon extends React.Component {
                   </div>
                 </div>
 
-                <div className="quantity-input-group">
+                <div id="quantity-input-group">
                   <form action="/action_page.php">
                     Qty:
                     <input type="number" className="quantityBox" value="0" />
                   </form>
+                  <div id="add-to-cart">
+                    <input type="submit" value="Add To Cart" />
+                  </div>
                 </div>
               </div>
 
-              <div className="add-to-cart">
-                <input type="submit" value="Add To Cart" />
-              </div>
+
             </div>
           </div>
 
-          <div className="replacement_items_section">
+          <div id="replacement_items_section">
             <h4 className="replacement_items_header">Accessories</h4>
 
             <div className="replacement_item_listing">
@@ -107,14 +108,14 @@ export default class Grade_A_Activated_Carbon extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-        <div className="content-area-container">
+        <div className="content-area-container2">
           <div id="individual_product_page">
             <div className="individual-product">
               <div className="individual_product_listing">
                 <div className="individual_product_entry">
 
 
-                    <div className="product-image">
+                    <div id="product-image">
                       <img src="https://www.msaironline.com/images/prodImage/1634_144x85.jpg" alt="20HP Air Compressor"></img>
                       <p>Catalog Number: 20VFD</p>
                     </div>
@@ -143,21 +144,22 @@ export default class Grade_A_Activated_Carbon extends React.Component {
                   </div>
                 </div>
 
-                <div className="quantity-input-group">
+                <div id="quantity-input-group">
                   <form action="/action_page.php">
                   Qty:
                   <input type="number" className="quantityBox" value="0" />
                 </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
+                </div>
               </div>
             </div>
 
-            <div className="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
           </div>
         </div>
 
-        <div className="replacement_items_section">
+        <div id="replacement_items_section">
           <h4 className="replacement_items_header">Accessories</h4>
 
         <div className="replacement_item_listing">
@@ -191,14 +193,14 @@ export default class Grade_A_Activated_Carbon extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1635_144x85.jpg" alt="25HP Air Compressor"></img>
                 <p>Catalog Number: 25VFD</p>
               </div>
@@ -227,21 +229,22 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Qty:
               <input type="number" className="quantityBox" value="0" />
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Accessories</h4>
 
     <div className="replacement_item_listing">
@@ -275,14 +278,14 @@ export default class Grade_A_Activated_Carbon extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1636_144x85.jpg" alt="30HP Air Compressor"></img>
                 <p>Catalog Number: 30VFD</p>
               </div>
@@ -311,21 +314,22 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Qty:
               <input type="number" className="quantityBox" value="0" />
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Accessories</h4>
 
     <div className="replacement_item_listing">
@@ -359,14 +363,14 @@ export default class Grade_A_Activated_Carbon extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1637_144x85.jpg" alt="40HP Air Compressor"></img>
                 <p>Catalog Number: 40VFD</p>
               </div>
@@ -395,21 +399,22 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Qty:
               <input type="number" className="quantityBox" value="0" />
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Accessories</h4>
 
     <div className="replacement_item_listing">
@@ -443,14 +448,14 @@ export default class Grade_A_Activated_Carbon extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1638_144x85.jpg" alt="50HP Air Compressor"></img>
                 <p>Catalog Number: 50VFD</p>
               </div>
@@ -479,21 +484,22 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Qty:
               <input type="number" className="quantityBox" value="0" />
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Accessories</h4>
 
     <div className="replacement_item_listing">
@@ -527,14 +533,14 @@ export default class Grade_A_Activated_Carbon extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1639_144x85.jpg" alt="60HP Air Compressor"></img>
                 <p>Catalog Number: 100VFD</p>
               </div>
@@ -563,21 +569,22 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Qty:
               <input type="number" className="quantityBox" value="0" />
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Accessories</h4>
 
     <div className="replacement_item_listing">
@@ -611,14 +618,14 @@ export default class Grade_A_Activated_Carbon extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1640_144x85.jpg" alt="75HP Air Compressor"></img>
                 <p>Catalog Number: 100VFD</p>
               </div>
@@ -647,21 +654,22 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Qty:
               <input type="number" className="quantityBox" value="0" />
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Accessories</h4>
 
     <div className="replacement_item_listing">
@@ -695,14 +703,14 @@ export default class Grade_A_Activated_Carbon extends React.Component {
 
 {/* +++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1641_144x85.jpg" alt="100HP Air Compressor"></img>
                 <p>Catalog Number: 100VFD</p>
               </div>
@@ -731,21 +739,22 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Qty:
               <input type="number" className="quantityBox" value="0" />
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Accessories</h4>
 
     <div className="replacement_item_listing">
@@ -779,14 +788,14 @@ export default class Grade_A_Activated_Carbon extends React.Component {
 
 {/* ++++++++++++++++++++++++++++ */}
 
-<div className="content-area-container">
+<div className="content-area-container2">
   <div id="individual_product_page">
     <div className="individual-product">
       <div className="individual_product_listing">
         <div className="individual_product_entry">
 
 
-          <div className="product-image">
+          <div id="product-image">
             <img src="https://www.msaironline.com/images/prodImage/1642_144x85.jpg" alt="125HP Air Compressor"></img>
             <p>Catalog Number: 20VFD</p>
           </div>
@@ -815,21 +824,22 @@ export default class Grade_A_Activated_Carbon extends React.Component {
         </div>
       </div>
 
-      <div className="quantity-input-group">
+      <div id="quantity-input-group">
         <form action="/action_page.php">
           Qty:
           <input type="number" className="quantityBox" value="0" />
         </form>
+        <div id="add-to-cart">
+          <input type="submit" value="Add To Cart" />
+        </div>
       </div>
     </div>
 
-    <div className="add-to-cart">
-      <input type="submit" value="Add To Cart" />
-    </div>
+
   </div>
 </div>
 
-<div className="replacement_items_section">
+<div id="replacement_items_section">
   <h4 className="replacement_items_header">Accessories</h4>
 
 <div className="replacement_item_listing">

@@ -52,27 +52,28 @@ export default class prodID1170 extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Qty:
               <input type="number" className="quantityBox" value="0" />
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 
-      <div className="replacement_items_section">
+      <div id="replacement_items_section">
         <h4 className="replacement_items_header">Related Items</h4>
 
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="https://www.msaironline.com/images/prodImage/409_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station"></img>
+            <img src="https://www.msaironline.com/images/prodImage/409_144x85.jpg" alt="Quick-Connect 400 Oxygen Wall Outlet Station"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/product_pages/prodID341">Quick-Connect 400 Oxygen Wall Outlet Station</a></h6>
@@ -112,7 +113,7 @@ export default class prodID1170 extends React.Component {
 
 
     <div className="replacement_parts_section">
-      <h1 className="replacement_parts_header">Replacement Parts</h1>
+      {/* <h1 className="replacement_parts_header">Replacement Parts</h1> */}
       {/* <div className="replacement_parts_image">
         <img src="https://www.msaironline.com/images/assembly/QuickConnect_400_Series.jpg" alt="Quick Connect"></img>
       </div> */}

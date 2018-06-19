@@ -50,19 +50,37 @@ export default class prodID8 extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          {/* <div id="quantity-input-group">
             <form action="/action_page.php">
               Qty:
               <input type="number" className="quantityBox" value="0" />
             </form>
-          </div>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
+
+          </div> */}
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
+
+    <div id="quantity-input-group">
+      <form action="/action_page.php">
+        Qty:
+        <input type="number" className="quantityBox" value="0" />
+      </form>
+      <div id="add-to-cart">
+        <input type="submit" value="Add To Cart" />
+      </div>
+
+    </div>
+
+
+
+
+
 
       <div className="replacement_items_section">
         <h4 className="replacement_items_header">Related Items</h4>

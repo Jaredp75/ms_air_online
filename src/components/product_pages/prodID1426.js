@@ -22,7 +22,7 @@ export default class prodID1426 extends React.Component {
 
 
             <div className="product-image">
-              <img src="https://www.msaironline.com/images/prodImage/1426_144x85.jpg" alt="Bison 5 Dental Vacuum 16 Amp"></img>
+              <img src="https://www.msaironline.com/images/prodImage/1426_144x85.jpg" width="144px" alt="Bison 5 Dental Vacuum 16 Amp"></img>
               <p>Catalog Number: 818E.1050.1</p>
             </div>
 
@@ -59,17 +59,18 @@ export default class prodID1426 extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
+          <div id="quantity-input-group">
             <form action="/action_page.php">
               Qty:
               <input type="number" className="quantityBox" value="0" />
             </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
       </div>
     </div>
 

@@ -22,7 +22,7 @@ export default class prodID1425 extends React.Component {
 
 
             <div className="product-image">
-              <img src="https://www.msaironline.com/images/prodImage/1425_144x85.jpg" width="100%" alt="Bison 3 Dental Vacuum 16 Amp"></img>
+              <img src="https://www.msaironline.com/images/prodImage/1425_144x85.jpg" width="144px" alt="Bison 3 Dental Vacuum 16 Amp"></img>
               <p>Catalog Number: 818E.0800.1</p>
             </div>
 
@@ -58,20 +58,45 @@ export default class prodID1425 extends React.Component {
               </div>
             </div>
           </div>
-
-          <div className="quantity-input-group">
+        </div>
+          {/* <div id="quantity-input-group">
             <form action="/action_page.php">
               Qty:
               <input type="number" className="quantityBox" value="0" />
             </form>
-          </div>
-        </div>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
 
-        <div className="add-to-cart">
+
+
+
+          </div> */}
+        {/* </div> */}
+
+        {/* <div className="add-to-cart">
           <input type="submit" value="Add To Cart" />
-        </div>
+        </div> */}
       </div>
+
     </div>
+
+    <div id="quantity-input-group">
+      <form action="/action_page.php">
+        Qty:
+        <input type="number" className="quantityBox" value="0" />
+      </form>
+      <div id="add-to-cart">
+        <input type="submit" value="Add To Cart" />
+      </div>
+
+
+
+
+    </div>
+
+
+
 
       <div className="replacement_items_section">
         <h4 className="replacement_items_header">Related Items</h4>
