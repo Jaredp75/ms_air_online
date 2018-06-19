@@ -111,7 +111,7 @@
   font-family: 'Lato', 'Raleway', 'quantumregular', 'quantifybold', 'quranyitalic', 'quranylight_italic', 'quranylight', 'quranybold', 'big_johnregular', 'slim_joeregular', 'qontraregular', 'borgregular', 'wombyregular', sans-serif;
   margin: 0;
   height: 100%;
-  background-color: lightgrey;
+  background-color: lightgray;
   padding: 40px;
 
 
@@ -812,6 +812,7 @@ h1 {
   flex-direction: row;
   margin-left: 100px;
   margin-right: 100px;
+  font-size: 18px;
 }
 
 .privacy-para h3{
@@ -821,6 +822,10 @@ h1 {
   font-family: 'Raleway', sans-serif;
 }
 
+.terms-para {
+  padding: 30px;
+}
+
 .terms-para h3{
   display: flex;
   flex-direction: row;
@@ -828,6 +833,10 @@ h1 {
   margin-left: 100px;
   margin-right: 100px;
 }
+.terms-para p {
+  font-size: 18px;
+}
+
 
 .about-para p{
   display: flex;
@@ -1062,6 +1071,7 @@ h1 {
   border: 1px solid black;
   /* width: 50%; */
   margin-bottom: 60px;
+  margin: 60px;
 
 }
 
@@ -1070,7 +1080,7 @@ h1 {
   border: 1px solid black;
   /* width: 50%; */
   margin-bottom: 60px;
-
+  margin: 60px;
 
 }
 
@@ -1079,8 +1089,8 @@ h1 {
   border: 1px solid black;
   /* width: 50%; */
   margin-bottom: 60px;
-  height: 800px;
-
+  height: 600px;
+  margin: 60px;
 }
 
 .contact-header-text {
@@ -1204,6 +1214,10 @@ h1 {
 
 }
 
+.product_listing:hover {
+  background-color: lightgray;
+}
+
 
 .product_entry {
   /* display: flex; */
@@ -1263,8 +1277,8 @@ h1 {
   padding: 10px;
   /* justify-content: center; */
   /* margin-top: 0; */
-  /* background-color: pink; */
-  width: 1000px;
+  background-color: pink;
+  width: 800px;
   display: flex;
   /* margin-bottom: 50px; */
 }
@@ -1287,7 +1301,8 @@ h1 {
   display: flex;
   flex-direction: column;
   /* margin-right: 60px; */
-
+  margin-top: 20px;
+  /* background-color: pink; */
 }
 
 
@@ -1342,12 +1357,12 @@ h1 {
 
 
 .replacement_items_section {
-  margin-left: 370px;
+  /* margin-left: 300px; */
   padding: 10px;
-  justify-content: center;
-  background-color: lightgrey;
+  justify-content: space-between;
+  background-color: lightgray;
   width: 20%;
-  flex: 1;
+  /* flex: 1; */
   /* padding: 1em; */
   display: inline-block;
   border-radius: 2px;
@@ -1381,7 +1396,7 @@ h1 {
   justify-content: space-between;
   margin: 20px;
   padding: 40px;
-  background-color: lightgrey;
+  background-color: lightgray;
   border-radius: 2px;
 
 }
@@ -1457,7 +1472,7 @@ h1 {
 }
 
 .returning-customer-form {
-  background-color: darkgray;
+  background-color: white;
   padding: 40px;
 }
 
@@ -1469,7 +1484,7 @@ h1 {
   width: 60%;
   margin-bottom: 60px;
   background-color: #2C3E50;
-  color: white;
+  color: #2C3E50;
   /* padding: 20px; */
   margin: 0 auto;
   margin-bottom: 80px;
@@ -1488,7 +1503,7 @@ h1 {
 }
 
 .new-customer-para {
-  background-color: darkgray;
+  background-color: white;
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 20px;
@@ -1545,13 +1560,18 @@ h1 {
 }
 
 .account-settings-para {
-  background-color: lightgray;
+  background-color: white;
   padding: 20px;
   color: black;
+  align-content: center;
+
+  /* list-style-type: none; */
+
 
 }
 
-.account-settings-para h4 {
+.account-settings-para p {
+  font-size: 16px;
 
 }
 
@@ -1576,16 +1596,20 @@ h1 {
 }
 
 .order-info-para {
-  background-color: lightgray;
+  /* background-color: lightgray; */
   padding: 20px;
   color: black;
   padding-bottom: 40px;
+  align-content: center;
+  list-style-type: none;
 
   /* flex: 1;
   padding: 1rem; */
 }
 
-
+.order-info-para p {
+  font-size: 16px;
+}
 
 
 

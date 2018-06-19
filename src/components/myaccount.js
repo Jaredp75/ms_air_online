@@ -19,15 +19,15 @@ export default class MyAccount extends React.Component {
                 <h1>Account Settings</h1>
               </div>
               <div className="account-settings-para">
-                <h3><i><u>Account Settings</u>:</i></h3>
+                <p><u>Account Settings</u>:</p>
                 <ul>
-                  <li><h4>View or modify your billing information</h4></li>
-                  <li><h4>Update your email address</h4></li>
-                  <li><h4>Change your password</h4></li>
+                  <li>View or modify your billing information</li>
+                  <li>Update your email address</li>
+                  <li>Change your password</li>
                 </ul>
 
-                <h3><i><u>Login Assistance</u>:</i></h3>
-                  <h4>Forgot your username or password? Retreive your username and reset your password.</h4>
+                <p><u>Login Assistance</u>:</p>
+                  <p>Forgot your username or password? Retreive your username and reset your password.</p>
               </div>
             </div>
 
@@ -36,16 +36,16 @@ export default class MyAccount extends React.Component {
                 <h1>Order Information</h1>
               </div>
               <div className="order-info-para">
-                <h3><i><u>Order History</u>:</i></h3>
+                <p><u>Order History</u>:</p>
                 <ul>
-                  <li><h4>Check your order status</h4></li>
-                  <li><h4>Print an invoice</h4></li>
-                  <li><h4>View your Order History</h4></li>
+                  <li>Check your order status</li>
+                  <li>Print an invoice</li>
+                  <li>View your Order History</li>
                 </ul>
 
 
-                <h3><i><u>Track An Order</u>:</i></h3>
-                <h4>You will be able to track your current orders. <strong>Coming Soon!</strong></h4>
+                <p><u>Track An Order</u>:</p>
+                <p>You will be able to track your current orders. <strong>Coming Soon!</strong></p>
               </div>
             </div>
 

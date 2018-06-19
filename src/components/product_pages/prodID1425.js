@@ -22,7 +22,7 @@ export default class prodID1425 extends React.Component {
 
 
             <div className="product-image">
-              <img src="https://www.msaironline.com/images/prodImage/1425_144x85.jpg" alt="Bison 3 Dental Vacuum 16 Amp"></img>
+              <img src="https://www.msaironline.com/images/prodImage/1425_144x85.jpg" width="100%" alt="Bison 3 Dental Vacuum 16 Amp"></img>
               <p>Catalog Number: 818E.0800.1</p>
             </div>
 
