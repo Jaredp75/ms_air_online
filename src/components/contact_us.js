@@ -13,7 +13,7 @@ export default class ContactUs extends React.Component {
 
         <div className = 'content-area-container'>
           <div className="contact-header-text">
-            <h1>Contact Us</h1>
+            
           </div>
           <div className="phone-container">
             <div className="telephone-header">
@@ -61,6 +61,7 @@ export default class ContactUs extends React.Component {
                   <textarea className="form-control" id="inputMessage" placeholder="Message" rows="8" cols="50" />
                 </div>
                 </div>
+                <br />
                 <div className="email-disclaimer">
                   <p>Please Note:</p>
                   <ul>
@@ -76,7 +77,7 @@ export default class ContactUs extends React.Component {
                     <img src="https://www.msaironline.com/images/verify/letter_016.jpg" alt=" "></img>
                     <img src="https://www.msaironline.com/images/verify/letter_017.jpg" alt=" "></img>
                     <img src="https://www.msaironline.com/images/verify/letter_008.jpg" alt=" "></img>
-                    <input type="text" className="code" size="5" maxlength="3"></input>
+                    <input type="text" className="code" size="5" maxLength="3"></input>
                   </div>
 
                 <div className="contact-button">
