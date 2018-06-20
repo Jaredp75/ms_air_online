@@ -14,14 +14,14 @@ export default class prodID8 extends React.Component {
     return(
       <div>
 
-        <div className="content-area-container">
+        <div className="content-area-container3">
           <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
               <div className="individual_product_entry">
 
 
-            <div className="product-image">
+            <div id="product-image">
               <img src="https://www.msaironline.com/images/prodImage/8_144x85.jpg" alt="Quick Connect 500 Vacuum Wall Outlet"></img>
               <p>Catalog Number: 64-01-5002</p>
             </div>
@@ -82,7 +82,7 @@ export default class prodID8 extends React.Component {
 
 
 
-      <div className="replacement_items_section">
+      <div id="replacement_items_section">
         <h4 className="replacement_items_header">Related Items</h4>
 
       <div className="replacement_item_listing">

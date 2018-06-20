@@ -16,8 +16,7 @@ export default class Grade_G_General_Purpose extends React.Component {
           <div className="dropdown">
           <button className="dropbtn">Subcategories</button>
             <div className="dropdown-content">
-              <a href="/subcat=233/grade_a_particulate_bulk_liquid">Grade P - Particulate/Bulk Liquid</a>
-              <a href="subcat=233/grade_g_general_purpose">Grade G - General Purpose</a>
+              <a href="/subcat=233/grade_p_particulate_bulk_liquid">Grade P - Particulate/Bulk Liquid</a>
               <a href="/subcat=233/grade_h_high_efficiency">Grade H - High Efficiency</a>
               <a href="/subcat=233/grade_a_activated_carbon">Grade A - Activated Carbon</a>
             </div>
@@ -60,17 +59,17 @@ export default class Grade_G_General_Purpose extends React.Component {
                   </div>
                 </div>
 
-                <div id="quantity-input-group">
-                  <form action="/action_page.php">
-                    Quantity:
-                    <input type="number" className="quantityBox"/>
-                  </form>
-                  <div id="add-to-cart">
-                    <input type="submit" value="Add To Cart" />
-                  </div>
+
+              </div>
+              <div id="quantity-input-group">
+                <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox"/>
+                </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
                 </div>
               </div>
-
 
             </div>
           </div>
@@ -142,17 +141,17 @@ export default class Grade_G_General_Purpose extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -223,17 +222,17 @@ export default class Grade_G_General_Purpose extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -304,17 +303,17 @@ export default class Grade_G_General_Purpose extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -385,17 +384,17 @@ export default class Grade_G_General_Purpose extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -466,17 +465,17 @@ export default class Grade_G_General_Purpose extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -547,17 +546,17 @@ export default class Grade_G_General_Purpose extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -628,17 +627,17 @@ export default class Grade_G_General_Purpose extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -709,17 +708,17 @@ export default class Grade_G_General_Purpose extends React.Component {
                 </div>
               </div>
 
-              <div id="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
-                <div id="add-to-cart">
-                  <input type="submit" value="Add To Cart" />
-                </div>
+
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
               </div>
             </div>
-
 
           </div>
         </div>
@@ -790,17 +789,17 @@ export default class Grade_G_General_Purpose extends React.Component {
                 </div>
               </div>
 
-              <div id="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
-                <div id="add-to-cart">
-                  <input type="submit" value="Add To Cart" />
-                </div>
+
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
               </div>
             </div>
-
 
           </div>
         </div>
@@ -871,17 +870,17 @@ export default class Grade_G_General_Purpose extends React.Component {
                 </div>
               </div>
 
-              <div id="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
-                <div id="add-to-cart">
-                  <input type="submit" value="Add To Cart" />
-                </div>
+
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
               </div>
             </div>
-
 
           </div>
         </div>
@@ -952,17 +951,17 @@ export default class Grade_G_General_Purpose extends React.Component {
                 </div>
               </div>
 
-              <div id="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
-                <div id="add-to-cart">
-                  <input type="submit" value="Add To Cart" />
-                </div>
+
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
               </div>
             </div>
-
 
           </div>
         </div>
@@ -1033,17 +1032,17 @@ export default class Grade_G_General_Purpose extends React.Component {
                 </div>
               </div>
 
-              <div id="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
-                <div id="add-to-cart">
-                  <input type="submit" value="Add To Cart" />
-                </div>
+
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
               </div>
             </div>
-
 
           </div>
         </div>
@@ -1114,17 +1113,17 @@ export default class Grade_G_General_Purpose extends React.Component {
                     </div>
                   </div>
 
-                    <div id="quantity-input-group">
-                      <form action="/action_page.php">
-                      Quantity:
-                      <input type="number" className="quantityBox"/>
-                    </form>
-                    <div id="add-to-cart">
-                      <input type="submit" value="Add To Cart" />
-                    </div>
-                  </div>
-                </div>
 
+                </div>
+                <div id="quantity-input-group">
+                  <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox"/>
+                </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
+                </div>
+              </div>
 
                 </div>
               </div>
@@ -1195,18 +1194,18 @@ export default class Grade_G_General_Purpose extends React.Component {
                   <h3 className="individual-product-actual-price"><strong>$1,227.85</strong></h3>
                 </div>
               </div>
-              <div id="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
-                <div id="add-to-cart">
-                  <input type="submit" value="Add To Cart" />
-                </div>
-              </div>
+
 
             </div>
-
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
+              </div>
+            </div>
 
             </div>
 
@@ -1280,17 +1279,17 @@ export default class Grade_G_General_Purpose extends React.Component {
             </div>
           </div>
 
-            <div id="quantity-input-group">
-              <form action="/action_page.php">
-                Quantity:
-                <input type="number" className="quantityBox"/>
-              </form>
-              <div id="add-to-cart">
-                <input type="submit" value="Add To Cart" />
-              </div>
+
+          </div>
+          <div id="quantity-input-group">
+            <form action="/action_page.php">
+              Quantity:
+              <input type="number" className="quantityBox"/>
+            </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
             </div>
           </div>
-
 
         </div>
       </div>

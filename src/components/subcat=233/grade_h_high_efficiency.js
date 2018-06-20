@@ -16,9 +16,8 @@ export default class Grade_H_High_Efficiency extends React.Component {
           <div className="dropdown">
           <button className="dropbtn">Subcategories</button>
             <div className="dropdown-content">
-              <a href="/subcat=233/grade_a_particulate_bulk_liquid">Grade P - Particulate/Bulk Liquid</a>
-              <a href="subcat=233/grade_g_general_purpose">Grade G - General Purpose</a>
-              <a href="/subcat=233/grade_h_high_efficiency">Grade H - High Efficiency</a>
+              <a href="/subcat=233/grade_p_particulate_bulk_liquid">Grade P - Particulate/Bulk Liquid</a>
+              <a href="/subcat=233/grade_g_general_purpose">Grade G - General Purpose</a>
               <a href="/subcat=233/grade_a_activated_carbon">Grade A - Activated Carbon</a>
             </div>
           </div>
@@ -58,6 +57,8 @@ export default class Grade_H_High_Efficiency extends React.Component {
                       <h4 className="individual-product-savings">Savings: <strong>$75.25</strong></h4>
                       <h3 className="individual-product-actual-price"><strong>$139.75</strong></h3>
                   </div>
+
+                  </div>
                 </div>
                 <div id="quantity-input-group">
                   <form action="/action_page.php">
@@ -67,7 +68,6 @@ export default class Grade_H_High_Efficiency extends React.Component {
                   <div id="add-to-cart">
                     <input type="submit" value="Add To Cart" />
                   </div>
-                </div>
 
               </div>
 
@@ -142,18 +142,18 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
 
           </div>
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
-          </div>
+
 
         </div>
-
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
+          </div>
+        </div>
 
       </div>
     </div>
@@ -224,17 +224,17 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -305,17 +305,17 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -386,17 +386,17 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -467,17 +467,17 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -548,17 +548,17 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -629,17 +629,17 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -710,17 +710,17 @@ export default class Grade_H_High_Efficiency extends React.Component {
                 </div>
               </div>
 
-              <div id="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
-                <div id="add-to-cart">
-                  <input type="submit" value="Add To Cart" />
-                </div>
+
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
               </div>
             </div>
-
 
           </div>
         </div>
@@ -791,17 +791,17 @@ export default class Grade_H_High_Efficiency extends React.Component {
                 </div>
               </div>
 
-              <div id="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
-                <div id="add-to-cart">
-                  <input type="submit" value="Add To Cart" />
-                </div>
+
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
               </div>
             </div>
-
 
           </div>
         </div>
@@ -872,17 +872,17 @@ export default class Grade_H_High_Efficiency extends React.Component {
                 </div>
               </div>
 
-              <div id="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
-                <div id="add-to-cart">
-                  <input type="submit" value="Add To Cart" />
-                </div>
+
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
               </div>
             </div>
-
 
           </div>
         </div>
@@ -953,17 +953,17 @@ export default class Grade_H_High_Efficiency extends React.Component {
                 </div>
               </div>
 
-              <div id="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
-                <div id="add-to-cart">
-                  <input type="submit" value="Add To Cart" />
-                </div>
+
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
               </div>
             </div>
-
 
           </div>
         </div>
@@ -1034,17 +1034,17 @@ export default class Grade_H_High_Efficiency extends React.Component {
                 </div>
               </div>
 
-              <div id="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
-                <div id="add-to-cart">
-                  <input type="submit" value="Add To Cart" />
-                </div>
+
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
               </div>
             </div>
-
 
           </div>
         </div>
@@ -1115,17 +1115,17 @@ export default class Grade_H_High_Efficiency extends React.Component {
                     </div>
                   </div>
 
-                    <div id="quantity-input-group">
-                      <form action="/action_page.php">
-                      Quantity:
-                      <input type="number" className="quantityBox"/>
-                    </form>
-                    <div id="add-to-cart">
-                      <input type="submit" value="Add To Cart" />
-                    </div>
-                  </div>
-                </div>
 
+                </div>
+                <div id="quantity-input-group">
+                  <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox"/>
+                </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
+                </div>
+              </div>
 
                 </div>
               </div>
@@ -1196,48 +1196,50 @@ export default class Grade_H_High_Efficiency extends React.Component {
                   <h3 className="individual-product-actual-price"><strong>$1,227.85</strong></h3>
                 </div>
               </div>
+
+
             </div>
-
-              <div id="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
-                <div id="add-to-cart">
-                  <input type="submit" value="Add To Cart" />
-                </div>
-              </div>
-            </div>
-
-
-
-        </div>
-
-        <div id="replacement_items_section">
-          <h4 className="replacement_items_header">Replacement Parts</h4>
-
-          <div className="replacement_item_listing">
-            <div className="replacement_item_entry">
-              <div className="replacement_item_image">
-                <img className="filter" src="http://www.msaironline.com/images/prodImage/1892_144x85.jpg" alt="ZFC Replacement Element"></img>
-                <p>Catalog Number: EC1350G</p>
-              </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/subcat=233/prodID1892">ZFC Replacement Element</a></h6>
-              <h6 className="replacement_item_brand_name">Zeks</h6>
-              <div className="individual-product-description">
-                <ul>
-                  <li>ZFC Replacement Element for ZFC1350</li>
-                </ul>
-              </div>
-              <h6 className="individual-product-suggested-retail-price">MSRP: $473.00</h6>
-              <h6 className="replacement_item_actual_price"><strong>$307.45</strong></h6>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+              Quantity:
+              <input type="number" className="quantityBox"/>
+            </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
             </div>
           </div>
+
+            </div>
+          </div>
+
+          <div id="replacement_items_section">
+            <h4 className="replacement_items_header">Replacement Parts</h4>
+
+            <div className="replacement_item_listing">
+              <div className="replacement_item_entry">
+                <div className="replacement_item_image">
+                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1892_144x85.jpg" alt="ZFC Replacement Element"></img>
+                  <p>Catalog Number: EC1350G</p>
+                </div>
+              <div className="replacement_item_details">
+                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1892">ZFC Replacement Element</a></h6>
+                <h6 className="replacement_item_brand_name">Zeks</h6>
+                <div className="individual-product-description">
+                  <ul>
+                    <li>ZFC Replacement Element for ZFC1350</li>
+                  </ul>
+                </div>
+                <h6 className="individual-product-suggested-retail-price">MSRP: $473.00</h6>
+                <h6 className="replacement_item_actual_price"><strong>$307.45</strong></h6>
+              </div>
+            </div>
+          </div>
+          </div>
         </div>
-        </div>
-        </div>
-        <br />
+
+    <br />
+
+
 
     {/* ++++++++++++++++++++++++++++ */}
 
@@ -1279,17 +1281,17 @@ export default class Grade_H_High_Efficiency extends React.Component {
             </div>
           </div>
 
-            <div id="quantity-input-group">
-              <form action="/action_page.php">
-                Quantity:
-                <input type="number" className="quantityBox"/>
-              </form>
-              <div id="add-to-cart">
-                <input type="submit" value="Add To Cart" />
-              </div>
+
+          </div>
+          <div id="quantity-input-group">
+            <form action="/action_page.php">
+              Quantity:
+              <input type="number" className="quantityBox"/>
+            </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
             </div>
           </div>
-
 
         </div>
       </div>

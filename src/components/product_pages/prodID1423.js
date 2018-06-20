@@ -14,14 +14,14 @@ export default class prodID1423 extends React.Component {
     return(
       <div>
 
-        <div className="content-area-container">
+        <div className="content-area-container3">
           <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
               <div className="individual_product_entry">
 
 
-            <div className="product-image">
+            <div id="product-image">
               <img src="https://www.msaironline.com/images/prodImage/1423_144x85.jpg" width="144px" alt="Bulldog QT 1 Dental Vacuum"></img>
               <p>Catalog Number: 809E.0800.1</p>
             </div>
@@ -60,17 +60,17 @@ export default class prodID1423 extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Qty:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>

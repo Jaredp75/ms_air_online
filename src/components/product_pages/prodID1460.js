@@ -14,14 +14,14 @@ export default class prodID1460 extends React.Component {
     return(
       <div>
 
-        <div className="content-area-container">
+        <div className="content-area-container3">
           <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
               <div className="individual_product_entry">
 
 
-            <div className="product-image">
+            <div id="product-image">
               <img src="https://www.msaironline.com/images/prodImage/1460_144x85.jpg" alt="Liquid Starter Pack"></img>
               <p>Catalog Number: 900243</p>
             </div>
@@ -59,22 +59,22 @@ export default class prodID1460 extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Qty:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
 
-      <div className="replacement_items_section">
+      <div id="replacement_items_section">
         <h4 className="replacement_items_header">Related Items</h4>
 
       <div className="replacement_item_listing">

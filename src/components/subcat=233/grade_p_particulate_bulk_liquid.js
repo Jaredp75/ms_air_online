@@ -16,21 +16,20 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
           <div className="dropdown">
           <button className="dropbtn">Subcategories</button>
             <div className="dropdown-content">
-              <a href="/subcat=233/grade_a_particulate_bulk_liquid">Grade P - Particulate/Bulk Liquid</a>
-              <a href="subcat=233/grade_g_general_purpose">Grade G - General Purpose</a>
+              <a href="/subcat=233/grade_g_general_purpose">Grade G - General Purpose</a>
               <a href="/subcat=233/grade_h_high_efficiency">Grade H - High Efficiency</a>
               <a href="/subcat=233/grade_a_activated_carbon">Grade A - Activated Carbon</a>
             </div>
           </div>
 
-          <div className="content-area-container">
+          <div className="content-area-container2">
             <div id="individual_product_page">
               <div className="individual-product">
                 <div className="individual_product_listing">
                   <div className="individual_product_entry">
 
 
-                    <div className="product-image">
+                    <div id="product-image">
                       <img src="https://www.msaironline.com/images/prodImage/1771_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                       <p>Catalog Number: ZFC22P</p>
                     </div>
@@ -60,22 +59,23 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                   </div>
                 </div>
 
-                <div className="quantity-input-group">
-                  <form action="/action_page.php">
-                    Quantity:
-                    <input type="number" className="quantityBox"/>
-                  </form>
+
+              </div>
+              <div id="quantity-input-group">
+                <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox"/>
+                </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
                 </div>
               </div>
 
-              <div className="add-to-cart">
-                <input type="submit" value="Add To Cart" />
-              </div>
             </div>
           </div>
 
 
-          <div className="replacement_items_section">
+          <div id="replacement_items_section">
             <h4 className="replacement_items_header">Replacement Parts</h4>
 
             <div className="replacement_item_listing">
@@ -103,14 +103,14 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1775_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC45P</p>
               </div>
@@ -141,21 +141,22 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Replacement Parts</h4>
 
       <div className="replacement_item_listing">
@@ -183,14 +184,14 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1779_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC65P</p>
               </div>
@@ -221,21 +222,22 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Replacement Parts</h4>
 
       <div className="replacement_item_listing">
@@ -263,14 +265,14 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1783_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC88P</p>
               </div>
@@ -301,21 +303,22 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Replacement Parts</h4>
 
       <div className="replacement_item_listing">
@@ -343,14 +346,14 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1787_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC110P</p>
               </div>
@@ -381,21 +384,22 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Replacement Parts</h4>
 
       <div className="replacement_item_listing">
@@ -423,14 +427,14 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1791_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC135P</p>
               </div>
@@ -461,21 +465,22 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Replacement Parts</h4>
 
       <div className="replacement_item_listing">
@@ -503,14 +508,14 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1795_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC235P</p>
               </div>
@@ -541,21 +546,22 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Replacement Parts</h4>
 
       <div className="replacement_item_listing">
@@ -583,14 +589,14 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
     {/* +++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1799_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC290P</p>
               </div>
@@ -621,21 +627,22 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Quantity:
-              <input type="number" className="quantityBox"/>
-            </form>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox"/>
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Replacement Parts</h4>
 
       <div className="replacement_item_listing">
@@ -663,14 +670,14 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-        <div className="content-area-container">
+        <div className="content-area-container2">
           <div id="individual_product_page">
             <div className="individual-product">
               <div className="individual_product_listing">
                 <div className="individual_product_entry">
 
 
-                  <div className="product-image">
+                  <div id="product-image">
                     <img src="https://www.msaironline.com/images/prodImage/1803_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                     <p>Catalog Number: ZFC350P</p>
                   </div>
@@ -701,21 +708,22 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                 </div>
               </div>
 
-              <div className="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
+
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
               </div>
             </div>
 
-            <div className="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
           </div>
         </div>
 
-          <div className="replacement_items_section">
+          <div id="replacement_items_section">
             <h4 className="replacement_items_header">Replacement Parts</h4>
 
             <div className="replacement_item_listing">
@@ -743,14 +751,14 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
         {/* ++++++++++++++++++++++++++++ */}
 
-        <div className="content-area-container">
+        <div className="content-area-container2">
           <div id="individual_product_page">
             <div className="individual-product">
               <div className="individual_product_listing">
                 <div className="individual_product_entry">
 
 
-                  <div className="product-image">
+                  <div id="product-image">
                     <img src="https://www.msaironline.com/images/prodImage/1807_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                     <p>Catalog Number: ZFC470P</p>
                   </div>
@@ -781,21 +789,22 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                 </div>
               </div>
 
-              <div className="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
+
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
               </div>
             </div>
 
-            <div className="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
           </div>
         </div>
 
-        <div className="replacement_items_section">
+        <div id="replacement_items_section">
           <h4 className="replacement_items_header">Replacement Parts</h4>
 
           <div className="replacement_item_listing">
@@ -823,14 +832,14 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
         {/* ++++++++++++++++++++++++++++ */}
 
-        <div className="content-area-container">
+        <div className="content-area-container2">
           <div id="individual_product_page">
             <div className="individual-product">
               <div className="individual_product_listing">
                 <div className="individual_product_entry">
 
 
-                  <div className="product-image">
+                  <div id="product-image">
                     <img src="https://www.msaironline.com/images/prodImage/1811_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                     <p>Catalog Number: ZFC600P</p>
                   </div>
@@ -861,21 +870,22 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                 </div>
               </div>
 
-              <div className="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
+
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
               </div>
             </div>
 
-            <div className="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
           </div>
         </div>
 
-        <div className="replacement_items_section">
+        <div id="replacement_items_section">
           <h4 className="replacement_items_header">Replacement Parts</h4>
 
           <div className="replacement_item_listing">
@@ -903,14 +913,14 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
         {/* ++++++++++++++++++++++++++++ */}
 
-        <div className="content-area-container">
+        <div className="content-area-container2">
           <div id="individual_product_page">
             <div className="individual-product">
               <div className="individual_product_listing">
                 <div className="individual_product_entry">
 
 
-                  <div className="product-image">
+                  <div id="product-image">
                     <img src="https://www.msaironline.com/images/prodImage/1815_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                     <p>Catalog Number: ZFC710P</p>
                   </div>
@@ -941,21 +951,22 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                 </div>
               </div>
 
-              <div className="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
+
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
               </div>
             </div>
 
-            <div className="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
           </div>
         </div>
 
-        <div className="replacement_items_section">
+        <div id="replacement_items_section">
           <h4 className="replacement_items_header">Replacement Parts</h4>
 
           <div className="replacement_item_listing">
@@ -983,14 +994,14 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
         {/* ++++++++++++++++++++++++++++ */}
 
-        <div className="content-area-container">
+        <div className="content-area-container2">
           <div id="individual_product_page">
             <div className="individual-product">
               <div className="individual_product_listing">
                 <div className="individual_product_entry">
 
 
-                  <div className="product-image">
+                  <div id="product-image">
                     <img src="https://www.msaironline.com/images/prodImage/1819_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                     <p>Catalog Number: ZFC920P</p>
                   </div>
@@ -1021,21 +1032,22 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                 </div>
               </div>
 
-              <div className="quantity-input-group">
-                <form action="/action_page.php">
-                  Quantity:
-                  <input type="number" className="quantityBox"/>
-                </form>
+
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+                Quantity:
+                <input type="number" className="quantityBox"/>
+              </form>
+              <div id="add-to-cart">
+                <input type="submit" value="Add To Cart" />
               </div>
             </div>
 
-            <div className="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
           </div>
         </div>
 
-        <div className="replacement_items_section">
+        <div id="replacement_items_section">
           <h4 className="replacement_items_header">Replacement Parts</h4>
 
           <div className="replacement_item_listing">
@@ -1063,14 +1075,14 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
         {/* ++++++++++++++++++++++++++++ */}
 
-            <div className="content-area-container">
+            <div className="content-area-container2">
               <div id="individual_product_page">
                 <div className="individual-product">
                   <div className="individual_product_listing">
                     <div className="individual_product_entry">
 
 
-                      <div className="product-image">
+                      <div id="product-image">
                         <img src="https://www.msaironline.com/images/prodImage/1823_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                         <p>Catalog Number: ZFC1080P</p>
                       </div>
@@ -1101,21 +1113,22 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
                     </div>
                   </div>
 
-                    <div className="quantity-input-group">
-                      <form action="/action_page.php">
-                      Quantity:
-                      <input type="number" className="quantityBox"/>
-                    </form>
-                  </div>
-                </div>
 
-                  <div className="add-to-cart">
-                    <input type="submit" value="Add To Cart" />
-                  </div>
+                </div>
+                <div id="quantity-input-group">
+                  <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox"/>
+                </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
                 </div>
               </div>
 
-              <div className="replacement_items_section">
+                </div>
+              </div>
+
+              <div id="replacement_items_section">
                 <h4 className="replacement_items_header">Replacement Parts</h4>
 
                 <div className="replacement_item_listing">
@@ -1144,14 +1157,14 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
         {/* ++++++++++++++++++++++++++++ */}
 
-        <div className="content-area-container">
+        <div className="content-area-container2">
           <div id="individual_product_page">
             <div className="individual-product">
               <div className="individual_product_listing">
                 <div className="individual_product_entry">
 
 
-                  <div className="product-image">
+                  <div id="product-image">
                     <img src="https://www.msaironline.com/images/prodImage/1827_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                     <p>Catalog Number: ZFC1350P</p>
                   </div>
@@ -1183,21 +1196,22 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
               </div>
             </div>
 
-              <div className="quantity-input-group">
+              <div id="quantity-input-group">
                 <form action="/action_page.php">
                   Quantity:
                   <input type="number" className="quantityBox"/>
                 </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
+                </div>
               </div>
             </div>
 
-            <div className="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
 
         </div>
 
-        <div className="replacement_items_section">
+        <div id="replacement_items_section">
           <h4 className="replacement_items_header">Replacement Parts</h4>
 
           <div className="replacement_item_listing">
@@ -1225,14 +1239,14 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
 
     {/* ++++++++++++++++++++++++++++ */}
 
-      <div className="content-area-container">
+      <div className="content-area-container2">
         <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
               <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1831_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
                 <p>Catalog Number: ZFC1600P</p>
               </div>
@@ -1263,21 +1277,22 @@ export default class Grade_P_Particulate_Bulk_Liquid extends React.Component {
             </div>
           </div>
 
-            <div className="quantity-input-group">
-              <form action="/action_page.php">
-                Quantity:
-                <input type="number" className="quantityBox"/>
-              </form>
+
+          </div>
+          <div id="quantity-input-group">
+            <form action="/action_page.php">
+              Quantity:
+              <input type="number" className="quantityBox"/>
+            </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
             </div>
           </div>
 
-          <div className="add-to-cart">
-            <input type="submit" value="Add To Cart" />
-          </div>
         </div>
       </div>
 
-        <div className="replacement_items_section">
+        <div id="replacement_items_section">
           <h4 className="replacement_items_header">Replacement Parts</h4>
 
           <div className="replacement_item_listing">

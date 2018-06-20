@@ -16,10 +16,9 @@ export default class Grade_A_Activated_Carbon extends React.Component {
           <div className="dropdown">
           <button className="dropbtn">Subcategories</button>
             <div className="dropdown-content">
-              <a href="/subcat=233/grade_a_particulate_bulk_liquid">Grade P - Particulate/Bulk Liquid</a>
-              <a href="subcat=233/grade_g_general_purpose">Grade G - General Purpose</a>
+              <a href="/subcat=233/grade_p_particulate_bulk_liquid">Grade P - Particulate/Bulk Liquid</a>
+              <a href="/subcat=233/grade_g_general_purpose">Grade G - General Purpose</a>
               <a href="/subcat=233/grade_h_high_efficiency">Grade H - High Efficiency</a>
-              <a href="/subcat=233/grade_a_activated_carbon">Grade A - Activated Carbon</a>
             </div>
           </div>
 
@@ -59,17 +58,17 @@ export default class Grade_A_Activated_Carbon extends React.Component {
                   </div>
                 </div>
 
-                <div id="quantity-input-group">
-                  <form action="/action_page.php">
-                    Qty:
-                    <input type="number" className="quantityBox" value="0" />
-                  </form>
-                  <div id="add-to-cart">
-                    <input type="submit" value="Add To Cart" />
-                  </div>
+
+              </div>
+              <div id="quantity-input-group">
+                <form action="/action_page.php">
+                  Qty:
+                  <input type="number" className="quantityBox" value="0" />
+                </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
                 </div>
               </div>
-
 
             </div>
           </div>
@@ -90,18 +89,7 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div className="replacement_item_listing">
-            <div className="replacement_item_entry">
-              <div className="replacement_item_image">
-                <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-              </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
     <br />
@@ -144,17 +132,17 @@ export default class Grade_A_Activated_Carbon extends React.Component {
                   </div>
                 </div>
 
-                <div id="quantity-input-group">
-                  <form action="/action_page.php">
-                  Qty:
-                  <input type="number" className="quantityBox" value="0" />
-                </form>
-                <div id="add-to-cart">
-                  <input type="submit" value="Add To Cart" />
-                </div>
-              </div>
-            </div>
 
+            </div>
+            <div id="quantity-input-group">
+              <form action="/action_page.php">
+              Qty:
+              <input type="number" className="quantityBox" value="0" />
+            </form>
+            <div id="add-to-cart">
+              <input type="submit" value="Add To Cart" />
+            </div>
+          </div>
 
           </div>
         </div>
@@ -175,18 +163,7 @@ export default class Grade_A_Activated_Carbon extends React.Component {
           </div>
         </div>
 
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-          </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
     <br />
@@ -229,17 +206,17 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Qty:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -260,18 +237,7 @@ export default class Grade_A_Activated_Carbon extends React.Component {
       </div>
     </div>
 
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-          </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
     <br />
@@ -314,17 +280,17 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Qty:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -345,18 +311,7 @@ export default class Grade_A_Activated_Carbon extends React.Component {
       </div>
     </div>
 
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-          </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
     <br />
@@ -399,17 +354,17 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Qty:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -430,18 +385,7 @@ export default class Grade_A_Activated_Carbon extends React.Component {
       </div>
     </div>
 
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-          </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
     <br />
@@ -484,17 +428,17 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Qty:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -515,18 +459,7 @@ export default class Grade_A_Activated_Carbon extends React.Component {
       </div>
     </div>
 
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-          </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
     <br />
@@ -569,17 +502,17 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Qty:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -600,18 +533,7 @@ export default class Grade_A_Activated_Carbon extends React.Component {
       </div>
     </div>
 
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-          </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
     <br />
@@ -654,17 +576,17 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Qty:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -685,18 +607,7 @@ export default class Grade_A_Activated_Carbon extends React.Component {
       </div>
     </div>
 
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-          </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
     <br />
@@ -739,17 +650,17 @@ export default class Grade_A_Activated_Carbon extends React.Component {
             </div>
           </div>
 
-          <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Qty:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-
 
       </div>
     </div>
@@ -770,18 +681,7 @@ export default class Grade_A_Activated_Carbon extends React.Component {
       </div>
     </div>
 
-    <div className="replacement_item_listing">
-      <div className="replacement_item_entry">
-        <div className="replacement_item_image">
-          <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-        </div>
-        <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-          <h6 className="replacement_item_brand_name">Trident</h6>
-          <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-        </div>
-      </div>
-    </div>
+
   </div>
 </div>
 <br />
@@ -824,17 +724,17 @@ export default class Grade_A_Activated_Carbon extends React.Component {
         </div>
       </div>
 
-      <div id="quantity-input-group">
-        <form action="/action_page.php">
-          Qty:
-          <input type="number" className="quantityBox" value="0" />
-        </form>
-        <div id="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
+
+    </div>
+    <div id="quantity-input-group">
+      <form action="/action_page.php">
+        Qty:
+        <input type="number" className="quantityBox" value="0" />
+      </form>
+      <div id="add-to-cart">
+        <input type="submit" value="Add To Cart" />
       </div>
     </div>
-
 
   </div>
 </div>
@@ -855,18 +755,7 @@ export default class Grade_A_Activated_Carbon extends React.Component {
   </div>
 </div>
 
-  <div className="replacement_item_listing">
-    <div className="replacement_item_entry">
-      <div className="replacement_item_image">
-        <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
-      </div>
-        <div className="replacement_item_details">
-          <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-          <h6 className="replacement_item_brand_name">Trident</h6>
-          <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-        </div>
-      </div>
-    </div>
+
   </div>
 </div>
 <br />
