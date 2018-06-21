@@ -301,7 +301,7 @@ export default class Home extends React.Component {
 
 
         <div className="product-image">
-          <img src="https://www.msaironline.com/images/prodImage/8_144x85.jpg" alt="product-placeholder"></img>
+          <img src="https://www.msaironline.com/images/prodImage/8_144x85.jpg" width="144" height="85" alt="product-placeholder"></img>
         </div>
         <div className="product-details">
           <h4 className="product-title"><a href="/product_pages/prodID8">Quick Connect 500 Vacuum Wall Outlet</a></h4>
@@ -461,7 +461,7 @@ export default class Home extends React.Component {
   </div> */}
 
 
-  <div className="product-image-right">
+  <div className="product-image">
     <img src="https://www.msaironline.com/images/prodImage/1425_144x85.jpg" width="144" height="144" alt="product-placeholder"></img>
   </div>
   <div className="product-details">
@@ -469,7 +469,7 @@ export default class Home extends React.Component {
     <h6 className="product-brand-name">Ramvac</h6>
     <h6 className="product-suggested-retail-price">$15,096.00</h6>
     <h6 className="product-savings">Savings: <strong>$3,472.08</strong></h6>
-    <h6 className="product-actual-price"><strong>$11623.92</strong></h6>
+    <h6 className="product-actual-price"><strong>$11,623.92</strong></h6>
   </div>
 </div>
 </div>
@@ -490,7 +490,7 @@ export default class Home extends React.Component {
 
 <div className="product_listing">
   <div className="product_entry">
-    <div className="product-image-right">
+    <div className="product-image">
       <img src="https://www.msaironline.com/images/prodImage/1426_144x85.jpg" width="144" height="144" alt="product-placeholder"></img>
     </div>
     <div className="product-details">
@@ -506,7 +506,7 @@ export default class Home extends React.Component {
 
 <div className="product_listing">
   <div className="product_entry">
-    <div className="product-image-right">
+    <div className="product-image">
       <img src="https://www.msaironline.com/images/prodImage/1460_144x85.jpg" width="144" height="144" alt="product-placeholder"></img>
     </div>
     <div className="product-details">
@@ -522,7 +522,7 @@ export default class Home extends React.Component {
 
 <div className="product_listing">
   <div className="product_entry">
-    <div className="product-image-right">
+    <div className="product-image">
       <img src="https://www.msaironline.com/images/prodImage/1467_144x85.jpg" width="144" height="144" alt="product-placeholder"></img>
     </div>
     <div className="product-details">
@@ -539,7 +539,7 @@ export default class Home extends React.Component {
 <div className="product_listing">
   <div className="product_entry">
     <div className="product-image">
-      <img src="https://www.msaironline.com/images/prodImage/1469_144x85.jpg" alt="product-placeholder"></img>
+      <img src="https://www.msaironline.com/images/prodImage/1469_144x85.jpg" width="144" height="144" alt="product-placeholder"></img>
     </div>
     <div className="product-details">
       <h4 className="product-title"><a href="/product_pages/prodID1469">Bison Service Filter Set</a></h4>
@@ -554,7 +554,7 @@ export default class Home extends React.Component {
 
 <div className="product_listing">
   <div className="product_entry">
-    <div className="product-image-right">
+    <div className="product-image">
       <img src="https://www.msaironline.com/images/prodImage/1476_144x85.jpg" width="144" height="144" alt="product-placeholder"></img>
     </div>
     <div className="product-details">

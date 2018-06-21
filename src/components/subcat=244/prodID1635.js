@@ -14,14 +14,14 @@ export default class prodID1640 extends React.Component {
         <div className = 'content-area-container'>
 
 
-          <div className="content-area-container">
+          <div className="content-area-container2">
             <div id="individual_product_page">
               <div className="individual-product">
                 <div className="individual_product_listing">
                   <div className="individual_product_entry">
 
 
-                    <div className="product-image">
+                    <div id="product-image">
                       <img src="https://www.msaironline.com/images/prodImage/1635_144x85.jpg" alt="25HP Air Compressor"></img>
                       <p>Catalog Number: 25VFD</p>
                     </div>
@@ -50,17 +50,18 @@ export default class prodID1640 extends React.Component {
                   </div>
                 </div>
 
-                <div className="quantity-input-group">
-                  <form action="/action_page.php">
-                    Qty:
-                    <input type="number" className="quantityBox" value="0" />
-                  </form>
+
+              </div>
+              <div id="quantity-input-group">
+                <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox" value="0" />
+                </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
                 </div>
               </div>
 
-              <div className="add-to-cart">
-                <input type="submit" value="Add To Cart" />
-              </div>
             </div>
           </div>
 
@@ -80,18 +81,7 @@ export default class prodID1640 extends React.Component {
             </div>
           </div>
 
-          <div className="replacement_item_listing">
-            <div className="replacement_item_entry">
-              <div className="replacement_item_image">
-                <img src="http://www.msaironline.com/images/prodImage/1722_144x85.jpg" width="144" height="85" alt="60 SCFM Coalescing Filter"></img>
-              </div>
-            <div className="replacement_item_details">
-              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Coalescing Filter</a></h6>
-              <h6 className="replacement_item_brand_name">Trident</h6>
-              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
 

@@ -54,7 +54,7 @@ export default class prodID1856 extends React.Component {
 
                 <div className="quantity-input-group">
                   <form action="/action_page.php">
-                    Qty:
+                    Quantity:
                     <input type="number" className="quantityBox" value="0" />
                   </form>
                 </div>

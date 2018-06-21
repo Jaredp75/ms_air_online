@@ -14,14 +14,14 @@ export default class prodID1835 extends React.Component {
         <div className = 'content-area-container'>
 
 
-          <div className="content-area-container">
+          <div className="content-area-container2">
             <div id="individual_product_page">
               <div className="individual-product">
                 <div className="individual_product_listing">
                   <div className="individual_product_entry">
 
 
-                    <div className="product-image">
+                    <div id="product-image">
                       <img src="https://www.msaironline.com/images/prodImage/1835_144x85.jpg" alt="ZFC Replacement Element"></img>
                       <p>Catalog Number: EC22P</p>
                     </div>
@@ -52,21 +52,22 @@ export default class prodID1835 extends React.Component {
                   </div>
                 </div>
 
-                <div className="quantity-input-group">
-                  <form action="/action_page.php">
-                    Qty:
-                    <input type="number" className="quantityBox"/>
-                  </form>
+
+              </div>
+              <div id="quantity-input-group">
+                <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox"/>
+                </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
                 </div>
               </div>
 
-              <div className="add-to-cart">
-                <input type="submit" value="Add To Cart" />
-              </div>
             </div>
           </div>
 
-          <div className="replacement_items_section">
+          <div id="replacement_items_section">
             <h4 className="replacement_items_header">Replacement Parts</h4>
 
             <div className="replacement_item_listing">
