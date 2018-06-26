@@ -537,7 +537,7 @@ export default class Grade_H_High_Efficiency extends React.Component {
                   <li><strong>Flow SCFM</strong>: 235</li>
                   <li><strong>Side Drain Port</strong>: N/A</li>
                   <br />
-                  <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+                  <li>ZFC Compressed Air Filter for High Efficiency Filtration.</li>
 
                   <a href="/subcat=233/prodID1797"><strong>More Info >></strong></a>
                 </ul>
@@ -780,7 +780,7 @@ export default class Grade_H_High_Efficiency extends React.Component {
                       <li><strong>Flow SCFM</strong>: 470</li>
                       <li><strong>Side Drain Port</strong>: N/A</li>
                       <br />
-                      <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+                      <li>ZFC Compressed Air Filter for High Efficiency Filtration.</li>
 
                       <a href="/subcat=233/prodID1809"><strong>More Info >></strong></a>
                     </ul>
@@ -1104,7 +1104,7 @@ export default class Grade_H_High_Efficiency extends React.Component {
                           <li><strong>Flow SCFM</strong>: 1080</li>
                           <li><strong>Side Drain Port</strong>: N/A</li>
                           <br />
-                          <li>ZFC Compressed Air Filter for Particulate/Bulk Liquid.</li>
+                          <li>ZFC Compressed Air Filter for High Efficiency Filtration.</li>
 
                           <a href="/subcat=233/prodID1825"><strong>More Info >></strong></a>
                         </ul>
