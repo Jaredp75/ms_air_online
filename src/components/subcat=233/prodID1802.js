@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
 
-export default class prodID1813 extends React.Component {
+export default class prodID1802 extends React.Component {
 
   render(){
 
@@ -22,8 +22,8 @@ export default class prodID1813 extends React.Component {
 
 
                     <div id="product-image">
-                      <img src="https://www.msaironline.com/images/prodImage/1813_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                      <p>Catalog Number: ZFC600H</p>
+                      <img src="https://www.msaironline.com/images/prodImage/1802_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                      <p>Catalog Number: ZFC290A</p>
                     </div>
 
 
@@ -34,19 +34,19 @@ export default class prodID1813 extends React.Component {
                     <div className="individual-product-description">
                       <ul>
                         <li><strong>Bottom Drain Port</strong>: 1/4"</li>
-                        <li><strong>Connection In/Out</strong>: 2"</li>
+                        <li><strong>Connection In/Out</strong>: 1 1/2"</li>
                         <li><strong>Elements Required Per Filter</strong>: 1</li>
-                        <li><strong>Filter Length</strong>: 20.40"</li>
-                        <li><strong>Filter Width</strong>: 6.69"</li>
-                        <li><strong>Flow SCFM</strong>: 600</li>
+                        <li><strong>Filter Length</strong>: 16.11"</li>
+                        <li><strong>Filter Width</strong>: 5.08"</li>
+                        <li><strong>Flow SCFM</strong>: 290</li>
                         <li><strong>Side Drain Port</strong>: N/A</li>
                         <br />
-                        <li>ZFC Compressed Air Filter for High Efficiency Filtration.</li>
+                        <li>ZFC Compressed Air Filter for Activated Carbon.</li>
                       </ul>
                     </div>
-                    <h4 className="individual-product-suggested-retail-price">MSRP: $1,204.00</h4>
-                    <h4 className="individual-product-savings">Savings: <strong>$421.40</strong></h4>
-                    <h3 className="individual-product-actual-price"><strong>$782.60</strong></h3>
+                    <h4 className="individual-product-suggested-retail-price">MSRP: $697.00</h4>
+                    <h4 className="individual-product-savings">Savings: <strong>$243.95</strong></h4>
+                    <h3 className="individual-product-actual-price"><strong>$453.05</strong></h3>
                   </div>
                 </div>
 
@@ -71,19 +71,19 @@ export default class prodID1813 extends React.Component {
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1877_144x85.jpg" alt="ZFC Replacement Element"></img>
-                  <p>Catalog Number: EC600H</p>
+                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1866_144x85.jpg" alt="ZFC Replacement Element"></img>
+                  <p>Catalog Number: EC290A</p>
                 </div>
               <div className="replacement_item_details">
-                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1877">ZFC Replacement Element</a></h6>
+                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1866">ZFC Replacement Element</a></h6>
                 <h6 className="replacement_item_brand_name">Zeks</h6>
                 <div className="individual-product-description">
                   <ul>
-                    <li>ZFC Replacement Element for ZFC600</li>
+                    <li>ZFC Replacement Element for ZFC290</li>
                   </ul>
                 </div>
-                <h6 className="individual-product-suggested-retail-price">MSRP: $273.00</h6>
-                <h6 className="replacement_item_actual_price"><strong>$177.45</strong></h6>
+                <h6 className="individual-product-suggested-retail-price">MSRP: $208.00</h6>
+                <h6 className="replacement_item_actual_price"><strong>$135.20</strong></h6>
               </div>
             </div>
           </div>

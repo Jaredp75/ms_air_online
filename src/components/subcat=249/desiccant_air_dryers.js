@@ -14,14 +14,14 @@ export default class Desiccant_Air_Dryers extends React.Component {
         <div className = 'content-area-container'>
 
 
-          <div className="content-area-container">
+          <div className="content-area-container2">
             <div id="individual_product_page">
               <div className="individual-product">
                 <div className="individual_product_listing">
                   <div className="individual_product_entry">
 
 
-                    <div className="product-image">
+                    <div id="product-image">
                       <img src="https://www.msaironline.com/images/prodImage/1706_144x85.jpg" alt="Dryspell 10A"></img>
                       <p>Catalog Number: PD226</p>
                     </div>
@@ -40,32 +40,34 @@ export default class Desiccant_Air_Dryers extends React.Component {
                         <li><strong>Max PSI</strong>: 232 PSI</li>
                         <li><strong>Voltage</strong>: 100-240 VAC 50/60 Hz 1 Ph</li>
                         <br />
-                        <li>Dryer complete with electric auto drain for pre-filter and controller with purge economizer.</li>
+                        <li>Dryer complete with electric auto drain for pre-filter and<br />controller with purge economizer.</li>
+                        <br />
+                        <li><a href="/subcat=249/prodID1706"><strong>More Info >></strong></a></li>
                         <br />
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                        <br />
-                        <a href="/subcat=249/prodID1706"><strong>More Info >></strong></a>
+
                       </ul>
                     </div>
                     <h3 className="individual-product-actual-price"><strong>$1,129.46</strong></h3>
                   </div>
                 </div>
 
-                <div className="quantity-input-group">
-                  <form action="/action_page.php">
-                    Qty:
-                    <input type="number" className="quantityBox" value="0" />
-                  </form>
+
+              </div>
+              <div id="quantity-input-group">
+                <form action="/action_page.php">
+                  Qty:
+                  <input type="number" className="quantityBox" value="0" />
+                </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
                 </div>
               </div>
 
-              <div className="add-to-cart">
-                <input type="submit" value="Add To Cart" />
-              </div>
             </div>
           </div>
 
-          <div className="replacement_items_section">
+          <div id="replacement_items_section">
             <h4 className="replacement_items_header">Accessories</h4>
 
             <div className="replacement_item_listing">
@@ -98,14 +100,14 @@ export default class Desiccant_Air_Dryers extends React.Component {
     <br />
 {/* +++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container2">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1707_144x85.jpg" alt="Dryspell 20A"></img>
                 <p>Catalog Number: PD227</p>
               </div>
@@ -123,32 +125,34 @@ export default class Desiccant_Air_Dryers extends React.Component {
                   <li><strong>Max PSI</strong>: 232 PSI</li>
                   <li><strong>Voltage</strong>: 100-240 VAC 50/60 Hz 1 Ph</li>
                   <br />
-                  <li>Dryer complete with electric auto drain for pre-filter and controller with purge economizer.</li>
+                  <li>Dryer complete with electric auto drain for pre-filter and<br />controller with purge economizer.</li>
+                  <br />
+                  <li><a href="/subcat=249/prodID1707"><strong>More Info >></strong></a></li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                  <br />
-                  <a href="/subcat=249/prodID1707"><strong>More Info >></strong></a>
+
                 </ul>
               </div>
               <h3 className="individual-product-actual-price"><strong>$1,686.74</strong></h3>
             </div>
           </div>
 
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Qty:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Accessories</h4>
 
     <div className="replacement_item_listing">
@@ -182,12 +186,13 @@ export default class Desiccant_Air_Dryers extends React.Component {
 
 {/* ++++++++++++++++++++++++++++ */}
 
-  <div className="content-area-container">
+  <div className="content-area-container2">
     <div id="individual_product_page">
       <div className="individual-product">
         <div className="individual_product_listing">
           <div className="individual_product_entry">
-            <div className="product-image">
+
+            <div id="product-image">
               <img src="https://www.msaironline.com/images/prodImage/1708_144x85.jpg" alt="Dryspell 30A"></img>
               <p>Catalog Number: PD228</p>
             </div>
@@ -204,32 +209,34 @@ export default class Desiccant_Air_Dryers extends React.Component {
                   <li><strong>Max PSI</strong>: 232 PSI</li>
                   <li><strong>Voltage</strong>: 100-240 VAC 50/60 Hz 1 Ph</li>
                   <br />
-                  <li>Dryer complete with electric auto drain for pre-filter and controller with purge economizer.</li>
+                  <li>Dryer complete with electric auto drain for pre-filter and<br />controller with purge economizer.</li>
+                  <br />
+                <li><a href="/subcat=249/prodID1708"><strong>More Info >></strong></a></li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                  <br />
-                  <a href="/subcat=249/prodID1708"><strong>More Info >></strong></a>
+
                 </ul>
               </div>
-              <h3 className="individual-product-actual-price"><strong>$2147.52</strong></h3>
+              <h3 className="individual-product-actual-price"><strong>$2,147.52</strong></h3>
             </div>
           </div>
 
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Qty:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    <div id="replacement_items_section">
       <h4 className="replacement_items_header">Accessories</h4>
 
       <div className="replacement_item_listing">
@@ -263,14 +270,14 @@ export default class Desiccant_Air_Dryers extends React.Component {
 
 {/* +++++++++++++++++++++++ */}
 
-  <div className="content-area-container">
+  <div className="content-area-container2">
     <div id="individual_product_page">
       <div className="individual-product">
         <div className="individual_product_listing">
           <div className="individual_product_entry">
 
 
-            <div className="product-image">
+            <div id="product-image">
               <img src="https://www.msaironline.com/images/prodImage/1709_144x85.jpg" alt="Dryspell 45A"></img>
               <p>Catalog Number: PD229</p>
             </div>
@@ -289,32 +296,34 @@ export default class Desiccant_Air_Dryers extends React.Component {
                 <li><strong>Max PSI</strong>: 232 PSI</li>
                 <li><strong>Voltage</strong>: 100-240 VAC 50/60 Hz 1 Ph</li>
                 <br />
-                <li>Dryer complete with electric auto drain for pre-filter and controller with purge economizer.</li>
+                <li>Dryer complete with electric auto drain for pre-filter and<br />controller with purge economizer.</li>
+                <br />
+                <li><a href="/subcat=249/prodID1709"><strong>More Info >></strong></a></li>
                 <br />
                 <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-                <br />
-                <a href="/subcat=249/prodID1709"><strong>More Info >></strong></a>
+
               </ul>
             </div>
-            <h3 className="individual-product-actual-price"><strong>$2362.34</strong></h3>
+            <h3 className="individual-product-actual-price"><strong>$2,362.34</strong></h3>
           </div>
         </div>
 
-        <div className="quantity-input-group">
-          <form action="/action_page.php">
-            Qty:
-            <input type="number" className="quantityBox" value="0" />
-          </form>
+
+      </div>
+      <div id="quantity-input-group">
+        <form action="/action_page.php">
+          Qty:
+          <input type="number" className="quantityBox" value="0" />
+        </form>
+        <div id="add-to-cart">
+          <input type="submit" value="Add To Cart" />
         </div>
       </div>
 
-      <div className="add-to-cart">
-        <input type="submit" value="Add To Cart" />
-      </div>
     </div>
   </div>
 
-  <div className="replacement_items_section">
+  <div id="replacement_items_section">
     <h4 className="replacement_items_header">Accessories</h4>
 
     <div className="replacement_item_listing">
@@ -348,14 +357,14 @@ export default class Desiccant_Air_Dryers extends React.Component {
 
 {/* ++++++++++++++++++++ */}
 
-<div className="content-area-container">
+<div className="content-area-container2">
   <div id="individual_product_page">
     <div className="individual-product">
       <div className="individual_product_listing">
         <div className="individual_product_entry">
 
 
-          <div className="product-image">
+          <div id="product-image">
             <img src="https://www.msaironline.com/images/prodImage/1710_144x85.jpg" alt="Dryspell 60A"></img>
             <p>Catalog Number: PD230</p>
           </div>
@@ -374,32 +383,34 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <li><strong>Max PSI</strong>: 232 PSI</li>
               <li><strong>Voltage</strong>: 100-240 VAC 50/60 Hz 1 Ph</li>
               <br />
-              <li>Dryer complete with electric auto drain for pre-filter and controller with purge economizer.</li>
+              <li>Dryer complete with electric auto drain for pre-filter and<br />controller with purge economizer.</li>
+              <br />
+              <li><a href="/subcat=249/prodID1710"><strong>More Info >></strong></a></li>
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
-              <br />
-              <a href="/subcat=249/prodID1710"><strong>More Info >></strong></a>
+
             </ul>
           </div>
-          <h3 className="individual-product-actual-price"><strong>$3428.58</strong></h3>
+          <h3 className="individual-product-actual-price"><strong>$3,428.58</strong></h3>
         </div>
       </div>
 
-      <div className="quantity-input-group">
-        <form action="/action_page.php">
-          Qty:
-          <input type="number" className="quantityBox" value="0" />
-        </form>
+
+    </div>
+    <div id="quantity-input-group">
+      <form action="/action_page.php">
+        Qty:
+        <input type="number" className="quantityBox" value="0" />
+      </form>
+      <div id="add-to-cart">
+        <input type="submit" value="Add To Cart" />
       </div>
     </div>
 
-    <div className="add-to-cart">
-      <input type="submit" value="Add To Cart" />
-    </div>
   </div>
 </div>
 
-<div className="replacement_items_section">
+<div id="replacement_items_section">
   <h4 className="replacement_items_header">Accessories</h4>
 
   <div className="replacement_item_listing">
@@ -433,14 +444,14 @@ export default class Desiccant_Air_Dryers extends React.Component {
 
 {/* +++++++++++++++++++++ */}
 
-<div className="content-area-container">
+<div className="content-area-container2">
   <div id="individual_product_page">
     <div className="individual-product">
       <div className="individual_product_listing">
         <div className="individual_product_entry">
 
 
-          <div className="product-image">
+          <div id="product-image">
             <img src="https://www.msaironline.com/images/prodImage/1711_144x85.jpg" alt="Dryspell 100A"></img>
             <p>Catalog Number: PD231</p>
           </div>
@@ -461,30 +472,32 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Dryer includes controller with purge economizer.</li>
               <br />
-              <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+              <li><a href="/subcat=249/prodID1711"><strong>More Info >></strong></a></li>
               <br />
-              <a href="/subcat=249/prodID1711"><strong>More Info >></strong></a>
+              <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+
             </ul>
           </div>
-          <h3 className="individual-product-actual-price"><strong>$4581.26</strong></h3>
+          <h3 className="individual-product-actual-price"><strong>$4,581.26</strong></h3>
         </div>
       </div>
 
-      <div className="quantity-input-group">
-        <form action="/action_page.php">
-          Qty:
-          <input type="number" className="quantityBox" value="0" />
-        </form>
+
+    </div>
+    <div id="quantity-input-group">
+      <form action="/action_page.php">
+        Qty:
+        <input type="number" className="quantityBox" value="0" />
+      </form>
+      <div id="add-to-cart">
+        <input type="submit" value="Add To Cart" />
       </div>
     </div>
 
-    <div className="add-to-cart">
-      <input type="submit" value="Add To Cart" />
-    </div>
   </div>
 </div>
 
-<div className="replacement_items_section">
+<div id="replacement_items_section">
   <h4 className="replacement_items_header">Accessories</h4>
 
   <div className="replacement_item_listing">
@@ -518,14 +531,14 @@ export default class Desiccant_Air_Dryers extends React.Component {
 
 {/* +++++++++++++++++++ */}
 
-<div className="content-area-container">
+<div className="content-area-container2">
   <div id="individual_product_page">
     <div className="individual-product">
       <div className="individual_product_listing">
         <div className="individual_product_entry">
 
 
-          <div className="product-image">
+          <div id="product-image">
             <img src="https://www.msaironline.com/images/prodImage/1712_144x85.jpg" alt="Dryspell 125A"></img>
             <p>Catalog Number: PD232</p>
           </div>
@@ -546,30 +559,32 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Dryer includes controller with purge economizer.</li>
               <br />
-              <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+              <li><a href="/subcat=249/prodID1712"><strong>More Info >></strong></a></li>
               <br />
-              <a href="/subcat=249/prodID1712"><strong>More Info >></strong></a>
+              <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+
             </ul>
           </div>
-          <h3 className="individual-product-actual-price"><strong>$4581.26</strong></h3>
+          <h3 className="individual-product-actual-price"><strong>$4,581.26</strong></h3>
         </div>
       </div>
 
-      <div className="quantity-input-group">
-        <form action="/action_page.php">
-          Qty:
-          <input type="number" className="quantityBox" value="0" />
-        </form>
+
+    </div>
+    <div id="quantity-input-group">
+      <form action="/action_page.php">
+        Qty:
+        <input type="number" className="quantityBox" value="0" />
+      </form>
+      <div id="add-to-cart">
+        <input type="submit" value="Add To Cart" />
       </div>
     </div>
 
-    <div className="add-to-cart">
-      <input type="submit" value="Add To Cart" />
-    </div>
   </div>
 </div>
 
-<div className="replacement_items_section">
+<div id="replacement_items_section">
   <h4 className="replacement_items_header">Accessories</h4>
 
   <div className="replacement_item_listing">
@@ -603,14 +618,14 @@ export default class Desiccant_Air_Dryers extends React.Component {
 
 {/* +++++++++++++++++++++ */}
 
-<div className="content-area-container">
+<div className="content-area-container2">
   <div id="individual_product_page">
     <div className="individual-product">
       <div className="individual_product_listing">
         <div className="individual_product_entry">
 
 
-          <div className="product-image">
+          <div id="product-image">
             <img src="https://www.msaironline.com/images/prodImage/1713_144x85.jpg" alt="Dryspell 200A"></img>
             <p>Catalog Number: PD233</p>
           </div>
@@ -631,30 +646,32 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Dryer includes controller with purge economizer.</li>
               <br />
-              <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+              <li><a href="/subcat=249/prodID1713"><strong>More Info >></strong></a></li>
               <br />
-              <a href="/subcat=249/prodID1713"><strong>More Info >></strong></a>
+              <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+
             </ul>
           </div>
-          <h3 className="individual-product-actual-price"><strong>$4581.26</strong></h3>
+          <h3 className="individual-product-actual-price"><strong>$4,581.26</strong></h3>
         </div>
       </div>
 
-      <div className="quantity-input-group">
-        <form action="/action_page.php">
-          Qty:
-          <input type="number" className="quantityBox" value="0" />
-        </form>
+
+    </div>
+    <div id="quantity-input-group">
+      <form action="/action_page.php">
+        Qty:
+        <input type="number" className="quantityBox" value="0" />
+      </form>
+      <div id="add-to-cart">
+        <input type="submit" value="Add To Cart" />
       </div>
     </div>
 
-    <div className="add-to-cart">
-      <input type="submit" value="Add To Cart" />
-    </div>
   </div>
 </div>
 
-<div className="replacement_items_section">
+<div id="replacement_items_section">
   <h4 className="replacement_items_header">Accessories</h4>
 
   <div className="replacement_item_listing">
@@ -688,14 +705,14 @@ export default class Desiccant_Air_Dryers extends React.Component {
 
 {/* +++++++++++++++++++++ */}
 
-<div className="content-area-container">
+<div className="content-area-container2">
   <div id="individual_product_page">
     <div className="individual-product">
       <div className="individual_product_listing">
         <div className="individual_product_entry">
 
 
-          <div className="product-image">
+          <div id="product-image">
             <img src="https://www.msaironline.com/images/prodImage/1714_144x85.jpg" alt="Dryspell 250A"></img>
             <p>Catalog Number: PD234</p>
           </div>
@@ -716,30 +733,32 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Dryer includes controller with purge economizer.</li>
               <br />
-              <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+              <li><a href="/subcat=249/prodID1714"><strong>More Info >></strong></a></li>
               <br />
-              <a href="/subcat=249/prodID1714"><strong>More Info >></strong></a>
+              <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+
             </ul>
           </div>
-          <h3 className="individual-product-actual-price"><strong>$9970.22</strong></h3>
+          <h3 className="individual-product-actual-price"><strong>$9,970.22</strong></h3>
         </div>
       </div>
 
-      <div className="quantity-input-group">
-        <form action="/action_page.php">
-          Qty:
-          <input type="number" className="quantityBox" value="0" />
-        </form>
+
+    </div>
+    <div id="quantity-input-group">
+      <form action="/action_page.php">
+        Qty:
+        <input type="number" className="quantityBox" value="0" />
+      </form>
+      <div id="add-to-cart">
+        <input type="submit" value="Add To Cart" />
       </div>
     </div>
 
-    <div className="add-to-cart">
-      <input type="submit" value="Add To Cart" />
-    </div>
   </div>
 </div>
 
-<div className="replacement_items_section">
+<div id="replacement_items_section">
   <h4 className="replacement_items_header">Accessories</h4>
 
   <div className="replacement_item_listing">
@@ -773,14 +792,14 @@ export default class Desiccant_Air_Dryers extends React.Component {
 
 {/* +++++++++++++++++++++ */}
 
-<div className="content-area-container">
+<div className="content-area-container2">
   <div id="individual_product_page">
     <div className="individual-product">
       <div className="individual_product_listing">
         <div className="individual_product_entry">
 
 
-          <div className="product-image">
+          <div id="product-image">
             <img src="https://www.msaironline.com/images/prodImage/1715_144x85.jpg" alt="Dryspell 300A"></img>
             <p>Catalog Number: PD235</p>
           </div>
@@ -801,30 +820,32 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Dryer includes controller with purge economizer.</li>
               <br />
-              <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+              <li><a href="/subcat=249/prodID1715"><strong>More Info >></strong></a></li>
               <br />
-              <a href="/subcat=249/prodID1715"><strong>More Info >></strong></a>
+              <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+
             </ul>
           </div>
-          <h3 className="individual-product-actual-price"><strong>$11955.50</strong></h3>
+          <h3 className="individual-product-actual-price"><strong>$11,955.50</strong></h3>
         </div>
       </div>
 
-      <div className="quantity-input-group">
-        <form action="/action_page.php">
-          Qty:
-          <input type="number" className="quantityBox" value="0" />
-        </form>
+
+    </div>
+    <div id="quantity-input-group">
+      <form action="/action_page.php">
+        Qty:
+        <input type="number" className="quantityBox" value="0" />
+      </form>
+      <div id="add-to-cart">
+        <input type="submit" value="Add To Cart" />
       </div>
     </div>
 
-    <div className="add-to-cart">
-      <input type="submit" value="Add To Cart" />
-    </div>
   </div>
 </div>
 
-<div className="replacement_items_section">
+<div id="replacement_items_section">
   <h4 className="replacement_items_header">Accessories</h4>
 
   <div className="replacement_item_listing">
@@ -858,14 +879,14 @@ export default class Desiccant_Air_Dryers extends React.Component {
 
 {/* ++++++++++++++++++++++++++++ */}
 
-<div className="content-area-container">
+<div className="content-area-container2">
   <div id="individual_product_page">
     <div className="individual-product">
       <div className="individual_product_listing">
         <div className="individual_product_entry">
 
 
-          <div className="product-image">
+          <div id="product-image">
             <img src="https://www.msaironline.com/images/prodImage/1716_144x85.jpg" alt="Dryspell 375A"></img>
             <p>Catalog Number: PD236</p>
           </div>
@@ -886,30 +907,32 @@ export default class Desiccant_Air_Dryers extends React.Component {
               <br />
               <li>Dryer includes controller with purge economizer.</li>
               <br />
-              <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+              <li><a href="/subcat=249/prodID1716"><strong>More Info >></strong></a></li>
               <br />
-              <a href="/subcat=249/prodID1716"><strong>More Info >></strong></a>
+              <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+
             </ul>
           </div>
-          <h3 className="individual-product-actual-price"><strong>$13391.56</strong></h3>
+          <h3 className="individual-product-actual-price"><strong>$13,391.56</strong></h3>
         </div>
       </div>
 
-      <div className="quantity-input-group">
-        <form action="/action_page.php">
-          Qty:
-          <input type="number" className="quantityBox" value="0" />
-        </form>
+
+    </div>
+    <div id="quantity-input-group">
+      <form action="/action_page.php">
+        Qty:
+        <input type="number" className="quantityBox" value="0" />
+      </form>
+      <div id="add-to-cart">
+        <input type="submit" value="Add To Cart" />
       </div>
     </div>
 
-    <div className="add-to-cart">
-      <input type="submit" value="Add To Cart" />
-    </div>
   </div>
 </div>
 
-<div className="replacement_items_section">
+<div id="replacement_items_section">
   <h4 className="replacement_items_header">Accessories</h4>
 
   <div className="replacement_item_listing">

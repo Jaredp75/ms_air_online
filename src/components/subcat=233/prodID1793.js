@@ -72,7 +72,7 @@ export default class prodID1793 extends React.Component {
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
                   <img className="filter" src="http://www.msaironline.com/images/prodImage/1857_144x85.jpg" alt="ZFC Replacement Element"></img>
-                  <p>Catalog Number: EC135G</p>
+                  <p>Catalog Number: EC135H</p>
                 </div>
               <div className="replacement_item_details">
                 <h6 className="replacement_item_title"><a href="/subcat=233/prodID1857">ZFC Replacement Element</a></h6>

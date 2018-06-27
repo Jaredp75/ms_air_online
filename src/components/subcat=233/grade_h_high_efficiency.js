@@ -377,7 +377,7 @@ export default class Grade_H_High_Efficiency extends React.Component {
                   <br />
                   <li>ZFC Compressed Air Filter for High Efficiency Filtration.</li>
 
-                  <a href="/subcat=233/prodID1788"><strong>More Info >></strong></a>
+                  <a href="/subcat=233/prodID1789"><strong>More Info >></strong></a>
                 </ul>
               </div>
               <h4 className="individual-product-suggested-retail-price">MSRP: $408.00</h4>

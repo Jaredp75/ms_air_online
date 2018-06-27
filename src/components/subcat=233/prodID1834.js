@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
 
-export default class prodID1813 extends React.Component {
+export default class prodID1834 extends React.Component {
 
   render(){
 
@@ -21,34 +21,34 @@ export default class prodID1813 extends React.Component {
                   <div className="individual_product_entry">
 
 
-                    <div id="product-image">
-                      <img src="https://www.msaironline.com/images/prodImage/1813_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                      <p>Catalog Number: ZFC600H</p>
-                    </div>
-
-
-                    <div className="individual-product-details">
-                      <h2 className="individual-product-title">ZFC Compressed Air Filter</h2>
-                      <h4 className="product-brand-title">Zeks</h4>
-
-                    <div className="individual-product-description">
-                      <ul>
-                        <li><strong>Bottom Drain Port</strong>: 1/4"</li>
-                        <li><strong>Connection In/Out</strong>: 2"</li>
-                        <li><strong>Elements Required Per Filter</strong>: 1</li>
-                        <li><strong>Filter Length</strong>: 20.40"</li>
-                        <li><strong>Filter Width</strong>: 6.69"</li>
-                        <li><strong>Flow SCFM</strong>: 600</li>
-                        <li><strong>Side Drain Port</strong>: N/A</li>
-                        <br />
-                        <li>ZFC Compressed Air Filter for High Efficiency Filtration.</li>
-                      </ul>
-                    </div>
-                    <h4 className="individual-product-suggested-retail-price">MSRP: $1,204.00</h4>
-                    <h4 className="individual-product-savings">Savings: <strong>$421.40</strong></h4>
-                    <h3 className="individual-product-actual-price"><strong>$782.60</strong></h3>
+                  <div id="product-image">
+                    <img src="https://www.msaironline.com/images/prodImage/1834_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                    <p>Catalog Number: ZFC1600A</p>
                   </div>
+
+
+                  <div className="individual-product-details">
+                    <h2 className="individual-product-title">ZFC Compressed Air Filter</h2>
+                    <h4 className="product-brand-title">Zeks</h4>
+
+                  <div className="individual-product-description">
+                    <ul>
+                      <li><strong>Bottom Drain Port</strong>: 1/4"</li>
+                      <li><strong>Connection In/Out</strong>: 3"</li>
+                      <li><strong>Elements Required Per Filter</strong>: 1</li>
+                      <li><strong>Filter Length</strong>: 36.62"</li>
+                      <li><strong>Filter Width</strong>: 8.07"</li>
+                      <li><strong>Flow SCFM</strong>: 1600</li>
+                      <li><strong>Side Drain Port</strong>: N/A</li>
+                      <br />
+                      <li>ZFC Compressed Air Filter for Activated Carbon.</li>
+                    </ul>
+                  </div>
+                    <h4 className="individual-product-suggested-retail-price">MSRP: $2,155.00</h4>
+                    <h4 className="individual-product-savings">Savings: <strong>$754.25</strong></h4>
+                    <h3 className="individual-product-actual-price"><strong>$1,400.75</strong></h3>
                 </div>
+              </div>
 
 
               </div>
@@ -71,19 +71,19 @@ export default class prodID1813 extends React.Component {
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1877_144x85.jpg" alt="ZFC Replacement Element"></img>
-                  <p>Catalog Number: EC600H</p>
+                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1898_144x85.jpg" alt="ZFC Replacement Element"></img>
+                  <p>Catalog Number: EC1600A</p>
                 </div>
               <div className="replacement_item_details">
-                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1877">ZFC Replacement Element</a></h6>
+                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1898">ZFC Replacement Element</a></h6>
                 <h6 className="replacement_item_brand_name">Zeks</h6>
                 <div className="individual-product-description">
                   <ul>
-                    <li>ZFC Replacement Element for ZFC600</li>
+                    <li>ZFC Replacement Element for ZFC1600</li>
                   </ul>
                 </div>
-                <h6 className="individual-product-suggested-retail-price">MSRP: $273.00</h6>
-                <h6 className="replacement_item_actual_price"><strong>$177.45</strong></h6>
+                <h6 className="individual-product-suggested-retail-price">MSRP: $519.00</h6>
+                <h6 className="replacement_item_actual_price"><strong>$337.35</strong></h6>
               </div>
             </div>
           </div>

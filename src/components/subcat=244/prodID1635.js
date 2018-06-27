@@ -65,7 +65,7 @@ export default class prodID1640 extends React.Component {
             </div>
           </div>
 
-          <div className="replacement_items_section">
+          <div id="replacement_items_section">
             <h4 className="replacement_items_header">Accessories</h4>
 
             <div className="replacement_item_listing">

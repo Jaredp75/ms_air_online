@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
 
-export default class prodID1856 extends React.Component {
+export default class prodID1889 extends React.Component {
 
   render(){
 
@@ -22,8 +22,8 @@ export default class prodID1856 extends React.Component {
 
 
                     <div id="product-image">
-                      <img src="https://www.msaironline.com/images/prodImage/1856_144x85.jpg" alt="ZFC Replacement Element"></img>
-                      <p>Catalog Number: EC135G</p>
+                      <img src="https://www.msaironline.com/images/prodImage/1889_144x85.jpg" alt="ZFC Replacement Element"></img>
+                      <p>Catalog Number: EC1080H</p>
                     </div>
 
 
@@ -41,14 +41,14 @@ export default class prodID1856 extends React.Component {
                         {/* <li><strong>Flow SCFM</strong>: 22</li> */}
                         {/* <li><strong>Side Drain Port</strong>: N/A</li> */}
                         {/* <br /> */}
-                        <li>ZFC Replacement Element for ZFC135</li>
+                        <li>ZFC Replacement Element for ZFC1080</li>
                         {/* <br /> */}
                         {/* <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li> */}
                       </ul>
                     </div>
-                    <h4 className="individual-product-suggested-retail-price">MSRP: $105.00</h4>
-                    <h4 className="individual-product-savings">Savings: <strong>$36.75</strong></h4>
-                    <h3 className="individual-product-actual-price"><strong>$68.25</strong></h3>
+                    <h4 className="individual-product-suggested-retail-price">MSRP: $379.00</h4>
+                    <h4 className="individual-product-savings">Savings: <strong>$132.65</strong></h4>
+                    <h3 className="individual-product-actual-price"><strong>$246.35</strong></h3>
                   </div>
                 </div>
 
@@ -73,19 +73,19 @@ export default class prodID1856 extends React.Component {
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1792_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                  <p>Catalog Number: ZFC135G</p>
+                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1825_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                  <p>Catalog Number: ZFC1080H</p>
                 </div>
               <div className="replacement_item_details">
-                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1792">ZFC Compressed Air Filter</a></h6>
+                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1825">ZFC Compressed Air Filter</a></h6>
                 <h6 className="replacement_item_brand_name">Zeks</h6>
                 <div className="individual-product-description">
                   <ul>
-                    <li>ZFC Compressed Air Filter for General Purpose Filtration.</li>
+                    <li>ZFC Compressed Air Filter for High Efficiency Filtration.</li>
                   </ul>
                 </div>
-                <h6 className="individual-product-suggested-retail-price">MSRP: $464.00</h6>
-                <h6 className="replacement_item_actual_price"><strong>$301.60</strong></h6>
+                <h6 className="individual-product-suggested-retail-price">MSRP: $1,717.00</h6>
+                <h6 className="replacement_item_actual_price"><strong>$1,116.05</strong></h6>
               </div>
             </div>
           </div>

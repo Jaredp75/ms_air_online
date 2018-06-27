@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
 
-export default class prodID1856 extends React.Component {
+export default class prodID1857 extends React.Component {
 
   render(){
 
@@ -22,8 +22,8 @@ export default class prodID1856 extends React.Component {
 
 
                     <div id="product-image">
-                      <img src="https://www.msaironline.com/images/prodImage/1856_144x85.jpg" alt="ZFC Replacement Element"></img>
-                      <p>Catalog Number: EC135G</p>
+                      <img src="https://www.msaironline.com/images/prodImage/1857_144x85.jpg" alt="ZFC Replacement Element"></img>
+                      <p>Catalog Number: EC135H</p>
                     </div>
 
 
@@ -73,15 +73,15 @@ export default class prodID1856 extends React.Component {
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1792_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
-                  <p>Catalog Number: ZFC135G</p>
+                  <img className="filter" src="http://www.msaironline.com/images/prodImage/1793_144x85.jpg" alt="ZFC Compressed Air Filter"></img>
+                  <p>Catalog Number: ZFC135H</p>
                 </div>
               <div className="replacement_item_details">
-                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1792">ZFC Compressed Air Filter</a></h6>
+                <h6 className="replacement_item_title"><a href="/subcat=233/prodID1793">ZFC Compressed Air Filter</a></h6>
                 <h6 className="replacement_item_brand_name">Zeks</h6>
                 <div className="individual-product-description">
                   <ul>
-                    <li>ZFC Compressed Air Filter for General Purpose Filtration.</li>
+                    <li>ZFC Compressed Air Filter for High Efficiency Filtration.</li>
                   </ul>
                 </div>
                 <h6 className="individual-product-suggested-retail-price">MSRP: $464.00</h6>
