@@ -14,7 +14,7 @@ export default class prodID1633 extends React.Component {
         <div className = 'content-area-container'>
 
 
-          <div className="content-area-container2">
+          <div className="content-area-container3">
             <div id="individual_product_page">
               <div className="individual-product">
                 <div className="individual_product_listing">
@@ -38,7 +38,7 @@ export default class prodID1633 extends React.Component {
                         <li><strong>HP</strong>: 15</li>
                         <li><strong>Voltage</strong>: 208/230/460V</li>
                         <br />
-                        <li>Floor mounted 15HP rotary screw air compressor, air cooled VSD</li>
+                        <li>Floor mounted 15HP rotary screw air compressor,<br />air cooled VSD</li>
                         <br />
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                       </ul>
@@ -64,24 +64,24 @@ export default class prodID1633 extends React.Component {
             </div>
           </div>
 
-          <div id="replacement_items_section">
-            {/* <h4 className="replacement_items_header">Accessories</h4> */}
+          {/* <div id="replacement_items_section">
+            <h4 className="replacement_items_header">Accessories</h4>
 
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img src="../logoSullivan.png" alt="Sullivan-Palatek logo"></img>
+                  <img src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
                 </div>
               <div className="replacement_item_details">
-                <h6 className="replacement_item_title"><a href="https://www.sullivan-palatek.com/" rel="noopener noreferrer" target="_blank" alt="Sullivan-Palatek">Sullivan-Palatek</a></h6>
-                {/* <h6 className="replacement_item_brand_name">Trident</h6> */}
-                {/* <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6> */}
+                <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
+                <h6 className="replacement_item_brand_name">Trident</h6>
+                <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
               </div>
             </div>
           </div>
 
 
-      </div>
+      </div> */}
     </div>
 
 

@@ -14,7 +14,9 @@ export default class prodID8 extends React.Component {
     return(
       <div>
 
-        <div className="content-area-container3">
+      <div className = 'content-area-container'>
+
+        <div className="content-area-container2">
           <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
@@ -23,16 +25,18 @@ export default class prodID8 extends React.Component {
 
             <div id="product-image">
               <img src="https://www.msaironline.com/images/prodImage/8_144x85.jpg" alt="Quick Connect 500 Vacuum Wall Outlet"></img>
-              <p>Catalog Number: 64-01-5002</p>
+              <p>Catalog Number:<br />64-01-5002</p>
             </div>
 
 
             <div className="individual-product-details">
-              <h2 className="individual-product-title">Quick Connect 500 Vacuum Wall Outlet</h2>
+              <h2 className="individual-product-title">Quick Connect 500 Vacuum<br />Wall Outlet</h2>
               <h4 className="product-brand-title">Chemetron</h4>
               <h4 className="individual-product-suggested-retail-price">MSRP: $86.00</h4>
               <h4 className="individual-product-savings">Savings: <strong>$37.62</strong></h4>
               <h3 className="individual-product-actual-price"><strong>$48.38</strong></h3>
+              <br />
+              <br />
               <div className="individual-product-description">
                 <ul>
                   <li><strong>Gas Type</strong>: Vacuum</li>
@@ -42,7 +46,7 @@ export default class prodID8 extends React.Component {
                   <br />
                   <li>Quick Connect Style 500 Series</li>
                   <br />
-                  <li><b>CHEMETRON WALL OUTLET</b> - Quick Connect Style 500 Series<br /> Quick-Connect Outlet Stations are complete with rough-in box, copper pigtail, test plug, plaster shield, valve, secondary check, and finish cover plate with latching mechanism. Each outlet is a modular design, and outlets are field gangable.</li>
+                  <li><b>CHEMETRON WALL OUTLET</b><br />Quick-Connect Outlet Stations are complete with rough-in box,<br />copper pigtail, test plug, plaster shield, valve, secondary check,<br />and finish cover plate with latching mechanism.<br /><br />Each outlet is a modular design, and outlets are field gangable.</li>
                 </ul>
 
 
@@ -68,7 +72,7 @@ export default class prodID8 extends React.Component {
 
     <div id="quantity-input-group">
       <form action="/action_page.php">
-        Qty:
+        Quantity:
         <input type="number" className="quantityBox" value="0" />
       </form>
       <div id="add-to-cart">
@@ -88,10 +92,10 @@ export default class prodID8 extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="https://www.msaironline.com/images/prodImage/11_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Medical Air Wall Outlet"></img>
+            <img src="https://www.msaironline.com/images/prodImage/11_144x85.jpg" alt="Quick Connect 500 Medical Air Wall Outlet"></img>
           </div>
           <div className="replacement_item_details">
-            <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Medical Air Wall Outlet</a></h6>
+            <h6 className="replacement_item_title"><a href="../product_pages/prodID8">Quick Connect 500 Medical Air Wall Outlet</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
@@ -101,10 +105,10 @@ export default class prodID8 extends React.Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="https://www.msaironline.com/images/prodImage/47_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Vacuum Bottle Slide Assembly"></img>
+            <img src="https://www.msaironline.com/images/prodImage/47_144x85.jpg" alt="Quick Connect 500 Vacuum Bottle Slide Assembly"></img>
           </div>
           <div className="replacement_item_details">
-            <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Vacuum Bottle Slide Assembly</a></h6>
+            <h6 className="replacement_item_title"><a href="../product_pages/prodID8">Quick Connect 500 Vacuum Bottle Slide Assembly</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
@@ -435,6 +439,7 @@ export default class prodID8 extends React.Component {
               </div>
 
       </div>
+    </div>
 
 
     )

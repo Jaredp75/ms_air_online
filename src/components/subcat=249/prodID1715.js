@@ -15,14 +15,14 @@ export default class prodID1715 extends React.Component {
 
 
 
-          <div className="content-area-container">
+          <div className="content-area-container2">
             <div id="individual_product_page">
               <div className="individual-product">
                 <div className="individual_product_listing">
                   <div className="individual_product_entry">
 
 
-                    <div className="product-image">
+                    <div id="product-image">
                       <img src="https://www.msaironline.com/images/prodImage/1715_144x85.jpg" alt="Dryspell 300A"></img>
                       <p>Catalog Number: PD235</p>
                     </div>
@@ -46,25 +46,36 @@ export default class prodID1715 extends React.Component {
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                       </ul>
                     </div>
-                    <h3 className="individual-product-actual-price"><strong>$11955.50</strong></h3>
+                    <h3 className="individual-product-actual-price"><strong>$11,955.50</strong></h3>
+                    <br />
+                    <br />
+                    <div className="trident_fliers">
+                      <h6><strong>Files</strong>:</h6>
+                        <div className="flier_name"><a href="http://www.msaironline.com/files/26.pdf" target="_blank" rel="noopener noreferrer"><img src="http://www.msaironline.com/images/pdf.jpg" alt="pdf"></img></a></div>
+                          <h6><a href="http://www.msaironline.com/files/26.pdf" target="_blank" rel="noopener noreferrer">Dryspell Plus Brochure</a></h6>
+                          <br />
+                        <div className="flier_name"><a href="http://www.msaironline.com/files/37.pdf" target="_blank" rel="noopener noreferrer"><img src="http://www.msaironline.com/images/pdf.jpg" alt="pdf"></img></a></div>
+                          <h6><a href="http://www.msaironline.com/files/37.pdf" target="_blank" rel="noopener noreferrer">Dryspell Plus 300 Fact Sheet R1</a></h6>
+                    </div>
                   </div>
                 </div>
 
-                <div className="quantity-input-group">
-                  <form action="/action_page.php">
-                    Qty:
-                    <input type="number" className="quantityBox" value="0" />
-                  </form>
+
+              </div>
+              <div id="quantity-input-group">
+                <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox" value="0" />
+                </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
                 </div>
               </div>
 
-              <div className="add-to-cart">
-                <input type="submit" value="Add To Cart" />
-              </div>
             </div>
           </div>
 
-          <div className="replacement_items_section">
+          <div id="replacement_items_section">
             <h4 className="replacement_items_header">Accessories</h4>
 
             <div className="replacement_item_listing">

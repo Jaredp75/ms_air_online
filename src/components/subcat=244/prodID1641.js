@@ -14,7 +14,7 @@ export default class prodID1641 extends React.Component {
         <div className = 'content-area-container'>
 
 
-          <div className="content-area-container2">
+          <div className="content-area-container3">
             <div id="individual_product_page">
               <div className="individual-product">
                 <div className="individual_product_listing">
@@ -38,7 +38,7 @@ export default class prodID1641 extends React.Component {
                         <li><strong>HP</strong>: 100</li>
                         <li><strong>Voltage</strong>: 208/230/460V</li>
                         <br />
-                        <li>floor mounted 100HP rotary screw air compressor, air cooled VSD</li>
+                        <li>floor mounted 100HP rotary screw air compressor,<br />air cooled VSD</li>
                         <br />
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                       </ul>
@@ -64,7 +64,7 @@ export default class prodID1641 extends React.Component {
             </div>
           </div>
 
-          <div id="replacement_items_section">
+          {/* <div id="replacement_items_section">
             <h4 className="replacement_items_header">Accessories</h4>
 
             <div className="replacement_item_listing">
@@ -81,7 +81,7 @@ export default class prodID1641 extends React.Component {
           </div>
 
 
-      </div>
+      </div> */}
     </div>
 
 

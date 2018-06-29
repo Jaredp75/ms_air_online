@@ -37,7 +37,7 @@ export default class Air_Compressors extends React.Component {
                         <li><strong>HP</strong>: 15</li>
                         <li><strong>Voltage</strong>: 208/230/460V</li>
                         <br />
-                        <li>Floor mounted 15HP rotary screw air compressor, air cooled VSD</li>
+                        <li>Floor mounted 15HP rotary screw air compressor,<br />air cooled VSD</li>
                         <br />
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                         <br />
@@ -81,6 +81,19 @@ export default class Air_Compressors extends React.Component {
             </div>
           </div>
 
+          <div className="replacement_item_listing">
+            <div className="replacement_item_entry">
+              <div className="replacement_item_image">
+                <img className="thumbnail" src="http://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
+              </div>
+            <div className="replacement_item_details">
+              <h6 className="replacement_item_title"><a href="/prodID8">60 SCFM Particulate Filter</a></h6>
+              <h6 className="replacement_item_brand_name">Trident</h6>
+              <h6 className="replacement_item_actual_price"><strong>$226.40</strong></h6>
+            </div>
+          </div>
+        </div>
+
 
       </div>
     </div>
@@ -111,7 +124,7 @@ export default class Air_Compressors extends React.Component {
                         <li><strong>SCFM</strong>: 20</li>
                         <li><strong>Voltage</strong>: 208/230/460V</li>
                         <br />
-                        <li>Floor mounted 25HP rotary screw air compressor, air cooled VSD</li>
+                        <li>Floor mounted 25HP rotary screw air compressor,<br />air cooled VSD</li>
                         <br />
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                         <br />
@@ -185,7 +198,7 @@ export default class Air_Compressors extends React.Component {
                   <li><strong>SCFM</strong>: 25</li>
                   <li><strong>Voltage</strong>: 208/230/460V</li>
                   <br />
-                  <li>Floor mounted 25HP rotary screw air compressor, air cooled VSD</li>
+                  <li>Floor mounted 25HP rotary screw air compressor,<br />air cooled VSD</li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
@@ -259,7 +272,7 @@ export default class Air_Compressors extends React.Component {
                   <li><strong>SCFM</strong>: 30</li>
                   <li><strong>Voltage</strong>: 208/230/460V</li>
                   <br />
-                  <li>Floor mounted 30HP rotary screw air compressor, air cooled VSD</li>
+                  <li>Floor mounted 30HP rotary screw air compressor,<br />air cooled VSD</li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
@@ -333,7 +346,7 @@ export default class Air_Compressors extends React.Component {
                   <li><strong>SCFM</strong>: 40</li>
                   <li><strong>Voltage</strong>: 208/230/460V</li>
                   <br />
-                  <li>Floor mounted 40HP rotary screw air compressor, air cooled VSD</li>
+                  <li>Floor mounted 40HP rotary screw air compressor,<br />air cooled VSD</li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
@@ -407,7 +420,7 @@ export default class Air_Compressors extends React.Component {
                   <li><strong>SCFM</strong>: 50</li>
                   <li><strong>Voltage</strong>: 208/230/460V</li>
                   <br />
-                  <li>Floor mounted 50HP rotary screw air compressor, air cooled VSD</li>
+                  <li>Floor mounted 50HP rotary screw air compressor,<br />air cooled VSD</li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
@@ -481,7 +494,7 @@ export default class Air_Compressors extends React.Component {
                   <li><strong>SCFM</strong>: 60</li>
                   <li><strong>Voltage</strong>: 208/230/460V</li>
                   <br />
-                  <li>Floor mounted 60HP rotary screw air compressor, air cooled VSD</li>
+                  <li>Floor mounted 60HP rotary screw air compressor,<br />air cooled VSD</li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
@@ -555,7 +568,7 @@ export default class Air_Compressors extends React.Component {
                   <li><strong>SCFM</strong>: 100</li>
                   <li><strong>Voltage</strong>: 208/230/460V</li>
                   <br />
-                  <li>Floor mounted 75HP rotary screw air compressor, air cooled VSD</li>
+                  <li>Floor mounted 75HP rotary screw air compressor,<br />air cooled VSD</li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
@@ -629,7 +642,7 @@ export default class Air_Compressors extends React.Component {
                   <li><strong>SCFM</strong>: 100</li>
                   <li><strong>Voltage</strong>: 208/230/460V</li>
                   <br />
-                  <li>Floor mounted 100HP rotary screw air compressor, air cooled VSD</li>
+                  <li>Floor mounted 100HP rotary screw air compressor,<br />air cooled VSD</li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
@@ -703,7 +716,7 @@ export default class Air_Compressors extends React.Component {
               <li><strong>SCFM</strong>: 125</li>
               <li><strong>Voltage</strong>: 208/230/460V</li>
               <br />
-              <li>Floor mounted 125HP rotary screw air compressor, air cooled VSD</li>
+              <li>Floor mounted 125HP rotary screw air compressor,<br />air cooled VSD</li>
               <br />
               <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
               <br />

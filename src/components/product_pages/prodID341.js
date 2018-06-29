@@ -14,7 +14,9 @@ export default class prodID341 extends React.Component {
     return(
       <div>
 
-        <div className="content-area-container3">
+        <div className = 'content-area-container'>
+
+        <div className="content-area-container2">
           <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
@@ -23,16 +25,18 @@ export default class prodID341 extends React.Component {
 
             <div id="product-image">
               <img src="https://www.msaironline.com/images/prodImage/341_144x85.jpg" alt="Quick Connect 500 Oxygen Outlet - Ohmeda Compatible /w New Style Cover"></img>
-              <p>Catalog Number: 64-02-5001P</p>
+              <p>Catalog Number:<br />64-02-5001P</p>
             </div>
 
 
             <div className="individual-product-details">
-              <h2 className="individual-product-title">Quick Connect 500 Oxygen Outlet - Ohmeda Compatible /w New Style Cover</h2>
+              <h2 className="individual-product-title">Quick Connect 500 Oxygen<br />Outlet- Ohmeda Compatible<br />/w New StyleCover</h2>
               <h4 className="product-brand-title">Chemetron</h4>
               <h4 className="individual-product-suggested-retail-price">MSRP: $78.00</h4>
               <h4 className="individual-product-savings">Savings: <strong>$34.12</strong></h4>
               <h3 className="individual-product-actual-price"><strong>$43.88</strong></h3>
+              <br />
+              <br />
               <div className="individual-product-description">
                 <ul>
                   <li><strong>Compatibility</strong>: Ohmeda</li>
@@ -42,7 +46,7 @@ export default class prodID341 extends React.Component {
                   <li><strong>Series</strong>: Chemetron 500</li>
                   <li><strong>Style</strong>: Quick Connect/Connect2</li>
                   <br />
-                  <li><b>CONNECT2 WALL OUTLET</b> - Quick Connect Style 500 Series&#65430; Ohmeda Compatible New Style Cover Plate<br /> The Connect2 Quick-Connect Outlet allows use of either Chemetron style or Ohmeda style adapters in the same outlet. Quick-Connect Outlet Stations are complete with rough-in box, copper pigtail for brazing, test plug, plaster shield, valve, secondary check, and finish cover plate with latching mechanism. Each outlet is a modular design, and outlets are field gangable.</li>
+                  <li><b>CONNECT2 WALL OUTLET</b><br />Quick Connect Style 500 Series<br /><br />Ohmeda Compatible New Style Cover Plate<br />The Connect2 Quick-Connect Outlet allows use<br />of either Chemetron style or Ohmeda style adapters<br />in the same outlet.<br /><br />Quick-Connect Outlet Stations are complete with<br />rough-in box, copper pigtail for brazing, test plug, plaster<br />shield, valve, secondary check, and finish cover plate<br />with latching mechanism.<br /><br />Each outlet is a modular design, and outlets are<br />field gangable.</li>
                 </ul>
 
 
@@ -54,7 +58,7 @@ export default class prodID341 extends React.Component {
         </div>
         <div id="quantity-input-group">
           <form action="/action_page.php">
-            Qty:
+            Quantity:
             <input type="number" className="quantityBox" value="0" />
           </form>
           <div id="add-to-cart">
@@ -408,6 +412,7 @@ export default class prodID341 extends React.Component {
               </div>
 
       </div>
+    </div>
 
 
     )

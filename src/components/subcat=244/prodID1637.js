@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
 
-export default class prodID1640 extends React.Component {
+export default class prodID1637 extends React.Component {
 
   render(){
 
@@ -14,7 +14,7 @@ export default class prodID1640 extends React.Component {
         <div className = 'content-area-container'>
 
 
-          <div className="content-area-container2">
+          <div className="content-area-container3">
             <div id="individual_product_page">
               <div className="individual-product">
                 <div className="individual_product_listing">
@@ -37,7 +37,7 @@ export default class prodID1640 extends React.Component {
                         <li><strong>SCFM</strong>: 40</li>
                         <li><strong>Voltage</strong>: 208/230/460V</li>
                         <br />
-                        <li>Floor mounted 40HP rotary screw air compressor, air cooled VSD</li>
+                        <li>Floor mounted 40HP rotary screw air compressor,<br />air cooled VSD</li>
                         <br />
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                         <br />
@@ -65,7 +65,7 @@ export default class prodID1640 extends React.Component {
             </div>
           </div>
 
-          <div id="replacement_items_section">
+          {/* <div id="replacement_items_section">
             <h4 className="replacement_items_header">Accessories</h4>
 
             <div className="replacement_item_listing">
@@ -82,7 +82,7 @@ export default class prodID1640 extends React.Component {
           </div>
 
 
-      </div>
+      </div> */}
     </div>
 
 

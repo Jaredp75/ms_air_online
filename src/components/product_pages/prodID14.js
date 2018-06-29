@@ -14,7 +14,9 @@ export default class prodID14 extends React.Component {
     return(
       <div>
 
-        <div className="content-area-container3">
+        <div className = 'content-area-container'>
+
+        <div className="content-area-container2">
           <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
@@ -23,16 +25,18 @@ export default class prodID14 extends React.Component {
 
             <div id="product-image">
               <img src="https://www.msaironline.com/images/prodImage/14_144x85.jpg" alt="Quick Connect 500 Oxygen Wall Outlet"></img>
-              <p>Catalog Number: 64-01-5001</p>
+              <p>Catalog Number:<br />64-01-5001</p>
             </div>
 
 
             <div className="individual-product-details">
-              <h2 className="individual-product-title">Quick Connect 500 Oxygen Wall Outlet</h2>
+              <h2 className="individual-product-title">Quick Connect 500 Oxygen<br />Wall Outlet</h2>
               <h4 className="product-brand-title">Chemetron</h4>
               <h4 className="individual-product-suggested-retail-price">MSRP: $86.00</h4>
               <h4 className="individual-product-savings">Savings: <strong>$37.62</strong></h4>
               <h3 className="individual-product-actual-price"><strong>$48.38</strong></h3>
+              <br />
+              <br />
               <div className="individual-product-description">
                 <ul>
                   <li><strong>Gas Type</strong>: O2</li>
@@ -40,7 +44,7 @@ export default class prodID14 extends React.Component {
                   <li><strong>Series</strong>: Chemetron 500</li>
                   <li><strong>Style</strong>: Quick Connect</li>
                   <br />
-                  <li><b>CHEMETRON WALL OUTLET</b> - Quick Connect Style 500 Series<br /> Quick-Connect Outlet Stations are complete with rough-in box, copper pigtail, test plug, plaster shield, valve, secondary check, and finish cover plate with latching mechanism. Each outlet is a modular design, and outlets are field gangable.</li>
+                  <li><b>CHEMETRON WALL OUTLET</b><br />Quick-Connect Outlet Stations are complete with rough-in<br />box, copper pigtail, test plug, plaster shield, valve, secondary<br />check, and finish cover plate with latching mechanism.<br /><br />Each outlet is a modular design, and outlets are field gangable.</li>
                 </ul>
 
 
@@ -52,7 +56,7 @@ export default class prodID14 extends React.Component {
         </div>
         <div id="quantity-input-group">
           <form action="/action_page.php">
-            Qty:
+            Quantity:
             <input type="number" className="quantityBox" value="0" />
           </form>
           <div id="add-to-cart">
@@ -406,6 +410,7 @@ export default class prodID14 extends React.Component {
               </div>
 
       </div>
+    </div>
 
 
     )

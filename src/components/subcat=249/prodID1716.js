@@ -15,14 +15,14 @@ export default class prodID1716 extends React.Component {
 
 
 
-          <div className="content-area-container">
+          <div className="content-area-container2">
             <div id="individual_product_page">
               <div className="individual-product">
                 <div className="individual_product_listing">
                   <div className="individual_product_entry">
 
 
-                    <div className="product-image">
+                    <div id="product-image">
                       <img src="https://www.msaironline.com/images/prodImage/1716_144x85.jpg" alt="Dryspell 375A"></img>
                       <p>Catalog Number: PD236</p>
                     </div>
@@ -46,25 +46,36 @@ export default class prodID1716 extends React.Component {
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                       </ul>
                     </div>
-                    <h3 className="individual-product-actual-price"><strong>$13391.56</strong></h3>
+                    <h3 className="individual-product-actual-price"><strong>$13,391.56</strong></h3>
+                    <br />
+                    <br />
+                    <div className="trident_fliers">
+                      <h6><strong>Files</strong>:</h6>
+                        <div className="flier_name"><a href="http://www.msaironline.com/files/26.pdf" target="_blank" rel="noopener noreferrer"><img src="http://www.msaironline.com/images/pdf.jpg" alt="pdf"></img></a></div>
+                          <h6><a href="http://www.msaironline.com/files/26.pdf" target="_blank" rel="noopener noreferrer">Dryspell Plus Brochure</a></h6>
+                          <br />
+                        <div className="flier_name"><a href="http://www.msaironline.com/files/38.pdf" target="_blank" rel="noopener noreferrer"><img src="http://www.msaironline.com/images/pdf.jpg" alt="pdf"></img></a></div>
+                          <h6><a href="http://www.msaironline.com/files/38.pdf" target="_blank" rel="noopener noreferrer">Dryspell Plus 375 Fact Sheet R1</a></h6>
+                    </div>
                   </div>
                 </div>
 
-                <div className="quantity-input-group">
-                  <form action="/action_page.php">
-                    Qty:
-                    <input type="number" className="quantityBox" value="0" />
-                  </form>
+
+              </div>
+              <div id="quantity-input-group">
+                <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox" value="0" />
+                </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
                 </div>
               </div>
 
-              <div className="add-to-cart">
-                <input type="submit" value="Add To Cart" />
-              </div>
             </div>
           </div>
 
-          <div className="replacement_items_section">
+          <div id="replacement_items_section">
             <h4 className="replacement_items_header">Accessories</h4>
 
             <div className="replacement_item_listing">
@@ -73,7 +84,7 @@ export default class prodID1716 extends React.Component {
                   <img src="http://www.msaironline.com/images/prodImage/1704_144x85.jpg" alt="350 SCFM Particulate Filter"></img>
                 </div>
                 <div className="replacement_item_details">
-                  <h6 className="replacement_item_title"><a href="/prodID8">350 SCFM Particulate Filter</a></h6>
+                  <h6 className="replacement_item_title"><a href="../product_pages/prodID8">350 SCFM Particulate Filter</a></h6>
                   <h6 className="replacement_item_brand_name">Trident</h6>
                   <h6 className="replacement_item_actual_price"><strong>$430.18</strong></h6>
                 </div>
@@ -83,10 +94,10 @@ export default class prodID1716 extends React.Component {
             <div className="replacement_item_listing">
               <div className="replacement_item_entry">
                 <div className="replacement_item_image">
-                  <img src="http://www.msaironline.com/images/prodImage/1720_144x85.jpg" width="144" height="85" alt="350 SCFM Coalescing Filter"></img>
+                  <img src="http://www.msaironline.com/images/prodImage/1720_144x85.jpg" alt="350 SCFM Coalescing Filter"></img>
                 </div>
                 <div className="replacement_item_details">
-                  <h6 className="replacement_item_title"><a href="/prodID8">350 SCFM Coalescing Filter</a></h6>
+                  <h6 className="replacement_item_title"><a href="../product_pages/prodID8">350 SCFM Coalescing Filter</a></h6>
                   <h6 className="replacement_item_brand_name">Trident</h6>
                   <h6 className="replacement_item_actual_price"><strong>$430.18</strong></h6>
                 </div>
