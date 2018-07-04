@@ -14,7 +14,8 @@ export default class prodID1460 extends React.Component {
     return(
       <div>
 
-        <div className="content-area-container3">
+      <div className = 'content-area-container'>
+        <div className="content-area-container2">
           <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
@@ -44,7 +45,7 @@ export default class prodID1460 extends React.Component {
                   {/* <li><strong>RPM</strong>: 1050</li> */}
                   {/* <li><strong>Size</strong>: 1.8L</li> */}
                   {/* <br /> */}
-                  <li>Includes 2-gallon mixing jug, 1 gallon of SlugBuster concentrate and hand pump dispenser</li>
+                  <li>Includes 2-gallon mixing jug, 1 gallon of SlugBuster concentrate<br />and hand pump dispenser</li>
                   {/* <br /> */}
                   {/* <p>Features:</p> */}
                   {/* <li>100% water free.</li> */}
@@ -418,6 +419,7 @@ export default class prodID1460 extends React.Component {
               </div>
 
       </div>
+    </div>
 
 
     )

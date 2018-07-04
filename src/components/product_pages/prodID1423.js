@@ -14,7 +14,8 @@ export default class prodID1423 extends React.Component {
     return(
       <div>
 
-        <div className="content-area-container3">
+      <div className = 'content-area-container'>
+        <div className="content-area-container2">
           <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
@@ -23,12 +24,12 @@ export default class prodID1423 extends React.Component {
 
             <div id="product-image">
               <img src="https://www.msaironline.com/images/prodImage/1423_144x85.jpg" width="144px" alt="Bulldog QT 1 Dental Vacuum"></img>
-              <p>Catalog Number: 809E.0800.1</p>
+              <p>Catalog Number:<br />809E.0800.1</p>
             </div>
 
 
             <div className="individual-product-details">
-              <h2 className="individual-product-title">Bulldog QT 1 Dental Vacuum</h2>
+              <h2 className="individual-product-title">Bulldog QT 1 Dental<br />Vacuum</h2>
               <h4 className="product-brand-title">Ramvac</h4>
               <h4 className="individual-product-suggested-retail-price">MSRP: $10,740.22</h4>
               <h4 className="individual-product-savings">Savings: <strong>$2,470.42</strong></h4>
@@ -44,13 +45,13 @@ export default class prodID1423 extends React.Component {
                   <li><strong>RPM</strong>: 800</li>
                   <li><strong>Size</strong>: 0.9L</li>
                   <br />
-                  <li>Bulldog QT dental dry vacuums give you lots of power but take little space. Models for one and two doctors easily fit the same footprint as a twin water ring pump. Bulldog QTs create twice the useful performance per horsepower as water ring pumps or turbines and outlast them all, many times over. Bulldogs are protected by RAMVAC exclusive 10 year, no-fail, no-wear-out pump warranty. If you've always wanted a compact, powerful waterless dental vacuum that's built for the life of your practice, check out the RAMVAC Bulldog QT. This pup packs the power.</li>
-                  <p>Features</p>
+                  <li>Bulldog QT dental dry vacuums give you lots of power but take<br />little space. Models for one and two doctors easily fit the same<br />footprint as a twin water ring pump. Bulldog QTs create twice<br />the useful performance per horsepower as water ring pumps<br />or turbines and outlast them all, many times over.<br /><br />Bulldogs are protected by RAMVAC exclusive 10 year, no-fail,<br />no-wear-out pump warranty. If you've always wanted a compact,<br />powerful waterless dental vacuum that's built for the life of your<br />practice, check out the RAMVAC Bulldog QT. This pup packs<br />the power.</li><br />
+                  <p><strong>Features</strong></p>
 
                     <li>100% water free.</li>
                     <li><b>10 year no-fail, no wear-out pump warranty.</b></li>
                     <li>Once a year maintenance.</li>
-                    <li>Complete system UL 544 (Dental Equipment) Listed and FDA registered.</li>
+                    <li>Complete system UL 544 (Dental Equipment) Listed and<br />FDA registered.</li>
                     <li>Federal users please call direct.</li>
                     <li>Please call for Pre-Installation Guide and/or bid specifications.</li>
                 </ul>
@@ -64,7 +65,7 @@ export default class prodID1423 extends React.Component {
         </div>
         <div id="quantity-input-group">
           <form action="/action_page.php">
-            Qty:
+            Quantity:
             <input type="number" className="quantityBox" value="0" />
           </form>
           <div id="add-to-cart">
@@ -419,6 +420,7 @@ export default class prodID1423 extends React.Component {
               </div>
 
       </div>
+    </div>
 
 
     )

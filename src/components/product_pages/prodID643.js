@@ -14,7 +14,9 @@ export default class prodID643 extends React.Component {
     return(
       <div>
 
-        <div className="content-area-container3">
+
+        <div className = 'content-area-container'>
+        <div className="content-area-container2">
           <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
@@ -23,7 +25,7 @@ export default class prodID643 extends React.Component {
 
             <div id="product-image">
               <img src="https://www.msaironline.com/images/prodImage/643_144x85.jpg" alt="Oxygen Face Plate Assembly"></img>
-              <p>Catalog Number: 64-92-0176</p>
+              <p>Catalog Number:<br />64-92-0176</p>
             </div>
 
 
@@ -52,7 +54,7 @@ export default class prodID643 extends React.Component {
         </div>
         <div id="quantity-input-group">
           <form action="/action_page.php">
-            Qty:
+            Quantity:
             <input type="number" className="quantityBox" value="0" />
           </form>
           <div id="add-to-cart">
@@ -383,6 +385,7 @@ export default class prodID643 extends React.Component {
               </div>
 
       </div>
+    </div>
 
 
     )

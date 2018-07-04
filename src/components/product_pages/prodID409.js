@@ -14,7 +14,9 @@ export default class prodID409 extends React.Component {
     return(
       <div>
 
-        <div className="content-area-container3">
+        <div className = 'content-area-container'>
+
+        <div className="content-area-container2">
           <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
@@ -23,10 +25,10 @@ export default class prodID409 extends React.Component {
 
             <div id="product-image">
               <img src="https://www.msaironline.com/images/prodImage/409_144x85.jpg" alt="product-placeholder"></img>
-              <p>Catalog Number: 64-20-0001</p>
+              <p>Catalog Number:<br />64-20-0001</p>
             </div>
             <div className="individual-product-details">
-              <h2 className="individual-product-title">Quick-Connect 400 Oxygen Wall Outlet Station</h2>
+              <h2 className="individual-product-title">Quick-Connect 400 Oxygen<br />Wall Outlet Station</h2>
               <h4 className="product-brand-title">Chemetron</h4>
               <h4 className="individual-product-suggested-retail-price">MSRP: $77.00</h4>
               <h4 className="individual-product-savings">Savings: <strong>$33.69</strong></h4>
@@ -37,8 +39,8 @@ export default class prodID409 extends React.Component {
                   <li><strong>Item Type</strong>: Wall Outlet</li>
                   <li><strong>Series</strong>: Quick Connect 400</li>
                   <br />
-                  <li>Single - 400 Series - Top Inlet</li>
-                  <li>Quick-Connect Outlet Stations are complete with rough-in box, copper pigtail for brazing, test plug, plaster shield, valve, secondary check, and finish cover plate with latching mechanism.</li>
+                  <li>Single - 400 Series - Top Inlet</li><br />
+                  <li>Quick-Connect Outlet Stations are complete with rough-in<br />box, copper pigtail for brazing, test plug, plaster shield,<br />valve, secondary check, and finish cover plate with<br />latching mechanism.</li>
                 </ul>
 
 
@@ -50,7 +52,7 @@ export default class prodID409 extends React.Component {
         </div>
         <div id="quantity-input-group">
           <form action="/action_page.php">
-            Qty:
+            Quantity:
             <input type="number" className="quantityBox" value="0" />
           </form>
           <div id="add-to-cart">
@@ -499,6 +501,7 @@ export default class prodID409 extends React.Component {
               </div>
 
       </div>
+    </div>
 
 
     )

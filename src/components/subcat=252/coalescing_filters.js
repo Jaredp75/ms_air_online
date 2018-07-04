@@ -14,14 +14,14 @@ export default class Coalescing_Filters extends React.Component {
         <div className = 'content-area-container'>
 
 
-          <div className="content-area-container">
+          <div className="content-area-container3">
             <div id="individual_product_page">
               <div className="individual-product">
                 <div className="individual_product_listing">
                   <div className="individual_product_entry">
 
 
-                    <div className="product-image">
+                    <div id="product-image">
                       <img src="https://www.msaironline.com/images/prodImage/1722_144x85.jpg" alt="60 SCFM Coalescing Filter"></img>
                       <p>Catalog Number: T100YIA</p>
                     </div>
@@ -38,7 +38,7 @@ export default class Coalescing_Filters extends React.Component {
                         <li><strong>Micron Rating</strong>: 1</li>
                         <li><strong>SCFM</strong>: 60</li>
                         <br />
-                        <li>A 0.01-micron coalescing filter to protect the desiccant from compressor oils and other contaminants.</li>
+                        <li>A 0.01-micron coalescing filter to protect the desiccant from<br />compressor oils and other contaminants.</li>
                         <br />
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                         <br />
@@ -49,21 +49,22 @@ export default class Coalescing_Filters extends React.Component {
                   </div>
                 </div>
 
-                <div className="quantity-input-group">
-                  <form action="/action_page.php">
-                    Qty:
-                    <input type="number" className="quantityBox" value="0" />
-                  </form>
+
+              </div>
+              <div id="quantity-input-group">
+                <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox" value="0" />
+                </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
                 </div>
               </div>
 
-              <div className="add-to-cart">
-                <input type="submit" value="Add To Cart" />
-              </div>
             </div>
           </div>
 
-          <div className="replacement_items_section">
+          {/* <div className="replacement_items_section">
             <h4 className="replacement_items_header">Accessories</h4>
 
             <div className="replacement_item_listing">
@@ -91,19 +92,19 @@ export default class Coalescing_Filters extends React.Component {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
     <br />
 {/* +++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container3">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1719_144x85.jpg" alt="150 SCFM Coalescing Filter"></img>
                 <p>Catalog Number: T250YIA</p>
               </div>
@@ -119,7 +120,7 @@ export default class Coalescing_Filters extends React.Component {
                   <li><strong>Micron Rating</strong>: 1</li>
                   <li><strong>SCFM</strong>: 150</li>
                   <br />
-                  <li>A 0.01-micron coalescing filter to protect the desiccant from compressor oils and other contaminants.</li>
+                  <li>A 0.01-micron coalescing filter to protect the desiccant from<br />compressor oils and other contaminants.</li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
@@ -130,21 +131,22 @@ export default class Coalescing_Filters extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    {/* <div className="replacement_items_section">
       <h4 className="replacement_items_header">Accessories</h4>
 
     <div className="replacement_item_listing">
@@ -172,18 +174,19 @@ export default class Coalescing_Filters extends React.Component {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
 </div>
 <br />
 
 {/* ++++++++++++++++++++++++++++ */}
 
-  <div className="content-area-container">
+  <div className="content-area-container3">
     <div id="individual_product_page">
       <div className="individual-product">
         <div className="individual_product_listing">
           <div className="individual_product_entry">
-            <div className="product-image">
+
+            <div id="product-image">
               <img src="https://www.msaironline.com/images/prodImage/1720_144x85.jpg" alt="350 SCFM Coalescing Filter"></img>
               <p>Catalog Number: T600YIA</p>
             </div>
@@ -198,7 +201,7 @@ export default class Coalescing_Filters extends React.Component {
                   <li><strong>Micron Rating</strong>: 1</li>
                   <li><strong>SCFM</strong>: 350</li>
                   <br />
-                  <li>A 0.01-micron coalescing filter to protect the desiccant from compressor oils and other contaminants.</li>
+                  <li>A 0.01-micron coalescing filter to protect the desiccant from<br />compressor oils and other contaminants.</li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
@@ -209,21 +212,22 @@ export default class Coalescing_Filters extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    {/* <div className="replacement_items_section">
       <h4 className="replacement_items_header">Accessories</h4>
 
       <div className="replacement_item_listing">
@@ -251,7 +255,7 @@ export default class Coalescing_Filters extends React.Component {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
   </div>
 
 

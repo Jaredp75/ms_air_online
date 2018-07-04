@@ -14,14 +14,14 @@ export default class Particulate_Filters extends React.Component {
         <div className = 'content-area-container'>
 
 
-          <div className="content-area-container">
+          <div className="content-area-container3">
             <div id="individual_product_page">
               <div className="individual-product">
                 <div className="individual_product_listing">
                   <div className="individual_product_entry">
 
 
-                    <div className="product-image">
+                    <div id="product-image">
                       <img src="https://www.msaironline.com/images/prodImage/1702_144x85.jpg" alt="60 SCFM Particulate Filter"></img>
                       <p>Catalog Number: T100XIA</p>
                     </div>
@@ -38,7 +38,7 @@ export default class Particulate_Filters extends React.Component {
                         <li><strong>Micron Rating</strong>: 1</li>
                         <li><strong>SCFM</strong>: 60</li>
                         <br />
-                        <li>A 1 micron particulate filter to protect downstream equipment from desiccant fines.</li>
+                        <li>A 1 micron particulate filter to protect downstream equipment<br />from desiccant fines.</li>
                         <br />
                         <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                         <br />
@@ -49,21 +49,22 @@ export default class Particulate_Filters extends React.Component {
                   </div>
                 </div>
 
-                <div className="quantity-input-group">
-                  <form action="/action_page.php">
-                    Qty:
-                    <input type="number" className="quantityBox" value="0" />
-                  </form>
+
+              </div>
+              <div id="quantity-input-group">
+                <form action="/action_page.php">
+                  Quantity:
+                  <input type="number" className="quantityBox" value="0" />
+                </form>
+                <div id="add-to-cart">
+                  <input type="submit" value="Add To Cart" />
                 </div>
               </div>
 
-              <div className="add-to-cart">
-                <input type="submit" value="Add To Cart" />
-              </div>
             </div>
           </div>
 
-          <div className="replacement_items_section">
+          {/* <div id="replacement_items_section">
             <h4 className="replacement_items_header">Accessories</h4>
 
             <div className="replacement_item_listing">
@@ -91,19 +92,19 @@ export default class Particulate_Filters extends React.Component {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
     <br />
 {/* +++++++++++++++++++++++++++ */}
 
-    <div className="content-area-container">
+    <div className="content-area-container3">
       <div id="individual_product_page">
         <div className="individual-product">
           <div className="individual_product_listing">
             <div className="individual_product_entry">
 
 
-              <div className="product-image">
+              <div id="product-image">
                 <img src="https://www.msaironline.com/images/prodImage/1703_144x85.jpg" alt="150 SCFM Particulate Filter"></img>
                 <p>Catalog Number: T250XIA</p>
               </div>
@@ -119,7 +120,7 @@ export default class Particulate_Filters extends React.Component {
                   <li><strong>Micron Rating</strong>: 1</li>
                   <li><strong>SCFM</strong>: 150</li>
                   <br />
-                  <li>A 1 micron particulate filter to protect downstream equipment from desiccant fines.</li>
+                  <li>A 1 micron particulate filter to protect downstream equipment<br />from desiccant fines.</li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
@@ -130,21 +131,22 @@ export default class Particulate_Filters extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    {/* <div className="replacement_items_section">
       <h4 className="replacement_items_header">Accessories</h4>
 
     <div className="replacement_item_listing">
@@ -172,18 +174,19 @@ export default class Particulate_Filters extends React.Component {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
 </div>
 <br />
 
 {/* ++++++++++++++++++++++++++++ */}
 
-  <div className="content-area-container">
+  <div className="content-area-container3">
     <div id="individual_product_page">
       <div className="individual-product">
         <div className="individual_product_listing">
           <div className="individual_product_entry">
-            <div className="product-image">
+
+            <div id="product-image">
               <img src="https://www.msaironline.com/images/prodImage/1704_144x85.jpg" alt="350 SCFM Particulate Filter"></img>
               <p>Catalog Number: T600XIA</p>
             </div>
@@ -198,7 +201,7 @@ export default class Particulate_Filters extends React.Component {
                   <li><strong>Micron Rating</strong>: 1</li>
                   <li><strong>SCFM</strong>: 350</li>
                   <br />
-                  <li>Dryer complete with electric auto drain for pre-filter and controller with purge economizer.</li>
+                  <li>Dryer complete with electric auto drain for pre-filter and controller<br />with purge economizer.</li>
                   <br />
                   <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                   <br />
@@ -209,21 +212,22 @@ export default class Particulate_Filters extends React.Component {
             </div>
           </div>
 
-          <div className="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
+
+        </div>
+        <div id="quantity-input-group">
+          <form action="/action_page.php">
+            Quantity:
+            <input type="number" className="quantityBox" value="0" />
+          </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
 
-        <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
       </div>
     </div>
 
-    <div className="replacement_items_section">
+    {/* <div id="replacement_items_section">
       <h4 className="replacement_items_header">Accessories</h4>
 
       <div className="replacement_item_listing">
@@ -251,7 +255,7 @@ export default class Particulate_Filters extends React.Component {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
   </div>
 
 

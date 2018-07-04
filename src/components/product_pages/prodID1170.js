@@ -14,7 +14,8 @@ export default class prodID1170 extends React.Component {
     return(
       <div>
 
-        <div className="content-area-container3">
+      <div className = 'content-area-container'>
+        <div className="content-area-container2">
           <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
@@ -23,12 +24,12 @@ export default class prodID1170 extends React.Component {
 
             <div id="product-image">
               <img src="https://www.msaironline.com/images/prodImage/1170_144x85.jpg" alt='DISS Male to 1/4\" NPT Male Fitting - Air'></img>
-              <p>Catalog Number: 12-80-3110</p>
+              <p>Catalog Number:<br />12-80-3110</p>
             </div>
 
 
             <div className="individual-product-details">
-              <h2 className="individual-product-title">DISS Male to 1/4\" NPT Male Fitting - Air</h2>
+              <h2 className="individual-product-title">DISS Male to 1/4\" NPT<br />Male Fitting - Air</h2>
               <h4 className="product-brand-title">Chemetron</h4>
               <h4 className="individual-product-suggested-retail-price">MSRP: $17.22</h4>
               <h4 className="individual-product-savings">Savings: <strong>$5.07</strong></h4>
@@ -56,7 +57,7 @@ export default class prodID1170 extends React.Component {
         </div>
         <div id="quantity-input-group">
           <form action="/action_page.php">
-            Qty:
+            Quantity:
             <input type="number" className="quantityBox" value="0" />
           </form>
           <div id="add-to-cart">
@@ -397,6 +398,7 @@ export default class prodID1170 extends React.Component {
               </div>
 
       </div>
+    </div>
 
 
     )

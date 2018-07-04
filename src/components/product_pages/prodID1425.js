@@ -14,7 +14,8 @@ export default class prodID1425 extends React.Component {
     return(
       <div>
 
-        <div className="content-area-container3">
+      <div className = 'content-area-container'>
+        <div className="content-area-container2">
           <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
@@ -23,12 +24,12 @@ export default class prodID1425 extends React.Component {
 
             <div id="product-image">
               <img src="https://www.msaironline.com/images/prodImage/1425_144x85.jpg" width="144px" alt="Bison 3 Dental Vacuum 16 Amp"></img>
-              <p>Catalog Number: 818E.0800.1</p>
+              <p>Catalog Number:<br />818E.0800.1</p>
             </div>
 
 
             <div className="individual-product-details">
-              <h2 className="individual-product-title">Bison 3 Dental Vacuum 16 Amp</h2>
+              <h2 className="individual-product-title">Bison 3 Dental Vacuum<br />16 Amp</h2>
               <h4 className="product-brand-title">Ramvac</h4>
               <h4 className="individual-product-suggested-retail-price">MSRP: $15,096.00</h4>
               <h4 className="individual-product-savings">Savings: <strong>$3,472.08</strong></h4>
@@ -44,9 +45,9 @@ export default class prodID1425 extends React.Component {
                   <li><strong>RPM</strong>: 800</li>
                   <li><strong>Size</strong>: 1.8L</li>
                   <br />
-                  <li>The Bison dental dry vacuum is built for those who demand heavy-duty, large facility power in a rugged, compact chassis. Driven by a hefty industrial frame motor, Bison pumps are guaranteed to perform. These high output systems are engineered to serve for decades and they're protected by RAMVAC's exclusive 10-year no-fail, no-wear-out pump warranty. If you demand longevity, efficiency and unmatched treatment room performance for up to nine doctors plus staff, you're in the right pasture with the Bison.</li>
+                  <li>The Bison dental dry vacuum is built for those who demand heavy-duty,<br />large facility power in a rugged, compact chassis. Driven by a hefty<br />industrial frame motor, Bison pumps are guaranteed to perform. These<br />high output systems are engineered to serve for decades and they're<br />protected by RAMVAC's exclusive 10-year no-fail, no-wear-out pump<br />warranty. If you demand longevity, efficiency and unmatched treatment<br />room performance for up to nine doctors plus staff, you're in the right<br />pasture with the Bison.</li>
                   <br />
-                  <p>Features:</p>
+                  <p><strong>Features</strong>:</p>
                   <li>100% water free.</li>
                   <li><b>10 year no-fail, no wear-out pump warranty.</b></li>
                   <li>Complete system UL 544 (Dental Equipment) Listed and FDA registered.</li>
@@ -98,7 +99,7 @@ export default class prodID1425 extends React.Component {
 
 
 
-      <div className="replacement_items_section">
+      <div id="replacement_items_section">
         <h4 className="replacement_items_header">Related Items</h4>
 
       <div className="replacement_item_listing">
@@ -442,6 +443,7 @@ export default class prodID1425 extends React.Component {
               </div>
 
       </div>
+    </div>
 
 
     )

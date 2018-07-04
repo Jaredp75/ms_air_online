@@ -130,7 +130,8 @@ export default class Home extends React.Component {
               <div className="brand-text">
                 <a href='/category_pages/cat_zeks'><b>Zeks</b></a><br></br>
                 <li><a href='/subcat=233/compressed_air_filters'>Compressed Air Filters</a></li>
-                <li><a href='/subcat=233/ztf_replacement_parts'>Replacement Elements</a></li>
+                <li><a href='/subcat=233/ztf_replacement_parts'>Replacement Parts</a></li>
+                <li><a href='/subcat=205/ztf_replacement_elements'>Replacement Elements</a></li>
                 <li><a href='/subcat=233/air_dryers'>Air Dryers</a></li>
                 <li><a href='/subcat=233/filters'>Filters</a></li>
               </div>
@@ -247,7 +248,7 @@ export default class Home extends React.Component {
               </div>
               <div className="brand-text">
                 <a href='/category_pages/category'><b>Replacement Parts</b></a><br></br>
-                <li><a href='/subcategory_pages/subcategory'>Vibration Pads</a></li>
+                <li><a href='/subcat=71/prodID614'>Vibration Pads</a></li>
               </div>
             </div>
 

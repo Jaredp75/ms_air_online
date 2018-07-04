@@ -14,7 +14,8 @@ export default class prodID1476 extends React.Component {
     return(
       <div>
 
-        <div className="content-area-container3">
+      <div className = 'content-area-container'>
+        <div className="content-area-container2">
           <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
@@ -63,7 +64,7 @@ export default class prodID1476 extends React.Component {
         </div>
         <div id="quantity-input-group">
           <form action="/action_page.php">
-            Qty:
+            Quantity:
             <input type="number" className="quantityBox" value="0" />
           </form>
           <div id="add-to-cart">
@@ -418,6 +419,7 @@ export default class prodID1476 extends React.Component {
               </div>
 
       </div>
+    </div>
 
 
     )

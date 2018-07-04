@@ -14,7 +14,7 @@ export default class prodID1437 extends React.Component {
     return(
 
       <div>
-        <div className="content-area-container3">
+        <div className="content-area-container2">
           <div id="individual_product_page">
           <div className="individual-product">
             <div className="individual_product_listing">
@@ -22,7 +22,7 @@ export default class prodID1437 extends React.Component {
 
 
             <div id="product-image">
-              <img src="https://www.msaironline.com/images/prodImage/1437_144x85.jpg" width="75%" alt="Hg5-Amalgam Separator"></img>
+              <img src="https://www.msaironline.com/images/prodImage/1437_144x85.jpg" alt="Hg5-Amalgam Separator"></img>
               <p>Catalog Number: 590500</p>
             </div>
 
@@ -47,7 +47,7 @@ export default class prodID1437 extends React.Component {
                   {/* <li>Amalgam Separator for 1-10 chairs</li> */}
                   {/* <br /> */}
                   <p><b>Features & Benefits</b>:</p>
-                  <li>Compact Size & 1-1/2" fittings for increased installation options and easier and quicker installations</li>
+                  <li>Compact Size & 1-1/2" fittings for increased installation options<br />and easier and quicker installations</li>
                   <li>3 Step Separation</li>
                   <li>2-Pin Connection</li>
                   <li>Transparent</li>
@@ -69,7 +69,7 @@ export default class prodID1437 extends React.Component {
         </div>
         <div id="quantity-input-group">
           <form action="/action_page.php">
-            Qty:
+            Quantity:
             <input type="number" className="quantityBox" value="0" />
           </form>
           <div id="add-to-cart">
