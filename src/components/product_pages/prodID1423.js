@@ -7,7 +7,42 @@ import AboutLinks from '../footer-links/about-links.js';
 // import placeholder from '../img/compressor_placeholder.jpg';
 
 
-export default class prodID1423 extends React.Component {
+class prodID1423 extends React.Component {
+  // constructror() {
+  //   super.constructor();
+  //   this.setState() = {
+  //     products: [],
+  //   };
+  // }
+
+  // componentDidMount() {
+  //
+  //   fetch('https://www.msaironline.com/qa1/api/product.php?id=1423')
+  //   .then(results => {
+  //     return results.json();
+  //   }).then(data => {
+  //     let products = data.product.map((pic) => {
+  //       return(
+  //         <div className={pic.product}>
+  //           <img src={pic.icon} />
+  //           <div className="product-title">
+  //             {pic.prodName}
+  //             {pic.prodSku}
+  //           </div>
+  //
+  //         </div>
+  //
+  //       )
+  //     })
+  //     this.setState({products: products});
+  //     console.log("state", this.state.products);
+  //   })
+  // }
+
+
+
+
+
 
   render(){
 
@@ -18,11 +53,13 @@ export default class prodID1423 extends React.Component {
         <div className="content-area-container2">
           <div id="individual_product_page">
           <div className="individual-product">
+            {/* {this.state.products} */}
             <div className="individual_product_listing">
               <div className="individual_product_entry">
 
 
             <div id="product-image">
+              {/* {pic.icon} */}
               <img src="https://www.msaironline.com/images/prodImage/1423_144x85.jpg" width="144px" alt="Bulldog QT 1 Dental Vacuum"></img>
               <p>Catalog Number:<br />809E.0800.1</p>
             </div>
@@ -426,3 +463,6 @@ export default class prodID1423 extends React.Component {
     )
   }
 }
+
+
+export default prodID1423;
