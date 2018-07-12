@@ -1,71 +1,90 @@
-import React from "react";
+import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-// import FooterLinks from './footer-links/footer-links.js';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
-// import QuantityBox from './quantity_box.js';
-// import placeholder from '../img/compressor_placeholder.jpg';
 
 
-export default class prodID643 extends React.Component {
 
-  render(){
+class prodID643 extends Component {
+  constructor() {
+    super();
+    this.state = {
+      products: [],
+    };
+  }
 
-    return(
-      <div>
+  componentDidMount() {
 
+    fetch('https://www.msaironline.com/qa1/api/product.php?id=643')
+    .then(results => {
+      return results.json();
+    }).then(data => {
+      let products = data.product.map((pic) => {
+        return(
 
-        <div className = 'content-area-container'>
-        <div className="content-area-container2">
-          <div id="individual_product_page">
-          <div className="individual-product">
-            <div className="individual_product_listing">
-              <div className="individual_product_entry">
+          <div>
+            <div className="content-area-container">
+              <div className="content-area-container2">
+                <div id="individual_product_page">
+                  <div className="individual-product">
 
-
-            <div id="product-image">
-              <img src="https://www.msaironline.com/images/prodImage/643_144x85.jpg" alt="Oxygen Face Plate Assembly"></img>
-              <p>Catalog Number:<br />64-92-0176</p>
-            </div>
-
-
-            <div className="individual-product-details">
-              <h2 className="individual-product-title">Oxygen Face Plate Assembly</h2>
-              <h4 className="product-brand-title">Chemetron</h4>
-              <h4 className="individual-product-suggested-retail-price">MSRP: $30.45</h4>
-              <h4 className="individual-product-savings">Savings: <strong>$3.04</strong></h4>
-              <h3 className="individual-product-actual-price"><strong>$27.41</strong></h3>
-              <div className="individual-product-description">
-                <ul>
-                  {/* <li><strong>Gas Type</strong>: O2</li> */}
-                  {/* <li><strong>Item Type</strong>: Wall Outlet</li> */}
-                  {/* <li><strong>Series</strong>: Chemetron 500</li> */}
-                  {/* <li><strong>Style</strong>: Quick Connect</li> */}
-                  {/* <br /> */}
-                  <li>Quick Connect 400, 378, 349, and 348 Series Compatible</li>
-                </ul>
+                    <div className="individual_product_listing">
+                      <div className="individual_product_entry">
+                        {pic.product}
+                      </div>
+                      <div id="product-image">
+                        <img src={pic.icon} alt="product-placeholder" />
+                        <h5>Catalog Number:<br />{pic.prodSku}</h5>
+                      </div>
 
 
-              </div>
-            </div>
-          </div>
+                    <div className="individual-product-details">
+                      <div className="product-title">
+                        <h2 className="individual-product-title">{pic.prodName}</h2>
+                      </div>
+                        <h4 className="product-brand-title">{pic.brandName}</h4>
+                        <h4 className="individual-product-suggested-retail-price">MSRP: ${pic.msrp}</h4>
+                        <h4 className="individual-product-savings">Savings: <strong>${pic.msrp - pic.prodPrice}</strong></h4>
+                        <h3 className="individual-product-actual-price"><strong>${pic.prodPrice}</strong></h3>
+                        <br />
+                        <br />
+                      <div className="individual-product-description">
+                        <ul>
+                          {/* <li><strong>Gas Type</strong>: O2</li> */}
+                          {/* <li><strong>Item Type</strong>: Wall Outlet</li> */}
+                          {/* <li><strong>Series</strong>: Quick Connect 400</li> */}
+                          <br />
+                          <li>{pic.prodDesc}</li>
+                          <br />
+                          <li>{pic.prodLongDesc}</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
 
 
         </div>
-        <div id="quantity-input-group">
-          <form action="/action_page.php">
-            Quantity:
-            <input type="number" className="quantityBox" value="0" />
-          </form>
+
+          <div id="quantity-input-group">
+            <form action="/action_page.php">
+              Quantity:
+              <input type="number" className="quantityBox" />
+            </form>
           <div id="add-to-cart">
             <input type="submit" value="Add To Cart" />
           </div>
         </div>
 
-      </div>
-    </div>
 
-      <div id="replacement_items_section">
+{/* ---Related Items Section--- */}
+
+<div id="replacement_items_section">
         <h4 className="replacement_items_header">Related Items</h4>
 
       <div className="replacement_item_listing">
@@ -99,8 +118,10 @@ export default class prodID643 extends React.Component {
 
     </div>
 
+{/* ---Replacement Parts Section--- */}
 
-    <div className="replacement_parts_section">
+
+<div className="replacement_parts_section">
       <h1 className="replacement_parts_header">Replacement Parts</h1>
       {/* <div className="replacement_parts_image">
         <img src="https://www.msaironline.com/images/assembly/QuickConnect_400_Series.jpg" alt="Quick Connect"></img>
@@ -367,27 +388,64 @@ export default class prodID643 extends React.Component {
 
 
 
+
         <div className="FooterLinks1">
           <HelpAndCurrency />
-
         </div>
+
         <div className="FooterLinks2">
           <AboutLinks />
         </div>
-              </div>
-              <div className="about-footer">
-                <div className="terms">
-                  <p><a href="/terms" target=" blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
-                </div>
-                <div className="copyright">
-                  <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
-              </div>
-              </div>
+      </div>
+
 
       </div>
+      <div className="about-footer">
+        <div className="terms">
+          <p><a href="/terms" target="_blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
+        </div>
+
+        <div className="copyright">
+          <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
+        </div>
+
+      </div>
+
+
+
+
+
     </div>
 
 
+
+
+        )
+      })
+      console.log("state", this.state.products);
+      this.setState({products: products});
+    })
+  }
+
+
+
+  render() {
+    return (
+
+      <div className="container2">
+        <div className="container1">
+          {this.state.products}
+        </div>
+      </div>
     )
   }
+
+
+
+
+
 }
+
+
+
+export default prodID643;

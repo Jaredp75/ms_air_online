@@ -1,87 +1,112 @@
-import React from "react";
+import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-// import FooterLinks from './footer-links/footer-links.js';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
-// import QuantityBox from './quantity_box.js';
-// import placeholder from '../img/compressor_placeholder.jpg';
 
 
-export default class prodID1437 extends React.Component {
 
-  render(){
+class prodID1437 extends Component {
+  constructor() {
+    super();
+    this.state = {
+      products: [],
+    };
+  }
 
-    return(
+  componentDidMount() {
 
-      <div>
-        <div className="content-area-container2">
-          <div id="individual_product_page">
-          <div className="individual-product">
-            <div className="individual_product_listing">
-              <div className="individual_product_entry">
+    fetch('https://www.msaironline.com/qa1/api/product.php?id=1437')
+    .then(results => {
+      return results.json();
+    }).then(data => {
+      let products = data.product.map((pic) => {
+        return(
+
+          <div>
+            <div className="content-area-container">
+              <div className="content-area-container2">
+                <div id="individual_product_page">
+                  <div className="individual-product">
+
+                    <div className="individual_product_listing">
+                      <div className="individual_product_entry">
+                        {pic.product}
+                      </div>
+                      <div id="product-image">
+                        <img src={pic.icon} alt="product-placeholder" />
+                        <h5>Catalog Number:<br />{pic.prodSku}</h5>
+                      </div>
 
 
-            <div id="product-image">
-              <img src="https://www.msaironline.com/images/prodImage/1437_144x85.jpg" alt="Hg5-Amalgam Separator"></img>
-              <p>Catalog Number: 590500</p>
-            </div>
+                    <div className="individual-product-details">
+                      <div className="product-title">
+                        <h2 className="individual-product-title">{pic.prodName}</h2>
+                      </div>
+                        <h4 className="product-brand-title">{pic.brandName}</h4>
+                        <h4 className="individual-product-suggested-retail-price">MSRP: ${pic.msrp}</h4>
+                        <h4 className="individual-product-savings">Savings: <strong>${pic.msrp - pic.prodPrice}</strong></h4>
+                        <h3 className="individual-product-actual-price"><strong>${pic.prodPrice}</strong></h3>
+                        <br />
+                        <br />
+                      <div className="individual-product-description">
+                        <ul>
+                        <p><b>Features & Benefits</b>:</p>
+                        <li>Compact Size & 1-1/2" fittings for increased installation options<br />and easier and quicker installations</li>
+                        <li>3 Step Separation</li>
+                        <li>2-Pin Connection</li>
+                        <li>Transparent</li>
+                        <li>Exclusive resin</li>
+                        <li>Compact Size</li>
+                        <li>Recycling Options</li>
+                        <li>Easy cartridge replacement</li>
+                        <li>Identifies replacement time</li>
+                        <li>Captures dissolved mercury</li>
+                        <br />
+                        <li>{pic.prodDesc}</li>
+                        <br />
+                        <li>{pic.prodLongDesc}</li>
+                        <br />
+                        <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+                      </ul>
+                    </div>
+
+                
 
 
-            <div className="individual-product-details">
-              <h2 className="individual-product-title">Hg5-Amalgam Separator</h2>
-              <h4 className="product-brand-title">Ramvac</h4>
-              {/* <h4 className="individual-product-suggested-retail-price">MSRP: $877.55</h4> */}
-              {/* <h4 className="individual-product-savings">Savings: <strong>$197.45</strong></h4> */}
-              {/* <h3 className="individual-product-actual-price"><strong>$680.10</strong></h3> */}
-              <div className="individual-product-description">
-                <ul>
-                  {/* <li><strong>Dimensions</strong>: 26x19x30 in.</li> */}
-                  {/* <li><strong>Drive Belts</strong>: Two (2)</li> */}
-                  {/* <li><strong>Horse Power</strong>: 3hp (2.2 kW)</li> */}
-                  {/* <li><strong>Input Power</strong>: 230v 3ph 60Hz</li> */}
-                  {/* <li><strong>Max Amps</strong>: 8.0 @ 230v</li> */}
-                  {/* <li><strong>Oil Drippers</strong>: Two (2)</li> */}
-                  {/* <li><strong>RPM</strong>: 1050</li> */}
-                  {/* <li><strong>Size</strong>: 1.8L</li> */}
-                  {/* <br /> */}
-                  {/* <li>Amalgam Separator for 1-10 chairs</li> */}
-                  {/* <br /> */}
-                  <p><b>Features & Benefits</b>:</p>
-                  <li>Compact Size & 1-1/2" fittings for increased installation options<br />and easier and quicker installations</li>
-                  <li>3 Step Separation</li>
-                  <li>2-Pin Connection</li>
-                  <li>Transparent</li>
-                  <li>Exclusive resin</li>
-                  <li>Compact Size</li>
-                  <li>Recycling Options</li>
-                  <li>Easy cartridge replacement</li>
-                  <li>Identifies replacement time</li>
-                  <li>Captures dissolved mercury</li>
-                </ul>
-                <br />
-                <p>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</p>
+
+                  </div>
+                </div>
+
+
+
 
               </div>
-            </div>
-          </div>
+
+
+
+
+
 
 
         </div>
-        <div id="quantity-input-group">
-          <form action="/action_page.php">
-            Quantity:
-            <input type="number" className="quantityBox" value="0" />
-          </form>
+
+          <div id="quantity-input-group">
+            <form action="/action_page.php">
+              Quantity:
+              <input type="number" className="quantityBox" />
+            </form>
           <div id="add-to-cart">
             <input type="submit" value="Add To Cart" />
           </div>
         </div>
 
 
-      </div>
-    </div>
 
-      <div id="replacement_items_section">
+
+
+{/* ---Related Items Section--- */}
+
+<div id="replacement_items_section">
         <h4 className="replacement_items_header">Related Items</h4>
 
       <div className="replacement_item_listing">
@@ -139,8 +164,10 @@ export default class prodID1437 extends React.Component {
 
     </div>
 
+{/* ---Replacement Parts Section--- */}
 
-    <div className="replacement_parts_section">
+
+<div className="replacement_parts_section">
       <h1 className="replacement_parts_header">Replacement Parts</h1>
       {/* <div className="replacement_parts_image">
         <img src="https://www.msaironline.com/images/assembly/QuickConnect_400_Series.jpg" alt="Quick Connect"></img>
@@ -407,26 +434,64 @@ export default class prodID1437 extends React.Component {
 
 
 
+
         <div className="FooterLinks1">
           <HelpAndCurrency />
-
         </div>
+
         <div className="FooterLinks2">
           <AboutLinks />
         </div>
-              </div>
-              <div className="about-footer">
-                <div className="terms">
-                  <p><a href="/terms" target=" blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
-                </div>
-                <div className="copyright">
-                  <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
-              </div>
-              </div>
+      </div>
+
+
+      </div>
+      <div className="about-footer">
+        <div className="terms">
+          <p><a href="/terms" target="_blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
+        </div>
+
+        <div className="copyright">
+          <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
+        </div>
 
       </div>
 
 
+
+
+
+    </div>
+
+
+
+
+        )
+      })
+      console.log("state", this.state.products);
+      this.setState({products: products});
+    })
+  }
+
+
+
+  render() {
+    return (
+
+      <div className="container2">
+        <div className="container1">
+          {this.state.products}
+        </div>
+      </div>
     )
   }
+
+
+
+
+
 }
+
+
+
+export default prodID1437;

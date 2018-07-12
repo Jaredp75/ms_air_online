@@ -1,105 +1,114 @@
-import React from "react";
+import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-// import FooterLinks from './footer-links/footer-links.js';
 import HelpAndCurrency from '../help-and-currency.js';
 import AboutLinks from '../footer-links/about-links.js';
-// import QuantityBox from './quantity_box.js';
-// import placeholder from '../img/compressor_placeholder.jpg';
 
 
-export default class prodID1425 extends React.Component {
 
-  render(){
+class prodID1425 extends Component {
+  constructor() {
+    super();
+    this.state = {
+      products: [],
+    };
+  }
 
-    return(
-      <div>
+  componentDidMount() {
 
-      <div className = 'content-area-container'>
-        <div className="content-area-container2">
-          <div id="individual_product_page">
-          <div className="individual-product">
-            <div className="individual_product_listing">
-              <div className="individual_product_entry">
+    fetch('https://www.msaironline.com/qa1/api/product.php?id=1425')
+    .then(results => {
+      return results.json();
+    }).then(data => {
+      let products = data.product.map((pic) => {
+        return(
 
+          <div>
+            <div className="content-area-container">
+              <div className="content-area-container2">
+                <div id="individual_product_page">
+                  <div className="individual-product">
 
-            <div id="product-image">
-              <img src="https://www.msaironline.com/images/prodImage/1425_144x85.jpg" width="144px" alt="Bison 3 Dental Vacuum 16 Amp"></img>
-              <p>Catalog Number:<br />818E.0800.1</p>
-            </div>
-
-
-            <div className="individual-product-details">
-              <h2 className="individual-product-title">Bison 3 Dental Vacuum<br />16 Amp</h2>
-              <h4 className="product-brand-title">Ramvac</h4>
-              <h4 className="individual-product-suggested-retail-price">MSRP: $15,096.00</h4>
-              <h4 className="individual-product-savings">Savings: <strong>$3,472.08</strong></h4>
-              <h3 className="individual-product-actual-price"><strong>$11,623.92</strong></h3>
-              <div className="individual-product-description">
-                <ul>
-                  <li><strong>Dimensions</strong>: 26x19x30 in.</li>
-                  <li><strong>Drive Belts</strong>: Two (2)</li>
-                  <li><strong>Horse Power</strong>: 3 (2.2 kW)</li>
-                  <li><strong>Input Power</strong>: 230v 1ph 60Hz</li>
-                  <li><strong>Max Amps</strong>: 16.0 @ 230v</li>
-                  <li><strong>Oil Drippers</strong>: Two (2)</li>
-                  <li><strong>RPM</strong>: 800</li>
-                  <li><strong>Size</strong>: 1.8L</li>
-                  <br />
-                  <li>The Bison dental dry vacuum is built for those who demand heavy-duty,<br />large facility power in a rugged, compact chassis. Driven by a hefty<br />industrial frame motor, Bison pumps are guaranteed to perform. These<br />high output systems are engineered to serve for decades and they're<br />protected by RAMVAC's exclusive 10-year no-fail, no-wear-out pump<br />warranty. If you demand longevity, efficiency and unmatched treatment<br />room performance for up to nine doctors plus staff, you're in the right<br />pasture with the Bison.</li>
-                  <br />
-                  <p><strong>Features</strong>:</p>
-                  <li>100% water free.</li>
-                  <li><b>10 year no-fail, no wear-out pump warranty.</b></li>
-                  <li>Complete system UL 544 (Dental Equipment) Listed and FDA registered.</li>
-                  <li>Federal users please call direct.</li>
-                  <li>Please call for Installation Guide and/or bid specifications.</li>
-                </ul>
+                    <div className="individual_product_listing">
+                      <div className="individual_product_entry">
+                        {pic.product}
+                      </div>
+                      <div id="product-image">
+                        <img src={pic.icon} alt="product-placeholder" />
+                        <h5>Catalog Number:<br />{pic.prodSku}</h5>
+                      </div>
 
 
-              </div>
-            </div>
+                    <div className="individual-product-details">
+                      <div className="product-title">
+                        <h2 className="individual-product-title">{pic.prodName}</h2>
+                      </div>
+                        <h4 className="product-brand-title">{pic.brandName}</h4>
+                        <h4 className="individual-product-suggested-retail-price">MSRP: ${pic.msrp}</h4>
+                        <h4 className="individual-product-savings">Savings: <strong>${pic.msrp - pic.prodPrice}</strong></h4>
+                        <h3 className="individual-product-actual-price"><strong>${pic.prodPrice}</strong></h3>
+                        <br />
+                        <br />
+                      <div className="individual-product-description">
+                        <ul>
+                          <li><strong>Dimensions</strong>: 26x19x30 in.</li>
+                          <li><strong>Drive Belts</strong>: Two (2)</li>
+                          <li><strong>Horse Power</strong>: 3 (2.2 kW)</li>
+                          <li><strong>Input Power</strong>: 230v 1ph 60Hz</li>
+                          <li><strong>Max Amps</strong>: 16.0 @ 230v</li>
+                          <li><strong>Oil Drippers</strong>: Two (2)</li>
+                          <li><strong>RPM</strong>: 800</li>
+                          <li><strong>Size</strong>: 1.8L</li>
+                          <br />
+                          <li>{pic.prodDesc}</li>
+                          <br />
+                          <li>{pic.prodLongDesc}</li>
+                          <br />
+                          <li>Freight Shipping billed separately to contiguous 48 states. Additional fees may apply if lift gate is required. Call for details.</li>
+                          <br />
+                          <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+                        </ul>
+                      </div>
+
+                      <div className="file_section">
+                        <a href="http://www.msaironline.com/files/39.pdf"><img src="../img/pdf.jpg" alt="pdf-placeholder"></img></a>
+                        <h5>RamVac Bison.pdf</h5>
+                      </div>
+
+
+
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+        </div>
+
+          <div id="quantity-input-group">
+            <form action="/action_page.php">
+              Quantity:
+              <input type="number" className="quantityBox" />
+            </form>
+          <div id="add-to-cart">
+            <input type="submit" value="Add To Cart" />
           </div>
         </div>
-          {/* <div id="quantity-input-group">
-            <form action="/action_page.php">
-              Qty:
-              <input type="number" className="quantityBox" value="0" />
-            </form>
-            <div id="add-to-cart">
-              <input type="submit" value="Add To Cart" />
-            </div>
 
 
 
 
-          </div> */}
-        {/* </div> */}
 
-        {/* <div className="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div> */}
-      </div>
+{/* ---Related Items Section--- */}
 
-    </div>
-
-    <div id="quantity-input-group">
-      <form action="/action_page.php">
-        Qty:
-        <input type="number" className="quantityBox" value="0" />
-      </form>
-      <div id="add-to-cart">
-        <input type="submit" value="Add To Cart" />
-      </div>
-
-
-
-
-    </div>
-
-
-
-
-      <div id="replacement_items_section">
+<div id="replacement_items_section">
         <h4 className="replacement_items_header">Related Items</h4>
 
       <div className="replacement_item_listing">
@@ -141,31 +150,21 @@ export default class prodID1425 extends React.Component {
         </div>
       </div>
 
-      <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img src="https://www.msaironline.com/images/prodImage/417_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)"></img>
-          </div>
-          <div className="replacement_item_details">
-            <h6 className="replacement_item_title"><a href="/prodID8">Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)</a></h6>
-            <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
-          </div>
-        </div>
-      </div>
 
 
     </div>
 
+{/* ---Replacement Parts Section--- */}
 
-    <div className="replacement_parts_section">
-      <h1 className="replacement_parts_header">Replacement Parts</h1>
+
+<div className="replacement_parts_section">
+      {/* <h1 className="replacement_parts_header">Replacement Parts</h1> */}
       {/* <div className="replacement_parts_image">
         <img src="https://www.msaironline.com/images/assembly/QuickConnect_400_Series.jpg" alt="Quick Connect"></img>
       </div> */}
       {/* <p><h4>This item is a replacement part for the following products:</h4></p> */}
-      <p>Freight Shipping billed separately to contiguous 48 states. Additional fees may apply if lift gate is required. Call for details.</p>
-      <p>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</p>
+      {/* <p>Quick-Connect 400 Oxygen Wall Outlet Station</p> */}
+      {/* <p>Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)</p> */}
 
       {/* <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
@@ -425,27 +424,64 @@ export default class prodID1425 extends React.Component {
 
 
 
+
         <div className="FooterLinks1">
           <HelpAndCurrency />
-
         </div>
+
         <div className="FooterLinks2">
           <AboutLinks />
         </div>
-              </div>
-              <div className="about-footer">
-                <div className="terms">
-                  <p><a href="/terms" target=" blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
-                </div>
-                <div className="copyright">
-                  <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
-              </div>
-              </div>
+      </div>
+
 
       </div>
+      <div className="about-footer">
+        <div className="terms">
+          <p><a href="/terms" target="_blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
+        </div>
+
+        <div className="copyright">
+          <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
+        </div>
+
+      </div>
+
+
+
+
+
     </div>
 
 
+
+
+        )
+      })
+      console.log("state", this.state.products);
+      this.setState({products: products});
+    })
+  }
+
+
+
+  render() {
+    return (
+
+      <div className="container2">
+        <div className="container1">
+          {this.state.products}
+        </div>
+      </div>
     )
   }
+
+
+
+
+
 }
+
+
+
+export default prodID1425;
