@@ -93,12 +93,12 @@ class prodID341 extends Component {
 <div className="replacement_item_listing">
 <div className="replacement_item_entry">
   <div className="replacement_item_image">
-    <img src="https://www.msaironline.com/images/prodImage/313_144x85.jpg" alt="Quick Connect 500 Rough In Kit - Oxygen w/ New Style Cover Plate"></img>
+    <img src="http://www.msaironline.com/images/prodImage/no_photo.gif" alt="Quick Connect 500 Rough In Kit - Oxygen w/ New Style Cover Plate"></img>
   </div>
   <div className="replacement_item_details">
     <h6 className="replacement_item_title"><a href="/product_pages/prodID341">Quick Connect 500 Rough In Kit - Oxygen w/ New Style Cover Plate</a></h6>
     <h6 className="replacement_item_brand_name">Chemetron</h6>
-    <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+
   </div>
 </div>
 </div>
@@ -111,7 +111,7 @@ class prodID341 extends Component {
   <div className="replacement_item_details">
     <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Oxygen Outlet - Ohmeda Compatible</a></h6>
     <h6 className="replacement_item_brand_name">Chemetron</h6>
-    <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+
   </div>
 </div>
 </div>
@@ -124,7 +124,7 @@ class prodID341 extends Component {
   <div className="replacement_item_details">
     <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Vacuum Outlet - Ohmeda Compatible /w New Style Cover</a></h6>
     <h6 className="replacement_item_brand_name">Chemetron</h6>
-    <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+
   </div>
 </div>
 </div>
@@ -132,12 +132,12 @@ class prodID341 extends Component {
 <div className="replacement_item_listing">
 <div className="replacement_item_entry">
   <div className="replacement_item_image">
-    <img src="https://www.msaironline.com/images/prodImage/352_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Oxygen Completion Kit  - Ohmeda Compatible /w New Style Cover"></img>
+    <img src="http://www.msaironline.com/images/prodImage/no_photo.gif" width="144" height="85" alt="Quick Connect 500 Oxygen Completion Kit  - Ohmeda Compatible /w New Style Cover"></img>
   </div>
   <div className="replacement_item_details">
     <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Oxygen Completion Kit  - Ohmeda Compatible /w New Style Cover</a></h6>
     <h6 className="replacement_item_brand_name">Chemetron</h6>
-    <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+
   </div>
 </div>
 </div>

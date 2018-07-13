@@ -104,7 +104,7 @@ class prodID14 extends Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="https://www.msaironline.com/images/prodImage/281_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Oxygen Completion Kit"></img>
+            <img src="http://www.msaironline.com/images/prodImage/no_photo.gif" width="144" height="85" alt="Quick Connect 500 Oxygen Completion Kit"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Oxygen Completion Kit</a></h6>
@@ -117,7 +117,7 @@ class prodID14 extends Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="https://www.msaironline.com/images/prodImage/282_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Rough In Kit - Oxygen"></img>
+            <img src="http://www.msaironline.com/images/prodImage/no_photo.gif" width="144" height="85" alt="Quick Connect 500 Rough In Kit - Oxygen"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Rough In Kit - Oxygen</a></h6>

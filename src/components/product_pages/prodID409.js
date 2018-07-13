@@ -95,7 +95,7 @@ class prodID409 extends Component {
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID409">Quick-Connect 400 Nitrous Oxide Wall Outlet Station</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+
           </div>
         </div>
       </div>
@@ -108,7 +108,7 @@ class prodID409 extends Component {
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID409">Quick-Connect 400 Nitrogen, Dynacon Wall Outlet Station</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@ class prodID409 extends Component {
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID409">Quick-Connect 400 WAGD Wall Outlet Station</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+
           </div>
         </div>
       </div>
@@ -134,7 +134,7 @@ class prodID409 extends Component {
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID409">Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+
           </div>
         </div>
       </div>

@@ -70,7 +70,7 @@ class prodID1426 extends Component {
                     </div>
 
                     <div className="file_section">
-                      <a href="http://www.msaironline.com/files/39.pdf"><img src="./img/pdf.jpg" alt="pdf-placeholder"></img></a>
+                      <a href="http://www.msaironline.com/files/39.pdf"><img src="http://www.msaironline.com/images/pdf.jpg" alt="pdf-placeholder"></img></a>
                       <h5>RamVac Bison.pdf</h5>
                     </div>
 
@@ -109,9 +109,12 @@ class prodID1426 extends Component {
 {/* ---Related Items Section--- */}
 
 <div id="replacement_items_section">
-        <h4 className="replacement_items_header">Related Items</h4>
+        {/* <h4 className="replacement_items_header">Related Items</h4> */}
+        <div className="side-logo">
+          <img src="http://www.msaironline.com/images/brandImage/8_110x85.jpg" alt="logo-placeholder"></img>
+        </div>
 
-      <div className="replacement_item_listing">
+      {/* <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
             <img src="https://www.msaironline.com/images/prodImage/409_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station"></img>
@@ -122,9 +125,9 @@ class prodID1426 extends Component {
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="replacement_item_listing">
+      {/* <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
             <img src="https://www.msaironline.com/images/prodImage/417_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)"></img>
@@ -135,9 +138,9 @@ class prodID1426 extends Component {
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="replacement_item_listing">
+      {/* <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
             <img src="https://www.msaironline.com/images/prodImage/417_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)"></img>
@@ -148,7 +151,7 @@ class prodID1426 extends Component {
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
 

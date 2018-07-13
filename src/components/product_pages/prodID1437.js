@@ -70,7 +70,13 @@ class prodID1437 extends Component {
                       </ul>
                     </div>
 
-                
+                    <div className="file_section">
+                      <a href="http://www.msaironline.com/files/41.pdf"><img src="http://www.msaironline.com/images/pdf.jpg" alt="pdf-placeholder"></img></a>
+                      <h5>RamVac Hg5 Amalgam Separator.pdf</h5>
+                      <br />
+                      <a href="http://www.msaironline.com/files/48.pdf"><img src="http://www.msaironline.com/images/pdf.jpg" alt="pdf-placeholder"></img></a>
+                      <h5>RamVac HG5 Install Manual.pdf</h5>
+                    </div>
 
 
 
@@ -112,17 +118,17 @@ class prodID1437 extends Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="https://www.msaironline.com/images/prodImage/409_144x85.jpg" alt="Quick-Connect 400 Oxygen Wall Outlet Station"></img>
+            <img src="http://www.msaironline.com/images/prodImage/no_photo.gif" alt="Hg5 Mounting Bracket"></img>
           </div>
           <div className="replacement_item_details">
-            <h6 className="replacement_item_title"><a href="/product_pages/prodID341">Quick-Connect 400 Oxygen Wall Outlet Station</a></h6>
-            <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+            <h6 className="replacement_item_title"><a href="/product_pages/prodID1438">Hg5 Mounting Bracket</a></h6>
+            <h6 className="replacement_item_brand_name">Ramvac</h6>
+            <h6 className="replacement_item_actual_price"><strong>$141.68</strong></h6>
           </div>
         </div>
       </div>
 
-      <div className="replacement_item_listing">
+      {/* <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
             <img src="https://www.msaironline.com/images/prodImage/417_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)"></img>
@@ -133,9 +139,9 @@ class prodID1437 extends Component {
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="replacement_item_listing">
+      {/* <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
             <img src="https://www.msaironline.com/images/prodImage/417_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)"></img>
@@ -146,9 +152,9 @@ class prodID1437 extends Component {
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="replacement_item_listing">
+      {/* <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
             <img src="https://www.msaironline.com/images/prodImage/417_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)"></img>
@@ -159,7 +165,7 @@ class prodID1437 extends Component {
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
     </div>
@@ -186,7 +192,7 @@ class prodID1437 extends Component {
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
-            <input type="number" className="quantityBox" value="0" />
+            <input type="number" className="quantityBox" />
           </form>
         </div>
 
@@ -206,7 +212,7 @@ class prodID1437 extends Component {
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
-            <input type="number" className="quantityBox" value="0" />
+            <input type="number" className="quantityBox" />
           </form>
         </div>
 
@@ -226,7 +232,7 @@ class prodID1437 extends Component {
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
-            <input type="number" className="quantityBox" value="0" />
+            <input type="number" className="quantityBox" />
           </form>
         </div>
 
@@ -246,7 +252,7 @@ class prodID1437 extends Component {
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
-            <input type="number" className="quantityBox" value="0" />
+            <input type="number" className="quantityBox" />
           </form>
         </div>
 
@@ -266,7 +272,7 @@ class prodID1437 extends Component {
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
-            <input type="number" className="quantityBox" value="0" />
+            <input type="number" className="quantityBox" />
           </form>
         </div>
 
@@ -285,7 +291,7 @@ class prodID1437 extends Component {
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
-            <input type="number" className="quantityBox" value="0" />
+            <input type="number" className="quantityBox" />
           </form>
         </div>
 
@@ -305,7 +311,7 @@ class prodID1437 extends Component {
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
-            <input type="number" className="quantityBox" value="0" />
+            <input type="number" className="quantityBox" />
           </form>
         </div>
 
@@ -325,7 +331,7 @@ class prodID1437 extends Component {
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
-            <input type="number" className="quantityBox" value="0" />
+            <input type="number" className="quantityBox" />
           </form>
         </div>
 
@@ -344,7 +350,7 @@ class prodID1437 extends Component {
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
-            <input type="number" className="quantityBox" value="0" />
+            <input type="number" className="quantityBox" />
           </form>
         </div>
 
@@ -365,7 +371,7 @@ class prodID1437 extends Component {
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
-            <input type="number" className="quantityBox" value="0" />
+            <input type="number" className="quantityBox" />
           </form>
         </div>
 
@@ -385,7 +391,7 @@ class prodID1437 extends Component {
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
-            <input type="number" className="quantityBox" value="0" />
+            <input type="number" className="quantityBox" />
           </form>
         </div>
 
@@ -405,7 +411,7 @@ class prodID1437 extends Component {
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">
             <strong>Qty</strong>:
-            <input type="number" className="quantityBox" value="0" />
+            <input type="number" className="quantityBox" />
           </form>
         </div>
 

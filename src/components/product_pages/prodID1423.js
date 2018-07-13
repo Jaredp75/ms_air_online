@@ -68,6 +68,14 @@ class prodID1423 extends Component {
                           <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
                         </ul>
                       </div>
+
+                      <div className="file_section">
+                        <a href="http://www.msaironline.com/files/40.pdf"><img src="http://www.msaironline.com/images/pdf.jpg" alt="pdf-placeholder"></img></a>
+                        <a href="http://www.msaironline.com/files/40.pdf"><h5>RamVac Bulldog.pdf</h5></a>
+                      </div>
+
+
+
                     </div>
                   </div>
                 </div>
@@ -94,9 +102,12 @@ class prodID1423 extends Component {
 {/* ---Related Items Section--- */}
 
 <div id="replacement_items_section">
-        <h4 className="replacement_items_header">Related Items</h4>
+        {/* <h4 className="replacement_items_header">Related Items</h4> */}
+        <div className="side-logo">
+          <img src="http://www.msaironline.com/images/brandImage/8_110x85.jpg" alt="logo-placeholder"></img>
+        </div>
 
-      <div className="replacement_item_listing">
+      {/* <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
             <img src="https://www.msaironline.com/images/prodImage/409_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station"></img>
@@ -107,9 +118,9 @@ class prodID1423 extends Component {
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="replacement_item_listing">
+      {/* <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
             <img src="https://www.msaironline.com/images/prodImage/417_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)"></img>
@@ -120,9 +131,9 @@ class prodID1423 extends Component {
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="replacement_item_listing">
+      {/* <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
             <img src="https://www.msaironline.com/images/prodImage/417_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)"></img>
@@ -133,7 +144,7 @@ class prodID1423 extends Component {
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
 

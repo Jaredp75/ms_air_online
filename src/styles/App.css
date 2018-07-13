@@ -1356,13 +1356,6 @@
 
 
 
-.individual-product-description {
-  height: 500px;
-}
-
-
-
-
 .individual-product-description ul {
   list-style: none;
   margin-left: -40px;
@@ -1485,15 +1478,22 @@
 
 
 
+.side-logo {
+  align-content: center;
+}
+
+
+
+
 .replacement_parts_section {
-  margin-top: 400px;
+  margin-top: 1400px;
 }
 
 
 
 
 #replacement_parts_section {
-  margin-top: 400px;
+  margin-top: 1400px;
 }
 
 

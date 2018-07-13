@@ -93,7 +93,7 @@ class prodID8 extends Component {
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="../product_pages/prodID8">Quick Connect 500 Medical Air Wall Outlet</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+
           </div>
         </div>
       </div>
@@ -101,12 +101,12 @@ class prodID8 extends Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="https://www.msaironline.com/images/prodImage/47_144x85.jpg" alt="Quick Connect 500 Vacuum Bottle Slide Assembly"></img>
+            <img src="http://www.msaironline.com/images/prodImage/no_photo.gif" alt="Quick Connect 500 Vacuum Bottle Slide Assembly"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="../product_pages/prodID8">Quick Connect 500 Vacuum Bottle Slide Assembly</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+
           </div>
         </div>
       </div>
@@ -114,12 +114,12 @@ class prodID8 extends Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="https://www.msaironline.com/images/prodImage/283_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Vacuum Completion Kit"></img>
+            <img src="http://www.msaironline.com/images/prodImage/no_photo.gif" width="144" height="85" alt="Quick Connect 500 Vacuum Completion Kit"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Vacuum Completion Kit</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+
           </div>
         </div>
       </div>
@@ -127,12 +127,12 @@ class prodID8 extends Component {
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="https://www.msaironline.com/images/prodImage/284_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Rough In Kit - Vacuum"></img>
+            <img src="http://www.msaironline.com/images/prodImage/no_photo.gif" width="144" height="85" alt="Quick Connect 500 Rough In Kit - Vacuum"></img>
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Rough In Kit - Vacuum</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+
           </div>
         </div>
       </div>
@@ -145,7 +145,7 @@ class prodID8 extends Component {
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Vacuum Wall Outlet w/ New Style Cover Plate</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+            
           </div>
         </div>
       </div>
