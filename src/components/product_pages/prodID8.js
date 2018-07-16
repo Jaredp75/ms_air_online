@@ -50,10 +50,10 @@ class prodID8 extends Component {
                         <br />
                       <div className="individual-product-description">
                         <ul>
-                          <li><strong>Gas Type</strong>: Vacuum</li>
-                          <li><strong>Item Type</strong>: Wall Outlet</li>
-                          <li><strong>Series</strong>: Chemetron 500</li>
-                          <li><strong>Style</strong>: Quick Connect</li>
+                          <li><strong>Gas Type{pic.field}</strong>: Vacuum{pic.value}</li>
+                          <li><strong>Item Type{pic.field}</strong>: Wall Outlet{pic.value}</li>
+                          <li><strong>Series{pic.field}</strong>: Chemetron 500{pic.value}</li>
+                          <li><strong>Style{pic.field}</strong>: Quick Connect{pic.value}</li>
                           <br />
                           <li>{pic.prodDesc}</li>
                           <br />
@@ -73,9 +73,9 @@ class prodID8 extends Component {
         </div>
 
           <div id="quantity-input-group">
-            <form action="/action_page.php">
+            <form method="post" action="cart.php?do=add">
               Quantity:
-              <input type="number" className="quantityBox" />
+              <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
             </form>
           <div id="add-to-cart">
             <input type="submit" value="Add To Cart" />
@@ -92,11 +92,12 @@ class prodID8 extends Component {
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="../product_pages/prodID8">Quick Connect 500 Medical Air Wall Outlet</a></h6>
-            <h6 className="replacement_item_brand_name">Chemetron</h6>
+            {/* <h6 className="replacement_item_brand_name">Chemetron</h6> */}
 
           </div>
         </div>
       </div>
+      <br />
 
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
@@ -105,11 +106,12 @@ class prodID8 extends Component {
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="../product_pages/prodID8">Quick Connect 500 Vacuum Bottle Slide Assembly</a></h6>
-            <h6 className="replacement_item_brand_name">Chemetron</h6>
+            {/* <h6 className="replacement_item_brand_name">Chemetron</h6> */}
 
           </div>
         </div>
       </div>
+      <br />
 
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
@@ -118,11 +120,12 @@ class prodID8 extends Component {
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Vacuum Completion Kit</a></h6>
-            <h6 className="replacement_item_brand_name">Chemetron</h6>
+            {/* <h6 className="replacement_item_brand_name">Chemetron</h6> */}
 
           </div>
         </div>
       </div>
+      <br />
 
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
@@ -131,11 +134,12 @@ class prodID8 extends Component {
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Rough In Kit - Vacuum</a></h6>
-            <h6 className="replacement_item_brand_name">Chemetron</h6>
+            {/* <h6 className="replacement_item_brand_name">Chemetron</h6> */}
 
           </div>
         </div>
       </div>
+      <br />
 
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
@@ -144,8 +148,8 @@ class prodID8 extends Component {
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Vacuum Wall Outlet w/ New Style Cover Plate</a></h6>
-            <h6 className="replacement_item_brand_name">Chemetron</h6>
-            
+            {/* <h6 className="replacement_item_brand_name">Chemetron</h6> */}
+
           </div>
         </div>
       </div>
@@ -257,6 +261,7 @@ class prodID8 extends Component {
             </div>
           </span>
 
+
           <span className="replacement_parts_detail">
             <div className="replacement_parts_thumbnail">
               <img src="https://www.msaironline.com/images/prodImage/22_144x85.jpg" alt="Valve body O-ring kit (12 each)g"></img>
@@ -275,6 +280,7 @@ class prodID8 extends Component {
               <input type="submit" value="Add To Cart" />
             </div>
           </span>
+
 
           <span className="replacement_parts_detail">
             <div className="replacement_parts_thumbnail">

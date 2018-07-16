@@ -50,14 +50,14 @@ class prodID1423 extends Component {
                         <br />
                       <div className="individual-product-description">
                         <ul>
-                          <li><strong>Dimensions</strong>: 21x17x25</li>
-                          <li><strong>Drive Belts</strong>: One (1)</li>
-                          <li><strong>Horse Power</strong>: 1 hp (0.7 kW)</li>
-                          <li><strong>Input Power</strong>: 230v 1ph 60Hz</li>
-                          <li><strong>Max Amps</strong>: 6.7@ 230v</li>
-                          <li><strong>Oil Drippers</strong>: Two (2)</li>
-                          <li><strong>RPM</strong>: 800</li>
-                          <li><strong>Size</strong>: 0.9L</li>
+                          <li><strong>Dimensions{pic.field}</strong>: 21x17x25{pic.value}</li>
+                          <li><strong>Drive Belts{pic.field}</strong>: One (1){pic.value}</li>
+                          <li><strong>Horse Power{pic.field}</strong>: 1 hp (0.7 kW){pic.value}</li>
+                          <li><strong>Input Power{pic.field}</strong>: 230v 1ph 60Hz{pic.value}</li>
+                          <li><strong>Max Amps{pic.field}</strong>: 6.7@ 230v{pic.value}</li>
+                          <li><strong>Oil Drippers{pic.field}</strong>: Two (2){pic.value}</li>
+                          <li><strong>RPM{pic.field}</strong>: 800{pic.value}</li>
+                          <li><strong>Size{pic.field}</strong>: 0.9L{pic.value}</li>
                           <br />
                           <li>{pic.prodDesc}</li>
                           <br />

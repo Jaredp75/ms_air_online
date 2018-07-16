@@ -50,12 +50,12 @@ class prodID341 extends Component {
                         <br />
                       <div className="individual-product-description">
                         <ul>
-                          <li><strong>Compatibility</strong>: Ohmeda</li>
-                          <li><strong>Cover Plate</strong>: New Style</li>
-                          <li><strong>Gas Type</strong>: O2</li>
-                          <li><strong>Item Type</strong>: Wall Outlet</li>
-                          <li><strong>Series</strong>: Chemetron 500</li>
-                          <li><strong>Style</strong>: Quick Connect/Connect2</li>
+                          <li><strong>Compatibility{pic.field}</strong>: Ohmeda{pic.value}</li>
+                          <li><strong>Cover Plate{pic.field}</strong>: New Style{pic.value}</li>
+                          <li><strong>Gas Type{pic.field}</strong>: O2{pic.value}</li>
+                          <li><strong>Item Type{pic.field}</strong>: Wall Outlet{pic.value}</li>
+                          <li><strong>Series{pic.field}</strong>: Chemetron 500{pic.value}</li>
+                          <li><strong>Style{pic.field}</strong>: Quick Connect/Connect2{pic.value}</li>
                           <br />
                           <li>{pic.prodDesc}</li>
                           <br />

@@ -50,9 +50,9 @@ class prodID409 extends Component {
                         <br />
                       <div className="individual-product-description">
                         <ul>
-                          <li><strong>Gas Type</strong>: O2</li>
-                          <li><strong>Item Type</strong>: Wall Outlet</li>
-                          <li><strong>Series</strong>: Quick Connect 400</li>
+                          <li><strong>Gas Type{pic.field}</strong>: O2{pic.value}</li>
+                          <li><strong>Item Type{pic.field}</strong>: Wall Outlet{pic.value}</li>
+                          <li><strong>Series{pic.field}</strong>: Quick Connect 400{pic.value}</li>
                           <br />
                           <li>{pic.prodDesc}</li>
                           <br />

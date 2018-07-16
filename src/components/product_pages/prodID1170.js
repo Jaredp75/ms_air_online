@@ -50,14 +50,14 @@ class prodID1170 extends Component {
                         <br />
                       <div className="individual-product-description">
                         <ul>
-                          <li><strong>Connection</strong>: DISS Male</li>
-                          <li><strong>Connection</strong>: NPT Male</li>
-                          <li><strong>Gas Type</strong>: Medical Air</li>
-                          <li><strong>Item Type</strong>: Fitting</li>
-                          <li><strong>Other</strong>: w/ Check</li>
-                          <li><strong>Series</strong>: DISS</li>
-                          <li><strong>Size</strong>: 1/4 in.</li>
-                          <li><strong>Style</strong>: DISS</li>
+                          <li><strong>Connection{pic.field}</strong>: DISS Male{pic.value}</li>
+                          <li><strong>Connection{pic.field}</strong>: NPT Male{pic.value}</li>
+                          <li><strong>Gas Type{pic.field}</strong>: Medical Air{pic.value}</li>
+                          <li><strong>Item Type{pic.field}</strong>: Fitting{pic.value}</li>
+                          <li><strong>Other{pic.field}</strong>: w/ Check{pic.value}</li>
+                          <li><strong>Series{pic.field}</strong>: DISS{pic.value}</li>
+                          <li><strong>Size{pic.field}</strong>: 1/4 in.{pic.value}</li>
+                          <li><strong>Style{pic.field}</strong>: DISS{pic.value}</li>
                           <br />
                           <li>{pic.prodDesc}</li>
                           <br />

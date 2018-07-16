@@ -50,14 +50,14 @@ class prodID1426 extends Component {
                         <br />
                       <div className="individual-product-description">
                         <ul>
-                        <li><strong>Dimensions</strong>: 26x19x30 in.</li>
-                        <li><strong>Drive Belts</strong>: Two (2)</li>
-                        <li><strong>Horse Power</strong>: 3hp (2.2 kW)</li>
-                        <li><strong>Input Power</strong>: 230v 3ph 60Hz</li>
-                        <li><strong>Max Amps</strong>: 8.0 @ 230v</li>
-                        <li><strong>Oil Drippers</strong>: Two (2)</li>
-                        <li><strong>RPM</strong>: 1050</li>
-                        <li><strong>Size</strong>: 1.8L</li>
+                        <li><strong>Dimensions{pic.field}</strong>: 26x19x30 in.{pic.value}</li>
+                        <li><strong>Drive Belts{pic.field}</strong>: Two (2){pic.value}</li>
+                        <li><strong>Horse Power{pic.field}</strong>: 3hp (2.2 kW){pic.value}</li>
+                        <li><strong>Input Power{pic.field}</strong>: 230v 3ph 60Hz{pic.value}</li>
+                        <li><strong>Max Amps{pic.field}</strong>: 8.0 @ 230v{pic.value}</li>
+                        <li><strong>Oil Drippers{pic.field}</strong>: Two (2){pic.value}</li>
+                        <li><strong>RPM{pic.field}</strong>: 1050{pic.value}</li>
+                        <li><strong>Size{pic.field}</strong>: 1.8L{pic.value}</li>
                         <br />
                         <li>{pic.prodDesc}</li>
                         <br />
@@ -71,7 +71,7 @@ class prodID1426 extends Component {
 
                     <div className="file_section">
                       <a href="http://www.msaironline.com/files/39.pdf"><img src="http://www.msaironline.com/images/pdf.jpg" alt="pdf-placeholder"></img></a>
-                      <h5>RamVac Bison.pdf</h5>
+                      <a href="http://www.msaironline.com/files/39.pdf"><h5>RamVac Bison.pdf</h5></a>
                     </div>
 
 

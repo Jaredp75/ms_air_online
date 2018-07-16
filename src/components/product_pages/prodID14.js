@@ -50,10 +50,10 @@ class prodID14 extends Component {
                         <br />
                       <div className="individual-product-description">
                         <ul>
-                          <li><strong>Gas Type</strong>: 02</li>
-                          <li><strong>Item Type</strong>: Wall Outlet</li>
-                          <li><strong>Series</strong>: Chemetron 500</li>
-                          <li><strong>Style</strong>: Quick Connect</li>
+                          <li><strong>Gas Type{pic.field}</strong>: 02{pic.value}</li>
+                          <li><strong>Item Type{pic.field}</strong>: Wall Outlet{pic.value}</li>
+                          <li><strong>Series{pic.field}</strong>: Chemetron 500{pic.value}</li>
+                          <li><strong>Style{pic.field}</strong>: Quick Connect{pic.value}</li>
                           <br />
                           <li>{pic.prodDesc}</li>
                           <br />
