@@ -73,9 +73,9 @@ class prodID14 extends Component {
         </div>
 
           <div id="quantity-input-group">
-            <form action="/action_page.php">
+            <form method="post" action="cart.php?do=add">
               Quantity:
-              <input type="number" className="quantityBox" />
+              <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
             </form>
           <div id="add-to-cart">
             <input type="submit" value="Add To Cart" />
@@ -95,11 +95,12 @@ class prodID14 extends Component {
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/product_pages/prodID341">Quick Connect 500 Vacuum Wall Outlet</a></h6>
-            <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+            {/* <h6 className="replacement_item_brand_name">Chemetron</h6> */}
+            {/* <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6> */}
           </div>
         </div>
       </div>
+      <br />
 
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
@@ -108,11 +109,12 @@ class prodID14 extends Component {
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Oxygen Completion Kit</a></h6>
-            <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+            {/* <h6 className="replacement_item_brand_name">Chemetron</h6> */}
+            {/* <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6> */}
           </div>
         </div>
       </div>
+      <br />
 
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
@@ -121,11 +123,12 @@ class prodID14 extends Component {
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Rough In Kit - Oxygen</a></h6>
-            <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+            {/* <h6 className="replacement_item_brand_name">Chemetron</h6> */}
+            {/* <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6> */}
           </div>
         </div>
       </div>
+      <br />
 
       <div className="replacement_item_listing">
         <div className="replacement_item_entry">
@@ -134,14 +137,15 @@ class prodID14 extends Component {
           </div>
           <div className="replacement_item_details">
             <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Oxygen Wall Outlet w/ New Style Cover Plate</a></h6>
-            <h6 className="replacement_item_brand_name">Chemetron</h6>
-            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+            {/* <h6 className="replacement_item_brand_name">Chemetron</h6> */}
+            {/* <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6> */}
           </div>
         </div>
       </div>
 
 
     </div>
+
 
 {/* ---Replacement Parts Section--- */}
 
@@ -162,7 +166,7 @@ class prodID14 extends Component {
       <h4 className="replacement_parts_price"><strong>Price</strong>: $18.90</h4>
       <div className="replacement-parts-quantity-input-group">
         <form action="/action_page.php">
-          <strong>Qty</strong>:
+          <strong>Quantity</strong>:
           <input type="number" className="quantityBox" value="0" />
         </form>
       </div>
@@ -182,7 +186,7 @@ class prodID14 extends Component {
       <h4 className="replacement_parts_price"><strong>Price</strong>: $9.45</h4>
       <div className="replacement-parts-quantity-input-group">
         <form action="/action_page.php">
-          <strong>Qty</strong>:
+          <strong>Quantity</strong>:
           <input type="number" className="quantityBox" value="0" />
         </form>
       </div>
@@ -202,7 +206,7 @@ class prodID14 extends Component {
       <h4 className="replacement_parts_price"><strong>Price</strong>: $16.07</h4>
       <div className="replacement-parts-quantity-input-group">
         <form action="/action_page.php">
-          <strong>Qty</strong>:
+          <strong>Quantity</strong>:
           <input type="number" className="quantityBox" value="0" />
         </form>
       </div>
@@ -222,7 +226,7 @@ class prodID14 extends Component {
       <h4 className="replacement_parts_price"><strong>Price</strong>: $12.29</h4>
       <div className="replacement-parts-quantity-input-group">
         <form action="/action_page.php">
-          <strong>Qty</strong>:
+          <strong>Quantity</strong>:
           <input type="number" className="quantityBox" value="0" />
         </form>
       </div>
@@ -242,7 +246,7 @@ class prodID14 extends Component {
       <h4 className="replacement_parts_price"><strong>Price</strong>: $41.58</h4>
       <div className="replacement-parts-quantity-input-group">
         <form action="/action_page.php">
-          <strong>Qty</strong>:
+          <strong>Quantity</strong>:
           <input type="number" className="quantityBox" value="0" />
         </form>
       </div>
@@ -261,7 +265,7 @@ class prodID14 extends Component {
       <h4 className="replacement_parts_price"><strong>Price</strong>: $53.87</h4>
       <div className="replacement-parts-quantity-input-group">
         <form action="/action_page.php">
-          <strong>Qty</strong>:
+          <strong>Quantity</strong>:
           <input type="number" className="quantityBox" value="0" />
         </form>
       </div>
@@ -281,7 +285,7 @@ class prodID14 extends Component {
       <h4 className="replacement_parts_price"><strong>Price</strong>: $12.29</h4>
       <div className="replacement-parts-quantity-input-group">
         <form action="/action_page.php">
-          <strong>Qty</strong>:
+          <strong>Quantity</strong>:
           <input type="number" className="quantityBox" value="0" />
         </form>
       </div>
@@ -301,7 +305,7 @@ class prodID14 extends Component {
       <h4 className="replacement_parts_price"><strong>Price</strong>: $36.00</h4>
       <div className="replacement-parts-quantity-input-group">
         <form action="/action_page.php">
-          <strong>Qty</strong>:
+          <strong>Quantity</strong>:
           <input type="number" className="quantityBox" value="0" />
         </form>
       </div>
@@ -320,7 +324,7 @@ class prodID14 extends Component {
       <h4 className="replacement_parts_price"><strong>Price</strong>: $15.12</h4>
       <div className="replacement-parts-quantity-input-group">
         <form action="/action_page.php">
-          <strong>Qty</strong>:
+          <strong>Quantity</strong>:
           <input type="number" className="quantityBox" value="0" />
         </form>
       </div>
@@ -341,7 +345,7 @@ class prodID14 extends Component {
       <h4 className="replacement_parts_price"><strong>Price</strong>: $21.73</h4>
       <div className="replacement-parts-quantity-input-group">
         <form action="/action_page.php">
-          <strong>Qty</strong>:
+          <strong>Quantity</strong>:
           <input type="number" className="quantityBox" value="0" />
         </form>
       </div>
@@ -361,7 +365,7 @@ class prodID14 extends Component {
       <h4 className="replacement_parts_price"><strong>Price</strong>: $14.18</h4>
       <div className="replacement-parts-quantity-input-group">
         <form action="/action_page.php">
-          <strong>Qty</strong>:
+          <strong>Quantity</strong>:
           <input type="number" className="quantityBox" value="0" />
         </form>
       </div>
@@ -381,7 +385,7 @@ class prodID14 extends Component {
       <h4 className="replacement_parts_price"><strong>Price</strong>: $11.34</h4>
       <div className="replacement-parts-quantity-input-group">
         <form action="/action_page.php">
-          <strong>Qty</strong>:
+          <strong>Quantity</strong>:
           <input type="number" className="quantityBox" value="0" />
         </form>
       </div>
@@ -411,7 +415,7 @@ class prodID14 extends Component {
 
 
 
-
+      </div>
         <div className="FooterLinks1">
           <HelpAndCurrency />
         </div>
@@ -419,7 +423,7 @@ class prodID14 extends Component {
         <div className="FooterLinks2">
           <AboutLinks />
         </div>
-      </div>
+
 
 
       </div>

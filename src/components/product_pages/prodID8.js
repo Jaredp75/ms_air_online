@@ -156,6 +156,7 @@ class prodID8 extends Component {
     </div>
 
 
+
       <div className="replacement_parts_section">
         <h1 className="replacement_parts_header">Replacement Parts</h1>
       <div className="replacement_parts_image">
@@ -421,7 +422,7 @@ class prodID8 extends Component {
 
 
 
-
+      </div>
         <div className="FooterLinks1">
           <HelpAndCurrency />
         </div>
@@ -429,7 +430,7 @@ class prodID8 extends Component {
         <div className="FooterLinks2">
           <AboutLinks />
         </div>
-      </div>
+
 
 
       </div>

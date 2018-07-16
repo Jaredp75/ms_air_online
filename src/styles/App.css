@@ -181,6 +181,13 @@
 
 
 
+.content-background {
+  padding: 10px;
+}
+
+
+
+
 .content-area-container2:hover {
   background-color: lightgray;
 }
@@ -1535,6 +1542,14 @@
   padding: 40px;
   background-color: lightgray;
   border-radius: 2px;
+}
+
+
+
+
+.replacement_parts_detail:hover {
+  background-color: green;
+  color: white;
 }
 
 

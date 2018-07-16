@@ -94,9 +94,9 @@ class prodID1476 extends Component {
         </div>
 
           <div id="quantity-input-group">
-            <form action="/action_page.php">
+            <form method="post" action="cart.php?do=add">
               Quantity:
-              <input type="number" className="quantityBox" />
+              <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
             </form>
           <div id="add-to-cart">
             <input type="submit" value="Add To Cart" />
@@ -440,7 +440,7 @@ class prodID1476 extends Component {
 
 
 
-
+      </div>
         <div className="FooterLinks1">
           <HelpAndCurrency />
         </div>
@@ -448,7 +448,7 @@ class prodID1476 extends Component {
         <div className="FooterLinks2">
           <AboutLinks />
         </div>
-      </div>
+
 
 
       </div>

@@ -75,9 +75,9 @@ class prodID341 extends Component {
         </div>
 
           <div id="quantity-input-group">
-            <form action="/action_page.php">
+            <form method="post" action="cart.php?do=add">
               Quantity:
-              <input type="number" className="quantityBox" />
+              <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
             </form>
           <div id="add-to-cart">
             <input type="submit" value="Add To Cart" />
@@ -87,63 +87,68 @@ class prodID341 extends Component {
 
 {/* ---Related Items Section--- */}
 
-<div id="replacement_items_section">
-<h4 className="replacement_items_header">Related Items</h4>
+      <div id="replacement_items_section">
+        <h4 className="replacement_items_header">Related Items</h4>
 
-<div className="replacement_item_listing">
-<div className="replacement_item_entry">
-  <div className="replacement_item_image">
-    <img src="http://www.msaironline.com/images/prodImage/no_photo.gif" alt="Quick Connect 500 Rough In Kit - Oxygen w/ New Style Cover Plate"></img>
-  </div>
-  <div className="replacement_item_details">
-    <h6 className="replacement_item_title"><a href="/product_pages/prodID341">Quick Connect 500 Rough In Kit - Oxygen w/ New Style Cover Plate</a></h6>
-    <h6 className="replacement_item_brand_name">Chemetron</h6>
+        <div className="replacement_item_listing">
+          <div className="replacement_item_entry">
+            <div className="replacement_item_image">
+              <img src="http://www.msaironline.com/images/prodImage/no_photo.gif" alt="Quick Connect 500 Rough In Kit - Oxygen w/ New Style Cover Plate"></img>
+            </div>
 
-  </div>
-</div>
-</div>
+          <div className="replacement_item_details">
+            <h6 className="replacement_item_title"><a href="/product_pages/prodID341">Quick Connect 500 Rough In Kit - Oxygen w/ New Style Cover Plate</a></h6>
+            {/* <h6 className="replacement_item_brand_name">Chemetron</h6> */}
 
-<div className="replacement_item_listing">
-<div className="replacement_item_entry">
-  <div className="replacement_item_image">
-    <img src="https://www.msaironline.com/images/prodImage/324_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Oxygen Outlet - Ohmeda Compatible"></img>
-  </div>
-  <div className="replacement_item_details">
-    <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Oxygen Outlet - Ohmeda Compatible</a></h6>
-    <h6 className="replacement_item_brand_name">Chemetron</h6>
+          </div>
+        </div>
+      </div>
+      <br />
 
-  </div>
-</div>
-</div>
+      <div className="replacement_item_listing">
+        <div className="replacement_item_entry">
+          <div className="replacement_item_image">
+            <img src="https://www.msaironline.com/images/prodImage/324_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Oxygen Outlet - Ohmeda Compatible"></img>
+          </div>
+          <div className="replacement_item_details">
+            <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Oxygen Outlet - Ohmeda Compatible</a></h6>
+            {/* <h6 className="replacement_item_brand_name">Chemetron</h6> */}
 
-<div className="replacement_item_listing">
-<div className="replacement_item_entry">
-  <div className="replacement_item_image">
-    <img src="https://www.msaironline.com/images/prodImage/342_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Vacuum Outlet - Ohmeda Compatible /w New Style Cover"></img>
-  </div>
-  <div className="replacement_item_details">
-    <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Vacuum Outlet - Ohmeda Compatible /w New Style Cover</a></h6>
-    <h6 className="replacement_item_brand_name">Chemetron</h6>
+          </div>
+        </div>
+      </div>
+      <br />
 
-  </div>
-</div>
-</div>
+      <div className="replacement_item_listing">
+        <div className="replacement_item_entry">
+          <div className="replacement_item_image">
+            <img src="https://www.msaironline.com/images/prodImage/342_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Vacuum Outlet - Ohmeda Compatible /w New Style Cover"></img>
+          </div>
+          <div className="replacement_item_details">
+            <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Vacuum Outlet - Ohmeda Compatible /w New Style Cover</a></h6>
+            {/* <h6 className="replacement_item_brand_name">Chemetron</h6> */}
 
-<div className="replacement_item_listing">
-<div className="replacement_item_entry">
-  <div className="replacement_item_image">
-    <img src="http://www.msaironline.com/images/prodImage/no_photo.gif" width="144" height="85" alt="Quick Connect 500 Oxygen Completion Kit  - Ohmeda Compatible /w New Style Cover"></img>
-  </div>
-  <div className="replacement_item_details">
-    <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Oxygen Completion Kit  - Ohmeda Compatible /w New Style Cover</a></h6>
-    <h6 className="replacement_item_brand_name">Chemetron</h6>
+          </div>
+        </div>
+      </div>
+      <br />
 
-  </div>
-</div>
-</div>
+      <div className="replacement_item_listing">
+        <div className="replacement_item_entry">
+          <div className="replacement_item_image">
+            <img src="http://www.msaironline.com/images/prodImage/no_photo.gif" width="144" height="85" alt="Quick Connect 500 Oxygen Completion Kit  - Ohmeda Compatible /w New Style Cover"></img>
+          </div>
+          <div className="replacement_item_details">
+            <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Oxygen Completion Kit  - Ohmeda Compatible /w New Style Cover</a></h6>
+            {/* <h6 className="replacement_item_brand_name">Chemetron</h6> */}
+
+          </div>
+        </div>
+      </div>
 
 
-</div>
+    </div>
+
 
 {/* ---Replacement Parts Section--- */}
 
@@ -163,9 +168,9 @@ class prodID341 extends Component {
     <h4 className="replacement_parts_name">Secondary Check Kit (6 each)</h4>
     <h4 className="replacement_parts_price"><strong>Price</strong>: $18.90</h4>
     <div className="replacement-parts-quantity-input-group">
-      <form action="/action_page.php">
-        <strong>Qty</strong>:
-        <input type="number" className="quantityBox" value="0" />
+      <form method="post" action="cart.php?do=add">
+        Quantity:
+        <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
       </form>
     </div>
 
@@ -183,9 +188,9 @@ class prodID341 extends Component {
     <h4 className="replacement_parts_name">Housing base O-ring (12 each)</h4>
     <h4 className="replacement_parts_price"><strong>Price</strong>: $9.45</h4>
     <div className="replacement-parts-quantity-input-group">
-      <form action="/action_page.php">
-        <strong>Qty</strong>:
-        <input type="number" className="quantityBox" value="0" />
+      <form method="post" action="cart.php?do=add">
+        Quantity:
+        <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
       </form>
     </div>
 
@@ -203,9 +208,9 @@ class prodID341 extends Component {
     <h4 className="replacement_parts_name">Quick Connect Poppet 500 Series</h4>
     <h4 className="replacement_parts_price"><strong>Price</strong>: $16.07</h4>
     <div className="replacement-parts-quantity-input-group">
-      <form action="/action_page.php">
-        <strong>Qty</strong>:
-        <input type="number" className="quantityBox" value="0" />
+      <form method="post" action="cart.php?do=add">
+        Quantity:
+        <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
       </form>
     </div>
 
@@ -223,9 +228,9 @@ class prodID341 extends Component {
     <h4 className="replacement_parts_name">Poppet O-ring Kit (12 each) - Quick Connect 500</h4>
     <h4 className="replacement_parts_price"><strong>Price</strong>: $12.29</h4>
     <div className="replacement-parts-quantity-input-group">
-      <form action="/action_page.php">
-        <strong>Qty</strong>:
-        <input type="number" className="quantityBox" value="0" />
+      <form method="post" action="cart.php?do=add">
+        Quantity:
+        <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
       </form>
     </div>
 
@@ -243,9 +248,9 @@ class prodID341 extends Component {
     <h4 className="replacement_parts_name">Valve body with poppet-pressure</h4>
     <h4 className="replacement_parts_price"><strong>Price</strong>: $41.58</h4>
     <div className="replacement-parts-quantity-input-group">
-      <form action="/action_page.php">
-        <strong>Qty</strong>:
-        <input type="number" className="quantityBox" value="0" />
+      <form method="post" action="cart.php?do=add">
+        Quantity:
+        <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
       </form>
     </div>
 
@@ -262,9 +267,9 @@ class prodID341 extends Component {
     <h4 className="replacement_parts_name">Valve body kit with poppet-pressure (4 each)</h4>
     <h4 className="replacement_parts_price"><strong>Price</strong>: $53.87</h4>
     <div className="replacement-parts-quantity-input-group">
-      <form action="/action_page.php">
-        <strong>Qty</strong>:
-        <input type="number" className="quantityBox" value="0" />
+      <form method="post" action="cart.php?do=add">
+        Quantity:
+        <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
       </form>
     </div>
 
@@ -282,9 +287,9 @@ class prodID341 extends Component {
     <h4 className="replacement_parts_name">Valve body O-ring kit (12 each)</h4>
     <h4 className="replacement_parts_price"><strong>Price</strong>: $12.29</h4>
     <div className="replacement-parts-quantity-input-group">
-      <form action="/action_page.php">
-        <strong>Qty</strong>:
-        <input type="number" className="quantityBox" value="0" />
+      <form method="post" action="cart.php?do=add">
+        Quantity:
+        <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
       </form>
     </div>
 
@@ -302,9 +307,9 @@ class prodID341 extends Component {
     <h4 className="replacement_parts_name">Oxygen Face Plate Assembly</h4>
     <h4 className="replacement_parts_price"><strong>Price</strong>: $36.00</h4>
     <div className="replacement-parts-quantity-input-group">
-      <form action="/action_page.php">
-        <strong>Qty</strong>:
-        <input type="number" className="quantityBox" value="0" />
+      <form method="post" action="cart.php?do=add">
+        Quantity:
+        <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
       </form>
     </div>
 
@@ -321,9 +326,9 @@ class prodID341 extends Component {
     <h4 className="replacement_parts_name">Face Plate Springs (12 per pack)</h4>
     <h4 className="replacement_parts_price"><strong>Price</strong>: $15.12</h4>
     <div className="replacement-parts-quantity-input-group">
-      <form action="/action_page.php">
-        <strong>Qty</strong>:
-        <input type="number" className="quantityBox" value="0" />
+      <form method="post" action="cart.php?do=add">
+        Quantity:
+        <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
       </form>
     </div>
 
@@ -342,9 +347,9 @@ class prodID341 extends Component {
     <h4 className="replacement_parts_name">Face plate mounting screw kit (48 each)</h4>
     <h4 className="replacement_parts_price"><strong>Price</strong>: $21.73</h4>
     <div className="replacement-parts-quantity-input-group">
-      <form action="/action_page.php">
-        <strong>Qty</strong>:
-        <input type="number" className="quantityBox" value="0" />
+      <form method="post" action="cart.php?do=add">
+        Quantity:
+        <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
       </form>
     </div>
 
@@ -362,9 +367,9 @@ class prodID341 extends Component {
     <h4 className="replacement_parts_name">Test plug kit (12 each)</h4>
     <h4 className="replacement_parts_price"><strong>Price</strong>: $14.18</h4>
     <div className="replacement-parts-quantity-input-group">
-      <form action="/action_page.php">
-        <strong>Qty</strong>:
-        <input type="number" className="quantityBox" value="0" />
+      <form method="post" action="cart.php?do=add">
+        Quantity:
+        <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
       </form>
     </div>
 
@@ -382,9 +387,9 @@ class prodID341 extends Component {
     <h4 className="replacement_parts_name">Back Box Mounting Screws & Fastner Kit (24 each)</h4>
     <h4 className="replacement_parts_price"><strong>Price</strong>: $11.34</h4>
     <div className="replacement-parts-quantity-input-group">
-      <form action="/action_page.php">
-        <strong>Qty</strong>:
-        <input type="number" className="quantityBox" value="0" />
+      <form method="post" action="cart.php?do=add">
+        Quantity:
+        <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
       </form>
     </div>
 
@@ -413,7 +418,7 @@ class prodID341 extends Component {
 
 
 
-
+      </div>
         <div className="FooterLinks1">
           <HelpAndCurrency />
         </div>
@@ -421,7 +426,7 @@ class prodID341 extends Component {
         <div className="FooterLinks2">
           <AboutLinks />
         </div>
-      </div>
+
 
 
       </div>
