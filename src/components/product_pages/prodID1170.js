@@ -10,6 +10,9 @@ class prodID1170 extends Component {
     super();
     this.state = {
       products: [],
+      attributes: [],
+      related_parts: [],
+      replacement_parts: []
     };
   }
 

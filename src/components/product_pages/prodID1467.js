@@ -10,6 +10,8 @@ class prodID1467 extends Component {
     super();
     this.state = {
       products: [],
+      message: [],
+      file: []
     };
   }
 
@@ -66,13 +68,13 @@ class prodID1467 extends Component {
                         <br />
                         <li>{pic.prodLongDesc}</li>
                         <br />
-                        <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+                        <li>{pic.message}</li>
                       </ul>
                     </div>
 
                     <div className="file_section">
                       <a href="http://www.msaironline.com/files/54.pdf"><img src="http://www.msaironline.com/images/pdf.jpg" alt="pdf-placeholder"></img></a>
-                      <a href="http://www.msaironline.com/files/54.pdf"><h5>Bulldog Filter Maintenance.pdf</h5></a>
+                      <a href="http://www.msaironline.com/files/54.pdf"><h5>{pic.file_name}Bulldog Filter Maintenance.pdf</h5></a>
                     </div>
 
 

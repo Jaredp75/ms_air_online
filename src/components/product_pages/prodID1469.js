@@ -66,7 +66,7 @@ class prodID1469 extends Component {
                         <br />
                         <li>{pic.prodLongDesc}</li>
                         <br />
-                        <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+                        <li>{pic.message}</li>
                       </ul>
                     </div>
 

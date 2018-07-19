@@ -10,6 +10,9 @@ class prodID1425 extends Component {
     super();
     this.state = {
       products: [],
+      attributes: [],
+      related_parts: [],
+      replacement_parts: []
     };
   }
 
@@ -63,9 +66,7 @@ class prodID1425 extends Component {
                           <br />
                           <li>{pic.prodLongDesc}</li>
                           <br />
-                          <li>Freight Shipping billed separately to contiguous 48 states. Additional fees may apply if lift gate is required. Call for details.</li>
-                          <br />
-                          <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+                          <li>{pic.message}</li>
                         </ul>
                       </div>
 
