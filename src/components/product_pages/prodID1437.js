@@ -53,7 +53,7 @@ class prodID1437 extends Component {
                         <br />
                       <div className="individual-product-description">
                         <ul>
-                        <p><b>Features & Benefits</b>:</p>
+                        {/* <p><b>Features & Benefits</b>:</p>
                         <li>Compact Size & 1-1/2" fittings for increased installation options<br />and easier and quicker installations</li>
                         <li>3 Step Separation</li>
                         <li>2-Pin Connection</li>
@@ -64,7 +64,7 @@ class prodID1437 extends Component {
                         <li>Easy cartridge replacement</li>
                         <li>Identifies replacement time</li>
                         <li>Captures dissolved mercury</li>
-                        <br />
+                        <br /> */}
                         <li>{pic.prodDesc}</li>
                         <br />
                         <li>{pic.prodLongDesc}</li>
