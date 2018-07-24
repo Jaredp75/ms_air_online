@@ -176,8 +176,8 @@ class prodID1835 extends Component {
 
 
 <div className="replacement_parts_section">
-      {/* <div className="replacement_parts_header"></div> */}
-      <h1 className="replacement_parts_header">Replacement Parts</h1>
+      <div className="replacement_parts_header"><h4>This item is a replacement part for the following products:</h4></div>
+      {/* <h1 className="replacement_parts_header">Replacement Parts</h1> */}
       {/* <div className="replacement_parts_image">
         <img src="https://www.msaironline.com/images/assembly/QuickConnect_400_Series.jpg" alt="Quick Connect"></img>
       </div> */}
@@ -187,10 +187,10 @@ class prodID1835 extends Component {
 
       <span className="replacement_parts_detail">
         <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/1899_144x85.jpg" alt="ZFC Replacement Element"></img>
+          <img src="http://www.msaironline.com/images/prodImage/1771_144x85.jpg" alt="ZFC Replacement Element"></img>
         </div>
 
-        <h4 className="replacement_parts_name"><a href="/subcat=233/prodID1899">ZFC Replacement Element</a></h4>
+        <h4 className="replacement_parts_name"><a href="/subcat=233/prodID1771">ZFC Compressed Air Filter</a></h4>
         {/* <h4 className="replacement_parts_price"><strong>Price</strong>: $287.30</h4> */}
         <div className="replacement-parts-quantity-input-group">
           <form action="/action_page.php">

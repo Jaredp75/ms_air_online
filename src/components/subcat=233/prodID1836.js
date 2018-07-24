@@ -176,8 +176,8 @@ class prodID1836 extends Component {
 
 
 <div className="replacement_parts_section">
-      {/* <div className="replacement_parts_header"></div> */}
-      <h1 className="replacement_parts_header">Replacement Parts</h1>
+      <div className="replacement_parts_header"><h4>This item is a replacement part for the following products:</h4></div>
+      {/* <h1 className="replacement_parts_header">Replacement Parts</h1> */}
       {/* <div className="replacement_parts_image">
         <img src="https://www.msaironline.com/images/assembly/QuickConnect_400_Series.jpg" alt="Quick Connect"></img>
       </div> */}

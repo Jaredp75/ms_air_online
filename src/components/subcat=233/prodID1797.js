@@ -37,7 +37,7 @@ class prodID1797 extends Component {
                       </div>
                       <div id="product-image">
                         <img src={pic.icon} alt="product-placeholder" />
-                        <h5>Catalog Number:<br />{pic.prodSku}</h5>
+                        <p>Catalog Number:<br />{pic.prodSku}</p>
                       </div>
 
 
