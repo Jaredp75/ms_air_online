@@ -1,108 +1,53 @@
-import React from "react";
+import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-// import PropTypes from 'prop-types';
-// import { bindActionCreators } from 'redux';
-// import { connect } from 'react-redux';
-// import FooterLinks from './footer-links/footer-links.js';
-// import placeholder from '../img/compressor_placeholder.jpg';
-import AboutLinks from './footer-links/about-links.js';
 import HelpAndCurrency from './help-and-currency.js';
-// import QuantityBox from './quantity_box.js';
+import AboutLinks from './footer-links/about-links.js';
 
-export default class Home extends React.Component {
-  // constructor(props){
-  //   super(props);
-  //   this.state = {
-  //     error: null,
-  //     isLoaded: false,
-  //     category:[]
-  //   }
-  //   this.componentDidMount = this.componentDidMount.bind(this);
-  // }
 
-  // componentDidMount(){
-  //   fetch('https://www.msaironline.com/qa1/api/category.php')
-  //     .then(res => res.json())
-  //     .then(
-  //       (result) => {
-  //         this.setState({
-  //           isLoaded: true,
-  //           category: result.category
-  //         });
-  //       },
-  //       (error) => {
-  //         this.setState({
-  //           isLoaded: true,
-  //           error
-  //         });
-  //       }
-  //     )
-  //   }
 
-  //   render() {
-  //     const { error, isLoaded, category } = this.state;
-  //     if (error) {
-  //       return<div>Error: {error.message}</div>;
-  //     } else if (!isLoaded) {
-  //       return <div>Loading...</div>;
-  //     } else {
-  //       return (
-  //         {category.map(category => (
-  //           <div className="category_listing">
-  //             <p>Category</p>
-  //             <h4 className="category">{category.taxName}</h4>
-  //           </div>
-  //         ))},
-  //       );
-  //     }
-  //   }
-  // }
-  //
-  // Category.propTypes = {
-  //   category: PropTypes.array,
-  //   actions: PropTypes.object
-  // };
-  //
-  // function mapStateToProps(state) {
-  //   return {
-  //     ...state.category
-  //   };
-  // }
-  //
-  // function mapDispatchToProps(dispatch) {
-  //   return { actions: bindActionCreators(actionCreators, dispatch) };
-  // }
-  //
-  // export default connect(mapStateToProps, mapDispatchToProps)(category);
-  //     return results.json();
-  //   }).then(data=>{
-  //     this.setState({orgInfo: data.organization});
-  //     this.setState({tourList: data.organization.tours})
-  //   })
-  // }
+class Home extends Component {
+  constructor() {
+    super();
+    this.state = {
+      categories: [],
+      attributes: {}
+    };
+  }
 
-  render(){
-    // console.log(this.state.category)
-    // console.log(this.state.taxName)
-    return(
-      <div>
-        <div className="content-area-container">
-          {/* <div className = "tour-main-text">
-            <div><h1>{this.state.orgInfo.display_name}</h1></div>
-            <div><h2>{this.state.orgInfo.description}</h2></div>
-          </div> */}
-          <p>Having trouble locating a part? Contact us using our web submission form <a href="../contact_us" target="_blank" rel="noopener noreferrer">here</a>. Or call <strong>1-877-MSAIR99</strong>.</p>
+  componentDidMount() {
+
+    fetch('http://www.msaironline.com/qa1/api/category.php?id=223')
+    .then(results => {
+      return results.json();
+    }).then(data => {
+      let categories = data.category.map((pic) => {
+        console.log(pic);
+
+        return(
+          // Object.keys(this.props.categories).map((taxName) => {
+          //   console.log(taxName)
+          //   return (
+          //     <p>{taxName}</p>
+          //   )
+          // })
+
+
+
+          <div>
+            <div className="content-area-container">
+
+              <h4>Having trouble locating a part? Contact us using our web submission form <a href="../contact_us" target="_blank" rel="noopener noreferrer">here</a>. Or call <strong>1-877-MSAIR99</strong>.</h4>
 
           <div className="row">
             <div className="left-half">
             <div className="top-brands">
               <div className="brand-logo">
                 <a href='/category_pages/cat_trident'>
-                  <img src="../trident_pneumatics.png" alt="Trident logo"/>
+                  <img src={pic.icon[0]} alt="Trident logo"/>
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/category_pages/cat_trident'><b>Trident</b></a><br></br>
+                <a href='/category_pages/cat_trident'><b>{pic.taxName[0]}</b></a><br></br>
                 <li><a href='/subcat=249/desiccant_air_dryers'>Desiccant Air Dryers</a></li>
                 <li><a href='/subcat=252/coalescing_filters'>Coalescing Filters</a></li>
                 <li><a href='/subcat=251/particulate_filters'>Particulate Filters</a></li>
@@ -581,27 +526,84 @@ export default class Home extends React.Component {
 
 
 
-<div className="FooterLinks1">
-  <HelpAndCurrency />
 
-</div>
-<div className="FooterLinks2">
-  <AboutLinks />
-</div>
-</div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div className="FooterLinks1">
+          <HelpAndCurrency />
+        </div>
+
+        <div className="FooterLinks2">
+          <AboutLinks />
+        </div>
+
+
+
+      </div>
       <div className="about-footer">
         <div className="terms">
-          <p><a href="/terms" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" rel="noopener noreferrer">Privacy Policy</a></p>
+          <p><a href="/terms" target="_blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
         </div>
+
         <div className="copyright">
           <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
+        </div>
+
       </div>
-      </div>
+
+
+
+
+
     </div>
 
 
 
+
+        )
+      })
+      console.log("state", this.state.categories);
+      this.setState({categories: categories});
+    })
+  }
+
+
+
+  render() {
+    return (
+
+      <div className="container2">
+        <div className="container1">
+          {this.state.categories}
+        </div>
+      </div>
     )
   }
+
+
+
+
+
 }
+
+
+
+export default Home;

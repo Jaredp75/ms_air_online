@@ -21,6 +21,7 @@ class prodID1633 extends Component {
       return results.json();
     }).then(data => {
       let products = data.product.map((pic) => {
+        console.log(pic);
         return(
 
           <div>
@@ -51,6 +52,10 @@ class prodID1633 extends Component {
                         <br />
                       <div className="individual-product-description">
                         <ul>
+                          <li><strong>{pic.attributes[0].field}</strong>: {pic.attributes[0].value}</li>
+                          <li><strong>{pic.attributes[1].field}</strong>: {pic.attributes[1].value}</li>
+                          <li><strong>{pic.attributes[2].field}</strong>: {pic.attributes[2].value}</li>
+                          <br />
                         {/* <p><b>Features & Benefits</b>:</p> */}
                         {/* <li>Compact Size & 1-1/2" fittings for increased installation options<br />and easier and quicker installations</li> */}
                         {/* <li>3 Step Separation</li> */}

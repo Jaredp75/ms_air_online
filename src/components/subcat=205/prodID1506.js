@@ -9,10 +9,7 @@ class prodID1506 extends Component {
   constructor() {
     super();
     this.state = {
-      products: [],
-      attributes: [],
-      related_parts: [],
-      replacement_parts: []
+      products: []
     };
   }
 
@@ -21,9 +18,14 @@ class prodID1506 extends Component {
     fetch('https://www.msaironline.com/qa1/api/product.php?id=1506')
     .then(results => {
       return results.json();
+
+
+
     }).then(data => {
       let products = data.product.map((pic) => {
+        console.log(pic);
         return(
+
 
           <div>
             <div className="content-area-container">
@@ -99,7 +101,7 @@ class prodID1506 extends Component {
           <div id="quantity-input-group">
             <form method="post" action="cart.php?do=add">
               Quantity:
-              <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
+              <input type="text" className="quantityBox" value="1" size="2" maxLength="4" />
             </form>
           <div id="add-to-cart">
             <input type="submit" value="Add To Cart" />

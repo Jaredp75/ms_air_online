@@ -5,6 +5,7 @@ import Baselayout from '../components/Baselayout';
 import Home from '../components/Home';
 import About from '../components/About';
 import TermsOfUse from '../components/terms';
+import Top_Sellers from '../components/top_sellers';
 import PrivacyPolicy from '../components/privacy';
 import OptInForm from '../components/opt-in-form';
 import Login from '../components/login';
@@ -447,6 +448,7 @@ class App extends Component {
             <Route exact path ="/" component={Home}/>
             <Route path ="/about" component={About}/>
             <Route path="/terms" component={TermsOfUse}/>
+            <Route path="/top_sellers" component={Top_Sellers}/>
             <Route path="/privacy" component={PrivacyPolicy}/>
             <Route path="/opt-in-form" component={OptInForm}/>
             <Route path="/login" component={Login}/>
