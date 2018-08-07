@@ -43,11 +43,11 @@ class Home extends Component {
             <div className="top-brands">
               <div className="brand-logo">
                 <a href='/category_pages/cat_trident'>
-                  <img src={pic.icon[0]} alt="Trident logo"/>
+                  <img src={pic.icon} alt="Trident logo"/>
                 </a>
               </div>
               <div className="brand-text">
-                <a href='/category_pages/cat_trident'><b>{pic.taxName[0]}</b></a><br></br>
+                <a href='/category_pages/cat_trident'><b>Trident</b></a><br></br>
                 <li><a href='/subcat=249/desiccant_air_dryers'>Desiccant Air Dryers</a></li>
                 <li><a href='/subcat=252/coalescing_filters'>Coalescing Filters</a></li>
                 <li><a href='/subcat=251/particulate_filters'>Particulate Filters</a></li>
@@ -558,7 +558,7 @@ class Home extends Component {
 
 
       </div>
-      <div className="about-footer">
+      {/* <div className="about-footer">
         <div className="terms">
           <p><a href="/terms" target="_blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
         </div>
@@ -567,7 +567,7 @@ class Home extends Component {
           <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
         </div>
 
-      </div>
+      </div> */}
 
 
 

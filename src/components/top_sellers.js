@@ -10,7 +10,6 @@ class Top_Sellers extends Component {
     super(props);
     this.state = {
       products: [],
-      attributes: {}
     };
   }
 
@@ -25,17 +24,13 @@ class Top_Sellers extends Component {
         // this.setState({products: products});
         console.log(pic);
 
-
-
-
-
-
         return (
 
 
 
 
-          <div>
+          <div key={pic.results}>
+            
 
             <div className="content-area-container">
               <div className="top-sellers">
@@ -43,14 +38,14 @@ class Top_Sellers extends Component {
               </div>
 
               {this.state.products.map((pic) => (
-                <div className="row" key={pic.id}>
+                <div className="row">
                   <h4 className="product-title">
                     <a href="/product_pages/prodID409">{pic.brandName}</a>
                   </h4>
                 </div>
               ))}
 
-            <div className="row" key={pic.id}>
+            <div className="row" key={pic.results}>
 
               <div className="product_listing">
                 <div className="product_entry">
@@ -112,10 +107,6 @@ class Top_Sellers extends Component {
 
 
   render() {
-
-
-
-
     return (
 
 
