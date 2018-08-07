@@ -12,6 +12,10 @@ import Login from '../components/login';
 import Register from '../components/register';
 import MyAccount from '../components/myaccount';
 import Checkout from '../components/checkout';
+import Checkout1 from '../components/checkout1';
+import Checkout2 from '../components/checkout2';
+import Checkout3 from '../components/checkout3';
+import Checkout4 from '../components/checkout4';
 import ProductLines from '../components/product_lines';
 import ContactUs from '../components/contact_us';
 import ViewCart from '../components/viewcart';
@@ -455,6 +459,10 @@ class App extends Component {
             <Route path="/register" component={Register}/>
             <Route path="/myaccount" component={MyAccount}/>
             <Route path="/checkout" component={Checkout}/>
+            <Route path="/checkout1" component={Checkout1}/>
+            <Route path="/checkout2" component={Checkout2}/>
+            <Route path="/checkout3" component={Checkout3}/>
+            <Route path="/checkout4" component={Checkout4}/>
             <Route path="/product_lines" component={ProductLines}/>
             <Route path="/contact_us" component={ContactUs}/>
             <Route path="/viewcart" component={ViewCart}/>

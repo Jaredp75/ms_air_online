@@ -2032,3 +2032,16 @@ img.thumbnail {
     display: table;
     clear: both;
 }
+
+
+/* Shipping Address (Checkout1) */
+
+.checkout-header-image {
+  
+}
+
+
+.checkout-header {
+  font-size: 20px;
+  text-align: center;
+}

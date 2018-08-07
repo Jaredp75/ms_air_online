@@ -13,7 +13,7 @@ export default class Checkout extends React.Component {
 
         <div className = 'content-area-container'>
           <div className="checkout-header-image">
-            <img src='https://www.msaironline.com/images/purchase01.gif' alt='Purchase Information' />
+            <img src='https://www.msaironline.com/images/purchase03.gif' alt='Purchase Information' />
           </div>
           <br />
           <br />

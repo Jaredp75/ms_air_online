@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
 
-export default class Checkout extends React.Component {
+export default class Checkout1 extends React.Component {
 
   render(){
 
