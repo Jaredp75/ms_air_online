@@ -1,6 +1,5 @@
-import React from "react";
+import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-// import FooterLinks from './footer-links/footer-links.js';
 import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
 
@@ -15,12 +14,14 @@ export default class Checkout extends React.Component {
           <div className="checkout-header-image">
             <img src='https://www.msaironline.com/images/purchase02.gif' alt='Purchase Information' />
           </div>
-          <br />
-          <br />
-          
-        <form>
+
+          <div className="checkout-header">
+            <strong>Shipping Options</strong>
+          </div>
+
+        <form className="shipping-options">
           <fieldset>
-            <legend>Select a shipping option</legend>
+            <legend><strong>Select a shipping option</strong></legend>
 
             <div>
               <input type="radio" id="option1" name="option" checked />
