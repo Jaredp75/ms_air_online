@@ -2034,14 +2034,39 @@ img.thumbnail {
 }
 
 
+
+
+/* Checkout */
+
 /* Shipping Address (Checkout1) */
 
 .checkout-header-image {
-  
+
 }
 
 
 .checkout-header {
   font-size: 20px;
   text-align: center;
+}
+
+
+
+
+/* Shipping Options (Checkout2) */
+
+legend {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+
+input {
+    margin: .4rem;
 }
