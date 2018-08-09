@@ -20,7 +20,7 @@ class Checkout1 extends Component {
             <strong>Shipping Address</strong>
           </div>
 
-          <form method='POST' className='shipping-address' action='checkout2.php'>
+          <form method="POST" className="shipping-address" action="checkout2.php">
             <div className="form-row">
               <div className="form-group col-md-6">
                 <label className="inputFirstName"><strong>* First Name</strong></label>

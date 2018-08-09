@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
 
-export default class Checkout extends React.Component {
+class Checkout2 extends Component {
 
   render(){
 
@@ -12,51 +12,54 @@ export default class Checkout extends React.Component {
 
         <div className = 'content-area-container'>
           <div className="checkout-header-image">
-            <img src='https://www.msaironline.com/images/purchase02.gif' alt='Purchase Information' />
+            <img src='https://www.msaironline.com/images/purchase02.gif' alt='Purchase InclassNamemation' />
           </div>
 
           <div className="checkout-header">
             <strong>Shipping Options</strong>
           </div>
 
-        <form className="shipping-options">
+        <form method="POST" className="shipping-options" action="checkout3.php">
           <fieldset>
             <legend><strong>Select a shipping option</strong></legend>
 
             <div>
               <input type="radio" id="option1" name="option" checked />
-              <label for="option1">UPS Ground & Handling- 29.72</label>
+              <label className="option1">UPS Ground & Handling- 29.72</label>
             </div>
 
             <div>
               <input type="radio" id="option2" name="option" />
-              <label for="option2">UPS Three-Day Select & Handling- 75.33</label>
+              <label className="option2">UPS Three-Day Select & Handling- 75.33</label>
             </div>
 
             <div>
               <input type="radio" id="option3" name="option" />
-              <label for="option3">UPS Second Day Air & Handling- 105.55</label>
+              <label className="option3">UPS Second Day Air & Handling- 105.55</label>
             </div>
 
             <div>
               <input type="radio" id="option3" name="option" />
-              <label for="option3">UPS Next Day Air Saver & Handling- 269.55</label>
+              <label className="option3">UPS Next Day Air Saver & Handling- 269.55</label>
             </div>
 
             <div>
               <input type="radio" id="option3" name="option" />
-              <label for="option3">UPS Next Day Air Early A.M. & Handling- 314.16</label>
+              <label className="option3">UPS Next Day Air Early A.M. & Handling- 314.16</label>
             </div>
 
             <div>
               <input type="radio" id="option3" name="option" />
-              <label for="option3">UPS Next Day Air & Handling- 276.90</label>
+              <label className="option3">UPS Next Day Air & Handling- 276.90</label>
             </div>
 
           </fieldset>
         </form>
 
-
+        <div id="shipping-logo">
+          <img src="https://www.msaironline.com/checkout/ups_logo.gif" alt="UPS logo"></img>
+          <p>UPS, the UPS brand mark, and the Color Brown are trademarks of United Parcel Service of America, Inc. All Rights Reserved</p>
+        </div>
 
 
 
@@ -106,3 +109,5 @@ export default class Checkout extends React.Component {
     )
   }
 }
+
+export default Checkout2;

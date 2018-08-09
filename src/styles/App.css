@@ -2089,3 +2089,16 @@ input {
   display: flex;
   justify-content: center;
 }
+
+
+#shipping-logo {
+  justify-content: center;
+}
+
+
+
+/* Billing Information (Checkout3) */
+
+.billing-information {
+  margin: 0 auto;
+}

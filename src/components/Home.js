@@ -24,12 +24,7 @@ class Home extends Component {
         console.log(pic);
 
         return(
-          // Object.keys(this.props.categories).map((taxName) => {
-          //   console.log(taxName)
-          //   return (
-          //     <p>{taxName}</p>
-          //   )
-          // })
+
 
 
 
@@ -558,7 +553,7 @@ class Home extends Component {
 
 
       </div>
-      {/* <div className="about-footer">
+      <div className="about-footer">
         <div className="terms">
           <p><a href="/terms" target="_blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
         </div>
@@ -567,7 +562,7 @@ class Home extends Component {
           <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
         </div>
 
-      </div> */}
+      </div>
 
 
 
