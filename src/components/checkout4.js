@@ -14,49 +14,46 @@ export default class Checkout extends React.Component {
           <div className="checkout-header-image">
             <img src='https://www.msaironline.com/images/purchase04.gif' alt='Purchase Information' />
           </div>
-          <br />
-          <br />
+
           <div className="checkout-header">
             <strong>Order Complete</strong>
           </div>
-
-
-        <form>
-          <fieldset>
-            <legend>Congratulations, your order is complete!</legend>
-
-            <div>
-              <input type="radio" id="option1" name="option" checked />
-              <label for="option1"> Test</label>
-            </div>
-
-            <div>
-              <input type="radio" id="option2" name="option" />
-              <label for="option2"> Test</label>
-            </div>
-
-            <div>
-              <input type="radio" id="option3" name="option" />
-              <label for="option3"> Test</label>
-            </div>
-
-            <div>
-              <input type="radio" id="option3" name="option" />
-              <label for="option3"> Test</label>
-            </div>
-
-            <div>
-              <input type="radio" id="option3" name="option" />
-              <label for="option3"> Test</label>
-            </div>
-
-            <div>
-              <input type="radio" id="option3" name="option" />
-              <label for="option3"> Test</label>
-            </div>
-
-          </fieldset>
-        </form>
+          <div className="order-complete-table">
+            <table className="table">
+              <thead className="thead-dark">
+                <tr>
+                  <th scope="row"></th>
+                  <th scope="col">Item</th>
+                  <th scope="col">Quantity</th>
+                  <th scope="col">Unit Price</th>
+                  <th scope="col">Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Sample data</td>
+                  <td>1</td>
+                  <td>$0.00</td>
+                  <td>$0.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Sample data</td>
+                  <td>1</td>
+                  <td>$0.00</td>
+                  <td>$0.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Sample data</td>
+                  <td>1</td>
+                  <td>$0.00</td>
+                  <td>$0.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
 
 

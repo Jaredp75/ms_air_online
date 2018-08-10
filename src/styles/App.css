@@ -2092,13 +2092,17 @@ input {
 
 
 .shipping-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin-top: 80px;
 }
 
 
-.shipping-logo img {
-  margin-left: 120px;
+.shipping-logo h5 {
+  align-items: baseline;
 }
+
 
 
 
@@ -2126,4 +2130,36 @@ input {
 .terms-and-conditions-checkbox {
   margin-left: 60px;
   margin-bottom: 80px;
+}
+
+
+
+
+/* Order Complete (Checkout4) */
+
+.order-complete-table {
+  margin: 60px;
+  margin-bottom: 80px;
+  align-content: center;
+}
+
+
+
+/* View Cart */
+
+.shopping-cart-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.shopping-cart-buttons button {
+  margin: 20px;
+}
+
+
+.coupon-code-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
 }

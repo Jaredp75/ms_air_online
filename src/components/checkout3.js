@@ -278,7 +278,7 @@ class Checkout3 extends Component {
 
               <div className="order-summary-table">
                 <div className="checkout-header">
-                  <strong>Order Confirmation</strong>
+                  <strong>Review Order</strong>
                 </div>
                 <table className="table table-hover">
                   <thead className="thead-dark">

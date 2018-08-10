@@ -24,7 +24,7 @@ class Checkout2 extends Component {
             <legend><strong>Select a shipping option</strong></legend>
 
             <div>
-              <input type="radio" id="option1" name="option" checked />
+              <input type="radio" id="option1" name="option" />
               <label className="option1">UPS Ground & Handling- 29.72</label>
             </div>
 
@@ -58,7 +58,7 @@ class Checkout2 extends Component {
 
         <div className="shipping-logo">
           <img src="https://www.msaironline.com/checkout/ups_logo.gif" alt="UPS logo"></img>
-            UPS, the UPS brand mark, and the Color Brown are trademarks of United Parcel Service of America, Inc. All Rights Reserved
+            <h5>UPS, the UPS brand mark, and the Color Brown are trademarks of United Parcel Service of America, Inc. All Rights Reserved</h5>
         </div>
 
 
