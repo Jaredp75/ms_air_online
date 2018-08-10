@@ -22,14 +22,8 @@ class Checkout3 extends Component {
             <form method="POST" className="billing-information" action="checkout3.php">
               <fieldset>
                 <div className="form-group col-md-6">
-                  <div className="icon-container">
-                    <i className="fab fa-cc-visa"></i>
-                    <i className="fab fa-cc-mastercard"></i>
-                  </div>
-
-
-                  <label className="CardType"><strong>* Card Type</strong></label>
-                  <select type="text" className="form-control" id="inputCardType" >
+                  <label className="CardType"><strong>* Card Type  <i className="fab fa-cc-visa" />  |  <i className="fab fa-cc-mastercard" /></strong></label>
+                  <select type="text" className="form-control" id="inputCardType">
                     <option defaultValue>Choose...</option>
                     <option value="1">MasterCard</option>
                     <option value="2">VISA</option>
@@ -42,7 +36,7 @@ class Checkout3 extends Component {
                 </div>
 
                 <div className="form-group col-md-6" id="expiration-date">
-                  <label><strong>* Expiration Date</strong></label>
+                  <label className="expyDate"><strong>* Expiration Date</strong></label><br />
                   <select>
                     <option value="01">January</option>
                     <option value="02">February </option>
@@ -68,7 +62,7 @@ class Checkout3 extends Component {
                   </select>
                 </div>
 
-                <div className="form-group col-md-6 CVV">
+                <div className="form-group col-md-6">
                   <label className="cvv"><strong>* Security Code (CVV)</strong></label>
                   <input type="text" className="form-control" id="cvv" placeholder="352" />
                 </div>
@@ -165,14 +159,12 @@ class Checkout3 extends Component {
                   <input type="text" className="form-control" id="inputZip" placeholder="10001" />
                 </div>
 
-                <div className="form-group col-ms-2">
+                <div className="form-group col-md-2">
                   <label className="inputPhone"><strong>* Phone</strong></label>
                   <input type="text" className="form-control" id="inputPhone" placeholder="123-456-7890" />
                 </div>
 
-                <div className="form-group" id="pay-now">
-                  <button type="submit" className="btn btn-primary" id="confirm-purchase">Confirm</button>
-                </div>
+
 
               </fieldset>
             </form>
@@ -182,7 +174,120 @@ class Checkout3 extends Component {
               <strong>Shipping Information</strong>
             </div>
 
+            <form method="POST" className="shipping-information" action="checkout3.php">
+              <fieldset>
 
+                <div className="form-group col-md-6">
+                  <label className="inputFirstName"><strong>* First Name</strong></label>
+                  <input type="text" className="form-control" id="inputFirstName" placeholder="First name" />
+                </div>
+
+                <div className="form-group col-md-6">
+                  <label className="inputLastName"><strong>* Last Name</strong></label>
+                  <input type="text" className="form-control" id="inputLastName" placeholder="Last name" />
+                </div>
+
+                <div className="form-group col-md-6">
+                  <label className="inputAddress"><strong>* Address</strong></label>
+                  <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
+                </div>
+
+                <div className="form-group col-md-6">
+                  <label className="inputAddress2"><strong>* Address 2</strong></label>
+                  <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
+                </div>
+
+                <div className="form-row">
+                  <div className="form-group col-md-4">
+                    <label className="inputCity"><strong>* City</strong></label>
+                    <input type="text" className="form-control" id="inputCity" placeholder="New York" />
+                  </div>
+
+                <div className="form-group col-md-4">
+                  <label className="inputState"><strong>* State</strong></label>
+                  <select type="text" id="inputState" className="form-control">
+                    <option defaultValue>Choose...</option>
+                    <option value="1">Alabama</option>
+                    <option value="2">Alaska</option>
+                    <option value="3">Arizona</option>
+                    <option value="4">Arkansas</option>
+                    <option value="5">California</option>
+                    <option value="6">Colorado</option>
+                    <option value="7">Connecticut</option>
+                    <option value="8">Delaware</option>
+                    <option value="9">District of Columbia</option>
+                    <option value="10">Florida</option>
+                    <option value="11">Georgia</option>
+                    <option value="12">Guam</option>
+                    <option value="13">Hawaii</option>
+                    <option value="14">Idaho</option>
+                    <option value="15">Illinois</option>
+                    <option value="16">Indiana</option>
+                    <option value="17">Iowa</option>
+                    <option value="18">Kansas</option>
+                    <option value="19">Kentucky</option>
+                    <option value="20">Louisiana</option>
+                    <option value="21">Maine</option>
+                    <option value="22">Maryland</option>
+                    <option value="23">Massachusetts</option>
+                    <option value="24">Michigan</option>
+                    <option value="25">Minnesota</option>
+                    <option value="26">Mississippi</option>
+                    <option value="27">Missouri</option>
+                    <option value="28">Montana</option>
+                    <option value="29">Nebraska</option>
+                    <option value="30">Nevada</option>
+                    <option value="31">New Hampshire</option>
+                    <option value="32">New Jersey</option>
+                    <option value="33">New Mexico</option>
+                    <option value="34">New York</option>
+                    <option value="35">North Carolina</option>
+                    <option value="36">North Dakota</option>
+                    <option value="37">Northern Marianas Islands</option>
+                    <option value="38">Ohio</option>
+                    <option value="39">Oklahoma</option>
+                    <option value="40">Oregon</option>
+                    <option value="41">Pennsylvania</option>
+                    <option value="42">Puerto Rico</option>
+                    <option value="43">Rhode Island</option>
+                    <option value="44">South Carolina</option>
+                    <option value="45">South Dakota</option>
+                    <option value="46">Tennessee</option>
+                    <option value="47">Texas</option>
+                    <option value="48">Utah</option>
+                    <option value="49">Vermont</option>
+                    <option value="50">Virginia</option>
+                    <option value="51">Virgin Islands</option>
+                    <option value="52">Washington</option>
+                    <option value="53">West Virginia</option>
+                    <option value="54">Wisconsin</option>
+                    <option value="55">Wyoming</option>
+                  </select>
+                </div>
+
+                <div className="form-group col-md-2">
+                  <label className="inputZip"><strong>* Zip</strong></label>
+                  <input type="text" className="form-control" id="inputZip" placeholder="10001" />
+                </div>
+
+                <div className="form-group col-md-2">
+                  <label className="inputPhone"><strong>* Phone</strong></label>
+                  <input type="text" className="form-control" id="inputPhone" placeholder="123-456-7890" />
+                </div>
+              </div>
+
+                <div className="form-group col-md-6" id="pay-now">
+                  <button type="submit" className="btn btn-primary" id="confirm-purchase">Confirm</button>
+                </div>
+
+
+
+
+              </fieldset>
+
+
+
+            </form>
 
 
 
