@@ -56,9 +56,9 @@ class Checkout2 extends Component {
           </fieldset>
         </form>
 
-        <div id="shipping-logo">
+        <div className="shipping-logo">
           <img src="https://www.msaironline.com/checkout/ups_logo.gif" alt="UPS logo"></img>
-          <p>UPS, the UPS brand mark, and the Color Brown are trademarks of United Parcel Service of America, Inc. All Rights Reserved</p>
+            UPS, the UPS brand mark, and the Color Brown are trademarks of United Parcel Service of America, Inc. All Rights Reserved
         </div>
 
 

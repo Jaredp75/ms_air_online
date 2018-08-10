@@ -22,7 +22,7 @@ class Checkout3 extends Component {
             <form method="POST" className="billing-information" action="checkout3.php">
               <fieldset>
                 <div className="form-group col-md-6">
-                  <label className="CardType"><strong>* Card Type  <i className="fab fa-cc-visa" />  |  <i className="fab fa-cc-mastercard" /></strong></label>
+                  <label className="CardType"><strong>* Card Type</strong>    <i className="fab fa-cc-mastercard" />  |  <i className="fab fa-cc-visa" /></label>
                   <select type="text" className="form-control" id="inputCardType">
                     <option defaultValue>Choose...</option>
                     <option value="1">MasterCard</option>
@@ -276,9 +276,63 @@ class Checkout3 extends Component {
                 </div>
               </div>
 
-                <div className="form-group col-md-6" id="pay-now">
-                  <button type="submit" className="btn btn-primary" id="confirm-purchase">Confirm</button>
+              <div className="order-summary-table">
+                <div className="checkout-header">
+                  <strong>Order Confirmation</strong>
                 </div>
+                <table className="table table-hover">
+                  <thead className="thead-dark">
+                    <tr>
+                      <th scope="row"></th>
+                      <th scope="col">Item</th>
+                      <th scope="col">Quantity</th>
+                      <th scope="col">Unit Price</th>
+                      <th scope="col">Amount</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Sample data</td>
+                      <td>1</td>
+                      <td>$0.00</td>
+                      <td>$0.00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Sample data</td>
+                      <td>1</td>
+                      <td>$0.00</td>
+                      <td>$0.00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Sample data</td>
+                      <td>1</td>
+                      <td>$0.00</td>
+                      <td>$0.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div className="terms-and-conditions-checkbox">
+                <div className="form-check">
+                  <input className="form-check-input" type="checkbox" id="terms-checkbox" />
+                    <label className="form-check-label">
+                      I agree to the Order Terms and Conditions
+                    </label>
+                  </div>
+                </div>
+
+
+                <div className="order-confirmation-button" id="pay-now">
+                  <button className="btn btn-primary" type="submit" id="confirm-purchase">Confirm</button>
+                </div>
+
+
+
+
 
 
 

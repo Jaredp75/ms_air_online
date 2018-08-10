@@ -17,42 +17,42 @@ export default class Checkout extends React.Component {
           <br />
           <br />
           <div className="checkout-header">
-            <strong>Shipping Address</strong>
+            <strong>Order Complete</strong>
           </div>
 
 
         <form>
           <fieldset>
-            <legend>Select a shipping option</legend>
+            <legend>Congratulations, your order is complete!</legend>
 
             <div>
               <input type="radio" id="option1" name="option" checked />
-              <label for="option1"> UPS Ground & Handling- 29.72</label>
+              <label for="option1"> Test</label>
             </div>
 
             <div>
               <input type="radio" id="option2" name="option" />
-              <label for="option2"> UPS Three-Day Select & Handling- 75.33</label>
+              <label for="option2"> Test</label>
             </div>
 
             <div>
               <input type="radio" id="option3" name="option" />
-              <label for="option3"> UPS Second Day Air & Handling- 105.55</label>
+              <label for="option3"> Test</label>
             </div>
 
             <div>
               <input type="radio" id="option3" name="option" />
-              <label for="option3"> UPS Next Day Air Saver & Handling- 269.55</label>
+              <label for="option3"> Test</label>
             </div>
 
             <div>
               <input type="radio" id="option3" name="option" />
-              <label for="option3"> UPS Next Day Air Early A.M. & Handling- 314.16</label>
+              <label for="option3"> Test</label>
             </div>
 
             <div>
               <input type="radio" id="option3" name="option" />
-              <label for="option3"> UPS Next Day Air & Handling- 276.90</label>
+              <label for="option3"> Test</label>
             </div>
 
           </fieldset>

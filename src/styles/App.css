@@ -2091,8 +2091,13 @@ input {
 }
 
 
-#shipping-logo {
-  justify-content: center;
+.shipping-logo {
+  margin-top: 80px;
+}
+
+
+.shipping-logo img {
+  margin-left: 120px;
 }
 
 
@@ -2101,4 +2106,24 @@ input {
 
 .billing-information {
   margin: 0 auto;
+}
+
+
+.order-summary-table {
+  margin: 60px;
+  margin-top: 350px;
+  margin-bottom: 80px;
+  align-content: center;
+  cursor: pointer;
+}
+
+
+.order-confirmation-button button {
+  margin-left: 60px;
+}
+
+
+.terms-and-conditions-checkbox {
+  margin-left: 60px;
+  margin-bottom: 80px;
 }
