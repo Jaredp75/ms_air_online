@@ -2103,6 +2103,12 @@ input {
   align-items: baseline;
 }
 
+.preview-order-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
 
 
 

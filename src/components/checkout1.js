@@ -129,6 +129,10 @@ class Checkout1 extends Component {
 
         </form>
 
+        <div className="form-group col-md-6" id="checkout1-next-button">
+            <a href="/checkout2"><button type="submit" className="btn btn-primary">Next</button></a>
+        </div>
+
 
 
 

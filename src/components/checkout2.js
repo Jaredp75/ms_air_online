@@ -54,7 +54,20 @@ class Checkout2 extends Component {
             </div>
 
           </fieldset>
+
+
+
+
         </form>
+
+        <div className="preview-order-button">
+          <div className="form-group col-md-6" id="preview-order">
+            <a href="/checkout3"><button type="submit" className="btn btn-primary">Preview Order</button></a>
+          </div>
+        </div>
+
+
+
 
         <div className="shipping-logo">
           <img src="https://www.msaironline.com/checkout/ups_logo.gif" alt="UPS logo"></img>
