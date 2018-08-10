@@ -330,6 +330,7 @@ class Checkout3 extends Component {
                   <button className="btn btn-primary" type="submit" id="confirm-purchase">Confirm</button>
                 </div>
 
+                
 
 
 
