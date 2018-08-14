@@ -89,7 +89,6 @@ class Product extends Component {
 
 
 
-
           {/* </div> */}
           {/* </div> */}
           </div>
