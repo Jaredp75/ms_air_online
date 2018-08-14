@@ -2,39 +2,22 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
+import * as Utilities from './utilities.js';
 
 
-class product extends Component {
+
+class Product extends Component {
   constructor() {
     super();
     this.state = {
       products: [],
-      attributes: [],
-      related_parts: [],
-      replacement_parts: []
     };
   }
 
-
-  
   componentDidMount() {
-
-  	function getUrlParam(param) {
-		var result = null,
-        tmp = [];
-		var items = window.location.search.substr(1).split("&");
-		for (var index = 0; index < items.length; index++) {
-			tmp = items[index].split("=");
-			if (tmp[0] === param) result = decodeURIComponent(tmp[1]);
-		}
-		return result;
-	}
-  
-	var urlId = getUrlParam('prodID');
-	alert(urlId);
-	
-	
-    fetch('https://www.msaironline.com/qa1/api/product.php?id='+urlId)
+	var url = Utilities.getApiURL('product.php', '?id='+Utilities.getUrlParam('id'));
+	var attributes;
+    fetch(url)
     .then(results => {
       return results.json();
     }).then(data => {
@@ -52,8 +35,8 @@ class product extends Component {
                         {pic.product}
                       </div>
                       <div id="product-image">
-                        <img src={pic.icon} alt="product-placeholder" />
-                        <p>Catalog Number:<br />{pic.prodSku}</p>
+                        <img src={pic.icon} alt="icon-placeholder" />
+                        <h5>Catalog Number:<br />{pic.prodSku}</h5>
                       </div>
 
 
@@ -62,47 +45,34 @@ class product extends Component {
                         <h2 className="individual-product-title">{pic.prodName}</h2>
                       </div>
                         <h4 className="product-brand-title">{pic.brandName}</h4>
-                        <h4 className="individual-product-suggested-retail-price">MSRP: ${pic.msrp}</h4>
-                        <h4 className="individual-product-savings">Savings: <strong>${pic.msrp - pic.prodPrice}</strong></h4>
+                        {/* <h4 className="individual-product-suggested-retail-price">MSRP: ${pic.msrp}</h4> */}
+                        {/* <h4 className="individual-product-savings">Savings: <strong>${pic.msrp - pic.prodPrice}</strong></h4> */}
                         <h3 className="individual-product-actual-price"><strong>${pic.prodPrice}</strong></h3>
                         <br />
                         <br />
                       <div className="individual-product-description">
                         <ul>
-                        {/* <p><b>Features & Benefits</b>:</p> */}
-                        {/* <li>Compact Size & 1-1/2" fittings for increased installation options<br />and easier and quicker installations</li> */}
-                        {/* <li>3 Step Separation</li> */}
-                        {/* <li>2-Pin Connection</li> */}
-                        {/* <li>Transparent</li> */}
-                        {/* <li>Exclusive resin</li> */}
-                        {/* <li>Compact Size</li> */}
-                        {/* <li>Recycling Options</li> */}
-                        {/* <li>Easy cartridge replacement</li> */}
-                        {/* <li>Identifies replacement time</li> */}
-                        {/* <li>Captures dissolved mercury</li> */}
-                        {/* <br /> */}
-                        <li>{pic.prodDesc}</li>
-                        <br />
-                        <li>{pic.prodLongDesc}</li>
-                        <br />
-                        {/* <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li> */}
-                      </ul>
+						{
+							for(i=0; i<2; i++) {
+								return <li><strong>{pic.product[0].attributes[i].field}</strong>: {pic.product[0].attributes[i].value}</li>
+							}
+						}
+						
+                          {/* <li><strong>Micron Rating{pic.field}</strong>: 1{pic.value}</li> */}
+                          {/* <li><strong>SCFM{pic.field}</strong>: 150{pic.value}</li> */}
+                          {/* <li><strong>Series{pic.field}</strong>: Chemetron 500{pic.value}</li> */}
+                          {/* <li><strong>Style{pic.field}</strong>: Quick Connect{pic.value}</li> */}
+                          {/* <br /> */}
+                          <li>{pic.prodDesc}</li>
+                          <br />
+                          <li>{pic.prodLongDesc}</li>
+                          <br />
+                          <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</li>
+                        </ul>
+                      </div>
                     </div>
-
-                    {/* <div className="file_section">
-                      <a href="http://www.msaironline.com/files/54.pdf"><img src="http://www.msaironline.com/images/pdf.jpg"></img></a>
-                      <a href="http://www.msaironline.com/files/54.pdf"><h5>Bulldog Filter Maintenance.pdf</h5></a>
-                    </div> */}
-
-
-
                   </div>
                 </div>
-
-
-
-
-              </div>
 
 
 
@@ -123,62 +93,63 @@ class product extends Component {
         </div>
 
 
-
-
-
 {/* ---Related Items Section--- */}
 
-<div id="replacement_items_section">
-        {/* <div className="replacement_parts_header"></div> */}
+        <div id="replacement_items_section">
         {/* <h4 className="replacement_items_header">Related Items</h4> */}
-        <img src="http://www.msaironline.com/images/brandImage/10_110x85.jpg" alt="logo-placeholder"></img>
+          <div className="side-logo">
+            <img src="http://www.msaironline.com/images/brandImage/13_110x85.jpg" alt="logo-placeholder"></img>
+          </div>
 
       {/* <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="https://www.msaironline.com/images/prodImage/1478_144x85.jpg" alt="Replacement Collection Container"></img>
+            <img src="https://www.msaironline.com/images/prodImage/8_144x85.jpg" alt="Quick Connect 500 Vacuum Wall Outlet"></img>
           </div>
           <div className="replacement_item_details">
-            <h6 className="replacement_item_title"><a href="/product_pages/prodID341">Replacement Collection Container</a></h6>
-            <h6 className="replacement_item_brand_name">Solmetex</h6>
-
-          </div>
-        </div>
-      </div> */}
-
-      {/* <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img src="https://www.msaironline.com/images/prodImage/1480_144x85.jpg" width="144" height="85" alt="img-placeholder"></img>
-          </div>
-          <div className="replacement_item_details">
-            <h6 className="replacement_item_title"><a href="/prodID8">Recycle Kit</a></h6>
-            <h6 className="replacement_item_brand_name">Solmetex</h6>
-
-          </div>
-        </div>
-      </div> */}
-
-      {/* <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img src="https://www.msaironline.com/images/prodImage/417_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)"></img>
-          </div>
-          <div className="replacement_item_details">
-            <h6 className="replacement_item_title"><a href="/prodID8">Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)</a></h6>
+            <h6 className="replacement_item_title"><a href="/product_pages/prodID341">Quick Connect 500 Vacuum Wall Outlet</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
         </div>
       </div> */}
+      <br />
 
       {/* <div className="replacement_item_listing">
         <div className="replacement_item_entry">
           <div className="replacement_item_image">
-            <img src="https://www.msaironline.com/images/prodImage/417_144x85.jpg" width="144" height="85" alt="Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)"></img>
+            <img src="http://www.msaironline.com/images/prodImage/no_photo.gif" width="144" height="85" alt="Quick Connect 500 Oxygen Completion Kit"></img>
           </div>
           <div className="replacement_item_details">
-            <h6 className="replacement_item_title"><a href="/prodID8">Quick-Connect 400 Oxygen Wall Outlet Station (ISO Color)</a></h6>
+            <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Oxygen Completion Kit</a></h6>
+            <h6 className="replacement_item_brand_name">Chemetron</h6>
+            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+          </div>
+        </div>
+      </div> */}
+      <br />
+
+      {/* <div className="replacement_item_listing">
+        <div className="replacement_item_entry">
+          <div className="replacement_item_image">
+            <img src="http://www.msaironline.com/images/prodImage/no_photo.gif" width="144" height="85" alt="Quick Connect 500 Rough In Kit - Oxygen"></img>
+          </div>
+          <div className="replacement_item_details">
+            <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Rough In Kit - Oxygen</a></h6>
+            <h6 className="replacement_item_brand_name">Chemetron</h6>
+            <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
+          </div>
+        </div>
+      </div> */}
+      <br />
+
+      {/* <div className="replacement_item_listing">
+        <div className="replacement_item_entry">
+          <div className="replacement_item_image">
+            <img src="https://www.msaironline.com/images/prodImage/293_144x85.jpg" width="144" height="85" alt="Quick Connect 500 Oxygen Wall Outlet w/ New Style Cover Plate"></img>
+          </div>
+          <div className="replacement_item_details">
+            <h6 className="replacement_item_title"><a href="/prodID8">Quick Connect 500 Oxygen Wall Outlet w/ New Style Cover Plate</a></h6>
             <h6 className="replacement_item_brand_name">Chemetron</h6>
             <h6 className="replacement_item_actual_price"><strong>$0.00</strong></h6>
           </div>
@@ -191,253 +162,250 @@ class product extends Component {
 {/* ---Replacement Parts Section--- */}
 
 
-<div className="replacement_parts_section">
-      {/* <div className="replacement_parts_header"></div> */}
-      <h1 className="replacement_parts_header">Replacement Parts</h1>
-      {/* <div className="replacement_parts_image">
-        <img src="https://www.msaironline.com/images/assembly/QuickConnect_400_Series.jpg" alt="Quick Connect"></img>
-      </div> */}
-      {/* <p><h4>This item is a replacement part for the following products:</h4></p> */}
-      {/* <p>Freight Shipping billed separately to contiguous 48 states. Additional fees may apply if lift gate is required. Call for details.</p> */}
-      {/* <p>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing.</p> */}
-
-      <span className="replacement_parts_detail">
-        <div className="replacement_parts_thumbnail">
-          <img src="http://www.msaironline.com/images/prodImage/1836_144x85.jpg" alt="ZFC Replacement Element"></img>
-        </div>
-
-        <h4 className="replacement_parts_name"><a href="/subcat=233/prodID1836">ZFC Replacement Element</a></h4>
-        {/* <h4 className="replacement_parts_price"><strong>Price</strong>: $287.30</h4> */}
-        <div className="replacement-parts-quantity-input-group">
-          <form action="/action_page.php">
-            <strong>Quantity</strong>:
-            <input type="number" className="quantityBox" />
-          </form>
-        </div>
-
-        <div className="replacement-parts-add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </span>
+    <div className="replacement_parts_section">
+      {/* <h1 className="replacement_parts_header">Replacement Parts</h1> */}
+        {/* <div className="replacement_parts_image">
+          <img src="https://www.msaironline.com/images/assembly/QuickConnect_DISS_Replacement_Parts.jpg" alt="QuickConnect_DISS_Replacement_Parts"></img>
+        </div> */}
 
 
-      {/* <span className="replacement_parts_detail">
-        <div className="replacement_parts_thumbnail">
-          <img src="https://www.msaironline.com/images/prodImage/1480_144x85.jpg" alt="Recycle Kit"></img>
-        </div>
+    {/* <span className="replacement_parts_detail">
+      <div className="replacement_parts_thumbnail">
+        <img src="https://www.msaironline.com/images/prodImage/18_144x85.jpg" alt="Secondary Check Kit (6 each)"></img>
+      </div>
 
-        <h4 className="replacement_parts_name">Recycle Kit</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $110.50</h4>
-        <div className="replacement-parts-quantity-input-group">
-          <form action="/action_page.php">
-            <strong>Quantity</strong>:
-            <input type="number" className="quantityBox" />
-          </form>
-        </div>
+      <h4 className="replacement_parts_name">Secondary Check Kit (6 each)</h4>
+      <h4 className="replacement_parts_price"><strong>Price</strong>: $18.90</h4>
+      <div className="replacement-parts-quantity-input-group">
+        <form action="/action_page.php">
+          <strong>Quantity</strong>:
+          <input type="number" className="quantityBox" value="0" />
+        </form>
+      </div>
 
-        <div className="replacement-parts-add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </span> */}
-
-
-      {/* <span className="replacement_parts_detail">
-        <div className="replacement_parts_thumbnail">
-          <img src="https://www.msaironline.com/images/prodImage/16_144x85.jpg" alt="Quick Connect Poppet 500 Series"></img>
-        </div>
-
-        <h4 className="replacement_parts_name">Quick Connect Poppet 500 Series</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
-        <div className="replacement-parts-quantity-input-group">
-          <form action="/action_page.php">
-            <strong>Quantity</strong>:
-            <input type="number" className="quantityBox" />
-          </form>
-        </div>
-
-        <div className="replacement-parts-add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </span> */}
+      <div className="replacement-parts-add-to-cart">
+        <input type="submit" value="Add To Cart" />
+      </div>
+    </span> */}
 
 
-      {/* <span className="replacement_parts_detail">
-        <div className="replacement_parts_thumbnail">
-          <img src="https://www.msaironline.com/images/prodImage/17_144x85.jpg" alt="Poppet O-ring Kit (12 each) - Quick Connect 500"></img>
-        </div>
+    {/* <span className="replacement_parts_detail">
+      <div className="replacement_parts_thumbnail">
+        <img src="https://www.msaironline.com/images/prodImage/15_144x85.jpg" alt="Housing base O-ring (12 each)"></img>
+      </div>
 
-        <h4 className="replacement_parts_name">Poppet O-ring Kit (12 each) - Quick Connect 500</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
-        <div className="replacement-parts-quantity-input-group">
-          <form action="/action_page.php">
-            <strong>Quantity</strong>:
-            <input type="number" className="quantityBox" />
-          </form>
-        </div>
+      <h4 className="replacement_parts_name">Housing base O-ring (12 each)</h4>
+      <h4 className="replacement_parts_price"><strong>Price</strong>: $9.45</h4>
+      <div className="replacement-parts-quantity-input-group">
+        <form action="/action_page.php">
+          <strong>Quantity</strong>:
+          <input type="number" className="quantityBox" value="0" />
+        </form>
+      </div>
 
-        <div className="replacement-parts-add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </span> */}
-
-
-      {/* <span className="replacement_parts_detail">
-        <div className="replacement_parts_thumbnail">
-          <img src="https://www.msaironline.com/images/prodImage/19_144x85.jpg" alt="Valve body with poppet-pressure"></img>
-        </div>
-
-        <h4 className="replacement_parts_name">Valve body with poppet-pressure</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
-        <div className="replacement-parts-quantity-input-group">
-          <form action="/action_page.php">
-            <strong>Quantity</strong>:
-            <input type="number" className="quantityBox" />
-          </form>
-        </div>
-
-        <div className="replacement-parts-add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </span> */}
-
-      {/* <span className="replacement_parts_detail">
-        <div className="replacement_parts_thumbnail">
-          <img src="https://www.msaironline.com/images/prodImage/21_144x85.jpg" alt="Valve body kit with poppet-pressure (4 each)"></img>
-        </div>
-
-        <h4 className="replacement_parts_name">Valve body kit with poppet-pressure (4 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
-        <div className="replacement-parts-quantity-input-group">
-          <form action="/action_page.php">
-            <strong>Quantity</strong>:
-            <input type="number" className="quantityBox" />
-          </form>
-        </div>
-
-        <div className="replacement-parts-add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </span> */}
+      <div className="replacement-parts-add-to-cart">
+        <input type="submit" value="Add To Cart" />
+      </div>
+    </span> */}
 
 
-      {/* <span className="replacement_parts_detail">
-        <div className="replacement_parts_thumbnail">
-          <img src="https://www.msaironline.com/images/prodImage/22_144x85.jpg" alt="Valve body O-ring kit (12 each)"></img>
-        </div>
+    {/* <span className="replacement_parts_detail">
+      <div className="replacement_parts_thumbnail">
+        <img src="https://www.msaironline.com/images/prodImage/16_144x85.jpg" alt="Quick Connect Poppet 500 Series"></img>
+      </div>
 
-        <h4 className="replacement_parts_name">Valve body O-ring kit (12 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
-        <div className="replacement-parts-quantity-input-group">
-          <form action="/action_page.php">
-            <strong>Quantity</strong>:
-            <input type="number" className="quantityBox" />
-          </form>
-        </div>
+      <h4 className="replacement_parts_name">Quick Connect Poppet 500 Series</h4>
+      <h4 className="replacement_parts_price"><strong>Price</strong>: $16.07</h4>
+      <div className="replacement-parts-quantity-input-group">
+        <form action="/action_page.php">
+          <strong>Quantity</strong>:
+          <input type="number" className="quantityBox" value="0" />
+        </form>
+      </div>
 
-        <div className="replacement-parts-add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </span> */}
+      <div className="replacement-parts-add-to-cart">
+        <input type="submit" value="Add To Cart" />
+      </div>
+    </span> */}
 
 
-      {/* <span className="replacement_parts_detail">
-        <div className="replacement_parts_thumbnail">
-          <img src="https://www.msaironline.com/images/prodImage/23_144x85.jpg" alt="Oxygen Face Plate Assembly"></img>
-        </div>
+    {/* <span className="replacement_parts_detail">
+      <div className="replacement_parts_thumbnail">
+        <img src="https://www.msaironline.com/images/prodImage/17_144x85.jpg" alt="Poppet O-ring Kit (12 each) - Quick Connect 500"></img>
+      </div>
 
-        <h4 className="replacement_parts_name">Oxygen Face Plate Assembly</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
-        <div className="replacement-parts-quantity-input-group">
-          <form action="/action_page.php">
-            <strong>Quantity</strong>:
-            <input type="number" className="quantityBox" />
-          </form>
-        </div>
+      <h4 className="replacement_parts_name">Poppet O-ring Kit (12 each) - Quick Connect 500</h4>
+      <h4 className="replacement_parts_price"><strong>Price</strong>: $12.29</h4>
+      <div className="replacement-parts-quantity-input-group">
+        <form action="/action_page.php">
+          <strong>Quantity</strong>:
+          <input type="number" className="quantityBox" value="0" />
+        </form>
+      </div>
 
-        <div className="replacement-parts-add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </span> */}
+      <div className="replacement-parts-add-to-cart">
+        <input type="submit" value="Add To Cart" />
+      </div>
+    </span> */}
 
-      {/* <span className="replacement_parts_detail">
-        <div className="replacement_parts_thumbnail">
-          <img src="https://www.msaironline.com/images/prodImage/34_144x85.jpg" alt="Face Plate Springs (12 per pack)"></img>
-        </div>
 
-        <h4 className="replacement_parts_name">Face Plate Springs (12 per pack)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
-        <div className="replacement-parts-quantity-input-group">
-          <form action="/action_page.php">
-            <strong>Quantity</strong>:
-            <input type="number" className="quantityBox" />
-          </form>
-        </div>
+    {/* <span className="replacement_parts_detail">
+      <div className="replacement_parts_thumbnail">
+        <img src="https://www.msaironline.com/images/prodImage/19_144x85.jpg" alt="Valve body with poppet-pressure"></img>
+      </div>
 
-        <div className="replacement-parts-add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </span> */}
+      <h4 className="replacement_parts_name">Valve body with poppet-pressure</h4>
+      <h4 className="replacement_parts_price"><strong>Price</strong>: $41.58</h4>
+      <div className="replacement-parts-quantity-input-group">
+        <form action="/action_page.php">
+          <strong>Quantity</strong>:
+          <input type="number" className="quantityBox" value="0" />
+        </form>
+      </div>
+
+      <div className="replacement-parts-add-to-cart">
+        <input type="submit" value="Add To Cart" />
+      </div>
+    </span> */}
+
+    {/* <span className="replacement_parts_detail">
+      <div className="replacement_parts_thumbnail">
+        <img src="https://www.msaironline.com/images/prodImage/21_144x85.jpg" alt="Valve body kit with poppet-pressure (4 each)"></img>
+      </div>
+
+      <h4 className="replacement_parts_name">Valve body kit with poppet-pressure (4 each)</h4>
+      <h4 className="replacement_parts_price"><strong>Price</strong>: $53.87</h4>
+      <div className="replacement-parts-quantity-input-group">
+        <form action="/action_page.php">
+          <strong>Quantity</strong>:
+          <input type="number" className="quantityBox" value="0" />
+        </form>
+      </div>
+
+      <div className="replacement-parts-add-to-cart">
+        <input type="submit" value="Add To Cart" />
+      </div>
+    </span> */}
+
+
+    {/* <span className="replacement_parts_detail">
+      <div className="replacement_parts_thumbnail">
+        <img src="https://www.msaironline.com/images/prodImage/22_144x85.jpg" alt="Valve body O-ring kit (12 each)"></img>
+      </div>
+
+      <h4 className="replacement_parts_name">Valve body O-ring kit (12 each)</h4>
+      <h4 className="replacement_parts_price"><strong>Price</strong>: $12.29</h4>
+      <div className="replacement-parts-quantity-input-group">
+        <form action="/action_page.php">
+          <strong>Quantity</strong>:
+          <input type="number" className="quantityBox" value="0" />
+        </form>
+      </div>
+
+      <div className="replacement-parts-add-to-cart">
+        <input type="submit" value="Add To Cart" />
+      </div>
+    </span> */}
+
+
+    {/* <span className="replacement_parts_detail">
+      <div className="replacement_parts_thumbnail">
+        <img src="https://www.msaironline.com/images/prodImage/23_144x85.jpg" alt="Oxygen Face Plate Assembly"></img>
+      </div>
+
+      <h4 className="replacement_parts_name">Oxygen Face Plate Assembly</h4>
+      <h4 className="replacement_parts_price"><strong>Price</strong>: $36.00</h4>
+      <div className="replacement-parts-quantity-input-group">
+        <form action="/action_page.php">
+          <strong>Quantity</strong>:
+          <input type="number" className="quantityBox" value="0" />
+        </form>
+      </div>
+
+      <div className="replacement-parts-add-to-cart">
+        <input type="submit" value="Add To Cart" />
+      </div>
+    </span> */}
+
+    {/* <span className="replacement_parts_detail">
+      <div className="replacement_parts_thumbnail">
+        <img src="https://www.msaironline.com/images/prodImage/34_144x85.jpg" alt="Face Plate Springs (12 per pack)"></img>
+      </div>
+
+      <h4 className="replacement_parts_name">Face Plate Springs (12 per pack)</h4>
+      <h4 className="replacement_parts_price"><strong>Price</strong>: $15.12</h4>
+      <div className="replacement-parts-quantity-input-group">
+        <form action="/action_page.php">
+          <strong>Quantity</strong>:
+          <input type="number" className="quantityBox" value="0" />
+        </form>
+      </div>
+
+      <div className="replacement-parts-add-to-cart">
+        <input type="submit" value="Add To Cart" />
+      </div>
+    </span> */}
 
 
 
-      {/* <span className="replacement_parts_detail">
-        <div className="replacement_parts_thumbnail">
-          <img src="https://www.msaironline.com/images/prodImage/35_144x85.jpg" alt="Face plate mounting screw kit (48 each)"></img>
-        </div>
+    {/* <span className="replacement_parts_detail">
+      <div className="replacement_parts_thumbnail">
+        <img src="https://www.msaironline.com/images/prodImage/35_144x85.jpg" alt="Face plate mounting screw kit (48 each)"></img>
+      </div>
 
-        <h4 className="replacement_parts_name">Face plate mounting screw kit (48 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
-        <div className="replacement-parts-quantity-input-group">
-          <form action="/action_page.php">
-            <strong>Quantity</strong>:
-            <input type="number" className="quantityBox" />
-          </form>
-        </div>
+      <h4 className="replacement_parts_name">Face plate mounting screw kit (48 each)</h4>
+      <h4 className="replacement_parts_price"><strong>Price</strong>: $21.73</h4>
+      <div className="replacement-parts-quantity-input-group">
+        <form action="/action_page.php">
+          <strong>Quantity</strong>:
+          <input type="number" className="quantityBox" value="0" />
+        </form>
+      </div>
 
-        <div className="replacement-parts-add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </span> */}
-
-
-      {/* <span className="replacement_parts_detail">
-        <div className="replacement_parts_thumbnail">
-          <img src="https://www.msaironline.com/images/prodImage/37_144x85.jpg" alt="Test plug kit (12 each)"></img>
-        </div>
-
-        <h4 className="replacement_parts_name">Test plug kit (12 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
-        <div className="replacement-parts-quantity-input-group">
-          <form action="/action_page.php">
-            <strong>Quantity</strong>:
-            <input type="number" className="quantityBox" />
-          </form>
-        </div>
-
-        <div className="replacement-parts-add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </span> */}
+      <div className="replacement-parts-add-to-cart">
+        <input type="submit" value="Add To Cart" />
+      </div>
+    </span> */}
 
 
-      {/* <span className="replacement_parts_detail">
-        <div className="replacement_parts_thumbnail">
-          <img src="https://www.msaironline.com/images/prodImage/51_144x85.jpg" alt="Back Box Mounting Screws & Fastner Kit (24 each)"></img>
-        </div>
+    {/* <span className="replacement_parts_detail">
+      <div className="replacement_parts_thumbnail">
+        <img src="https://www.msaironline.com/images/prodImage/37_144x85.jpg" alt="Test plug kit (12 each)"></img>
+      </div>
 
-        <h4 className="replacement_parts_name">Back Box Mounting Screws & Fastner Kit (24 each)</h4>
-        <h4 className="replacement_parts_price"><strong>Price</strong>: $0.00</h4>
-        <div className="replacement-parts-quantity-input-group">
-          <form action="/action_page.php">
-            <strong>Quantity</strong>:
-            <input type="number" className="quantityBox" />
-          </form>
-        </div>
+      <h4 className="replacement_parts_name">Test plug kit (12 each)</h4>
+      <h4 className="replacement_parts_price"><strong>Price</strong>: $14.18</h4>
+      <div className="replacement-parts-quantity-input-group">
+        <form action="/action_page.php">
+          <strong>Quantity</strong>:
+          <input type="number" className="quantityBox" value="0" />
+        </form>
+      </div>
 
-        <div className="replacement-parts-add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </span> */}
+      <div className="replacement-parts-add-to-cart">
+        <input type="submit" value="Add To Cart" />
+      </div>
+    </span> */}
+
+
+    {/* <span className="replacement_parts_detail">
+      <div className="replacement_parts_thumbnail">
+        <img src="https://www.msaironline.com/images/prodImage/51_144x85.jpg" alt="Back Box Mounting Screws & Fastner Kit (24 each)"></img>
+      </div>
+
+      <h4 className="replacement_parts_name">Back Box Mounting Screws & Fastner Kit (24 each)</h4>
+      <h4 className="replacement_parts_price"><strong>Price</strong>: $11.34</h4>
+      <div className="replacement-parts-quantity-input-group">
+        <form action="/action_page.php">
+          <strong>Quantity</strong>:
+          <input type="number" className="quantityBox" value="0" />
+        </form>
+      </div>
+
+      <div className="replacement-parts-add-to-cart">
+        <input type="submit" value="Add To Cart" />
+      </div>
+    </span> */}
 
 
 
@@ -447,7 +415,7 @@ class product extends Component {
 
 
 
-    </div>
+  </div>
 
 
 
@@ -519,4 +487,4 @@ class product extends Component {
 
 
 
-export default product;
+export default Product;

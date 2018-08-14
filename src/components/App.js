@@ -11,6 +11,8 @@ import Login from '../components/login';
 import Register from '../components/register';
 import MyAccount from '../components/myaccount';
 import Checkout from '../components/checkout';
+import Product from '../components/product';
+import ProductTest from '../components/productTest';
 import ProductLines from '../components/product_lines';
 import ContactUs from '../components/contact_us';
 import ViewCart from '../components/viewcart';
@@ -85,6 +87,7 @@ import prodID1559 from '../components/subcat=205/prodID1559';
 import prodID1560 from '../components/subcat=205/prodID1560';
 import prodID1561 from '../components/subcat=205/prodID1561';
 import Category from '../components/category_pages/category';
+import Category2 from '../components/category_pages/category2';
 import Cat_Trident from '../components/category_pages/cat_trident';
 import Cat_Sullivan_Palatek from '../components/category_pages/cat_sullivan_palatek';
 import Cat_Zeks from '../components/category_pages/cat_zeks';
@@ -453,6 +456,8 @@ class App extends Component {
             <Route path="/register" component={Register}/>
             <Route path="/myaccount" component={MyAccount}/>
             <Route path="/checkout" component={Checkout}/>
+			<Route path="/product" component={Product}/>
+			<Route path="/productTest" component={ProductTest}/>
             <Route path="/product_lines" component={ProductLines}/>
             <Route path="/contact_us" component={ContactUs}/>
             <Route path="/viewcart" component={ViewCart}/>
@@ -528,6 +533,7 @@ class App extends Component {
             <Route path="/subcat=205/prodID1560" component={prodID1560}/>
             <Route path="/subcat=205/prodID1561" component={prodID1561}/>
             <Route path="/category_pages/category" component={Category}/>
+			<Route path="/category_pages/category2" component={Category2}/>
             <Route path="/category_pages/cat_trident" component={Cat_Trident}/>
             <Route path="/category_pages/cat_sullivan_palatek" component={Cat_Sullivan_Palatek}/>
             <Route path="/category_pages/cat_zeks" component={Cat_Zeks}/>
