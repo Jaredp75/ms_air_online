@@ -1,94 +1,58 @@
-import React from "react";
+import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-// import FooterLinks from './footer-links/footer-links.js';
 import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
 
-
-export default class Register extends React.Component {
-  constructor() {
-    super()
-
-    this.state = {
-      firstname: "",
-      lastname: "",
-      email: "",
-      password: "",
-      address: "",
-      address2: "",
-      city: "",
-      state: "",
-      zipcode: "",
-      text: ""
-    }
-  }
-
-
-  handleChange(e) {
-    let change = {}
-    change[e.target.name] = e.target.value
-    this.setState(change)
-  }
-
-
+class Checkout1 extends Component {
 
   render(){
 
     return(
+
       <div>
-        <div className = "content-area-container">
-          <div className = "header-text">
-            <div className= "registration_text"><h3><strong>New Customer Registration</strong></h3>
-            <p>(* required fields)</p>
+
+        <div className = 'content-area-container'>
+          <div className="checkout-header-image">
+            <img src='https://www.msaironline.com/images/purchase01.gif' alt='Purchase Information' />
           </div>
 
-            <form method="POST" action="register.php?do=new" className="registration_form">
+          <div className="checkout-header">
+            <strong>Shipping Address</strong>
+          </div>
+
+          <form method="POST" className="shipping-address" action="checkout2.php">
+            <fieldset>
               <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputFirstName"><strong>* First Name</strong></label>
-                  <input type="text" onChange={this.handleChange.bind(this)} value={this.state.firstname} className="form-control" id="inputFirstName" placeholder="First name" />
+                  <input type="text" className="form-control" id="inputFirstName" placeholder="First name" />
                 </div>
 
-                  <div className="form-group col-md-6">
+                <div className="form-group col-md-6">
                   <label className="inputLastName"><strong>* Last Name</strong></label>
-                  <input type="text" onChange={this.handleChange.bind(this)} value={this.state.lastname} className="form-control" id="inputLastName" placeholder="Last name" />
+                  <input type="text" className="form-control" id="inputLastName" placeholder="Last name" />
                 </div>
               </div>
 
-              <div className="form-row">
-                <div className="form-group col-md-6">
-                  <label className="inputEmail4"><strong>* Email</strong></label>
-                  <input type="email" onChange={this.handleChange.bind(this)} value={this.state.email} className="form-control" id="inputEmail4" placeholder="Email" />
-                </div>
-
-                <div className="form-group col-md-6">
-                  <label className="inputPassword4"><strong>* Password</strong></label>
-                  <input type="password" onChange={this.handleChange.bind(this)} value={this.state.password} className="form-control" id="inputPassword4" placeholder="Password" />
-                </div>
-              </div>
-
-
-              <div className="form-group">
+              <div className="form-group col-md-6">
                 <label className="inputAddress"><strong>* Address</strong></label>
-                <input type="text" onChange={this.handleChange.bind(this)} value={this.state.address} className="form-control" id="inputAddress" placeholder="1234 Main St" />
+                <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
               </div>
 
-              <div className="form-group">
+              <div className="form-group col-md-6">
                 <label className="inputAddress2"><strong>* Address 2</strong></label>
-                <input type="text" onChange={this.handleChange.bind(this)} value={this.state.address2} className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
+                <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
               </div>
-
 
               <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputCity"><strong>* City</strong></label>
-                  <input type="text" onChange={this.handleChange.bind(this)} value={this.state.city} className="form-control" id="inputCity" />
+                  <input type="text" className="form-control" id="inputCity" placeholder="New York" />
                 </div>
-
 
                 <div className="form-group col-md-4">
                   <label className="inputState"><strong>* State</strong></label>
-                  <select type="text" onChange={this.handleChange.bind(this)} value={this.state.state} id="inputState" className="form-control">
+                  <select type="text" id="inputState" className="form-control">
                     <option defaultValue>Choose...</option>
                     <option value="1">Alabama</option>
                     <option value="2">Alaska</option>
@@ -150,38 +114,56 @@ export default class Register extends React.Component {
 
                 <div className="form-group col-md-2">
                   <label className="inputZip"><strong>* Zip</strong></label>
-                  <input type="text" onChange={this.handleChange.bind(this)} value={this.state.zipcode} className="form-control" id="inputZip" />
-                </div>
+                  <input type="text" className="form-control" id="inputZip" placeholder="10001" />
               </div>
+            </div>
 
-              <button type="submit" className="btn btn-primary">Submit</button>
-            </form>
+            <div className="form-group col-md-6" id="pay-now">
+              <button type="submit" className="btn btn-primary" id="confirm-purchase">Confirm</button>
+            </div>
+
+
+          </fieldset>
+
+
+
+        </form>
+
+        <div className="form-group col-md-6" id="checkout1-next-button">
+            <a href="/checkout2"><button type="submit" className="btn btn-primary">Next</button></a>
+        </div>
+
+
+
+
+
+
+
+
+        <div className="FooterLinks1">
+          <HelpAndCurrency />
+        </div>
+
+        <div className="FooterLinks2">
+          <AboutLinks />
+        </div>
+
+      </div>
+
+        <div className="about-footer">
+          <div className="terms">
+            <p><a href="/terms" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" rel="noopener noreferrer">Privacy Policy</a></p>
           </div>
+          <div className="copyright">
+            <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
+          </div>
+        </div>
 
+      </div>
 
-
-
-            <div className="FooterLinks1">
-              <HelpAndCurrency />
-            </div>
-
-            <div className="FooterLinks2">
-              <AboutLinks />
-            </div>
-            </div>
-            <div className="about-footer">
-              <div className="terms">
-                <p><a href="/Terms" rel="noopener noreferrer">Terms of Use</a> | <a href="/Privacy" rel="noopener noreferrer">Privacy Policy</a></p>
-              </div>
-              <div className="copyright">
-                <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
-              </div>
-            </div>
-
-
-
-  </div>
 
     )
   }
 }
+
+export default Checkout1;

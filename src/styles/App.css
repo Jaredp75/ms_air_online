@@ -2032,3 +2032,140 @@ img.thumbnail {
     display: table;
     clear: both;
 }
+
+
+
+
+/* Checkout */
+
+/* Shipping Address (Checkout1) */
+
+.checkout-header-image {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.checkout-header {
+  font-size: 20px;
+  text-align: center;
+  background-color: #2C3E50;
+  color: #fff;
+  padding: 3px 6px;
+  margin:10px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+
+.shipping-address {
+  justify-content: center;
+}
+
+
+
+/* Shipping Options (Checkout2) */
+
+legend {
+  background-color: lightgray;
+  color: green;
+  padding: 3px 6px;
+  text-align: center;
+}
+
+
+.output {
+    font: 1rem 'Raleway', sans-serif;
+}
+
+
+input {
+    margin: .4rem;
+}
+
+
+.shipping-options {
+  display: flex;
+  justify-content: center;
+}
+
+
+.shipping-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+
+.shipping-logo h5 {
+  align-items: baseline;
+}
+
+.preview-order-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+
+
+
+/* Billing Information (Checkout3) */
+
+.billing-information {
+  margin: 0 auto;
+}
+
+
+.order-summary-table {
+  margin: 60px;
+  margin-top: 350px;
+  margin-bottom: 80px;
+  align-content: center;
+  cursor: pointer;
+}
+
+
+.order-confirmation-button button {
+  margin-left: 60px;
+}
+
+
+.terms-and-conditions-checkbox {
+  margin-left: 60px;
+  margin-bottom: 80px;
+}
+
+
+
+
+/* Order Complete (Checkout4) */
+
+.order-complete-table {
+  margin: 60px;
+  margin-bottom: 80px;
+  align-content: center;
+}
+
+
+
+/* View Cart */
+
+.shopping-cart-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.shopping-cart-buttons button {
+  margin: 20px;
+}
+
+
+.coupon-code-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}

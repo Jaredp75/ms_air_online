@@ -1,10 +1,9 @@
-import React from "react";
+import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-// import FooterLinks from './footer-links/footer-links.js';
 import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
 
-export default class ViewCart extends React.Component {
+export default class Checkout extends React.Component {
 
   render(){
 
@@ -12,10 +11,12 @@ export default class ViewCart extends React.Component {
       <div>
 
         <div className = 'content-area-container'>
-
+          <div className="checkout-header-image">
+            <img src='https://www.msaironline.com/images/purchase04.gif' alt='Purchase Information' />
+          </div>
 
           <div className="checkout-header">
-            <strong>Shopping Cart</strong>
+            <strong>Order Complete</strong>
           </div>
           <div className="order-complete-table">
             <table className="table">
@@ -55,25 +56,26 @@ export default class ViewCart extends React.Component {
           </div>
 
 
-          <div className="shopping-cart-note">
-            <p><strong>Note</strong>: If you are purchasing product for a Tax Exempt project, and can provide documentation of same, please contact MS Air toll free at <strong>(877) 672-4799</strong>.</p>
-          </div>
-
-            <div className="shopping-cart-buttons">
-              <button type="button" className="btn btn-primary">Update Cart</button>
-              <button type="button" className="btn btn-primary">Empty Cart</button>
-                <a href="/checkout1"><button type="button" className="btn btn-primary">Next</button></a>
-            </div>
 
 
-            <div className="coupon-code-box">
-              <div class="form-group">
-                <label className="couponCode" class="col-sm-2 col-form-label">Coupon Code</label>
-                  <div class="col-md-10">
-                    <input type="text" className="form-control" id="inputCoupon" />
-                  </div>
-                </div>
-              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         <div className="FooterLinks1">
