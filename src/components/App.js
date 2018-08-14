@@ -16,7 +16,7 @@ import Checkout1 from '../components/checkout1';
 import Checkout2 from '../components/checkout2';
 import Checkout3 from '../components/checkout3';
 import Checkout4 from '../components/checkout4';
-import ProductLines from '../components/product_lines';
+import Product from '../components/product';
 import ContactUs from '../components/contact_us';
 import ViewCart from '../components/viewcart';
 import prodID409 from '../components/product_pages/prodID409';
@@ -463,7 +463,7 @@ class App extends Component {
             <Route path="/checkout2" component={Checkout2}/>
             <Route path="/checkout3" component={Checkout3}/>
             <Route path="/checkout4" component={Checkout4}/>
-            <Route path="/product_lines" component={ProductLines}/>
+            <Route path="/product" component={Product}/>
             <Route path="/contact_us" component={ContactUs}/>
             <Route path="/viewcart" component={ViewCart}/>
             <Route path="/product_pages/prodID409" component={prodID409}/>

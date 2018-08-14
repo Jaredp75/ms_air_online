@@ -30,7 +30,7 @@ class Top_Sellers extends Component {
 
 
           <div key={pic.results}>
-            
+
 
             <div className="content-area-container">
               <div className="top-sellers">
@@ -54,18 +54,18 @@ class Top_Sellers extends Component {
                     <img src={pic.icon} alt="product-placeholder"></img>
                   </div>
 
-            <p>{pic.prodID}</p>
+                  <p>{pic.prodID}</p>
 
-            <div className="product-details">
-              <h4 className="product-title"><a href="/product_pages/prodID409">{pic.prodName}</a></h4>
-              <h6 className="product-brand-name">{pic.brandName}</h6>
-              <h6 className="product-suggested-retail-price">${pic.msrp}</h6>
-              <h6 className="product-savings">Savings: <strong>${pic.msrp - pic.prodPrice}</strong></h6>
-              <h6 className="product-actual-price"><strong>${pic.prodPrice}</strong></h6>
+                <div className="product-details">
+                  <h4 className="product-title"><a href="/product_pages/prodID409">{pic.prodName}</a></h4>
+                  <h6 className="product-brand-name">{pic.brandName}</h6>
+                  <h6 className="product-suggested-retail-price">${pic.msrp}</h6>
+                  <h6 className="product-savings">Savings: <strong>${pic.msrp - pic.prodPrice}</strong></h6>
+                  <h6 className="product-actual-price"><strong>${pic.prodPrice}</strong></h6>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
 
 
