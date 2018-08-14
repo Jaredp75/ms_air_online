@@ -61,6 +61,10 @@ class Product extends Component {
                       <li><strong>{pic.product[0].attributes[1].field}</strong>: {pic.product[0].attributes[1].value}</li>
                       <li><strong>{pic.product[0].attributes[2].field}</strong>: {pic.product[0].attributes[2].value}</li>
                       <li><strong>{pic.product[0].attributes[3].field}</strong>: {pic.product[0].attributes[3].value}</li>
+                      <li><strong>{pic.product[0].attributes[4].field}</strong>: {pic.product[0].attributes[4].value}</li>
+                      <li><strong>{pic.product[0].attributes[5].field}</strong>: {pic.product[0].attributes[5].value}</li>
+                      <li><strong>{pic.product[0].attributes[6].field}</strong>: {pic.product[0].attributes[6].value}</li>
+                      <li><strong>{pic.product[0].attributes[7].field}</strong>: {pic.product[0].attributes[7].value}</li>
                       <br />
                       <li>{pic.product[0].prodDesc}</li>
                       <br />
@@ -101,7 +105,8 @@ class Product extends Component {
         </div>
       </div>
 
-      
+
+
       {/* <div id="replacement_items_section">
 
         <h4 className="replacement_items_header">Related Items</h4>
