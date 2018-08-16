@@ -22,6 +22,11 @@ class Product extends Component {
       return results.json();
     }).then(data => {
       let products = data.product.map((pic) => {
+		const prodAttributes = pic.attributes.map((attribute) => {
+            return (
+                <li><strong>{attribute.field}</strong>: {attribute.value}</li>
+            )
+        });	
         return(
 
           <div>
@@ -52,12 +57,7 @@ class Product extends Component {
                         <br />
                       <div className="individual-product-description">
                         <ul>
-						{
-							for(i=0; i<2; i++) {
-								return <li><strong>{pic.product[0].attributes[i].field}</strong>: {pic.product[0].attributes[i].value}</li>
-							}
-						}
-						
+						{prodAttributes}
                           {/* <li><strong>Micron Rating{pic.field}</strong>: 1{pic.value}</li> */}
                           {/* <li><strong>SCFM{pic.field}</strong>: 150{pic.value}</li> */}
                           {/* <li><strong>Series{pic.field}</strong>: Chemetron 500{pic.value}</li> */}
@@ -468,6 +468,7 @@ class Product extends Component {
 
 
 
+  
   render() {
     return (
 
