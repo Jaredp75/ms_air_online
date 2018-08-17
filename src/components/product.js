@@ -22,11 +22,12 @@ class Product extends Component {
       return results.json();
     }).then(data => {
       let products = data.product.map((pic) => {
+        console.log(pic);
 		const prodAttributes = pic.attributes.map((attribute) => {
             return (
                 <li><strong>{attribute.field}</strong>: {attribute.value}</li>
             )
-        });	
+        });
         return(
 
           <div>
@@ -468,7 +469,7 @@ class Product extends Component {
 
 
 
-  
+
   render() {
     return (
 
