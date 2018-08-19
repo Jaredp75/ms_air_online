@@ -89,7 +89,7 @@ import prodID1558 from '../components/subcat=205/prodID1558';
 import prodID1559 from '../components/subcat=205/prodID1559';
 import prodID1560 from '../components/subcat=205/prodID1560';
 import prodID1561 from '../components/subcat=205/prodID1561';
-import Category from '../components/category_pages/category';
+import Category from '../components/category';
 import Cat_Trident from '../components/category_pages/cat_trident';
 import Cat_Sullivan_Palatek from '../components/category_pages/cat_sullivan_palatek';
 import Cat_Zeks from '../components/category_pages/cat_zeks';
@@ -537,7 +537,7 @@ class App extends Component {
             <Route path="/subcat=205/prodID1559" component={prodID1559}/>
             <Route path="/subcat=205/prodID1560" component={prodID1560}/>
             <Route path="/subcat=205/prodID1561" component={prodID1561}/>
-            <Route path="/category_pages/category" component={Category}/>
+            <Route path="/category" component={Category}/>
             <Route path="/category_pages/cat_trident" component={Cat_Trident}/>
             <Route path="/category_pages/cat_sullivan_palatek" component={Cat_Sullivan_Palatek}/>
             <Route path="/category_pages/cat_zeks" component={Cat_Zeks}/>
