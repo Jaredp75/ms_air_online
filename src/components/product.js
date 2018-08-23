@@ -193,9 +193,9 @@ class Product extends Component {
 						{prodAttributes}
                           <li>{pic.prodDesc}</li>
                           <br />
-                          <li>{pic.prodLongDesc}</li>
+                          <li dangerouslySetInnerHTML={{__html: pic.prodLongDesc}} />
                           <br />
-                          <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing. {message}</li>
+                          <li dangerouslySetInnerHTML={{__html: message}} />
                         </ul>
                       </div>
                     </div>
@@ -213,7 +213,7 @@ class Product extends Component {
 			</div>
 		  </div>
 
-
+		
 {/* ---files Section--- */}	
 	{productFilesSection}
 {/* ---Related Items Section--- */}
@@ -228,6 +228,7 @@ class Product extends Component {
 {/* ---compatiblePartsSection Section--- */}	
 	{compatiblePartsSection}
 	
+	<div style={{clear:'both'}} />
 	
       </div>
         <div className="FooterLinks1">
