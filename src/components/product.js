@@ -7,14 +7,23 @@ import * as Utilities from './utilities.js';
 
 
 class Product extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       products: [],
-	  
+	  qty: null
     };
+	this.handleInputChange = this.handleInputChange.bind(this);
   }
+  handleInputChange(event) {
+    const target = event.target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const name = target.name;
 
+    this.setState({
+      [name]: value
+    });
+  }
   componentDidMount() {
 	var productUrl = "product?id=";
 	var url = Utilities.getApiURL('product.php', '?id='+Utilities.getUrlParam('id'));
@@ -23,14 +32,19 @@ class Product extends Component {
       return results.json();
     }).then(data => {
       let products = data.product.map((pic) => {
-		  
-		var prodAttributes = pic.attributes.map((attribute) => {
+
+		var prodAttributes = null;
+		if(pic.attributes) {
+			prodAttributes = pic.attributes.map((attribute) => {
             return (
                 <li><strong>{attribute.field}</strong>: {attribute.value}</li>
             )
-        });
+        });}
 		
-		
+		var message = null;
+		if(pic.message){
+			message = (pic.message)
+		}
 		if(pic.related_parts){
 			var relatedItems = null;
 			var relatedItemsSection = null;
@@ -71,16 +85,16 @@ class Product extends Component {
 
 					<h4 className="replacement_parts_name"><a href={productUrl+rp.replacement_prod_id}>{rp.name}</a></h4>
 					<h4 className="replacement_parts_price"><strong>Price</strong>: {rp.prodPrice}</h4>
+					<form >
 					<div className="replacement-parts-quantity-input-group">
-						<form action="/action_page.php">
 							<strong>Quantity</strong>:
-							<input type="number" className="quantityBox" value="0" />
-						</form>
+							<input id='qty' type="number" className="quantityBox" value="0" />
+							<input id="prodID" value={rp.prodPrice} />
 					</div>
-
 					<div className="replacement-parts-add-to-cart">
-						<input type="submit" value="Add To Cart" />
+						<input onclick="myFunction()" type="submit" value="Add To Cart" />
 					</div>
+					</form>
 				</span>
             )});
 			replacementPartsSection = (
@@ -131,6 +145,21 @@ class Product extends Component {
 					{compatibleParts}
 				</div>)
 		}
+		var productFiles = null;
+		var productFilesSection = null;
+		if(pic.file){
+			productFiles = pic.file.map((rp) => {
+            return (
+				<span className="replacement_parts_detail">
+					<h4 className="replacement_parts_name"><a href={rp.file}>{rp.file_name}</a></h4>
+				</span>
+            )});
+			compatiblePartsSection = (
+				<div className="replacement_parts_section">
+					<h1 className="replacement_parts_header">Files</h1>
+					{productFiles}
+				</div>)
+		}
         return(	
 
           <div>
@@ -166,7 +195,7 @@ class Product extends Component {
                           <br />
                           <li>{pic.prodLongDesc}</li>
                           <br />
-                          <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing. {pic.message}</li>
+                          <li>Call Toll Free <strong>(877) 672-4799</strong> for detailed pricing. {message}</li>
                         </ul>
                       </div>
                     </div>
@@ -175,17 +204,18 @@ class Product extends Component {
 
         </div>
 
+		
           <div id="quantity-input-group">
-            <form method="post" action="cart.php?do=add">
-              Quantity:
-              <input type="text" className="quantityBox" value="1" size="2" maxlength="4" />
-            </form>
-          <div id="add-to-cart">
-            <input type="submit" value="Add To Cart" />
-          </div>
-        </div>
+            Quantity:
+            <input name='qty' type="text" className="quantityBox" value={this.state.qty} defaultValue="1" size="2" maxlength="4" onChange={this.handleInputChange} />
+			<div id="add-to-cart">
+				<button onClick={(e) => Utilities.putInCart(pic.prodID, this.state.qty, e)}>Add To Cart</button>
+			</div>
+		  </div>
 
 
+{/* ---files Section--- */}	
+	{productFilesSection}
 {/* ---Related Items Section--- */}
 	{relatedItemsSection}
 

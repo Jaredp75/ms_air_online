@@ -13,6 +13,28 @@ export function getApiURL(app, query) {
 	return base+app+query;
 }
 
+export function putInCart(prodID, qty, e){
+	if(qty == null) {
+		qty=1
+	}
+	var url = getApiURL('cart.php', '?id='+prodID+'&qty='+qty);
+	fetch(url, {  
+		method: 'PUT',
+		/*headers: {
+			'Accept': 'application/json',
+			'Content-Type': 'application/json',
+		},
+		body: JSON.stringify({
+			firstParam: 'yourValue',
+			secondParam: 'yourOtherValue',
+		})*/
+	}).then(results => {
+      return results.json();
+    }).then(data => {
+		console.log("item_count", data.totals.item_count);
+    })
+}
+
 export const restRequest = (url, method, content, body) => (
   fetch(url, {
     method: method,
