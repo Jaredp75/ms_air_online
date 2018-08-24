@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
 import Top_Sellers from './top_sellers.js';
+import * as Utilities from './utilities.js';
 
 class Home extends Component {
 
@@ -15,16 +16,24 @@ class Home extends Component {
 
 
   componentDidMount() {
-    fetch('http://www.msaironline.com/qa1/api/category.php')
+	var categoryUrl = "category?id=";
+	var url = Utilities.getApiURL('category.php', '?');
+    fetch(url)
     .then(results => {
       return results.json();
 
     }).then(data => {
       let products = data.category.map((pic) => {
         console.log(pic);
+		
+		var subcats = null;
+		if(pic.subcats) {
+			subcats = pic.subcats.map((subcat) => {
+            return (
+				<li><a href={categoryUrl+subcat.taxID}>{subcat.taxName}</a></li>
+            )
+        });}
         return(
-
-
 
           <div key={pic.results}>
             {/* <div className="content-area-container2"> */}
@@ -36,10 +45,8 @@ class Home extends Component {
                   </div>
 
                 <div className="brand-text">
-                  <a href="/product_pages/cat_trident"><strong>{pic.taxName}</strong></a>
-                  <li><a href='/subcat=249/desiccant_air_dryers'>Desiccant Air Dryers</a></li>
-                  <li><a href='/subcat=252/coalescing_filters'>Coalescing Filters</a></li>
-                  <li><a href='/subcat=251/particulate_filters'>Particulate Filters</a></li>
+                  <a href={categoryUrl+pic.taxID}><strong>{pic.taxName}</strong></a>
+				  {subcats}
                 </div>
               </div>
             </div>
