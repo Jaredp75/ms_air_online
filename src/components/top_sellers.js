@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
+import * as Utilities from './utilities.js';
 
 class Top_Sellers extends Component {
 
@@ -14,7 +15,9 @@ class Top_Sellers extends Component {
 
 
   componentDidMount() {
-    fetch('http://www.msaironline.com/qa1/api/product.php?type=top')
+	var productUrl = "product?id=";
+	var url = Utilities.getApiURL('product.php?type=top', '&');
+    fetch(url)
     .then(results => {
       return results.json();
 
@@ -35,7 +38,7 @@ class Top_Sellers extends Component {
                   </div>
 
                 <div className="product-details">
-                  <h4 className="product-title"><a href="/product_pages/prodID409">{pic.prodName}</a></h4>
+                  <h4 className="product-title"><a href={productUrl+pic.prodID}>{pic.prodName}</a></h4>
                   <h6 className="product-brand-name">{pic.brandName}</h6>
                   <h6 className="product-suggested-retail-price">${pic.msrp}</h6>
                   <h6 className="product-savings">Savings: <strong>${pic.msrp - pic.prodPrice}</strong></h6>
@@ -66,7 +69,7 @@ class Top_Sellers extends Component {
     return(
       <div>
 
-        <div className = 'content-area-container'>
+        <div className = 'content-area-container2'>
 
           <div className="top-sellers">
             <h1>TOP SELLERS</h1>
@@ -81,30 +84,10 @@ class Top_Sellers extends Component {
 
 
 
-
-
-          <div className="FooterLinks1">
-            <HelpAndCurrency />
-          </div>
-
-          <div className="FooterLinks2">
-            <AboutLinks />
-          </div>
-
         </div>
 
 
-          <div className="about-footer">
-            <div className="terms">
-              <p><a href="/terms" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" rel="noopener noreferrer">Privacy Policy</a></p>
-            </div>
-
-            <div className="copyright">
-              <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
-            </div>
-          </div>
-
-        </div>
+      </div>
 
 
     )
