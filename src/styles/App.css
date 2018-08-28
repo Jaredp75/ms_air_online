@@ -144,7 +144,7 @@
   line-height: 1.4;
   background-color: white;
   /* align-content: center; */
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 
@@ -161,7 +161,7 @@
   display: inline-flex;
   margin: 10px;
   width: 543px;
-  height: 300px;
+  height: 500px;
 
 }
 
@@ -169,7 +169,8 @@
 
 
 .container2 {
-  align-items: center;
+  justify-content: center;
+  margin: 40px;
 }
 
 
@@ -197,7 +198,7 @@
 
 
 .content-area-container2:hover {
-  background-color: lightgray;
+  /* background-color: lightgray; */
 }
 
 
@@ -1244,14 +1245,14 @@
 
 
 
-.home-header {
-
+.home-header h4 {
+  text-align: center;
 }
 
 
 
 
-.home-brands h4 {
+.home-brands h5 {
   /* width: 50%; */
   text-align: center;
 }
@@ -1274,10 +1275,12 @@
 
 
 .product-image {
-  float: left;
-  padding-right: 10px;
+  /* float: left; */
+  /* padding-right: 10px; */
   padding-top: 10px;
-  display: flex;
+  /* display: flex; */
+
+
 }
 
 
