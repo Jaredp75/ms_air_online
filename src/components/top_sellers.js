@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import HelpAndCurrency from './help-and-currency.js';
-import AboutLinks from './footer-links/about-links.js';
+// import HelpAndCurrency from './help-and-currency.js';
+// import AboutLinks from './footer-links/about-links.js';
 import * as Utilities from './utilities.js';
 
 class Top_Sellers extends Component {
@@ -28,7 +28,7 @@ class Top_Sellers extends Component {
 
 
 
-          <div key={pic.results}>
+          <div key={pic.results} className="content-area-container3">
             {/* <div className="content-area-container2"> */}
               <div className="product_listing">
                 <div className="product_entry">
@@ -69,7 +69,7 @@ class Top_Sellers extends Component {
     return(
       <div>
 
-        <div className = 'content-area-container'>
+        <div className = 'content-area-container2'>
 
           <div className="top-sellers">
             <h1>TOP SELLERS</h1>

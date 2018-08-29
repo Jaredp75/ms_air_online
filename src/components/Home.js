@@ -25,7 +25,7 @@ class Home extends Component {
     }).then(data => {
       let products = data.category.map((pic) => {
         console.log(pic);
-		
+
 		var subcats = null;
 		if(pic.subcats) {
 			subcats = pic.subcats.map((subcat) => {
@@ -35,9 +35,9 @@ class Home extends Component {
         });}
         return(
 
-          <div key={pic.results}>
+          <div key={pic.results} className="content-area-container3">
             {/* <div className="content-area-container2"> */}
-              <div className="product_listing">
+              <div className="brand_product_listing">
                 <div className="top-brands">
 
                   <div className="brand-logo">
@@ -72,11 +72,11 @@ class Home extends Component {
   render(){
 
     return(
-      <div>
+      <div className="home-brands">
 
         <div className = 'content-area-container'>
 
-          <h4>Having trouble locating a part? Contact us using our web submission form <a href="../contact_us" target="_blank" rel="noopener noreferrer">here</a>. Or call <strong>1-877-MSAIR99</strong>.</h4>
+          <div className="home-header"><h4>Having trouble locating a part? Contact us using our web submission form <a href="../contact_us" target="_blank" rel="noopener noreferrer">here</a>. Or call <strong>1-877-MSAIR99</strong>.</h4></div>
 
           <div className="container1">
             <div className="container2">

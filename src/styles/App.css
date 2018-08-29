@@ -128,7 +128,7 @@
   font-weight: 300;
   line-height: 1.4;
   background-color: white;
-  align-content: center;
+  /* align-content: center; */
 }
 
 
@@ -143,8 +143,8 @@
   font-weight: 300;
   line-height: 1.4;
   background-color: white;
-  align-content: center;
-  margin: 10px;
+  /* align-content: center; */
+  /* margin: 10px; */
 }
 
 
@@ -158,11 +158,20 @@
   font-weight: 300;
   line-height: 1.4;
   background-color: white;
-  align-content: center;
+  display: inline-flex;
   margin: 10px;
-  height: 600px;
+  width: 543px;
+  height: 500px;
+
 }
 
+
+
+
+.container2 {
+  justify-content: center;
+  margin: 40px;
+}
 
 
 
@@ -189,7 +198,7 @@
 
 
 .content-area-container2:hover {
-  background-color: lightgray;
+  /* background-color: lightgray; */
 }
 
 
@@ -857,12 +866,11 @@
 
 .top-brands {
   display: flex;
-  flex-direction: row;
-  margin: 10px;
+  flex-wrap: wrap;
+  align-content: space-between;
   height: 200px;
   padding: 10px;
   font-size: 14px;
-  padding-left: 60px;
 }
 
 
@@ -1207,12 +1215,46 @@
 
 .product_listing {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   padding: 20px;
   height: 300px;
   margin: 5px;
-  flex-wrap: wrap;
+  /* width: 50%; */
+  /* flex-wrap: wrap; */
   /* align-items: center; */
+}
+
+
+
+
+
+.brand_product_listing {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: auto;
+}
+
+
+
+
+.product-header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.home-header h4 {
+  text-align: center;
+}
+
+
+
+
+.home-brands h5 {
+  /* width: 50%; */
+  text-align: center;
 }
 
 
@@ -1233,10 +1275,12 @@
 
 
 .product-image {
-  float: left;
-  padding-right: 10px;
+  /* float: left; */
+  /* padding-right: 10px; */
   padding-top: 10px;
-  display: flex;
+  /* display: flex; */
+
+
 }
 
 
