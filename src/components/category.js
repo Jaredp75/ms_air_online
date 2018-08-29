@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
+import * as Utilities from './utilities.js';
 
 class Category extends Component {
 
@@ -14,127 +15,139 @@ class Category extends Component {
 
 
   componentDidMount() {
-    fetch('http://www.msaironline.com/qa1/api/category.php')
+	var catUrl = "category?id=";
+	var key = Utilities.getUrlParam('key');
+	if(key == null)
+		key = '';
+	var value = Utilities.getUrlParam('value');
+	if(value == null)
+		value = '';
+	var url = Utilities.getApiURL('category.php', '?id='+Utilities.getUrlParam('id')+'&key='+key+'&value='+value);
+    fetch(url)
     .then(results => {
       return results.json();
 
     }).then(data => {
       let products = data.category.map((pic) => {
         console.log(pic);
-        return(
-          <div key={pic.results}>
+		
+		var subCats = null;
+		var subCatSection = null;
+		if(pic.subcats) {
+			subCats = pic.subcats.map((cat) => {
+            return (
+              <div className="subcat_section1">
+				<a href={catUrl+cat.taxID} alt={cat.taxName}><img src={cat.icon} alt={cat.taxName}/></a>
+				<h2><a href={catUrl+cat.taxID}>{cat.taxName}</a></h2>
+              </div>
+            )});
+			subCatSection = (
+				<div className="subcategories">
+				{subCats}
+				</div>
 
+			)
+		}
+		
+		var prodFilters = null;
+		var prodFilterOptions = null;
+		var prodFiltersSection = null;
+		var id = Utilities.getUrlParam('id');
+		if(key != '')
+			key = key+'|';
+		if(value != '')
+			value = value+'|';
+		if(pic.filters) {
+			prodFilters = pic.filters.map((filter) => {
+				
+			prodFilterOptions = filter.items.map((item) => {
+			return (
+				<div><a href={catUrl+id+'&key='+key+filter.title+'&value='+value+item}>{item}</a></div>
+			)});	
+            return (
+              <div className="subcat_section1">
+				{filter.title}
+				<div>
+				{prodFilterOptions}
+				</div>
+              </div>
+            )});
+			subCatSection = (
+				<div className="subcategories">
+				{prodFilters}
+				</div>
 
-            <div className="content-area-container2">
-            <div id="individual_product_page">
-            {/* <div className="individual-product"> */}
-            {/* <div className="individual_product_listing"> */}
-            {/* <div className="individual_product_entry">
+			)
+		}
+		
+		
+		var products = null;
+		var productsSection = null;
+		if(pic.product) {
+			products = pic.product.map((product) => {
+			
+			var productUrl = "product?id=";
+			var message = null;
+			if(pic.message){
+				message = (pic.message)
+			}
+			var prodAttributes = null;
+			if(product.attributes) {
+				prodAttributes = product.attributes.map((attribute) => {
+				return (
+					<li><strong>{attribute.field}</strong>: {attribute.value}</li>
+				)
+				});
+			}
+            return (
 
+                    <div className="individual-product-details">
 
-            </div> */}
-            {/* {pic.product} */}
-
-                {/* <div className="product_listing"> */}
-                  {/* <div className="product_entry"> */}
-
-                    <div id="category-image">
-                      <img src={pic.icon} alt={pic.taxName} />
-                      {/* <h5>Catalog Number:<br />{pic.product[0].prodSku}</h5> */}
+                      <div className="product-title">
+                        <h2 className="individual-product-title"><a href={productUrl+product.prodID}>{product.prodName}</a></h2>
+                      </div>
+                        <h4 className="product-brand-title"><a href={productUrl+product.prodID}><img src={product.brandIcon} alt={product.brandName}/></a></h4>
+					    <div id="product-image">
+                          <a href={productUrl+product.prodID}><img src={pic.icon} alt="icon-placeholder" /></a>
+                          <h5>Catalog Number:<br />{product.prodSku}</h5>
+                        </div>
+                        <h3 className="individual-product-actual-price"><strong>{product.prodPrice}</strong></h3>
+                        <br />
+                        <br />
+                      <div className="individual-product-description">
+                        <ul>
+						  {prodAttributes}
+						  {/*<li>{product.prodDesc}</li>*/}
+                          <br />
+                          <li><a href={productUrl+product.prodID}>More Info >></a></li>
+                          <br />
+                          <li>{message}</li>
+                          <br />
+                          {/*<li>{product.prodLongDesc}</li>*/}
+                        </ul>
+                      </div>
                     </div>
+			)});
+			productsSection = (
+				<div id="individual_product_page">
+                  <div className="individual-product">
+					{products}
+				  </div>
+				</div>
 
-                  {/* <div className="individual-product-details"> */}
-                    {/* <div className="product-title"> */}
-                      <h2 className="individual-category-name"><a href="/">{pic.taxName}</a></h2>
-                    {/* </div> */}
-                    {/* <h4 className="product-brand-title">{pic.product[0].brandName}</h4> */}
-                    {/* <h4 className="individual-product-suggested-retail-price">MSRP: ${pic.product[0].msrp}</h4> */}
-                    {/* <h6 className="individual-product-savings">Savings: <strong>${pic.product[0].msrp - pic.product[0].prodPrice}</strong></h6> */}
-                    {/* <h6 className="individual-product-actual-price"><strong>${pic.product[0].prodPrice}</strong></h6> */}
-                  {/* </div> */}
-                {/* </div> */}
-              {/* </div> */}
-
-                  {/* <div className="individual-product-description">
-                    <ul>
-                      <li><strong>{pic.product[0].attributes[0].field}</strong>: {pic.product[0].attributes[0].value}</li>
-                      <li><strong>{pic.product[0].attributes[1].field}</strong>: {pic.product[0].attributes[1].value}</li>
-                      <li><strong>{pic.product[0].attributes[2].field}</strong>: {pic.product[0].attributes[2].value}</li>
-                      <li><strong>{pic.product[0].attributes[3].field}</strong>: {pic.product[0].attributes[3].value}</li>
-                      <li><strong>{pic.product[0].attributes[4].field}</strong>: {pic.product[0].attributes[4].value}</li>
-                      <li><strong>{pic.product[0].attributes[5].field}</strong>: {pic.product[0].attributes[5].value}</li>
-                      <li><strong>{pic.product[0].attributes[6].field}</strong>: {pic.product[0].attributes[6].value}</li>
-                      <li><strong>{pic.product[0].attributes[7].field}</strong>: {pic.product[0].attributes[7].value}</li>
-                      <br />
-                      <li>{pic.product[0].prodDesc}</li>
-                      <br />
-                      <li>{pic.product[0].prodLongDesc}</li>
-                      <br />
-                      <li>{pic.product[0].message[0]}</li>
-                      <br />
-                      <li>{pic.product[0].message[1]}</li>
-                    </ul>
-                  </div> */}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          {/* </div> */}
-          {/* </div> */}
-          </div>
-
-
-          {/* <div id="quantity-input-group">
-          <form method="post" action="cart.php?do=add">
-            Quantity:
-            <input type="text" className="quantityBox" value="1" size="2" maxLength="4" />
-          </form>
-        <div id="add-to-cart">
-          <input type="submit" value="Add To Cart" />
-        </div>
-      </div> */}
-
-
-
-      {/* <div id="replacement_items_section">
-
-        <h4 className="replacement_items_header">Related Items</h4>
-
-        <div className="replacement_item_listing">
-        <div className="replacement_item_entry">
-          <div className="replacement_item_image">
-            <img src={pic.related_parts[0].icon} alt={pic.related_parts[0].name}></img>
-          </div>
-          <div className="replacement_item_details">
-            <h6 className="replacement_item_title"><a href="../product_pages/prodID8">{pic.related_parts[0].name}</a></h6>
-
-
-          </div>
-        </div>
-      </div>
-
-
-      </div> */}
-
-
-
-
-
-
-
-          </div>
-
-          </div>
+			)
+		}
+        return(
+              <div className="content-area-container2">
+			    <div>{pic.taxName}</div>
+				<div className="brand_para">
+					<h1><img src={pic.icon} alt={pic.taxName}/></h1>
+					<h3 dangerouslySetInnerHTML={{__html: pic.long_desc}} />
+				</div>
+				{subCatSection}
+				{productsSection}
+				{prodFiltersSection}
+			  </div>
         )
       })
 
@@ -160,12 +173,11 @@ class Category extends Component {
           <div className="container1">
             <div className="container2">
               {this.state.products}
-
             </div>
           </div>
 
 
-
+<div style={{clear:'both'}} />
 
 
           <div className="FooterLinks1">

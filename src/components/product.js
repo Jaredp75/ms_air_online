@@ -182,7 +182,7 @@ class Product extends Component {
                       <div className="product-title">
                         <h2 className="individual-product-title">{pic.prodName}</h2>
                       </div>
-                        <h4 className="product-brand-title">{pic.brandName}</h4>
+                        <h4 className="product-brand-title"><img src={pic.brandIcon} alt={pic.brandName}/></h4>
                         <h4 className="individual-product-suggested-retail-price">MSRP: ${pic.msrp}</h4>
                         <h4 className="individual-product-savings">Savings: <strong>${pic.msrp - pic.prodPrice}</strong></h4>
                         <h3 className="individual-product-actual-price"><strong>${pic.prodPrice}</strong></h3>
