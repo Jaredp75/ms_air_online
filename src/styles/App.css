@@ -161,7 +161,7 @@
   display: inline-flex;
   margin: 10px;
   width: 543px;
-  height: 500px;
+  height: 450px;
 
 }
 
@@ -1360,7 +1360,7 @@
 
 
 .individual_product_listing img {
-  height: 50%;
+  /* height: 50%; */
 }
 
 
@@ -1380,7 +1380,7 @@
 
 
 .individual-product-details {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   margin: 20px;
   float: left;

@@ -32,7 +32,7 @@ class Product extends Component {
       return results.json();
     }).then(data => {
       let products = data.product.map((pic) => {
-
+        console.log(pic);
 		var prodAttributes = null;
 		if(pic.attributes) {
 			prodAttributes = pic.attributes.map((attribute) => {
@@ -40,7 +40,7 @@ class Product extends Component {
                 <li><strong>{attribute.field}</strong>: {attribute.value}</li>
             )
         });}
-		
+
 		var message = null;
 		if(pic.message){
 			message = (pic.message)
@@ -89,7 +89,7 @@ class Product extends Component {
 					<div className="replacement-parts-quantity-input-group">
 							<strong>Quantity</strong>:
 							<input id='qty' type="number" className="quantityBox" value="0" />
-							<input id="prodID" value={rp.prodPrice} />
+							{/* <input id="prodID" value={rp.prodPrice} /> */}
 					</div>
 					<div className="replacement-parts-add-to-cart">
 						<input onclick="myFunction()" type="submit" value="Add To Cart" />
@@ -150,17 +150,17 @@ class Product extends Component {
 		if(pic.file){
 			productFiles = pic.file.map((rp) => {
             return (
-				<span className="replacement_parts_detail">
-					<h4 className="replacement_parts_name"><a href={rp.file}>{rp.file_name}</a></h4>
-				</span>
+				<div className="individual_product_listing">
+					<div className="individual-product-details"><a href={rp.file}>{rp.file_name} <img src="http://www.msaironline.com/images/pdf.jpg" alt="pdf-placeholder"></img></a></div>
+				</div>
             )});
 			compatiblePartsSection = (
-				<div className="replacement_parts_section">
-					<h1 className="replacement_parts_header">Files</h1>
+				<div className="file_section">
+					{/* <h3>Files</h3> */}
 					{productFiles}
 				</div>)
 		}
-        return(	
+        return(
 
           <div>
             <div className="content-area-container">
@@ -182,15 +182,13 @@ class Product extends Component {
                       <div className="product-title">
                         <h2 className="individual-product-title">{pic.prodName}</h2>
                       </div>
-                        <h4 className="product-brand-title">{pic.brandName}</h4>
-                        <h4 className="individual-product-suggested-retail-price">MSRP: ${pic.msrp}</h4>
-                        <h4 className="individual-product-savings">Savings: <strong>${pic.msrp - pic.prodPrice}</strong></h4>
+                        <img src={pic.brandIcon}></img>
                         <h3 className="individual-product-actual-price"><strong>${pic.prodPrice}</strong></h3>
                         <br />
                         <br />
                       <div className="individual-product-description">
                         <ul>
-						{prodAttributes}
+						              {prodAttributes}
                           <li>{pic.prodDesc}</li>
                           <br />
                           <li dangerouslySetInnerHTML={{__html: pic.prodLongDesc}} />
@@ -204,17 +202,17 @@ class Product extends Component {
 
         </div>
 
-		
+
           <div id="quantity-input-group">
             Quantity:
-            <input name='qty' type="text" className="quantityBox" value={this.state.qty} defaultValue="1" size="2" maxlength="4" onChange={this.handleInputChange} />
+            <input name='qty' type="text" className="quantityBox" value={this.state.qty} size="2" maxLength="4" onChange={this.handleInputChange} />
 			<div id="add-to-cart">
 				<button onClick={(e) => Utilities.putInCart(pic.prodID, this.state.qty, e)}>Add To Cart</button>
 			</div>
 		  </div>
 
-		
-{/* ---files Section--- */}	
+
+{/* ---files Section--- */}
 	{productFilesSection}
 {/* ---Related Items Section--- */}
 	{relatedItemsSection}
@@ -225,11 +223,11 @@ class Product extends Component {
 {/* ---Accessories Section--- */}
 	{accessoriesSection}
 
-{/* ---compatiblePartsSection Section--- */}	
+{/* ---compatiblePartsSection Section--- */}
 	{compatiblePartsSection}
-	
+
 	<div style={{clear:'both'}} />
-	
+
       </div>
         <div className="FooterLinks1">
           <HelpAndCurrency />
@@ -271,7 +269,7 @@ class Product extends Component {
 
 
 
-  
+
   render() {
     return (
 
