@@ -162,7 +162,6 @@
   margin: 10px;
   width: 543px;
   height: 450px;
-
 }
 
 
@@ -1362,6 +1361,7 @@
 
 .individual_product_listing img {
   /* height: 50%; */
+  padding: 10px;
 }
 
 
