@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 // import HelpAndCurrency from './help-and-currency.js';
 // import AboutLinks from './footer-links/about-links.js';
 import * as Utilities from './utilities.js';

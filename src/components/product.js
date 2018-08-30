@@ -57,7 +57,7 @@ class Product extends Component {
 							</div>
 							<div className="replacement_item_details">
 								<h6 className="replacement_item_title"><a href={productUrl+rp.accessory_prod_id}>{rp.name}</a></h6>
-								<h6 className="replacement_item_brand_name">rp.prodBrand</h6>
+								<h6 className="replacement_item_brand_name">{pic.brandName}</h6>
 								<h6 className="replacement_item_actual_price"><strong>${rp.prodPrice}</strong></h6>
 							</div>
 						</div>
@@ -65,12 +65,9 @@ class Product extends Component {
 			)});
 			relatedItemsSection = (
 			    <div id="replacement_items_section">
-					<h4 className="replacement_items_header">Related Items</h4>
-					<div className="side-logo">
-						<img src="http://www.msaironline.com/images/brandImage/13_110x85.jpg" alt="logo-placeholder"></img>
-					</div>
-					{relatedItems}
-				</div>)
+					  <h4 className="replacement_items_header">Related Parts</h4>
+					  {relatedItems}
+				  </div>)
 		}
 		var replacementParts = null;
 		var replacementPartsSection = null;
@@ -87,12 +84,13 @@ class Product extends Component {
 					<h4 className="replacement_parts_price"><strong>Price</strong>: {rp.prodPrice}</h4>
 					<form >
 					<div className="replacement-parts-quantity-input-group">
-							<strong>Quantity</strong>:
+							<strong>Qty</strong>:
 							<input id='qty' type="number" className="quantityBox" value="0" />
 							{/* <input id="prodID" value={rp.prodPrice} /> */}
 					</div>
-					<div className="replacement-parts-add-to-cart">
-						<input onclick="myFunction()" type="submit" value="Add To Cart" />
+					{/* <div className="replacement-parts-add-to-cart"> */}
+          <div id="add-to-cart">
+						<input onClick="myFunction()" type="submit" value="Add To Cart" />
 					</div>
 					</form>
 				</span>
@@ -182,13 +180,7 @@ class Product extends Component {
                       <div className="product-title">
                         <h2 className="individual-product-title">{pic.prodName}</h2>
                       </div>
-<<<<<<< HEAD
-                        <img src={pic.brandIcon}></img>
-=======
-                        <h4 className="product-brand-title"><img src={pic.brandIcon} alt={pic.brandName}/></h4>
-                        <h4 className="individual-product-suggested-retail-price">MSRP: ${pic.msrp}</h4>
-                        <h4 className="individual-product-savings">Savings: <strong>${pic.msrp - pic.prodPrice}</strong></h4>
->>>>>>> a9683bcf7990ea8f4cbb743e4fa67463889b697e
+                        <img src={pic.brandIcon} alt="product-placeholder"></img>
                         <h3 className="individual-product-actual-price"><strong>${pic.prodPrice}</strong></h3>
                         <br />
                         <br />
@@ -210,7 +202,7 @@ class Product extends Component {
 
 
           <div id="quantity-input-group">
-            Quantity:
+            Qty:
             <input name='qty' type="text" className="quantityBox" value={this.state.qty} size="2" maxLength="4" onChange={this.handleInputChange} />
 			<div id="add-to-cart">
 				<button onClick={(e) => Utilities.putInCart(pic.prodID, this.state.qty, e)}>Add To Cart</button>

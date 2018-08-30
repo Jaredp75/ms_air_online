@@ -30,7 +30,7 @@ class Category extends Component {
     }).then(data => {
       let products = data.category.map((pic) => {
         console.log(pic);
-		
+
 		var subCats = null;
 		var subCatSection = null;
 		if(pic.subcats) {
@@ -48,22 +48,22 @@ class Category extends Component {
 
 			)
 		}
-		
+
 		var prodFilters = null;
 		var prodFilterOptions = null;
 		var prodFiltersSection = null;
 		var id = Utilities.getUrlParam('id');
-		if(key != '')
+		if(key !== '')
 			key = key+'|';
-		if(value != '')
+		if(value !== '')
 			value = value+'|';
 		if(pic.filters) {
 			prodFilters = pic.filters.map((filter) => {
-				
+
 			prodFilterOptions = filter.items.map((item) => {
 			return (
 				<div><a href={catUrl+id+'&key='+key+filter.title+'&value='+value+item}>{item}</a></div>
-			)});	
+			)});
             return (
               <div className="subcat_section1">
 				{filter.title}
@@ -79,13 +79,13 @@ class Category extends Component {
 
 			)
 		}
-		
-		
+
+
 		var products = null;
 		var productsSection = null;
 		if(pic.product) {
 			products = pic.product.map((product) => {
-			
+
 			var productUrl = "product?id=";
 			var message = null;
 			if(pic.message){
