@@ -1389,6 +1389,45 @@
 
 
 
+.individual-product-details2 {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* margin: 20px; */
+  float: left;
+  /* padding: 60px; */
+  width: 50%;
+  height: 800px;
+  margin-top: 80px;
+}
+
+
+
+
+.individual-product-details2:hover {
+  background-color: lightgray;
+}
+
+
+
+
+.individual-product-actual-price {
+  color: #2C3E50;
+}
+
+
+.individual-product-description {
+  color: #2C3E50;
+}
+
+
+
+.catalog-number h5 {
+  text-align: center;
+  color: #2C3E50;
+}
+
+
+
 #individual-product-details {
   display: flex;
   flex-direction: column;
@@ -1959,6 +1998,7 @@ img.thumbnail {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  justify-content: center;
 }
 
 
@@ -1966,11 +2006,11 @@ img.thumbnail {
 
 .subcat_section1 {
   background-color: lightgray;
-  padding: 40px;
-  margin: 20px;
-  margin-top: 140px;
-  margin-bottom: 60px;
-  width: 40%;
+  padding: 20px;
+  margin: 10px;
+  /* margin-top: 140px; */
+  /* margin-bottom: 60px; */
+  width: 30%;
 }
 
 

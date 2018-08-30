@@ -101,46 +101,99 @@ class Category extends Component {
 			}
             return (
 
-                    <div className="individual-product-details">
 
-                      <div className="product-title">
-                        <h2 className="individual-product-title"><a href={productUrl+product.prodID}>{product.prodName}</a></h2>
-                      </div>
-                        <h4 className="product-brand-title"><a href={productUrl+product.prodID}><img src={product.brandIcon} alt={product.brandName}/></a></h4>
-					    <div id="product-image">
-                          <a href={productUrl+product.prodID}><img src={pic.icon} alt="icon-placeholder" /></a>
-                          <h5>Catalog Number:<br />{product.prodSku}</h5>
-                        </div>
-                        <h3 className="individual-product-actual-price"><strong>{product.prodPrice}</strong></h3>
-                        <br />
-                        <br />
-                      <div className="individual-product-description">
-                        <ul>
-						  {prodAttributes}
-						  {/*<li>{product.prodDesc}</li>*/}
-                          <br />
-                          <li><a href={productUrl+product.prodID}>More Info >></a></li>
-                          <br />
-                          <li>{message}</li>
-                          <br />
-                          {/*<li>{product.prodLongDesc}</li>*/}
-                        </ul>
-                      </div>
+
+
+
+                <div className="individual-product-details2">
+
+
+
+                    <div className="product-image">
+                      <a href={productUrl+product.prodID}><img src={product.icon} alt="icon-placeholder" /></a>
+                      <div className="catalog-number"><h5>Catalog Number:<br />{product.prodSku}</h5></div>
                     </div>
+
+                    <div className="product-title">
+                      <h2 className="individual-product-title"><a href={productUrl+product.prodID}>{product.prodName}</a></h2>
+                    </div>
+                      <img src={product.brandIcon} alt="product-placeholder"></img>
+
+                        {/* <h4 className="product-brand-title"><a href={productUrl+product.prodID}><img src={product.brandIcon} alt={product.brandName}/></a></h4> */}
+
+                        <h2 className="individual-product-actual-price"><strong>${product.prodPrice}</strong></h2>
+                          <br />
+                          <br />
+                        <div className="individual-product-description">
+                          <ul>
+                            {prodAttributes}
+                        		{/*<li>{product.prodDesc}</li>*/}
+                              <br />
+                            <li><a href={productUrl+product.prodID}>More Info >></a></li>
+                              <br />
+                            <li>{message}</li>
+                              <br />
+                            {/*<li>{product.prodLongDesc}</li>*/}
+                          </ul>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			)});
 			productsSection = (
-				<div id="individual_product_page">
-                  <div className="individual-product">
-					{products}
+				<div id="individual_product_page2">
+          <div className="individual-product2">
+					       {products}
 				  </div>
 				</div>
 
 			)
 		}
         return(
-              <div className="content-area-container2">
-			    <div>{pic.taxName}</div>
-				<div className="brand_para">
+              <div className="replacement_parts_header">
+			    <div><h1>{pic.taxName}</h1></div>
+				<div id="individual_product_page">
 					<h1><img src={pic.icon} alt={pic.taxName}/></h1>
 					<h3 dangerouslySetInnerHTML={{__html: pic.long_desc}} />
 				</div>

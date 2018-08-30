@@ -85,7 +85,7 @@ class Product extends Component {
 					<form >
 					<div className="replacement-parts-quantity-input-group">
 							<strong>Qty</strong>:
-							<input id='qty' type="number" className="quantityBox" value="0" />
+							<input id='qty' type="number" className="quantityBox" />
 							{/* <input id="prodID" value={rp.prodPrice} /> */}
 					</div>
 					{/* <div className="replacement-parts-add-to-cart"> */}
@@ -148,7 +148,7 @@ class Product extends Component {
 		if(pic.file){
 			productFiles = pic.file.map((rp) => {
             return (
-				<div className="individual_product_listing">
+				<div className="individual-product">
 					<div className="individual-product-details"><a href={rp.file}>{rp.file_name} <img src="http://www.msaironline.com/images/pdf.jpg" alt="pdf-placeholder"></img></a></div>
 				</div>
             )});
@@ -160,7 +160,7 @@ class Product extends Component {
 		}
         return(
 
-          <div>
+          <div key={pic.results}>
             <div className="content-area-container">
               <div className="content-area-container2">
                 <div id="individual_product_page">
