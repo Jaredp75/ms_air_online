@@ -768,6 +768,7 @@
     flex-direction: row-reverse;
     color: rgba(0, 0, 0, 0.5);
     justify-content: space-between;
+    margin: 20px;
   }
 
 
@@ -1396,7 +1397,7 @@
   float: left;
   /* padding: 60px; */
   width: 50%;
-  height: 800px;
+  /* height: 800px; */
   margin-top: 80px;
 }
 
