@@ -35,7 +35,7 @@ class Home extends Component {
         });}
         return(
 
-          <div key={pic.results} className="content-area-container3">
+          <div key={pic.results} className="content-area-container4">
             {/* <div className="content-area-container2"> */}
               <div className="brand_product_listing">
                 <div className="top-brands">
@@ -81,9 +81,7 @@ class Home extends Component {
           <div className="container1">
             <div className="container2">
               {this.state.products}
-
             </div>
-
 
 
           </div>

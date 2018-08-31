@@ -12,7 +12,7 @@ export default class TermsOfUse extends React.Component {
       <div>
 
         <div className = 'content-area-container'>
-          <div className="header-text">
+          <div className="replacement_parts_header">
             <h1>Terms of Use</h1>
           </div>
           <div className="terms-para"><p>We use reasonable precautions to keep the personal information you disclose both in your browsing and your purchases. However, we are not responsible for any breach of security.</p>

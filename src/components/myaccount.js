@@ -19,14 +19,13 @@ export default class MyAccount extends React.Component {
                 <h1>Account Settings</h1>
               </div>
               <div className="account-settings-para">
-                <p><u>Account Settings</u>:</p>
-                <ul>
-                  <li>View or modify your billing information</li>
-                  <li>Update your email address</li>
-                  <li>Change your password</li>
-                </ul>
+                <p><strong>Account Settings</strong>:</p>
 
-                <p><u>Login Assistance</u>:</p>
+                  <p>View or modify your billing information</p>
+                  <p>Update your email address</p>
+                  <p>Change your password</p>
+
+                <p><strong>Login Assistance</strong>:</p>
                   <p>Forgot your username or password? Retreive your username and reset your password.</p>
               </div>
             </div>
@@ -36,15 +35,15 @@ export default class MyAccount extends React.Component {
                 <h1>Order Information</h1>
               </div>
               <div className="order-info-para">
-                <p><u>Order History</u>:</p>
-                <ul>
-                  <li>Check your order status</li>
-                  <li>Print an invoice</li>
-                  <li>View your Order History</li>
-                </ul>
+                <p><strong>Order History</strong>:</p>
+
+                  <p>Check your order status</p>
+                  <p>Print an invoice</p>
+                  <p>View your Order History</p>
 
 
-                <p><u>Track An Order</u>:</p>
+
+                <p><strong>Track An Order</strong>:</p>
                 <p>You will be able to track your current orders. <strong>Coming Soon!</strong></p>
               </div>
             </div>

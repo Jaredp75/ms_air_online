@@ -13,11 +13,11 @@ export default class ContactUs extends React.Component {
 
         <div className = 'content-area-container'>
           <div className="contact-header-text">
-            
+
           </div>
           <div className="phone-container">
             <div className="telephone-header">
-              <h2 className="telephone">Telephone & Hours of Operation</h2>
+              <h1 className="telephone">Telephone & Hours of Operation</h1>
             </div>
             <div className="phone-details">
               <h4 className="hours">Monday - Friday 8:00am - 5:00pm EST</h4>
@@ -28,7 +28,7 @@ export default class ContactUs extends React.Component {
           </div>
         <div className="mailing-container">
           <div className="mailing-address-header">
-            <h2 className="address">Mailing Address</h2>
+            <h1 className="address">Mailing Address</h1>
           </div>
           <div className="address-details">
             <h4 className="address1">MS Air, Inc.</h4>
@@ -39,7 +39,7 @@ export default class ContactUs extends React.Component {
 
         <div className="email-container">
           <div className="email-form-header">
-            <h2 className="email-header">Contact Us</h2>
+            <h1 className="email-header">Contact Us</h1>
           </div>
           <div className="email-details">
             <form className="contact-form">

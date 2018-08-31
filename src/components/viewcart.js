@@ -14,8 +14,8 @@ export default class ViewCart extends React.Component {
         <div className = 'content-area-container'>
 
 
-          <div className="checkout-header">
-            <strong>Shopping Cart</strong>
+          <div className="replacement_parts_header">
+            <h1>Shopping Cart</h1>
           </div>
           <div className="order-complete-table">
             <table className="table">

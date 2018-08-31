@@ -107,76 +107,35 @@ class Category extends Component {
 
                 <div className="individual-product-details2">
 
+                  <div className="product-image">
+                    <a href={productUrl+product.prodID}><img src={product.icon} alt="icon-placeholder" /></a>
+                    <div className="catalog-number"><h5>Catalog Number:<br />{product.prodSku}</h5></div>
+                  </div>
 
+                  <div className="product-title">
+                    <h2 className="individual-product-title"><a href={productUrl+product.prodID}>{product.prodName}</a></h2>
+                  </div>
+                    <img src={product.brandIcon} alt="product-placeholder"></img>
 
-                    <div className="product-image">
-                      <a href={productUrl+product.prodID}><img src={product.icon} alt="icon-placeholder" /></a>
-                      <div className="catalog-number"><h5>Catalog Number:<br />{product.prodSku}</h5></div>
-                    </div>
+                    {/* <h4 className="product-brand-title"><a href={productUrl+product.prodID}><img src={product.brandIcon} alt={product.brandName}/></a></h4> */}
 
-                    <div className="product-title">
-                      <h2 className="individual-product-title"><a href={productUrl+product.prodID}>{product.prodName}</a></h2>
-                    </div>
-                      <img src={product.brandIcon} alt="product-placeholder"></img>
-
-                        {/* <h4 className="product-brand-title"><a href={productUrl+product.prodID}><img src={product.brandIcon} alt={product.brandName}/></a></h4> */}
-
-                        <h2 className="individual-product-actual-price"><strong>${product.prodPrice}</strong></h2>
+                    <h2 className="individual-product-actual-price"><strong>${product.prodPrice}</strong></h2>
+                      <br />
+                      <br />
+                    <div className="individual-product-description">
+                      <ul>
+                        {prodAttributes}
+                        {/*<li>{product.prodDesc}</li>*/}
                           <br />
+                        <li><a href={productUrl+product.prodID}>More Info >></a></li>
                           <br />
-                        <div className="individual-product-description">
-                          <ul>
-                            {prodAttributes}
-                        		{/*<li>{product.prodDesc}</li>*/}
-                              <br />
-                            <li><a href={productUrl+product.prodID}>More Info >></a></li>
-                              <br />
-                            <li>{message}</li>
-                              <br />
-                            {/*<li>{product.prodLongDesc}</li>*/}
-                          </ul>
-                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                        <li>{message}</li>
+                          <br />
+                        {/*<li>{product.prodLongDesc}</li>*/}
+                      </ul>
                     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+                  </div>
 
 
 

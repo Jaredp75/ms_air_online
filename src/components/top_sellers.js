@@ -28,13 +28,14 @@ class Top_Sellers extends Component {
 
 
 
-          <div key={pic.results} className="content-area-container3">
+          <div key={pic.results} className="individual-product-details2">
             {/* <div className="content-area-container2"> */}
               <div className="product_listing">
                 <div className="product_entry">
 
                   <div className="product-image">
                     <img src={pic.icon} alt="product-placeholder"></img>
+                    <div className="catalog-number"><h5>Catalog Number:<br />{pic.prodSku}</h5></div>
                   </div>
 
                 <div className="product-details">

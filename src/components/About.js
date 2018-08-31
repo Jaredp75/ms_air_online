@@ -12,8 +12,8 @@ export default class About extends React.Component {
       <div>
 
         <div className='content-area-container'>
-          <div className="header-text">
-            <h1>ABOUT US</h1>
+          <div className="replacement_parts_header">
+            <h1>About Us</h1>
           </div>
           <div className="about-para"><p>Specializing in Compressed Air & Vacuum Systems, for Medical, Dental, Laboratory & Industrial Applications since 2005.
 

@@ -15,8 +15,8 @@ class Checkout3 extends Component {
             <img src='https://www.msaironline.com/images/purchase03.gif' alt='Purchase Information' />
           </div>
 
-          <div className="checkout-header">
-            <strong>Billing Information</strong>
+          <div className="replacement_parts_header">
+            <h1>Billing Information</h1>
           </div>
 
             <form method="POST" className="billing-information" action="checkout3.php">
@@ -170,8 +170,8 @@ class Checkout3 extends Component {
             </form>
 
 
-            <div className="checkout-header">
-              <strong>Shipping Information</strong>
+            <div className="replacement_parts_header">
+              <h1>Shipping Information</h1>
             </div>
 
             <form method="POST" className="shipping-information" action="checkout3.php">
@@ -277,8 +277,8 @@ class Checkout3 extends Component {
               </div>
 
               <div className="order-summary-table">
-                <div className="checkout-header">
-                  <strong>Review Order</strong>
+                <div className="replacement_parts_header">
+                  <h1>Review Order</h1>
                 </div>
                 <table className="table table-hover">
                   <thead className="thead-dark">
@@ -330,7 +330,7 @@ class Checkout3 extends Component {
                   <button className="btn btn-primary" type="submit" id="confirm-purchase">Confirm</button>
                 </div>
 
-                
+
 
 
 

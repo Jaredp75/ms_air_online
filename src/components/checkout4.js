@@ -15,8 +15,8 @@ export default class Checkout extends React.Component {
             <img src='https://www.msaironline.com/images/purchase04.gif' alt='Purchase Information' />
           </div>
 
-          <div className="checkout-header">
-            <strong>Order Complete</strong>
+          <div className="replacement_parts_header">
+            <h1>Order Complete</h1>
           </div>
           <div className="order-complete-table">
             <table className="table">

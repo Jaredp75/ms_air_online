@@ -15,8 +15,8 @@ class Checkout2 extends Component {
             <img src='https://www.msaironline.com/images/purchase02.gif' alt='Purchase InclassNamemation' />
           </div>
 
-          <div className="checkout-header">
-            <strong>Shipping Options</strong>
+          <div className="replacement_parts_header">
+            <h1>Shipping Options</h1>
           </div>
 
         <form method="POST" className="shipping-options" action="checkout3.php">

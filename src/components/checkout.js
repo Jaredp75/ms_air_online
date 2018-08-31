@@ -17,8 +17,8 @@ export default class Checkout extends React.Component {
           </div>
           <br />
           <br />
-          <div className="checkout-header">
-            <strong>Shipping Address</strong>
+          <div className="replacement_parts_header">
+            <h1>Shipping Address</h1>
           </div>
 
 

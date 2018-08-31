@@ -181,7 +181,7 @@ class Product extends Component {
                         <h2 className="individual-product-title">{pic.prodName}</h2>
                       </div>
                         <img src={pic.brandIcon} alt="product-placeholder"></img>
-                        <h3 className="individual-product-actual-price"><strong>${pic.prodPrice}</strong></h3>
+                        <h2 className="individual-product-actual-price"><strong>${pic.prodPrice}</strong></h2>
                         <br />
                         <br />
                       <div className="individual-product-description">
