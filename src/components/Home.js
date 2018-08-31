@@ -78,7 +78,7 @@ class Home extends Component {
 
           <div className="home-header"><h4>Having trouble locating a part? Contact us using our web submission form <a href="../contact_us" target="_blank" rel="noopener noreferrer">here</a>. Or call <strong>1-877-MSAIR99</strong>.</h4></div>
 
-          <div className="container1">
+          <div className="container3">
             <div className="container2">
               {this.state.products}
             </div>
