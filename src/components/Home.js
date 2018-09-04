@@ -18,7 +18,7 @@ class Home extends Component {
   componentDidMount() {
 	var categoryUrl = "category?id=";
 	var url = Utilities.getApiURL('category.php', '?');
-    fetch(url)
+    fetch(url, {method: 'GET', credentials: 'include'})
     .then(results => {
       return results.json();
 

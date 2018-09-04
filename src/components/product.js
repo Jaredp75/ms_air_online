@@ -27,7 +27,7 @@ class Product extends Component {
   componentDidMount() {
 	var productUrl = "product?id=";
 	var url = Utilities.getApiURL('product.php', '?id='+Utilities.getUrlParam('id'));
-    fetch(url)
+    fetch(url, {method: 'GET', credentials: 'include'})
     .then(results => {
       return results.json();
     }).then(data => {
@@ -82,17 +82,16 @@ class Product extends Component {
 
 					<h4 className="replacement_parts_name"><a href={productUrl+rp.replacement_prod_id}>{rp.name}</a></h4>
 					<h4 className="replacement_parts_price"><strong>Price</strong>: {rp.prodPrice}</h4>
-					<form >
+						{/*<form >
 					<div className="replacement-parts-quantity-input-group">
-							<strong>Qty</strong>:
-							<input id='qty' type="number" className="quantityBox" />
-							{/* <input id="prodID" value={rp.prodPrice} /> */}
+							<strong>Quantity</strong>:
+							<input id='qty' type="number" className="quantityBox" value="0" />
+							<input id="prodID" value={rp.prodPrice} />
 					</div>
-					{/* <div className="replacement-parts-add-to-cart"> */}
-          <div id="add-to-cart">
-						<input onClick="myFunction()" type="submit" value="Add To Cart" />
+					<div className="replacement-parts-add-to-cart">
+						<input onclick="myFunction()" type="submit" value="Add To Cart" />
 					</div>
-					</form>
+						</form>*/}
 				</span>
             )});
 			replacementPartsSection = (
@@ -152,9 +151,8 @@ class Product extends Component {
 					<div className="individual-product-details"><a href={rp.file}>{rp.file_name} <img src="http://www.msaironline.com/images/pdf.jpg" alt="pdf-placeholder"></img></a></div>
 				</div>
             )});
-			compatiblePartsSection = (
+			productFilesSection = (
 				<div className="file_section">
-					{/* <h3>Files</h3> */}
 					{productFiles}
 				</div>)
 		}
@@ -180,13 +178,15 @@ class Product extends Component {
                       <div className="product-title">
                         <h2 className="individual-product-title">{pic.prodName}</h2>
                       </div>
-                        <img src={pic.brandIcon} alt="product-placeholder"></img>
-                        <h2 className="individual-product-actual-price"><strong>${pic.prodPrice}</strong></h2>
+                        <h4 className="product-brand-title"><img src={pic.brandIcon} alt={pic.brandName}/></h4>
+                        <h4 className="individual-product-suggested-retail-price">MSRP: ${pic.msrp}</h4>
+                        <h4 className="individual-product-savings">Savings: <strong>${pic.msrp - pic.prodPrice}</strong></h4>
+                        <h3 className="individual-product-actual-price"><strong>${pic.prodPrice}</strong></h3>
                         <br />
                         <br />
                       <div className="individual-product-description">
                         <ul>
-						              {prodAttributes}
+						  {prodAttributes}
                           <li>{pic.prodDesc}</li>
                           <br />
                           <li dangerouslySetInnerHTML={{__html: pic.prodLongDesc}} />
@@ -203,7 +203,7 @@ class Product extends Component {
 
           <div id="quantity-input-group">
             Qty:
-            <input name='qty' type="text" className="quantityBox" value={this.state.qty} size="2" maxLength="4" onChange={this.handleInputChange} />
+            <input name='qty' type="text" className="quantityBox" value={this.state.qty} defaultValue="1" size="2" maxlength="4" onChange={this.handleInputChange} />
 			<div id="add-to-cart">
 				<button onClick={(e) => Utilities.putInCart(pic.prodID, this.state.qty, e)}>Add To Cart</button>
 			</div>

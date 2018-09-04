@@ -23,7 +23,7 @@ class Category extends Component {
 	if(value == null)
 		value = '';
 	var url = Utilities.getApiURL('category.php', '?id='+Utilities.getUrlParam('id')+'&key='+key+'&value='+value);
-    fetch(url)
+    fetch(url, {method: 'GET', credentials: 'include'})
     .then(results => {
       return results.json();
 
@@ -53,9 +53,9 @@ class Category extends Component {
 		var prodFilterOptions = null;
 		var prodFiltersSection = null;
 		var id = Utilities.getUrlParam('id');
-		if(key !== '')
+		if(key != '')
 			key = key+'|';
-		if(value !== '')
+		if(value != '')
 			value = value+'|';
 		if(pic.filters) {
 			prodFilters = pic.filters.map((filter) => {
@@ -115,7 +115,7 @@ class Category extends Component {
                   <div className="product-title">
                     <h2 className="individual-product-title"><a href={productUrl+product.prodID}>{product.prodName}</a></h2>
                   </div>
-                    <img src={product.brandIcon} alt="product-placeholder"></img>
+                    <img src={product.brandIcon} alt={product.brandName}></img>
 
                     {/* <h4 className="product-brand-title"><a href={productUrl+product.prodID}><img src={product.brandIcon} alt={product.brandName}/></a></h4> */}
 

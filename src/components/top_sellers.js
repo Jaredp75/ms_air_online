@@ -17,7 +17,7 @@ class Top_Sellers extends Component {
   componentDidMount() {
 	var productUrl = "product?id=";
 	var url = Utilities.getApiURL('product.php?type=top', '&');
-    fetch(url)
+    fetch(url, {method: 'GET', credentials: 'include'})
     .then(results => {
       return results.json();
 
