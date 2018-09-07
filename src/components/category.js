@@ -53,9 +53,9 @@ class Category extends Component {
 		var prodFilterOptions = null;
 		var prodFiltersSection = null;
 		var id = Utilities.getUrlParam('id');
-		if(key != '')
+		if(key !== '')
 			key = key+'|';
-		if(value != '')
+		if(value !== '')
 			value = value+'|';
 		if(pic.filters) {
 			prodFilters = pic.filters.map((filter) => {

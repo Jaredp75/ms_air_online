@@ -22,18 +22,9 @@ export function putInCart(prodID, qty, e){
 	fetch(url, {  
 		method: 'PUT',
 		credentials: 'include'
-		/*headers: {
-			'Accept': 'application/json',
-			'Content-Type': 'application/json',
-		},
-		body: JSON.stringify({
-			firstParam: 'yourValue',
-			secondParam: 'yourOtherValue',
-		})*/
 	}).then(results => {
       return results.json();
-    }).then(data => {
-		console.log("item_count", data.totals.item_count);
+    }).then((data) => {
     })
 }
 export const restRequest = (url, method, content, body) => (
