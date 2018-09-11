@@ -124,7 +124,7 @@ class App extends Component {
                 <div className="content">
                 <div className="title-header-left-div">
                   <div id="app-title">MS <font color="yellow">AIR</font>
-                    <div><p>Your source for compressed air vacuum systems for medical, dental, laboratory and industrial applications</p></div>
+                    <div><p>Your source for compressed air & vacuum components for medical, dental, laboratory and industrial applications.</p></div>
                   </div>
                 </div>
 
