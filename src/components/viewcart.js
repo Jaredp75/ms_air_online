@@ -69,7 +69,6 @@ export default class ViewCart extends React.Component {
     }).then((data) => {
         this.setCart(data);
     })
-	
   }
   setCart(data){
 	  var error = null;

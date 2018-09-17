@@ -21,6 +21,8 @@ import ContactUs from '../components/contact_us';
 import ViewCart from '../components/viewcart';
 import Category from '../components/category';
 import Search from '../components/search';
+import * as Utilities from './utilities.js';
+
 
 
 
@@ -44,43 +46,41 @@ import Search from '../components/search';
 // import axios from 'axios';
 
 class App extends Component {
-  // state = {
-  //   categories: []
-  // };
-  //
-  //
-  // componentDidMount() {
-  //   axios
-  //     .get("https://www.msaironline.com/qa1/api/category.php?id=224")
-  //     .then(response => {
-  //
-  //       const newCategories = response.data.map(c => {
-  //         return {
-  //           taxID: c.taxID,
-  //           taxName: c.taxName
-  //         };
-  //       });
-  //
-  //       const newState = Object.assign({}, this.state, {
-  //         categories: newCategories
-  //       });
-  //
-  //       this.setState(newState);
-  //     })
-  //     .catch(error => console.log(error));
-  // }
-
-
-// render() {
-//   return (
-//     <div className="App">
-//
-//       ...
-//
-//       <CategoryList categories={this.state.categories} />
-//     </div>
-//   );
-// }
+  constructor(props) {
+    super(props);
+    this.state = {
+	  topNav: null,
+	  //itemsInCart: null,
+    };
+  }
+  componentDidMount() {
+	var topNav = null;
+  	var url = Utilities.getApiURL('session.php', '');
+    fetch(url, {method: 'GET', credentials: 'include'})
+    .then(results => {
+      return results.json();
+    }).then((data) => {
+        if(data.is_logged_in === true){
+			topNav = (<div id="top-links">
+			  <a className="active" href="/myaccount">Hello, {data.user}. &nbsp; My Account</a>
+              <a href="/login?do=logout">Logout</a>
+            </div>)
+			this.setState({topNav: topNav});
+		} else {
+			topNav = (
+			 <div id="top-links">
+              <a href="/register">Register</a>
+              <a href="/login">Login</a>
+            </div>)
+			this.setState({topNav: topNav});
+		}
+		//if(data.items_in_cart > 0){
+		//	this.setState({itemsInCart: data.items_in_cart});
+		//}
+    })
+	
+  }
+  
   render() {
     return (
 
@@ -105,12 +105,7 @@ class App extends Component {
           </div>
 
           <div id="top-nav">
-            <div id="top-links">
-              <a className="active" href="/myaccount">My Account</a>
-              <a href="/checkout">Checkout</a>
-              <a href="/register">Register</a>
-              <a href="/login">Login</a>
-            </div>
+			{this.state.topNav}
           </div>
         </div>
 
