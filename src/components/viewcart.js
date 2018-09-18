@@ -166,7 +166,7 @@ export default class ViewCart extends React.Component {
 
             <div className="shopping-cart-buttons">
               <button type="button" className="btn btn-primary" onClick={(e) => this.deleteItems()}>Empty Cart</button>
-                <a href="/checkout1"><button type="button" className="btn btn-primary">Next</button></a>
+                <a href="/checkout1"><button type="button" className="btn btn-primary">Checkout</button></a>
             </div>
 
 

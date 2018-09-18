@@ -2,9 +2,87 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
+import * as Utilities from './utilities.js';
 
 class Checkout1 extends Component {
+  constructor() {
+    super();
+    this.state = {
+      shipping: null,
+	  states: ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY']
+    };
+  }
 
+  componentDidMount() {
+	var url = Utilities.getApiURL('account.php', '');
+    fetch(url, {method: 'GET', credentials: 'include'})
+    .then(results => {
+      return results.json();
+    }).then((data) => {
+        if(data.is_logged_in === false){
+			window.location = 'login?pageReturn=checkout1'
+		} else {
+			this.populateForm(data.account)
+		}
+    })
+  }
+  populateForm(a){
+	var states = this.state.states.map((state) =>{
+		if(state===a.state)
+			return(<option selected='selected'>{state}</option>);
+		else
+			return(<option>{state}</option>);
+	});
+	  
+	  var shipping = (
+	  <fieldset>
+			<div className="form-row">
+                <div className="form-group col-md-6">
+                  <label className="inputFirstName"><strong>* First Name</strong></label>
+                  <input type="text" className="form-control" id="inputFirstName" value={a.first} />
+                </div>
+
+                <div className="form-group col-md-6">
+                  <label className="inputLastName"><strong>* Last Name</strong></label>
+                  <input type="text" className="form-control" id="inputLastName" value={a.last} />
+                </div>
+              </div>
+
+              <div className="form-group col-md-6">
+                <label className="inputAddress"><strong>* Address</strong></label>
+                <input type="text" className="form-control" id="inputAddress" value={a.address} />
+              </div>
+
+              <div className="form-group col-md-6">
+                <label className="inputAddress2"><strong>* Address 2</strong></label>
+                <input type="text" className="form-control" id="inputAddress2" value={a.address2} />
+              </div>
+
+              <div className="form-row">
+                <div className="form-group col-md-6">
+                  <label className="inputCity"><strong>* City</strong></label>
+                  <input type="text" className="form-control" id="inputCity" value={a.city} />
+                </div>
+
+                <div className="form-group col-md-4">
+                  <label className="inputState"><strong>* State</strong></label>
+                  <select type="text" id="inputState" className="form-control">
+				  {states}
+                  </select>
+                </div>
+
+                <div className="form-group col-md-2">
+                  <label className="inputZip"><strong>* Zip</strong></label>
+                  <input type="text" className="form-control" id="inputZip" value={a.zip} />
+              </div>
+            </div>
+
+
+          </fieldset>);
+			this.setState({shipping: shipping});
+  }
+  
+  
   render(){
 
     return(
@@ -21,109 +99,11 @@ class Checkout1 extends Component {
           </div>
 
           <form method="POST" className="shipping-address" action="checkout2.php">
-            <fieldset>
-              <div className="form-row">
-                <div className="form-group col-md-6">
-                  <label className="inputFirstName"><strong>* First Name</strong></label>
-                  <input type="text" className="form-control" id="inputFirstName" placeholder="First name" />
-                </div>
+            
+              
+			  {this.state.shipping}
+			  
 
-                <div className="form-group col-md-6">
-                  <label className="inputLastName"><strong>* Last Name</strong></label>
-                  <input type="text" className="form-control" id="inputLastName" placeholder="Last name" />
-                </div>
-              </div>
-
-              <div className="form-group col-md-6">
-                <label className="inputAddress"><strong>* Address</strong></label>
-                <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
-              </div>
-
-              <div className="form-group col-md-6">
-                <label className="inputAddress2"><strong>* Address 2</strong></label>
-                <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
-              </div>
-
-              <div className="form-row">
-                <div className="form-group col-md-6">
-                  <label className="inputCity"><strong>* City</strong></label>
-                  <input type="text" className="form-control" id="inputCity" placeholder="New York" />
-                </div>
-
-                <div className="form-group col-md-4">
-                  <label className="inputState"><strong>* State</strong></label>
-                  <select type="text" id="inputState" className="form-control">
-                    <option defaultValue>Choose...</option>
-                    <option value="1">Alabama</option>
-                    <option value="2">Alaska</option>
-                    <option value="3">Arizona</option>
-                    <option value="4">Arkansas</option>
-                    <option value="5">California</option>
-                    <option value="6">Colorado</option>
-                    <option value="7">Connecticut</option>
-                    <option value="8">Delaware</option>
-                    <option value="9">District of Columbia</option>
-                    <option value="10">Florida</option>
-                    <option value="11">Georgia</option>
-                    <option value="12">Guam</option>
-                    <option value="13">Hawaii</option>
-                    <option value="14">Idaho</option>
-                    <option value="15">Illinois</option>
-                    <option value="16">Indiana</option>
-                    <option value="17">Iowa</option>
-                    <option value="18">Kansas</option>
-                    <option value="19">Kentucky</option>
-                    <option value="20">Louisiana</option>
-                    <option value="21">Maine</option>
-                    <option value="22">Maryland</option>
-                    <option value="23">Massachusetts</option>
-                    <option value="24">Michigan</option>
-                    <option value="25">Minnesota</option>
-                    <option value="26">Mississippi</option>
-                    <option value="27">Missouri</option>
-                    <option value="28">Montana</option>
-                    <option value="29">Nebraska</option>
-                    <option value="30">Nevada</option>
-                    <option value="31">New Hampshire</option>
-                    <option value="32">New Jersey</option>
-                    <option value="33">New Mexico</option>
-                    <option value="34">New York</option>
-                    <option value="35">North Carolina</option>
-                    <option value="36">North Dakota</option>
-                    <option value="37">Northern Marianas Islands</option>
-                    <option value="38">Ohio</option>
-                    <option value="39">Oklahoma</option>
-                    <option value="40">Oregon</option>
-                    <option value="41">Pennsylvania</option>
-                    <option value="42">Puerto Rico</option>
-                    <option value="43">Rhode Island</option>
-                    <option value="44">South Carolina</option>
-                    <option value="45">South Dakota</option>
-                    <option value="46">Tennessee</option>
-                    <option value="47">Texas</option>
-                    <option value="48">Utah</option>
-                    <option value="49">Vermont</option>
-                    <option value="50">Virginia</option>
-                    <option value="51">Virgin Islands</option>
-                    <option value="52">Washington</option>
-                    <option value="53">West Virginia</option>
-                    <option value="54">Wisconsin</option>
-                    <option value="55">Wyoming</option>
-                  </select>
-                </div>
-
-                <div className="form-group col-md-2">
-                  <label className="inputZip"><strong>* Zip</strong></label>
-                  <input type="text" className="form-control" id="inputZip" placeholder="10001" />
-              </div>
-            </div>
-
-            <div className="form-group col-md-6" id="pay-now">
-              <button type="submit" className="btn btn-primary" id="confirm-purchase">Confirm</button>
-            </div>
-
-
-          </fieldset>
 
 
 
