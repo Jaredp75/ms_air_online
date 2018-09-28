@@ -64,8 +64,7 @@ export default class Login extends React.Component {
 		}
 	  } else{
 		  alert("Error: "+data.error.message)
-	  }
-		 
+	  }	 
   }
   render(){
 
