@@ -8,6 +8,7 @@ export function getUrlParam(param) {
 	}
 	return result;
 }
+
 export function getApiURL(app, query) {
 	var base = 'https://www.msaironline.com/qa1/api/';
 	return base+app+query;
@@ -20,21 +21,12 @@ export function putInCart(prodID, qty, e){
 	var url = getApiURL('cart.php', '?id='+prodID+'&qty='+qty);
 	fetch(url, {  
 		method: 'PUT',
-		/*headers: {
-			'Accept': 'application/json',
-			'Content-Type': 'application/json',
-		},
-		body: JSON.stringify({
-			firstParam: 'yourValue',
-			secondParam: 'yourOtherValue',
-		})*/
+		credentials: 'include'
 	}).then(results => {
       return results.json();
-    }).then(data => {
-		console.log("item_count", data.totals.item_count);
+    }).then((data) => {
     })
 }
-
 export const restRequest = (url, method, content, body) => (
   fetch(url, {
     method: method,

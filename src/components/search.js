@@ -5,7 +5,7 @@ import AboutLinks from './footer-links/about-links.js';
 import Top_Sellers from './top_sellers.js';
 import * as Utilities from './utilities.js';
 
-class Home extends Component {
+class Search extends Component {
 
   constructor() {
     super();
@@ -16,48 +16,48 @@ class Home extends Component {
 
 
   componentDidMount() {
-	var categoryUrl = "category?id=";
-	var url = Utilities.getApiURL('category.php', '?');
+	var productUrl = "product?id=";
+	var url = Utilities.getApiURL('product.php', '?type=search&phrase='+Utilities.getUrlParam('phrase'));
     fetch(url, {method: 'GET', credentials: 'include'})
     .then(results => {
       return results.json();
 
     }).then(data => {
-      let products = data.category.map((pic) => {
+	  //if(data.product) {
+      let products = data.product.map((pic) => {
         console.log(pic);
-
-		var subcats = null;
-		if(pic.subcats) {
-			subcats = pic.subcats.map((subcat) => {
-            return (
-				<li><a href={categoryUrl+subcat.taxID}>{subcat.taxName}</a></li>
-            )
-        });}
         return(
 
-          <div key={pic.results} className="content-area-container4">
-            {/* <div className="content-area-container2"> */}
-              <div className="brand_product_listing">
-                <div className="top-brands">
 
-                  <div className="brand-logo">
+
+          <div key={pic.results} className="individual-product-details2">
+            {/* <div className="content-area-container2"> */}
+              <div className="product_listing">
+                <div className="product_entry">
+
+                  <div className="product-image">
                     <img src={pic.icon} alt="product-placeholder"></img>
+                    <div className="catalog-number"><h5>Catalog Number:<br />{pic.prodSku}</h5></div>
                   </div>
 
-                <div className="brand-text">
-                  <a href={categoryUrl+pic.taxID}><strong>{pic.taxName}</strong></a>
-				  {subcats}
+                <div className="product-details">
+                  <h4 className="product-title"><a href={productUrl+pic.prodID}>{pic.prodName}</a></h4>
+                  <h6 className="product-brand-name">{pic.brandName}</h6>
+                  <h6 className="product-suggested-retail-price">${pic.msrp}</h6>
+                  <h6 className="product-savings">Savings: <strong>${pic.msrp - pic.prodPrice}</strong></h6>
+                  <h6 className="product-actual-price"><strong>${pic.prodPrice}</strong></h6>
                 </div>
               </div>
             </div>
-
 
 
           {/* </div> */}
 
         </div>
       )
-    })
+	  })/*} else {
+			var products = (<div>Search results were empty.  Please try a another phase or contact us to find the part you're looking for</div>)
+	  }*/
 
       this.setState({products: products});
       console.log("state", this.state.products);
@@ -82,12 +82,6 @@ class Home extends Component {
             <div className="container2">
               {this.state.products}
             </div>
-
-
-          </div>
-
-          <div>
-            <Top_Sellers />
           </div>
 
 
@@ -120,4 +114,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Search;

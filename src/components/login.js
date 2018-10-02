@@ -3,10 +3,69 @@ import {Link} from 'react-router-dom';
 // import FooterLinks from './footer-links/footer-links.js'
 import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
+import * as Utilities from './utilities.js';
 
 
+	
 export default class Login extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      user: null,
+	  pwd: null,
+	  pageReturn: null,
+    };
+	this.handleInputChange = this.handleInputChange.bind(this);
 
+  }
+  componentDidMount() {
+	var url = Utilities.getApiURL('session.php', '');
+	var redirectLocaion = 'myaccount'
+	if(Utilities.getUrlParam('do') === 'logout')
+		url = Utilities.getApiURL('account.php', '?do=logout')
+    fetch(url, {method: 'GET', credentials: 'include'})
+    .then(results => {
+      return results.json();
+    }).then((data) => {
+        if(data.is_logged_in === true){
+			window.location = redirectLocaion
+		}
+    })
+  }
+  handleInputChange(event) {
+    const target = event.target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const name = target.name;
+
+    this.setState({
+      [name]: value
+    });
+  }
+  login(){
+  	var url = Utilities.getApiURL('account.php', '?do=login');
+    fetch(url, {
+			method: 'POST', 
+			credentials: 'include',
+			headers: {"Content-Type": "application/x-www-form-urlencoded"},
+			body: "user="+this.state.user+"&pwd="+this.state.pwd
+		})
+    .then(results => {
+      return results.json();
+    }).then((data) => {
+        this.isLoggedIn(data);
+    })
+  }
+  isLoggedIn(data){
+	  if(data.user === this.state.user && data.is_logged_in === true){
+		if(Utilities.getUrlParam('pageReturn')) {
+			window.location = Utilities.getUrlParam('pageReturn')
+		} else {
+			window.location = "/"
+		}
+	  } else{
+		  alert("Error: "+data.error.message)
+	  }	 
+  }
   render(){
 
     return(
@@ -18,21 +77,24 @@ export default class Login extends React.Component {
               <div className="returning-customer-header">
                 <h1>Returning Customer</h1>
               </div>
-                <form className="returning-customer-form">
                   <div className="form-row">
                     <div className="form-group col-md-12">
                       <label className="inputUserName"><strong>* Username</strong></label>
-                      <input type="text" className="form-control" placeholder="Username" />
+                      <input type="text" className="form-control" name='user' placeholder="Username" onChange={this.handleInputChange}/>
                     </div>
 
                       <div className="form-group col-md-12">
                       <label className="inputLastName"><strong>* Password</strong></label>
-                      <input type="text" className="form-control" placeholder="Password" />
+                      <input type="password" className="form-control" name='pwd' placeholder="Password" onChange={this.handleInputChange}/>
                     </div>
                   </div>
 
+<<<<<<< HEAD
                   <a href="/" className="btn btn-primary" role="button"><h4>Login</h4></a>
                 </form>
+=======
+                  <button type="submit" className="btn btn-primary"  onClick={(e) => this.login()}>Login</button>
+>>>>>>> fe3e1c9bbb63ff3d2df80cb3cab6ca26ceb60473
 
 
 
