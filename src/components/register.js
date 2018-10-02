@@ -68,12 +68,12 @@ export default class Register extends React.Component {
               </div>
 
 
-              <div className="form-group">
+              <div className="form-group col-md-6">
                 <label className="inputAddress"><strong>* Address</strong></label>
                 <input type="text" onChange={this.handleChange.bind(this)} value={this.state.address} className="form-control" id="inputAddress" placeholder="1234 Main St" />
               </div>
 
-              <div className="form-group">
+              <div className="form-group col-md-6">
                 <label className="inputAddress2"><strong>* Address 2</strong></label>
                 <input type="text" onChange={this.handleChange.bind(this)} value={this.state.address2} className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
               </div>
@@ -154,7 +154,8 @@ export default class Register extends React.Component {
                 </div>
               </div>
 
-              <button type="submit" className="btn btn-primary">Submit</button>
+              <a href="/" className="btn btn-primary" role="button"><h4>Submit</h4></a>
+
             </form>
           </div>
 

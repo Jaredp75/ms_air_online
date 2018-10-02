@@ -1070,11 +1070,11 @@
 /*---REGISTRATION PAGE STYLES BEGIN---*/
 
 .registration_form {
-  border: 1px solid lightgray;
-  padding: 40px;
-  border-radius: 3px;
-  background-color: gray;
-  color: white;
+  /* border: 1px solid lightgray; */
+  padding: 20px;
+  /* border-radius: 3px; */
+  /* background-color: gray; */
+  color: #2C3E50;
   margin: 80px;
   clear: both;
 }
@@ -1779,15 +1779,14 @@
 /* --- Login Page styling --- */
 
 .returning-customer {
-  /* border: 1px solid black; */
-  /* width: 60%; */
+  width: 40%;
   border-radius: 3px;
-  background-color: #2C3E50;
-  color: white;
-  /* margin: 0 auto; */
-  margin-bottom: 60px;
+  color: #2C3E50;
+  margin-left: 20px;
   margin-top: 20px;
   justify-content: center;
+  display: inline-grid;
+  font-size: 18px;
 }
 
 
@@ -1816,17 +1815,28 @@
 }
 
 
+.login-header-text {
+  /* display: inline-block; */
+  text-align: center;
+
+}
+
+
 
 
 .new-customer {
   /* border: 1px solid black; */
-  /* width: 60%; */
-  margin-bottom: 60px;
-  background-color: #2C3E50;
+  width: 40%;
+  /* margin-bottom: 60px; */
+  /* background-color: #2C3E50; */
   color: #2C3E50;
   margin: 0 auto;
-  margin-bottom: 80px;
-  border-radius: 3px;
+  /* margin-bottom: 80px; */
+  /* border-radius: 3px; */
+  display: inline-grid;
+  /* margin-left: 20px; */
+  margin-top: 20px;
+
 }
 
 
@@ -1837,6 +1847,7 @@
   color: white;
   padding: 20px;
   text-align: center;
+  /* height: 150px; */
 }
 
 
@@ -1851,9 +1862,10 @@
 
 .new-customer-para {
   background-color: white;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 20px;
+  padding-left: 54px;
+  padding-right: 54px;
+  /* padding: 40px; */
+  padding-top: 30px;
   padding-bottom: 20px;
   text-align: center;
 }
@@ -1862,8 +1874,8 @@
 
 
 .returning-customer input {
-  border: 1px solid lightgray;
-  width: 100%;
+  /* border: 1px solid lightgray; */
+  /* width: 100%; */
   clear: both;
   justify-content: center;
 }
@@ -1918,6 +1930,12 @@
   background-color: green;
 }
 
+
+
+
+.fa-check:hover {
+  color: green;
+}
 
 
 

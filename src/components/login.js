@@ -13,7 +13,7 @@ export default class Login extends React.Component {
       <div>
 
         <div className = 'content-area-container'>
-          <div className="header-text">
+          <div className="login-header-text">
             <div className="returning-customer">
               <div className="returning-customer-header">
                 <h1>Returning Customer</h1>
@@ -31,7 +31,7 @@ export default class Login extends React.Component {
                     </div>
                   </div>
 
-                  <button type="submit" className="btn btn-primary">Login</button>
+                  <a href="/" className="btn btn-primary" role="button"><h4>Login</h4></a>
                 </form>
 
 
@@ -45,7 +45,10 @@ export default class Login extends React.Component {
               </div>
               <div className="new-customer-para">
                 <h4>Create a free MS Air account to get the benefits of a personalized shopping experience. With a free MS Air account, you will be able to conveniently place orders, make shopping lists, save your shopping cart, check the status of your recent orders and much more.</h4>
-                <a href="/register"><h4>Create a New Account</h4></a>
+                <br />
+                <br />
+                
+                <a href="/register" className="btn btn-primary" role="button"><h4>Create a New Account</h4></a>
               </div>
 
             </div>

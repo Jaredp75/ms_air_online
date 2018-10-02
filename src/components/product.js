@@ -208,7 +208,7 @@ class Product extends Component {
 				<button onClick={(e) => Utilities.putInCart(pic.prodID, this.state.qty, e)}>Add To Cart</button>
 			</div>
 		  </div>
-
+      
 
 {/* ---files Section--- */}
 	{productFilesSection}
