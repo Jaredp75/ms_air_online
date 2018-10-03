@@ -44,19 +44,23 @@ export default class ContactUs extends React.Component {
           <div className="email-details">
             <form className="contact-form">
               <div className="form-row">
-                <div className="form-group col-md-8">
-                  <label className="inputName"><strong>* Name: </strong></label>
+                <div className="form-group col-md-6">
+                  <label className="inputName"><strong>* First Name: </strong></label>
                   <input type="text" className="form-control" placeholder="Name"></input>
                 </div>
-                <div className="form-group col-md-8">
+                <div className="form-group col-md-6">
+                  <label className="inputName"><strong>* Last Name: </strong></label>
+                  <input type="text" className="form-control" placeholder="Name"></input>
+                </div>
+                <div className="form-group col-md-6">
                   <label className="inputEmail4"><strong>* Email: </strong></label>
                   <input type="email" className="form-control" id="inputEmail4" placeholder="Email" />
                 </div>
-                <div className="form-group col-md-8">
+                <div className="form-group col-md-6">
                   <label className="inputPhone"><strong>Phone:</strong></label>
                   <input type="tel" className="form-control" id="inputPhone" placeholder="Phone" />
                 </div>
-                <div className="form group col-md-8">
+                <div className="form group col-md-6">
                   <label className="inputMessage"><strong>Message:</strong></label>
                   <textarea className="form-control" id="inputMessage" placeholder="Message" rows="8" cols="50" />
                 </div>

@@ -1107,26 +1107,30 @@
 /* -- Contact Us Page Styling -- */
 
 .phone-container {
-  /* border: 1px solid black; */
-  margin-bottom: 60px;
-
+  margin-top: 20px;
+  margin-bottom: 100px;
+  width: 47%;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
 
 
 .mailing-container {
-  /* border: 1px solid black; */
+  margin-top: 20px;
   margin-bottom: 60px;
-
+  width: 47%;
+  display: inline-grid;
+  margin-left: 20px;
 }
 
 
 
 
 .email-container {
-  /* border: 1px solid black; */
-  margin-bottom: 60px;
+  margin-bottom: 100px;
   height: 600px;
 
 }
@@ -1146,6 +1150,7 @@
   color: white;
   padding: 20px;
   text-align: center;
+  height: 125px;
 }
 
 
@@ -1156,7 +1161,9 @@
 }
 
 
-
+.telephone-header h1 {
+  justify-content: center;
+}
 
 .phone-details {
   padding: 20px;
@@ -1178,6 +1185,7 @@
   color: white;
   padding: 20px;
   text-align: center;
+  height: 125px;
 }
 
 
@@ -1246,7 +1254,16 @@
 
 
 .email-disclaimer {
-  padding: 20px;
+  /* padding: 60px; */
+  /* margin-right: 10px; */
+  width: 50%;
+  /* float: left; */
+}
+
+
+.contact-button {
+  /* float: none; */
+  margin-top: 60px;
 }
 
 
@@ -1784,14 +1801,15 @@
 /* --- Login Page styling --- */
 
 .returning-customer {
-  width: 40%;
+  width: 45%;
   border-radius: 3px;
   color: #2C3E50;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   margin-top: 20px;
-  justify-content: center;
+  /* justify-content: center; */
   display: inline-grid;
   font-size: 18px;
+  float: left;
 }
 
 
@@ -1816,32 +1834,41 @@
 
 .returning-customer-form {
   background-color: white;
-  padding: 40px;
+  margin: 40px;
 }
 
 
 .login-header-text {
   /* display: inline-block; */
   text-align: center;
-
+  margin-left: 40px;
 }
 
+
+.login-form-row {
+  padding-top: 20px;
+}
+
+
+.returning-login {
+  /* margin: 20px; */
+}
 
 
 
 .new-customer {
   /* border: 1px solid black; */
-  width: 40%;
+  width: 45%;
   /* margin-bottom: 60px; */
   /* background-color: #2C3E50; */
   color: #2C3E50;
   margin: 0 auto;
   /* margin-bottom: 80px; */
   /* border-radius: 3px; */
-  display: inline-grid;
+  display: inline-block;
   /* margin-left: 20px; */
   margin-top: 20px;
-
+  float: none;
 }
 
 

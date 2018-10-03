@@ -31,7 +31,7 @@ export default class ViewCart extends React.Component {
 		qty=1;
 	 }
 	 this.callCartApi(prodID, qty, 'PUT');
-	 
+
   }
   deleteItem(prodID, e){
 	this.callCartApi(prodID, 0, 'DELETE');
@@ -41,7 +41,7 @@ export default class ViewCart extends React.Component {
   }
   callCartApi(prodID, qty, mMethod){
 	var url = Utilities.getApiURL('cart.php', '?id='+prodID+'&qty='+qty);
-	fetch(url, {  
+	fetch(url, {
 		method: mMethod,
 		credentials: 'include'
 	}).then(results => {
@@ -52,7 +52,7 @@ export default class ViewCart extends React.Component {
   }
   setCoupon(code){
 	var url = Utilities.getApiURL('cart.php', '?code='+code);
-	fetch(url, {  
+	fetch(url, {
 		method: 'POST',
 		credentials: 'include'
 	}).then(results => {
@@ -123,15 +123,15 @@ export default class ViewCart extends React.Component {
 			  )
 	  }
 	  this.setState({totals: totals});
-	  
+
   }
-  
+
   componentDidMount() {
 		this.getCart()
 
   }
 
-	
+
   render(){
 
     return(
@@ -139,7 +139,7 @@ export default class ViewCart extends React.Component {
 
         <div className = 'content-area-container'>
 
-		 
+
           <div className="replacement_parts_header">
             <h1>Shopping Cart</h1>
           </div>
@@ -176,9 +176,9 @@ export default class ViewCart extends React.Component {
                   <div class="col-md-10">
                     <input name='coupon' type="text" className="form-control" id="coupon" onChange={this.handleInputChange}/>
                   </div>
-				  
+
 				  <div id="add-to-cart">
-					<button onClick={(e) => this.setCoupon(this.state.coupon, e)}>Apply</button>
+					 <button type="submit" className="btn btn-primary" onClick={(e) => this.setCoupon(this.state.coupon, e)}>Apply</button>
 				  </div>
 				   {this.state.error}
                 </div>

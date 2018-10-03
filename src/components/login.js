@@ -77,7 +77,8 @@ export default class Login extends React.Component {
               <div className="returning-customer-header">
                 <h1>Returning Customer</h1>
               </div>
-                  <div className="form-row">
+                <form className="returning-login">
+                  <div className="login-form-row">
                     <div className="form-group col-md-12">
                       <label className="inputUserName"><strong>* Username</strong></label>
                       <input type="text" className="form-control" name='user' placeholder="Username" onChange={this.handleInputChange}/>
@@ -90,11 +91,12 @@ export default class Login extends React.Component {
                   </div>
 
 
-                  <a href="/" className="btn btn-primary" role="button"><h4>Login</h4></a>
-                {/* </form> */}
 
-                  <button type="submit" className="btn btn-primary"  onClick={(e) => this.login()}>Login</button>
 
+
+                  <button type="submit" className="btn btn-primary"  onClick={(e) => this.login()}><h4>Login</h4></button>
+
+                  </form>
 
 
 
