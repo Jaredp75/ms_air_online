@@ -33,7 +33,7 @@ class Checkout1 extends Component {
 		else
 			return(<option>{state}</option>);
 	});
-	  
+
 	  var shipping = (
 	  <fieldset>
 			<div className="form-row">
@@ -81,8 +81,8 @@ class Checkout1 extends Component {
           </fieldset>);
 			this.setState({shipping: shipping});
   }
-  
-  
+
+
   render(){
 
     return(
@@ -99,17 +99,17 @@ class Checkout1 extends Component {
           </div>
 
           <form method="POST" className="shipping-address" action="checkout2.php">
-            
-              
+
+
 			  {this.state.shipping}
-			  
+
 
 
 
 
         </form>
 
-        <div className="form-group col-md-6" id="checkout1-next-button">
+        <div className="form-group" id="checkout1-next-button">
             <a href="/checkout2"><button type="submit" className="btn btn-primary">Next</button></a>
         </div>
 

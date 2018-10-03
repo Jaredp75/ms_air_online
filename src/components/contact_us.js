@@ -46,11 +46,11 @@ export default class ContactUs extends React.Component {
               <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputName"><strong>* First Name: </strong></label>
-                  <input type="text" className="form-control" placeholder="Name"></input>
+                  <input type="text" className="form-control" placeholder="First Name"></input>
                 </div>
                 <div className="form-group col-md-6">
                   <label className="inputName"><strong>* Last Name: </strong></label>
-                  <input type="text" className="form-control" placeholder="Name"></input>
+                  <input type="text" className="form-control" placeholder="Last Name"></input>
                 </div>
                 <div className="form-group col-md-6">
                   <label className="inputEmail4"><strong>* Email: </strong></label>
@@ -58,7 +58,7 @@ export default class ContactUs extends React.Component {
                 </div>
                 <div className="form-group col-md-6">
                   <label className="inputPhone"><strong>Phone:</strong></label>
-                  <input type="tel" className="form-control" id="inputPhone" placeholder="Phone" />
+                  <input type="tel" className="form-control" id="inputPhone" placeholder="123-456-7890" />
                 </div>
                 <div className="form group col-md-6">
                   <label className="inputMessage"><strong>Message:</strong></label>

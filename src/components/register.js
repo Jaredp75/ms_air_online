@@ -96,7 +96,7 @@ export default class Register extends React.Component {
 			        <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputUsername"><strong>* Username</strong></label>
-                  <input name='user' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputUsername" placeholder="Password" />
+                  <input name='user' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputUsername" placeholder="Username" />
                 </div>
 			        </div>
 
@@ -124,14 +124,14 @@ export default class Register extends React.Component {
               <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputFirstName"><strong>* First Name</strong></label>
-                  <input name='first' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputFirstName" placeholder="First name" />
+                  <input name='first' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputFirstName" placeholder="First Name" />
                 </div>
 			        </div>
 
               <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputLastName"><strong>* Last Name</strong></label>
-                  <input name='last' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputLastName" placeholder="Last name" />
+                  <input name='last' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputLastName" placeholder="Last Name" />
                 </div>
               </div>
 
