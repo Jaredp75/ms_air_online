@@ -211,6 +211,10 @@ export default class Register extends React.Component {
               <AboutLinks />
             </div>
 
+
+          </div>
+        </div>
+
             <div className="about-footer">
               <div className="terms">
                 <p><a href="/Terms" rel="noopener noreferrer">Terms of Use</a> | <a href="/Privacy" rel="noopener noreferrer">Privacy Policy</a></p>
@@ -222,8 +226,7 @@ export default class Register extends React.Component {
 
 
 
-  </div>
-</div>
+
 </div>
     )
   }

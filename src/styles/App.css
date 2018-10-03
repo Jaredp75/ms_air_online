@@ -119,6 +119,7 @@
 
 
 
+
 .content-area-container {
   border-radius: 5px;
   box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.2);
@@ -128,12 +129,7 @@
   font-weight: 300;
   line-height: 1.4;
   background-color: white;
-  /* align-content: center; */
-  /* margin: 0 auto; */
   justify-content: center;
-  /* text-align: center; */
-  /* align-items: center; */
-
 }
 
 
@@ -142,7 +138,6 @@
 .content-area-container2 {
   border-radius: 5px;
   box-shadow: 0px 0px 0px 1px rgba(0,0,0,0);
-  /* padding: 2px; */
   padding-top: 20px;
   padding-bottom: 60px;
   font-weight: 300;
@@ -184,8 +179,8 @@
   width: 543px;
   height: 450px;
   margin-left: 80px;
-
 }
+
 
 
 
@@ -194,8 +189,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
 }
+
 
 
 
@@ -204,7 +199,6 @@
   width: 100%;
   justify-content: center;
   padding: 20px;
-  /* display: flex; */
 }
 
 
@@ -215,8 +209,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
 }
+
 
 
 
@@ -242,13 +236,6 @@
 
 
 
-.content-area-container2:hover {
-  /* background-color: lightgray; */
-}
-
-
-
-
 .content-area-container3:hover {
   background-color: lightgray;
 }
@@ -259,6 +246,7 @@
 .row {
   display: flex;
 }
+
 
 
 
@@ -318,6 +306,7 @@
 
 
 
+
 #top-nav a {
   float: left;
   display: block;
@@ -335,6 +324,7 @@
   background-color: green;
   color: white;
 }
+
 
 
 
@@ -471,11 +461,15 @@
      -o-transition-duration: 0.5s;
  }
 
+
+
+
 /*------Multicoloured Hover Variations------*/
 
  #social-fb:hover {
      color: #3B5998;
  }
+
 
 
 
@@ -506,9 +500,8 @@
 
 
 
+
  /*------End of Multicoloured Hover Variations------*/
-
-
 
  .checkout-wrapper {
   display: flex;
@@ -541,6 +534,7 @@
 
 
 
+
 .bottom-header {
   overflow: hidden;
   background-color: #2C3E50;
@@ -558,6 +552,7 @@
 
 
 
+
 .bottom-header a {
   float: left;
   display: block;
@@ -565,6 +560,7 @@
   padding: 14px 16px;
   text-decoration: none;
 }
+
 
 
 
@@ -845,6 +841,14 @@
 
 
 
+.privacy-para {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+
+
+
 .privacy-para p{
   display: flex;
   flex-direction: row;
@@ -867,7 +871,8 @@
 
 
 .terms-para {
-  padding: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 
@@ -877,15 +882,20 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  font-family: 'Raleway', sans-serif;
+  /* margin-left: 100px;
+  margin-right: 100px; */
 }
 
 
 
 
 .terms-para p {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
   font-size: 18px;
+  padding: 10px;
 }
 
 
@@ -912,12 +922,10 @@
 .top-brands {
   display: flex;
   flex-wrap: wrap;
-  /* align-content: space-between; */
   height: 200px;
   padding: 10px;
   font-size: 14px;
   float: left;
-  /* width: 50%; */
 }
 
 
@@ -962,6 +970,7 @@
 
 
 /*---HELP CENTER STYLES BEGIN---*/
+
 .HelpAndCurrency {
   display: flex;
   flex-direction: row;
@@ -1070,10 +1079,7 @@
 /*---REGISTRATION PAGE STYLES BEGIN---*/
 
 .registration_form {
-  /* border: 1px solid lightgray; */
   padding: 20px;
-  /* border-radius: 3px; */
-  /* background-color: gray; */
   color: #2C3E50;
   margin: 80px;
   clear: both;
@@ -1138,13 +1144,6 @@
 
 
 
-.contact-header-text {
-  /* padding: 20px; */
-}
-
-
-
-
 .telephone-header {
   background-color: #2C3E50;
   color: white;
@@ -1161,9 +1160,14 @@
 }
 
 
+
+
 .telephone-header h1 {
   justify-content: center;
 }
+
+
+
 
 .phone-details {
   padding: 20px;
@@ -1254,15 +1258,13 @@
 
 
 .email-disclaimer {
-  /* padding: 60px; */
-  /* margin-right: 10px; */
   width: 50%;
-  /* float: left; */
 }
 
 
+
+
 .contact-button {
-  /* float: none; */
   margin-top: 60px;
 }
 
@@ -1284,15 +1286,10 @@
 
 .product_listing {
   display: flex;
-  /* flex-direction: row; */
   padding: 5px;
   height: 400px;
   margin: 5px;
-  /* width: 50%; */
-  /* flex-wrap: wrap; */
-  /* align-items: center; */
 }
-
 
 
 
@@ -1300,10 +1297,6 @@
 .brand_product_listing {
   display: flex;
   flex-wrap: wrap;
-  /* align-content: space-between; */
-  /* width: auto; */
-  /* justify-content: center; */
-  /* float: left; */
 }
 
 
@@ -1326,14 +1319,12 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 
 
 
 .home-brands h5 {
-  /* width: 50%; */
   text-align: center;
 }
 
@@ -1348,7 +1339,6 @@
 
 
 .product_entry {
-  /* flex-wrap: wrap; */
   justify-content: center;
   display: flex;
   margin: 20px;
@@ -1356,13 +1346,9 @@
 
 
 
+
 .product-image {
-  /* float: left; */
-  /* padding-right: 10px; */
   padding-top: 10px;
-  /* display: flex; */
-
-
 }
 
 
@@ -1431,7 +1417,6 @@
 
 
 
-
 #individual_product_page h3 {
   display: flex;
   justify-content: center;
@@ -1444,7 +1429,6 @@
   padding: 10px;
   width: 80%;
   float: left;
-  /* margin-bottom: 40px; */
   height: 1000px;
 }
 
@@ -1452,7 +1436,6 @@
 
 
 .individual_product_listing img {
-  /* height: 50%; */
   padding: 10px;
 }
 
@@ -1473,7 +1456,6 @@
 
 
 .individual-product-details {
-  /* display: flex; */
   flex-direction: column;
   margin: 20px;
   float: left;
@@ -1483,13 +1465,8 @@
 
 
 .individual-product-details2 {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* margin: 20px; */
   float: left;
-  /* padding: 60px; */
   width: 50%;
-  /* height: 600px; */
   margin-top: 80px;
 }
 
@@ -1497,15 +1474,12 @@
 
 
 .individual-product-details3 {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* margin: 20px; */
   float: left;
-  /* padding: 60px; */
   width: 50%;
   height: 600px;
   margin-top: 80px;
 }
+
 
 
 
@@ -1521,9 +1495,12 @@
 }
 
 
+
+
 .individual-product-description {
   color: #2C3E50;
 }
+
 
 
 
@@ -1531,6 +1508,7 @@
   text-align: center;
   color: #2C3E50;
 }
+
 
 
 
@@ -1804,9 +1782,7 @@
   width: 45%;
   border-radius: 3px;
   color: #2C3E50;
-  /* margin-left: 20px; */
   margin-top: 20px;
-  /* justify-content: center; */
   display: inline-grid;
   font-size: 18px;
   float: left;
@@ -1839,7 +1815,6 @@
 
 
 .login-header-text {
-  /* display: inline-block; */
   text-align: center;
   margin-left: 40px;
 }
@@ -1851,22 +1826,15 @@
 
 
 .returning-login {
-  /* margin: 20px; */
 }
 
 
 
 .new-customer {
-  /* border: 1px solid black; */
   width: 45%;
-  /* margin-bottom: 60px; */
-  /* background-color: #2C3E50; */
   color: #2C3E50;
   margin: 0 auto;
-  /* margin-bottom: 80px; */
-  /* border-radius: 3px; */
   display: inline-block;
-  /* margin-left: 20px; */
   margin-top: 20px;
   float: none;
 }
@@ -1879,7 +1847,6 @@
   color: white;
   padding: 20px;
   text-align: center;
-  /* height: 150px; */
 }
 
 
@@ -1896,7 +1863,6 @@
   background-color: white;
   padding-left: 54px;
   padding-right: 54px;
-  /* padding: 40px; */
   padding-top: 30px;
   padding-bottom: 20px;
   text-align: center;
@@ -1906,8 +1872,6 @@
 
 
 .returning-customer input {
-  /* border: 1px solid lightgray; */
-  /* width: 100%; */
   clear: both;
   justify-content: center;
 }
@@ -1926,7 +1890,6 @@
 
 /* --- My Account Page styling --- */
 
-
 .account-header-body {
   display: flex;
   margin: 20px;
@@ -1937,7 +1900,6 @@
 
 
 .account-settings {
-  /* border: 1px solid black; */
   width: 45%;
   margin-left: 40px;
   background-color: #2C3E50;
@@ -1989,11 +1951,9 @@
 
 
 .order-info {
-  /* border: 1px solid black; */
   width: 45%;
   color: white;
   margin: 0 auto;
-  /* margin-bottom: 60px; */
 }
 
 
@@ -2034,10 +1994,6 @@
 
 
 
-
-
-
-
 img.thumbnail {
   max-width: 50%;
   max-height: 50%;
@@ -2046,12 +2002,8 @@ img.thumbnail {
 
 
 
+/* --- Category Page Dropdown Button --- */
 
-
-
-
-
-/* Category Page Dropdown Button */
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -2063,7 +2015,8 @@ img.thumbnail {
 
 
 
-/* The container <div> - needed to position the dropdown content */
+/* --- The container <div> - needed to position the dropdown content --- */
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -2074,7 +2027,8 @@ img.thumbnail {
 
 
 
-/* Dropdown Content (Hidden by Default) */
+/* --- Dropdown Content (Hidden by Default) --- */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -2087,7 +2041,8 @@ img.thumbnail {
 
 
 
-/* Links inside the dropdown */
+/* --- Links inside the dropdown --- */
+
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -2098,13 +2053,15 @@ img.thumbnail {
 
 
 
-/* Change color of dropdown links on hover */
+/* --- Change color of dropdown links on hover --- */
+
 .dropdown-content a:hover {background-color: #ddd}
 
 
 
 
-/* Show the dropdown menu on hover */
+/* --- Show the dropdown menu on hover --- */
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -2112,7 +2069,8 @@ img.thumbnail {
 
 
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+/* --- Change the background color of the dropdown button when the dropdown content is shown --- */
+
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
@@ -2151,8 +2109,6 @@ img.thumbnail {
   background-color: lightgray;
   padding: 20px;
   margin: 10px;
-  /* margin-top: 140px; */
-  /* margin-bottom: 60px; */
   width: 30%;
 }
 
@@ -2216,43 +2172,26 @@ img.thumbnail {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .left-half {
     float: left;
     width: 50%;
     padding: 10px;
 
 }
+
+
+
+
 .right-half {
   width: 50%;
   padding: 10px;
-
 }
 
-/* Clear floats after the columns */
+
+
+
+/* --- Clear floats after the columns --- */
+
 .row:after {
     content: "";
     display: table;
@@ -2262,9 +2201,9 @@ img.thumbnail {
 
 
 
-/* Checkout */
+/* --- Checkout --- */
 
-/* Shipping Address (Checkout1) */
+/* --- Shipping Address (Checkout1) --- */
 
 .checkout-header-image {
   padding-bottom: 50px;
@@ -2291,7 +2230,8 @@ img.thumbnail {
 
 
 
-/* Shipping Options (Checkout2) */
+
+/* --- Shipping Options (Checkout2) --- */
 
 legend {
   background-color: lightgray;
@@ -2301,9 +2241,13 @@ legend {
 }
 
 
+
+
 .output {
     font: 1rem 'Raleway', sans-serif;
 }
+
+
 
 
 input {
@@ -2311,10 +2255,14 @@ input {
 }
 
 
+
+
 .shipping-options {
   display: flex;
   justify-content: center;
 }
+
+
 
 
 .shipping-logo {
@@ -2325,9 +2273,14 @@ input {
 }
 
 
+
+
 .shipping-logo h5 {
   align-items: baseline;
 }
+
+
+
 
 .preview-order-button {
   display: flex;
@@ -2338,11 +2291,13 @@ input {
 
 
 
-/* Billing Information (Checkout3) */
+/* --- Billing Information (Checkout3) --- */
 
 .billing-information {
   margin: 0 auto;
 }
+
+
 
 
 .order-summary-table {
@@ -2354,9 +2309,13 @@ input {
 }
 
 
+
+
 .order-confirmation-button button {
   margin-left: 60px;
 }
+
+
 
 
 .terms-and-conditions-checkbox {
@@ -2367,7 +2326,7 @@ input {
 
 
 
-/* Order Complete (Checkout4) */
+/* --- Order Complete (Checkout4) --- */
 
 .order-complete-table {
   margin: 60px;
@@ -2377,7 +2336,8 @@ input {
 
 
 
-/* View Cart */
+
+/* --- View Cart --- */
 
 .shopping-cart-buttons {
   display: flex;
@@ -2385,9 +2345,14 @@ input {
   margin-top: 60px;
 }
 
+
+
+
 .shopping-cart-buttons button {
   margin: 20px;
 }
+
+
 
 
 .coupon-code-box {
@@ -2398,12 +2363,12 @@ input {
 
 
 
-/* Category.js */
+
+/* --- Category.js --- */
 
 .individual-category-name {
-
 }
 
-#category-image {
 
+#category-image {
 }
