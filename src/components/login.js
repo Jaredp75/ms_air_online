@@ -6,7 +6,7 @@ import AboutLinks from './footer-links/about-links.js';
 import * as Utilities from './utilities.js';
 
 
-	
+
 export default class Login extends React.Component {
   constructor() {
     super();
@@ -44,7 +44,7 @@ export default class Login extends React.Component {
   login(){
   	var url = Utilities.getApiURL('account.php', '?do=login');
     fetch(url, {
-			method: 'POST', 
+			method: 'POST',
 			credentials: 'include',
 			headers: {"Content-Type": "application/x-www-form-urlencoded"},
 			body: "user="+this.state.user+"&pwd="+this.state.pwd
@@ -64,7 +64,7 @@ export default class Login extends React.Component {
 		}
 	  } else{
 		  alert("Error: "+data.error.message)
-	  }	 
+	  }
   }
   render(){
 
@@ -89,12 +89,12 @@ export default class Login extends React.Component {
                     </div>
                   </div>
 
-<<<<<<< HEAD
+
                   <a href="/" className="btn btn-primary" role="button"><h4>Login</h4></a>
-                </form>
-=======
+                {/* </form> */}
+
                   <button type="submit" className="btn btn-primary"  onClick={(e) => this.login()}>Login</button>
->>>>>>> fe3e1c9bbb63ff3d2df80cb3cab6ca26ceb60473
+
 
 
 
@@ -109,7 +109,7 @@ export default class Login extends React.Component {
                 <h4>Create a free MS Air account to get the benefits of a personalized shopping experience. With a free MS Air account, you will be able to conveniently place orders, make shopping lists, save your shopping cart, check the status of your recent orders and much more.</h4>
                 <br />
                 <br />
-                
+
                 <a href="/register" className="btn btn-primary" role="button"><h4>Create a New Account</h4></a>
               </div>
 
