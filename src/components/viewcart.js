@@ -165,8 +165,8 @@ export default class ViewCart extends React.Component {
           </div>
 
             <div className="shopping-cart-buttons">
-              <button type="button" className="btn btn-primary" onClick={(e) => this.deleteItems()}>Empty Cart</button>
-                <a href="/checkout1"><button type="button" className="btn btn-primary">Checkout</button></a>
+              <button type="button" className="btn btn-primary" onClick={(e) => this.deleteItems()}><h4>Empty Cart</h4></button>
+                <a href="/checkout1"><button type="button" className="btn btn-primary"><h4>Checkout</h4></button></a>
             </div>
 
 
@@ -178,7 +178,7 @@ export default class ViewCart extends React.Component {
                   </div>
 
 				  <div id="add-to-cart">
-					 <button type="submit" className="btn btn-primary" onClick={(e) => this.setCoupon(this.state.coupon, e)}>Apply</button>
+					 <button type="submit" className="btn btn-primary" onClick={(e) => this.setCoupon(this.state.coupon, e)}><h4>Apply</h4></button>
 				  </div>
 				   {this.state.error}
                 </div>

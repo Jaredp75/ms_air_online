@@ -171,7 +171,7 @@ export default class Register extends React.Component {
                 </div>
               </div>
 
-<div className="form-row">
+              <div className="form-row">
                 <div className="form-group col-md-4">
                   <label className="inputState"><strong>* State</strong></label>
                   <select name="state" type="text" onChange={this.handleChange.bind(this)} id="inputState" className="form-control">
@@ -180,7 +180,7 @@ export default class Register extends React.Component {
                 </div>
               </div>
 
-<div className="form-row">
+              <div className="form-row">
                 <div className="form-group col-md-2">
                   <label className="inputZip"><strong>* Zip</strong></label>
                   <input name="zip" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputZip" placeholder="Zip"/>
@@ -195,10 +195,10 @@ export default class Register extends React.Component {
 
 
             <div className="register-submit-button">
-              <button type="submit" className="btn btn-primary" onClick={(e) => this.register()}>Submit</button>
+              <button type="submit" className="btn btn-primary" onClick={(e) => this.register()}><h4>Submit</h4></button>
             </div>
-            </div>
-            </form>
+          </div>
+        </form>
 
 
 

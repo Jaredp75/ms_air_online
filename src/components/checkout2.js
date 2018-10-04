@@ -25,32 +25,32 @@ class Checkout2 extends Component {
 
             <div>
               <input type="radio" id="option1" name="option" />
-              <label className="option1">UPS Ground & Handling- 29.72</label>
+              <label className="option1">UPS Ground & Handling- $29.72</label>
             </div>
 
             <div>
               <input type="radio" id="option2" name="option" />
-              <label className="option2">UPS Three-Day Select & Handling- 75.33</label>
+              <label className="option2">UPS Three-Day Select & Handling- $75.33</label>
             </div>
 
             <div>
               <input type="radio" id="option3" name="option" />
-              <label className="option3">UPS Second Day Air & Handling- 105.55</label>
+              <label className="option3">UPS Second Day Air & Handling- $105.55</label>
             </div>
 
             <div>
-              <input type="radio" id="option3" name="option" />
-              <label className="option3">UPS Next Day Air Saver & Handling- 269.55</label>
+              <input type="radio" id="option4" name="option" />
+              <label className="option4">UPS Next Day Air Saver & Handling- $269.55</label>
             </div>
 
             <div>
-              <input type="radio" id="option3" name="option" />
-              <label className="option3">UPS Next Day Air Early A.M. & Handling- 314.16</label>
+              <input type="radio" id="option5" name="option" />
+              <label className="option5">UPS Next Day Air Early A.M. & Handling- $314.16</label>
             </div>
 
             <div>
-              <input type="radio" id="option3" name="option" />
-              <label className="option3">UPS Next Day Air & Handling- 276.90</label>
+              <input type="radio" id="option6" name="option" />
+              <label className="option6">UPS Next Day Air & Handling- $276.90</label>
             </div>
 
           </fieldset>
@@ -61,9 +61,9 @@ class Checkout2 extends Component {
         </form>
 
         <div className="preview-order-button">
-          <div className="form-group col-md-6" id="preview-order">
-            <a href="/checkout3"><button type="submit" className="btn btn-primary">Preview Order</button></a>
-          </div>
+
+            <a href="/checkout3"><button type="submit" className="btn btn-primary"><h4>Preview Order</h4></button></a>
+
         </div>
 
 
