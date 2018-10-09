@@ -21,6 +21,9 @@ import ContactUs from '../components/contact_us';
 import ViewCart from '../components/viewcart';
 import Category from '../components/category';
 import Search from '../components/search';
+import Account from '../components/account';
+import Forgot from '../components/forgot';
+import Reset from '../components/reset';
 import * as Utilities from './utilities.js';
 
 
@@ -218,6 +221,9 @@ class App extends Component {
             <Route path="/viewcart" component={ViewCart}/>
             <Route path="/category" component={Category}/>
 			<Route path="/search" component={Search}/>
+			<Route path="/account" component={Account}/>
+			<Route path="/forgot" component={Forgot}/>
+			<Route path="/reset" component={Reset}/>
           </Switch>
         </Baselayout>
       </BrowserRouter>
