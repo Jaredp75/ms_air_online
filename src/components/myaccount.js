@@ -19,7 +19,7 @@ export default class MyAccount extends React.Component {
                 <h1>Account Settings</h1>
               </div>
               <div className="account-settings-para">
-                <p><strong>Account Settings</strong>:</p>
+                <p><strong><a href='account'>Account Settings</a></strong>:</p>
 
                   <p><i className="fa fa-check"></i>  View or modify your billing information</p>
                   <p><i className="fa fa-check"></i>  Update your email address</p>
@@ -27,7 +27,7 @@ export default class MyAccount extends React.Component {
                   <br />
                   <br />
                 <p><strong>Login Assistance</strong>:</p>
-                  <p>Forgot your username or password?<br /><strong><a href="/register">Retreive your username and reset your password.</a></strong></p>
+                  <p>Forgot your username or password?<br /><strong><a href="/forgot">Retreive your username and reset your password.</a></strong></p>
               </div>
             </div>
 
