@@ -51,7 +51,7 @@ export default class Register extends React.Component {
 		this.setState({phone3: data.account.phone_parts[2]});
 		//this.setState({phone: data.account.});
 
-		
+
 	})
   }
   register(){
@@ -71,10 +71,10 @@ export default class Register extends React.Component {
 					+"&zip="+this.state.zip
 					+"&phone1="+this.state.phone1
 					+"&phone2="+this.state.phone2
-					+"&phone3="+this.state.phone3;	
+					+"&phone3="+this.state.phone3;
 	alert(body);
     fetch(url, {
-			method: 'POST', 
+			method: 'POST',
 			credentials: 'include',
 			headers: {"Content-Type": "application/x-www-form-urlencoded"},
 			body: body
@@ -102,11 +102,11 @@ export default class Register extends React.Component {
 	var states = this.state.states.map((state) =>{
 		if(state === this.state.state)
 			return(<option selected='selected'>{state}</option>);
-		else 
+		else
 			return(<option>{state}</option>);
-		
+
 	});
-  
+
     return(
       <div>
         <div className = "content-area-container">
@@ -115,26 +115,26 @@ export default class Register extends React.Component {
             <p>(* required fields)</p>
           </div>
 
- 
-			  <div className="form-row">
+
+			         <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputUsername"><strong>Username</strong></label>
-                  <input name='user' readonly type="text" className="form-control" id="inputUsername" value={this.state.user} />
+                  <input name='user' readonly type="text" className="form-control" id="inputUsername" placeholder="Username" value={this.state.user} />
                 </div>
-			 </div>
-			 <div className="form-row">
+			         </div>
+			         <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputPassword4"><strong>* Current Password</strong></label>
                   <input name='cpwd' type="password" onChange={this.handleChange.bind(this)} className="form-control" id="inputPassword4" placeholder="Current Password" />
                 </div>
-			 </div>
-			 <div className="form-row">
+			         </div>
+			         <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputPassword4"><strong>* New Password</strong></label>
                   <input name='pwd' type="password" onChange={this.handleChange.bind(this)} className="form-control" id="inputPassword4" placeholder="New Password" />
                 </div>
               </div>
-			  <div className="form-row">
+			        <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputPassword4"><strong>* Confirm New Password</strong></label>
                   <input name='pwd2' type="password" onChange={this.handleChange.bind(this)} className="form-control" id="inputPassword4" placeholder="Confirm New Password" />
@@ -143,49 +143,46 @@ export default class Register extends React.Component {
               <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputFirstName"><strong>* First Name</strong></label>
-                  <input name='first' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputFirstName" value={this.state.first} />
+                  <input name='first' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputFirstName" placeholder=" First Name" value={this.state.first} />
                 </div>
-			  </div>
-				 <div className="form-row">
-                  <div className="form-group col-md-6">
+			         </div>
+				       <div className="form-row">
+                <div className="form-group col-md-6">
                   <label className="inputLastName"><strong>* Last Name</strong></label>
-                  <input name='last' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputLastName" value={this.state.last} />
+                  <input name='last' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputLastName" placeholder="Last Name" value={this.state.last} />
                 </div>
               </div>
-				 <div className="form-row">
-                  <div className="form-group col-md-6">
+				      <div className="form-row">
+                <div className="form-group col-md-6">
                   <label className="inputCompany"><strong> Company</strong></label>
-                  <input name='company' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputCompany" value={this.state.company} />
+                  <input name='company' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputCompany" placeholder="Company Name" value={this.state.company} />
                 </div>
               </div>
               <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputEmail4"><strong>* Email</strong></label>
-                  <input name='email' type="email" onChange={this.handleChange.bind(this)} className="form-control" id="inputEmail4" value={this.state.email} />
+                  <input name='email' type="email" onChange={this.handleChange.bind(this)} className="form-control" id="inputEmail4" placeholder="Email" value={this.state.email} />
                 </div>
-			  </div>
-			  
+			         </div>
 
-			   <div className="form-row">
-              <div className="form-group">
-                <label className="inputAddress"><strong>* Address</strong></label>
-                <input name='address' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputAddress" value={this.state.address} />
-              </div>
-				</div>
-				 <div className="form-row">
-              <div className="form-group">
-                <label className="inputAddress2"><strong>Address 2</strong></label>
-                <input name="address2" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputAddress2" value={this.state.address2} />
-              </div>
-			  </div>
+			         <div className="form-row">
+                 <div className="form-group col-md-12">
+                   <label className="inputAddress"><strong>* Address</strong></label>
+                    <input name='address' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputAddress" placeholder="1234 Main St" value={this.state.address} />
+                 </div>
+				       </div>
+				       <div className="form-row">
+                 <div className="form-group col-md-12">
+                   <label className="inputAddress2"><strong>Address 2</strong></label>
+                    <input name="address2" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" value={this.state.address2} />
+                </div>
+			         </div>
 
-
-              <div className="form-row">
+               <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputCity"><strong>* City</strong></label>
-                  <input name='city' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputCity" value={this.state.city} />
+                    <input name='city' type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputCity" placeholder="City" value={this.state.city} />
                 </div>
-
 
                 <div className="form-group col-md-4">
                   <label className="inputState"><strong>* State</strong></label>
@@ -196,25 +193,35 @@ export default class Register extends React.Component {
 
                 <div className="form-group col-md-2">
                   <label className="inputZip"><strong>* Zip</strong></label>
-                  <input name="zip" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputZip" value={this.state.zip}/>
-                </div>
-              </div>
-			  
-			   <div className="form-row">
-                <div className="form-group col-md-6">
-                  <label className="inputPhone"><strong>* Phone</strong></label>
-                  <input name="phone1" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone1" value={this.state.phone1}/>
-				  <input name="phone2" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone2" value={this.state.phone2}/>
-                  <input name="phone3" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone3" value={this.state.phone3}/>
+                  <input name="zip" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputZip" placeholder="Zip" value={this.state.zip}/>
                 </div>
               </div>
 
-              <button type="submit" className="btn btn-primary" onClick={(e) => this.register()}>Submit</button>
+			   <div className="form-row">
+                <div className="form-group col-md-1">
+                  <label className="inputPhone"><strong>* Phone</strong></label>
+                    <input name="phone1" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone1" placeholder="123" pattern="[0-9]{3}" value={this.state.phone1}/>
+                </div>
+                <div className="form-group col-md-1">
+                  <label className="inputPhone2">Phone 2</label>
+                    <input name="phone2" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone2" placeholder="456" pattern="[0-9]{3}" value={this.state.phone2} />
+                </div>
+                <div className="form-group col-md-1">
+                  <label className="inputPhone3"><strong>Phone 3</strong></label>
+                    <input name="phone3" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone3" placeholder="7890" pattern="[0-9]{4}" value={this.state.phone3}/>
+                </div>
+              </div>
+
+
+
+
+
+          <div className="account-submit-button">
+            <button type="submit" className="btn btn-primary" onClick={(e) => this.register()}>Submit</button>
           </div>
 
 
-
-
+</div>
             <div className="FooterLinks1">
               <HelpAndCurrency />
             </div>
