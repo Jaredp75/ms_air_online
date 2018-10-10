@@ -77,7 +77,7 @@ export default class Login extends React.Component {
               <div className="returning-customer-header">
                 <h1>Returning Customer</h1>
               </div>
-			  
+
                   <div className="login-form-row">
                     <div className="form-group col-md-12">
                       <label className="inputUserName"><strong>* Username</strong></label>
@@ -93,9 +93,9 @@ export default class Login extends React.Component {
 
 
 
-
-                  <button type="submit" className="btn btn-primary"  onClick={(e) => this.login()}><h4>Login</h4></button>
-
+                  <div className="login-submit-button">
+                    <button type="submit" className="btn btn-primary btn-sm"  onClick={(e) => this.login()}><h4>Login</h4></button>
+                  </div>
 
 
 

@@ -1786,6 +1786,7 @@
   display: inline-grid;
   font-size: 18px;
   float: left;
+  text-align: center;
 }
 
 
@@ -1822,10 +1823,17 @@
 
 .login-form-row {
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 
 .returning-login {
+}
+
+
+
+.login-submit-button {
+  justify-content: center;
 }
 
 
@@ -2015,7 +2023,7 @@ img.thumbnail {
 
 
 .account-submit-button {
-  justify-content: center;
+
 }
 
 
@@ -2432,4 +2440,20 @@ input {
 
 
 #category-image {
+}
+
+
+
+
+/* --- Reset Password Page --- */
+
+.reset-password-button {
+  justify-content: center;
+}
+
+
+
+.reset-form-row {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

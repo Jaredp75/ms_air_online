@@ -115,7 +115,7 @@ export default class Register extends React.Component {
             <p>(* required fields)</p>
           </div>
 
-
+          <form>
 			         <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputUsername"><strong>Username</strong></label>
@@ -197,7 +197,7 @@ export default class Register extends React.Component {
                 </div>
               </div>
 
-			   <div className="form-row">
+			        <div className="form-row">
                 <div className="form-group col-md-1">
                   <label className="inputPhone"><strong>* Phone</strong></label>
                     <input name="phone1" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone1" placeholder="123" pattern="[0-9]{3}" value={this.state.phone1}/>
@@ -211,17 +211,18 @@ export default class Register extends React.Component {
                     <input name="phone3" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone3" placeholder="7890" pattern="[0-9]{4}" value={this.state.phone3}/>
                 </div>
               </div>
+</form>
+
+              </div>
+
+              {/* <div className="form-group"> */}
+                <div className="account-submit-button">
+                  <button type="submit" className="btn btn-primary" onClick={(e) => this.register()}>Submit</button>
+                </div>
+              {/* </div> */}
 
 
 
-
-
-          <div className="account-submit-button">
-            <button type="submit" className="btn btn-primary" onClick={(e) => this.register()}>Submit</button>
-          </div>
-
-
-</div>
             <div className="FooterLinks1">
               <HelpAndCurrency />
             </div>
