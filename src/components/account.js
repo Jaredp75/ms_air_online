@@ -198,15 +198,15 @@ export default class Register extends React.Component {
               </div>
 
 			        <div className="form-row">
-                <div className="form-group col-md-1">
+                <div className="form-group col-md-4">
                   <label className="inputPhone"><strong>* Phone</strong></label>
                     <input name="phone1" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone1" placeholder="123" pattern="[0-9]{3}" value={this.state.phone1}/>
                 </div>
-                <div className="form-group col-md-1">
+                <div className="form-group col-md-4">
                   <label className="inputPhone2">Phone 2</label>
                     <input name="phone2" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone2" placeholder="456" pattern="[0-9]{3}" value={this.state.phone2} />
                 </div>
-                <div className="form-group col-md-1">
+                <div className="form-group col-md-4">
                   <label className="inputPhone3"><strong>Phone 3</strong></label>
                     <input name="phone3" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone3" placeholder="7890" pattern="[0-9]{4}" value={this.state.phone3}/>
                 </div>
