@@ -1786,7 +1786,10 @@
   display: inline-grid;
   font-size: 18px;
   float: left;
+<<<<<<< HEAD
   text-align: center;
+=======
+>>>>>>> edbf64ff242b59a5228a10cac396d73de4a2f238
 }
 
 
@@ -1823,7 +1826,10 @@
 
 .login-form-row {
   padding-top: 20px;
+<<<<<<< HEAD
   padding-bottom: 20px;
+=======
+>>>>>>> edbf64ff242b59a5228a10cac396d73de4a2f238
 }
 
 
@@ -1832,12 +1838,15 @@
 
 
 
+<<<<<<< HEAD
 .login-submit-button {
   justify-content: center;
 }
 
 
 
+=======
+>>>>>>> edbf64ff242b59a5228a10cac396d73de4a2f238
 .new-customer {
   width: 45%;
   color: #2C3E50;
@@ -2009,6 +2018,7 @@ img.thumbnail {
 
 
 
+<<<<<<< HEAD
 .inputPhone2 {
   color: white;
 }
@@ -2028,6 +2038,8 @@ img.thumbnail {
 
 
 
+=======
+>>>>>>> edbf64ff242b59a5228a10cac396d73de4a2f238
 
 /* --- Category Page Dropdown Button --- */
 
@@ -2441,6 +2453,7 @@ input {
 
 #category-image {
 }
+<<<<<<< HEAD
 
 
 
@@ -2468,3 +2481,5 @@ input {
   margin: 0 auto;
   display: inline-block;
 }
+=======
+>>>>>>> edbf64ff242b59a5228a10cac396d73de4a2f238

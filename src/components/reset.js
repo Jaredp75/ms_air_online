@@ -6,7 +6,11 @@ import AboutLinks from './footer-links/about-links.js';
 import * as Utilities from './utilities.js';
 
 
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> edbf64ff242b59a5228a10cac396d73de4a2f238
 export default class Reset extends React.Component {
   constructor() {
     super();
@@ -47,7 +51,11 @@ export default class Reset extends React.Component {
 					+"&new_pwd="+this.state.new_pwd
 					+"&confirm_pwd="+this.state.confirm_pwd
     fetch(url, {
+<<<<<<< HEAD
 			method: 'POST',
+=======
+			method: 'POST', 
+>>>>>>> edbf64ff242b59a5228a10cac396d73de4a2f238
 			credentials: 'include',
 			headers: {"Content-Type": "application/x-www-form-urlencoded"},
 			body: "email="+this.state.email
@@ -66,7 +74,11 @@ export default class Reset extends React.Component {
 					+"&confirm_pwd="+this.state.confirm_pwd;
 	alert(body);
     fetch(url, {
+<<<<<<< HEAD
 			method: 'POST',
+=======
+			method: 'POST', 
+>>>>>>> edbf64ff242b59a5228a10cac396d73de4a2f238
 			credentials: 'include',
 			headers: {"Content-Type": "application/x-www-form-urlencoded"},
 			body: body
@@ -94,6 +106,7 @@ export default class Reset extends React.Component {
               <div className="returning-customer-header">
                 <h1>Reset Your Password</h1>
               </div>
+<<<<<<< HEAD
 
                   <div className="reset-form-row">
                     <div className="form-group col-md-12">
@@ -103,6 +116,16 @@ export default class Reset extends React.Component {
                     <div className="form-group col-md-12">
                       <label className="inputEmail"><strong>* Temporary Password</strong></label>
                       <input type="password" className="form-control" name='current_pwd' placeholder="Temporary Password" value={this.state.current_pwd} onChange={this.handleInputChange}/>
+=======
+                  <div className="form-row">
+                    <div className="form-group col-md-12">
+                      <label className="inputEmail"><strong>* Usernme</strong></label>
+                      <input type="text" className="form-control" name='user' value={this.state.user} onChange={this.handleInputChange}/>
+                    </div>
+                    <div className="form-group col-md-12">
+                      <label className="inputEmail"><strong>* Temporary Password</strong></label>
+                      <input type="password" className="form-control" name='current_pwd' value={this.state.current_pwd} onChange={this.handleInputChange}/>
+>>>>>>> edbf64ff242b59a5228a10cac396d73de4a2f238
                     </div>
                     <div className="form-group col-md-12">
                       <label className="inputEmail"><strong>* New Password</strong></label>
@@ -117,20 +140,29 @@ export default class Reset extends React.Component {
                       <input type="text" className="form-control" name='captcha' placeholder="Code" onChange={this.handleInputChange}/>
                     </div>
                   </div>
+<<<<<<< HEAD
 
 									<div className="reset-password-button">
                   	<button type="submit" className="btn btn-primary btn-sm"  onClick={(e) => this.captcha()}><h4>Submit</h4></button>
 									</div>
+=======
+					
+                  <button type="submit" className="btn btn-primary"  onClick={(e) => this.captcha()}>Update</button>
+
+>>>>>>> edbf64ff242b59a5228a10cac396d73de4a2f238
 
 
 
             </div>
           </div>
 
+<<<<<<< HEAD
           <div className="company-logo">
             <img src="https://jaredpattersonblog.files.wordpress.com/2018/10/msair.png" alt="logo"></img>
           </div>
 
+=======
+>>>>>>> edbf64ff242b59a5228a10cac396d73de4a2f238
 
 
           <div className="FooterLinks1">
