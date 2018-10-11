@@ -52,7 +52,7 @@ class Checkout3 extends Component {
                     <option value="12">December</option>
                   </select>
 
-                  <select>
+                  <select className="expyYear">
                     <option value="16"> 2016</option>
                     <option value="17"> 2017</option>
                     <option value="18"> 2018</option>
@@ -69,12 +69,12 @@ class Checkout3 extends Component {
 
                 <div className="form-group col-md-6">
                   <label className="inputFirstName"><strong>* First Name</strong></label>
-                  <input type="text" className="form-control" id="inputFirstName" placeholder="First name" />
+                  <input type="text" className="form-control" id="inputFirstName" placeholder="First Name" />
                 </div>
 
                 <div className="form-group col-md-6">
                   <label className="inputLastName"><strong>* Last Name</strong></label>
-                  <input type="text" className="form-control" id="inputLastName" placeholder="Last name" />
+                  <input type="text" className="form-control" id="inputLastName" placeholder="Last Name" />
                 </div>
 
                 <div className="form-group col-md-6">
@@ -83,13 +83,13 @@ class Checkout3 extends Component {
                 </div>
 
                 <div className="form-group col-md-6">
-                  <label className="inputAddress2"><strong>* Address 2</strong></label>
+                  <label className="inputAddress2"><strong>Address 2</strong></label>
                   <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
                 </div>
 
                 <div className="form-group col-md-6">
                   <label className="inputCity"><strong>* City</strong></label>
-                  <input type="text" className="form-control" id="inputCity" placeholder="New York" />
+                  <input type="text" className="form-control" id="inputCity" placeholder="City" />
                 </div>
 
                 <div className="form-group col-md-4">
@@ -156,12 +156,23 @@ class Checkout3 extends Component {
 
                 <div className="form-group col-md-2">
                   <label className="inputZip"><strong>* Zip</strong></label>
-                  <input type="text" className="form-control" id="inputZip" placeholder="10001" />
+                  <input type="text" className="form-control" id="inputZip" placeholder="Zip" />
                 </div>
 
-                <div className="form-group col-md-2">
-                  <label className="inputPhone"><strong>* Phone</strong></label>
-                  <input type="text" className="form-control" id="inputPhone" placeholder="123-456-7890" />
+
+                <div className="form-row">
+                  <div className="form-group col-md-4">
+                    <label className="inputPhone"><strong>* Phone</strong></label>
+                      <input name="phone1" type="text" className="form-control" id="inputPhone1" placeholder="123" pattern="[0-9]{3}" />
+                  </div>
+                  <div className="form-group col-md-4">
+                    <label className="inputPhone2">Phone 2</label>
+                      <input name="phone2" type="text" className="form-control" id="inputPhone2" placeholder="456" pattern="[0-9]{3}" />
+                  </div>
+                  <div className="form-group col-md-4">
+                    <label className="inputPhone3"><strong>Phone 3</strong></label>
+                      <input name="phone3" type="text" className="form-control" id="inputPhone3" placeholder="7890" pattern="[0-9]{4}" />
+                  </div>
                 </div>
 
 
@@ -179,12 +190,12 @@ class Checkout3 extends Component {
 
                 <div className="form-group col-md-6">
                   <label className="inputFirstName"><strong>* First Name</strong></label>
-                  <input type="text" className="form-control" id="inputFirstName" placeholder="First name" />
+                  <input type="text" className="form-control" id="inputFirstName" placeholder="First Name" />
                 </div>
 
                 <div className="form-group col-md-6">
                   <label className="inputLastName"><strong>* Last Name</strong></label>
-                  <input type="text" className="form-control" id="inputLastName" placeholder="Last name" />
+                  <input type="text" className="form-control" id="inputLastName" placeholder="Last Name" />
                 </div>
 
                 <div className="form-group col-md-6">
@@ -193,14 +204,14 @@ class Checkout3 extends Component {
                 </div>
 
                 <div className="form-group col-md-6">
-                  <label className="inputAddress2"><strong>* Address 2</strong></label>
+                  <label className="inputAddress2"><strong>Address 2</strong></label>
                   <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
                 </div>
 
                 <div className="form-row">
                   <div className="form-group col-md-4">
                     <label className="inputCity"><strong>* City</strong></label>
-                    <input type="text" className="form-control" id="inputCity" placeholder="New York" />
+                    <input type="text" className="form-control" id="inputCity" placeholder="City" />
                   </div>
 
                 <div className="form-group col-md-4">
@@ -265,14 +276,24 @@ class Checkout3 extends Component {
                   </select>
                 </div>
 
-                <div className="form-group col-md-2">
+                <div className="form-group col-md-4">
                   <label className="inputZip"><strong>* Zip</strong></label>
-                  <input type="text" className="form-control" id="inputZip" placeholder="10001" />
+                  <input type="text" className="form-control" id="inputZip" placeholder="Zip" />
                 </div>
 
-                <div className="form-group col-md-2">
-                  <label className="inputPhone"><strong>* Phone</strong></label>
-                  <input type="text" className="form-control" id="inputPhone" placeholder="123-456-7890" />
+                <div className="form-row">
+                  <div className="form-group col-md-4">
+                    <label className="inputPhone"><strong>* Phone</strong></label>
+                      <input name="phone1" type="text" className="form-control" id="inputPhone1" placeholder="123" pattern="[0-9]{3}" />
+                  </div>
+                  <div className="form-group col-md-4">
+                    <label className="inputPhone2">Phone 2</label>
+                      <input name="phone2" type="text" className="form-control" id="inputPhone2" placeholder="456" pattern="[0-9]{3}" />
+                  </div>
+                  <div className="form-group col-md-4">
+                    <label className="inputPhone3"><strong>Phone 3</strong></label>
+                      <input name="phone3" type="text" className="form-control" id="inputPhone3" placeholder="7890" pattern="[0-9]{4}" />
+                  </div>
                 </div>
               </div>
 
@@ -320,7 +341,7 @@ class Checkout3 extends Component {
                 <div className="form-check">
                   <input className="form-check-input" type="checkbox" id="terms-checkbox" />
                     <label className="form-check-label">
-                      I agree to the Order Terms and Conditions
+                      <p>I agree to the Order Terms and Conditions</p>
                     </label>
                   </div>
                 </div>

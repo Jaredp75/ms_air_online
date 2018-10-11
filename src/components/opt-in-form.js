@@ -9,16 +9,36 @@ import AboutLinks from './footer-links/about-links.js';
 class OptInForm extends Component {
   render() {
     return (
-      <div className="OptInForm">
-        <p>
-          Get the latest products and updates delivered right to your inbox.
-        </p>
-        <form>
-          <label>
-          <input type="text" placeholder="Enter your email" />
-          </label>
-          <input type="submit" value="Subscribe" />
-        </form>
+
+      <div>
+        <div className = 'content-area-container'>
+          <div className="header-text">
+          <div className="OptInForm">
+            <div className="returning-customer-header">
+              <h2>Subscribe to our Newsletter</h2>
+            </div>
+            <h4>Get the latest products and updates delivered right to your inbox.</h4>
+
+        <div className="reset-form-group col-md-12">
+
+	         <div className="optin-input-group">
+             <input type="email" className="form-control" placeholder="Enter your email" />
+          </div>
+        </div>
+
+
+
+
+
+        </div>
+
+        <div className="optin-password-button">
+          <button type="submit" className="btn btn-primary btn-sm" value="Subscribe"><h4>Subscribe</h4></button>
+        </div>
+
+        {/* <div className="optin-company-logo">
+          <img src="https://jaredpattersonblog.files.wordpress.com/2018/10/msair.png" alt="logo"></img>
+        </div> */}
 
 
         <div className="FooterLinks1">
@@ -27,6 +47,11 @@ class OptInForm extends Component {
         </div>
         <div className="FooterLinks2">
           <AboutLinks />
+        </div>
+
+
+
+      </div>
         </div>
           <div className="about-footer">
             <div className="terms">
@@ -37,7 +62,11 @@ class OptInForm extends Component {
           </div>
           </div>
 
-      </div>
+
+
+  </div>
+
+
     );
   }
 }

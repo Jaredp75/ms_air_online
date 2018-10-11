@@ -6,7 +6,7 @@ import AboutLinks from './footer-links/about-links.js';
 import * as Utilities from './utilities.js';
 
 
-	
+
 export default class Login extends React.Component {
   constructor() {
     super();
@@ -41,7 +41,7 @@ export default class Login extends React.Component {
   forgot(){
   	var url = Utilities.getApiURL('account.php', '?do=forgot');
     fetch(url, {
-			method: 'POST', 
+			method: 'POST',
 			credentials: 'include',
 			headers: {"Content-Type": "application/x-www-form-urlencoded"},
 			body: "email="+this.state.email
@@ -69,23 +69,28 @@ export default class Login extends React.Component {
               <div className="returning-customer-header">
                 <h1>Returning Customer</h1>
               </div>
-                  <div className="form-row">
+                  <div className="reset-form-row">
                     <div className="form-group col-md-12">
                       <label className="inputEmail"><strong>* Email Address</strong></label>
                       <input type="text" className="form-control" name='email' placeholder="Email Address" onChange={this.handleInputChange}/>
                     </div>
                     <div className="form-group col-md-12">
                       <label className="inputCaptcha"><strong>* Code</strong></label>
-                      <input type="text" className="form-control" name='email' onChange={this.handleInputChange}/>
+                      <input type="text" className="form-control" name='email' placeholder="Code" onChange={this.handleInputChange}/>
                     </div>
                   </div>
-					
-                  <button type="submit" className="btn btn-primary"  onClick={(e) => this.forgot()}>Reset Password</button>
 
+									<div className="reset-password-button">
+                  	<button type="submit" className="btn btn-primary btn-sm" onClick={(e) => this.forgot()}><h4>Reset Password</h4></button>
+									</div>
 
 
 
             </div>
+          </div>
+
+					<div className="company-logo">
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/10/msair.png" alt="logo"></img>
           </div>
 
 

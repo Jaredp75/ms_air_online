@@ -1696,6 +1696,7 @@
   color: white;
   text-align: center;
   margin-bottom: 20px;
+  
 }
 
 
@@ -1787,7 +1788,7 @@
   font-size: 18px;
   float: left;
   text-align: center;
-
+  padding-left: 40px;
 }
 
 
@@ -2370,14 +2371,23 @@ input {
 
 .billing-information {
   margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 140px;
+}
+
+
+
+.shipping-information {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 140px;
 }
 
 
 
 
 .order-summary-table {
-  margin: 60px;
-  margin-top: 350px;
+  margin-top: 440px;
   margin-bottom: 80px;
   align-content: center;
   cursor: pointer;
@@ -2387,17 +2397,29 @@ input {
 
 
 .order-confirmation-button button {
-  margin-left: 60px;
+  margin-left: 20px;
 }
 
 
 
 
 .terms-and-conditions-checkbox {
-  margin-left: 60px;
+  margin-left: 20px;
   margin-bottom: 80px;
 }
 
+
+
+
+.form-check-label p {
+  padding-left: 10px;
+}
+
+
+
+.expyYear {
+  margin-left: 15px;
+}
 
 
 
@@ -2474,4 +2496,53 @@ input {
   float: none;
   margin: 0 auto;
   display: inline-block;
+}
+
+
+
+
+/* --- Opt-In Form Page --- */
+
+.optInBox {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+
+
+
+.optin-input-group {
+  padding-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+
+
+.optin-password-button {
+  padding: 20px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+
+
+
+/* .optin-form-control {
+  justify-content: center;
+} */
+
+
+.OptInForm {
+  padding-bottom: 40px;
+  /* text-align: center; */
+}
+
+.OptInForm h4 {
+  text-align: center;
+  padding-top: 20px;
+
+
 }
