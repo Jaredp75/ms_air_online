@@ -2444,7 +2444,6 @@ input {
 
 
 
-
 /* --- Reset Password Page --- */
 
 .reset-password-button {
@@ -2456,4 +2455,16 @@ input {
 .reset-form-row {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+
+
+.company-logo img {
+  width: 45%;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  padding-left: 100px;
+  float: none;
+  margin: 0 auto;
+  display: inline-block;
 }

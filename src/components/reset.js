@@ -127,6 +127,10 @@ export default class Reset extends React.Component {
             </div>
           </div>
 
+          <div className="company-logo">
+            <img src="https://jaredpattersonblog.files.wordpress.com/2018/10/msair.png" alt="logo"></img>
+          </div>
+
 
 
           <div className="FooterLinks1">
