@@ -119,7 +119,7 @@ export default class Reset extends React.Component {
                   </div>
 
 									<div className="reset-password-button">
-                  	<button type="submit" className="btn btn-primary btn-sm"  onClick={(e) => this.captcha()}><h4>Submit</h4></button>
+                  	<button type="submit" className="btn btn-primary btn-sm"  onClick={(e) => this.captcha()}><h4>Update</h4></button>
 									</div>
 
 
