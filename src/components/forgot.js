@@ -13,6 +13,7 @@ export default class Login extends React.Component {
     this.state = {
       email: null,
 	  captcha: null,
+	  code: null,
 	  pageReturn: null,
     };
 	this.handleInputChange = this.handleInputChange.bind(this);
@@ -26,7 +27,7 @@ export default class Login extends React.Component {
     .then(results => {
       return results.json();
     }).then((data) => {
-		/* TODO get captcha code*/
+		this.setCaptcha(data);
     })
   }
   handleInputChange(event) {
@@ -58,6 +59,37 @@ export default class Login extends React.Component {
 	  else
 		  alert("Error: "+data.error.message);
   }
+captcha(){
+  	var url = Utilities.getApiURL('captcha.php', '?do=check');
+	var body = "code="+this.state.code
+    fetch(url, {
+			method: 'POST', 
+			credentials: 'include',
+			headers: {"Content-Type": "application/x-www-form-urlencoded"},
+			body: body
+		})
+    .then(results => {
+      return results.json();
+    }).then((data) => {
+        this.captchaResult(data);
+    })
+  }
+  setCaptcha(data) {
+	let captcha = data.captcha.map((c) => {
+		var rand = Math.random();
+		return (<img src={c.image}/>)
+	});
+	this.setState({captcha: captcha});	
+  }
+  captchaResult(data){
+	  if(data.captcha.status === true)
+		  this.forgot()
+	  else {
+		  alert("Error: Verification code did not match.  Please check the code and try again.")
+		  this.setCaptcha(data);
+	  }
+	  
+  }
   render(){
 
     return(
@@ -67,22 +99,25 @@ export default class Login extends React.Component {
           <div className="header-text">
             <div className="returning-customer">
               <div className="returning-customer-header">
-                <h1>Returning Customer</h1>
+                <h1>Forgot Password</h1>
               </div>
                   <div className="reset-form-row">
                     <div className="form-group col-md-12">
                       <label className="inputEmail"><strong>* Email Address</strong></label>
                       <input type="text" className="form-control" name='email' placeholder="Email Address" onChange={this.handleInputChange}/>
                     </div>
+					<div className="form-group col-md-12">
+						<div>{this.state.captcha}</div>
+					</div>
                     <div className="form-group col-md-12">
                       <label className="inputCaptcha"><strong>* Code</strong></label>
                       <input type="text" className="form-control" name='email' placeholder="Code" onChange={this.handleInputChange}/>
                     </div>
                   </div>
 
-									<div className="reset-password-button">
-                  	<button type="submit" className="btn btn-primary btn-sm" onClick={(e) => this.forgot()}><h4>Reset Password</h4></button>
-									</div>
+				  <div className="reset-password-button">
+                  	<button type="submit" className="btn btn-primary btn-sm" onClick={(e) => this.captcha()}><h4>Reset Password</h4></button>
+				  </div>
 
 
 
@@ -90,7 +125,7 @@ export default class Login extends React.Component {
           </div>
 
 					<div className="company-logo">
-            <img src="https://jaredpattersonblog.files.wordpress.com/2018/10/msair.png" alt="logo"></img>
+            <img src="https://www.msaironline.com/images/msair.png" alt="logo"></img>
           </div>
 
 

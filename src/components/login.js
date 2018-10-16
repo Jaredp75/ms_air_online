@@ -105,7 +105,9 @@ export default class Login extends React.Component {
 
                   {/* <button type="submit" className="btn btn-primary"  onClick={(e) => this.login()}><h4>Login</h4></button> */}
 
-
+			<div>
+				<a href='forgot'>Forgot Password</a>
+			</div>
 
 
 
