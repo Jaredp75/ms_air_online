@@ -1,10 +1,76 @@
-import React, { Component } from 'react';
+import React from "react";
 import {Link} from 'react-router-dom';
+// import FooterLinks from './footer-links/footer-links.js';
 import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
+import * as Utilities from './utilities.js';
 
-class Checkout3 extends Component {
-
+export default class Checkout3 extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+	  first: "",
+      last: "",
+	  company: "",
+      email: "",
+      address: "",
+      address2: "",
+      city: "",
+      state: "AL",
+      zipcode: "",
+      shipping: null,
+	  states: ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY']
+    };
+	
+  }
+  componentDidMount() {
+		this.getAccount();
+		this.getShipping();
+		this.getCart();
+  }
+  getAccount(){
+	var url = Utilities.getApiURL('account.php', '');
+        fetch(url, {
+			method: 'GET', 
+			credentials: 'include',
+			headers: {"Content-Type": "application/x-www-form-urlencoded"}
+		})
+    .then(results => {
+      return results.json();
+    }).then(data => {
+		/* TODO */
+	})	  
+  }
+  getShipping(){
+	  var url = Utilities.getApiURL('checkout.php', '');
+        fetch(url, {
+			method: 'GET', 
+			credentials: 'include',
+			headers: {"Content-Type": "application/x-www-form-urlencoded"}
+		})
+    .then(results => {
+      return results.json();
+    }).then(data => {
+		/* TODO */
+	})	
+  }
+  getCart(){
+	  	var url = Utilities.getApiURL('cart.php', '');
+        fetch(url, {
+			method: 'GET', 
+			credentials: 'include',
+			headers: {"Content-Type": "application/x-www-form-urlencoded"}
+		})
+    .then(results => {
+      return results.json();
+    }).then(data => {
+		/* TODO */
+	})	
+  }
+  setBilling(){
+  }
+  completeOrder(){
+  }
   render(){
 
     return(
@@ -19,7 +85,6 @@ class Checkout3 extends Component {
             <h1>Billing Information</h1>
           </div>
 
-            <form method="POST" className="billing-information" action="checkout3.php">
               <fieldset>
                 <div className="form-group col-md-6">
                   <label className="CardType"><strong>* Card Type</strong>    <i className="fab fa-cc-mastercard" />  |  <i className="fab fa-cc-visa" /></label>
@@ -178,14 +243,12 @@ class Checkout3 extends Component {
 
 
               </fieldset>
-            </form>
 
 
             <div className="replacement_parts_header">
               <h1>Shipping Information</h1>
             </div>
 
-            <form method="POST" className="shipping-information" action="checkout3.php">
               <fieldset>
 
                 <div className="form-group col-md-6">
@@ -363,8 +426,6 @@ class Checkout3 extends Component {
 
 
 
-            </form>
-
 
 
 
@@ -400,5 +461,3 @@ class Checkout3 extends Component {
     )
   }
 }
-
-export default Checkout3;

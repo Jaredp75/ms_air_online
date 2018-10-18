@@ -1,10 +1,77 @@
-import React, { Component } from 'react';
+import React from "react";
 import {Link} from 'react-router-dom';
+// import FooterLinks from './footer-links/footer-links.js';
 import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
+import * as Utilities from './utilities.js';
 
-class Checkout2 extends Component {
+export default class Checkout2 extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+	  first: "",
+	  shipping_options: null,
+	  code: null,
+	  freight: null,
+    };
+	
+  }
+  next(){
+ 	var url = Utilities.getApiURL('checkout.php', '?do=setShippingCode&code='+this.state.code);
+    fetch(url, {
+			method: 'GET', 
+			credentials: 'include',
+			headers: {"Content-Type": "application/x-www-form-urlencoded"},
+		})
+    .then(results => {
+      return results.json();
+    }).then((data) => {
+        this.confirmUpdate(data);
+    })
+  }
+  confirmUpdate(data){
+	  if(data.selected_shipping_method.code === this.state.code)
+		  window.location = 'checkout3';
+	  else
+		  alert("Error: There was an error processing your request.  Please try again.");
+		  
+  }
+  handleChange(e) {
+    let change = {}
+    change[e.target.name] = e.target.value
+    this.setState(change)
+  }
+  componentDidMount() {
+	var url = Utilities.getApiURL('checkout.php', '?do=getShippingOptions');
+        fetch(url, {
+			method: 'GET', 
+			credentials: 'include',
+			headers: {"Content-Type": "application/x-www-form-urlencoded"}
+		})
+    .then(results => {
+      return results.json();
+    }).then(data => {
+		/*TODO - Handle shipping errore */
+		if(data.shipping_options){ 	
+			let shipping_options = data.shipping_options.ups.map((pic) => {
+				return(
+			<div>
+              <input type="radio" id="option" name="code" value={pic.code}  onChange={this.handleChange.bind(this)}/>
+              <label className="option1" >{pic.name}: ${pic.amt}</label>
+            </div>
+			)
+			})
+			this.setState({shipping_options: shipping_options});
+		}else{
+			alert("Error: ");
+		}
+		if(data.shipping_options.freight.has_freight === true) {
+			this.setState({freight: "<div>Freight Message</div>"});
+		}
+			
+	})
 
+  }
   render(){
 
     return(
@@ -19,50 +86,15 @@ class Checkout2 extends Component {
             <h1>Shipping Options</h1>
           </div>
 
-        <form method="POST" className="shipping-options" action="checkout3.php">
           <fieldset>
             <legend><strong>Select a shipping option</strong></legend>
-
-            <div>
-              <input type="radio" id="option1" name="option" />
-              <label className="option1">UPS Ground & Handling- $29.72</label>
-            </div>
-
-            <div>
-              <input type="radio" id="option2" name="option" />
-              <label className="option2">UPS Three-Day Select & Handling- $75.33</label>
-            </div>
-
-            <div>
-              <input type="radio" id="option3" name="option" />
-              <label className="option3">UPS Second Day Air & Handling- $105.55</label>
-            </div>
-
-            <div>
-              <input type="radio" id="option4" name="option" />
-              <label className="option4">UPS Next Day Air Saver & Handling- $269.55</label>
-            </div>
-
-            <div>
-              <input type="radio" id="option5" name="option" />
-              <label className="option5">UPS Next Day Air Early A.M. & Handling- $314.16</label>
-            </div>
-
-            <div>
-              <input type="radio" id="option6" name="option" />
-              <label className="option6">UPS Next Day Air & Handling- $276.90</label>
-            </div>
-
+			{this.state.shipping_options}
           </fieldset>
-
-
-
-
-        </form>
-
+		  
+		  {this.state.freight}
         <div className="preview-order-button">
 
-            <a href="/checkout3"><button type="submit" className="btn btn-primary"><h4>Preview Order</h4></button></a>
+            <button type="submit" className="btn btn-primary" onClick={(e) => this.next()}><h4>Preview Order</h4></button>
 
         </div>
 
@@ -122,5 +154,3 @@ class Checkout2 extends Component {
     )
   }
 }
-
-export default Checkout2;
