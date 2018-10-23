@@ -51,8 +51,11 @@ export default class Checkout2 extends React.Component {
     .then(results => {
       return results.json();
     }).then(data => {
-		/*TODO - Handle shipping errore */
-		if(data.shipping_options){ 	
+		if(data.shipping_options.error) {
+			var shipping_options = (<div dangerouslySetInnerHTML={{__html: data.shipping_options.error.message}}/>);
+			this.setState({shipping_options: data.shipping_options.error.message});		
+		}	
+		else if(data.shipping_options){ 	
 			let shipping_options = data.shipping_options.ups.map((pic) => {
 				return(
 			<div>
@@ -62,11 +65,10 @@ export default class Checkout2 extends React.Component {
 			)
 			})
 			this.setState({shipping_options: shipping_options});
-		}else{
-			alert("Error: ");
 		}
 		if(data.shipping_options.freight.has_freight === true) {
-			this.setState({freight: "<div>Freight Message</div>"});
+			var freight = (<div dangerouslySetInnerHTML={{__html: data.shipping_options.freight.message}}/>);
+			this.setState({freight: freight});
 		}
 			
 	})

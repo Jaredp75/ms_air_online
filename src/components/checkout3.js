@@ -24,22 +24,8 @@ export default class Checkout3 extends React.Component {
 	
   }
   componentDidMount() {
-		this.getAccount();
 		this.getShipping();
 		this.getCart();
-  }
-  getAccount(){
-	var url = Utilities.getApiURL('account.php', '');
-        fetch(url, {
-			method: 'GET', 
-			credentials: 'include',
-			headers: {"Content-Type": "application/x-www-form-urlencoded"}
-		})
-    .then(results => {
-      return results.json();
-    }).then(data => {
-		/* TODO */
-	})	  
   }
   getShipping(){
 	  var url = Utilities.getApiURL('checkout.php', '');
