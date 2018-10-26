@@ -84,7 +84,7 @@ export default class ViewCart extends React.Component {
                   <td><input type='text' name='qty' size='4' maxlength='2' defaultValue={pic.qty} onChange={(e) => this.updateCartQty(pic.prodID, e)} /></td>
                   <td >{pic.prodPrice}</td>
                   <td >{pic.prodPrice * pic.qty}</td>
-				  <td ><div onClick={(e) => this.deleteItem(pic.prodID, e)}>Delete</div></td>
+				  <td ><button type="submit" className="btn btn-primary" div onClick={(e) => this.deleteItem(pic.prodID, e)}>Delete</button></td>
 				</tr>
 		)
 	  	})
@@ -102,15 +102,15 @@ export default class ViewCart extends React.Component {
 	  var subtotal = null
 	  if(data.totals) {
 		  if(data.totals.discount)
-			  discount = (<div>Discount: {data.totals.discount} </div>)
+			  discount = (<div><b>Discount</b>: {data.totals.discount} </div>)
 		  if(data.totals.min_order_fee)
-			  min_order_fee = (<div>Min Order Fee: {data.totals.min_order_fee} </div>)
+			  min_order_fee = (<div><b>Min Order Fee</b>: {data.totals.min_order_fee} </div>)
 		  if(data.totals.tax)
-			  tax = (<div>Taxes & Handling: {data.totals.taxes_and_handling}</div>)
+			  tax = (<div><b>Taxes & Handling</b>: {data.totals.taxes_and_handling}</div>)
 		  if(data.totals.shipping)
 			  shipping = (<div>{data.totals.shipping_method}: {data.totals.freight}</div>)
 		  if(data.totals.cart_subtotal)
-			  subtotal = (<div>Subtotal: {data.totals.cart_subtotal}</div>)
+			  subtotal = (<div><b>Subtotal</b>: {data.totals.cart_subtotal}</div>)
 		  totals = (
 					<div>
 						{subtotal}
@@ -158,7 +158,9 @@ export default class ViewCart extends React.Component {
               </tbody>
             </table>
           </div>
-		  {this.state.totals}
+          <div className="subtotal-section">
+		          {this.state.totals}
+          </div>
 
           <div className="shopping-cart-note">
             <p><strong>Note</strong>: If you are purchasing product for a Tax Exempt project, and can provide documentation of same, please contact MS Air toll free at <strong>(877) 672-4799</strong>.</p>
@@ -175,11 +177,12 @@ export default class ViewCart extends React.Component {
                 <label className="couponCode" class="col-sm-2 col-form-label">Coupon Code</label>
                   <div class="col-md-10">
                     <input name='coupon' type="text" className="form-control" id="coupon" onChange={this.handleInputChange}/>
-                  </div>
+
 
 				  <div id="add-to-cart">
 					 <button type="submit" className="btn btn-primary" onClick={(e) => this.setCoupon(this.state.coupon, e)}><h4>Apply</h4></button>
 				  </div>
+          </div>
 				   {this.state.error}
                 </div>
               </div>

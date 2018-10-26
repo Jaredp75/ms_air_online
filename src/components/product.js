@@ -203,12 +203,12 @@ class Product extends Component {
 
           <div id="quantity-input-group">
             Qty:
-            <input name='qty' type="text" className="quantityBox" value={this.state.qty} defaultValue="1" size="2" maxlength="4" onChange={this.handleInputChange} />
+            <input name='qty' type="text" className="quantityBox" value={this.state.qty} defaultValue="1" size="2" maxLength="4" onChange={this.handleInputChange} />
 			<div id="add-to-cart">
-				<button onClick={(e) => Utilities.putInCart(pic.prodID, this.state.qty, e)}>Add To Cart</button>
+				<button className="btn btn-primary" onClick={(e) => Utilities.putInCart(pic.prodID, this.state.qty, e)}><h4>Add To Cart</h4></button>
 			</div>
 		  </div>
-      
+
 
 {/* ---files Section--- */}
 	{productFilesSection}
