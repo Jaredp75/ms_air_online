@@ -22,7 +22,11 @@ export default class Checkout1 extends React.Component {
       shipping: null,
 	  states: ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY']
     };
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> c3f02b51a1ffa230d81bdbe9d5c5caf177de1f27
   }
   handleChange(e) {
     let change = {}
@@ -47,16 +51,27 @@ export default class Checkout1 extends React.Component {
 	var body = "&first="+this.state.first
 					+"&last="+this.state.last
 					+"&company="+this.state.company
+<<<<<<< HEAD
 					+"&address="+this.state.address
 					+"&address2="+this.state.address2
+=======
+					+"&street1="+this.state.address
+					+"&street2="+this.state.address2
+>>>>>>> c3f02b51a1ffa230d81bdbe9d5c5caf177de1f27
 					+"&city="+this.state.city
 					+"&state="+this.state.state
 					+"&zip="+this.state.zip
 					+"&phone1="+this.state.phone1
 					+"&phone2="+this.state.phone2
+<<<<<<< HEAD
 					+"&phone3="+this.state.phone3;
     fetch(url, {
 			method: 'POST',
+=======
+					+"&phone3="+this.state.phone3;
+    fetch(url, {
+			method: 'POST',
+>>>>>>> c3f02b51a1ffa230d81bdbe9d5c5caf177de1f27
 			credentials: 'include',
 			headers: {"Content-Type": "application/x-www-form-urlencoded"},
 			body: body
@@ -102,29 +117,29 @@ export default class Checkout1 extends React.Component {
 
                 <div className="form-group col-md-6">
                   <label className="inputLastName"><strong>* Last Name</strong></label>
-                  <input type="text" name="last" onChange={this.handleChange.bind(this)} className="form-control" id="inputLastName" value={a.last} />
+                  <input type="text" name="last" onChange={this.handleChange.bind(this)} className="form-control" id="inputLastName" defaultValue={a.last} />
                 </div>
               </div>
 
               <div className="form-group col-md-6">
                 <label className="inputAddress"><strong>* Address</strong></label>
-                <input type="text" name="company" onChange={this.handleChange.bind(this)} className="form-control" id="inputAddress" value={a.company} />
+                <input type="text" name="company" onChange={this.handleChange.bind(this)} className="form-control" id="inputAddress" defaultValue={a.company} />
               </div>
 
               <div className="form-group col-md-6">
                 <label className="inputAddress"><strong>* Address</strong></label>
-                <input type="text" name="address" onChange={this.handleChange.bind(this)} className="form-control" id="inputAddress" value={a.address} />
+                <input type="text" name="address" onChange={this.handleChange.bind(this)} className="form-control" id="inputAddress" defaultValue={a.address} />
               </div>
 
               <div className="form-group col-md-6">
                 <label className="inputAddress2"><strong>* Address 2</strong></label>
-                <input type="text" name="address2" onChange={this.handleChange.bind(this)} className="form-control" id="inputAddress2" value={a.address2} />
+                <input type="text" name="address2" onChange={this.handleChange.bind(this)} className="form-control" id="inputAddress2" defaultValue={a.address2} />
               </div>
 
               <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputCity"><strong>* City</strong></label>
-                  <input type="text" name="city" onChange={this.handleChange.bind(this)} className="form-control" id="inputCity" value={a.city} />
+                  <input type="text" name="city" onChange={this.handleChange.bind(this)} className="form-control" id="inputCity" defaultValue={a.city} />
                 </div>
 
                 <div className="form-group col-md-4">
@@ -136,15 +151,15 @@ export default class Checkout1 extends React.Component {
 
                 <div className="form-group col-md-2">
                   <label className="inputZip"><strong>* Zip</strong></label>
-                  <input type="text" name="zip" onChange={this.handleChange.bind(this)} className="form-control" id="inputZip" value={a.zip} />
+                  <input type="text" name="zip" onChange={this.handleChange.bind(this)} className="form-control" id="inputZip" defaultValue={a.zip} />
               </div>
 
 			  <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputPhone"><strong>* Phone</strong></label>
-                  <input name="phone1" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone1" value={this.state.phone1}/>
-				  <input name="phone2" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone2" value={this.state.phone2}/>
-                  <input name="phone3" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone3" value={this.state.phone3}/>
+                  <input name="phone1" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone1" defaultValue={this.state.phone1}/>
+				  <input name="phone2" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone2" defaultValue={this.state.phone2}/>
+                  <input name="phone3" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone3" defaultValue={this.state.phone3}/>
                 </div>
               </div>
             </div>
