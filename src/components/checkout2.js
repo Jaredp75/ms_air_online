@@ -88,7 +88,9 @@ export default class Checkout2 extends React.Component {
 
           <fieldset>
             <legend><strong>Select a shipping option</strong></legend>
-			{this.state.shipping_options}
+              <div className="shipping-options">
+                {this.state.shipping_options}
+              </div>
           </fieldset>
 
 		  {this.state.freight}

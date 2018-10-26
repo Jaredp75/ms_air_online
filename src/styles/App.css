@@ -2265,6 +2265,12 @@ img.thumbnail {
 
 
 
+#checkout1-next-button {
+  padding: 20px;
+}
+
+
+
 
 /* --- Shipping Options (Checkout2) --- */
 
@@ -2293,8 +2299,9 @@ input {
 
 
 .shipping-options {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  margin-left: 550px;
+  font-size: 18px;
 }
 
 
@@ -2468,13 +2475,6 @@ input {
   font-size: 20px;
   background-color: lightgray;
   padding: 20px;
-}
-
-
-
-.add-to-cart {
-  display: flex;
-  float: left;
 }
 
 
