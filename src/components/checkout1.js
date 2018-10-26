@@ -143,15 +143,15 @@ export default class Checkout1 extends React.Component {
 
 			  <div className="form-row">
                 <div className="form-group col-md-4">
-                  <label className="inputPhone"><strong>* Phone</strong></label>
+                  <label className="inputPhone1"><strong>* Phone</strong></label>
                     <input name="phone1" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone1" value={this.state.phone1}/>
                 </div>
                 <div className="form-group col-md-4">
-                  <label className="inputPhone"><strong>* Phone2</strong></label>
+                  <label className="inputPhone2"><strong>* Phone2</strong></label>
                     <input name="phone2" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone2" value={this.state.phone2}/>
                 </div>
                 <div className="form-group col-md-4">
-                  <label className="inputPhone"><strong>* Phone3</strong></label>
+                  <label className="inputPhone3"><strong>* Phone3</strong></label>
                   <input name="phone3" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone3" value={this.state.phone3}/>
 
               </div>

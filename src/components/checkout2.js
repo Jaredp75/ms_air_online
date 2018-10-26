@@ -66,7 +66,7 @@ export default class Checkout2 extends React.Component {
 			alert("Error: ");
 		}
 		if(data.shipping_options.freight.has_freight === true) {
-			this.setState({freight: "<div>Freight Message</div>"});
+			this.setState({freight: "One or more of the items in your cart require a freight carrier. We are currently unable to process freight quotes online. Please proceed with your order and you will be contacted by a MS Air representative to discuss shipping options. If freight shipping is free for your item(s) you may disregard this message."});
 		}
 
 	})
@@ -88,12 +88,15 @@ export default class Checkout2 extends React.Component {
 
           <fieldset>
             <legend><strong>Select a shipping option</strong></legend>
-              <div className="shipping-options">
+              <div className="shipping-options2">
                 {this.state.shipping_options}
               </div>
           </fieldset>
 
-		  {this.state.freight}
+          <div className="freight-message">
+		          {this.state.freight}
+          </div>
+
         <div className="preview-order-button">
 
             <button type="submit" className="btn btn-primary" onClick={(e) => this.next()}><h4>Preview Order</h4></button>

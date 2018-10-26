@@ -22,7 +22,7 @@ export default class Checkout3 extends React.Component {
       shipping: null,
 	  states: ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY']
     };
-	
+
   }
   componentDidMount() {
 		this.getShipping();
@@ -31,7 +31,7 @@ export default class Checkout3 extends React.Component {
   getShipping(){
 	  var url = Utilities.getApiURL('checkout.php', '');
         fetch(url, {
-			method: 'GET', 
+			method: 'GET',
 			credentials: 'include',
 			headers: {"Content-Type": "application/x-www-form-urlencoded"}
 		})
@@ -56,7 +56,7 @@ export default class Checkout3 extends React.Component {
 		this.setState({phone1: data.shipping.phone1});
 		this.setState({phone2: data.shipping.phone2});
 		this.setState({phone3: data.shipping.phone3});
-	})	
+	})
   }
   getCart(data){
   	var url = Utilities.getApiURL('cart.php', '');
@@ -98,15 +98,15 @@ export default class Checkout3 extends React.Component {
 	  var subtotal = null
 	  if(data.totals) {
 		  if(data.totals.discount > 0)
-			  discount = (<div>Discount: {data.totals.discount} </div>)
+			  discount = (<div><b>Discount</b>: {data.totals.discount} </div>)
 		  if(data.totals.min_order_fee)
-			  min_order_fee = (<div>Min Order Fee: {data.totals.min_order_fee} </div>)
+			  min_order_fee = (<div><b>Min Order Fee</b>: {data.totals.min_order_fee} </div>)
 		  if(data.totals.taxes_and_handling)
-			  tax = (<div>Taxes & Handling: {data.totals.taxes_and_handling}</div>)
+			  tax = (<div><b>Taxes & Handling</b>: {data.totals.taxes_and_handling}</div>)
 		  if(data.totals.freight)
-			  shipping = (<div>{data.totals.shipping_method}: {data.totals.freight}</div>)
+			  shipping = (<div><b>{data.totals.shipping_method}</b>: {data.totals.freight}</div>)
 		  if(data.totals.cart_subtotal)
-			  subtotal = (<div>Subtotal: {data.totals.cart_subtotal}</div>)
+			  subtotal = (<div><b>Subtotal</b>: {data.totals.cart_subtotal}</div>)
 		  totals = (
 					<div>
 						{subtotal}
@@ -114,7 +114,7 @@ export default class Checkout3 extends React.Component {
 						{discount}
 						{tax}
 						{shipping}
-						Total: {data.totals.total}
+						<b>Total</b>: {data.totals.total}
 					</div>
 			  )
 	  }
@@ -188,27 +188,27 @@ export default class Checkout3 extends React.Component {
 
                 <div className="form-group col-md-6">
                   <label className="inputFirstName"><strong>* First Name</strong></label>
-                  <input type="text" className="form-control" id="inputFirstName" defaultValue={this.state.first} />
+                  <input type="text" className="form-control" id="inputFirstName" placeholder="First Name" defaultValue={this.state.first} />
                 </div>
 
                 <div className="form-group col-md-6">
                   <label className="inputLastName"><strong>* Last Name</strong></label>
-                  <input type="text" className="form-control" id="inputLastName" defaultValue={this.state.last} />
+                  <input type="text" className="form-control" id="inputLastName" placeholder="Last Name" defaultValue={this.state.last} />
                 </div>
 
                 <div className="form-group col-md-6">
                   <label className="inputAddress"><strong>* Address</strong></label>
-                  <input type="text" className="form-control" id="inputAddress" defaultValue={this.state.street1} />
+                  <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main Street" defaultValue={this.state.street1} />
                 </div>
 
                 <div className="form-group col-md-6">
                   <label className="inputAddress2"><strong>Address 2</strong></label>
-                  <input type="text" className="form-control" id="inputAddress2" defaultValue={this.state.street2} />
+                  <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" defaultValue={this.state.street2} />
                 </div>
 
                 <div className="form-group col-md-6">
                   <label className="inputCity"><strong>* City</strong></label>
-                  <input type="text" className="form-control" id="inputCity" defaultValue={this.state.city} />
+                  <input type="text" className="form-control" id="inputCity" placeholder="City" defaultValue={this.state.city} />
                 </div>
 
                 <div className="form-group col-md-4">
@@ -220,22 +220,22 @@ export default class Checkout3 extends React.Component {
 
                 <div className="form-group col-md-2">
                   <label className="inputZip"><strong>* Zip</strong></label>
-                  <input type="text" className="form-control" id="inputZip" defaultValue={this.state.zip} />
+                  <input type="text" className="form-control" id="inputZip" placeholder="Zip" defaultValue={this.state.zip} />
                 </div>
 
 
                 <div className="form-row">
                   <div className="form-group col-md-4">
                     <label className="inputPhone"><strong>* Phone</strong></label>
-                      <input name="phone1" type="text" className="form-control" id="inputPhone1" defaultValue={this.state.phone1} pattern="[0-9]{3}" />
+                      <input name="phone1" type="text" className="form-control" id="inputPhone1" placeholder="123" defaultValue={this.state.phone1} pattern="[0-9]{3}" />
                   </div>
                   <div className="form-group col-md-4">
                     <label className="inputPhone2">Phone 2</label>
-                      <input name="phone2" type="text" className="form-control" id="inputPhone2" defaultValue={this.state.phone2} pattern="[0-9]{3}" />
+                      <input name="phone2" type="text" className="form-control" id="inputPhone2" placeholder="456" defaultValue={this.state.phone2} pattern="[0-9]{3}" />
                   </div>
                   <div className="form-group col-md-4">
                     <label className="inputPhone3"><strong>Phone 3</strong></label>
-                      <input name="phone3" type="text" className="form-control" id="inputPhone3" defaultValue={this.state.phone3} pattern="[0-9]{4}" />
+                      <input name="phone3" type="text" className="form-control" id="inputPhone3" placeholder="7890" defaultValue={this.state.phone3} pattern="[0-9]{4}" />
                   </div>
                 </div>
 
@@ -252,55 +252,57 @@ export default class Checkout3 extends React.Component {
 
                 <div className="form-group col-md-6">
                   <label className="inputFirstName"><strong>First Name</strong></label>
-                  <input readonly='readonly' type="text" className="form-control" id="inputFirstName" value={this.state.first} />
+                  <input readOnly='readOnly' type="text" className="form-control" id="inputFirstName" value={this.state.first} />
                 </div>
 
                 <div className="form-group col-md-6">
                   <label className="inputLastName"><strong>Last Name</strong></label>
-                  <input readonly='readonly' type="text" className="form-control" id="inputLastName" value={this.state.last} />
+                  <input readOnly='readOnly' type="text" className="form-control" id="inputLastName" value={this.state.last} />
                 </div>
 
                 <div className="form-group col-md-6">
                   <label className="inputAddress"><strong>Address</strong></label>
-                  <input readonly='readonly' type="text" className="form-control" id="inputAddress" value={this.state.street1} />
+                  <input readOnly='readOnly' type="text" className="form-control" id="inputAddress" value={this.state.street1} />
                 </div>
 
                 <div className="form-group col-md-6">
                   <label className="inputAddress2"><strong>Address 2</strong></label>
-                  <input readonly='readonly' type="text" className="form-control" id="inputAddress2" value={this.state.street2} />
+                  <input readOnly='readOnly' type="text" className="form-control" id="inputAddress2" value={this.state.street2} />
                 </div>
 
                 <div className="form-row">
                   <div className="form-group col-md-4">
                     <label className="inputCity"><strong>City</strong></label>
-                    <input readonly='readonly' type="text" className="form-control" id="inputCity" value={this.state.city} />
+                    <input readOnly='readOnly' type="text" className="form-control" id="inputCity" value={this.state.city} />
                   </div>
 
                 <div className="form-group col-md-4">
                   <label className="inputState"><strong>State</strong></label>
-				  <input readonly='readonly' type="text" className="form-control" value={this.state.state} />
+				  <input readOnly='readOnly' type="text" className="form-control" value={this.state.state} />
                 </div>
 
                 <div className="form-group col-md-4">
                   <label className="inputZip"><strong>Zip</strong></label>
-                  <input readonly='readonly' type="text" className="form-control" id="inputZip" value={this.state.zip} />
+                  <input readOnly='readOnly' type="text" className="form-control" id="inputZip" value={this.state.zip} />
                 </div>
 
                 <div className="form-row">
                   <div className="form-group col-md-4">
                     <label className="inputPhone"><strong>Phone</strong></label>
-                      <input name="phone1" readonly='readonly' type="text" className="form-control" id="inputPhone1" value={this.state.phone1} pattern="[0-9]{3}" />
+                      <input name="phone1" readOnly='readOnly' type="text" className="form-control" id="inputPhone1" value={this.state.phone1} pattern="[0-9]{3}" />
                   </div>
                   <div className="form-group col-md-4">
                     <label className="inputPhone2">Phone 2</label>
-                      <input name="phone2" readonly='readonly' type="text" className="form-control" id="inputPhone2" value={this.state.phone2} pattern="[0-9]{3}" />
+                      <input name="phone2" readOnly='readOnly' type="text" className="form-control" id="inputPhone2" value={this.state.phone2} pattern="[0-9]{3}" />
                   </div>
                   <div className="form-group col-md-4">
                     <label className="inputPhone3"><strong>Phone 3</strong></label>
-                      <input name="phone3" readonly='readonly' type="text" className="form-control" id="inputPhone3"value={this.state.phone3} pattern="[0-9]{4}" />
+                      <input name="phone3" readOnly='readOnly' type="text" className="form-control" id="inputPhone3"value={this.state.phone3} pattern="[0-9]{4}" />
                   </div>
                 </div>
-				<div><a href='checkout1'>Edit Shipping Address</a></div>
+                <div className="edit-shipping-address">
+				           <button type="submit" className="btn btn-primary"><a href='checkout1'><h4>Edit</h4></a></button>
+                </div>
               </div>
 
               <div className="order-summary-table">
@@ -321,7 +323,7 @@ export default class Checkout3 extends React.Component {
                   </tbody>
                 </table>
               </div>
-				<div>
+				<div className="review-order-subtotals">
 				{this.state.totals}
 				</div>
               <div className="terms-and-conditions-checkbox">

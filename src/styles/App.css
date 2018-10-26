@@ -1420,7 +1420,7 @@
 
 #individual_product_page h3 {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   padding: 10px;
 }
 
@@ -2298,7 +2298,7 @@ input {
 
 
 
-.shipping-options {
+.shipping-options2 {
   /* display: flex; */
   margin-left: 550px;
   font-size: 18px;
@@ -2375,6 +2375,21 @@ input {
 
 
 
+.freight-message {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: red;
+  /* font-weight: bold; */
+  /* color: #2C3E50; */
+}
+
+
+
+
 /* --- Billing Information (Checkout3) --- */
 
 .billing-information {
@@ -2395,7 +2410,7 @@ input {
 
 
 .order-summary-table {
-  margin-top: 440px;
+  /* margin-top: 440px; */
   margin-bottom: 80px;
   align-content: center;
   cursor: pointer;
@@ -2412,8 +2427,9 @@ input {
 
 
 .terms-and-conditions-checkbox {
-  margin-left: 20px;
+  /* margin-left: 20px; */
   margin-bottom: 80px;
+  text-align: center;
 }
 
 
@@ -2428,6 +2444,30 @@ input {
 .expyYear {
   margin-left: 15px;
 }
+
+
+
+.edit-shipping-address {
+  padding: 20px;
+}
+
+
+
+.edit-shipping-address a {
+  color: white;
+}
+
+
+
+.review-order-subtotals {
+  margin: 60px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 20px;
+  background-color: lightgray;
+  padding: 20px;
+}
+
 
 
 

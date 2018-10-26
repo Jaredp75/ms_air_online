@@ -16,7 +16,7 @@ export default class Checkout extends React.Component {
           </div>
 
           <div className="replacement_parts_header">
-            <h1>Order Complete</h1>
+            <h1>Thank You for your order!</h1>
           </div>
           <div className="order-complete-table">
             <table className="table">
