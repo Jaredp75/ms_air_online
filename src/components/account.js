@@ -217,7 +217,7 @@ export default class Register extends React.Component {
 
               {/* <div className="form-group"> */}
                 <div className="account-submit-button">
-                  <button type="submit" className="btn btn-primary" onClick={(e) => this.register()}>Submit</button>
+                  <button type="submit" className="btn btn-primary" onClick={(e) => this.register()}><h4>Submit</h4></button>
                 </div>
               {/* </div> */}
 

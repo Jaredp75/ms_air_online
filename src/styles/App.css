@@ -185,10 +185,11 @@
 
 
 .container1 {
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 
@@ -975,7 +976,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 300px;
+  padding-top: 800px;
 }
 
 
@@ -1333,6 +1334,7 @@
 
 .product_listing:hover {
   background-color: lightgray;
+  border-radius: 30%;
 }
 
 
@@ -1486,6 +1488,7 @@
 
 .individual-product-details2:hover {
   background-color: lightgray;
+  border-radius: 2%;
 }
 
 
@@ -1525,6 +1528,7 @@
 
 .individual-product-savings {
   color: green;
+
 }
 
 
@@ -2279,6 +2283,10 @@ legend {
   color: green;
   padding: 3px 6px;
   text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
@@ -2299,9 +2307,11 @@ input {
 
 
 .shipping-options2 {
-  /* display: flex; */
-  margin-left: 550px;
+  display: block;
+  /* margin-left: 550px; */
   font-size: 18px;
+  width: 35%;
+  margin: 0 auto;
 }
 
 
@@ -2385,6 +2395,8 @@ input {
   color: red;
   /* font-weight: bold; */
   /* color: #2C3E50; */
+  width: 75%;
+  margin: 0 auto;
 }
 
 
