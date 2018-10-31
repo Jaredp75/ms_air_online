@@ -199,7 +199,7 @@
   margin: 0 auto;
   width: 100%;
   justify-content: center;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 
@@ -1414,7 +1414,7 @@
   width: 60%;
   display: inline-block;
   float: left;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 
 
@@ -1432,7 +1432,7 @@
   padding: 10px;
   width: 80%;
   float: left;
-  height: 1000px;
+  /* height: 1000px; */
 }
 
 
@@ -1440,6 +1440,7 @@
 
 .individual_product_listing img {
   padding: 10px;
+  margin-right: 60px;
 }
 
 
@@ -1462,6 +1463,7 @@
   flex-direction: column;
   margin: 20px;
   float: left;
+  margin-right: 100px;
 }
 
 
@@ -1471,6 +1473,7 @@
   float: left;
   width: 50%;
   margin-top: 80px;
+  /* height: 850px; */
 }
 
 
@@ -1496,6 +1499,21 @@
 
 .individual-product-actual-price {
   color: #2C3E50;
+}
+
+
+
+
+.individual-product-title {
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+
+
+.individual-product-title2 {
+
 }
 
 
@@ -1564,6 +1582,7 @@
   width: 18%;
   vertical-align: top;
   display: inline-block;
+  margin-bottom: 100px;
 }
 
 
@@ -1664,7 +1683,7 @@
 
 
 .replacement_parts_section {
-  margin-top: 1400px;
+  margin-top: 900px;
 }
 
 
@@ -2560,13 +2579,13 @@ input {
 
 
 .company-logo img {
-  width: 45%;
+  width: 40%;
   padding-top: 100px;
   padding-bottom: 200px;
-  padding-left: 100px;
+  padding-left: 200px;
   float: none;
   margin: 0 auto;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 

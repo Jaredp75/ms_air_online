@@ -85,7 +85,7 @@ export default class ContactUs extends React.Component {
                   </div>
 
                 <div className="contact-button">
-                  <button type="submit" className="btn btn-primary">Submit</button>
+                  <button type="submit" className="btn btn-primary"><h4>Submit</h4></button>
                 </div>
 
 

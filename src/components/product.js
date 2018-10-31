@@ -133,6 +133,7 @@ class Product extends Component {
 			compatibleParts = pic.compatible_equipment.map((rp) => {
             return (
 				<span className="replacement_parts_detail">
+          {/* <img src={rp.icon} alt={rp.name}></img> */}
 					<h4 className="replacement_parts_name"><a href={productUrl+rp.compatible_prod_id}>{rp.name}</a></h4>
 				</span>
             )});
@@ -176,7 +177,7 @@ class Product extends Component {
 
                     <div className="individual-product-details">
                       <div className="product-title">
-                        <h2 className="individual-product-title">{pic.prodName}</h2>
+                        <h2 className="individual-product-title2">{pic.prodName}</h2>
                       </div>
                         <h4 className="product-brand-title"><img src={pic.brandIcon} alt={pic.brandName}/></h4>
                         <h4 className="individual-product-suggested-retail-price">MSRP: ${pic.msrp}</h4>
