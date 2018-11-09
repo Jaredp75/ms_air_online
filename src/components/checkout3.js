@@ -20,6 +20,9 @@ export default class Checkout3 extends React.Component {
       city: null,
       state: null,
       zipcode: null,
+	  phone1: null,
+	  phone2: null,
+	  phone3: null,
 	  
 	  sfirst: null,
       slast: null,
@@ -36,23 +39,28 @@ export default class Checkout3 extends React.Component {
       shipping: null,
 	  exp_month: 1,
 	  exp_year:(new Date().getFullYear()),
-	  card_type: null,
-	  card_number: null,
-	  cvv: null,
-	  terms_conds: 0,
+	  card_type:"",
+	  card_number:"",
+	  cvv:"",
+	  terms_conds: false,
 	  states: ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY']
     };
 	
   }
-  handleChange(e) {
-    let change = {}
-    change[e.target.name] = e.target.value
-    this.setState(change)
+  handleChange(event) {
+    const target = event.target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const name = target.name;
+
+    this.setState({
+      [name]: value
+    });
   }
   next(){
  	var url = Utilities.getApiURL('checkout.php', '?do=completePurchase');
 	var body = "&first="+this.state.first
 					+"&last="+this.state.last
+					+"&email="+this.state.email
 					+"&company="+this.state.company
 					+"&street1="+this.state.street1
 					+"&street2="+this.state.street2
@@ -61,13 +69,13 @@ export default class Checkout3 extends React.Component {
 					+"&zip="+this.state.zip
 					+"&phone1="+this.state.phone1
 					+"&phone2="+this.state.phone2
+					+"&phone3="+this.state.phone3
 					+"&exp_month="+this.state.exp_month
 					+"&exp_year="+this.state.exp_year
 					+"&card_type="+this.state.card_type
 					+"&card_number="+this.state.card_number
 					+"&cvv="+this.state.cvv
-					+"&terms_conds="+this.state.terms_conds;
-	alert(body);		
+					+"&terms_conds="+this.state.terms_conds;		
     fetch(url, {
 			method: 'POST', 
 			credentials: 'include',
@@ -77,8 +85,14 @@ export default class Checkout3 extends React.Component {
     .then(results => {
       return results.json();
     }).then((data) => {
-        this.confirmUpdate(data);
+        this.handleResponse(data);
     })
+  }
+  handleResponse(data) {
+	  if(data.error)
+		  alert("Error: "+data.error.message);
+	  else
+		  this.completeOrder(data);
   }
   componentDidMount() {
 		this.getShipping();
@@ -117,6 +131,7 @@ export default class Checkout3 extends React.Component {
 		
 		this.setState({first: data.shipping.first});
 		this.setState({last: data.shipping.last});
+		this.setState({email: data.shipping.email});
 		this.setState({company: data.shipping.company});
 		this.setState({street1: data.shipping.street1});
 		this.setState({street2: data.shipping.street2});
@@ -131,8 +146,8 @@ export default class Checkout3 extends React.Component {
                   <label className="CardType"><strong>* Card Type</strong>    <i className="fab fa-cc-mastercard" />  |  <i className="fab fa-cc-visa" /></label>
                   <select name='card_type' type="text" className="form-control" id="inputCardType" onChange={this.handleChange.bind(this)} >
                     <option defaultValue >Choose...</option>
-                    <option value="1">MasterCard</option>
-                    <option value="2">VISA</option>
+                    <option value="MasterCard">MasterCard</option>
+                    <option value="VISA">VISA</option>
                   </select>
                 </div>
 
@@ -158,7 +173,7 @@ export default class Checkout3 extends React.Component {
                     <option value="12">12</option>
                   </select>
 
-                  <select name='exp_year' className="expyYear">
+                  <select name='exp_year' className="expyYear" onChange={this.handleChange.bind(this)}>
                     <option value={(new Date().getFullYear())}>{(new Date().getFullYear())}</option>
                     <option value={(new Date().getFullYear())+1}>{(new Date().getFullYear())+1}</option>
                     <option value={(new Date().getFullYear())+2}>{(new Date().getFullYear())+2}</option>
@@ -171,7 +186,7 @@ export default class Checkout3 extends React.Component {
 
                 <div className="form-group col-md-6">
                   <label className="cvv"><strong>* Security Code (CVV)</strong></label>
-                  <input name='cvv' type="text" className="form-control" id="cvv" placeholder="CVV" />
+                  <input name='cvv' type="text" className="form-control" onChange={this.handleChange.bind(this)} id="cvv" placeholder="CVV" />
                 </div>
 
                 <div className="form-group col-md-6">
@@ -183,7 +198,14 @@ export default class Checkout3 extends React.Component {
                   <label className="inputLastName"><strong>* Last Name</strong></label>
                   <input type="text" name="last" onChange={this.handleChange.bind(this)} className="form-control" id="inputLastName" defaultValue={data.shipping.last} />
                 </div>
-
+				<div className="form-group col-md-6">
+                  <label className="inputCompany"><strong>Company</strong></label>
+                  <input type="text" name="comapny" onChange={this.handleChange.bind(this)} className="form-control" id="inputCompany" defaultValue={data.shipping.company} />
+                </div>
+                <div className="form-group col-md-6">
+                  <label className="inputEmail"><strong>* Email</strong></label>
+                  <input type="text" name="email" onChange={this.handleChange.bind(this)} className="form-control" id="inputEmail" defaultValue={data.shipping.email} />
+                </div> 
                 <div className="form-group col-md-6">
                   <label className="inputAddress"><strong>* Address</strong></label>
                   <input type="text" name='street1' className="form-control" onChange={this.handleChange.bind(this)} id="inputAddress" defaultValue={data.shipping.street1} />
@@ -223,7 +245,7 @@ export default class Checkout3 extends React.Component {
                   </div>
                   <div className="form-group col-md-4">
                     <label className="inputPhone3"><strong>Phone 3</strong></label>
-                      <input name="phone3" type="text" className="form-control" onChange={this.handleChange.bind(this)} id="inputPhone3" defaultValue={data.shipping.	phone3} pattern="[0-9]{4}" />
+                      <input name="phone3" type="text" className="form-control" onChange={this.handleChange.bind(this)} id="inputPhone3" defaultValue={data.shipping.phone3} pattern="[0-9]{4}" />
                   </div>
                 </div></fieldset>);
 				this.setState({billing: billing});
@@ -251,7 +273,7 @@ export default class Checkout3 extends React.Component {
                   <td>{pic.prodName} {pic.prodID}</td>
                   <td>{pic.qty}</td>
                   <td >{pic.prodPrice}</td>
-                  <td >{pic.prodPrice * pic.qty}</td>
+                  <td >{pic.amt}</td>
 				</tr>
 		)
 	  	})
@@ -270,13 +292,13 @@ export default class Checkout3 extends React.Component {
 	  if(data.totals) {
 		  if(data.totals.discount > 0)
 			  discount = (<div>Discount: {data.totals.discount} </div>)
-		  if(data.totals.min_order_fee)
+		  if(data.totals.min_order_fee > 0)
 			  min_order_fee = (<div>Min Order Fee: {data.totals.min_order_fee} </div>)
-		  if(data.totals.taxes_and_handling)
+		  if(data.totals.taxes_and_handling > 0)
 			  tax = (<div>Taxes & Handling: {data.totals.taxes_and_handling}</div>)
-		  if(data.totals.freight)
+		  if(data.totals.freight > 0)
 			  shipping = (<div>{data.totals.shipping_method}: {data.totals.freight}</div>)
-		  if(data.totals.cart_subtotal)
+		  if(data.totals.cart_subtotal > 0)
 			  subtotal = (<div>Subtotal: {data.totals.cart_subtotal}</div>)
 		  totals = (
 					<div>
@@ -294,7 +316,12 @@ export default class Checkout3 extends React.Component {
   }
   setBilling(){
   }
-  completeOrder(){
+  completeOrder(data){
+	  if(data.order.status == true && data.order.invoice > 10000){
+			//TODO -redirect to order complete page
+	  } else{
+		  //TODO - check order history / wait and resent order / other?
+	  }
   }
   render(){
 
@@ -397,7 +424,7 @@ export default class Checkout3 extends React.Component {
 				</div>
               <div className="terms-and-conditions-checkbox">
                 <div className="form-check">
-                  <input name='terms_conds' className="form-check-input" type="checkbox" id="terms-checkbox" />
+                  <input name='terms_conds' className="form-check-input" type="checkbox" onChange={this.handleChange.bind(this)} id="terms-checkbox" />
                     <label className="form-check-label">
                       <p>I agree to the Order Terms and Conditions</p>
                     </label>

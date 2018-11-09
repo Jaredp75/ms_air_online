@@ -15,7 +15,6 @@ import Checkout from '../components/checkout';
 import Checkout1 from '../components/checkout1';
 import Checkout2 from '../components/checkout2';
 import Checkout3 from '../components/checkout3';
-import Checkout4 from '../components/checkout4';
 import Product from '../components/product';
 import ContactUs from '../components/contact_us';
 import ViewCart from '../components/viewcart';
@@ -24,6 +23,8 @@ import Search from '../components/search';
 import Account from '../components/account';
 import Forgot from '../components/forgot';
 import Reset from '../components/reset';
+import Orders from '../components/orders';
+import ViewOrder from '../components/vieworder';
 import * as Utilities from './utilities.js';
 
 
@@ -215,7 +216,6 @@ class App extends Component {
             <Route path="/checkout1" component={Checkout1}/>
             <Route path="/checkout2" component={Checkout2}/>
             <Route path="/checkout3" component={Checkout3}/>
-            <Route path="/checkout4" component={Checkout4}/>
             <Route path="/product" component={Product}/>
             <Route path="/contact_us" component={ContactUs}/>
             <Route path="/viewcart" component={ViewCart}/>
@@ -224,6 +224,8 @@ class App extends Component {
 			<Route path="/account" component={Account}/>
 			<Route path="/forgot" component={Forgot}/>
 			<Route path="/reset" component={Reset}/>
+			<Route path="/orders" component={Orders}/>
+			<Route path="/vieworder" component={ViewOrder}/>
           </Switch>
         </Baselayout>
       </BrowserRouter>

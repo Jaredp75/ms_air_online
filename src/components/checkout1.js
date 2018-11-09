@@ -45,6 +45,7 @@ export default class Checkout1 extends React.Component {
  	var url = Utilities.getApiURL('checkout.php', '?do=setShippingAddress');
 	var body = "&first="+this.state.first
 					+"&last="+this.state.last
+					+"&email="+this.state.email
 					+"&company="+this.state.company
 					+"&street1="+this.state.address
 					+"&street2="+this.state.address2
@@ -81,6 +82,7 @@ export default class Checkout1 extends React.Component {
 	});
 		this.setState({first: a.first});
 		this.setState({last: a.last});
+		this.setState({email: a.email});
 		this.setState({company: a.company});
 		this.setState({address: a.address});
 		this.setState({address2: a.address2});
