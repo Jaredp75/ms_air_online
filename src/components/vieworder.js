@@ -39,11 +39,19 @@ export default class Checkout3 extends React.Component {
 	  exp_month: 1,
 	  exp_year:(new Date().getFullYear()),
 	  terms_conds: false,
-	  states: ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY']
+	  states: ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY'],
+	  confirmation_page:""
     };
 	
   }
   componentDidMount() {
+		if(Utilities.getUrlParam('confirm')==1) {
+			var confirmation_page = (
+			          <div className="checkout-header-image">
+						<img src='https://www.msaironline.com/images/purchase04.gif' alt='Purchase Information' />
+					</div>);
+			this.setState({confirmation_page: confirmation_page});
+		}
 		var url = Utilities.getApiURL('history.php', '?id='+Utilities.getUrlParam('id'));
 		this.getOrder(url);
   }
@@ -115,7 +123,7 @@ export default class Checkout3 extends React.Component {
 		  if(data.summary[0].order_tax > 0)
 			  tax = (<div>Taxes & Handling: {data.summary[0].order_tax}</div>)
 		  if(data.shipping[0].os_amount > 0)
-			  shipping = (<div>{data.summary[0].shipping_method}: {data.shipping[0].os_amount}</div>)
+			  shipping = (<div>{data.shipping[0].service}: {data.shipping[0].os_amount}</div>)
 		  totals = (
 					<div>
 						{subtotal}
@@ -144,10 +152,8 @@ export default class Checkout3 extends React.Component {
       <div>  
 
         <div className = 'content-area-container'>
-          <div className="checkout-header-image">
-            <img src='https://www.msaironline.com/images/purchase04.gif' alt='Purchase Information' />
-          </div>
 
+		{this.state.confirmation_page}
           <div className="replacement_parts_header">
             <h1>Billing Information</h1>
           </div>
@@ -294,35 +300,9 @@ export default class Checkout3 extends React.Component {
 				<div>
 				{this.state.totals}
 				</div>
-              <div className="terms-and-conditions-checkbox">
-                <div className="form-check">
-                  <input name='terms_conds' className="form-check-input" type="checkbox"  id="terms-checkbox" />
-                    <label className="form-check-label">
-                      <p>I agree to the Order Terms and Conditions</p>
-                    </label>
-                  </div>
-                </div>
-
-
-                <div className="order-confirmation-button" id="pay-now">
-                  <button className="btn btn-primary" type="submit" onClick={(e) => this.next()} id="confirm-purchase"><h4>Confirm</h4></button>
-                </div>
-
-
-
-
-
-
 
 
               </fieldset>
-
-
-
-
-
-
-
 
 
 

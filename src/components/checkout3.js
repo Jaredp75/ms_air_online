@@ -318,9 +318,10 @@ export default class Checkout3 extends React.Component {
   }
   completeOrder(data){
 	  if(data.order.status == true && data.order.invoice > 10000){
-			//TODO -redirect to order complete page
+		 window.location = "vieworder?id="+data.order.invoice+"confirm=true";
 	  } else{
-		  //TODO - check order history / wait and resent order / other?
+		  alert("An unexpected error has occured.  Please retry the checkout process or call us at 1-800-MSAIR99.");
+		  window.location = "viewcart";
 	  }
   }
   render(){
