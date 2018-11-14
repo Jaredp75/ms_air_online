@@ -83,7 +83,7 @@ export default class ViewCart extends React.Component {
                   <td>{pic.prodName} {pic.prodID}</td>
                   <td><input type='text' name='qty' size='4' maxlength='2' defaultValue={pic.qty} onChange={(e) => this.updateCartQty(pic.prodID, e)} /></td>
                   <td >{pic.prodPrice}</td>
-                  <td >{pic.prodPrice * pic.qty}</td>
+                  <td >{pic.amt}</td>
 				  <td ><button type="submit" className="btn btn-primary" div onClick={(e) => this.deleteItem(pic.prodID, e)}>Delete</button></td>
 				</tr>
 		)

@@ -36,7 +36,7 @@ export default class MyAccount extends React.Component {
                 <h1>Order Information</h1>
               </div>
               <div className="order-info-para">
-                <p><strong>Order History</strong>:</p>
+                <p><strong><a href='orders'>Order History</a></strong>:</p>
 
                   <p><i className="fa fa-check"></i>  Check your order status</p>
                   <p><i className="fa fa-check"></i>  Print an invoice</p>
