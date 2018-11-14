@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-// import FooterLinks from './footer-links/footer-links.js';
 import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
 import * as Utilities from './utilities.js';
@@ -22,7 +21,7 @@ export default class Checkout1 extends React.Component {
       shipping: null,
 	  states: ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY']
     };
-
+	
   }
   handleChange(e) {
     let change = {}
@@ -46,9 +45,8 @@ export default class Checkout1 extends React.Component {
  	var url = Utilities.getApiURL('checkout.php', '?do=setShippingAddress');
 	var body = "&first="+this.state.first
 					+"&last="+this.state.last
+					+"&email="+this.state.email
 					+"&company="+this.state.company
-					+"&address="+this.state.address
-					+"&address2="+this.state.address2
 					+"&street1="+this.state.address
 					+"&street2="+this.state.address2
 					+"&city="+this.state.city
@@ -56,10 +54,9 @@ export default class Checkout1 extends React.Component {
 					+"&zip="+this.state.zip
 					+"&phone1="+this.state.phone1
 					+"&phone2="+this.state.phone2
-					+"&phone3="+this.state.phone3;
+					+"&phone3="+this.state.phone3;	
     fetch(url, {
-			method: 'POST',
-
+			method: 'POST', 
 			credentials: 'include',
 			headers: {"Content-Type": "application/x-www-form-urlencoded"},
 			body: body
@@ -85,6 +82,7 @@ export default class Checkout1 extends React.Component {
 	});
 		this.setState({first: a.first});
 		this.setState({last: a.last});
+		this.setState({email: a.email});
 		this.setState({company: a.company});
 		this.setState({address: a.address});
 		this.setState({address2: a.address2});
@@ -94,7 +92,7 @@ export default class Checkout1 extends React.Component {
 		this.setState({phone1: a.phone_parts[0]});
 		this.setState({phone2: a.phone_parts[1]});
 		this.setState({phone3: a.phone_parts[2]});
-
+		
 	  var shipping = (
 	  <fieldset>
 			<div className="form-row">
@@ -108,10 +106,15 @@ export default class Checkout1 extends React.Component {
                   <input type="text" name="last" onChange={this.handleChange.bind(this)} className="form-control" id="inputLastName" defaultValue={a.last} />
                 </div>
               </div>
-
+			  
               <div className="form-group col-md-6">
                 <label className="inputAddress"><strong>* Address</strong></label>
                 <input type="text" name="company" onChange={this.handleChange.bind(this)} className="form-control" id="inputAddress" defaultValue={a.company} />
+              </div>
+			  
+              <div className="form-group col-md-6">
+                <label className="inputAddress"><strong>* Address</strong></label>
+                <input type="text" name="address" onChange={this.handleChange.bind(this)} className="form-control" id="inputAddress" defaultValue={a.address} />
               </div>
 
               <div className="form-group col-md-6">
@@ -122,10 +125,7 @@ export default class Checkout1 extends React.Component {
               <div className="form-row">
                 <div className="form-group col-md-6">
                   <label className="inputCity"><strong>* City</strong></label>
-
-                  <input type="text" name="city" onChange={this.handleChange.bind(this)} className="form-control" id="inputCity" value={a.city} />
-
-
+                  <input type="text" name="city" onChange={this.handleChange.bind(this)} className="form-control" id="inputCity" defaultValue={a.city} />
                 </div>
 
                 <div className="form-group col-md-4">
@@ -137,28 +137,18 @@ export default class Checkout1 extends React.Component {
 
                 <div className="form-group col-md-2">
                   <label className="inputZip"><strong>* Zip</strong></label>
-
-                  <input type="text" name="zip" onChange={this.handleChange.bind(this)} className="form-control" id="inputZip" value={a.zip} />
+                  <input type="text" name="zip" onChange={this.handleChange.bind(this)} className="form-control" id="inputZip" defaultValue={a.zip} />
               </div>
-
+			  
 			  <div className="form-row">
-                <div className="form-group col-md-4">
-                  <label className="inputPhone1"><strong>* Phone</strong></label>
-                    <input name="phone1" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone1" value={this.state.phone1}/>
+                <div className="form-group col-md-6">
+                  <label className="inputPhone"><strong>* Phone</strong></label>
+                  <input name="phone1" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone1" defaultValue={this.state.phone1}/>
+				  <input name="phone2" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone2" defaultValue={this.state.phone2}/>
+                  <input name="phone3" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone3" defaultValue={this.state.phone3}/>
                 </div>
-                <div className="form-group col-md-4">
-                  <label className="inputPhone2"><strong>* Phone2</strong></label>
-                    <input name="phone2" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone2" value={this.state.phone2}/>
-                </div>
-                <div className="form-group col-md-4">
-                  <label className="inputPhone3"><strong>* Phone3</strong></label>
-                  <input name="phone3" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone3" value={this.state.phone3}/>
-
               </div>
-
-
             </div>
-          </div>
 
 
           </fieldset>);
@@ -181,9 +171,9 @@ export default class Checkout1 extends React.Component {
             <h1>Shipping Address</h1>
           </div>
 
-          <div className="shipping-options">
+
 			  {this.state.shipping}
-          </div>
+
 
 
 

@@ -11,7 +11,11 @@ export default class Orders extends React.Component {
     this.state = {
 	  orders: ""
     };
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 297e89a957f60dfa9c7bae00371708df739db7ae
   }
   componentDidMount() {
 	var url = Utilities.getApiURL('history.php', '');
@@ -43,7 +47,11 @@ export default class Orders extends React.Component {
 
 
   render(){
+<<<<<<< HEAD
 	  return(<div>
+=======
+	  return(<div>  
+>>>>>>> 297e89a957f60dfa9c7bae00371708df739db7ae
 
         <div className = 'content-area-container'>
           <div className="replacement_parts_header">

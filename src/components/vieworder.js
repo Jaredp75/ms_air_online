@@ -4,7 +4,7 @@ import HelpAndCurrency from './help-and-currency.js';
 import AboutLinks from './footer-links/about-links.js';
 import * as Utilities from './utilities.js';
 
-export default class ViewOrder extends React.Component {
+export default class Checkout3 extends React.Component {
   constructor() {
     super()
     this.state = {

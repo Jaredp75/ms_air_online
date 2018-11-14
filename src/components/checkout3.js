@@ -94,6 +94,53 @@ export default class Checkout3 extends React.Component {
 	  else
 		  this.completeOrder(data);
   }
+  handleChange(event) {
+    const target = event.target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const name = target.name;
+
+    this.setState({
+      [name]: value
+    });
+  }
+  next(){
+ 	var url = Utilities.getApiURL('checkout.php', '?do=completePurchase');
+	var body = "&first="+this.state.first
+					+"&last="+this.state.last
+					+"&email="+this.state.email
+					+"&company="+this.state.company
+					+"&street1="+this.state.street1
+					+"&street2="+this.state.street2
+					+"&city="+this.state.city
+					+"&state="+this.state.state
+					+"&zip="+this.state.zip
+					+"&phone1="+this.state.phone1
+					+"&phone2="+this.state.phone2
+					+"&phone3="+this.state.phone3
+					+"&exp_month="+this.state.exp_month
+					+"&exp_year="+this.state.exp_year
+					+"&card_type="+this.state.card_type
+					+"&card_number="+this.state.card_number
+					+"&cvv="+this.state.cvv
+					+"&terms_conds="+this.state.terms_conds;
+    fetch(url, {
+			method: 'POST',
+			credentials: 'include',
+			headers: {"Content-Type": "application/x-www-form-urlencoded"},
+			body: body
+		})
+    .then(results => {
+      return results.json();
+    }).then((data) => {
+        this.handleResponse(data);
+    })
+  }
+  handleResponse(data) {
+	  if(data.error)
+		  alert("Error: "+data.error.message);
+	  else
+		  this.completeOrder(data);
+  }
   componentDidMount() {
 		this.getShipping();
 		this.getCart();
@@ -422,7 +469,7 @@ export default class Checkout3 extends React.Component {
                   </tbody>
                 </table>
               </div>
-				<div className="review-order-subtotals">
+				<div>
 				{this.state.totals}
 				</div>
               <div className="terms-and-conditions-checkbox">
