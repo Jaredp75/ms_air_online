@@ -45,7 +45,7 @@ export default class Checkout3 extends React.Component {
 
   }
   componentDidMount() {
-		if(Utilities.getUrlParam('confirm')==1) {
+		if(Utilities.getUrlParam('confirm')===1) {
 			var confirmation_page = (
 			          <div className="checkout-header-image">
 						<img src='https://www.msaironline.com/images/purchase04.gif' alt='Purchase Information' />
@@ -140,7 +140,7 @@ export default class Checkout3 extends React.Component {
   setBilling(){
   }
   completeOrder(data){
-	  if(data.order.status == true && data.order.invoice > 10000){
+	  if(data.order.status === true && data.order.invoice > 10000){
 			//TODO -redirect to order complete page
 	  } else{
 		  //TODO - check order history / wait and resent order / other?

@@ -169,15 +169,15 @@
 .content-area-container4 {
   border-radius: 5px;
   box-shadow: 0px 0px 0px 1px rgba(0,0,0,0);
-  padding-top: 20px;
-  padding-bottom: 60px;
+  /* padding-top: 20px; */
+  /* padding-bottom: 60px; */
   font-weight: 300;
   line-height: 1.4;
   background-color: white;
   display: inline-flex;
   margin: 10px;
   width: 543px;
-  height: 450px;
+  /* height: 450px; */
   margin-left: 80px;
 }
 
@@ -915,6 +915,7 @@
 
 .FooterLinks1 {
   margin-left: 80px;
+  padding-top: 200px;
 }
 
 
@@ -976,7 +977,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 800px;
+  /* padding-top: 800px; */
 }
 
 
@@ -1288,7 +1289,7 @@
 .product_listing {
   display: flex;
   padding: 5px;
-  height: 400px;
+  height: 325px;
   margin: 5px;
 }
 
@@ -1414,7 +1415,8 @@
   width: 60%;
   display: inline-block;
   float: left;
-  /* margin-top: 60px; */
+  /* margin-bottom: 100px; */
+
 }
 
 
@@ -1430,8 +1432,9 @@
 
 .individual_product_listing {
   padding: 10px;
-  width: 80%;
+  /* width: 80%; */
   float: left;
+  /* margin-bottom: 200px; */
   /* height: 1000px; */
 }
 
@@ -1464,6 +1467,7 @@
   margin: 20px;
   float: left;
   margin-right: 100px;
+
 }
 
 
@@ -1472,7 +1476,8 @@
 .individual-product-details2 {
   float: left;
   width: 50%;
-  margin-top: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   /* height: 850px; */
 }
 
@@ -1539,6 +1544,7 @@
   flex-direction: column;
   width: 40%;
   float: left;
+
 }
 
 
@@ -1582,7 +1588,7 @@
   width: 18%;
   vertical-align: top;
   display: inline-block;
-  margin-bottom: 100px;
+  margin-bottom: 600px;
 }
 
 
@@ -1616,6 +1622,10 @@
 }
 
 
+
+.file_section {
+  width: 100%;
+}
 
 
 #add-to-cart input {
@@ -1652,7 +1662,7 @@
   width: 20%;
   display: inline-block;
   border-radius: 2px;
-  padding-bottom: 82px;
+  padding-bottom: 200px;
   float: none;
 }
 
@@ -1661,14 +1671,14 @@
 
 #replacement_items_section {
   padding: 10px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   background-color: #2C3E50;
   color: white;
   width: 20%;
-  margin-right: -200px;
+  /* margin-right: -200px; */
   display: inline-block;
   border-radius: 2px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   float: none;
 }
 
@@ -1683,20 +1693,27 @@
 
 
 .replacement_parts_section {
-  margin-top: 900px;
+  /* margin-top: 900px; */
 }
 
 
 
 
 #replacement_parts_section {
-  margin-top: 1400px;
+  /* margin-top: 1400px; */
 }
 
 
 
 
 .replacement_parts_image {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+
+#replacement_parts_image {
   display: flex;
   justify-content: center;
   padding: 50px;
@@ -1711,9 +1728,26 @@
 }
 
 
+#replacement_parts_thumbnail {
+  display: flex;
+  flex-direction: row;
+}
+
+
 
 
 .replacement_parts_header {
+  padding: 20px;
+  box-shadow: 0px 0px 0px 2px;
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+
+#replacement_parts_header {
   padding: 20px;
   box-shadow: 0px 0px 0px 2px;
   background-color: #2C3E50;
@@ -1737,6 +1771,15 @@
 }
 
 
+#replacement_parts_detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 40px;
+  background-color: lightgray;
+  border-radius: 2px;
+}
 
 
 .replacement_parts_detail:hover {
@@ -1746,11 +1789,20 @@
 
 
 
+#replacement_parts_detail:hover {
+  background-color: green;
+  color: white;
+}
+
 
 .replacement-parts-quantity-input-group {
   padding: 8px;
 }
 
+
+#replacement-parts-quantity-input-group {
+  padding: 8px;
+}
 
 
 
@@ -1759,6 +1811,10 @@
 }
 
 
+
+#replacement-parts-add-to-cart {
+  padding: 8px;
+}
 
 
 .replacement-parts-add-to-cart input {
@@ -2502,7 +2558,7 @@ input {
 
 
 .edit-shipping-address {
-  
+
 }
 
 
@@ -2514,6 +2570,26 @@ input {
   margin: 60px;
   margin-bottom: 80px;
   align-content: center;
+}
+
+
+
+/* --- Orders --- */
+
+.orders-table {
+  /* margin: 80px; */
+  font-size: 20px;
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+
+.orders-table td {
+  padding-left: 10px;
+  padding-right: 10px;
+
 }
 
 

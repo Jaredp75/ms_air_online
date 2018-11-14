@@ -21,7 +21,7 @@ export default class Checkout1 extends React.Component {
       shipping: null,
 	  states: ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY']
     };
-	
+
   }
   handleChange(e) {
     let change = {}
@@ -54,9 +54,9 @@ export default class Checkout1 extends React.Component {
 					+"&zip="+this.state.zip
 					+"&phone1="+this.state.phone1
 					+"&phone2="+this.state.phone2
-					+"&phone3="+this.state.phone3;	
+					+"&phone3="+this.state.phone3;
     fetch(url, {
-			method: 'POST', 
+			method: 'POST',
 			credentials: 'include',
 			headers: {"Content-Type": "application/x-www-form-urlencoded"},
 			body: body
@@ -92,7 +92,7 @@ export default class Checkout1 extends React.Component {
 		this.setState({phone1: a.phone_parts[0]});
 		this.setState({phone2: a.phone_parts[1]});
 		this.setState({phone3: a.phone_parts[2]});
-		
+
 	  var shipping = (
 	  <fieldset>
 			<div className="form-row">
@@ -106,12 +106,8 @@ export default class Checkout1 extends React.Component {
                   <input type="text" name="last" onChange={this.handleChange.bind(this)} className="form-control" id="inputLastName" defaultValue={a.last} />
                 </div>
               </div>
-			  
-              <div className="form-group col-md-6">
-                <label className="inputAddress"><strong>* Address</strong></label>
-                <input type="text" name="company" onChange={this.handleChange.bind(this)} className="form-control" id="inputAddress" defaultValue={a.company} />
-              </div>
-			  
+
+
               <div className="form-group col-md-6">
                 <label className="inputAddress"><strong>* Address</strong></label>
                 <input type="text" name="address" onChange={this.handleChange.bind(this)} className="form-control" id="inputAddress" defaultValue={a.address} />
@@ -139,15 +135,23 @@ export default class Checkout1 extends React.Component {
                   <label className="inputZip"><strong>* Zip</strong></label>
                   <input type="text" name="zip" onChange={this.handleChange.bind(this)} className="form-control" id="inputZip" defaultValue={a.zip} />
               </div>
-			  
+
 			  <div className="form-row">
-                <div className="form-group col-md-6">
+                <div className="form-group col-md-4">
                   <label className="inputPhone"><strong>* Phone</strong></label>
-                  <input name="phone1" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone1" defaultValue={this.state.phone1}/>
-				  <input name="phone2" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone2" defaultValue={this.state.phone2}/>
-                  <input name="phone3" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone3" defaultValue={this.state.phone3}/>
+                    <input name="phone1" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone1" defaultValue={this.state.phone1}/>
+                </div>
+                <div className="form-group col-md-4">
+                  <label className="inputPhone2">Phone 2</label>
+				              <input name="phone2" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone2" defaultValue={this.state.phone2}/>
+                </div>
+                <div className="form-group col-md-4">
+                  <label className="inputPhone3"><strong>Phone 3</strong></label>
+                    <input name="phone3" type="text" onChange={this.handleChange.bind(this)} className="form-control" id="inputPhone3" defaultValue={this.state.phone3}/>
                 </div>
               </div>
+
+
             </div>
 
 

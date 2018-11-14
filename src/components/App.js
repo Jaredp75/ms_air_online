@@ -214,21 +214,14 @@ class App extends Component {
             <Route path="/contact_us" component={ContactUs}/>
             <Route path="/viewcart" component={ViewCart}/>
             <Route path="/category" component={Category}/>
-<<<<<<< HEAD
 			      <Route path="/search" component={Search}/>
 			      <Route path="/account" component={Account}/>
 			      <Route path="/forgot" component={Forgot}/>
 			      <Route path="/reset" component={Reset}/>
 			      <Route path="/orders" component={Orders}/>
 			      <Route path="/vieworder" component={ViewOrder}/>
-=======
-			<Route path="/search" component={Search}/>
-			<Route path="/account" component={Account}/>
-			<Route path="/forgot" component={Forgot}/>
-			<Route path="/reset" component={Reset}/>
-			<Route path="/orders" component={Orders}/>
-			<Route path="/vieworder" component={ViewOrder}/>
->>>>>>> 297e89a957f60dfa9c7bae00371708df739db7ae
+			      <Route path="/search" component={Search}/>
+			      <Route path="/account" component={Account}/>
           </Switch>
         </Baselayout>
       </BrowserRouter>

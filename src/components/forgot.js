@@ -63,7 +63,7 @@ captcha(){
   	var url = Utilities.getApiURL('captcha.php', '?do=check');
 	var body = "code="+this.state.code
     fetch(url, {
-			method: 'POST', 
+			method: 'POST',
 			credentials: 'include',
 			headers: {"Content-Type": "application/x-www-form-urlencoded"},
 			body: body
@@ -77,9 +77,9 @@ captcha(){
   setCaptcha(data) {
 	let captcha = data.captcha.map((c) => {
 		var rand = Math.random();
-		return (<img src={c.image}/>)
+		return (<img src={c.image} alt={c.name}/>)
 	});
-	this.setState({captcha: captcha});	
+	this.setState({captcha: captcha});
   }
   captchaResult(data){
 	  if(data.captcha.status === true)
@@ -88,7 +88,7 @@ captcha(){
 		  alert("Error: Verification code did not match.  Please check the code and try again.")
 		  this.setCaptcha(data);
 	  }
-	  
+
   }
   render(){
 
