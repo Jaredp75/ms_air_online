@@ -32,14 +32,16 @@ export default class Orders extends React.Component {
 		return(
       <div className="orders-table">
       <table>
-        <tr>
-          <td><a href={url+order.order_id}>{order.order_id}</a></td> |
-          <td>{order.order_date}</td> |
-          <td>{order.status}</td> |
-          <td>${order.order_due}</td>
-			   </tr>
-        </table>
-      </div>
+        <tbody>
+          <tr>
+            <td><a href={url+order.order_id}>{order.order_id}</a></td> |
+            <td>{order.order_date}</td> |
+            <td>{order.status}</td> |
+            <td>${order.order_due}</td>
+			    </tr>
+        </tbody>
+      </table>
+    </div>
 		)
 	  	})
 			this.setState({orders: orders});
@@ -55,7 +57,7 @@ export default class Orders extends React.Component {
           </div>
         <div className="orders-table">
 		      <table>
-            {this.state.orders}
+                {this.state.orders}
 		      </table>
           </div>
         </div>

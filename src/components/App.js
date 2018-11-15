@@ -25,6 +25,7 @@ import Forgot from '../components/forgot';
 import Reset from '../components/reset';
 import Orders from '../components/orders';
 import ViewOrder from '../components/vieworder';
+import Spinner from '../components/spinner';
 import * as Utilities from './utilities.js';
 
 
@@ -222,6 +223,7 @@ class App extends Component {
 			      <Route path="/vieworder" component={ViewOrder}/>
 			      <Route path="/search" component={Search}/>
 			      <Route path="/account" component={Account}/>
+            <Route path="/spinner" component={Spinner}/>
           </Switch>
         </Baselayout>
       </BrowserRouter>

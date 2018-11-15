@@ -2593,6 +2593,12 @@ input {
 }
 
 
+.orders-table th {
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
 
 
 /* --- View Cart --- */
@@ -2717,4 +2723,225 @@ input {
   padding-top: 20px;
 
 
+}
+
+
+
+
+/* --- Spinner --- */
+
+.loader {
+  /* position: relative; */
+  margin: 0 auto;
+  width: 200px;
+  /* margin-left: 10%; */
+}
+
+
+.loader h2 {
+  text-align: center;
+}
+
+
+.loader:before {
+  content: "";
+  display: block;
+  /* padding: 100%; */
+}
+
+.circular {
+  -webkit-animation: rotate 2s linear infinite;
+          animation: rotate 2s linear infinite;
+  height: 100%;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  width: 100%;
+  /* position: absolute; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.path {
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+          animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+  stroke-linecap: round;
+}
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}
+@-webkit-keyframes color {
+  100%,
+  0% {
+    stroke: #d62d20;
+  }
+  40% {
+    stroke: #0057e7;
+  }
+  66% {
+    stroke: #008744;
+  }
+  80%,
+  90% {
+    stroke: #ffa700;
+  }
+}
+@keyframes color {
+  100%,
+  0% {
+    stroke: #d62d20;
+  }
+  40% {
+    stroke: #0057e7;
+  }
+  66% {
+    stroke: #008744;
+  }
+  80%,
+  90% {
+    stroke: #ffa700;
+  }
+}
+
+
+.showbox {
+  /* position: absolute; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+
+
+
+/* --- Add To Cart Button Interaction | Spinning animation to show an item is being added to the shopping cart --- */
+
+.button-add-cart {
+  position: relative;
+  overflow: hidden;
+}
+
+.button-add-cart.is-adding {
+  border-radius: 25px;
+  max-width: 50px;
+  max-height: 50px;
+  cursor: default;
+}
+
+.button-add-cart.is-adding::after {
+  -webkit-animation: fadeIn 0.3s ease-in, spin 1.3s infinite ease-in-out;
+          animation: fadeIn 0.3s ease-in, spin 1.3s infinite ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.button-add-cart.is-adding span {
+  opacity: 0;
+}
+
+.button-add-cart::after {
+  content: " ";
+  border-top: solid 4px #17cae6;
+  border-right: solid 4px #17cae6;
+  border-bottom: solid 4px #17cae6;
+  border-left: solid 4px transparent;
+  border-radius: 50px;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  bottom: 7px;
+  left: 7px;
+  margin: auto;
+  max-width: 30px;
+  max-height: 30px;
+  opacity: 0;
+  z-index: 1;
+}
+
+@-webkit-keyframes spin {
+  0%, 5% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  95%, 100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0%, 5% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  95%, 100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
