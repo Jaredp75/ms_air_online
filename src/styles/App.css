@@ -109,6 +109,7 @@
 
 
 /*------BODY STYLES------*/
+
 .App {
   font-family: 'Lato', 'Raleway', 'quantumregular', 'quantifybold', 'quranyitalic', 'quranylight_italic', 'quranylight', 'quranybold', 'big_johnregular', 'slim_joeregular', 'qontraregular', 'borgregular', 'wombyregular', sans-serif;
   margin: 0;
@@ -160,7 +161,6 @@
   margin: 10px;
   width: 543px;
   height: 450px;
-
 }
 
 
@@ -460,6 +460,12 @@
      -webkit-transition-duration: 0.5s;
      -moz-transition-duration: 0.5s;
      -o-transition-duration: 0.5s;
+ }
+
+
+
+ .home-header {
+   margin-bottom: 40px;
  }
 
 
@@ -933,6 +939,13 @@
 
 
 
+.top-brands a:hover {
+
+}
+
+
+
+
 .brand-logo {
   margin:5px 5px 5px 5px;
   vertical-align: middle;
@@ -1103,6 +1116,8 @@
   clear: both;
   color: green;
 }
+
+
 
 
 .register-submit-button {
@@ -1416,6 +1431,12 @@
   display: inline-block;
   float: left;
   /* margin-bottom: 100px; */
+}
+
+
+
+
+#individual_product_page {
 
 }
 
@@ -1430,11 +1451,12 @@
 
 
 
+
 .individual_product_listing {
   padding: 10px;
   /* width: 80%; */
   float: left;
-  /* margin-bottom: 200px; */
+  /* padding-bottom: 200px; */
   /* height: 1000px; */
 }
 
@@ -1445,6 +1467,7 @@
   padding: 10px;
   margin-right: 60px;
 }
+
 
 
 
@@ -1467,7 +1490,6 @@
   margin: 20px;
   float: left;
   margin-right: 100px;
-
 }
 
 
@@ -1517,6 +1539,7 @@
 
 
 
+
 .individual-product-title2 {
 
 }
@@ -1526,6 +1549,20 @@
 
 .individual-product-description {
   color: #2C3E50;
+}
+
+
+
+
+.individual-product-description a {
+  font-size: 18px;
+}
+
+
+
+
+.individual-product-description a:hover {
+  text-decoration: none;
 }
 
 
@@ -1544,7 +1581,6 @@
   flex-direction: column;
   width: 40%;
   float: left;
-
 }
 
 
@@ -1552,7 +1588,6 @@
 
 .individual-product-savings {
   color: green;
-
 }
 
 
@@ -1625,7 +1660,10 @@
 
 .file_section {
   width: 100%;
+  float: left;
 }
+
+
 
 
 #add-to-cart input {
@@ -1664,6 +1702,7 @@
   border-radius: 2px;
   padding-bottom: 200px;
   float: none;
+  margin-bottom: 100px;
 }
 
 
@@ -1680,6 +1719,7 @@
   border-radius: 2px;
   padding-bottom: 200px;
   float: none;
+  margin-bottom: 150px;
 }
 
 
@@ -1713,6 +1753,8 @@
 }
 
 
+
+
 #replacement_parts_image {
   display: flex;
   justify-content: center;
@@ -1726,6 +1768,8 @@
   display: flex;
   flex-direction: row;
 }
+
+
 
 
 #replacement_parts_thumbnail {
@@ -1743,8 +1787,9 @@
   color: white;
   text-align: center;
   margin-bottom: 20px;
-
 }
+
+
 
 
 #replacement_parts_header {
@@ -1754,7 +1799,6 @@
   color: white;
   text-align: center;
   margin-bottom: 20px;
-
 }
 
 
@@ -1771,6 +1815,8 @@
 }
 
 
+
+
 #replacement_parts_detail {
   display: flex;
   flex-direction: row;
@@ -1782,10 +1828,13 @@
 }
 
 
+
+
 .replacement_parts_detail:hover {
   background-color: green;
   color: white;
 }
+
 
 
 
@@ -1795,14 +1844,43 @@
 }
 
 
+
+
+.replacement_parts_detail a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+#replacement_parts_detail a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+.replacement_item_title a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
 .replacement-parts-quantity-input-group {
   padding: 8px;
 }
 
 
+
+
 #replacement-parts-quantity-input-group {
   padding: 8px;
 }
+
 
 
 
@@ -1812,9 +1890,12 @@
 
 
 
+
 #replacement-parts-add-to-cart {
   padding: 8px;
 }
+
+
 
 
 .replacement-parts-add-to-cart input {
@@ -1897,17 +1978,22 @@
 }
 
 
+
+
 .login-header-text {
   text-align: center;
   margin-left: 40px;
 }
 
 
+
+
 .login-form-row {
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
+
+
 
 
 .returning-login {
@@ -1918,6 +2004,13 @@
 
 .login-submit-button {
   justify-content: center;
+}
+
+
+
+
+.forgot-password-link {
+  margin-top: 20px;
 }
 
 
@@ -2290,7 +2383,6 @@ img.thumbnail {
     float: left;
     width: 50%;
     padding: 10px;
-
 }
 
 
@@ -2326,6 +2418,8 @@ img.thumbnail {
 }
 
 
+
+
 .checkout-header {
   font-size: 20px;
   text-align: center;
@@ -2338,9 +2432,12 @@ img.thumbnail {
 }
 
 
+
+
 .shipping-address {
   justify-content: center;
 }
+
 
 
 
@@ -2586,11 +2683,14 @@ input {
 }
 
 
+
+
 .orders-table td {
   padding-left: 10px;
   padding-right: 10px;
-
 }
+
+
 
 
 .orders-table th {
@@ -2598,6 +2698,7 @@ input {
   padding-right: 10px;
 
 }
+
 
 
 
@@ -2627,6 +2728,7 @@ input {
 
 
 
+
 .subtotal-section {
   margin: 60px;
   margin-bottom: 80px;
@@ -2645,6 +2747,8 @@ input {
 }
 
 
+
+
 #category-image {
 }
 
@@ -2659,10 +2763,12 @@ input {
 
 
 
+
 .reset-form-row {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 
 
 
@@ -2718,11 +2824,12 @@ input {
   /* text-align: center; */
 }
 
+
+
+
 .OptInForm h4 {
   text-align: center;
   padding-top: 20px;
-
-
 }
 
 
@@ -2738,9 +2845,13 @@ input {
 }
 
 
+
+
 .loader h2 {
   text-align: center;
 }
+
+
 
 
 .loader:before {
@@ -2748,6 +2859,9 @@ input {
   display: block;
   /* padding: 100%; */
 }
+
+
+
 
 .circular {
   -webkit-animation: rotate 2s linear infinite;
@@ -2764,6 +2878,9 @@ input {
   margin: auto;
 }
 
+
+
+
 .path {
   stroke-dasharray: 1, 200;
   stroke-dashoffset: 0;
@@ -2771,6 +2888,9 @@ input {
           animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
   stroke-linecap: round;
 }
+
+
+
 
 @-webkit-keyframes rotate {
   100% {
@@ -2847,6 +2967,8 @@ input {
 }
 
 
+
+
 .showbox {
   /* position: absolute; */
   top: 0;
@@ -2861,6 +2983,12 @@ input {
 
 
 
+.showbox h2 {
+  text-align: center;
+}
+
+
+
 
 /* --- Add To Cart Button Interaction | Spinning animation to show an item is being added to the shopping cart --- */
 
@@ -2869,12 +2997,18 @@ input {
   overflow: hidden;
 }
 
+
+
+
 .button-add-cart.is-adding {
   border-radius: 25px;
   max-width: 50px;
   max-height: 50px;
   cursor: default;
 }
+
+
+
 
 .button-add-cart.is-adding::after {
   -webkit-animation: fadeIn 0.3s ease-in, spin 1.3s infinite ease-in-out;
@@ -2883,9 +3017,15 @@ input {
           animation-fill-mode: forwards;
 }
 
+
+
+
 .button-add-cart.is-adding span {
   opacity: 0;
 }
+
+
+
 
 .button-add-cart::after {
   content: " ";

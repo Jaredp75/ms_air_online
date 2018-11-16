@@ -37,7 +37,9 @@ class Product extends Component {
 		if(pic.attributes) {
 			prodAttributes = pic.attributes.map((attribute) => {
             return (
+              <div key="attribute-details">
                 <li><strong>{attribute.field}</strong>: {attribute.value}</li>
+              </div>
             )
         });}
 
@@ -108,7 +110,7 @@ class Product extends Component {
 			var accessoriesSection = null;
 			relatedItems = pic.accessories.map((accessory) => {
             return (
-				<div className="replacement_item_listing">
+				<div key="item-page" className="replacement_item_listing">
 						<div className="replacement_item_entry">
 							<div className="replacement_item_image">
 								<img src={accessory.icon} alt={accessory.name}></img>
@@ -148,7 +150,7 @@ class Product extends Component {
 		if(pic.file){
 			productFiles = pic.file.map((rp) => {
             return (
-				<div className="individual-product">
+				<div key="indiv-item" className="individual-product">
 					<div className="individual-product-details"><a href={rp.file}>{rp.file_name} <img src="http://www.msaironline.com/images/pdf.jpg" alt="pdf-placeholder"></img></a></div>
 				</div>
             )});

@@ -42,7 +42,7 @@ class HelpAndCurrency extends Component {
       <div className="HelpAndCurrency">
         <div className="float-left">
           <i className="far fa-question-circle"></i>
-            <p>Need help?  Visit the <a href="/"><strong>Help Center</strong></a>
+            <p>Need help?  Visit the <a href="/contact_us"><strong>Help Center</strong></a>
           </p>
           </div>
         {aboutLinks}
