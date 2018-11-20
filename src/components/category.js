@@ -36,13 +36,18 @@ class Category extends Component {
 		if(pic.subcats) {
 			subCats = pic.subcats.map((cat) => {
             return (
+
               <div className="subcat_section1">
+
 				<a href={catUrl+cat.taxID} alt={cat.taxName}><img src={cat.icon} alt={cat.taxName}/></a>
 				<h2><a href={catUrl+cat.taxID}>{cat.taxName}</a></h2>
               </div>
+
             )});
 			subCatSection = (
+
 				<div className="subcategories">
+
 				{subCats}
 				</div>
 
@@ -65,17 +70,24 @@ class Category extends Component {
 				<div><a href={catUrl+id+'&key='+key+filter.title+'&value='+value+item}>{item}</a></div>
 			)});
             return (
+
               <div className="subcat_section1">
+
 				{filter.title}
 				<div>
 				{prodFilterOptions}
 				</div>
-              </div>
+        </div>
+
+
             )});
 			subCatSection = (
+
 				<div className="subcategories">
+
 				{prodFilters}
 				</div>
+
 
 			)
 		}
@@ -156,7 +168,7 @@ class Category extends Component {
 					<h1><img src={pic.icon} alt={pic.taxName}/></h1>
 					<h3 dangerouslySetInnerHTML={{__html: pic.long_desc}} />
 				</div>
-        <h2>Advanced Find</h2>
+
 				{subCatSection}
 				{productsSection}
 				{prodFiltersSection}

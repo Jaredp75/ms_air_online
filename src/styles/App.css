@@ -2346,6 +2346,7 @@ img.thumbnail {
   margin-right: auto;
   position: relative;
   justify-content: center;
+  padding-top: 40px;
 }
 
 
