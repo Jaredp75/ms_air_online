@@ -24,6 +24,7 @@ class Top_Sellers extends Component {
     }).then(data => {
       let products = data.product.map((pic) => {
         console.log(pic);
+		var savings = (pic.msrp - pic.prodPrice).toFixed(2);
         return(
 
 
@@ -42,15 +43,11 @@ class Top_Sellers extends Component {
                   <h4 className="product-title"><a href={productUrl+pic.prodID}>{pic.prodName}</a></h4>
                   <h6 className="product-brand-name">{pic.brandName}</h6>
                   <h6 className="product-suggested-retail-price">${pic.msrp}</h6>
-                  <h6 className="product-savings">Savings: <strong>${pic.msrp - pic.prodPrice}</strong></h6>
+                  <h6 className="product-savings">Savings: <strong>${savings}</strong></h6>
                   <h6 className="product-actual-price"><strong>${pic.prodPrice}</strong></h6>
                 </div>
               </div>
             </div>
-
-
-          {/* </div> */}
-
         </div>
       )
     })
