@@ -156,6 +156,7 @@ class Category extends Component {
 					<h1><img src={pic.icon} alt={pic.taxName}/></h1>
 					<h3 dangerouslySetInnerHTML={{__html: pic.long_desc}} />
 				</div>
+        <h2>Advanced Find</h2>
 				{subCatSection}
 				{productsSection}
 				{prodFiltersSection}

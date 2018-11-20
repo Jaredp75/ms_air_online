@@ -110,6 +110,44 @@
 
 /*------BODY STYLES------*/
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .app, .top-brands {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .app, .top-brands {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .app, .top-brands {
+    background-color: #B2D6FF; /* Blue */
+  }
+}
+
+
+
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+
+
+
 .App {
   font-family: 'Lato', 'Raleway', 'quantumregular', 'quantifybold', 'quranyitalic', 'quranylight_italic', 'quranylight', 'quranybold', 'big_johnregular', 'slim_joeregular', 'qontraregular', 'borgregular', 'wombyregular', sans-serif;
   margin: 0;
@@ -984,6 +1022,14 @@
 
 
 
+.brand-text a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+
 /*---HELP CENTER STYLES BEGIN---*/
 
 .HelpAndCurrency {
@@ -994,6 +1040,14 @@
 }
 
 
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .HelpAndCurrency {
+    width:100%;
+  }
+}
 
 
 .float-left {
@@ -1410,6 +1464,14 @@
 
 
 
+.product-details a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+
 .product-savings {
   color: green;
 }
@@ -1437,7 +1499,7 @@
 
 
 #individual_product_page {
-
+  padding: 20px;
 }
 
 
@@ -1446,7 +1508,21 @@
 #individual_product_page h3 {
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
+  font-size: 28px;
+  background-color: lightgray;
+  color: #2C3E50;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+
+
+
+#individual_product_page a:hover {
+  font-weight: bold;
+  text-decoration: none;
 }
 
 
@@ -1540,8 +1616,9 @@
 
 
 
-.individual-product-title2 {
-
+.individual-product-title a:hover {
+  font-weight: bold;
+  text-decoration: none;
 }
 
 
@@ -2317,6 +2394,7 @@ img.thumbnail {
   padding: 20px;
   margin: 10px;
   width: 30%;
+  font-size: 20px;
 }
 
 
@@ -2329,6 +2407,13 @@ img.thumbnail {
 
 
 
+.subcat_section1 a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
 .subcat_section2 {
   background-color: lightgray;
   padding: 40px;
@@ -2336,8 +2421,16 @@ img.thumbnail {
   margin-top: 140px;
   margin-bottom: 60px;
   width: 30%;
+  font-size: 20px;
 }
 
+
+
+
+.subcat_section2 a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
 
 
 
@@ -2355,6 +2448,7 @@ img.thumbnail {
   margin-top: 140px;
   margin-bottom: 60px;
   width: 30%;
+  font-size: 20px;
 }
 
 
@@ -2367,6 +2461,14 @@ img.thumbnail {
 
 
 
+.subcat_section3 a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+
 .subcat_section4 {
   background-color: lightgray;
   padding: 40px;
@@ -2374,8 +2476,16 @@ img.thumbnail {
   margin-top: 140px;
   margin-bottom: 60px;
   width: 30%;
+  font-size: 20px;
 }
 
+
+
+
+.subcat_section4 a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
 
 
 
