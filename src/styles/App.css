@@ -1471,10 +1471,10 @@
   display: flex;
   justify-content: center;
   padding: 20px;
-  font-size: 28px;
-  background-color: lightgray;
-  color: #2C3E50;
-  width: 75%;
+  font-size: 30px;
+  background-color: transparent;
+  /* color: #2C3E50; */
+  width: 100%;
   margin: 0 auto;
   border-radius: 3px;
 }
@@ -2358,6 +2358,7 @@ img.thumbnail {
   margin: 10px;
   width: 30%;
   font-size: 20px;
+  border-radius: 5px;
 }
 
 

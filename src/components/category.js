@@ -36,7 +36,7 @@ class Category extends Component {
 		if(pic.subcats) {
 			subCats = pic.subcats.map((cat) => {
             return (
-
+              
               <div className="subcat_section1">
 
 				<a href={catUrl+cat.taxID} alt={cat.taxName}><img src={cat.icon} alt={cat.taxName}/></a>
@@ -164,6 +164,7 @@ class Category extends Component {
         return(
               <div className="replacement_parts_header">
 			    <div><h1>{pic.taxName}</h1></div>
+
 				<div id="individual_product_page">
 					<h1><img src={pic.icon} alt={pic.taxName}/></h1>
 					<h3 dangerouslySetInnerHTML={{__html: pic.long_desc}} />
