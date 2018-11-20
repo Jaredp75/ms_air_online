@@ -13,20 +13,6 @@ export function getApiURL(app, query) {
 	var base = 'https://www.msaironline.com/qa1/api/';
 	return base+app+query;
 }
-
-export function putInCart(prodID, qty, e){
-	if(qty == null) {
-		qty=1
-	}
-	var url = getApiURL('cart.php', '?id='+prodID+'&qty='+qty);
-	fetch(url, {  
-		method: 'PUT',
-		credentials: 'include'
-	}).then(results => {
-      return results.json();
-    }).then((data) => {
-    })
-}
 export const restRequest = (url, method, content, body) => (
   fetch(url, {
     method: method,
