@@ -11,6 +11,7 @@ class Product extends Component {
     super(props);
     this.state = {
       products: [],
+	  addedToCart: null,
 	  qty: null
     };
 	this.handleInputChange = this.handleInputChange.bind(this);
@@ -24,6 +25,29 @@ class Product extends Component {
       [name]: value
     });
   }
+ putInCart(prodID, qty, e){
+	if(qty == null) {
+		qty=1
+	}
+	var url = Utilities.getApiURL('cart.php', '?id='+prodID+'&qty='+qty);
+	fetch(url, {
+		method: 'PUT',
+		credentials: 'include'
+	}).then(results => {
+      return results.json();
+    }).then((data) => {
+		var cartSuccess  = false;
+		data.product.map((prod) => {
+			if(prod.prodID === Utilities.getUrlParam('id')) {
+				cartSuccess = true;
+			}
+		})
+		var addedToCart = "There was an issue adding this item to your card.  Please try again."
+		if(cartSuccess === true)
+			var addedToCart = "This item was added to your cart.";
+		this.setState({addedToCart: addedToCart});
+    })
+}
   componentDidMount() {
 	var productUrl = "product?id=";
 	var url = Utilities.getApiURL('product.php', '?id='+Utilities.getUrlParam('id'));
@@ -163,7 +187,7 @@ class Product extends Component {
         return(
 
           <div key={pic.results}>
-            <div className="content-area-container">
+
               <div className="content-area-container2">
                 <div id="individual_product_page">
                   <div className="individual-product">
@@ -191,7 +215,7 @@ class Product extends Component {
                       <div className="individual-product-description">
                         <ul>
 						  {prodAttributes}
-                          <li>{pic.prodDesc}</li>
+                          <li dangerouslySetInnerHTML={{__html: pic.prodDesc}} />
                           <br />
                           <li dangerouslySetInnerHTML={{__html: pic.prodLongDesc}} />
                           <br />
@@ -209,7 +233,7 @@ class Product extends Component {
             Qty:
             <input name='qty' type="text" className="quantityBox" value={this.state.qty} defaultValue="1" size="2" maxLength="4" onChange={this.handleInputChange} />
 			<div id="add-to-cart">
-				<button className="btn btn-primary" onClick={(e) => Utilities.putInCart(pic.prodID, this.state.qty, e)}><h4>Add To Cart</h4></button>
+				<button className="btn btn-primary" onClick={(e) => this.putInCart(pic.prodID, this.state.qty, e)}><h4>Add To Cart</h4></button>
 			</div>
 		  </div>
 
@@ -233,27 +257,7 @@ class Product extends Component {
 	<div style={{clear:'both'}} />
 
       </div>
-        <div className="FooterLinks1">
-          <HelpAndCurrency />
-        </div>
 
-        <div className="FooterLinks2">
-          <AboutLinks />
-        </div>
-
-
-
-      </div>
-      <div className="about-footer">
-        <div className="terms">
-          <p><a href="/terms" target="_blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
-        </div>
-
-        <div className="copyright">
-          <p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
-        </div>
-
-      </div>
 
 
 
@@ -279,7 +283,27 @@ class Product extends Component {
 
       <div className="container2">
         <div className="container1">
-          {this.state.products}
+		   <div className="content-area-container">
+		    <div className="cartNotification">{this.state.addedToCart}</div>
+            {this.state.products}
+				<div className="FooterLinks1">
+					<HelpAndCurrency />
+				</div>
+
+				<div className="FooterLinks2">
+					<AboutLinks />
+				</div>
+			</div>
+		    <div className="about-footer">
+				<div className="terms">
+					<p><a href="/terms" target="_blank" rel="noopener noreferrer">Terms of Use</a> | <a href="/privacy" target='_blank' rel="noopener noreferrer">Privacy Policy</a></p>
+				</div>
+
+			<div className="copyright">
+				<p>&copy; 2018 - MS Air, Inc. | <Link to="/">Home</Link></p>
+			</div>
+
+      </div>
         </div>
       </div>
     )
