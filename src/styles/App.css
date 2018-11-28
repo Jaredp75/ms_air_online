@@ -790,6 +790,12 @@
 }
 
 
+.about-footer a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
 
 
 .terms {
@@ -990,6 +996,19 @@
 }
 
 
+.website-tagline {
+  text-align: center;
+  color: #2C3E50;
+  /* text-decoration: none; */
+}
+
+
+.website-tagline a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
 
 
 /*---HELP CENTER STYLES BEGIN---*/
@@ -1002,14 +1021,20 @@
 }
 
 
-
-
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-  .HelpAndCurrency {
-    width:100%;
-  }
+.HelpAndCurrency a:hover {
+  text-decoration: none;
+  font-weight: bold;
 }
+
+
+
+
+/* @media only screen and (max-width:620px) { */
+  /* For mobile phones: */
+  /* .HelpAndCurrency { */
+    /* width:100%; */
+  /* } */
+/* } */
 
 
 .float-left {
@@ -1344,6 +1369,13 @@
 
 .home-header h4 {
   text-align: center;
+}
+
+
+
+.home-header a:hover {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 

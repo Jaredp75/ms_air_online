@@ -257,11 +257,7 @@ class Product extends Component {
 	<div style={{clear:'both'}} />
 
       </div>
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 831c8d5b84f4dbbc3d602cbe11b8cbbc5f50d1f8
 
 
 

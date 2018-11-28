@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import AboutLinks from "../footer-links/about-links.js";
 import HelpAndCurrency from "../help-and-currency.js";
 
-const snapSize = 650;
+// const snapSize = 650;
 
 class FooterLinks extends Component {
   constructor(props){
@@ -30,10 +30,10 @@ class FooterLinks extends Component {
   render() {
     let media = this.state.media;
 
-    let aboutLinks = null;
-    if (media > snapSize){
-      aboutLinks = <AboutLinks />;
-    }
+    // let aboutLinks = null;
+    // if (media > snapSize){
+    //   aboutLinks = <AboutLinks />;
+    // }
 
     return (
       <div className="FooterLinks">
