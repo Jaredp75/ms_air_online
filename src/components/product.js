@@ -244,13 +244,18 @@ class Product extends Component {
 				<button className="btn btn-primary" onClick={(e) => this.putInCart(pic.prodID, this.state.qty, e)}><h4>Add To Cart</h4></button>
 			</div>
 		  </div>
+		  
+		  
+		  {/* ---Related Items Section--- */}
+	{relatedItemsSection}
+	
+	
 		  <div style={{clear:'both'}} />
 
 
 {/* ---files Section--- */}
 	{productFilesSection}
-{/* ---Related Items Section--- */}
-	{relatedItemsSection}
+
 
 {/* ---Replacement Parts Section--- */}
 	{replacementPartsSection}
