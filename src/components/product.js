@@ -247,22 +247,18 @@ class Product extends Component {
 		  
 		  
 		  {/* ---Related Items Section--- */}
-	{relatedItemsSection}
+			{relatedItemsSection}
 	
+		  {/* ---Accessories Section--- */}
+			{accessoriesSection}
 	
 		  <div style={{clear:'both'}} />
 
 
 {/* ---files Section--- */}
 	{productFilesSection}
-
-
 {/* ---Replacement Parts Section--- */}
 	{replacementPartsSection}
-
-{/* ---Accessories Section--- */}
-	{accessoriesSection}
-
 {/* ---compatiblePartsSection Section--- */}
 	{compatiblePartsSection}
 
