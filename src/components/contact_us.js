@@ -36,7 +36,7 @@ export default class ContactUs extends React.Component {
             <h4 className="address3">Mt. Sinai, NY 11766</h4>
           </div>
         </div>
-
+		{/*
         <div className="email-container">
           <div className="email-form-header">
             <h1 className="email-header">Contact Us</h1>
@@ -92,7 +92,7 @@ export default class ContactUs extends React.Component {
             </form>
           </div>
         </div>
-
+		*/}
 
         <div className="FooterLinks1">
           <HelpAndCurrency />

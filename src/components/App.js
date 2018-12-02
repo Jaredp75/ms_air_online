@@ -178,7 +178,7 @@ class App extends Component {
 
             <div className="search-container">
               <form action="/search">
-                <input type="text" placeholder="Search.." name="phrase"></input>
+                <input className='searchText' type="text" placeholder="Search.." name="phrase"></input>
                 <button type="submit" ><i className="fa fa-search"></i></button>
               </form>
             </div>

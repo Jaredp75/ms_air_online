@@ -114,12 +114,6 @@ class Home extends Component {
             </div>
           </div>
 
-          <div className="website-tagline">
-            <p>Design by <a href="https://www.jared-patterson.com/">JARED PATTERSON | Design</a></p>
-          </div>
-
-
-
 
         </div>
 

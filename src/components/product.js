@@ -97,11 +97,20 @@ class Product extends Component {
 		}
 		var replacementParts = null;
 		var replacementPartsSection = null;
+		var replacement_part_image = null;
+		if(pic.replacement_part_image)
+			replacement_part_image = (					
+					<div className="replacement_parts_image">
+						<img src={pic.replacement_part_image}></img>
+					</div>)
 		if(pic.replacement_parts){
 			replacementParts = pic.replacement_parts.map((rp) => {
+			var image_num = null;
+			if(rp.image_num > 0)
+				image_num = (<h4 className="replacement_parts_price">{rp.image_num}</h4>)
             return (
 				<span className="replacement_parts_detail">
-					<h4 className="replacement_parts_price">{rp.image_num}</h4>
+				{image_num}
 					<div className="replacement_parts_thumbnail">
 						<img src={rp.icon} alt={rp.name}></img>
 					</div>
@@ -121,11 +130,10 @@ class Product extends Component {
 				</span>
             )});
 			replacementPartsSection = (
+				
 				<div className="replacement_parts_section">
 					<h1 className="replacement_parts_header">Replacement Parts</h1>
-					<div className="replacement_parts_image">
-						<img src="https://www.msaironline.com/images/assembly/QuickConnect_DISS_Replacement_Parts.jpg" alt="QuickConnect_DISS_Replacement_Parts"></img>
-					</div>
+					{replacement_part_image}
 					{replacementParts}
 				</div>)
 		}
@@ -236,6 +244,7 @@ class Product extends Component {
 				<button className="btn btn-primary" onClick={(e) => this.putInCart(pic.prodID, this.state.qty, e)}><h4>Add To Cart</h4></button>
 			</div>
 		  </div>
+		  <div style={{clear:'both'}} />
 
 
 {/* ---files Section--- */}

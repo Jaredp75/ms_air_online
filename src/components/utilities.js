@@ -10,7 +10,7 @@ export function getUrlParam(param) {
 }
 
 export function getApiURL(app, query) {
-	var base = 'https://www.msaironline.com/qa1/api/';
+	var base = 'https://www.msaironline.com/api/';
 	return base+app+query;
 }
 
